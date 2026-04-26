@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer circle stroke -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M54,54m-44,0a44,44 0,1 1,88 0a44,44 0,1 1,-88 0"/>
+    
+    <!-- Column base -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M38,72 L38,74 L70,74 L70,72"/>
+    
+    <!-- Column shaft - left flute (outer) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M41,72 L41,52 Q41,49 44,49 L44,49"/>
+    
+    <!-- Column shaft - right flute (outer) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M67,72 L67,52 Q67,49 64,49 L64,49"/>
+    
+    <!-- Column shaft - middle flutes -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M47,72 L47,49"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M54,72 L54,49"/>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M61,72 L61,49"/>
+    
+    <!-- Column capital base line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M36,49 L72,49"/>
+    
+    <!-- Column capital curved bottom (echinus) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M36,49 Q39,44 42,46 Q45,48 48,46 Q51,44 54,46 Q57,48 60,46 Q63,44 66,46 Q69,48 72,49"/>
+    
+    <!-- Left volute (scroll) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M36,46 Q28,46 28,39 Q28,33 36,33 Q41,33 41,38 Q41,43 36,43 Q33,43 33,39 Q33,36 36,36"/>
+    
+    <!-- Right volute (scroll) -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M72,46 Q80,46 80,39 Q80,33 72,33 Q67,33 67,38 Q67,43 72,43 Q75,43 75,39 Q75,36 72,36"/>
+    
+    <!-- Column top abacus -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000"
+        android:pathData="M34,33 L74,33 L74,30 L34,30 Z"/>
+    
+</vector>
