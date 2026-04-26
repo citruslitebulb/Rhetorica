@@ -1,0 +1,82 @@
+[
+  {
+    "id": 11,
+    "word": "Injustice",
+    "definition": "Lack of fairness or justice",
+    "example": "Injustice anywhere is a threat to justice everywhere.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 12,
+    "word": "Brotherhood",
+    "definition": "The relationship between brothers; fellowship",
+    "example": "We must learn to live together as brothers or perish together as fools.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 13,
+    "word": "Nonviolence",
+    "definition": "The use of peaceful means, not force, to bring about political or social change",
+    "example": "Nonviolence is a powerful and just weapon.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 14,
+    "word": "Redemption",
+    "definition": "The action of saving or being saved from sin, error, or evil",
+    "example": "The arc of the moral universe is long, but it bends toward redemption.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 15,
+    "word": "Oppression",
+    "definition": "Prolonged cruel or unjust treatment or control",
+    "example": "Freedom is never voluntarily given by the oppressor; it must be demanded by the oppressed.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 16,
+    "word": "Dignity",
+    "definition": "The state or quality of being worthy of honor or respect",
+    "example": "All men are created equal and have the right to life, liberty, and the pursuit of dignity.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 17,
+    "word": "Conscience",
+    "definition": "An inner feeling or voice viewed as acting as a guide to the rightness or wrongness of one's behavior",
+    "example": "Cowardice asks the question: is it safe? Conscience asks: is it right?",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 18,
+    "word": "Perseverance",
+    "definition": "Persistence in doing something despite difficulty or delay in achieving success",
+    "example": "We must accept finite disappointment, but never lose infinite perseverance.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 19,
+    "word": "Unity",
+    "definition": "The state of being united or joined as a whole",
+    "example": "We must learn to live together as brothers or we will perish together as fools.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  },
+  {
+    "id": 20,
+    "word": "Justice",
+    "definition": "Just behavior or treatment; fairness",
+    "example": "The time is always right to do what is right for justice.",
+    "partOfSpeech": "noun",
+    "oratorId": 9
+  }
+]

@@ -6,6 +6,8 @@ import com.rhetorica.app.data.local.ProgressDao
 import com.rhetorica.app.data.local.SavedWordDao
 import com.rhetorica.app.data.local.RhetoricaDatabase
 import com.rhetorica.app.data.local.WordDao
+import com.rhetorica.app.data.local.DictionaryDao
+import com.rhetorica.app.data.local.UserPreferencesDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -30,4 +32,10 @@ object DatabaseModule {
 
     @Provides
     fun provideProgressDao(database: RhetoricaDatabase): ProgressDao = database.progressDao()
+
+    @Provides
+    fun provideDictionaryDao(database: RhetoricaDatabase): DictionaryDao = database.dictionaryDao()
+
+    @Provides
+    fun provideUserPreferencesDao(database: RhetoricaDatabase): UserPreferencesDao = database.userPreferencesDao()
 }

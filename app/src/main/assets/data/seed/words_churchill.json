@@ -1,0 +1,82 @@
+[
+  {
+    "id": 21,
+    "word": "Persevere",
+    "definition": "Continue in a course of action even in the face of difficulty",
+    "example": "If you're going through hell, keep going and persevere.",
+    "partOfSpeech": "verb",
+    "oratorId": 8
+  },
+  {
+    "id": 22,
+    "word": "Triumph",
+    "definition": "A great victory or achievement",
+    "example": "We shall fight on the beaches, we shall fight on the landing grounds, we shall never surrender in triumph.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 23,
+    "word": "Resolve",
+    "definition": "Firm determination to do something",
+    "example": "Never give in, never, never, never, in nothing great or small, large or petty, never give in except to convictions of honor and good sense.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 24,
+    "word": "Adversity",
+    "definition": "Difficulties; misfortune",
+    "example": "If you're going through hell, keep going through adversity.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 25,
+    "word": "Courage",
+    "definition": "The ability to do something that frightens one",
+    "example": "Courage is what it takes to stand up and speak; courage is also what it takes to sit down and listen.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 26,
+    "word": "Destiny",
+    "definition": "The events that will necessarily happen to a particular person or thing",
+    "example": "It is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning of our destiny.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 27,
+    "word": "Determination",
+    "definition": "The quality of being determined; firmness of purpose",
+    "example": "We shall fight on the beaches, we shall fight on the landing grounds, we shall never surrender with determination.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 28,
+    "word": "Resilience",
+    "definition": "The capacity to recover quickly from difficulties",
+    "example": "Success is not final, failure is not fatal: it is the courage to continue that counts as resilience.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 29,
+    "word": "Tenacity",
+    "definition": "The quality or fact of being very determined; determination",
+    "example": "Continuous effort - not strength or intelligence - is the key to unlocking your potential through tenacity.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  },
+  {
+    "id": 30,
+    "word": "Victory",
+    "definition": "An act of defeating an enemy or opponent in a battle, game, or other competition",
+    "example": "Victory at all costs, victory in spite of all terror, victory however long and hard the road may be.",
+    "partOfSpeech": "noun",
+    "oratorId": 8
+  }
+]

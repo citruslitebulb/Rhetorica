@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "word": "Eloquent",
+    "definition": "Fluent or persuasive in speaking or writing",
+    "example": "Her eloquent speech moved the entire audience to tears.",
+    "partOfSpeech": "adjective",
+    "oratorId": 18
+  },
+  {
+    "id": 2,
+    "word": "Bequeath",
+    "definition": "To leave or pass on to another",
+    "example": "He bequeathed his entire library to the university.",
+    "partOfSpeech": "verb",
+    "oratorId": 18
+  },
+  {
+    "id": 3,
+    "word": "Countenance",
+    "definition": "A person's face or facial expression",
+    "example": "Her stern countenance betrayed no emotion.",
+    "partOfSpeech": "noun",
+    "oratorId": 18
+  },
+  {
+    "id": 4,
+    "word": "Forsooth",
+    "definition": "Indeed; truly (archaic)",
+    "example": "Forsooth, thou speakest the truth.",
+    "partOfSpeech": "adverb",
+    "oratorId": 18
+  },
+  {
+    "id": 5,
+    "word": "Hither",
+    "definition": "To this place; here",
+    "example": "Come hither and tell me your tale.",
+    "partOfSpeech": "adverb",
+    "oratorId": 18
+  },
+  {
+    "id": 6,
+    "word": "Thither",
+    "definition": "To that place; there",
+    "example": "Send the messenger thither with haste.",
+    "partOfSpeech": "adverb",
+    "oratorId": 18
+  },
+  {
+    "id": 7,
+    "word": "Wherefore",
+    "definition": "For what reason; why",
+    "example": "Wherefore art thou Romeo?",
+    "partOfSpeech": "adverb",
+    "oratorId": 18
+  },
+  {
+    "id": 8,
+    "word": "Verily",
+    "definition": "Truly; certainly",
+    "example": "Verily, I say unto you.",
+    "partOfSpeech": "adverb",
+    "oratorId": 18
+  },
+  {
+    "id": 9,
+    "word": "Betwixt",
+    "definition": "Between",
+    "example": "Caught betwixt love and duty.",
+    "partOfSpeech": "preposition",
+    "oratorId": 18
+  },
+  {
+    "id": 10,
+    "word": "Methinks",
+    "definition": "It seems to me",
+    "example": "Methinks the lady doth protest too much.",
+    "partOfSpeech": "verb",
+    "oratorId": 18
+  }
+]
