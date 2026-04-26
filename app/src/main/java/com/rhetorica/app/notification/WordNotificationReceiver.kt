@@ -4,12 +4,18 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.widget.Toast
-import kotlinx.coroutines.CoroutineScope
+import com.rhetorica.app.data.local.SavedWordEntity
+import com.rhetorica.app.data.local.SavedWordDao
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class WordNotificationReceiver : BroadcastReceiver() {
+    @Inject
+    lateinit var savedWordDao: SavedWordDao
+
     override fun onReceive(context: Context, intent: Intent) {
         val pendingResult = goAsync()
         
@@ -17,16 +23,22 @@ class WordNotificationReceiver : BroadcastReceiver() {
             WordNotificationHelper.ACTION_FAVORITE -> {
                 val wordId = intent.getLongExtra(WordNotificationHelper.WORD_ID_EXTRA, -1L)
                 if (wordId != -1L) {
-                    // TODO: Implement save word logic
-                    val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
-                    scope.launch {
-                        try {
-                            // repository.saveWord(wordId)
-                        } finally {
-                            pendingResult.finish()
+                    try {
+                        runBlocking(Dispatchers.IO) {
+                            savedWordDao.saveWord(
+                                SavedWordEntity(
+                                    wordId = wordId,
+                                    savedAtEpochMillis = System.currentTimeMillis()
+                                )
+                            )
                         }
+                        Toast.makeText(context, "Word saved to favorites", Toast.LENGTH_SHORT).show()
+                    } catch (e: Exception) {
+                        android.util.Log.e("WordNotificationReceiver", "Failed to save word", e)
+                        Toast.makeText(context, "Failed to save word", Toast.LENGTH_SHORT).show()
+                    } finally {
+                        pendingResult.finish()
                     }
-                    Toast.makeText(context, "Word saved to favorites", Toast.LENGTH_SHORT).show()
                 } else {
                     pendingResult.finish()
                 }

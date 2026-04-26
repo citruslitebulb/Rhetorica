@@ -63,4 +63,9 @@ class RhetoricaApp : Application(), Configuration.Provider {
             workRequest,
         )
     }
+
+    override fun onTerminate() {
+        super.onTerminate()
+        applicationScope.cancel()
+    }
 }

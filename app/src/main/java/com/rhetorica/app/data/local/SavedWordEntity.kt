@@ -14,6 +14,7 @@ import androidx.room.PrimaryKey
             onDelete = ForeignKey.CASCADE,
         ),
     ],
+    indices = [androidx.room.Index(value = ["wordId"])],
 )
 data class SavedWordEntity(
     @PrimaryKey val wordId: Long,

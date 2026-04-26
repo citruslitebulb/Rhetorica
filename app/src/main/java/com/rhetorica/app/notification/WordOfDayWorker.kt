@@ -37,7 +37,7 @@ class WordOfDayWorker @AssistedInject constructor(
                     )
 
                     val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-                    val notificationId = (word.id % Int.MAX_VALUE).toInt()
+                    val notificationId = (word.id and Int.MAX_VALUE.toLong()).toInt()
                     notificationManager.notify(notificationId, notification)
 
                     Result.success()

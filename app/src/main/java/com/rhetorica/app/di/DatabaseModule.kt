@@ -20,8 +20,8 @@ import javax.inject.Singleton
 object DatabaseModule {
     @Provides
     @Singleton
-    fun provideDatabase(@ApplicationContext context: Context): RhetoricaDatabase {
-        return RhetoricaDatabase.getDatabase(context)
+    fun provideDatabase(@ApplicationContext context: Context, converters: Converters): RhetoricaDatabase {
+        return RhetoricaDatabase.getDatabase(context, converters)
     }
 
     @Provides

@@ -11,7 +11,6 @@ import androidx.sqlite.db.SupportSQLiteDatabase
     entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class],
     version = 4,
     exportSchema = false,
-    typeConverters = [Converters::class],
 )
 abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun wordDao(): WordDao
@@ -71,13 +70,14 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
-        fun getDatabase(context: Context): RhetoricaDatabase {
+        fun getDatabase(context: Context, converters: Converters): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     RhetoricaDatabase::class.java,
                     "rhetorica.db",
                 )
+                    .addTypeConverter(converters)
                     .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
                     .fallbackToDestructiveMigration()
                     .build()

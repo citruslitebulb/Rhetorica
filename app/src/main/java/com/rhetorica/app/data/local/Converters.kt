@@ -4,9 +4,11 @@ import android.util.Log
 import androidx.room.TypeConverter
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import javax.inject.Inject
 
-class Converters {
-    private val json = Json { ignoreUnknownKeys = true }
+class Converters @Inject constructor(
+    private val json: Json
+) {
     private val TAG = "Converters"
 
     @TypeConverter

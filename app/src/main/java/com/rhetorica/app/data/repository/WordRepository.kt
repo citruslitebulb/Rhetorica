@@ -34,6 +34,7 @@ class WordRepository @Inject constructor(
                     definition = "The occurrence of events by chance in a happy way.",
                     example = "Finding this cafe was pure serendipity.",
                     partOfSpeech = "noun",
+                    oratorId = null,
                 ),
                 WordEntity(
                     id = 2,
@@ -41,6 +42,7 @@ class WordRepository @Inject constructor(
                     definition = "Lasting for a very short time.",
                     example = "Morning mist is beautiful but ephemeral.",
                     partOfSpeech = "adjective",
+                    oratorId = null,
                 ),
                 WordEntity(
                     id = 3,
@@ -48,6 +50,7 @@ class WordRepository @Inject constructor(
                     definition = "Present, appearing, or found everywhere.",
                     example = "Smartphones are ubiquitous in modern life.",
                     partOfSpeech = "adjective",
+                    oratorId = null,
                 ),
             ),
         )

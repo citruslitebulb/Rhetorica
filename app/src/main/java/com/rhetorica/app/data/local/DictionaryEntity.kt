@@ -2,10 +2,8 @@ package com.rhetorica.app.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import androidx.room.TypeConverters
 
 @Entity(tableName = "dictionaries")
-@TypeConverters(Converters::class)
 data class DictionaryEntity(
     @PrimaryKey val id: Long,
     val name: String,

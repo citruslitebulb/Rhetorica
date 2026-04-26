@@ -13,8 +13,8 @@ import javax.inject.Singleton
 @Singleton
 class DictionaryRepository @Inject constructor(
     private val dictionaryDao: DictionaryDao,
+    private val json: Json,
 ) {
-    private val json = Json { ignoreUnknownKeys = true }
     private val TAG = "DictionaryRepository"
 
     fun observeOratorProfiles(): Flow<List<OratorProfile>> {

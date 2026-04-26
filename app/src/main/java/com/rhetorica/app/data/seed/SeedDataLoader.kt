@@ -21,8 +21,8 @@ class SeedDataLoader @Inject constructor(
     private val wordDao: WordDao,
     private val dictionaryDao: DictionaryDao,
     private val database: RhetoricaDatabase,
+    private val json: Json,
 ) {
-    private val json = Json { ignoreUnknownKeys = true }
     private val TAG = "SeedDataLoader"
 
     suspend fun loadSeedDataIfNeeded() = withContext(Dispatchers.IO) {
