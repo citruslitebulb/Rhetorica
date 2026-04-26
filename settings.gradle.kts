@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "VocabDaily"
+rootProject.name = "Rhetorica"
 include(":app")

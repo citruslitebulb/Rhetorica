@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">VocabDaily</string>
+    <string name="app_name">Rhetorica</string>
+    <string name="app_tagline">Daily words that moved empires</string>
     <string name="nav_home">Home</string>
     <string name="nav_saved">Saved</string>
     <string name="nav_quiz">Quiz</string>

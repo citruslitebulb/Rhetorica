@@ -1,9 +1,9 @@
 ---
 name: project-context
-description: Captures VocabDaily-specific conventions, architecture, and delivery expectations. Use when implementing features or making code changes in this repository.
+description: Captures Rhetorica-specific conventions, architecture, and delivery expectations. Use when implementing features or making code changes in this repository.
 ---
 
-# VocabDaily Project Context
+# Rhetorica Project Context
 
 ## Purpose
 
@@ -20,7 +20,7 @@ Keep changes aligned with this repository's app goals, terminology, and product 
 
 Replace placeholders with concrete project details:
 
-- Primary users: `<who uses VocabDaily>`
+- Primary users: `<who uses Rhetorica>`
 - Core user outcome: `<what users should accomplish each day>`
 - Main architecture: `<frontend/backend/data stack>`
 - Key constraints: `<performance/security/offline/hosting constraints>`

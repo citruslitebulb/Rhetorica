@@ -1,4 +1,4 @@
-Create a modern Android Compose app called "VocabDaily" - a clone of "Vocabulary - Learn words daily".
+Create a modern Android Compose app called "Rhetorica" - a clone of "Vocabulary - Learn words daily".
 
 ## 1) Product Goal
 Build a polished Android app in Jetpack Compose that helps users learn and retain vocabulary daily through a swipeable feed, saved words, and lightweight quizzes.

@@ -4,15 +4,14 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.ksp)
-    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
-    namespace = "com.vocabdaily.app"
+    namespace = "com.rhetorica.app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.vocabdaily.app"
+        applicationId = "com.rhetorica.app"
         minSdk = 27
         targetSdk = 35
         versionCode = 1
@@ -77,8 +76,6 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
 
-    implementation(libs.kotlinx.serialization.json)
-    implementation(libs.coil.compose)
     implementation(libs.google.material)
 
     testImplementation(libs.junit)
