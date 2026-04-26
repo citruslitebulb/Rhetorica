@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
     <application
         android:name=".RhetoricaApp"
         android:allowBackup="true"
@@ -27,6 +30,15 @@
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/word_of_day_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".notification.WordNotificationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.rhetorica.app.ACTION_FAVORITE" />
+                <action android:name="com.rhetorica.app.ACTION_HEAR" />
+            </intent-filter>
         </receiver>
     </application>
 
