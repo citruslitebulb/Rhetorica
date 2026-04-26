@@ -1,0 +1,162 @@
+[
+  {
+    "id": 251,
+    "word": "Conviction",
+    "definition": "A firmly held belief or opinion",
+    "example": "I am not a consensus politician. I am a politician with conviction.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 252,
+    "word": "Consensus",
+    "definition": "General agreement",
+    "example": "To me, consensus seems to be the process of abandoning all beliefs, principles, values, and policies.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 253,
+    "word": "Turning",
+    "definition": "A place where a road meets or branches off another; a change of direction or course",
+    "example": "The lady's not for turning.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 254,
+    "word": "Privatization",
+    "definition": "The transfer of a business, industry, or service from public to private ownership",
+    "example": "Privatization brings efficiency and choice to the consumer.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 255,
+    "word": "Enterprise",
+    "definition": "A project or undertaking, typically one that is difficult or requires effort; initiative and resourcefulness",
+    "example": "The spirit of enterprise built this nation and will rebuild it.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 256,
+    "word": "Thatcherism",
+    "definition": "The political and economic policies of Margaret Thatcher",
+    "example": "Thatcherism represented a fundamental shift in British politics.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 257,
+    "word": "Iron",
+    "definition": "A strong, hard magnetic silvery-gray metal",
+    "example": "They called her the Iron Lady for her resolve.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 258,
+    "word": "Resolve",
+    "definition": "Firm determination to do something",
+    "example": "Our resolve shall not waver in the face of opposition.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 259,
+    "word": "Choice",
+    "definition": "An act of selecting or making a decision when faced with two or more possibilities",
+    "example": "Choice is the cornerstone of a free society.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 260,
+    "word": "Responsibility",
+    "definition": "The state or fact of having a duty to deal with something or of having control over someone",
+    "example": "With freedom comes responsibility.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 261,
+    "word": "Ownership",
+    "definition": "The act, state, or right of possessing something",
+    "example": "The right to own property is fundamental to a free society.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 262,
+    "word": "Market",
+    "definition": "An area or arena in which commercial dealings are conducted; supply and demand",
+    "example": "The free market creates prosperity for all who participate.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 263,
+    "word": "Standing",
+    "definition": "Position, reputation, or status",
+    "example": "Britain must reclaim its standing as a great power.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 264,
+    "word": "Crown",
+    "definition": "A circular ornamental headdress worn by a monarch as a symbol of authority",
+    "example": "The crown represents the dignity and continuity of the nation.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 265,
+    "word": "Falklands",
+    "definition": "A British overseas territory in the South Atlantic; subject of a 1982 war",
+    "example": "The Falklands are British and will remain British.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 266,
+    "word": "Fortitude",
+    "definition": "Courage in pain or adversity",
+    "example": "Show fortitude in the defense of liberty.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 267,
+    "word": "Tenacity",
+    "definition": "The quality or fact of being very determined; determination",
+    "example": "Her tenacity in negotiations was legendary.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 268,
+    "word": "Prudence",
+    "definition": "The quality of being prudent; cautious with regard to practical matters",
+    "example": "Prudence in policy is the hallmark of good government.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  },
+  {
+    "id": 269,
+    "word": "Steadfast",
+    "definition": "Resolutely or dutifully firm and unwavering",
+    "example": "Remain steadfast in your principles.",
+    "partOfSpeech": "adjective",
+    "oratorId": 14
+  },
+  {
+    "id": 270,
+    "word": "Determination",
+    "definition": "Firmness of purpose; resoluteness",
+    "example": "Determination and perseverance are the marks of true leadership.",
+    "partOfSpeech": "noun",
+    "oratorId": 14
+  }
+]

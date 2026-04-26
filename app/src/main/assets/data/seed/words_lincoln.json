@@ -1,0 +1,162 @@
+[
+  {
+    "id": 111,
+    "word": "Conceived",
+    "definition": "Formed or devised a plan or idea in the mind",
+    "example": "Four score and seven years ago our fathers brought forth on this continent a new nation, conceived in liberty.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 112,
+    "word": "Proposition",
+    "definition": "A statement or assertion that expresses a judgment or opinion",
+    "example": "Dedicated to the proposition that all men are created equal.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 113,
+    "word": "Endure",
+    "definition": "Suffer something difficult or unpleasant patiently",
+    "example": "Now we are engaged in a great civil war, testing whether that nation can long endure.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 114,
+    "word": "Hallow",
+    "definition": "Honor as holy; make holy; consecrate",
+    "example": "We have come to dedicate a portion of that field as a final resting place for those who here gave their lives that that nation might live.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 115,
+    "word": "Detract",
+    "definition": "Take away; diminish the value of",
+    "example": "The world will little note, nor long remember what we say here, but it can never forget what they did here.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 116,
+    "word": "Unfinished",
+    "definition": "Not finished; incomplete",
+    "example": "It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5
+  },
+  {
+    "id": 117,
+    "word": "Nobly",
+    "definition": "In a noble manner; with nobility",
+    "example": "They who fought here have thus far so nobly advanced.",
+    "partOfSpeech": "adverb",
+    "oratorId": 5
+  },
+  {
+    "id": 118,
+    "word": "Resolve",
+    "definition": "Decide firmly on a course of action",
+    "example": "That we here highly resolve that these dead shall not have died in vain.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 119,
+    "word": "Vain",
+    "definition": "Producing no result; useless",
+    "example": "That these dead shall not have died in vain.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5
+  },
+  {
+    "id": 120,
+    "word": "Perish",
+    "definition": "Suffer death, typically in a violent, sudden, or untimely way",
+    "example": "That government of the people, by the people, for the people, shall not perish from the earth.",
+    "partOfSpeech": "verb",
+    "oratorId": 5
+  },
+  {
+    "id": 121,
+    "word": "Emancipation",
+    "definition": "The fact or process of being set free from legal, social, or political restrictions",
+    "example": "The emancipation of the slave was the great cause of his presidency.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 122,
+    "word": "Union",
+    "definition": "The action or fact of joining together",
+    "example": "A house divided against itself cannot stand; this Union must be preserved.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 123,
+    "word": "Divided",
+    "definition": "Separated into parts; having a separate opinion or aim",
+    "example": "A house divided against itself cannot stand.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5
+  },
+  {
+    "id": 124,
+    "word": "Liberty",
+    "definition": "The state of being free within society from oppressive restrictions",
+    "example": "Conceived in liberty and dedicated to the proposition that all men are created equal.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 125,
+    "word": "Equality",
+    "definition": "The state of being equal, especially in status, rights, or opportunities",
+    "example": "All men are created equal.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 126,
+    "word": "Malice",
+    "definition": "The intention or desire to do evil; ill will",
+    "example": "With malice toward none, with charity for all.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 127,
+    "word": "Charity",
+    "definition": "The voluntary giving of help to those in need",
+    "example": "With malice toward none, with charity for all.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 128,
+    "word": "Firmness",
+    "definition": "The quality of being steady, secure, or fixed; resoluteness",
+    "example": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 129,
+    "word": "Righteousness",
+    "definition": "The quality of being morally right or justifiable",
+    "example": "Let us have faith that right makes might.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  },
+  {
+    "id": 130,
+    "word": "Heritage",
+    "definition": "Property that is or may be inherited; an inheritance",
+    "example": "Our fathers brought forth a new nation that is our common heritage.",
+    "partOfSpeech": "noun",
+    "oratorId": 5
+  }
+]

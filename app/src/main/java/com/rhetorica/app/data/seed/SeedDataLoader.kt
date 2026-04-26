@@ -7,11 +7,11 @@ import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.RhetoricaDatabase
 import com.rhetorica.app.data.local.WordEntity
 import com.rhetorica.app.data.local.WordDao
+import androidx.room.withTransaction
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.json.decodeFromStream
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -26,12 +26,15 @@ class SeedDataLoader @Inject constructor(
     private val TAG = "SeedDataLoader"
 
     suspend fun loadSeedDataIfNeeded() = withContext(Dispatchers.IO) {
-        database.runInTransaction {
+        database.withTransaction {
             val dictionaryCount = dictionaryDao.dictionaryCount()
             if (dictionaryCount == 0) {
                 loadDictionaries()
-                loadWords()
             }
+            
+            // Always load words to add any new seed data
+            // upsertWords uses OnConflictStrategy.REPLACE to handle existing words
+            loadWords()
         }
     }
 
@@ -43,8 +46,9 @@ class SeedDataLoader @Inject constructor(
 
     private suspend fun loadDictionaries() {
         val dictionaries = try {
-            context.assets.open("data/seed/dictionaries.json").use { inputStream ->
-                json.decodeFromStream<List<DictionaryEntity>>(inputStream)
+            context.assets.open("data/seed/dictionaries.json").bufferedReader().use { reader ->
+                val jsonString = reader.readText()
+                json.decodeFromString<List<DictionaryEntity>>(jsonString)
             }
         } catch (e: Exception) {
             Log.e(TAG, "Failed to load dictionaries", e)
@@ -62,17 +66,33 @@ class SeedDataLoader @Inject constructor(
         val allWords = mutableListOf<WordEntity>()
         
         val oratorFiles = listOf(
-            "data/seed/words_shakespeare.json",
+            "data/seed/words_demosthenes.json",
+            "data/seed/words_cicero.json",
+            "data/seed/words_pericles.json",
+            "data/seed/words_isocrates.json",
+            "data/seed/words_lincoln.json",
+            "data/seed/words_douglass.json",
+            "data/seed/words_bryan.json",
+            "data/seed/words_churchill.json",
             "data/seed/words_mlk.json",
-            "data/seed/words_churchill.json"
+            "data/seed/words_jfk.json",
+            "data/seed/words_fdr.json",
+            "data/seed/words_mandela.json",
+            "data/seed/words_gandhi.json",
+            "data/seed/words_thatcher.json",
+            "data/seed/words_obama.json",
+            "data/seed/words_angelou.json",
+            "data/seed/words_malala.json",
+            "data/seed/words_shakespeare.json"
         )
         
         val validOratorIds = getValidOratorIds()
         
         oratorFiles.forEach { fileName ->
             try {
-                val words = context.assets.open(fileName).use { inputStream ->
-                    json.decodeFromStream<List<WordEntity>>(inputStream)
+                val words = context.assets.open(fileName).bufferedReader().use { reader ->
+                    val jsonString = reader.readText()
+                    json.decodeFromString<List<WordEntity>>(jsonString)
                 }
                 val validWords = words.filter { word ->
                     val isValid = word.oratorId in validOratorIds

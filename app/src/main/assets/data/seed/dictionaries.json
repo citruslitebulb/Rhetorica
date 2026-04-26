@@ -13,7 +13,7 @@
     "voiceStyle": "Formal, resonant, commanding",
     "colorAccent": 13958644,
     "sampleSpeech": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
-    "tags": "[\"Ancient\", \"Anti-tyranny\", \"Perseverance\", \"Logic\"]",
+    "tags": ["Ancient", "Anti-tyranny", "Perseverance", "Logic"],
     "isActive": true
   },
   {
@@ -30,7 +30,7 @@
     "voiceStyle": "Elegant, measured, sophisticated",
     "colorAccent": 128,
     "sampleSpeech": "The life of the dead is placed in the memory of the living. Not to know what happened before you were born is to remain a child forever.",
-    "tags": "[\"Philosophy\", \"Law\", \"Eloquence\", \"Wisdom\"]",
+    "tags": ["Philosophy", "Law", "Eloquence", "Wisdom"],
     "isActive": true
   },
   {
@@ -47,7 +47,7 @@
     "voiceStyle": "Noble, uplifting, statesmanlike",
     "colorAccent": 42495,
     "sampleSpeech": "We do not say that a man who takes no interest in politics is a man who minds his own business; we say that he has no business here at all.",
-    "tags": "[\"Democracy\", \"Leadership\", \"Civic duty\", \"Athens\"]",
+    "tags": ["Democracy", "Leadership", "Civic duty", "Athens"],
     "isActive": true
   },
   {
@@ -64,7 +64,7 @@
     "voiceStyle": "Patient, instructional, thoughtful",
     "colorAccent": 8388352,
     "sampleSpeech": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
-    "tags": "[\"Education\", \"Morality\", \"Philosophy\", \"Wisdom\"]",
+    "tags": ["Education", "Morality", "Philosophy", "Wisdom"],
     "isActive": true
   },
   {
@@ -81,7 +81,7 @@
     "voiceStyle": "Humble, firm, resonant",
     "colorAccent": 8943472,
     "sampleSpeech": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
-    "tags": "[\"Leadership\", \"Equality\", \"Freedom\", \"Unity\"]",
+    "tags": ["Leadership", "Equality", "Freedom", "Unity"],
     "isActive": true
   },
   {
@@ -98,7 +98,7 @@
     "voiceStyle": "Passionate, urgent, commanding",
     "colorAccent": 255,
     "sampleSpeech": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
-    "tags": "[\"Abolition\", \"Freedom\", \"Justice\", \"Human rights\"]",
+    "tags": ["Abolition", "Freedom", "Justice", "Human rights"],
     "isActive": true
   },
   {
@@ -115,7 +115,7 @@
     "voiceStyle": "Fiery, passionate, rhythmic",
     "colorAccent": 16776960,
     "sampleSpeech": "You shall not crucify mankind upon a cross of gold.",
-    "tags": "[\"Populism\", \"Economics\", \"Religion\", \"Democracy\"]",
+    "tags": ["Populism", "Economics", "Religion", "Democracy"],
     "isActive": true
   },
   {
@@ -132,7 +132,7 @@
     "voiceStyle": "Gravelly, resolute, aristocratic",
     "colorAccent": 255,
     "sampleSpeech": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
-    "tags": "[\"Leadership\", \"Courage\", \"Defiance\", \"Patriotism\"]",
+    "tags": ["Leadership", "Courage", "Defiance", "Patriotism"],
     "isActive": true
   },
   {
@@ -149,7 +149,7 @@
     "voiceStyle": "Resonant, rhythmic, prophetic",
     "colorAccent": 16711680,
     "sampleSpeech": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal.",
-    "tags": "[\"Leadership\", \"Justice\", \"Equality\", \"Nonviolence\"]",
+    "tags": ["Leadership", "Justice", "Equality", "Nonviolence"],
     "isActive": true
   },
   {
@@ -166,7 +166,7 @@
     "voiceStyle": "Crisp, energetic, optimistic",
     "colorAccent": 32768,
     "sampleSpeech": "Ask not what your country can do for you; ask what you can do for your country.",
-    "tags": "[\"Vision\", \"Leadership\", \"Space\", \"Democracy\"]",
+    "tags": ["Vision", "Leadership", "Space", "Democracy"],
     "isActive": true
   },
   {
@@ -183,7 +183,7 @@
     "voiceStyle": "Warm, confident, reassuring",
     "colorAccent": 8421376,
     "sampleSpeech": "The only thing we have to fear is fear itself.",
-    "tags": "[\"Leadership\", \"Hope\", \"Resilience\", \"Crisis management\"]",
+    "tags": ["Leadership", "Hope", "Resilience", "Crisis management"],
     "isActive": true
   },
   {
@@ -200,7 +200,7 @@
     "voiceStyle": "Dignified, measured, powerful",
     "colorAccent": 16711935,
     "sampleSpeech": "I have fought against white domination, and I have fought against black domination. I have cherished the ideal of a democratic and free society.",
-    "tags": "[\"Forgiveness\", \"Justice\", \"Leadership\", \"Equality\"]",
+    "tags": ["Forgiveness", "Justice", "Leadership", "Equality"],
     "isActive": true
   },
   {
@@ -217,7 +217,7 @@
     "voiceStyle": "Gentle, firm, spiritual",
     "colorAccent": 16512,
     "sampleSpeech": "An eye for an eye only ends up making the whole world blind.",
-    "tags": "[\"Nonviolence\", \"Truth\", \"Simplicity\", \"Independence\"]",
+    "tags": ["Nonviolence", "Truth", "Simplicity", "Independence"],
     "isActive": true
   },
   {
@@ -234,7 +234,7 @@
     "voiceStyle": "Sharp, decisive, authoritative",
     "colorAccent": 16744448,
     "sampleSpeech": "The lady's not for turning.",
-    "tags": "[\"Leadership\", \"Conviction\", \"Conservatism\", \"Strength\"]",
+    "tags": ["Leadership", "Conviction", "Conservatism", "Strength"],
     "isActive": true
   },
   {
@@ -251,7 +251,7 @@
     "voiceStyle": "Smooth, rhythmic, inspiring",
     "colorAccent": 16744192,
     "sampleSpeech": "Yes we can, to opportunity and prosperity. Yes we can heal this nation. Yes we can repair this world.",
-    "tags": "[\"Hope\", \"Change\", \"Inspiration\", \"Unity\"]",
+    "tags": ["Hope", "Change", "Inspiration", "Unity"],
     "isActive": true
   },
   {
@@ -268,7 +268,7 @@
     "voiceStyle": "Warm, wise, maternal",
     "colorAccent": 16744703,
     "sampleSpeech": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
-    "tags": "[\"Poetry\", \"Empowerment\", \"Resilience\", \"Wisdom\"]",
+    "tags": ["Poetry", "Empowerment", "Resilience", "Wisdom"],
     "isActive": true
   },
   {
@@ -285,7 +285,7 @@
     "voiceStyle": "Clear, passionate, youthful",
     "colorAccent": 13882323,
     "sampleSpeech": "One child, one teacher, one book, one pen can change the world.",
-    "tags": "[\"Education\", \"Youth\", \"Courage\", \"Human rights\"]",
+    "tags": ["Education", "Youth", "Courage", "Human rights"],
     "isActive": true
   },
   {
@@ -302,7 +302,7 @@
     "voiceStyle": "Elevated, rhythmic, timeless",
     "colorAccent": 8421504,
     "sampleSpeech": "To be, or not to be, that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles.",
-    "tags": "[\"Poetry\", \"Drama\", \"Language\", \"Timeless\"]",
+    "tags": ["Poetry", "Drama", "Language", "Timeless"],
     "isActive": true
   }
 ]

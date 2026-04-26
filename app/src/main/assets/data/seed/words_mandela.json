@@ -1,0 +1,162 @@
+[
+  {
+    "id": 211,
+    "word": "Apartheid",
+    "definition": "A policy or system of segregation or discrimination on grounds of race",
+    "example": "The chains of apartheid were broken through struggle and sacrifice.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 212,
+    "word": "Reconciliation",
+    "definition": "The restoration of friendly relations; the action of making one view or belief compatible with another",
+    "example": "Reconciliation means working together to correct the legacy of past injustice.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 213,
+    "word": "Liberation",
+    "definition": "The act of setting someone free from imprisonment, slavery, or oppression",
+    "example": "The liberation of our people is the task that history has assigned to us.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 214,
+    "word": "Struggle",
+    "definition": "A conflict or contest; a violent effort to overcome resistance",
+    "example": "The struggle for freedom continues until all are free.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 215,
+    "word": "Sacrifice",
+    "definition": "An act of giving up something valued for the sake of something else regarded as more important",
+    "example": "I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities. It is an ideal which I hope to live for and to achieve. But if needs be, it is an ideal for which I am prepared to die.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 216,
+    "word": "Discrimination",
+    "definition": "The unjust or prejudicial treatment of different categories of people",
+    "example": "Never, never and never again shall it be that this beautiful land will again experience the oppression of one by another and suffer the indignity of discrimination.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 217,
+    "word": "Oppression",
+    "definition": "Prolonged cruel or unjust treatment or control",
+    "example": "We have fought against white domination and black domination alike, against all oppression.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 218,
+    "word": "Rainbow",
+    "definition": "An arch of colors formed in the sky; used figuratively to mean diverse unity",
+    "example": "Each of us is as intimately attached to the soil of this beautiful country as are the famous jacaranda trees of Pretoria and the mimosa trees of the bushveld—a rainbow nation at peace with itself and the world.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 219,
+    "word": "Unity",
+    "definition": "The state of being united or joined as a whole",
+    "example": "Our daily deeds as ordinary South Africans must produce an actual South African reality that will reinforce humanity's belief in justice, strengthen its confidence in the nobility of the human soul, and sustain all our hopes for a glorious life for all. Let there be work, bread, water, and salt for all. Let each know that for each the body, the mind and the soul have been freed to fulfill themselves. Never, never and never again shall it be that this beautiful land will again experience the oppression of one by another and suffer the indignity of the skirmishes of racism and racial discrimination. Let freedom reign. The sun shall never set on so glorious a human achievement. Let freedom reign.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 220,
+    "word": "Dignity",
+    "definition": "The state of being worthy of honor or respect",
+    "example": "The human dignity of all shall be restored.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 221,
+    "word": "Forgiveness",
+    "definition": "The action or process of forgiving or being forgiven",
+    "example": "Forgiveness liberates the soul. It removes fear. That is why it is such a powerful weapon.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 222,
+    "word": "Embrace",
+    "definition": "Hold closely in one's arms; accept or support willingly",
+    "example": "I embrace the brotherhood of all humanity.",
+    "partOfSpeech": "verb",
+    "oratorId": 12
+  },
+  {
+    "id": 223,
+    "word": "Resilience",
+    "definition": "The capacity to recover quickly from difficulties",
+    "example": "The resilience of our people has been tested and proven.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 224,
+    "word": "Hopeful",
+    "definition": "Feeling or inspiring optimism about a future event",
+    "example": "I am hopeful for a future of equality and peace.",
+    "partOfSpeech": "adjective",
+    "oratorId": 12
+  },
+  {
+    "id": 225,
+    "word": "Destiny",
+    "definition": "The events that will necessarily happen to a particular person or thing",
+    "example": "Our destiny is in our own hands.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 226,
+    "word": "Courage",
+    "definition": "The ability to do something that frightens one",
+    "example": "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 227,
+    "word": "Noble",
+    "definition": "Having or showing fine personal qualities or high moral principles",
+    "example": "There is no passion to be found playing small—in settling for a life that is less than the one you are capable of living. Let us strive for noble goals.",
+    "partOfSpeech": "adjective",
+    "oratorId": 12
+  },
+  {
+    "id": 228,
+    "word": "Prison",
+    "definition": "A building in which people are legally held as a punishment",
+    "example": "The prison walls could not break the human spirit.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 229,
+    "word": "Inauguration",
+    "definition": "The beginning or introduction of a system, policy, or period",
+    "example": "On this day of my inauguration, I address the people of South Africa.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  },
+  {
+    "id": 230,
+    "word": "Restoration",
+    "definition": "The action of returning something to a former condition",
+    "example": "The restoration of human rights is our highest calling.",
+    "partOfSpeech": "noun",
+    "oratorId": 12
+  }
+]

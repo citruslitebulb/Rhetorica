@@ -4,14 +4,16 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class],
-    version = 4,
+    version = 6,
     exportSchema = false,
 )
+@TypeConverters(Converters::class)
 abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun wordDao(): WordDao
     abstract fun savedWordDao(): SavedWordDao
@@ -70,15 +72,34 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
-        fun getDatabase(context: Context, converters: Converters): RhetoricaDatabase {
+        private val MIGRATION_4_5 = object : Migration(4, 5) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Convert tags from String to JSON array format
+                // Old format: "[\"Ancient\", \"Anti-tyranny\"]" (already JSON)
+                // New format: Same, but Room will now use TypeConverter
+                // No change needed for data, just column type change handled by Room
+                
+                // Convert favoriteOratorIds from String to JSON array format
+                // Old format: "[1, 2, 3]" (already JSON)
+                // New format: Same, but Room will now use TypeConverter
+                // No change needed for data, just column type change handled by Room
+            }
+        }
+
+        private val MIGRATION_5_6 = object : Migration(5, 6) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // No schema changes - version bump for new seed data
+            }
+        }
+
+        fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     RhetoricaDatabase::class.java,
                     "rhetorica.db",
                 )
-                    .addTypeConverter(converters)
-                    .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
+                    .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6)
                     .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance

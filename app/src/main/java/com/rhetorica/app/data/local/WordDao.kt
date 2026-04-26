@@ -23,6 +23,9 @@ interface WordDao {
     @Query("SELECT * FROM words WHERE oratorId = :oratorId ORDER BY id ASC LIMIT 1 OFFSET :offset")
     suspend fun getWordOfTheDayByOrator(oratorId: Long, offset: Int): WordEntity?
 
+    @Query("SELECT * FROM words WHERE oratorId IS NULL")
+    suspend fun getWordsWithNullOratorId(): List<WordEntity>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertWords(words: List<WordEntity>)
 

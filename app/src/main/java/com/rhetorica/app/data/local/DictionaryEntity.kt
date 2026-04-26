@@ -2,8 +2,10 @@ package com.rhetorica.app.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import kotlinx.serialization.Serializable
 
 @Entity(tableName = "dictionaries")
+@Serializable
 data class DictionaryEntity(
     @PrimaryKey val id: Long,
     val name: String,
@@ -18,6 +20,6 @@ data class DictionaryEntity(
     val voiceStyle: String,
     val colorAccent: Long,
     val sampleSpeech: String,
-    val tags: String,
+    val tags: List<String>,
     val isActive: Boolean = true,
 )

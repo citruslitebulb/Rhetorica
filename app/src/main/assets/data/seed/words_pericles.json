@@ -1,0 +1,162 @@
+[
+  {
+    "id": 71,
+    "word": "Democracy",
+    "definition": "A system of government by the whole population",
+    "example": "Our constitution is called a democracy because power is in the hands not of a minority but of the whole people.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 72,
+    "word": "Citizen",
+    "definition": "A legally recognized subject of a state",
+    "example": "A citizen who takes no interest in politics has no business here.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 73,
+    "word": "Polis",
+    "definition": "A city-state in ancient Greece",
+    "example": "The polis is the highest expression of human community.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 74,
+    "word": "Funeral",
+    "definition": "A ceremony honoring a dead person",
+    "example": "His funeral oration honored those who fell for Athens.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 75,
+    "word": "Valor",
+    "definition": "Great courage in the face of danger",
+    "example": "Their valor in battle shall never be forgotten.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 76,
+    "word": "Patriotism",
+    "definition": "Devotion to one's country",
+    "example": "True patriotism means serving the common good.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 77,
+    "word": "Oration",
+    "definition": "A formal public speech",
+    "example": "His funeral oration moved all who heard it.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 78,
+    "word": "Glory",
+    "definition": "High renown or honor won by notable achievements",
+    "example": "They chose to die with glory rather than live with shame.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 79,
+    "word": "Athens",
+    "definition": "The capital city of ancient Greece",
+    "example": "Athens is the school of Hellas.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 80,
+    "word": "Hellas",
+    "definition": "Ancient Greece",
+    "example": "Our city is the school of Hellas.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 81,
+    "word": "Civic",
+    "definition": "Relating to a city or town and its citizens",
+    "example": "Civic duty demands our participation in public life.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3
+  },
+  {
+    "id": 82,
+    "word": "Ostracism",
+    "definition": "Exclusion from a society or group",
+    "example": "Ostracism was used to protect the democracy from tyrants.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 83,
+    "word": "Acropolis",
+    "definition": "The citadel of an ancient Greek city",
+    "example": "The Acropolis stands as a symbol of Athenian greatness.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 84,
+    "word": "Statesman",
+    "definition": "A skilled, experienced, and respected political leader",
+    "example": "A statesman serves the people, not himself.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 85,
+    "word": "Empire",
+    "definition": "An extensive group of states or countries ruled over by a single monarch",
+    "example": "We do not seek empire through conquest but leadership through example.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 86,
+    "word": "Freedom",
+    "definition": "The power or right to act, speak, or think as one wants",
+    "example": "Freedom is the sure possession of those alone who have the courage to defend it.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 87,
+    "word": "Magnanimous",
+    "definition": "Generous or forgiving",
+    "example": "The magnanimous spirit of Athens welcomes all who seek wisdom.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3
+  },
+  {
+    "id": 88,
+    "word": "Policy",
+    "definition": "A course or principle of action adopted by a government",
+    "example": "Our policy is governed by wisdom and moderation.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 89,
+    "word": "Tribute",
+    "definition": "An act, statement, or gift intended to show gratitude, respect, or admiration",
+    "example": "We offer this tribute to those who sacrificed for our city.",
+    "partOfSpeech": "noun",
+    "oratorId": 3
+  },
+  {
+    "id": 90,
+    "word": "Golden",
+    "definition": "Made of or resembling gold; very special",
+    "example": "We live in the golden age of Athens.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3
+  }
+]

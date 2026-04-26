@@ -1,0 +1,162 @@
+[
+  {
+    "id": 271,
+    "word": "Hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen",
+    "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation. Yes we can repair this world. Yes we can.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 272,
+    "word": "Audacity",
+    "definition": "The willingness to take bold risks; rude or disrespectful behavior",
+    "example": "The audacity of hope has carried us through difficult times.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 273,
+    "word": "Change",
+    "definition": "Make or become different",
+    "example": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 274,
+    "word": "Unity",
+    "definition": "The state of being united or joined as a whole",
+    "example": "There is not a liberal America and a conservative America—there is the United States of America. There is not a black America and a white America and Latino America and Asian America—there's the United States of America. We are one people, all of us pledging allegiance to the stars and stripes, all of us defending the United States of America.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 275,
+    "word": "Improbable",
+    "definition": "Not likely to be true or to happen",
+    "example": "The improbable journey that led me to this stage.",
+    "partOfSpeech": "adjective",
+    "oratorId": 15
+  },
+  {
+    "id": 276,
+    "word": "Keynote",
+    "definition": "A prevailing tone or central theme, typically one set at the start of a conference or event",
+    "example": "His keynote address at the 2004 DNC made him a national figure.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 277,
+    "word": "Pledge",
+    "definition": "A solemn promise or undertaking",
+    "example": "We pledge allegiance to an ideal that is bigger than ourselves.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 278,
+    "word": "Allegiance",
+    "definition": "Loyalty or commitment of a subordinate to a superior or of an individual to a group or cause",
+    "example": "All of us pledging allegiance to the stars and stripes.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 279,
+    "word": "Conservative",
+    "definition": "Holding to traditional attitudes and values and cautious about change or innovation",
+    "example": "There is not a liberal America and a conservative America—there is the United States of America.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 280,
+    "word": "Progress",
+    "definition": "Forward or onward movement toward a destination or goal",
+    "example": "The arc of history bends toward progress.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 281,
+    "word": "Bend",
+    "definition": "Shape or force something straight into a curve or angle; direct or devote",
+    "example": "The arc of the moral universe is long, but it bends toward justice.",
+    "partOfSpeech": "verb",
+    "oratorId": 15
+  },
+  {
+    "id": 282,
+    "word": "Destiny",
+    "definition": "The events that will necessarily happen to a particular person or thing",
+    "example": "Our destiny is not written for us, but by us.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 283,
+    "word": "Eloquent",
+    "definition": "Fluent or persuasive in speaking or writing",
+    "example": "His eloquent speeches inspired millions around the world.",
+    "partOfSpeech": "adjective",
+    "oratorId": 15
+  },
+  {
+    "id": 284,
+    "word": "Reject",
+    "definition": "Dismiss as inadequate, inappropriate, or not to one's taste",
+    "example": "We reject the politics of division.",
+    "partOfSpeech": "verb",
+    "oratorId": 15
+  },
+  {
+    "id": 285,
+    "word": "Cynicism",
+    "definition": "An inclination to believe that people are motivated purely by self-interest; skepticism",
+    "example": "We must reject the cynicism that says change is impossible.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 286,
+    "word": "Diversity",
+    "definition": "The practice or quality of including or involving people from a range of different social and ethnic backgrounds and of different genders, sexual orientations, etc.",
+    "example": "Our diversity is our greatest strength.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 287,
+    "word": "Inclusion",
+    "definition": "The action or state of including or of being included within a group or structure",
+    "example": "Inclusion means that all voices are heard.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 288,
+    "word": "Inspiration",
+    "definition": "The process of being mentally stimulated to do or feel something, especially to do something creative",
+    "example": "His story is an inspiration to all who dream of a better future.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  },
+  {
+    "id": 289,
+    "word": "Restore",
+    "definition": "Bring back to a former condition, place, or position",
+    "example": "We will restore the promise of America.",
+    "partOfSpeech": "verb",
+    "oratorId": 15
+  },
+  {
+    "id": 290,
+    "word": "Promise",
+    "definition": "A declaration or assurance that one will do a particular thing or that a particular thing will happen",
+    "example": "The promise of America is that we are all created equal.",
+    "partOfSpeech": "noun",
+    "oratorId": 15
+  }
+]

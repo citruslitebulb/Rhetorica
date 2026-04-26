@@ -1,0 +1,162 @@
+[
+  {
+    "id": 31,
+    "word": "Philippic",
+    "definition": "A bitter verbal attack; a tirade",
+    "example": "His philippic against the tyrant shook the assembly.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 32,
+    "word": "Tyranny",
+    "definition": "Cruel and oppressive government or rule",
+    "example": "I have but one lamp by which my feet are guided, and that is the lamp of experience against tyranny.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 33,
+    "word": "Persuasion",
+    "definition": "The action or process of persuading someone",
+    "example": "A man is his own easiest dupe, for what he wishes to be true he generally believes to be true through persuasion.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 34,
+    "word": "Eloquence",
+    "definition": "Fluent or persuasive speaking or writing",
+    "example": "His eloquence moved stones to weep.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 35,
+    "word": "Civic",
+    "definition": "Relating to a city or town, especially its administration",
+    "example": "Every man has an obligation to discharge his civic duties.",
+    "partOfSpeech": "adjective",
+    "oratorId": 1
+  },
+  {
+    "id": 36,
+    "word": "Oratory",
+    "definition": "The art or practice of formal public speaking",
+    "example": "He trained his voice through oratory until the stones did not tremble.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 37,
+    "word": "Tribunal",
+    "definition": "A court of justice",
+    "example": "I stand before this tribunal to defend the liberty of Athens.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 38,
+    "word": "Deliberation",
+    "definition": "Long and careful consideration or discussion",
+    "example": "The time for deliberation is past; the time for action is now.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 39,
+    "word": "Impediment",
+    "definition": "A hindrance or obstruction in doing something",
+    "example": "He overcame every speech impediment through iron will.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 40,
+    "word": "Rhetoric",
+    "definition": "The art of effective or persuasive speaking or writing",
+    "example": "True rhetoric is the art of speaking truth persuasively.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 41,
+    "word": "Exhortation",
+    "definition": "An address or communication emphatically urging someone to do something",
+    "example": "His exhortation to the people stirred their courage.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 42,
+    "word": "Proposition",
+    "definition": "A statement or assertion that expresses a judgment or opinion",
+    "example": "I propose this proposition for the good of the polis.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 43,
+    "word": "Accusation",
+    "definition": "A charge or claim that someone has done something illegal or wrong",
+    "example": "The accusation against me is false and baseless.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 44,
+    "word": "Indictment",
+    "definition": "A formal charge or accusation of a serious crime",
+    "example": "This speech serves as an indictment of tyranny itself.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 45,
+    "word": "Assembly",
+    "definition": "A group of people gathered together in one place",
+    "example": "Citizens of the assembly, hear my words.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 46,
+    "word": "Liberty",
+    "definition": "The state of being free within society from oppressive restrictions",
+    "example": "Sweet is liberty to those who have been in bondage.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 47,
+    "word": "Bondage",
+    "definition": "The state of being a slave",
+    "example": "To live in fear is a form of bondage worse than chains.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 48,
+    "word": "Vigilance",
+    "definition": "The action or state of keeping careful watch for possible danger",
+    "example": "Eternal vigilance is the price of liberty.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 49,
+    "word": "Fortitude",
+    "definition": "Courage in pain or adversity",
+    "example": "Show fortitude in the face of tyranny.",
+    "partOfSpeech": "noun",
+    "oratorId": 1
+  },
+  {
+    "id": 50,
+    "word": "Reproach",
+    "definition": "Address someone with disapproval or disappointment",
+    "example": "I reproach those who would trade liberty for safety.",
+    "partOfSpeech": "verb",
+    "oratorId": 1
+  }
+]

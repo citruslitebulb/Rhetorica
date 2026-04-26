@@ -5,7 +5,6 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import androidx.core.app.NotificationCompat
-import com.rhetorica.app.R
 import com.rhetorica.app.MainActivity
 
 object WordNotificationHelper {
@@ -74,7 +73,7 @@ object WordNotificationHelper {
         )
 
         return NotificationCompat.Builder(context, channelId)
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
+            .setSmallIcon(android.R.drawable.ic_dialog_info)
             .setContentTitle(word)
             .setContentText(definition)
             .setStyle(

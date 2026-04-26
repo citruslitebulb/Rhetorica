@@ -1,0 +1,162 @@
+[
+  {
+    "id": 91,
+    "word": "Education",
+    "definition": "The process of receiving or giving systematic instruction",
+    "example": "Education is the foundation of a just society.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 92,
+    "word": "Ethos",
+    "definition": "The characteristic spirit of a culture or community",
+    "example": "The ethos of a city is reflected in its speech.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 93,
+    "word": "Sophistry",
+    "definition": "The use of clever but unsound reasoning",
+    "example": "Beware the sophistry that masks falsehood as wisdom.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 94,
+    "word": "Virtue",
+    "definition": "Behavior showing high moral standards",
+    "example": "Virtue must be taught through example and precept.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 95,
+    "word": "Discourse",
+    "definition": "Written or spoken communication or debate",
+    "example": "True discourse aims at truth, not victory.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 96,
+    "word": "Sophist",
+    "definition": "A paid teacher of philosophy and rhetoric in ancient Greece",
+    "example": "The sophist teaches for profit, not for truth.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 97,
+    "word": "Paideia",
+    "definition": "Education or culture; the rearing and education of the ideal member of the polis",
+    "example": "Paideia shapes both mind and character.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 98,
+    "word": "Harmony",
+    "definition": "The combination of simultaneously sounded musical notes to produce chords and chord progressions",
+    "example": "Harmony in speech reflects harmony in the soul.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 99,
+    "word": "Rhetoric",
+    "definition": "The art of effective or persuasive speaking or writing",
+    "example": "True rhetoric serves justice and truth.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 100,
+    "word": "Morality",
+    "definition": "Principles concerning the distinction between right and wrong",
+    "example": "Morality must guide our words and our actions.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 101,
+    "word": "Pedagogy",
+    "definition": "The method and practice of teaching",
+    "example": "Sound pedagogy combines theory with practice.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 102,
+    "word": "Letters",
+    "definition": "Literature or written works",
+    "example": "The study of letters elevates the mind.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 103,
+    "word": "Panegyric",
+    "definition": "A public speech or text in praise of someone or something",
+    "example": "His panegyric celebrated the virtues of Athens.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 104,
+    "word": "Ethics",
+    "definition": "Moral principles that govern a person's behavior",
+    "example": "Ethics must be the foundation of all education.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 105,
+    "word": "Speech",
+    "definition": "The expression of or the ability to express thoughts and feelings by articulate sounds",
+    "example": "Speech is what distinguishes humans from beasts.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 106,
+    "word": "Counsel",
+    "definition": "Advice, especially that given formally",
+    "example": "Good counsel requires both wisdom and experience.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 107,
+    "word": "Reason",
+    "definition": "The power of the mind to think, understand, and form judgments",
+    "example": "Reason must guide our passions.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 108,
+    "word": "Civil",
+    "definition": "Relating to ordinary citizens and their concerns",
+    "example": "Civil discourse maintains the bonds of society.",
+    "partOfSpeech": "adjective",
+    "oratorId": 4
+  },
+  {
+    "id": 109,
+    "word": "Prudence",
+    "definition": "The quality of being prudent; cautious with regard to practical matters",
+    "example": "Prudence is the guide to all virtue.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  },
+  {
+    "id": 110,
+    "word": "Attainment",
+    "definition": "Something that has been achieved successfully",
+    "example": "The attainment of wisdom is life's highest goal.",
+    "partOfSpeech": "noun",
+    "oratorId": 4
+  }
+]

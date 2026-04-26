@@ -1,5 +1,6 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
 import kotlinx.coroutines.flow.Flow
@@ -11,8 +12,17 @@ import javax.inject.Singleton
 @Singleton
 class WordRepository @Inject constructor(
     private val wordDao: WordDao,
+    private val dictionaryDao: DictionaryDao,
 ) {
     fun observeWords(): Flow<List<WordEntity>> = wordDao.observeWords()
+
+    fun observeWordsByOrator(oratorId: Long?): Flow<List<WordEntity>> {
+        return if (oratorId == null) {
+            wordDao.observeWords()
+        } else {
+            wordDao.observeWordsByOrator(oratorId)
+        }
+    }
 
     suspend fun getWordOfTheDay(): WordEntity? {
         val count = wordDao.wordCount()
@@ -23,36 +33,29 @@ class WordRepository @Inject constructor(
         return wordDao.getWordOfTheDay(offset)
     }
 
-    suspend fun seedWordsIfEmpty() {
-        if (wordDao.wordCount() > 0) return
+    suspend fun getWordOfTheDayByOrator(oratorId: Long?): WordEntity? {
+        if (oratorId == null) return getWordOfTheDay()
 
-        wordDao.upsertWords(
-            listOf(
-                WordEntity(
-                    id = 1,
-                    word = "Serendipity",
-                    definition = "The occurrence of events by chance in a happy way.",
-                    example = "Finding this cafe was pure serendipity.",
-                    partOfSpeech = "noun",
-                    oratorId = null,
-                ),
-                WordEntity(
-                    id = 2,
-                    word = "Ephemeral",
-                    definition = "Lasting for a very short time.",
-                    example = "Morning mist is beautiful but ephemeral.",
-                    partOfSpeech = "adjective",
-                    oratorId = null,
-                ),
-                WordEntity(
-                    id = 3,
-                    word = "Ubiquitous",
-                    definition = "Present, appearing, or found everywhere.",
-                    example = "Smartphones are ubiquitous in modern life.",
-                    partOfSpeech = "adjective",
-                    oratorId = null,
-                ),
-            ),
-        )
+        val count = wordDao.wordCountByOrator(oratorId)
+        if (count == 0) return null
+
+        val dayOfYear = LocalDate.now(ZoneId.systemDefault()).dayOfYear
+        val offset = (dayOfYear - 1) % count
+        return wordDao.getWordOfTheDayByOrator(oratorId, offset)
+    }
+
+    suspend fun seedWordsIfEmpty() {
+        // Redundant seeding removed. Seeding is handled by SeedDataLoader in RhetoricaApp.
+    }
+
+    suspend fun fixNullOratorIds() {
+        val dictionaries = dictionaryDao.getAllDictionaries()
+        val defaultOratorId = dictionaries.firstOrNull()?.id ?: 18L
+
+        val wordsWithNullOrator = wordDao.getWordsWithNullOratorId()
+        if (wordsWithNullOrator.isNotEmpty()) {
+            val updatedWords = wordsWithNullOrator.map { it.copy(oratorId = defaultOratorId) }
+            wordDao.upsertWords(updatedWords)
+        }
     }
 }

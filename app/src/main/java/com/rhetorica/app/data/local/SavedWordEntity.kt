@@ -3,6 +3,7 @@ package com.rhetorica.app.data.local
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
+import kotlinx.serialization.Serializable
 
 @Entity(
     tableName = "saved_words",
@@ -16,6 +17,7 @@ import androidx.room.PrimaryKey
     ],
     indices = [androidx.room.Index(value = ["wordId"])],
 )
+@Serializable
 data class SavedWordEntity(
     @PrimaryKey val wordId: Long,
     val savedAtEpochMillis: Long,

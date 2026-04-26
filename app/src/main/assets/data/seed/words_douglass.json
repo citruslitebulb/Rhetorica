@@ -1,0 +1,162 @@
+[
+  {
+    "id": 131,
+    "word": "Abolition",
+    "definition": "The action or an act of abolishing a system, practice, or institution",
+    "example": "The abolition of slavery was the great moral crusade of the century.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 132,
+    "word": "Bondage",
+    "definition": "The state of being a slave",
+    "example": "I have seen the chains of bondage and felt the whip upon my back.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 133,
+    "word": "Emancipation",
+    "definition": "The fact or process of being set free from legal restrictions",
+    "example": "Emancipation was the dawn of hope for millions in chains.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 134,
+    "word": "Slaveholder",
+    "definition": "An owner of slaves",
+    "example": "The slaveholder is the enemy of human progress.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 135,
+    "word": "Scorching",
+    "definition": "Burning; extremely hot; severe or critical",
+    "example": "What, to the American slave, is your Fourth of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 136,
+    "word": "Impunity",
+    "definition": "Exemption from punishment or freedom from the injurious consequences of an action",
+    "example": "The guilty may act with impunity no longer.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 137,
+    "word": "Revelation",
+    "definition": "A surprising and previously unknown fact that is made known",
+    "example": "The Fourth of July reveals the gross injustice of American society.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 138,
+    "word": "Mournful",
+    "definition": "Feeling, expressing, or inducing grief, sorrow, or lamentation",
+    "example": "The mournful cries of the oppressed echo across the land.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 139,
+    "word": "Clanking",
+    "definition": "Making a sharp sound or series of sounds as of metal striking",
+    "example": "The clanking of chains is the anthem of the enslaved.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 140,
+    "word": "Accursed",
+    "definition": "Under a curse; doomed",
+    "example": "The accursed system of slavery must be overthrown.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 141,
+    "word": "Self-evident",
+    "definition": "Not needing to be demonstrated or explained; obvious",
+    "example": "The truths of freedom are self-evident to all who have eyes to see.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 142,
+    "word": "Inalienable",
+    "definition": "Unable to be taken away from or given away by the possessor",
+    "example": "Life, liberty, and the pursuit of happiness are inalienable rights.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6
+  },
+  {
+    "id": 143,
+    "word": "Manhood",
+    "definition": "The state or period of being a man rather than a child",
+    "example": "What is possible for me is possible for any man who dares to claim his manhood.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 144,
+    "word": "Fugitive",
+    "definition": "A person who has escaped from a place or is in hiding",
+    "example": "The fugitive slave knows no rest until freedom is won.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 145,
+    "word": "Crusade",
+    "definition": "A vigorous campaign for political, social, or religious change",
+    "example": "Our crusade for freedom will not end until every chain is broken.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 146,
+    "word": "Tribunal",
+    "definition": "A court of justice",
+    "example": "The tribunal of public opinion will judge the slaveholder.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 147,
+    "word": "Hypocrisy",
+    "definition": "The practice of claiming to have moral standards to which one's own behavior does not conform",
+    "example": "The hypocrisy of celebrating liberty while holding slaves is rank.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 148,
+    "word": "Whipping",
+    "definition": "Beating with a whip or similar implement",
+    "example": "The sound of the whipping post still haunts my dreams.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 149,
+    "word": "Humanity",
+    "definition": "The human race; human beings collectively",
+    "example": "The cause of humanity demands the end of slavery.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  },
+  {
+    "id": 150,
+    "word": "Deliverance",
+    "definition": "The action of being rescued or set free",
+    "example": "Deliverance from bondage came at last.",
+    "partOfSpeech": "noun",
+    "oratorId": 6
+  }
+]

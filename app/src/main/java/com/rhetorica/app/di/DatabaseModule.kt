@@ -1,7 +1,6 @@
 package com.rhetorica.app.di
 
 import android.content.Context
-import androidx.room.Room
 import com.rhetorica.app.data.local.ProgressDao
 import com.rhetorica.app.data.local.SavedWordDao
 import com.rhetorica.app.data.local.RhetoricaDatabase
@@ -20,8 +19,8 @@ import javax.inject.Singleton
 object DatabaseModule {
     @Provides
     @Singleton
-    fun provideDatabase(@ApplicationContext context: Context, converters: Converters): RhetoricaDatabase {
-        return RhetoricaDatabase.getDatabase(context, converters)
+    fun provideDatabase(@ApplicationContext context: Context): RhetoricaDatabase {
+        return RhetoricaDatabase.getDatabase(context)
     }
 
     @Provides

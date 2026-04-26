@@ -1,0 +1,162 @@
+[
+  {
+    "id": 191,
+    "word": "Infamy",
+    "definition": "The state of being well known for some bad quality or deed",
+    "example": "Yesterday, December 7, 1941—a date which will live in infamy.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 192,
+    "word": "Fireside",
+    "definition": "The area around a fireplace; used figuratively to denote domestic comfort",
+    "example": "His fireside chats brought the president into every American living room.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 193,
+    "word": "Depression",
+    "definition": "A long and severe recession in an economy or market",
+    "example": "The only thing we have to fear is fear itself in times of depression.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 194,
+    "word": "Apprehension",
+    "definition": "Anxiety or fear that something bad or unpleasant will happen",
+    "example": "Let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 195,
+    "word": "Terror",
+    "definition": "Extreme fear",
+    "example": "The only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 196,
+    "word": "Treason",
+    "definition": "The crime of betraying one's country",
+    "example": "Economic royalists sought to control the government in a form of treason against the people.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 197,
+    "word": "Royalist",
+    "definition": "A supporter of the king or the principle of monarchy",
+    "example": "Economic royalists have carved a new dynasty of power.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 198,
+    "word": "Unemployment",
+    "definition": "The state of being unemployed",
+    "example": "I see one-third of a nation ill-housed, ill-clad, ill-nourished, suffering from unemployment.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 199,
+    "word": "Preparation",
+    "definition": "The action or process of making ready or being made ready for use",
+    "example": "Victory requires preparation and sacrifice.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 200,
+    "word": "Unconquerable",
+    "definition": "Not conquerable; that cannot be overcome or defeated",
+    "example": "The American spirit is unconquerable in the face of any challenge.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11
+  },
+  {
+    "id": 201,
+    "word": "Confidence",
+    "definition": "The feeling or belief that one can rely on someone or something",
+    "example": "We have confidence in the future of democracy.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 202,
+    "word": "Renewal",
+    "definition": "An instance of resuming an activity or state after an interruption",
+    "example": "Let us dedicate ourselves to a new task and a new renewal of spirit.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 203,
+    "word": "Destitution",
+    "definition": "Poverty so extreme that one lacks the means to provide for oneself",
+    "example": "We seek to end the destitution of millions in our land.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 204,
+    "word": "Relief",
+    "definition": "Assistance, especially in the form of food, clothing, or money, given to those in special need or difficulty",
+    "example": "The New Deal brought relief to millions of suffering Americans.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 205,
+    "word": "Resilience",
+    "definition": "The capacity to recover quickly from difficulties",
+    "example": "The resilience of the American people shall see us through.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 206,
+    "word": "Arsenal",
+    "definition": "A collection of weapons and military equipment; a place where weapons are made or stored",
+    "example": "We must be the great arsenal of democracy.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 207,
+    "word": "Democracy",
+    "definition": "A system of government by the whole population",
+    "example": "We must be the great arsenal of democracy in the fight against tyranny.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 208,
+    "word": "Surrender",
+    "definition": "Stop resisting to an enemy or opponent and submit to their authority",
+    "example": "No surrender to fear shall darken our path.",
+    "partOfSpeech": "verb",
+    "oratorId": 11
+  },
+  {
+    "id": 209,
+    "word": "Testament",
+    "definition": "Something that serves as a sign or evidence of a specified fact",
+    "example": "Our recovery is a testament to American ingenuity.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  },
+  {
+    "id": 210,
+    "word": "Hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen",
+    "example": "We have nothing to fear but fear itself, and hope shall guide us through.",
+    "partOfSpeech": "noun",
+    "oratorId": 11
+  }
+]

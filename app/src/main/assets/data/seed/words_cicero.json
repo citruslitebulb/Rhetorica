@@ -1,0 +1,162 @@
+[
+  {
+    "id": 51,
+    "word": "Republic",
+    "definition": "A state in which supreme power is held by the people",
+    "example": "The republic stands upon the wisdom of its citizens.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 52,
+    "word": "Virtue",
+    "definition": "Behavior showing high moral standards",
+    "example": "Virtue is the highest reward of the good.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 53,
+    "word": "Philosophy",
+    "definition": "The study of the fundamental nature of knowledge, reality, and existence",
+    "example": "Philosophy is the mother of all arts.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 54,
+    "word": "Justice",
+    "definition": "Just behavior or treatment",
+    "example": "The life of the dead is placed in the memory of the living through justice.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 55,
+    "word": "Wisdom",
+    "definition": "The quality of having experience, knowledge, and good judgment",
+    "example": "Not to know what happened before you were born is to remain a child forever in wisdom.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 56,
+    "word": "Eloquent",
+    "definition": "Fluent or persuasive in speaking or writing",
+    "example": "The eloquent defense saved the accused man's life.",
+    "partOfSpeech": "adjective",
+    "oratorId": 2
+  },
+  {
+    "id": 57,
+    "word": "Senate",
+    "definition": "The state council of the ancient Roman republic and empire",
+    "example": "The senate must act with wisdom and caution.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 58,
+    "word": "Law",
+    "definition": "The system of rules recognized by a community",
+    "example": "We are servants of the law so that we may be free.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 59,
+    "word": "Conspiracy",
+    "definition": "A secret plan by a group to do something unlawful",
+    "example": "I have exposed the conspiracy against the republic.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 60,
+    "word": "Consul",
+    "definition": "One of the two annually elected chief magistrates of Rome",
+    "example": "As consul, I swore to protect the republic.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 61,
+    "word": "Dignity",
+    "definition": "The state of being worthy of honor or respect",
+    "example": "Dignity is the right of every Roman citizen.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 62,
+    "word": "Oration",
+    "definition": "A formal speech, especially one given on a ceremonial occasion",
+    "example": "His oration against Catiline shook the senate.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 63,
+    "word": "Statesman",
+    "definition": "A skilled, experienced, and respected political leader",
+    "example": "A true statesman places country before self.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 64,
+    "word": "Posterity",
+    "definition": "All future generations of people",
+    "example": "We must consider what posterity will say of our actions.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 65,
+    "word": "Tyrant",
+    "definition": "A cruel and oppressive ruler",
+    "example": "No tyrant can long oppress a free people.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 66,
+    "word": "Morality",
+    "definition": "Principles concerning the distinction between right and wrong",
+    "example": "Morality without wisdom is but empty gesture.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 67,
+    "word": "Eloquence",
+    "definition": "Fluent or persuasive speaking or writing",
+    "example": "Eloquence is the offspring of wisdom and passion.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 68,
+    "word": "Peroration",
+    "definition": "The concluding part of a speech",
+    "example": "His peroration moved the assembly to tears.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 69,
+    "word": "Discourse",
+    "definition": "Written or spoken communication or debate",
+    "example": "Let our discourse be marked by reason and respect.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  },
+  {
+    "id": 70,
+    "word": "Constitution",
+    "definition": "A body of fundamental principles according to which a state is governed",
+    "example": "The constitution of a republic must protect the liberty of its citizens.",
+    "partOfSpeech": "noun",
+    "oratorId": 2
+  }
+]

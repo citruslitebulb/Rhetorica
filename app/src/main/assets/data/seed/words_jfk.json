@@ -1,0 +1,162 @@
+[
+  {
+    "id": 171,
+    "word": "Inaugural",
+    "definition": "Marking the beginning of an institution or activity",
+    "example": "His inaugural address inspired a generation.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10
+  },
+  {
+    "id": 172,
+    "word": "Bear",
+    "definition": "Carry the weight of; support; endure",
+    "example": "Ask not what your country can do for you; ask what you can do for your country.",
+    "partOfSpeech": "verb",
+    "oratorId": 10
+  },
+  {
+    "id": 173,
+    "word": "Sacrifice",
+    "definition": "An act of giving up something valued for the sake of something else regarded as more important",
+    "example": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 174,
+    "word": "Hazardous",
+    "definition": "Risky; dangerous",
+    "example": "The path to the moon is long and hazardous.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10
+  },
+  {
+    "id": 175,
+    "word": "Frontier",
+    "definition": "A line or border separating two countries; a new field of activity",
+    "example": "We stand today on the edge of a new frontier.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 176,
+    "word": "Torch",
+    "definition": "A portable means of illumination; something that serves to illuminate or enlighten",
+    "example": "The torch has been passed to a new generation of Americans.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 177,
+    "word": "Alliance",
+    "definition": "A union or association formed for mutual benefit",
+    "example": "Let every nation know that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 178,
+    "word": "Endure",
+    "definition": "Suffer something difficult or unpleasant patiently",
+    "example": "We shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe.",
+    "partOfSpeech": "verb",
+    "oratorId": 10
+  },
+  {
+    "id": 179,
+    "word": "Tyranny",
+    "definition": "Cruel and oppressive government or rule",
+    "example": "Let us never negotiate out of fear, but let us never fear to negotiate against tyranny.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 180,
+    "word": "Heritage",
+    "definition": "Property that is or may be inherited; an inheritance",
+    "example": "We are the heirs of the first revolution, inheritors of a great heritage.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 181,
+    "word": "Revolution",
+    "definition": "A forcible overthrow of a government or social order in favor of a new system",
+    "example": "We are the heirs of that first revolution.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 182,
+    "word": "Sovereign",
+    "definition": "A supreme ruler, especially a monarch",
+    "example": "The rights of man come not from the generosity of the state, but from the hand of God to sovereign individuals.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 183,
+    "word": "Pledge",
+    "definition": "A solemn promise or undertaking",
+    "example": "We pledge our support to all who seek liberty.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 184,
+    "word": "Summons",
+    "definition": "An authoritative or urgent call to someone to come to a place or gathering",
+    "example": "The summons goes out to all mankind to join the cause of freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 185,
+    "word": "Gravest",
+    "definition": "Most serious or solemn",
+    "example": "We face the gravest challenge of our generation.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10
+  },
+  {
+    "id": 186,
+    "word": "Vigilance",
+    "definition": "The action or state of keeping careful watch for possible danger",
+    "example": "Let the word go forth that we will remain vigilant.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 187,
+    "word": "Mastery",
+    "definition": "Comprehensive knowledge or skill in a subject or accomplishment",
+    "example": "We seek not the mastery of space for imperial reasons, but for the benefit of all.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 188,
+    "word": "Sister",
+    "definition": "A woman or girl in relation to other daughters and sons of her parents",
+    "example": "If a free society cannot help the many who are poor, it cannot save the few who are rich; we are all brothers and sisters.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  },
+  {
+    "id": 189,
+    "word": "Embark",
+    "definition": "Go on board a ship or aircraft; begin a course of action",
+    "example": "We choose to embark on this journey not because it is easy, but because it is hard.",
+    "partOfSpeech": "verb",
+    "oratorId": 10
+  },
+  {
+    "id": 190,
+    "word": "Civility",
+    "definition": "Formal politeness and courtesy in behavior or speech",
+    "example": "Let both sides explore what problems unite us instead of belaboring those problems which divide us with civility.",
+    "partOfSpeech": "noun",
+    "oratorId": 10
+  }
+]

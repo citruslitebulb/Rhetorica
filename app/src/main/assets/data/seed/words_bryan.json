@@ -1,0 +1,162 @@
+[
+  {
+    "id": 151,
+    "word": "Populism",
+    "definition": "Support for the concerns of ordinary people",
+    "example": "Populism gives voice to the forgotten man.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 152,
+    "word": "Crucify",
+    "definition": "Put to death by nailing or binding the hands and feet to a cross",
+    "example": "You shall not crucify mankind upon a cross of gold.",
+    "partOfSpeech": "verb",
+    "oratorId": 7
+  },
+  {
+    "id": 153,
+    "word": "Crowns",
+    "definition": "A circular ornamental headdress worn by a monarch",
+    "example": "Burn down your cities and leave our farms, and your cities will spring up again as if by magic; but destroy our farms and the grass will grow in the streets of every city in the country.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 154,
+    "word": "Thrones",
+    "definition": "The chair on which a sovereign is seated on state occasions",
+    "example": "Having behind us the producing masses of this nation, we shall answer their demands for a gold standard by saying to them: You shall not press down upon the brow of labor this crown of thorns.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 155,
+    "word": "Thorns",
+    "definition": "A stiff, sharp-pointed woody projection on a stem or plant",
+    "example": "You shall not press down upon the brow of labor this crown of thorns.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 156,
+    "word": "Monometallism",
+    "definition": "A system or theory using only one metal as standard currency",
+    "example": "Monometallism serves the interests of the wealthy few.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 157,
+    "word": "Bimetallism",
+    "definition": "The use of two metals, gold and silver, as currency",
+    "example": "Bimetallism will bring prosperity to the farmer and laborer.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 158,
+    "word": "Lustrous",
+    "definition": "Having luster; shining; bright; radiant",
+    "example": "The name of the Lord is lustrous and bright.",
+    "partOfSpeech": "adjective",
+    "oratorId": 7
+  },
+  {
+    "id": 159,
+    "word": "Gethsemane",
+    "definition": "A garden near Jerusalem where Jesus prayed before his crucifixion",
+    "example": "From the garden of Gethsemane to the mount of Calvary, the savior walked.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 160,
+    "word": "Calvary",
+    "definition": "The hill near Jerusalem where Jesus was crucified",
+    "example": "From Gethsemane to Calvary, the path of sacrifice.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 161,
+    "word": "Hedge",
+    "definition": "A fence or boundary formed by closely growing bushes or shrubs",
+    "example": "Our farms are the hedge that protects American prosperity.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 162,
+    "word": "Fertile",
+    "definition": "Producing or capable of producing abundant vegetation or crops",
+    "example": "The fertile prairies of the Midwest feed the nation.",
+    "partOfSpeech": "adjective",
+    "oratorId": 7
+  },
+  {
+    "id": 163,
+    "word": "Plains",
+    "definition": "A large area of flat land with few trees",
+    "example": "The vast plains of our country shall not be dominated by eastern financiers.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 164,
+    "word": "Valleys",
+    "definition": "A low area of land between hills or mountains",
+    "example": "From the valleys to the mountaintops, we demand justice.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 165,
+    "word": "Wage-earners",
+    "definition": "People who work for wages",
+    "example": "The wage-earners of this country deserve fair treatment.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 166,
+    "word": "Aspiring",
+    "definition": "Directing one's hopes or ambitions toward becoming a specified type of person",
+    "example": "The aspiring masses seek only a fair chance.",
+    "partOfSpeech": "adjective",
+    "oratorId": 7
+  },
+  {
+    "id": 167,
+    "word": "Forgotten",
+    "definition": "No longer remembered",
+    "example": "We must not let the forgotten man be cast aside.",
+    "partOfSpeech": "adjective",
+    "oratorId": 7
+  },
+  {
+    "id": 168,
+    "word": "Anvil",
+    "definition": "A heavy iron block on which hot metal is hammered into shape",
+    "example": "Upon this anvil of public opinion, we shall forge a new currency.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 169,
+    "word": "Hammer",
+    "definition": "A tool with a heavy metal head mounted at right angles at the end of a handle",
+    "example": "The hammer of the people shall ring upon the anvil of justice.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  },
+  {
+    "id": 170,
+    "word": "Raiment",
+    "definition": "Clothing; garments; dress",
+    "example": "The raiment of the wealthy is woven from the labor of the poor.",
+    "partOfSpeech": "noun",
+    "oratorId": 7
+  }
+]
