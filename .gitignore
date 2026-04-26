@@ -1,0 +1,18 @@
+# Android/Gradle
+.gradle/
+build/
+*/build/
+local.properties
+.idea/
+captures/
+
+# Kotlin/Java
+*.iml
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Skills directories
+.cursor/skills/
+.windsurf/skills/

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VocabDaily</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_profile">Profile</string>
+    <string name="widget_description">Daily vocabulary with definition</string>
+    <string name="widget_default_word">Word of the day</string>
+    <string name="widget_default_definition">Daily definition will appear here.</string>
+</resources>
