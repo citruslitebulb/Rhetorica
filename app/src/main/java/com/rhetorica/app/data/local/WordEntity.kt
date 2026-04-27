@@ -13,4 +13,5 @@ data class WordEntity(
     val example: String,
     val partOfSpeech: String,
     val oratorId: Long?,
+    val complexity: String = "intermediate",
 )

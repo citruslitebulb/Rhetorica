@@ -4,7 +4,7 @@
     "name": "Demosthenes",
     "description": "Greatest ancient orator who overcame a stutter to deliver powerful Philippics against tyranny",
     "oratorName": "Demosthenes",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Ancient Classics",
     "era": "Ancient Greece (384-322 BC)",
     "bio": "Demosthenes was the greatest ancient Greek orator, famous for his Philippics against Philip II of Macedon. He overcame a speech impediment through rigorous practice, speaking with pebbles in his mouth and reciting verses while running.",
@@ -13,7 +13,12 @@
     "voiceStyle": "Formal, resonant, commanding",
     "colorAccent": 13958644,
     "sampleSpeech": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
-    "tags": ["Ancient", "Anti-tyranny", "Perseverance", "Logic"],
+    "tags": [
+      "Ancient",
+      "Anti-tyranny",
+      "Perseverance",
+      "Logic"
+    ],
     "isActive": true
   },
   {
@@ -21,7 +26,7 @@
     "name": "Cicero",
     "description": "Roman master of persuasion, combining philosophy and law in eloquent speeches",
     "oratorName": "Cicero",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Ancient Classics",
     "era": "Roman Republic (106-43 BC)",
     "bio": "Marcus Tullius Cicero was a Roman statesman, lawyer, and philosopher, considered one of Rome's greatest orators. His speeches and writings set the standard for Latin eloquence and influenced Western rhetoric for centuries.",
@@ -30,7 +35,12 @@
     "voiceStyle": "Elegant, measured, sophisticated",
     "colorAccent": 128,
     "sampleSpeech": "The life of the dead is placed in the memory of the living. Not to know what happened before you were born is to remain a child forever.",
-    "tags": ["Philosophy", "Law", "Eloquence", "Wisdom"],
+    "tags": [
+      "Philosophy",
+      "Law",
+      "Eloquence",
+      "Wisdom"
+    ],
     "isActive": true
   },
   {
@@ -38,7 +48,7 @@
     "name": "Pericles",
     "description": "Athenian statesman whose Funeral Oration defined the ideals of democracy",
     "oratorName": "Pericles",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Ancient Classics",
     "era": "Ancient Greece (495-429 BC)",
     "bio": "Pericles was a prominent Greek statesman during Athens' Golden Age. His Funeral Oration is a classic statement of democratic values and civic duty, celebrating Athenian democracy and its citizens.",
@@ -47,7 +57,12 @@
     "voiceStyle": "Noble, uplifting, statesmanlike",
     "colorAccent": 42495,
     "sampleSpeech": "We do not say that a man who takes no interest in politics is a man who minds his own business; we say that he has no business here at all.",
-    "tags": ["Democracy", "Leadership", "Civic duty", "Athens"],
+    "tags": [
+      "Democracy",
+      "Leadership",
+      "Civic duty",
+      "Athens"
+    ],
     "isActive": true
   },
   {
@@ -55,7 +70,7 @@
     "name": "Isocrates",
     "description": "Greek educator and orator who emphasized moral rhetoric over sophistry",
     "oratorName": "Isocrates",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Ancient Classics",
     "era": "Ancient Greece (436-338 BC)",
     "bio": "Isocrates was an influential Athenian rhetorician and educator who founded a school of rhetoric. He emphasized moral education and ethical persuasion over the sophistry of his contemporaries.",
@@ -64,7 +79,12 @@
     "voiceStyle": "Patient, instructional, thoughtful",
     "colorAccent": 8388352,
     "sampleSpeech": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
-    "tags": ["Education", "Morality", "Philosophy", "Wisdom"],
+    "tags": [
+      "Education",
+      "Morality",
+      "Philosophy",
+      "Wisdom"
+    ],
     "isActive": true
   },
   {
@@ -72,7 +92,7 @@
     "name": "Abraham Lincoln",
     "description": "16th U.S. President known for the Gettysburg Address and mastery of clarity",
     "oratorName": "Abraham Lincoln",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "19th Century Powerhouses",
     "era": "American Civil War (1809-1865)",
     "bio": "Abraham Lincoln was the 16th President of the United States, leading the country through the Civil War. His speeches, particularly the Gettysburg Address, are masterpieces of concise, powerful rhetoric.",
@@ -81,7 +101,12 @@
     "voiceStyle": "Humble, firm, resonant",
     "colorAccent": 8943472,
     "sampleSpeech": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
-    "tags": ["Leadership", "Equality", "Freedom", "Unity"],
+    "tags": [
+      "Leadership",
+      "Equality",
+      "Freedom",
+      "Unity"
+    ],
     "isActive": true
   },
   {
@@ -89,7 +114,7 @@
     "name": "Frederick Douglass",
     "description": "Former slave and abolitionist whose speeches combined raw power with vivid imagery",
     "oratorName": "Frederick Douglass",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "19th Century Powerhouses",
     "era": "Abolitionist Movement (1818-1895)",
     "bio": "Frederick Douglass escaped slavery to become a leading abolitionist, writer, and orator. His powerful speeches condemned slavery and advocated for human rights with unmatched eloquence and moral urgency.",
@@ -98,7 +123,12 @@
     "voiceStyle": "Passionate, urgent, commanding",
     "colorAccent": 255,
     "sampleSpeech": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
-    "tags": ["Abolition", "Freedom", "Justice", "Human rights"],
+    "tags": [
+      "Abolition",
+      "Freedom",
+      "Justice",
+      "Human rights"
+    ],
     "isActive": true
   },
   {
@@ -106,7 +136,7 @@
     "name": "William Jennings Bryan",
     "description": "Populist orator famous for the 'Cross of Gold' speech and fiery rhetoric",
     "oratorName": "William Jennings Bryan",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "19th Century Powerhouses",
     "era": "Populist Era (1860-1925)",
     "bio": "William Jennings Bryan was a dominant force in American politics, known for his electrifying oratory. His 'Cross of Gold' speech is one of the most famous speeches in American political history.",
@@ -115,7 +145,12 @@
     "voiceStyle": "Fiery, passionate, rhythmic",
     "colorAccent": 16776960,
     "sampleSpeech": "You shall not crucify mankind upon a cross of gold.",
-    "tags": ["Populism", "Economics", "Religion", "Democracy"],
+    "tags": [
+      "Populism",
+      "Economics",
+      "Religion",
+      "Democracy"
+    ],
     "isActive": true
   },
   {
@@ -123,7 +158,7 @@
     "name": "Winston Churchill",
     "description": "British Prime Minister whose WWII speeches combined wit with resolve",
     "oratorName": "Winston Churchill",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "World War II (1874-1965)",
     "bio": "Sir Winston Churchill was a British statesman who served as Prime Minister during WWII. His speeches inspired the British people during their darkest hours, combining wit, resolve, and historical grandeur.",
@@ -132,7 +167,12 @@
     "voiceStyle": "Gravelly, resolute, aristocratic",
     "colorAccent": 255,
     "sampleSpeech": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
-    "tags": ["Leadership", "Courage", "Defiance", "Patriotism"],
+    "tags": [
+      "Leadership",
+      "Courage",
+      "Defiance",
+      "Patriotism"
+    ],
     "isActive": true
   },
   {
@@ -140,7 +180,7 @@
     "name": "Martin Luther King Jr.",
     "description": "Civil rights leader whose 'I Have a Dream' speech used rhythm and biblical power",
     "oratorName": "Martin Luther King Jr.",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Civil Rights Era (1929-1968)",
     "bio": "Martin Luther King Jr. was an American Baptist minister and activist who became the most visible spokesperson and leader in the Civil Rights Movement. His speeches used biblical allusion and rhythmic repetition to powerful effect.",
@@ -149,7 +189,12 @@
     "voiceStyle": "Resonant, rhythmic, prophetic",
     "colorAccent": 16711680,
     "sampleSpeech": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal.",
-    "tags": ["Leadership", "Justice", "Equality", "Nonviolence"],
+    "tags": [
+      "Leadership",
+      "Justice",
+      "Equality",
+      "Nonviolence"
+    ],
     "isActive": true
   },
   {
@@ -157,7 +202,7 @@
     "name": "John F. Kennedy",
     "description": "35th U.S. President whose speeches conveyed youthful idealism and vision",
     "oratorName": "John F. Kennedy",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Cold War Era (1917-1963)",
     "bio": "John F. Kennedy was the 35th President of the United States. His inaugural address and Moon speech exemplified his ability to inspire with youthful idealism and bold vision for the future.",
@@ -166,7 +211,12 @@
     "voiceStyle": "Crisp, energetic, optimistic",
     "colorAccent": 32768,
     "sampleSpeech": "Ask not what your country can do for you; ask what you can do for your country.",
-    "tags": ["Vision", "Leadership", "Space", "Democracy"],
+    "tags": [
+      "Vision",
+      "Leadership",
+      "Space",
+      "Democracy"
+    ],
     "isActive": true
   },
   {
@@ -174,7 +224,7 @@
     "name": "Franklin D. Roosevelt",
     "description": "32nd U.S. President whose fireside chats and speeches comforted a nation in crisis",
     "oratorName": "Franklin D. Roosevelt",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Great Depression & WWII (1882-1945)",
     "bio": "Franklin D. Roosevelt was the 32nd President of the United States, serving through the Great Depression and WWII. His fireside chats and inaugural addresses provided comfort and confidence to the American people.",
@@ -183,7 +233,12 @@
     "voiceStyle": "Warm, confident, reassuring",
     "colorAccent": 8421376,
     "sampleSpeech": "The only thing we have to fear is fear itself.",
-    "tags": ["Leadership", "Hope", "Resilience", "Crisis management"],
+    "tags": [
+      "Leadership",
+      "Hope",
+      "Resilience",
+      "Crisis management"
+    ],
     "isActive": true
   },
   {
@@ -191,7 +246,7 @@
     "name": "Nelson Mandela",
     "description": "South African leader whose speeches embodied forgiveness and strength",
     "oratorName": "Nelson Mandela",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Anti-Apartheid Era (1918-2013)",
     "bio": "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as President. His speeches from the Rivonia Trial and his inauguration demonstrated extraordinary forgiveness and moral strength.",
@@ -200,7 +255,12 @@
     "voiceStyle": "Dignified, measured, powerful",
     "colorAccent": 16711935,
     "sampleSpeech": "I have fought against white domination, and I have fought against black domination. I have cherished the ideal of a democratic and free society.",
-    "tags": ["Forgiveness", "Justice", "Leadership", "Equality"],
+    "tags": [
+      "Forgiveness",
+      "Justice",
+      "Leadership",
+      "Equality"
+    ],
     "isActive": true
   },
   {
@@ -208,7 +268,7 @@
     "name": "Mahatma Gandhi",
     "description": "Indian leader whose non-violence speeches emphasized simplicity and moral authority",
     "oratorName": "Mahatma Gandhi",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Indian Independence (1869-1948)",
     "bio": "Mahatma Gandhi was an Indian lawyer and political ethicist who led India's independence movement through non-violence. His speeches emphasized truth, simplicity, and moral authority over force.",
@@ -217,7 +277,12 @@
     "voiceStyle": "Gentle, firm, spiritual",
     "colorAccent": 16512,
     "sampleSpeech": "An eye for an eye only ends up making the whole world blind.",
-    "tags": ["Nonviolence", "Truth", "Simplicity", "Independence"],
+    "tags": [
+      "Nonviolence",
+      "Truth",
+      "Simplicity",
+      "Independence"
+    ],
     "isActive": true
   },
   {
@@ -225,7 +290,7 @@
     "name": "Margaret Thatcher",
     "description": "British Prime Minister known as the 'Iron Lady' for her conviction and clarity",
     "oratorName": "Margaret Thatcher",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "20th Century Legends",
     "era": "Thatcher Era (1925-2013)",
     "bio": "Margaret Thatcher was the first female Prime Minister of the United Kingdom, known as the 'Iron Lady' for her uncompromising leadership style. Her speeches were marked by conviction, clarity, and forceful argumentation.",
@@ -234,7 +299,12 @@
     "voiceStyle": "Sharp, decisive, authoritative",
     "colorAccent": 16744448,
     "sampleSpeech": "The lady's not for turning.",
-    "tags": ["Leadership", "Conviction", "Conservatism", "Strength"],
+    "tags": [
+      "Leadership",
+      "Conviction",
+      "Conservatism",
+      "Strength"
+    ],
     "isActive": true
   },
   {
@@ -242,7 +312,7 @@
     "name": "Barack Obama",
     "description": "44th U.S. President whose speeches featured cadence and hope",
     "oratorName": "Barack Obama",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Modern / Contemporary",
     "era": "21st Century (born 1961)",
     "bio": "Barack Obama was the 44th President of the United States and the first African American to hold the office. His 2004 DNC keynote and 'Yes We Can' speech showcased his powerful cadence and message of hope.",
@@ -251,7 +321,12 @@
     "voiceStyle": "Smooth, rhythmic, inspiring",
     "colorAccent": 16744192,
     "sampleSpeech": "Yes we can, to opportunity and prosperity. Yes we can heal this nation. Yes we can repair this world.",
-    "tags": ["Hope", "Change", "Inspiration", "Unity"],
+    "tags": [
+      "Hope",
+      "Change",
+      "Inspiration",
+      "Unity"
+    ],
     "isActive": true
   },
   {
@@ -259,7 +334,7 @@
     "name": "Maya Angelou",
     "description": "Poet and civil rights activist whose inaugural poems celebrated personal empowerment",
     "oratorName": "Maya Angelou",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Modern / Contemporary",
     "era": "Civil Rights to Present (1928-2014)",
     "bio": "Maya Angelou was an American poet, memoirist, and civil rights activist. Her inaugural poems and speeches celebrated personal empowerment, resilience, and the human spirit with profound wisdom.",
@@ -268,7 +343,12 @@
     "voiceStyle": "Warm, wise, maternal",
     "colorAccent": 16744703,
     "sampleSpeech": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
-    "tags": ["Poetry", "Empowerment", "Resilience", "Wisdom"],
+    "tags": [
+      "Poetry",
+      "Empowerment",
+      "Resilience",
+      "Wisdom"
+    ],
     "isActive": true
   },
   {
@@ -276,7 +356,7 @@
     "name": "Malala Yousafzai",
     "description": "Nobel laureate advocating for education and courage, especially for youth",
     "oratorName": "Malala Yousafzai",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Modern / Contemporary",
     "era": "21st Century (born 1997)",
     "bio": "Malala Yousafzai is a Pakistani activist for female education and the youngest Nobel Prize laureate. Her speeches advocate for education rights with courage beyond her years, inspiring young people worldwide.",
@@ -285,7 +365,12 @@
     "voiceStyle": "Clear, passionate, youthful",
     "colorAccent": 13882323,
     "sampleSpeech": "One child, one teacher, one book, one pen can change the world.",
-    "tags": ["Education", "Youth", "Courage", "Human rights"],
+    "tags": [
+      "Education",
+      "Youth",
+      "Courage",
+      "Human rights"
+    ],
     "isActive": true
   },
   {
@@ -293,7 +378,7 @@
     "name": "William Shakespeare",
     "description": "English playwright and poet whose works shaped the English language with unparalleled eloquence",
     "oratorName": "William Shakespeare",
-    "wordCount": 10,
+    "wordCount": 100,
     "category": "Literary Classics",
     "era": "Elizabethan Era (1564-1616)",
     "bio": "William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language. His plays and sonnets introduced hundreds of words and phrases into English, demonstrating masterful command of rhetoric and wordplay.",
@@ -302,7 +387,12 @@
     "voiceStyle": "Elevated, rhythmic, timeless",
     "colorAccent": 8421504,
     "sampleSpeech": "To be, or not to be, that is the question: whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles.",
-    "tags": ["Poetry", "Drama", "Language", "Timeless"],
+    "tags": [
+      "Poetry",
+      "Drama",
+      "Language",
+      "Timeless"
+    ],
     "isActive": true
   }
 ]

@@ -5,7 +5,8 @@
     "definition": "The action or an act of abolishing a system, practice, or institution",
     "example": "The abolition of slavery was the great moral crusade of the century.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 132,
@@ -13,7 +14,8 @@
     "definition": "The state of being a slave",
     "example": "I have seen the chains of bondage and felt the whip upon my back.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 133,
@@ -21,7 +23,8 @@
     "definition": "The fact or process of being set free from legal restrictions",
     "example": "Emancipation was the dawn of hope for millions in chains.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 134,
@@ -29,7 +32,8 @@
     "definition": "An owner of slaves",
     "example": "The slaveholder is the enemy of human progress.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 135,
@@ -37,7 +41,8 @@
     "definition": "Burning; extremely hot; severe or critical",
     "example": "What, to the American slave, is your Fourth of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 136,
@@ -45,7 +50,8 @@
     "definition": "Exemption from punishment or freedom from the injurious consequences of an action",
     "example": "The guilty may act with impunity no longer.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 137,
@@ -53,7 +59,8 @@
     "definition": "A surprising and previously unknown fact that is made known",
     "example": "The Fourth of July reveals the gross injustice of American society.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 138,
@@ -61,7 +68,8 @@
     "definition": "Feeling, expressing, or inducing grief, sorrow, or lamentation",
     "example": "The mournful cries of the oppressed echo across the land.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 139,
@@ -69,7 +77,8 @@
     "definition": "Making a sharp sound or series of sounds as of metal striking",
     "example": "The clanking of chains is the anthem of the enslaved.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 140,
@@ -77,7 +86,8 @@
     "definition": "Under a curse; doomed",
     "example": "The accursed system of slavery must be overthrown.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 141,
@@ -85,7 +95,8 @@
     "definition": "Not needing to be demonstrated or explained; obvious",
     "example": "The truths of freedom are self-evident to all who have eyes to see.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 142,
@@ -93,7 +104,8 @@
     "definition": "Unable to be taken away from or given away by the possessor",
     "example": "Life, liberty, and the pursuit of happiness are inalienable rights.",
     "partOfSpeech": "adjective",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 143,
@@ -101,7 +113,8 @@
     "definition": "The state or period of being a man rather than a child",
     "example": "What is possible for me is possible for any man who dares to claim his manhood.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 144,
@@ -109,7 +122,8 @@
     "definition": "A person who has escaped from a place or is in hiding",
     "example": "The fugitive slave knows no rest until freedom is won.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 145,
@@ -117,7 +131,8 @@
     "definition": "A vigorous campaign for political, social, or religious change",
     "example": "Our crusade for freedom will not end until every chain is broken.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 146,
@@ -125,7 +140,8 @@
     "definition": "A court of justice",
     "example": "The tribunal of public opinion will judge the slaveholder.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 147,
@@ -133,7 +149,8 @@
     "definition": "The practice of claiming to have moral standards to which one's own behavior does not conform",
     "example": "The hypocrisy of celebrating liberty while holding slaves is rank.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 148,
@@ -141,7 +158,8 @@
     "definition": "Beating with a whip or similar implement",
     "example": "The sound of the whipping post still haunts my dreams.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 149,
@@ -149,7 +167,8 @@
     "definition": "The human race; human beings collectively",
     "example": "The cause of humanity demands the end of slavery.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
   },
   {
     "id": 150,
@@ -157,6 +176,727 @@
     "definition": "The action of being rescued or set free",
     "example": "Deliverance from bondage came at last.",
     "partOfSpeech": "noun",
-    "oratorId": 6
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 731,
+    "word": "Agrarian",
+    "definition": "A person who advocates the political interests of working farmers",
+    "example": "The speech returned to the idea of agrarian as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 732,
+    "word": "Autonomy",
+    "definition": "Self-government; freedom to act or function independently.",
+    "example": "The speech returned to the idea of autonomy as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 733,
+    "word": "Citizenship",
+    "definition": "The status of being a citizen, in its various senses.",
+    "example": "The speech returned to the idea of citizenship as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 734,
+    "word": "Commerce",
+    "definition": "The exchange or buying and selling of commodities; especially the exchange of merchandise, on a large scale, between different places or communities; extended trade or traffic.",
+    "example": "The speech returned to the idea of commerce as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 735,
+    "word": "Conciliation",
+    "definition": "The process of bringing peace and harmony; the ending of strife.",
+    "example": "The speech returned to the idea of conciliation as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 736,
+    "word": "Constitutional",
+    "definition": "A walk that is taken regularly for good health and wellbeing.",
+    "example": "The speech returned to the idea of constitutional as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 737,
+    "word": "Dissent",
+    "definition": "Disagreement with the ideas, doctrines, decrees, etc. of a political party, government or religion.",
+    "example": "The speech returned to the idea of dissent as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 738,
+    "word": "Franchise",
+    "definition": "The right to vote at a public election or referendum; see: suffrage, suffragette.",
+    "example": "The speech returned to the idea of franchise as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 739,
+    "word": "Frontier",
+    "definition": "The part of a country which borders or faces another country or unsettled region",
+    "example": "The speech returned to the idea of frontier as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 740,
+    "word": "Grievance",
+    "definition": "Something which causes grief.",
+    "example": "The speech returned to the idea of grievance as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 741,
+    "word": "Homestead",
+    "definition": "A house together with surrounding land and buildings, especially on a farm; the property comprising these.",
+    "example": "The speech returned to the idea of homestead as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 742,
+    "word": "Industry",
+    "definition": "The tendency to work persistently. Diligence.",
+    "example": "Over the years, their industry and business sense made them wealthy.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 743,
+    "word": "Labor",
+    "definition": "Effort expended on a particular task; toil, work.",
+    "example": "The speech returned to the idea of labor as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 744,
+    "word": "Livelihood",
+    "definition": "A means of providing the necessities of life for oneself (for example, a job or income).",
+    "example": "an independent livelihood; to make / earn / gain a good livelihood",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 745,
+    "word": "Manifesto",
+    "definition": "A public declaration of principles, policies, or intentions, especially that of a political party.",
+    "example": "A creed is a manifesto of religious or spiritual beliefs.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 746,
+    "word": "Moderation",
+    "definition": "The state or quality of being moderate; avoidance of extremes",
+    "example": "The speech returned to the idea of moderation as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 747,
+    "word": "Ordinance",
+    "definition": "A local law",
+    "example": "The speech returned to the idea of ordinance as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 748,
+    "word": "Petition",
+    "definition": "A formal, written request made to an official person or organized body, often containing many signatures.",
+    "example": "The speech returned to the idea of petition as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 749,
+    "word": "Pluralism",
+    "definition": "The quality or state of being plural, or in the plural number.",
+    "example": "The speech returned to the idea of pluralism as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 750,
+    "word": "Populism",
+    "definition": "A political approach that claims to represent the interests of ordinary people",
+    "example": "His brand of populism turned economic anger into political energy.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 751,
+    "word": "Posterity",
+    "definition": "All the future generations, especially the descendants of a specific person.",
+    "example": "The speech returned to the idea of posterity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 752,
+    "word": "Proclamation",
+    "definition": "A statement which is proclaimed; formal public announcement.",
+    "example": "The speech returned to the idea of proclamation as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 753,
+    "word": "Prosperity",
+    "definition": "The condition of being prosperous, of having good fortune",
+    "example": "The speech returned to the idea of prosperity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 754,
+    "word": "Reconstruction",
+    "definition": "A thing that has been reconstructed or restored to an earlier state.",
+    "example": "The speech returned to the idea of reconstruction as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 755,
+    "word": "Referendum",
+    "definition": "A direct popular vote on a proposed law or constitutional amendment. The adposition on is usually used before the related subject of the vote.",
+    "example": "The speech returned to the idea of referendum as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 756,
+    "word": "Representation",
+    "definition": "That which represents something else.",
+    "example": "The Venus of Willendorf was an early representation of the female body.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 757,
+    "word": "Reformer",
+    "definition": "One who reforms, or who works for reform.",
+    "example": "The speech returned to the idea of reformer as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 758,
+    "word": "Suffrage",
+    "definition": "The right or chance to vote, express an opinion, or participate in a decision.",
+    "example": "The speech returned to the idea of suffrage as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 759,
+    "word": "Tariff",
+    "definition": "A system of government-imposed duties levied on imported or exported goods; a list of such duties, or the duties themselves.",
+    "example": "The speech returned to the idea of tariff as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 760,
+    "word": "Tenement",
+    "definition": "A building that is rented to multiple tenants, especially a low-rent, run-down one.",
+    "example": "The speech returned to the idea of tenement as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 761,
+    "word": "Toil",
+    "definition": "Labour, work, especially of a grueling nature.",
+    "example": "The speech returned to the idea of toil as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 762,
+    "word": "Union",
+    "definition": "The act of uniting or joining two or more things into one.",
+    "example": "The speech returned to the idea of union as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 763,
+    "word": "Uplift",
+    "definition": "The act or result of being uplifted.",
+    "example": "The speech returned to the idea of uplift as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 764,
+    "word": "Welfare",
+    "definition": "Health, safety, happiness and prosperity; well-being in any respect.",
+    "example": "The speech returned to the idea of welfare as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 765,
+    "word": "Commonwealth",
+    "definition": "The well-being of a community.",
+    "example": "The speech returned to the idea of commonwealth as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 766,
+    "word": "Federation",
+    "definition": "Act of joining together into a single political entity.",
+    "example": "It is 106 years since federation.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 767,
+    "word": "Accountability",
+    "definition": "The state of being accountable; liability to be called on to render an account; accountableness; responsible for; answerable for.",
+    "example": "The speech returned to the idea of accountability as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 768,
+    "word": "Advocate",
+    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
+    "example": "The speech returned to the idea of advocate as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 769,
+    "word": "Alliance",
+    "definition": "The state of being allied.",
+    "example": "matrimonial alliances; an alliance between church and state, or between two countries",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 770,
+    "word": "Amplify",
+    "definition": "To render larger, more extended, or more intense.",
+    "example": "amplify a microscopes",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 771,
+    "word": "Adapt",
+    "definition": "To make suitable; to make to correspond; to fit or suit",
+    "example": "The speaker tried to adapt the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 772,
+    "word": "Balance",
+    "definition": "A state in which opposing forces harmonise; equilibrium.",
+    "example": "The speech returned to the idea of balance as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 773,
+    "word": "Catalyst",
+    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
+    "example": "The speech returned to the idea of catalyst as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 774,
+    "word": "Challenge",
+    "definition": "A confrontation; a dare.",
+    "example": "The speech returned to the idea of challenge as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 775,
+    "word": "Character",
+    "definition": "A being involved in the action of a story.",
+    "example": "The speech returned to the idea of character as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 776,
+    "word": "Choice",
+    "definition": "An option; a decision; an opportunity to choose or select something.",
+    "example": "Do I have a choice of what color to paint it?",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 777,
+    "word": "Clarity",
+    "definition": "The state or measure of being clear, either in appearance, thought or style; lucidity.",
+    "example": "Lack of clarity on the part of the teacher will cause confusion among the students.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 778,
+    "word": "Coalition",
+    "definition": "A temporary group or union of organizations, usually formed for a particular advantage.",
+    "example": "The Liberal Democrats and Conservative parties formed a coalition government in 2010.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 779,
+    "word": "Community",
+    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
+    "example": "The speech returned to the idea of community as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 780,
+    "word": "Consensus",
+    "definition": "A process of decision-making that seeks widespread agreement among group members.",
+    "example": "The speech returned to the idea of consensus as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 781,
+    "word": "Conviction",
+    "definition": "A firmly held belief.",
+    "example": "The speech returned to the idea of conviction as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 782,
+    "word": "Courage",
+    "definition": "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate.",
+    "example": "It takes a lot of courage to be successful in business.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 783,
+    "word": "Credible",
+    "definition": "Believable or plausible.",
+    "example": "Her credible tone gave the address an unmistakable sense of purpose.",
+    "partOfSpeech": "adjective",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 784,
+    "word": "Debate",
+    "definition": "An argument, or discussion, usually in an ordered or formal setting, often with more than two people, generally ending with a vote or other decision.",
+    "example": "After a four-hour debate, the committee voted to table the motion.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 785,
+    "word": "Dialogue",
+    "definition": "A conversation or other form of discourse between two or more individuals.",
+    "example": "Bill and Melinda maintained a dialogue via email over the course of their long-distance relationship.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 786,
+    "word": "Dignity",
+    "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
+    "example": "The speech returned to the idea of dignity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 787,
+    "word": "Discourse",
+    "definition": "Verbal exchange, conversation.",
+    "example": "The speech returned to the idea of discourse as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 788,
+    "word": "Empathy",
+    "definition": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
+    "example": "She had a lot of empathy for her neighbor; she knew what it was like to lose a parent too.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 789,
+    "word": "Endeavor",
+    "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
+    "example": "The speech returned to the idea of endeavor as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 790,
+    "word": "Endure",
+    "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
+    "example": "The singer's popularity endured for decades.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 791,
+    "word": "Equity",
+    "definition": "Fairness, impartiality, or justice as determined in light of 'natural law' or 'natural right'.",
+    "example": "The speech returned to the idea of equity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 792,
+    "word": "Ethics",
+    "definition": "The study of principles relating to right and wrong conduct.",
+    "example": "The speech returned to the idea of ethics as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 793,
+    "word": "Evidence",
+    "definition": "Facts or observations presented in support of an assertion.",
+    "example": "There is no evidence that anyone was here earlier.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 794,
+    "word": "Fairness",
+    "definition": "The property of being fair or equitable.",
+    "example": "Some questioned the fairness of the new laws.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 795,
+    "word": "Fortitude",
+    "definition": "Mental or emotional strength that enables courage in the face of adversity.",
+    "example": "The speech returned to the idea of fortitude as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced"
+  },
+  {
+    "id": 796,
+    "word": "Freedom",
+    "definition": "The power or right to act, speak, or think without unjust restraint",
+    "example": "The speech framed freedom as the birthright of every citizen.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 797,
+    "word": "Future",
+    "definition": "The time ahead; those moments yet to be experienced.",
+    "example": "The speech returned to the idea of future as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 798,
+    "word": "Govern",
+    "definition": "The act of governing",
+    "example": "The speech returned to the idea of govern as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 799,
+    "word": "Guide",
+    "definition": "Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation.",
+    "example": "The guide led us around the museum and explained the exhibits.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 800,
+    "word": "Harmony",
+    "definition": "Agreement or accord.",
+    "example": "The speech returned to the idea of harmony as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 801,
+    "word": "Heal",
+    "definition": "A spell or ability that restores hit points or removes a status ailment.",
+    "example": "The speech returned to the idea of heal as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 802,
+    "word": "Humility",
+    "definition": "The characteristic of being humble; humbleness in character and behavior.",
+    "example": "The speech returned to the idea of humility as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 803,
+    "word": "Impact",
+    "definition": "The striking of one body against another; collision.",
+    "example": "The speech returned to the idea of impact as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 804,
+    "word": "Inclusion",
+    "definition": "An addition or annex to a group, set, or total.",
+    "example": "The poem was a new inclusion in the textbook.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 805,
+    "word": "Influence",
+    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+    "example": "I have absolutely no influence over him.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 806,
+    "word": "Inspire",
+    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
+    "example": "The speaker tried to inspire the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 807,
+    "word": "Integrity",
+    "definition": "Steadfast adherence to a strict moral or ethical code.",
+    "example": "The speech returned to the idea of integrity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 808,
+    "word": "Justice",
+    "definition": "The state or characteristic of being just or fair.",
+    "example": "the justice of a description",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "easy"
+  },
+  {
+    "id": 809,
+    "word": "Legacy",
+    "definition": "Money or property bequeathed to someone in a will.",
+    "example": "The speech returned to the idea of legacy as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 810,
+    "word": "Liberty",
+    "definition": "The condition of being free from control or restrictions.",
+    "example": "The army is here, your liberty is assured.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate"
   }
 ]

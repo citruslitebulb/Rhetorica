@@ -5,7 +5,8 @@
     "definition": "The state of being well known for some bad quality or deed",
     "example": "Yesterday, December 7, 1941—a date which will live in infamy.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 192,
@@ -13,7 +14,8 @@
     "definition": "The area around a fireplace; used figuratively to denote domestic comfort",
     "example": "His fireside chats brought the president into every American living room.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 193,
@@ -21,7 +23,8 @@
     "definition": "A long and severe recession in an economy or market",
     "example": "The only thing we have to fear is fear itself in times of depression.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 194,
@@ -29,7 +32,8 @@
     "definition": "Anxiety or fear that something bad or unpleasant will happen",
     "example": "Let me assert my firm belief that the only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 195,
@@ -37,7 +41,8 @@
     "definition": "Extreme fear",
     "example": "The only thing we have to fear is fear itself—nameless, unreasoning, unjustified terror.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 196,
@@ -45,7 +50,8 @@
     "definition": "The crime of betraying one's country",
     "example": "Economic royalists sought to control the government in a form of treason against the people.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 197,
@@ -53,7 +59,8 @@
     "definition": "A supporter of the king or the principle of monarchy",
     "example": "Economic royalists have carved a new dynasty of power.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 198,
@@ -61,7 +68,8 @@
     "definition": "The state of being unemployed",
     "example": "I see one-third of a nation ill-housed, ill-clad, ill-nourished, suffering from unemployment.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 199,
@@ -69,7 +77,8 @@
     "definition": "The action or process of making ready or being made ready for use",
     "example": "Victory requires preparation and sacrifice.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 200,
@@ -77,15 +86,17 @@
     "definition": "Not conquerable; that cannot be overcome or defeated",
     "example": "The American spirit is unconquerable in the face of any challenge.",
     "partOfSpeech": "adjective",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 201,
     "word": "Confidence",
-    "definition": "The feeling or belief that one can rely on someone or something",
-    "example": "We have confidence in the future of democracy.",
+    "definition": "A feeling of trust in one's abilities, judgment, or worth",
+    "example": "Her confidence made the message sound inevitable.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 202,
@@ -93,7 +104,8 @@
     "definition": "An instance of resuming an activity or state after an interruption",
     "example": "Let us dedicate ourselves to a new task and a new renewal of spirit.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 203,
@@ -101,7 +113,8 @@
     "definition": "Poverty so extreme that one lacks the means to provide for oneself",
     "example": "We seek to end the destitution of millions in our land.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 204,
@@ -109,7 +122,8 @@
     "definition": "Assistance, especially in the form of food, clothing, or money, given to those in special need or difficulty",
     "example": "The New Deal brought relief to millions of suffering Americans.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 205,
@@ -117,7 +131,8 @@
     "definition": "The capacity to recover quickly from difficulties",
     "example": "The resilience of the American people shall see us through.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 206,
@@ -125,7 +140,8 @@
     "definition": "A collection of weapons and military equipment; a place where weapons are made or stored",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 207,
@@ -133,7 +149,8 @@
     "definition": "A system of government by the whole population",
     "example": "We must be the great arsenal of democracy in the fight against tyranny.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 208,
@@ -141,7 +158,8 @@
     "definition": "Stop resisting to an enemy or opponent and submit to their authority",
     "example": "No surrender to fear shall darken our path.",
     "partOfSpeech": "verb",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 209,
@@ -149,7 +167,8 @@
     "definition": "Something that serves as a sign or evidence of a specified fact",
     "example": "Our recovery is a testament to American ingenuity.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "intermediate"
   },
   {
     "id": 210,
@@ -157,6 +176,727 @@
     "definition": "A feeling of expectation and desire for a certain thing to happen",
     "example": "We have nothing to fear but fear itself, and hope shall guide us through.",
     "partOfSpeech": "noun",
-    "oratorId": 11
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1151,
+    "word": "Armistice",
+    "definition": "The armistice agreement signed between the Allies and Germany on 11 November 1918 to end World War I; (by extension) the end of World War I.",
+    "example": "The speech returned to the idea of armistice as a guiding principle.",
+    "partOfSpeech": "proper noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1152,
+    "word": "Atrocity",
+    "definition": "An extremely cruel act; a horrid act of injustice.",
+    "example": "The regime is guilty of mass atrocities including forced displacement and the use of chemical weapons.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1153,
+    "word": "Ceasefire",
+    "definition": "In warfare, an agreed end to hostilities for a specific purpose. (Typically only temporary).",
+    "example": "The rebels agreed to a ceasefire while the peace talks were underway.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1154,
+    "word": "Detente",
+    "definition": "The easing of hostility or tension between rivals",
+    "example": "They treated detente as a fragile opening that still required vigilance.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1155,
+    "word": "Diplomat",
+    "definition": "A person, such as an ambassador, who is accredited to represent a government officially in its relations with other governments or international organisations",
+    "example": "The speech returned to the idea of diplomat as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1156,
+    "word": "Fascism",
+    "definition": "An authoritarian political system marked by dictatorial power and suppression of opposition",
+    "example": "He warned that fascism grows when fear silences public courage.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1157,
+    "word": "Fortify",
+    "definition": "To increase the defenses of; to strengthen and secure by military works; to render defensible against an attack by hostile forces.",
+    "example": "The speaker tried to fortify the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1158,
+    "word": "Genocide",
+    "definition": "The systematic killing of substantial numbers of people on the basis of their ethnicity, religion, political beliefs, social status, or other particularities.",
+    "example": "A genocide will always be followed by the denial that it ever happened.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1159,
+    "word": "Humanitarian",
+    "definition": "Concerned with improving people's lives and reducing suffering",
+    "example": "The address made a humanitarian case for protecting civilians.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1160,
+    "word": "Ideology",
+    "definition": "Doctrine, philosophy, body of beliefs or principles belonging to an individual or group.",
+    "example": "A dictatorship, in order to secure its reign, bans things that do not conform to its ideology.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1161,
+    "word": "Insurgency",
+    "definition": "Rebellion; revolt; the state of being insurgent",
+    "example": "suppress the insurgency by isolating the rebels from the rest of the population",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1162,
+    "word": "Liberation",
+    "definition": "The act of liberating or the state of being liberated.",
+    "example": "The speech returned to the idea of liberation as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1163,
+    "word": "Mobilize",
+    "definition": "To make something mobile.",
+    "example": "The speaker tried to mobilize the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1164,
+    "word": "Morale",
+    "definition": "The capacity of people to maintain belief in an institution or a goal, or even in oneself and others.",
+    "example": "Morale is an important quality in soldiers. With good morale they'll charge into a hail of bullets; without it they won't even cross a street.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1165,
+    "word": "Occupation",
+    "definition": "An activity or task with which one occupies oneself; usually specifically the productive activity, service, trade, or craft for which one is regularly paid; a job.",
+    "example": "The speech returned to the idea of occupation as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1166,
+    "word": "Oppression",
+    "definition": "The exercise of authority or power in a burdensome, cruel, or unjust manner.",
+    "example": "The speech returned to the idea of oppression as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1167,
+    "word": "Patriotism",
+    "definition": "Love of one's country; devotion to the welfare of one's compatriots; passion which inspires one to serve one's country.",
+    "example": "The speech returned to the idea of patriotism as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1168,
+    "word": "Policy",
+    "definition": "A principle of behaviour, conduct etc. thought to be desirable or necessary, especially as formally expressed by a government or other authoritative body.",
+    "example": "The Communist Party has a policy of returning power to the workers.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1169,
+    "word": "Precedent",
+    "definition": "An act in the past which may be used as an example to help decide the outcome of similar instances in the future.",
+    "example": "The speech returned to the idea of precedent as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1170,
+    "word": "Propaganda",
+    "definition": "A concerted set of messages aimed at influencing the opinions or behavior of large numbers of people.",
+    "example": "The speech returned to the idea of propaganda as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1171,
+    "word": "Reconciliation",
+    "definition": "The reestablishment of friendly relations; conciliation or rapprochement.",
+    "example": "He longed for reconciliation with his estranged father, but too many painful memories kept him from making contact again.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1172,
+    "word": "Recovery",
+    "definition": "The act or process of regaining or repossession of something lost.",
+    "example": "The speech returned to the idea of recovery as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1173,
+    "word": "Refuge",
+    "definition": "A state of safety, protection or shelter.",
+    "example": "The speech returned to the idea of refuge as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1174,
+    "word": "Sanction",
+    "definition": "An approval, by an authority, generally one that makes something valid.",
+    "example": "The whalers had been operating in the contested waters off the island with sanction from the Japanese government.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1175,
+    "word": "Security",
+    "definition": "The condition of not being threatened, especially physically, psychologically, emotionally, or financially.",
+    "example": "The speech returned to the idea of security as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1176,
+    "word": "Statesman",
+    "definition": "A man who is a leader in national or international affairs.",
+    "example": "The speech returned to the idea of statesman as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1177,
+    "word": "Summit",
+    "definition": "A peak; the topmost point or surface, as of a mountain.",
+    "example": "In summer, it is possible to hike to the summit of Mount Shasta.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1178,
+    "word": "Totalitarian",
+    "definition": "An advocate of totalitarianism.",
+    "example": "The speech returned to the idea of totalitarian as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1179,
+    "word": "Treaty",
+    "definition": "A binding agreement concluded by subjects of international law, namely states and international organizations.",
+    "example": "The speech returned to the idea of treaty as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1180,
+    "word": "Turmoil",
+    "definition": "A state of great disorder or uncertainty.",
+    "example": "The speech returned to the idea of turmoil as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1181,
+    "word": "Upheaval",
+    "definition": "Change, from one state to another",
+    "example": "The speech returned to the idea of upheaval as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1182,
+    "word": "Vigilance",
+    "definition": "Alert watchfulness.",
+    "example": "The speech returned to the idea of vigilance as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1183,
+    "word": "Wartime",
+    "definition": "Connected with a period during which a war is being fought",
+    "example": "The wartime broadcast steadied a frightened nation.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1184,
+    "word": "Unification",
+    "definition": "The act of unifying.",
+    "example": "The speech returned to the idea of unification as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1185,
+    "word": "Reprisal",
+    "definition": "An act of retaliation.",
+    "example": "The speech returned to the idea of reprisal as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1186,
+    "word": "Stability",
+    "definition": "The condition of being stable or in equilibrium, and thus resistant to change.",
+    "example": "The speech returned to the idea of stability as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1187,
+    "word": "Resistance",
+    "definition": "The act of resisting, or the capacity to resist.",
+    "example": "the resistance of bacteria to certain antibiotics",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1188,
+    "word": "Deterrence",
+    "definition": "The act of deterring, or the state of being deterred.",
+    "example": "The speech returned to the idea of deterrence as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1189,
+    "word": "Advocate",
+    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
+    "example": "The speech returned to the idea of advocate as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1190,
+    "word": "Alliance",
+    "definition": "The state of being allied.",
+    "example": "matrimonial alliances; an alliance between church and state, or between two countries",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1191,
+    "word": "Amplify",
+    "definition": "To render larger, more extended, or more intense.",
+    "example": "amplify a microscopes",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1192,
+    "word": "Adapt",
+    "definition": "To make suitable; to make to correspond; to fit or suit",
+    "example": "The speaker tried to adapt the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1193,
+    "word": "Balance",
+    "definition": "A state in which opposing forces harmonise; equilibrium.",
+    "example": "The speech returned to the idea of balance as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1194,
+    "word": "Catalyst",
+    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
+    "example": "The speech returned to the idea of catalyst as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1195,
+    "word": "Challenge",
+    "definition": "A confrontation; a dare.",
+    "example": "The speech returned to the idea of challenge as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1196,
+    "word": "Character",
+    "definition": "A being involved in the action of a story.",
+    "example": "The speech returned to the idea of character as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1197,
+    "word": "Choice",
+    "definition": "An option; a decision; an opportunity to choose or select something.",
+    "example": "Do I have a choice of what color to paint it?",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1198,
+    "word": "Clarity",
+    "definition": "The state or measure of being clear, either in appearance, thought or style; lucidity.",
+    "example": "Lack of clarity on the part of the teacher will cause confusion among the students.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1199,
+    "word": "Coalition",
+    "definition": "A temporary group or union of organizations, usually formed for a particular advantage.",
+    "example": "The Liberal Democrats and Conservative parties formed a coalition government in 2010.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1200,
+    "word": "Community",
+    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
+    "example": "The speech returned to the idea of community as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1201,
+    "word": "Consensus",
+    "definition": "A process of decision-making that seeks widespread agreement among group members.",
+    "example": "The speech returned to the idea of consensus as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1202,
+    "word": "Conviction",
+    "definition": "A firmly held belief.",
+    "example": "The speech returned to the idea of conviction as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1203,
+    "word": "Courage",
+    "definition": "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate.",
+    "example": "It takes a lot of courage to be successful in business.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1204,
+    "word": "Credible",
+    "definition": "Believable or plausible.",
+    "example": "Her credible tone gave the address an unmistakable sense of purpose.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1205,
+    "word": "Debate",
+    "definition": "An argument, or discussion, usually in an ordered or formal setting, often with more than two people, generally ending with a vote or other decision.",
+    "example": "After a four-hour debate, the committee voted to table the motion.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1206,
+    "word": "Dialogue",
+    "definition": "A conversation or other form of discourse between two or more individuals.",
+    "example": "Bill and Melinda maintained a dialogue via email over the course of their long-distance relationship.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1207,
+    "word": "Dignity",
+    "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
+    "example": "The speech returned to the idea of dignity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1208,
+    "word": "Discourse",
+    "definition": "Verbal exchange, conversation.",
+    "example": "The speech returned to the idea of discourse as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1209,
+    "word": "Empathy",
+    "definition": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
+    "example": "She had a lot of empathy for her neighbor; she knew what it was like to lose a parent too.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1210,
+    "word": "Endeavor",
+    "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
+    "example": "The speech returned to the idea of endeavor as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1211,
+    "word": "Endure",
+    "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
+    "example": "The singer's popularity endured for decades.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1212,
+    "word": "Equity",
+    "definition": "Fairness, impartiality, or justice as determined in light of 'natural law' or 'natural right'.",
+    "example": "The speech returned to the idea of equity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1213,
+    "word": "Ethics",
+    "definition": "The study of principles relating to right and wrong conduct.",
+    "example": "The speech returned to the idea of ethics as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1214,
+    "word": "Evidence",
+    "definition": "Facts or observations presented in support of an assertion.",
+    "example": "There is no evidence that anyone was here earlier.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1215,
+    "word": "Fairness",
+    "definition": "The property of being fair or equitable.",
+    "example": "Some questioned the fairness of the new laws.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1216,
+    "word": "Fortitude",
+    "definition": "Mental or emotional strength that enables courage in the face of adversity.",
+    "example": "The speech returned to the idea of fortitude as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced"
+  },
+  {
+    "id": 1217,
+    "word": "Freedom",
+    "definition": "The power or right to act, speak, or think without unjust restraint",
+    "example": "The speech framed freedom as the birthright of every citizen.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1218,
+    "word": "Future",
+    "definition": "The time ahead; those moments yet to be experienced.",
+    "example": "The speech returned to the idea of future as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1219,
+    "word": "Govern",
+    "definition": "The act of governing",
+    "example": "The speech returned to the idea of govern as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1220,
+    "word": "Guide",
+    "definition": "Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation.",
+    "example": "The guide led us around the museum and explained the exhibits.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1221,
+    "word": "Harmony",
+    "definition": "Agreement or accord.",
+    "example": "The speech returned to the idea of harmony as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1222,
+    "word": "Heal",
+    "definition": "A spell or ability that restores hit points or removes a status ailment.",
+    "example": "The speech returned to the idea of heal as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1223,
+    "word": "Humility",
+    "definition": "The characteristic of being humble; humbleness in character and behavior.",
+    "example": "The speech returned to the idea of humility as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1224,
+    "word": "Impact",
+    "definition": "The striking of one body against another; collision.",
+    "example": "The speech returned to the idea of impact as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1225,
+    "word": "Inclusion",
+    "definition": "An addition or annex to a group, set, or total.",
+    "example": "The poem was a new inclusion in the textbook.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1226,
+    "word": "Influence",
+    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+    "example": "I have absolutely no influence over him.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1227,
+    "word": "Inspire",
+    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
+    "example": "The speaker tried to inspire the audience with a calm but forceful appeal.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1228,
+    "word": "Integrity",
+    "definition": "Steadfast adherence to a strict moral or ethical code.",
+    "example": "The speech returned to the idea of integrity as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
+  },
+  {
+    "id": 1229,
+    "word": "Justice",
+    "definition": "The state or characteristic of being just or fair.",
+    "example": "the justice of a description",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "easy"
+  },
+  {
+    "id": 1230,
+    "word": "Legacy",
+    "definition": "Money or property bequeathed to someone in a will.",
+    "example": "The speech returned to the idea of legacy as a guiding principle.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate"
   }
 ]
