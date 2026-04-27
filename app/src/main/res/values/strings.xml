@@ -12,6 +12,10 @@
     <string name="profile_orator_selection">Select Your Orator</string>
     <string name="profile_rotate_all">Rotate Through All Orators</string>
     <string name="profile_no_orators">No orators available</string>
+    <string name="profile_widget_appearance">Widget Appearance</string>
+    <string name="profile_widget_color">Background color</string>
+    <string name="profile_widget_opacity">Opacity</string>
+    <string name="profile_widget_opacity_value">%1$d%%</string>
     <string name="word_save">Save word</string>
     <string name="word_unsave">Remove saved word</string>
     <string name="word_detail_title">Word Detail</string>
@@ -35,4 +39,9 @@
     <string name="saved_sort_newest">Newest</string>
     <string name="saved_sort_alphabetical">A-Z</string>
     <string name="saved_sort_part_of_speech">Part of speech</string>
+    <string name="widget_color_midnight">Midnight</string>
+    <string name="widget_color_claret">Claret</string>
+    <string name="widget_color_bronze">Bronze</string>
+    <string name="widget_color_ink">Ink</string>
+    <string name="widget_color_plum">Plum</string>
 </resources>

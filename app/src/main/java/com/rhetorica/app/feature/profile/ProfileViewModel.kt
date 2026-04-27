@@ -1,12 +1,15 @@
 package com.rhetorica.app.feature.profile
 
+import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.widget.WidgetAppearance
 import dagger.hilt.android.lifecycle.HiltViewModel
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
@@ -18,6 +21,7 @@ import javax.inject.Inject
 class ProfileViewModel @Inject constructor(
     private val dictionaryRepository: DictionaryRepository,
     private val userPreferencesDao: UserPreferencesDao,
+    @ApplicationContext private val context: Context,
 ) : ViewModel() {
     val uiState: StateFlow<ProfileUiState> = combine(
         dictionaryRepository.observeActiveOratorProfiles(),
@@ -27,6 +31,8 @@ class ProfileViewModel @Inject constructor(
             orators = orators,
             selectedOratorId = preferences?.selectedOratorId,
             rotateThroughAll = preferences?.rotateThroughAll ?: false,
+            widgetBackgroundColor = preferences?.widgetBackgroundColor ?: 0xFF2C3E50.toInt(),
+            widgetBackgroundOpacityPercent = preferences?.widgetBackgroundOpacityPercent ?: 80,
         )
     }.stateIn(
         scope = viewModelScope,
@@ -44,6 +50,7 @@ class ProfileViewModel @Inject constructor(
                     selectedOratorId = oratorId,
                 )
             userPreferencesDao.upsertUserPreferences(updatedPrefs)
+            WidgetAppearance.refreshAllWidgets(context)
         }
     }
 
@@ -57,6 +64,40 @@ class ProfileViewModel @Inject constructor(
                     selectedOratorId = null,
                 )
             userPreferencesDao.upsertUserPreferences(updatedPrefs)
+            WidgetAppearance.refreshAllWidgets(context)
+        }
+    }
+
+    fun updateWidgetBackgroundColor(colorValue: Int) {
+        viewModelScope.launch {
+            val currentPrefs = userPreferencesDao.getUserPreferences()
+            val updatedPrefs = currentPrefs?.copy(widgetBackgroundColor = colorValue)
+                ?: UserPreferencesEntity(
+                    favoriteOratorIds = emptyList(),
+                    rotateThroughAll = false,
+                    selectedOratorId = null,
+                    widgetBackgroundColor = colorValue,
+                    widgetBackgroundOpacityPercent = 80,
+                )
+            userPreferencesDao.upsertUserPreferences(updatedPrefs)
+            WidgetAppearance.refreshAllWidgets(context)
+        }
+    }
+
+    fun updateWidgetBackgroundOpacity(opacityPercent: Int) {
+        viewModelScope.launch {
+            val currentPrefs = userPreferencesDao.getUserPreferences()
+            val updatedPrefs = currentPrefs?.copy(
+                widgetBackgroundOpacityPercent = opacityPercent.coerceIn(20, 100),
+            ) ?: UserPreferencesEntity(
+                favoriteOratorIds = emptyList(),
+                rotateThroughAll = false,
+                selectedOratorId = null,
+                widgetBackgroundColor = 0xFF2C3E50.toInt(),
+                widgetBackgroundOpacityPercent = opacityPercent.coerceIn(20, 100),
+            )
+            userPreferencesDao.upsertUserPreferences(updatedPrefs)
+            WidgetAppearance.refreshAllWidgets(context)
         }
     }
 }
@@ -65,5 +106,7 @@ data class ProfileUiState(
     val orators: List<OratorProfile> = emptyList(),
     val selectedOratorId: Long? = null,
     val rotateThroughAll: Boolean = false,
+    val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
+    val widgetBackgroundOpacityPercent: Int = 80,
     val isLoading: Boolean = false,
 )

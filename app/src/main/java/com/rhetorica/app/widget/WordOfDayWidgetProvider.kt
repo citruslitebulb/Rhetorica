@@ -5,6 +5,7 @@ import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
 import android.content.Context
 import android.content.Intent
+import android.util.TypedValue
 import android.widget.RemoteViews
 import com.rhetorica.app.MainActivity
 import com.rhetorica.app.R
@@ -31,18 +32,27 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         appWidgetIds: IntArray,
     ) {
         appWidgetIds.forEach { appWidgetId ->
-            val remoteViews = createRemoteViews(context)
+            val remoteViews = createRemoteViews(context, appWidgetManager, appWidgetId)
             appWidgetManager.updateAppWidget(appWidgetId, remoteViews)
         }
     }
 
-    private fun createRemoteViews(context: Context): RemoteViews {
-        val (word, definition) = runBlocking {
+    private fun createRemoteViews(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetId: Int,
+    ): RemoteViews {
+        var backgroundColor = 0xFF2C3E50.toInt()
+        var opacityPercent = 80
+
+        val content = runBlocking {
             withContext(Dispatchers.IO) {
                 try {
                     val preferences = userPreferencesDao.getUserPreferences()
                     val selectedOratorId = preferences?.selectedOratorId
                     val rotateThroughAll = preferences?.rotateThroughAll ?: false
+                    backgroundColor = preferences?.widgetBackgroundColor ?: 0xFF2C3E50.toInt()
+                    opacityPercent = preferences?.widgetBackgroundOpacityPercent ?: 80
                     val effectiveOratorId = if (rotateThroughAll) null else selectedOratorId
 
                     val count = if (effectiveOratorId == null) {
@@ -52,7 +62,12 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                     }
 
                     if (count == 0) {
-                        Pair("Word of the Day", "Loading...")
+                        WidgetRemoteState(
+                            word = "Word of the Day",
+                            definition = "Loading...",
+                            backgroundColor = backgroundColor,
+                            opacityPercent = opacityPercent,
+                        )
                     } else {
                         val dayOfYear = java.time.LocalDate.now(java.time.ZoneId.systemDefault()).dayOfYear
                         val offset = (dayOfYear - 1) % count
@@ -62,13 +77,28 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                             wordDao.getWordOfTheDayByOrator(effectiveOratorId, offset)
                         }
                         if (word != null) {
-                            Pair(word.word, word.definition)
+                            WidgetRemoteState(
+                                word = word.word,
+                                definition = word.definition,
+                                backgroundColor = backgroundColor,
+                                opacityPercent = opacityPercent,
+                            )
                         } else {
-                            Pair("Word of the Day", "No words available")
+                            WidgetRemoteState(
+                                word = "Word of the Day",
+                                definition = "No words available",
+                                backgroundColor = backgroundColor,
+                                opacityPercent = opacityPercent,
+                            )
                         }
                     }
                 } catch (e: Exception) {
-                    Pair("Word of the Day", "Error loading word")
+                    WidgetRemoteState(
+                        word = "Word of the Day",
+                        definition = "Error loading word",
+                        backgroundColor = backgroundColor,
+                        opacityPercent = opacityPercent,
+                    )
                 }
             }
         }
@@ -83,10 +113,39 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
+        val options = appWidgetManager.getAppWidgetOptions(appWidgetId)
+        val widthDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, 200)
+        val heightDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, 150)
+        val density = context.resources.displayMetrics.density
+        val widthPx = (widthDp * density).toInt()
+        val heightPx = (heightDp * density).toInt()
+
+        val backgroundBitmap = WidgetAppearance.createRoundedBackgroundBitmap(
+            widthPx = widthPx,
+            heightPx = heightPx,
+            colorInt = WidgetAppearance.argbColorInt(
+                colorValue = content.backgroundColor,
+                opacityPercent = content.opacityPercent,
+            ),
+            cornerRadiusPx = TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                18f,
+                context.resources.displayMetrics,
+            ),
+        )
+
         return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
-            setTextViewText(R.id.widgetWordText, word)
-            setTextViewText(R.id.widgetDefinitionText, definition)
+            setTextViewText(R.id.widgetWordText, content.word)
+            setTextViewText(R.id.widgetDefinitionText, content.definition)
+            setImageViewBitmap(R.id.widgetBackgroundImage, backgroundBitmap)
             setOnClickPendingIntent(R.id.widgetRoot, pendingIntent)
         }
     }
 }
+
+private data class WidgetRemoteState(
+    val word: String,
+    val definition: String,
+    val backgroundColor: Int,
+    val opacityPercent: Int,
+)

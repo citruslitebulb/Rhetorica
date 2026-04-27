@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class],
-    version = 6,
+    version = 7,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -92,6 +92,17 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        private val MIGRATION_6_7 = object : Migration(6, 7) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN widgetBackgroundColor INTEGER NOT NULL DEFAULT -13877680",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN widgetBackgroundOpacityPercent INTEGER NOT NULL DEFAULT 80",
+                )
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -99,7 +110,14 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                     RhetoricaDatabase::class.java,
                     "rhetorica.db",
                 )
-                    .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4, MIGRATION_4_5, MIGRATION_5_6)
+                    .addMigrations(
+                        MIGRATION_1_2,
+                        MIGRATION_2_3,
+                        MIGRATION_3_4,
+                        MIGRATION_4_5,
+                        MIGRATION_5_6,
+                        MIGRATION_6_7,
+                    )
                     .fallbackToDestructiveMigration()
                     .build()
                 INSTANCE = instance
