@@ -1,6 +1,9 @@
 package com.rhetorica.app.data.repository
 
 import com.rhetorica.app.data.local.DictionaryDao
+import com.rhetorica.app.data.local.SavedWordDao
+import com.rhetorica.app.data.local.SavedWordEntity
+import com.rhetorica.app.data.local.SavedWordSummary
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
 import kotlinx.coroutines.flow.Flow
@@ -12,9 +15,18 @@ import javax.inject.Singleton
 @Singleton
 class WordRepository @Inject constructor(
     private val wordDao: WordDao,
+    private val savedWordDao: SavedWordDao,
     private val dictionaryDao: DictionaryDao,
 ) {
     fun observeWords(): Flow<List<WordEntity>> = wordDao.observeWords()
+
+    fun observeWordById(wordId: Long): Flow<WordEntity?> = wordDao.observeWordById(wordId)
+
+    fun observeSavedWordIds(): Flow<List<Long>> = savedWordDao.observeSavedWordIds()
+
+    fun observeSavedWordSummaries(): Flow<List<SavedWordSummary>> = savedWordDao.observeSavedWordSummaries()
+
+    fun observeIsWordSaved(wordId: Long): Flow<Boolean> = savedWordDao.observeIsWordSaved(wordId)
 
     fun observeWordsByOrator(oratorId: Long?): Flow<List<WordEntity>> {
         return if (oratorId == null) {
@@ -42,6 +54,27 @@ class WordRepository @Inject constructor(
         val dayOfYear = LocalDate.now(ZoneId.systemDefault()).dayOfYear
         val offset = (dayOfYear - 1) % count
         return wordDao.getWordOfTheDayByOrator(oratorId, offset)
+    }
+
+    suspend fun saveWord(wordId: Long) {
+        savedWordDao.saveWord(
+            SavedWordEntity(
+                wordId = wordId,
+                savedAtEpochMillis = System.currentTimeMillis(),
+            ),
+        )
+    }
+
+    suspend fun unsaveWord(wordId: Long) {
+        savedWordDao.unsaveWord(wordId)
+    }
+
+    suspend fun toggleSaved(wordId: Long) {
+        if (savedWordDao.isWordSaved(wordId)) {
+            savedWordDao.unsaveWord(wordId)
+        } else {
+            saveWord(wordId)
+        }
     }
 
     suspend fun seedWordsIfEmpty() {

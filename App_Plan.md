@@ -8,7 +8,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 - User can open word detail, save/unsave words, and review saved words.
 - User progress is persisted locally and survives app restarts.
 - User can place a Word of the Day home screen widget with polished typography.
-- User can customize widget background (flat color or image) with optional translucency.
+- User can customize widget appearance settings, including background color or image and optional translucency.
 - App feels premium: dark-first, responsive UI, meaningful animations.
 
 ## 3) Scope
@@ -18,7 +18,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 - Basic learning progress tracking (viewed/saved/quiz stats).
 - TextToSpeech placeholder hooks.
 - Home Screen Widget: Word of the Day + definition with beautiful font/style.
-- Widget background customization: flat color or image (bundled presets + gallery), each with optional translucency.
+- Widget appearance settings: background color or image (bundled presets + gallery) with optional translucency.
 - Vocabulary dictionary selection: choose from curated word collections by famous orators (e.g., Shakespeare, MLK Jr., Churchill).
 
 ### Out of Scope (for now)
@@ -84,13 +84,14 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 ### Milestone 4 - Quiz + Profile Shell
 1. Basic quiz flow (multiple choice or definition match).
 2. Persist quiz outcomes to progress table.
-3. Profile/Settings scaffold with TTS placeholder and widget customization controls.
+3. Profile/Settings scaffold with TTS placeholder and widget appearance settings controls.
 
 ### Milestone 5 - Widget MVP
 1. Build Word of the Day widget layout (word + definition, premium typography).
-2. Support background customization (flat color picker + image presets/gallery selection).
-3. Add optional translucency level for both color and image backgrounds.
-4. Save widget style preferences and refresh widget state reliably.
+2. Build a dedicated widget appearance settings flow/config surface.
+3. Support background customization (flat color picker + image presets/gallery selection).
+4. Add optional translucency level for both color and image backgrounds.
+5. Save widget appearance preferences and refresh widget state reliably.
 
 ### Milestone 6 - Polish + QA
 1. Motion polish (card transitions, micro-interactions, loading states).
@@ -100,7 +101,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 ## 8) Definition of Done (MVP)
 - All core flows work offline with persisted state.
 - Home screen widget renders correctly and updates with Word of the Day.
-- Widget style customization persists (color/image preset/gallery + translucency).
+- Widget appearance settings persist (color/image preset/gallery + translucency).
 - User can select from multiple orator dictionaries and feed filters accordingly.
 - No major crashes in smoke testing.
 - Navigation and state restoration behave correctly.

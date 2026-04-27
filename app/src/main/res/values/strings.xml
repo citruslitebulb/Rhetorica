@@ -12,4 +12,17 @@
     <string name="profile_orator_selection">Select Your Orator</string>
     <string name="profile_rotate_all">Rotate Through All Orators</string>
     <string name="profile_no_orators">No orators available</string>
+    <string name="word_save">Save word</string>
+    <string name="word_unsave">Remove saved word</string>
+    <string name="word_detail_title">Word Detail</string>
+    <string name="word_not_found">We could not find that word.</string>
+    <string name="word_definition_title">Definition</string>
+    <string name="word_example_title">Example</string>
+    <string name="word_saved_state">Saved</string>
+    <string name="word_unsaved_state">Not saved</string>
+    <string name="back">Back</string>
+    <string name="saved_title">Saved Words</string>
+    <string name="saved_subtitle">Your saved vocabulary, ready for a quick revisit.</string>
+    <string name="saved_empty_title">No saved words yet</string>
+    <string name="saved_empty_body">Save words from the feed or detail view to collect them here.</string>
 </resources>

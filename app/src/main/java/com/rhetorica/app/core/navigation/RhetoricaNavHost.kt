@@ -9,6 +9,8 @@ import com.rhetorica.app.feature.home.HomeRoute
 import com.rhetorica.app.feature.profile.ProfileRoute
 import com.rhetorica.app.feature.quiz.QuizRoute
 import com.rhetorica.app.feature.saved.SavedRoute
+import com.rhetorica.app.feature.word.navigateToWordDetail
+import com.rhetorica.app.feature.word.wordDetailScreen
 
 @Composable
 fun RhetoricaNavHost(
@@ -20,9 +22,14 @@ fun RhetoricaNavHost(
         startDestination = TopLevelDestination.Home.route,
         modifier = modifier,
     ) {
-        composable(TopLevelDestination.Home.route) { HomeRoute() }
-        composable(TopLevelDestination.Saved.route) { SavedRoute() }
+        composable(TopLevelDestination.Home.route) {
+            HomeRoute(onWordClick = { wordId -> navController.navigateToWordDetail(wordId) })
+        }
+        composable(TopLevelDestination.Saved.route) {
+            SavedRoute(onWordClick = { wordId -> navController.navigateToWordDetail(wordId) })
+        }
         composable(TopLevelDestination.Quiz.route) { QuizRoute() }
         composable(TopLevelDestination.Profile.route) { ProfileRoute() }
+        wordDetailScreen(onBack = { navController.popBackStack() })
     }
 }

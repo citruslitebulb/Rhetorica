@@ -11,6 +11,9 @@ interface WordDao {
     @Query("SELECT * FROM words ORDER BY id ASC")
     fun observeWords(): Flow<List<WordEntity>>
 
+    @Query("SELECT * FROM words WHERE id = :wordId LIMIT 1")
+    fun observeWordById(wordId: Long): Flow<WordEntity?>
+
     @Query("SELECT * FROM words WHERE oratorId = :oratorId ORDER BY id ASC")
     fun observeWordsByOrator(oratorId: Long): Flow<List<WordEntity>>
 
