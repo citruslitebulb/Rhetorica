@@ -6,9 +6,11 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -32,6 +34,8 @@ fun SavedRoute(
         state = state,
         onWordClick = onWordClick,
         onToggleSaved = viewModel::toggleSaved,
+        onSelectOrator = viewModel::selectOrator,
+        onSelectSort = viewModel::selectSort,
     )
 }
 
@@ -40,7 +44,12 @@ private fun SavedScreen(
     state: SavedUiState,
     onWordClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
+    onSelectOrator: (Long?) -> Unit,
+    onSelectSort: (SavedSortOption) -> Unit,
 ) {
+    val isTrulyEmpty = state.totalSavedCount == 0
+    val isFilteredEmpty = state.words.isEmpty() && !isTrulyEmpty
+
     if (state.isLoading) {
         Column(
             modifier = Modifier.fillMaxSize(),
@@ -52,7 +61,7 @@ private fun SavedScreen(
         return
     }
 
-    if (state.words.isEmpty()) {
+    if (isTrulyEmpty) {
         Column(
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
@@ -92,19 +101,121 @@ private fun SavedScreen(
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
+                Text(
+                    text = stringResource(
+                        R.string.saved_count,
+                        if (state.selectedOratorId == null) state.totalSavedCount else state.words.size,
+                    ),
+                    style = MaterialTheme.typography.labelLarge,
+                    color = MaterialTheme.colorScheme.primary,
+                )
             }
         }
 
-        items(state.words, key = { it.id }) { word ->
-            WordListCard(
-                word = word.word,
-                partOfSpeech = word.partOfSpeech,
-                definition = word.definition,
-                example = word.example,
-                isSaved = true,
-                onClick = { onWordClick(word.id) },
-                onToggleSaved = { onToggleSaved(word.id) },
+        item {
+            SavedControls(
+                state = state,
+                onSelectOrator = onSelectOrator,
+                onSelectSort = onSelectSort,
             )
+        }
+
+        if (isFilteredEmpty) {
+            item {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 8.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Text(
+                        text = stringResource(R.string.saved_filtered_empty_title),
+                        style = MaterialTheme.typography.titleMedium,
+                    )
+                    Text(
+                        text = if (state.selectedOratorName != null) {
+                            stringResource(
+                                R.string.saved_filtered_empty_body_orator,
+                                state.selectedOratorName,
+                            )
+                        } else {
+                            stringResource(R.string.saved_filtered_empty_body)
+                        },
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
+        } else {
+            items(state.words, key = { it.id }) { word ->
+                WordListCard(
+                    word = word.word,
+                    partOfSpeech = word.partOfSpeech,
+                    definition = word.definition,
+                    example = word.example,
+                    isSaved = true,
+                    onClick = { onWordClick(word.id) },
+                    onToggleSaved = { onToggleSaved(word.id) },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun SavedControls(
+    state: SavedUiState,
+    onSelectOrator: (Long?) -> Unit,
+    onSelectSort: (SavedSortOption) -> Unit,
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(
+                text = stringResource(R.string.saved_filter_label),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                item {
+                    FilterChip(
+                        selected = state.selectedOratorId == null,
+                        onClick = { onSelectOrator(null) },
+                        label = { Text(text = stringResource(R.string.saved_filter_all)) },
+                    )
+                }
+                items(state.availableOrators, key = { it.id }) { orator ->
+                    FilterChip(
+                        selected = state.selectedOratorId == orator.id,
+                        onClick = { onSelectOrator(orator.id) },
+                        label = { Text(text = orator.name) },
+                    )
+                }
+            }
+        }
+
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(
+                text = stringResource(R.string.saved_sort_label),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                items(SavedSortOption.entries) { sortOption ->
+                    FilterChip(
+                        selected = state.selectedSort == sortOption,
+                        onClick = { onSelectSort(sortOption) },
+                        label = {
+                            Text(
+                                text = when (sortOption) {
+                                    SavedSortOption.Newest -> stringResource(R.string.saved_sort_newest)
+                                    SavedSortOption.Alphabetical -> stringResource(R.string.saved_sort_alphabetical)
+                                    SavedSortOption.PartOfSpeech -> stringResource(R.string.saved_sort_part_of_speech)
+                                },
+                            )
+                        },
+                    )
+                }
+            }
         }
     }
 }

@@ -23,6 +23,16 @@
     <string name="back">Back</string>
     <string name="saved_title">Saved Words</string>
     <string name="saved_subtitle">Your saved vocabulary, ready for a quick revisit.</string>
+    <string name="saved_count">%1$d saved</string>
     <string name="saved_empty_title">No saved words yet</string>
     <string name="saved_empty_body">Save words from the feed or detail view to collect them here.</string>
+    <string name="saved_filtered_empty_title">No saved words match this filter</string>
+    <string name="saved_filtered_empty_body">Try another filter or clear the current one to see your saved words.</string>
+    <string name="saved_filtered_empty_body_orator">You do not have any saved words for %1$s right now.</string>
+    <string name="saved_filter_label">Filter</string>
+    <string name="saved_filter_all">All orators</string>
+    <string name="saved_sort_label">Sort</string>
+    <string name="saved_sort_newest">Newest</string>
+    <string name="saved_sort_alphabetical">A-Z</string>
+    <string name="saved_sort_part_of_speech">Part of speech</string>
 </resources>
