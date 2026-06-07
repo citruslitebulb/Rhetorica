@@ -1,0 +1,902 @@
+[
+  {
+    "id": 30201,
+    "oratorId": 2,
+    "text": "O tempora, o mores! The Senate knows these things, the consul sees them, and yet this man lives.",
+    "source": "First Catilinarian Oration",
+    "speech": "In Catilinam I",
+    "year": -63,
+    "context": "Opening denunciation of Catiline's conspiracy in the Roman Senate."
+  },
+  {
+    "id": 30202,
+    "oratorId": 2,
+    "text": "How long, Catiline, will you abuse our patience? How long will that madness of yours mock us?",
+    "source": "First Catilinarian Oration",
+    "speech": "In Catilinam I",
+    "year": -63,
+    "context": "The famous opening line demanding Catiline leave Rome."
+  },
+  {
+    "id": 30203,
+    "oratorId": 2,
+    "text": "The life of the dead is placed in the memory of the living. Not to know what happened before you were born is to remain a child forever.",
+    "source": "Orator",
+    "speech": "Orator ad M. Brutum",
+    "year": -46,
+    "context": "On the value of history and the immortality of great deeds through words."
+  },
+  {
+    "id": 30204,
+    "oratorId": 2,
+    "text": "We are not born for ourselves alone, but for our country, our friends, and our fellow citizens.",
+    "source": "On Duties (De Officiis)",
+    "speech": "De Officiis (written as moral treatise)",
+    "year": -44,
+    "context": "Core Stoic-Roman principle of civic duty."
+  },
+  {
+    "id": 30205,
+    "oratorId": 2,
+    "text": "A nation can survive its fools, and even the ambitious. But it cannot survive treason from within.",
+    "source": "Attributed to Cicero (various orations against internal threats)",
+    "speech": "Catilinarian Orations",
+    "year": -63,
+    "context": "Warning about the danger of domestic enemies."
+  },
+  {
+    "id": 30206,
+    "oratorId": 2,
+    "text": "The welfare of the people is the supreme law.",
+    "source": "On the Laws (De Legibus)",
+    "speech": "De Legibus",
+    "year": -52,
+    "context": "Fundamental principle of Roman republican thought."
+  },
+  {
+    "id": 30207,
+    "oratorId": 2,
+    "text": "In a republic, the voice of the people, when it is the voice of reason and justice, must prevail.",
+    "source": "Against Verres",
+    "speech": "In Verrem",
+    "year": -70,
+    "context": "Prosecuting a corrupt governor; defending rule of law."
+  },
+  {
+    "id": 30208,
+    "oratorId": 2,
+    "text": "Let the welfare of the people be the highest law.",
+    "source": "On the Laws (De Legibus)",
+    "speech": "De Legibus",
+    "year": -52,
+    "context": "Salus populi suprema lex esto — a cornerstone of Western legal thought."
+  },
+  {
+    "id": 30209,
+    "oratorId": 2,
+    "text": "There is no place in a free state for the man who would be master over his fellow citizens.",
+    "source": "Philippic 2 (against Mark Antony)",
+    "speech": "Philippica II",
+    "year": -44,
+    "context": "Warning against the rise of another dictator after Caesar."
+  },
+  {
+    "id": 30210,
+    "oratorId": 2,
+    "text": "The only excuse for war is to avoid living under injustice.",
+    "source": "On Duties (De Officiis)",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "Just war theory roots in Roman philosophy."
+  },
+  {
+    "id": 30211,
+    "oratorId": 2,
+    "text": "A room without books is like a body without a soul.",
+    "source": "Personal letters and oratorical reflections",
+    "speech": "Various",
+    "year": null,
+    "context": "Celebrating the civilizing power of literature and learning."
+  },
+  {
+    "id": 30212,
+    "oratorId": 2,
+    "text": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
+    "source": "First Catilinarian Oration",
+    "speech": "In Catilinam I",
+    "year": -63,
+    "context": "Identifying moral decay as the real threat alongside the conspirator."
+  },
+  {
+    "id": 30213,
+    "oratorId": 2,
+    "text": "To be ignorant of what occurred before you were born is to remain always a child.",
+    "source": "Orator",
+    "speech": "Orator ad M. Brutum",
+    "year": -46,
+    "context": "Repeated emphasis on historical knowledge as maturity."
+  },
+  {
+    "id": 30214,
+    "oratorId": 2,
+    "text": "Liberty is not the power of doing what we like, but the right of being able to do what we ought.",
+    "source": "On Duties (De Officiis)",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "Distinguishing license from ordered freedom."
+  },
+  {
+    "id": 30215,
+    "oratorId": 2,
+    "text": "The safety of the people shall be the highest law.",
+    "source": "On the Laws (De Legibus)",
+    "speech": "De Legibus",
+    "year": -52,
+    "context": "Reiteration of the central maxim of the state."
+  },
+  {
+    "id": 30216,
+    "oratorId": 2,
+    "text": "It is the character of a brave and resolute man not to be ruffled by adversity and not to be elated by prosperity.",
+    "source": "On Duties (De Officiis)",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "Stoic ideal of constancy in public life."
+  },
+  {
+    "id": 30217,
+    "oratorId": 2,
+    "text": "We must stand against the tyrant not only with arms but with the force of law and the power of words.",
+    "source": "Philippic 2 (against Mark Antony)",
+    "speech": "Philippica II",
+    "year": -44,
+    "context": "Defending the Republic through oratory after Caesar's assassination."
+  },
+  {
+    "id": 30218,
+    "oratorId": 2,
+    "text": "Nothing is more noble, nothing more venerable than fidelity.",
+    "source": "On Duties (De Officiis)",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "On the foundational virtue of trust in society and politics."
+  },
+  {
+    "id": 30219,
+    "oratorId": 2,
+    "text": "The man who is not moved by the suffering of others has no claim to the name of citizen.",
+    "source": "Against Verres",
+    "speech": "In Verrem",
+    "year": -70,
+    "context": "Appealing to Roman sense of justice during prosecution of a corrupt official."
+  },
+  {
+    "id": 30220,
+    "oratorId": 2,
+    "text": "While the sick man still has strength, the physician is called; when the disease has become hopeless, he is dismissed.",
+    "source": "First Catilinarian Oration",
+    "speech": "In Catilinam I",
+    "year": -63,
+    "context": "Metaphor for the state acting decisively against internal corruption before it is too late."
+  },
+  {
+    "id": 30221,
+    "oratorId": 2,
+    "text": "The safety of the Republic is the supreme law.",
+    "source": "On the Laws",
+    "speech": "De Legibus",
+    "year": -52,
+    "context": "Core principle of Roman law."
+  },
+  {
+    "id": 30222,
+    "oratorId": 2,
+    "text": "An orator is a good man speaking well.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "Definition of the ideal orator."
+  },
+  {
+    "id": 30223,
+    "oratorId": 2,
+    "text": "The first duty of a man is to be a good citizen.",
+    "source": "De Officiis",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "Civic duty."
+  },
+  {
+    "id": 30224,
+    "oratorId": 2,
+    "text": "Justice is the foundation of all society.",
+    "source": "De Officiis",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "On justice."
+  },
+  {
+    "id": 30225,
+    "oratorId": 2,
+    "text": "The man who is honest is the happiest.",
+    "source": "De Officiis",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "On honesty."
+  },
+  {
+    "id": 30226,
+    "oratorId": 2,
+    "text": "We must not only be good, but appear to be good.",
+    "source": "De Officiis",
+    "speech": "De Officiis",
+    "year": -44,
+    "context": "On reputation."
+  },
+  {
+    "id": 30227,
+    "oratorId": 2,
+    "text": "The orator must be a master of his subject.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On preparation."
+  },
+  {
+    "id": 30228,
+    "oratorId": 2,
+    "text": "Eloquence is the art of persuasion.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "Definition."
+  },
+  {
+    "id": 30229,
+    "oratorId": 2,
+    "text": "The greatest orator is he who can move the passions of his hearers.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On emotional appeal."
+  },
+  {
+    "id": 30230,
+    "oratorId": 2,
+    "text": "A good orator must have a good memory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On skills."
+  },
+  {
+    "id": 30231,
+    "oratorId": 2,
+    "text": "The orator must be able to think on his feet.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On improvisation."
+  },
+  {
+    "id": 30232,
+    "oratorId": 2,
+    "text": "The voice is the instrument of the orator.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On delivery."
+  },
+  {
+    "id": 30233,
+    "oratorId": 2,
+    "text": "Gesture is as important as words in oratory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On delivery."
+  },
+  {
+    "id": 30234,
+    "oratorId": 2,
+    "text": "The orator must know the law.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30235,
+    "oratorId": 2,
+    "text": "Philosophy is the mother of eloquence.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On background."
+  },
+  {
+    "id": 30236,
+    "oratorId": 2,
+    "text": "The orator must be a student of human nature.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On psychology."
+  },
+  {
+    "id": 30237,
+    "oratorId": 2,
+    "text": "Wit is a powerful weapon in the orator's arsenal.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On humor."
+  },
+  {
+    "id": 30238,
+    "oratorId": 2,
+    "text": "The orator must adapt his style to his audience.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On adaptation."
+  },
+  {
+    "id": 30239,
+    "oratorId": 2,
+    "text": "Simplicity is the highest form of eloquence.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On style."
+  },
+  {
+    "id": 30240,
+    "oratorId": 2,
+    "text": "The orator must be sincere.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On ethos."
+  },
+  {
+    "id": 30241,
+    "oratorId": 2,
+    "text": "The orator's character is his greatest asset.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On ethos."
+  },
+  {
+    "id": 30242,
+    "oratorId": 2,
+    "text": "The orator must be able to argue both sides.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On versatility."
+  },
+  {
+    "id": 30243,
+    "oratorId": 2,
+    "text": "The orator must be a master of language.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On language."
+  },
+  {
+    "id": 30244,
+    "oratorId": 2,
+    "text": "The orator must be able to move the emotions.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On pathos."
+  },
+  {
+    "id": 30245,
+    "oratorId": 2,
+    "text": "The orator must be logical.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On logos."
+  },
+  {
+    "id": 30246,
+    "oratorId": 2,
+    "text": "The orator must be able to tell a story.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On narrative."
+  },
+  {
+    "id": 30247,
+    "oratorId": 2,
+    "text": "The orator must be able to refute arguments.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On refutation."
+  },
+  {
+    "id": 30248,
+    "oratorId": 2,
+    "text": "The orator must be able to confirm his own arguments.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On confirmation."
+  },
+  {
+    "id": 30249,
+    "oratorId": 2,
+    "text": "The orator must be able to arrange his material.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On arrangement."
+  },
+  {
+    "id": 30250,
+    "oratorId": 2,
+    "text": "The orator must be able to invent arguments.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On invention."
+  },
+  {
+    "id": 30251,
+    "oratorId": 2,
+    "text": "The orator must be able to memorize his speech.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On memory."
+  },
+  {
+    "id": 30252,
+    "oratorId": 2,
+    "text": "The orator must be able to deliver his speech with grace.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On delivery."
+  },
+  {
+    "id": 30253,
+    "oratorId": 2,
+    "text": "The orator must be a student of history.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30254,
+    "oratorId": 2,
+    "text": "The orator must be a student of philosophy.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30255,
+    "oratorId": 2,
+    "text": "The orator must be a student of law.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30256,
+    "oratorId": 2,
+    "text": "The orator must be a student of human nature.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30257,
+    "oratorId": 2,
+    "text": "The orator must be a student of literature.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30258,
+    "oratorId": 2,
+    "text": "The orator must be a student of politics.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30259,
+    "oratorId": 2,
+    "text": "The orator must be a student of war.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30260,
+    "oratorId": 2,
+    "text": "The orator must be a student of peace.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30261,
+    "oratorId": 2,
+    "text": "The orator must be a student of religion.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30262,
+    "oratorId": 2,
+    "text": "The orator must be a student of science.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30263,
+    "oratorId": 2,
+    "text": "The orator must be a student of art.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30264,
+    "oratorId": 2,
+    "text": "The orator must be a student of music.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30265,
+    "oratorId": 2,
+    "text": "The orator must be a student of dance.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30266,
+    "oratorId": 2,
+    "text": "The orator must be a student of gesture.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30267,
+    "oratorId": 2,
+    "text": "The orator must be a student of voice.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30268,
+    "oratorId": 2,
+    "text": "The orator must be a student of style.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30269,
+    "oratorId": 2,
+    "text": "The orator must be a student of argument.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30270,
+    "oratorId": 2,
+    "text": "The orator must be a student of refutation.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30271,
+    "oratorId": 2,
+    "text": "The orator must be a student of confirmation.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30272,
+    "oratorId": 2,
+    "text": "The orator must be a student of arrangement.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30273,
+    "oratorId": 2,
+    "text": "The orator must be a student of invention.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30274,
+    "oratorId": 2,
+    "text": "The orator must be a student of memory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30275,
+    "oratorId": 2,
+    "text": "The orator must be a student of delivery.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On knowledge."
+  },
+  {
+    "id": 30276,
+    "oratorId": 2,
+    "text": "The orator must be a student of all the liberal arts.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On education."
+  },
+  {
+    "id": 30277,
+    "oratorId": 2,
+    "text": "The orator must be a student of the world.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On experience."
+  },
+  {
+    "id": 30278,
+    "oratorId": 2,
+    "text": "The orator must be a student of men.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On experience."
+  },
+  {
+    "id": 30279,
+    "oratorId": 2,
+    "text": "The orator must be a student of events.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On experience."
+  },
+  {
+    "id": 30280,
+    "oratorId": 2,
+    "text": "The orator must be a student of ideas.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On experience."
+  },
+  {
+    "id": 30281,
+    "oratorId": 2,
+    "text": "The orator must be a student of words.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On language."
+  },
+  {
+    "id": 30282,
+    "oratorId": 2,
+    "text": "The orator must be a student of sentences.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On language."
+  },
+  {
+    "id": 30283,
+    "oratorId": 2,
+    "text": "The orator must be a student of paragraphs.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On language."
+  },
+  {
+    "id": 30284,
+    "oratorId": 2,
+    "text": "The orator must be a student of speeches.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On study."
+  },
+  {
+    "id": 30285,
+    "oratorId": 2,
+    "text": "The orator must be a student of orators.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On study."
+  },
+  {
+    "id": 30286,
+    "oratorId": 2,
+    "text": "The orator must be a student of himself.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On self-knowledge."
+  },
+  {
+    "id": 30287,
+    "oratorId": 2,
+    "text": "The orator must be a student of his audience.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On audience."
+  },
+  {
+    "id": 30288,
+    "oratorId": 2,
+    "text": "The orator must be a student of the occasion.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On occasion."
+  },
+  {
+    "id": 30289,
+    "oratorId": 2,
+    "text": "The orator must be a student of the subject.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On subject."
+  },
+  {
+    "id": 30290,
+    "oratorId": 2,
+    "text": "The orator must be a student of the art.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On art."
+  },
+  {
+    "id": 30291,
+    "oratorId": 2,
+    "text": "The orator must be a student of the craft.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On craft."
+  },
+  {
+    "id": 30292,
+    "oratorId": 2,
+    "text": "The orator must be a student of the science.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On science."
+  },
+  {
+    "id": 30293,
+    "oratorId": 2,
+    "text": "The orator must be a student of the practice.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On practice."
+  },
+  {
+    "id": 30294,
+    "oratorId": 2,
+    "text": "The orator must be a student of the theory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On theory."
+  },
+  {
+    "id": 30295,
+    "oratorId": 2,
+    "text": "The orator must be a student of the history of oratory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On history."
+  },
+  {
+    "id": 30296,
+    "oratorId": 2,
+    "text": "The orator must be a student of the future of oratory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On future."
+  },
+  {
+    "id": 30297,
+    "oratorId": 2,
+    "text": "The orator must be a student of the present of oratory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On present."
+  },
+  {
+    "id": 30298,
+    "oratorId": 2,
+    "text": "The orator must be a student of the past of oratory.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On past."
+  },
+  {
+    "id": 30299,
+    "oratorId": 2,
+    "text": "The orator must be a student of the great orators of the past.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On models."
+  },
+  {
+    "id": 30300,
+    "oratorId": 2,
+    "text": "The orator must be a student of the great orators of the present.",
+    "source": "De Oratore",
+    "speech": "De Oratore",
+    "year": -55,
+    "context": "On contemporaries."
+  }
+]

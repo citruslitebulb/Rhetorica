@@ -31,6 +31,8 @@ fun WordListCard(
     isSaved: Boolean,
     onClick: () -> Unit,
     onToggleSaved: () -> Unit,
+    source: String? = null,
+    speech: String? = null,
     modifier: Modifier = Modifier,
 ) {
     Card(
@@ -94,6 +96,24 @@ fun WordListCard(
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,
             )
+
+            if (source != null || speech != null) {
+                val sourceText = buildString {
+                    append("— ")
+                    val title = speech ?: source
+                    if (title != null) append(title)
+                    if (speech != null && source != null && source != speech) {
+                        append(" (")
+                        append(source)
+                        append(")")
+                    }
+                }.trim()
+                Text(
+                    text = sourceText,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
     }
 }

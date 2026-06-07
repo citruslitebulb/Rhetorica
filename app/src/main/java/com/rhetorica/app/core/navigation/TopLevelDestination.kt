@@ -3,6 +3,7 @@ package com.rhetorica.app.core.navigation
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.MenuBook
 import androidx.compose.material.icons.outlined.Person
 import androidx.compose.material.icons.outlined.Quiz
 import androidx.compose.material.icons.outlined.StarBorder
@@ -18,4 +19,5 @@ enum class TopLevelDestination(
     Saved(route = "saved", labelRes = R.string.nav_saved, icon = Icons.Outlined.StarBorder),
     Quiz(route = "quiz", labelRes = R.string.nav_quiz, icon = Icons.Outlined.Quiz),
     Profile(route = "profile", labelRes = R.string.nav_profile, icon = Icons.Outlined.Person),
+    Speeches(route = "speeches", labelRes = R.string.nav_speeches, icon = Icons.Outlined.MenuBook),
 }

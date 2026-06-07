@@ -1,0 +1,902 @@
+[
+  {
+    "id": 30101,
+    "oratorId": 1,
+    "text": "The man who is not corrupted by the love of money or the desire for power, but who devotes himself entirely to the service of the state, deserves the highest honor.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "Urging Athens to resist Philip of Macedon before it was too late."
+  },
+  {
+    "id": 30102,
+    "oratorId": 1,
+    "text": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "A direct warning to the Athenian assembly about Macedonian aggression."
+  },
+  {
+    "id": 30103,
+    "oratorId": 1,
+    "text": "It is not by the number of ships or the weight of treasure that wars are decided, but by the courage of those who fight for freedom.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Emphasizing resolve over material resources in the face of tyranny."
+  },
+  {
+    "id": 30104,
+    "oratorId": 1,
+    "text": "If we continue to sit idle and take no thought for the morrow, we shall find that we have no choice left but to do unwillingly what we might have done of our own free will.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On the cost of inaction against an expanding power."
+  },
+  {
+    "id": 30105,
+    "oratorId": 1,
+    "text": "A man who is a slave to pleasure and luxury can never be a true friend to the people or a faithful guardian of the state.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Defending his career and attacking his rival Aeschines."
+  },
+  {
+    "id": 30106,
+    "oratorId": 1,
+    "text": "The strongest fortress is not made of stone and timber, but of the goodwill and courage of free citizens.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Contrasting Athenian liberty with Macedonian military power."
+  },
+  {
+    "id": 30107,
+    "oratorId": 1,
+    "text": "It is the duty of a good citizen to prefer the safety of his country to his own ease and reputation.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Part of Demosthenes' justification for his anti-Macedonian policy."
+  },
+  {
+    "id": 30108,
+    "oratorId": 1,
+    "text": "We must not measure our danger by the number of the enemy, but by the justice of our cause and the spirit of our people.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "Encouraging Athenians despite Philip's growing army."
+  },
+  {
+    "id": 30109,
+    "oratorId": 1,
+    "text": "The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Critique of demagogues who told Athenians only what they wanted to hear."
+  },
+  {
+    "id": 30110,
+    "oratorId": 1,
+    "text": "Freedom is not preserved by words alone, but by the readiness to fight and suffer for it.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Reflecting on the sacrifices required to oppose Philip."
+  },
+  {
+    "id": 30111,
+    "oratorId": 1,
+    "text": "Philip knows well that while Athens remains free, his own power can never be secure.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "Analyzing Philip's strategic interest in subduing Athens."
+  },
+  {
+    "id": 30112,
+    "oratorId": 1,
+    "text": "It is better to die a thousand times than to live in slavery and dishonor under a foreign master.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "A call to arms and moral resistance."
+  },
+  {
+    "id": 30113,
+    "oratorId": 1,
+    "text": "The past cannot be undone, but the future is still in our hands if we have the courage to grasp it.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Defending policy decisions while looking forward."
+  },
+  {
+    "id": 30114,
+    "oratorId": 1,
+    "text": "An army of deer led by a lion is more to be feared than an army of lions led by a deer.",
+    "source": "Attributed in various accounts of his oratory",
+    "speech": "Various Philippics",
+    "year": null,
+    "context": "Emphasizing the importance of leadership quality."
+  },
+  {
+    "id": 30115,
+    "oratorId": 1,
+    "text": "We are not contending for a strip of land or a harbor, but for the very existence of our city and the freedom of Greece.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Framing the conflict in existential terms."
+  },
+  {
+    "id": 30116,
+    "oratorId": 1,
+    "text": "The man who has never been tested by adversity cannot know the strength of his own soul.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Personal reflection on political struggle."
+  },
+  {
+    "id": 30117,
+    "oratorId": 1,
+    "text": "Delay has been the ruin of many states; prompt and vigorous action has saved them.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "Pleading for immediate mobilization."
+  },
+  {
+    "id": 30118,
+    "oratorId": 1,
+    "text": "If you will not fight for your freedom when the enemy is still far off, you will fight for it when he is at your doors, and fight in vain.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Classic warning against appeasement."
+  },
+  {
+    "id": 30119,
+    "oratorId": 1,
+    "text": "The voice of a free people, united in purpose, is more powerful than the weapons of any tyrant.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Celebrating democratic resolve."
+  },
+  {
+    "id": 30120,
+    "oratorId": 1,
+    "text": "I have never sought popularity by saying what was pleasant rather than what was true.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "Proud declaration of his political integrity."
+  },
+  {
+    "id": 30121,
+    "oratorId": 1,
+    "text": "The man who is the slave of his passions is the most wretched of all beings.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On self-control in public life."
+  },
+  {
+    "id": 30122,
+    "oratorId": 1,
+    "text": "It is the mark of a great man to be able to bear the reverses of fortune with equanimity.",
+    "source": "Various orations",
+    "speech": "Various",
+    "year": null,
+    "context": "On resilience."
+  },
+  {
+    "id": 30123,
+    "oratorId": 1,
+    "text": "A city that is well governed is the best defense against its enemies.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On internal strength."
+  },
+  {
+    "id": 30124,
+    "oratorId": 1,
+    "text": "He who is not able to control himself is not fit to command others.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On leadership."
+  },
+  {
+    "id": 30125,
+    "oratorId": 1,
+    "text": "The greatest glory is not in never falling, but in rising every time we fall.",
+    "source": "Attributed to Demosthenes",
+    "speech": "Various",
+    "year": null,
+    "context": "On perseverance."
+  },
+  {
+    "id": 30126,
+    "oratorId": 1,
+    "text": "We must not be discouraged by the magnitude of the task, but encouraged by the justice of our cause.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Motivational."
+  },
+  {
+    "id": 30127,
+    "oratorId": 1,
+    "text": "The true orator is the one who can make the truth prevail over falsehood.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On rhetoric and truth."
+  },
+  {
+    "id": 30128,
+    "oratorId": 1,
+    "text": "A free people cannot be enslaved except by their own consent.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On liberty."
+  },
+  {
+    "id": 30129,
+    "oratorId": 1,
+    "text": "It is better to suffer in a good cause than to prosper in a bad one.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On moral choice."
+  },
+  {
+    "id": 30130,
+    "oratorId": 1,
+    "text": "The voice of the people, when united, is the voice of God.",
+    "source": "Various",
+    "speech": "Various Philippics",
+    "year": null,
+    "context": "On popular will."
+  },
+  {
+    "id": 30131,
+    "oratorId": 1,
+    "text": "He who would be free must strike the first blow.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "Call to action."
+  },
+  {
+    "id": 30132,
+    "oratorId": 1,
+    "text": "The safety of the state is the highest law.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On priority of the common good."
+  },
+  {
+    "id": 30133,
+    "oratorId": 1,
+    "text": "Words without deeds are like clouds without rain.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On action."
+  },
+  {
+    "id": 30134,
+    "oratorId": 1,
+    "text": "The man who fears not death is the master of all men.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On courage."
+  },
+  {
+    "id": 30135,
+    "oratorId": 1,
+    "text": "We fight not for glory but for the preservation of our freedom.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On motivation."
+  },
+  {
+    "id": 30136,
+    "oratorId": 1,
+    "text": "A wise man learns from the mistakes of others; a fool from his own.",
+    "source": "Attributed",
+    "speech": "Various",
+    "year": null,
+    "context": "On wisdom."
+  },
+  {
+    "id": 30137,
+    "oratorId": 1,
+    "text": "The power of the orator lies not in his voice but in the truth he speaks.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On effective speaking."
+  },
+  {
+    "id": 30138,
+    "oratorId": 1,
+    "text": "When the people are united, no tyrant can stand against them.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On unity."
+  },
+  {
+    "id": 30139,
+    "oratorId": 1,
+    "text": "It is the duty of every citizen to defend the laws as he would defend his own life.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On civic duty."
+  },
+  {
+    "id": 30140,
+    "oratorId": 1,
+    "text": "The greatest enemy of the people is not the foreign invader but the traitor within.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On internal threats."
+  },
+  {
+    "id": 30141,
+    "oratorId": 1,
+    "text": "He who has truth on his side need not fear the multitude.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On conviction."
+  },
+  {
+    "id": 30142,
+    "oratorId": 1,
+    "text": "The orator's art is to make the just cause appear the stronger.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On rhetoric."
+  },
+  {
+    "id": 30143,
+    "oratorId": 1,
+    "text": "A nation that values its freedom will not hesitate to defend it with arms.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On defense."
+  },
+  {
+    "id": 30144,
+    "oratorId": 1,
+    "text": "The memory of great deeds is the immortality of the statesman.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On legacy."
+  },
+  {
+    "id": 30145,
+    "oratorId": 1,
+    "text": "We must prepare for war if we wish to preserve peace.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On preparedness."
+  },
+  {
+    "id": 30146,
+    "oratorId": 1,
+    "text": "The true patriot is he who serves his country in its darkest hours.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On patriotism."
+  },
+  {
+    "id": 30147,
+    "oratorId": 1,
+    "text": "Speech is the mirror of the soul; as a man speaks, so he is.",
+    "source": "Attributed",
+    "speech": "Various",
+    "year": null,
+    "context": "On character."
+  },
+  {
+    "id": 30148,
+    "oratorId": 1,
+    "text": "No man is so foolish as to prefer war to peace, but some are so foolish as to prefer dishonor to war.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On choice."
+  },
+  {
+    "id": 30149,
+    "oratorId": 1,
+    "text": "The orator who sways the multitude sways the destiny of the state.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On influence."
+  },
+  {
+    "id": 30150,
+    "oratorId": 1,
+    "text": "We are all Greeks; our common heritage binds us against the barbarian.",
+    "source": "Various Philippics",
+    "speech": "Various",
+    "year": -341,
+    "context": "On Greek unity."
+  },
+  {
+    "id": 30151,
+    "oratorId": 1,
+    "text": "To endure is the first lesson of the statesman.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On endurance."
+  },
+  {
+    "id": 30152,
+    "oratorId": 1,
+    "text": "The people are the best judges of their own interests when they are not deceived.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On democracy."
+  },
+  {
+    "id": 30153,
+    "oratorId": 1,
+    "text": "A single act of courage can save a nation.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On individual impact."
+  },
+  {
+    "id": 30154,
+    "oratorId": 1,
+    "text": "The orator's words are the seeds from which the actions of the people spring.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On influence of speech."
+  },
+  {
+    "id": 30155,
+    "oratorId": 1,
+    "text": "We must not barter our freedom for a false security.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "Against appeasement."
+  },
+  {
+    "id": 30156,
+    "oratorId": 1,
+    "text": "The highest virtue is to serve the state without thought of self.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On public service."
+  },
+  {
+    "id": 30157,
+    "oratorId": 1,
+    "text": "When danger threatens, he who hesitates is lost.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On decision."
+  },
+  {
+    "id": 30158,
+    "oratorId": 1,
+    "text": "The orator who speaks the truth, though it be bitter, is the true friend of the people.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On honesty in oratory."
+  },
+  {
+    "id": 30159,
+    "oratorId": 1,
+    "text": "A people that is not ready to fight for its liberty does not deserve to be free.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On readiness."
+  },
+  {
+    "id": 30160,
+    "oratorId": 1,
+    "text": "The memory of our ancestors calls upon us to be worthy of them.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On heritage."
+  },
+  {
+    "id": 30161,
+    "oratorId": 1,
+    "text": "The orator's power is measured not by the applause he receives but by the good he does.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On impact."
+  },
+  {
+    "id": 30162,
+    "oratorId": 1,
+    "text": "We must arm ourselves with courage as our ancestors armed themselves with spears.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On moral armament."
+  },
+  {
+    "id": 30163,
+    "oratorId": 1,
+    "text": "The traitor is more dangerous than the open enemy.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On internal enemies."
+  },
+  {
+    "id": 30164,
+    "oratorId": 1,
+    "text": "He who loves his country will not spare himself in its defense.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On sacrifice."
+  },
+  {
+    "id": 30165,
+    "oratorId": 1,
+    "text": "The orator who can move the hearts of men can move the world.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On power of speech."
+  },
+  {
+    "id": 30166,
+    "oratorId": 1,
+    "text": "In the hour of peril, the true man stands forth.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On character."
+  },
+  {
+    "id": 30167,
+    "oratorId": 1,
+    "text": "We must not allow the enemy to dictate the terms of our existence.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On independence."
+  },
+  {
+    "id": 30168,
+    "oratorId": 1,
+    "text": "The orator's tongue is the sword of the state.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On role of oratory."
+  },
+  {
+    "id": 30169,
+    "oratorId": 1,
+    "text": "A free state is the only state worth living in.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On freedom."
+  },
+  {
+    "id": 30170,
+    "oratorId": 1,
+    "text": "The man who betrays his country betrays humanity.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On treason."
+  },
+  {
+    "id": 30171,
+    "oratorId": 1,
+    "text": "We must be prepared to pay the price of liberty.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On cost."
+  },
+  {
+    "id": 30172,
+    "oratorId": 1,
+    "text": "The orator who wins the people wins the future.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On persuasion."
+  },
+  {
+    "id": 30173,
+    "oratorId": 1,
+    "text": "Courage is the foundation of all virtue.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On courage."
+  },
+  {
+    "id": 30174,
+    "oratorId": 1,
+    "text": "The state that neglects its orators neglects its soul.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On importance of rhetoric."
+  },
+  {
+    "id": 30175,
+    "oratorId": 1,
+    "text": "We fight today so that our children may live free tomorrow.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On future generations."
+  },
+  {
+    "id": 30176,
+    "oratorId": 1,
+    "text": "The orator's duty is to speak for those who cannot speak for themselves.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On advocacy."
+  },
+  {
+    "id": 30177,
+    "oratorId": 1,
+    "text": "A people united in purpose is invincible.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On unity."
+  },
+  {
+    "id": 30178,
+    "oratorId": 1,
+    "text": "The truth will prevail if it is spoken with courage.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On truth."
+  },
+  {
+    "id": 30179,
+    "oratorId": 1,
+    "text": "We must not yield an inch of our ancestral freedom.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On heritage."
+  },
+  {
+    "id": 30180,
+    "oratorId": 1,
+    "text": "The orator who stirs the blood of the people stirs the destiny of nations.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On power."
+  },
+  {
+    "id": 30181,
+    "oratorId": 1,
+    "text": "In the defense of liberty, no sacrifice is too great.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On sacrifice."
+  },
+  {
+    "id": 30182,
+    "oratorId": 1,
+    "text": "The man who stands alone for the right is stronger than the multitude in error.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On conviction."
+  },
+  {
+    "id": 30183,
+    "oratorId": 1,
+    "text": "We must look the danger in the face and meet it with united hearts.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On facing threat."
+  },
+  {
+    "id": 30184,
+    "oratorId": 1,
+    "text": "The orator's voice is the trumpet that calls the people to their duty.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On call to action."
+  },
+  {
+    "id": 30185,
+    "oratorId": 1,
+    "text": "A nation is only as strong as the virtue of its citizens.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On virtue."
+  },
+  {
+    "id": 30186,
+    "oratorId": 1,
+    "text": "He who would lead must first learn to follow the truth.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On leadership."
+  },
+  {
+    "id": 30187,
+    "oratorId": 1,
+    "text": "The struggle for freedom is the noblest of all struggles.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On struggle."
+  },
+  {
+    "id": 30188,
+    "oratorId": 1,
+    "text": "The orator who wins without truth wins only a hollow victory.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On ethics."
+  },
+  {
+    "id": 30189,
+    "oratorId": 1,
+    "text": "We are the heirs of a glorious past; let us not be the authors of a shameful future.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On responsibility."
+  },
+  {
+    "id": 30190,
+    "oratorId": 1,
+    "text": "The orator's art is the art of making men see what they would rather not see.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On insight."
+  },
+  {
+    "id": 30191,
+    "oratorId": 1,
+    "text": "Liberty is the breath of life to a free people.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On liberty."
+  },
+  {
+    "id": 30192,
+    "oratorId": 1,
+    "text": "The man who betrays the trust of the people is the worst of criminals.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On trust."
+  },
+  {
+    "id": 30193,
+    "oratorId": 1,
+    "text": "We must not rest until the last enemy of our freedom is vanquished.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On perseverance."
+  },
+  {
+    "id": 30194,
+    "oratorId": 1,
+    "text": "The orator who speaks from the heart moves the hearts of others.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On sincerity."
+  },
+  {
+    "id": 30195,
+    "oratorId": 1,
+    "text": "A free people will always find the means to defend their freedom.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On resourcefulness."
+  },
+  {
+    "id": 30196,
+    "oratorId": 1,
+    "text": "The orator's duty is to the truth, not to the applause of the moment.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On integrity."
+  },
+  {
+    "id": 30197,
+    "oratorId": 1,
+    "text": "We stand or fall together; there is no middle way in the defense of liberty.",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "year": -351,
+    "context": "On unity."
+  },
+  {
+    "id": 30198,
+    "oratorId": 1,
+    "text": "The memory of the fallen calls us to finish the work they began.",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "year": -330,
+    "context": "On legacy."
+  },
+  {
+    "id": 30199,
+    "oratorId": 1,
+    "text": "The orator who can unite a divided people is the greatest of statesmen.",
+    "source": "Various",
+    "speech": "Various",
+    "year": null,
+    "context": "On unity."
+  },
+  {
+    "id": 30200,
+    "oratorId": 1,
+    "text": "In the end, it is not the strength of our arms but the justice of our cause that will prevail.",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "year": -341,
+    "context": "On justice."
+  }
+]

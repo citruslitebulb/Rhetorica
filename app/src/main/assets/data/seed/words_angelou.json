@@ -1,902 +1,222 @@
 [
   {
-    "id": 291,
-    "word": "Phenomenal",
-    "definition": "Very remarkable; extraordinary",
-    "example": "I'm a woman phenomenally. Phenomenal woman, that's me.",
-    "partOfSpeech": "adjective",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 292,
-    "word": "Rise",
-    "definition": "Move from a lower position to a higher one; come or go up; get up from lying, sitting, or kneeling",
+    "id": 40301,
+    "word": "History",
+    "definition": "The study of past events",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
-    "partOfSpeech": "verb",
+    "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Still I Rise (poem, frequently performed in speeches)",
+    "speech": "Inaugural and public readings / addresses"
   },
   {
-    "id": 293,
-    "word": "Trod",
-    "definition": "Walk in a specified way; past tense of tread",
-    "example": "You may trod me in the very dirt but still, like dust, I'll rise.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 294,
+    "id": 40302,
     "word": "Bitter",
-    "definition": "Having a sharp, pungent taste or smell; not sweet; painful or unpleasant to accept or contemplate",
-    "example": "You may write me down in history with your bitter, twisted lies.",
+    "definition": "Having a sharp, pungent taste or smell; not sweet",
+    "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Still I Rise (poem, frequently performed in speeches)",
+    "speech": "Inaugural and public readings / addresses"
   },
   {
-    "id": 295,
-    "word": "Mightily",
-    "definition": "To a great extent or degree; powerfully",
-    "example": "Does my sassiness upset you? Why are you beset with gloom? 'Cause I walk like I've got oil wells pumping in my living room.",
-    "partOfSpeech": "adverb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 296,
-    "word": "Sassiness",
-    "definition": "Liveliness and spirit; impudent or insolent behavior",
-    "example": "Does my sassiness upset you?",
+    "id": 40303,
+    "word": "Dust",
+    "definition": "Fine, dry powder consisting of tiny particles of earth or waste matter",
+    "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Still I Rise (poem, frequently performed in speeches)",
+    "speech": "Inaugural and public readings / addresses"
   },
   {
-    "id": 297,
-    "word": "Beset",
-    "definition": "Of a problem or difficulty trouble or threaten persistently",
-    "example": "Why are you beset with gloom?",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 298,
-    "word": "Gloom",
-    "definition": "Partial or total darkness; a state of depression or despondency",
-    "example": "Why are you beset with gloom?",
+    "id": 40304,
+    "word": "Resilience",
+    "definition": "The capacity to recover quickly from difficulties; toughness",
+    "example": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Still I Rise",
+    "speech": "Various readings"
   },
   {
-    "id": 299,
-    "word": "Haughtiness",
-    "definition": "The appearance or quality of being arrogantly superior and disdainful",
-    "example": "Does my haughtiness offend you?",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 300,
-    "word": "Offend",
-    "definition": "Cause to feel upset, annoyed, or resentful",
-    "example": "Does my haughtiness offend you?",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 301,
-    "word": "Shame",
-    "definition": "A painful feeling of humiliation or distress caused by the consciousness of wrong or foolish behavior",
-    "example": "Does my sexiness upset you? Does it come as a surprise that I dance like I've got diamonds at the meeting of my thighs? Out of the huts of history's shame I rise.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 302,
-    "word": "Wretchedness",
-    "definition": "The state of being deeply unhappy, uncomfortable, or unpleasant; misery",
-    "example": "Up from a past that's rooted in pain, I rise. I'm a black ocean, leaping and wide, welling and swelling I bear in the tide. Leaving behind nights of terror and fear, I rise. Into a daybreak that's wondrously clear, I rise. Bringing forth the gifts my ancestors gave, I am the dream and the hope of the slave. I rise. I rise. I rise.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 303,
-    "word": "Ancestor",
+    "id": 40305,
+    "word": "Ancestors",
     "definition": "A person, typically one more remote than a grandparent, from whom one is descended",
-    "example": "Bringing forth the gifts my ancestors gave, I am the dream and the hope of the slave.",
+    "example": "Leaving behind nights of terror and fear I rise into a daybreak that's wondrously clear I rise bringing the gifts that my ancestors gave.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Still I Rise",
+    "speech": "Public readings"
   },
   {
-    "id": 304,
-    "word": "Caged",
-    "definition": "Confined in a cage; prevented from escaping or expressing oneself freely",
-    "example": "A free bird leaps on the back of the wind and floats downstream till the current ends and dips his wing in the orange sun rays and dares to claim the sky. But a bird that stalks down his narrow cage can seldom see through his bars of rage.",
-    "partOfSpeech": "adjective",
+    "id": 40306,
+    "word": "Feel",
+    "definition": "Experience (an emotion or sensation)",
+    "example": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "partOfSpeech": "verb",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various interviews and speeches (widely quoted)",
+    "speech": "Multiple addresses on leadership and teaching"
   },
   {
-    "id": 305,
-    "word": "Trill",
-    "definition": "A quavering or vibratory sound, especially a rapid alternation of sung or played notes",
-    "example": "The caged bird sings with a fearful trill of things unknown but longed for still.",
+    "id": 40307,
+    "word": "Light",
+    "definition": "The natural agent that stimulates sight and makes things visible",
+    "example": "Nothing can dim the light which shines from within.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various writings and speeches",
+    "speech": "Multiple"
   },
   {
-    "id": 306,
-    "word": "Thrill",
-    "definition": "A sudden feeling of excitement and pleasure",
-    "example": "His words sent a thrill through the assembled crowd.",
+    "id": 40308,
+    "word": "Defeats",
+    "definition": "An instance of being defeated",
+    "example": "We may encounter many defeats but we must not be defeated.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various addresses on resilience",
+    "speech": "Multiple speeches"
   },
   {
-    "id": 307,
-    "word": "Downcast",
-    "definition": "Sad, depressed, or dejected",
-    "example": "Do not be downcast, for the sun will rise again.",
-    "partOfSpeech": "adjective",
+    "id": 40309,
+    "word": "Attitude",
+    "definition": "A settled way of thinking or feeling about someone or something",
+    "example": "If you don't like something, change it. If you can't change it, change your attitude.",
+    "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various interviews",
+    "speech": "Public wisdom shared in speeches"
   },
   {
-    "id": 308,
-    "word": "Survival",
-    "definition": "The state or fact of continuing to live or exist, typically in spite of an accident, ordeal, or difficult circumstances",
+    "id": 40310,
+    "word": "Passion",
+    "definition": "Strong and barely controllable emotion",
     "example": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various writings and speeches",
+    "speech": "Multiple"
   },
   {
-    "id": 309,
-    "word": "Thrive",
-    "definition": "Prosper; flourish; grow or develop well or vigorously",
-    "example": "My mission in life is not merely to survive, but to thrive.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 310,
-    "word": "Empowerment",
-    "definition": "Authority or power given to someone to do something; the process of becoming stronger and more confident",
-    "example": "Each time a woman stands up for herself, without knowing it possibly, without claiming it, she stands up for all women. This is empowerment.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1551,
-    "word": "Access",
-    "definition": "A way or means of approaching or entering; an entrance; a passage.",
-    "example": "The speech returned to the idea of access as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1552,
-    "word": "Activism",
-    "definition": "The practice of using action to achieve a result, such as political demonstration or a strike in support of or in opposition to an issue.",
-    "example": "The speech returned to the idea of activism as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1553,
-    "word": "Agency",
-    "definition": "The capacity, condition, or state of acting or of exerting power.",
-    "example": "The speech returned to the idea of agency as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1554,
-    "word": "Advocacy",
-    "definition": "The profession of an advocate",
-    "example": "The speech returned to the idea of advocacy as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1555,
-    "word": "Belonging",
-    "definition": "To have its proper place.",
-    "example": "Where does this document belong?",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1556,
-    "word": "Collaborate",
-    "definition": "To work together with others to achieve a common goal.",
-    "example": "Let's collaborate on this project, and get it finished faster.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1557,
+    "id": 40311,
     "word": "Compassion",
-    "definition": "Deep awareness of the suffering of another, coupled with the wish to relieve it.",
-    "example": "The speech returned to the idea of compassion as a guiding principle.",
+    "definition": "Sympathetic pity and concern for the sufferings or misfortunes of others",
+    "example": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Various writings and speeches",
+    "speech": "Multiple"
   },
   {
-    "id": 1558,
-    "word": "Creative",
-    "definition": "A person directly involved in a creative marketing process.",
-    "example": "He is a visionary creative.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1559,
-    "word": "Digital",
-    "definition": "A digital option.",
-    "example": "The speech returned to the idea of digital as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1560,
-    "word": "Education",
-    "definition": "The process of imparting knowledge, skill and judgment.",
-    "example": "2016-06-17 AROP JOSEPH 'Education is the slight hammer that breaks the yoke of ignorance, and moulds knowledge, skills, ideas, good moral values in a person be it a child, a youth or full grown adult. no matter a persons age learning never stops'.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1561,
-    "word": "Expression",
-    "definition": "The action of expressing thoughts, ideas, feelings, etc.",
-    "example": "The speech returned to the idea of expression as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1562,
-    "word": "Global",
-    "definition": "A globally scoped identifier.",
-    "example": "The speech returned to the idea of global as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1563,
-    "word": "Healing",
-    "definition": "The process where the cells in the body regenerate and repair themselves.",
-    "example": "The speech returned to the idea of healing as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1564,
-    "word": "Identity",
-    "definition": "Sameness, identicalness; the quality or fact of (several specified things) being the same.",
-    "example": "The speech returned to the idea of identity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1565,
-    "word": "Imagination",
-    "definition": "The image-making power of the mind; the act of mentally creating or reproducing an object not previously perceived; the ability to create such images.",
-    "example": "Imagination is one of the most advanced human faculties.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1566,
-    "word": "Innovation",
-    "definition": "The act of innovating; the introduction of something new, in customs, rites, etc.",
-    "example": "The speech returned to the idea of innovation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1567,
-    "word": "Intersection",
-    "definition": "The point at which different ideas, identities, or forces meet",
-    "example": "She spoke about the intersection of education, dignity, and opportunity.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1568,
-    "word": "Literacy",
-    "definition": "The ability to read and write.",
-    "example": "The speech returned to the idea of literacy as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1569,
-    "word": "Mentor",
-    "definition": "A wise and trusted counselor or teacher",
-    "example": "The speech returned to the idea of mentor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1570,
-    "word": "Narrative",
-    "definition": "The systematic recitation of an event or series of events.",
-    "example": "The speech returned to the idea of narrative as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1571,
-    "word": "Perseverance",
-    "definition": "Steady persistence in doing something despite difficulty or delay in achieving success",
-    "example": "Her perseverance carried the movement through years of resistance.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1572,
-    "word": "Platform",
-    "definition": "A raised stage from which speeches are made and on which musical and other performances are made.",
-    "example": "The speech returned to the idea of platform as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1573,
-    "word": "Possibility",
-    "definition": "The quality of being possible.",
-    "example": "The speech returned to the idea of possibility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1574,
-    "word": "Renewal",
-    "definition": "The act of renewing.",
-    "example": "The speech returned to the idea of renewal as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1575,
-    "word": "Representation",
-    "definition": "That which represents something else.",
-    "example": "The Venus of Willendorf was an early representation of the female body.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1576,
-    "word": "Scholarship",
-    "definition": "A grant-in-aid to a student.",
-    "example": "The speech returned to the idea of scholarship as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1577,
-    "word": "Confidence",
-    "definition": "A feeling of trust in one's abilities, judgment, or worth",
-    "example": "Her confidence made the message sound inevitable.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1578,
-    "word": "Storytelling",
-    "definition": "The act and skills of presenting stories and tales.",
-    "example": "The speech returned to the idea of storytelling as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1579,
-    "word": "Sustainable",
-    "definition": "Able to be sustained.",
-    "example": "Her sustainable tone gave the address an unmistakable sense of purpose.",
+    "id": 40312,
+    "word": "Wrenching",
+    "definition": "Causing great physical or mental pain",
+    "example": "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
-    "complexity": "advanced"
+    "complexity": "advanced",
+    "source": "On the Pulse of Morning (Inaugural Poem)",
+    "speech": "Inaugural Poem for President Bill Clinton"
   },
   {
-    "id": 1580,
-    "word": "Transform",
-    "definition": "An operation (often an integration) that converts one function into another.",
-    "example": "The speech returned to the idea of transform as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1581,
-    "word": "Transparency",
-    "definition": "The quality of being transparent; transparence.",
-    "example": "The speech returned to the idea of transparency as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1582,
-    "word": "Uplift",
-    "definition": "The act or result of being uplifted.",
-    "example": "The speech returned to the idea of uplift as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1583,
-    "word": "Visibility",
-    "definition": "The condition of being visible.",
-    "example": "The speech returned to the idea of visibility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1584,
-    "word": "Voice",
-    "definition": "Sound uttered by the mouth, especially by human beings in speech or song; sound thus uttered considered as possessing some special quality or character",
-    "example": "His low voice allowed him to become a bass in the choir.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1585,
-    "word": "Wellness",
-    "definition": "The quality or state of being in good health.",
-    "example": "The speech returned to the idea of wellness as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1586,
-    "word": "Empower",
-    "definition": "To give permission, power, or the legal right to do something.",
-    "example": "The speaker tried to empower the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1587,
-    "word": "Curiosity",
-    "definition": "(uncountable) Inquisitiveness; the tendency to ask and learn about things by asking questions, investigating, or exploring.",
-    "example": "The speech returned to the idea of curiosity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1588,
-    "word": "Openness",
-    "definition": "Accommodating attitude or opinion, as in receptivity to new ideas, behaviors, cultures, peoples, environments, experiences, etc., different from the familiar, conventional, traditional, or one's own.",
-    "example": "The speech returned to the idea of openness as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1589,
-    "word": "Equitable",
-    "definition": "Marked by or having equity.",
-    "example": "Her equitable tone gave the address an unmistakable sense of purpose.",
-    "partOfSpeech": "adjective",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1590,
-    "word": "Participation",
-    "definition": "The act of participating, of taking part in something.",
-    "example": "The speech returned to the idea of participation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1591,
-    "word": "Advocate",
-    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
-    "example": "The speech returned to the idea of advocate as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1592,
-    "word": "Alliance",
-    "definition": "The state of being allied.",
-    "example": "matrimonial alliances; an alliance between church and state, or between two countries",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1593,
-    "word": "Amplify",
-    "definition": "To render larger, more extended, or more intense.",
-    "example": "amplify a microscopes",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1594,
-    "word": "Adapt",
-    "definition": "To make suitable; to make to correspond; to fit or suit",
-    "example": "The speaker tried to adapt the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1595,
-    "word": "Balance",
-    "definition": "A state in which opposing forces harmonise; equilibrium.",
-    "example": "The speech returned to the idea of balance as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1596,
-    "word": "Catalyst",
-    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
-    "example": "The speech returned to the idea of catalyst as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1597,
-    "word": "Challenge",
-    "definition": "A confrontation; a dare.",
-    "example": "The speech returned to the idea of challenge as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1598,
-    "word": "Character",
-    "definition": "A being involved in the action of a story.",
-    "example": "The speech returned to the idea of character as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1599,
-    "word": "Choice",
-    "definition": "An option; a decision; an opportunity to choose or select something.",
-    "example": "Do I have a choice of what color to paint it?",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1600,
-    "word": "Clarity",
-    "definition": "The state or measure of being clear, either in appearance, thought or style; lucidity.",
-    "example": "Lack of clarity on the part of the teacher will cause confusion among the students.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1601,
-    "word": "Coalition",
-    "definition": "A temporary group or union of organizations, usually formed for a particular advantage.",
-    "example": "The Liberal Democrats and Conservative parties formed a coalition government in 2010.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1602,
-    "word": "Community",
-    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
-    "example": "The speech returned to the idea of community as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1603,
-    "word": "Consensus",
-    "definition": "A process of decision-making that seeks widespread agreement among group members.",
-    "example": "The speech returned to the idea of consensus as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1604,
-    "word": "Conviction",
-    "definition": "A firmly held belief.",
-    "example": "The speech returned to the idea of conviction as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1605,
+    "id": 40313,
     "word": "Courage",
-    "definition": "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate.",
-    "example": "It takes a lot of courage to be successful in business.",
+    "definition": "The ability to do something that frightens one; bravery",
+    "example": "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "On the Pulse of Morning (Inaugural Poem)",
+    "speech": "Inaugural Poem for President Bill Clinton"
   },
   {
-    "id": 1606,
-    "word": "Credible",
-    "definition": "Believable or plausible.",
-    "example": "Her credible tone gave the address an unmistakable sense of purpose.",
+    "id": 40314,
+    "word": "Grace",
+    "definition": "Simple elegance or refinement of movement",
+    "example": "Lift up your eyes upon this day breaking for you. Give birth again to the dream.",
+    "partOfSpeech": "noun",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "On the Pulse of Morning (Inaugural Poem)",
+    "speech": "Inaugural Poem for President Bill Clinton"
+  },
+  {
+    "id": 40315,
+    "word": "Better",
+    "definition": "Of a more excellent or effective type or quality",
+    "example": "Do the best you can until you know better. Then when you know better, do better.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various interviews and talks on personal growth",
+    "speech": "Multiple addresses"
   },
   {
-    "id": 1607,
-    "word": "Debate",
-    "definition": "An argument, or discussion, usually in an ordered or formal setting, often with more than two people, generally ending with a vote or other decision.",
-    "example": "After a four-hour debate, the committee voted to table the motion.",
+    "id": 40316,
+    "word": "Virtues",
+    "definition": "Behavior showing high moral standards",
+    "example": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Various public talks",
+    "speech": "Multiple addresses"
   },
   {
-    "id": 1608,
-    "word": "Dialogue",
-    "definition": "A conversation or other form of discourse between two or more individuals.",
-    "example": "Bill and Melinda maintained a dialogue via email over the course of their long-distance relationship.",
+    "id": 40317,
+    "word": "Butterfly",
+    "definition": "A nectar-feeding insect with two pairs of large, typically brightly colored wings",
+    "example": "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various writings and speeches",
+    "speech": "Multiple"
   },
   {
-    "id": 1609,
-    "word": "Dignity",
-    "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
-    "example": "The speech returned to the idea of dignity as a guiding principle.",
+    "id": 40318,
+    "word": "Beauty",
+    "definition": "A combination of qualities, such as shape, color, or form, that pleases the aesthetic senses",
+    "example": "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various writings and speeches",
+    "speech": "Multiple"
   },
   {
-    "id": 1610,
-    "word": "Discourse",
-    "definition": "Verbal exchange, conversation.",
-    "example": "The speech returned to the idea of discourse as a guiding principle.",
+    "id": 40319,
+    "word": "Sum",
+    "definition": "A particular amount of money",
+    "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
     "partOfSpeech": "noun",
     "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various interviews",
+    "speech": "Public wisdom"
   },
   {
-    "id": 1611,
-    "word": "Empathy",
-    "definition": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
-    "example": "She had a lot of empathy for her neighbor; she knew what it was like to lose a parent too.",
-    "partOfSpeech": "noun",
+    "id": 40320,
+    "word": "Total",
+    "definition": "Comprising the whole number or amount",
+    "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
+    "partOfSpeech": "adjective",
     "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1612,
-    "word": "Endeavor",
-    "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
-    "example": "The speech returned to the idea of endeavor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1613,
-    "word": "Endure",
-    "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
-    "example": "The singer's popularity endured for decades.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1614,
-    "word": "Equity",
-    "definition": "Fairness, impartiality, or justice as determined in light of 'natural law' or 'natural right'.",
-    "example": "The speech returned to the idea of equity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1615,
-    "word": "Ethics",
-    "definition": "The study of principles relating to right and wrong conduct.",
-    "example": "The speech returned to the idea of ethics as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1616,
-    "word": "Evidence",
-    "definition": "Facts or observations presented in support of an assertion.",
-    "example": "There is no evidence that anyone was here earlier.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1617,
-    "word": "Fairness",
-    "definition": "The property of being fair or equitable.",
-    "example": "Some questioned the fairness of the new laws.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1618,
-    "word": "Fortitude",
-    "definition": "Mental or emotional strength that enables courage in the face of adversity.",
-    "example": "The speech returned to the idea of fortitude as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1619,
-    "word": "Freedom",
-    "definition": "The power or right to act, speak, or think without unjust restraint",
-    "example": "The speech framed freedom as the birthright of every citizen.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1620,
-    "word": "Future",
-    "definition": "The time ahead; those moments yet to be experienced.",
-    "example": "The speech returned to the idea of future as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1621,
-    "word": "Govern",
-    "definition": "The act of governing",
-    "example": "The speech returned to the idea of govern as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1622,
-    "word": "Guide",
-    "definition": "Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation.",
-    "example": "The guide led us around the museum and explained the exhibits.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1623,
-    "word": "Harmony",
-    "definition": "Agreement or accord.",
-    "example": "The speech returned to the idea of harmony as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1624,
-    "word": "Heal",
-    "definition": "A spell or ability that restores hit points or removes a status ailment.",
-    "example": "The speech returned to the idea of heal as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1625,
-    "word": "Humility",
-    "definition": "The characteristic of being humble; humbleness in character and behavior.",
-    "example": "The speech returned to the idea of humility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1626,
-    "word": "Impact",
-    "definition": "The striking of one body against another; collision.",
-    "example": "The speech returned to the idea of impact as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1627,
-    "word": "Inclusion",
-    "definition": "An addition or annex to a group, set, or total.",
-    "example": "The poem was a new inclusion in the textbook.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1628,
-    "word": "Influence",
-    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
-    "example": "I have absolutely no influence over him.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1629,
-    "word": "Inspire",
-    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
-    "example": "The speaker tried to inspire the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 16,
-    "complexity": "easy"
-  },
-  {
-    "id": 1630,
-    "word": "Integrity",
-    "definition": "Steadfast adherence to a strict moral or ethical code.",
-    "example": "The speech returned to the idea of integrity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Various interviews",
+    "speech": "Public wisdom"
   }
 ]

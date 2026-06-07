@@ -44,4 +44,7 @@
     <string name="widget_color_bronze">Bronze</string>
     <string name="widget_color_ink">Ink</string>
     <string name="widget_color_plum">Plum</string>
+    <string name="speech_detail_title">Full Speech</string>
+    <string name="speech_not_found">Speech not found.</string>
+    <string name="nav_speeches">Speeches</string>
 </resources>

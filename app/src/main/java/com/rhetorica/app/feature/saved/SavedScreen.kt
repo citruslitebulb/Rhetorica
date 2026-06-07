@@ -156,6 +156,8 @@ private fun SavedScreen(
                     isSaved = true,
                     onClick = { onWordClick(word.id) },
                     onToggleSaved = { onToggleSaved(word.id) },
+                    source = word.source,
+                    speech = word.speech,
                 )
             }
         }

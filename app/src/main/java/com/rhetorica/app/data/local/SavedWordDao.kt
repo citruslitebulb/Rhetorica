@@ -23,6 +23,8 @@ interface SavedWordDao {
             words.example AS example,
             words.partOfSpeech AS partOfSpeech,
             words.oratorId AS oratorId,
+            words.source AS source,
+            words.speech AS speech,
             saved_words.savedAtEpochMillis AS savedAtEpochMillis
         FROM saved_words
         INNER JOIN words ON words.id = saved_words.wordId

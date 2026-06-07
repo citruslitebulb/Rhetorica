@@ -7,6 +7,7 @@ import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.data.seed.SeedDataLoader
 import com.rhetorica.app.widget.WidgetAppearance
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -21,6 +22,7 @@ import javax.inject.Inject
 class ProfileViewModel @Inject constructor(
     private val dictionaryRepository: DictionaryRepository,
     private val userPreferencesDao: UserPreferencesDao,
+    private val seedDataLoader: SeedDataLoader,
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
     val uiState: StateFlow<ProfileUiState> = combine(
@@ -98,6 +100,17 @@ class ProfileViewModel @Inject constructor(
             )
             userPreferencesDao.upsertUserPreferences(updatedPrefs)
             WidgetAppearance.refreshAllWidgets(context)
+        }
+    }
+
+    fun reSeedData() {
+        viewModelScope.launch {
+            try {
+                seedDataLoader.loadSeedDataIfNeeded()
+                // Note: after this, user may need to navigate back to the word list or detail to see fresh data
+            } catch (e: Exception) {
+                android.util.Log.e("ProfileViewModel", "Re-seed failed", e)
+            }
         }
     }
 }

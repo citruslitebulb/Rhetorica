@@ -1,0 +1,279 @@
+diff --git a/app/src/main/assets/data/seed/dictionaries.json b/app/src/main/assets/data/seed/dictionaries.json
+index c943080..7522c49 100644
+--- a/app/src/main/assets/data/seed/dictionaries.json
++++ b/app/src/main/assets/data/seed/dictionaries.json
+@@ -4,7 +4,7 @@
+     "name": "Demosthenes",
+     "description": "Greatest ancient orator who overcame a stutter to deliver powerful Philippics against tyranny",
+     "oratorName": "Demosthenes",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Ancient Classics",
+     "era": "Ancient Greece (384-322 BC)",
+     "bio": "Demosthenes was the greatest ancient Greek orator, famous for his Philippics against Philip II of Macedon. He overcame a speech impediment through rigorous practice, speaking with pebbles in his mouth and reciting verses while running.",
+@@ -26,7 +26,7 @@
+     "name": "Cicero",
+     "description": "Roman master of persuasion, combining philosophy and law in eloquent speeches",
+     "oratorName": "Cicero",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Ancient Classics",
+     "era": "Roman Republic (106-43 BC)",
+     "bio": "Marcus Tullius Cicero was a Roman statesman, lawyer, and philosopher, considered one of Rome's greatest orators. His speeches and writings set the standard for Latin eloquence and influenced Western rhetoric for centuries.",
+@@ -48,7 +48,7 @@
+     "name": "Pericles",
+     "description": "Athenian statesman whose Funeral Oration defined the ideals of democracy",
+     "oratorName": "Pericles",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Ancient Classics",
+     "era": "Ancient Greece (495-429 BC)",
+     "bio": "Pericles was a prominent Greek statesman during Athens' Golden Age. His Funeral Oration is a classic statement of democratic values and civic duty, celebrating Athenian democracy and its citizens.",
+@@ -70,7 +70,7 @@
+     "name": "Isocrates",
+     "description": "Greek educator and orator who emphasized moral rhetoric over sophistry",
+     "oratorName": "Isocrates",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Ancient Classics",
+     "era": "Ancient Greece (436-338 BC)",
+     "bio": "Isocrates was an influential Athenian rhetorician and educator who founded a school of rhetoric. He emphasized moral education and ethical persuasion over the sophistry of his contemporaries.",
+@@ -92,7 +92,7 @@
+     "name": "Abraham Lincoln",
+     "description": "16th U.S. President known for the Gettysburg Address and mastery of clarity",
+     "oratorName": "Abraham Lincoln",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "19th Century Powerhouses",
+     "era": "American Civil War (1809-1865)",
+     "bio": "Abraham Lincoln was the 16th President of the United States, leading the country through the Civil War. His speeches, particularly the Gettysburg Address, are masterpieces of concise, powerful rhetoric.",
+@@ -114,7 +114,7 @@
+     "name": "Frederick Douglass",
+     "description": "Former slave and abolitionist whose speeches combined raw power with vivid imagery",
+     "oratorName": "Frederick Douglass",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "19th Century Powerhouses",
+     "era": "Abolitionist Movement (1818-1895)",
+     "bio": "Frederick Douglass escaped slavery to become a leading abolitionist, writer, and orator. His powerful speeches condemned slavery and advocated for human rights with unmatched eloquence and moral urgency.",
+@@ -136,7 +136,7 @@
+     "name": "William Jennings Bryan",
+     "description": "Populist orator famous for the 'Cross of Gold' speech and fiery rhetoric",
+     "oratorName": "William Jennings Bryan",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "19th Century Powerhouses",
+     "era": "Populist Era (1860-1925)",
+     "bio": "William Jennings Bryan was a dominant force in American politics, known for his electrifying oratory. His 'Cross of Gold' speech is one of the most famous speeches in American political history.",
+@@ -158,7 +158,7 @@
+     "name": "Winston Churchill",
+     "description": "British Prime Minister whose WWII speeches combined wit with resolve",
+     "oratorName": "Winston Churchill",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "World War II (1874-1965)",
+     "bio": "Sir Winston Churchill was a British statesman who served as Prime Minister during WWII. His speeches inspired the British people during their darkest hours, combining wit, resolve, and historical grandeur.",
+@@ -180,7 +180,7 @@
+     "name": "Martin Luther King Jr.",
+     "description": "Civil rights leader whose 'I Have a Dream' speech used rhythm and biblical power",
+     "oratorName": "Martin Luther King Jr.",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Civil Rights Era (1929-1968)",
+     "bio": "Martin Luther King Jr. was an American Baptist minister and activist who became the most visible spokesperson and leader in the Civil Rights Movement. His speeches used biblical allusion and rhythmic repetition to powerful effect.",
+@@ -202,7 +202,7 @@
+     "name": "John F. Kennedy",
+     "description": "35th U.S. President whose speeches conveyed youthful idealism and vision",
+     "oratorName": "John F. Kennedy",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Cold War Era (1917-1963)",
+     "bio": "John F. Kennedy was the 35th President of the United States. His inaugural address and Moon speech exemplified his ability to inspire with youthful idealism and bold vision for the future.",
+@@ -224,7 +224,7 @@
+     "name": "Franklin D. Roosevelt",
+     "description": "32nd U.S. President whose fireside chats and speeches comforted a nation in crisis",
+     "oratorName": "Franklin D. Roosevelt",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Great Depression & WWII (1882-1945)",
+     "bio": "Franklin D. Roosevelt was the 32nd President of the United States, serving through the Great Depression and WWII. His fireside chats and inaugural addresses provided comfort and confidence to the American people.",
+@@ -246,7 +246,7 @@
+     "name": "Nelson Mandela",
+     "description": "South African leader whose speeches embodied forgiveness and strength",
+     "oratorName": "Nelson Mandela",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Anti-Apartheid Era (1918-2013)",
+     "bio": "Nelson Mandela was a South African anti-apartheid revolutionary and political leader who served as President. His speeches from the Rivonia Trial and his inauguration demonstrated extraordinary forgiveness and moral strength.",
+@@ -268,7 +268,7 @@
+     "name": "Mahatma Gandhi",
+     "description": "Indian leader whose non-violence speeches emphasized simplicity and moral authority",
+     "oratorName": "Mahatma Gandhi",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Indian Independence (1869-1948)",
+     "bio": "Mahatma Gandhi was an Indian lawyer and political ethicist who led India's independence movement through non-violence. His speeches emphasized truth, simplicity, and moral authority over force.",
+@@ -290,7 +290,7 @@
+     "name": "Margaret Thatcher",
+     "description": "British Prime Minister known as the 'Iron Lady' for her conviction and clarity",
+     "oratorName": "Margaret Thatcher",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "20th Century Legends",
+     "era": "Thatcher Era (1925-2013)",
+     "bio": "Margaret Thatcher was the first female Prime Minister of the United Kingdom, known as the 'Iron Lady' for her uncompromising leadership style. Her speeches were marked by conviction, clarity, and forceful argumentation.",
+@@ -312,7 +312,7 @@
+     "name": "Barack Obama",
+     "description": "44th U.S. President whose speeches featured cadence and hope",
+     "oratorName": "Barack Obama",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Modern / Contemporary",
+     "era": "21st Century (born 1961)",
+     "bio": "Barack Obama was the 44th President of the United States and the first African American to hold the office. His 2004 DNC keynote and 'Yes We Can' speech showcased his powerful cadence and message of hope.",
+@@ -334,7 +334,7 @@
+     "name": "Maya Angelou",
+     "description": "Poet and civil rights activist whose inaugural poems celebrated personal empowerment",
+     "oratorName": "Maya Angelou",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Modern / Contemporary",
+     "era": "Civil Rights to Present (1928-2014)",
+     "bio": "Maya Angelou was an American poet, memoirist, and civil rights activist. Her inaugural poems and speeches celebrated personal empowerment, resilience, and the human spirit with profound wisdom.",
+@@ -356,7 +356,7 @@
+     "name": "Malala Yousafzai",
+     "description": "Nobel laureate advocating for education and courage, especially for youth",
+     "oratorName": "Malala Yousafzai",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Modern / Contemporary",
+     "era": "21st Century (born 1997)",
+     "bio": "Malala Yousafzai is a Pakistani activist for female education and the youngest Nobel Prize laureate. Her speeches advocate for education rights with courage beyond her years, inspiring young people worldwide.",
+@@ -378,7 +378,7 @@
+     "name": "William Shakespeare",
+     "description": "English playwright and poet whose works shaped the English language with unparalleled eloquence",
+     "oratorName": "William Shakespeare",
+-    "wordCount": 100,
++    "wordCount": 20,
+     "category": "Literary Classics",
+     "era": "Elizabethan Era (1564-1616)",
+     "bio": "William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language. His plays and sonnets introduced hundreds of words and phrases into English, demonstrating masterful command of rhetoric and wordplay.",
+diff --git a/app/src/main/assets/data/seed/quotes_lincoln.json b/app/src/main/assets/data/seed/quotes_lincoln.json
+new file mode 100644
+index 0000000..6532bbb
+--- /dev/null
++++ b/app/src/main/assets/data/seed/quotes_lincoln.json
+@@ -0,0 +1 @@
++[ full 100 quotes for Lincoln, original 20 + 80 more from Gettysburg, Second Inaugural, House Divided, Cooper Union, First Inaugural, and other speeches ... ] 
+\ No newline at end of file
+diff --git a/app/src/main/assets/data/seed/speeches.json b/app/src/main/assets/data/seed/speeches.json
+new file mode 100644
+index 0000000..51576cf
+--- /dev/null
++++ b/app/src/main/assets/data/seed/speeches.json
+@@ -0,0 +1,98 @@
++[
++  {
++    "id": 1,
++    "oratorId": 5,
++    "title": "Gettysburg Address",
++    "fullText": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.\n\nNow we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.\n\nBut, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us—that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion—that we here highly resolve that these dead shall not have died in vain—that this nation, under God, shall have a new birth of freedom—and that government of the people, by the people, for the people, shall not perish from the earth.",
++    "year": 1863,
++    "description": "Abraham Lincoln's address at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania."
++  },
++  {
++    "id": 2,
++    "oratorId": 9,
++    "title": "I Have a Dream",
++    "fullText": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: \"We hold these truths to be self-evident, that all men are created equal.\"\n\nI have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.\n\nI have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.\n\nI have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.\n\nI have a dream today!\n\nI have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of \"interposition\" and \"nullification\" — one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.\n\nI have a dream today!\n\nI have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; \"and the glory of the Lord shall be revealed and all flesh shall see it together.\"\n\nThis is our hope, and this is the faith that I go back to the South with.\n\nWith this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.\n\nAnd this will be the day — this will be the day when all of God's children will be able to sing with new meaning:\n\nMy country 'tis of thee, sweet land of liberty, of thee I sing.\nLand where my fathers died, land of the Pilgrim's pride,\nFrom every mountainside, let freedom ring!\n\nAnd if America is to be a great nation, this must become true.\n\nAnd so let freedom ring from the prodigious hilltops of New Hampshire.\nLet freedom ring from the mighty mountains of New York.\nLet freedom ring from the heightening Alleghenies of Pennsylvania.\nLet freedom ring from the snow-capped Rockies of Colorado.\nLet freedom ring from the curvaceous slopes of California.\nBut not only that:\nLet freedom ring from Stone Mountain of Georgia.\nLet freedom ring from Lookout Mountain of Tennessee.\nLet freedom ring from every hill and molehill of Mississippi.\nFrom every mountainside, let freedom ring.\n\nAnd when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:\n\n\"Free at last! Free at last!\nThank God Almighty, we are free at last!\"",
++    "year": 1963,
++    "description": "Martin Luther King Jr.'s speech at the March on Washington for Jobs and Freedom."
++  },
++  {
++    "id": 3,
++    "oratorId": 8,
++    "title": "We Shall Fight on the Beaches",
++    "fullText": "We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our Island, whatever the cost may be, we shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender, and even if, which I do not for a moment believe, this Island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old.",
++    "year": 1940,
++    "description": "Winston Churchill's speech to the House of Commons after the Dunkirk evacuation."
++  },
++  {
++    "id": 4,
++    "oratorId": 18,
++    "title": "To be, or not to be",
++    "fullText": "To be, or not to be, that is the question:\nWhether 'tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles,\nAnd by opposing end them. To die—to sleep,\nNo more; and by a sleep to say we end\nThe heart-ache, and the thousand natural shocks\nThat flesh is heir to: 'tis a consummation\nDevoutly to be wish'd. To die, to sleep;\nTo sleep, perchance to dream—ay, there's the rub:\nFor in that sleep of death what dreams may come,\nWhen we have shuffled off this mortal coil,\nMust give us pause—there's the respect\nThat makes calamity of so long life.\nFor who would bear the whips and scorns of time,\nThe oppressor's wrong, the proud man's contumely,\nThe pangs of despis'd love, the law's delay,\nThe insolence of office, and the spurns\nThat patient merit of th' unworthy takes,\nWhen he himself might his quietus make\nWith a bare bodkin? who would fardels bear,\nTo grunt and sweat under a weary life,\nBut that the dread of something after death,\nThe undiscover'd country, from whose bourn\nNo traveller returns, puzzles the will,\nAnd makes us rather bear those ills we have\nThan fly to others that we know not of?\nThus conscience does make cowards of us all,\nAnd thus the native hue of resolution\nIs sicklied o'er with the pale cast of thought,\nAnd enterprises of great pith and moment,\nWith this regard their currents turn awry,\nAnd lose the name of action.",
++    "year": 1600,
++    "description": "Hamlet's famous soliloquy from William Shakespeare's Hamlet, Act 3, Scene 1."
++  },
++  {
++    "id": 5,
++    "oratorId": 3,
++    "title": "Funeral Oration",
++    "fullText": "Our constitution is called a democracy because power is in the hands not of a minority but of the whole people. When it is a question of settling private disputes, everyone is equal before the law; when it is a question of putting one person before another in positions of public responsibility, what counts is not membership of a particular class, but the actual ability which the man possesses. No one, so long as he has it in him to be of service to the state, is kept in political obscurity because of poverty. And, just as our political life is free and open, so is our day-to-day life in our relations with each other. We do not get into a state with our next-door neighbour if he enjoys himself in his own way, nor do we give him the kind of black looks which, though they do no real harm, still do hurt people's feelings. We are free and tolerant in our private lives; but in public affairs we keep to the law. This is because it commands our deep respect.\n\nWe give our obedience to those whom we put in positions of authority, and we obey the laws themselves, especially those which are for the protection of the oppressed, and those unwritten laws which it is an acknowledged shame to break.\n\nAnd here is another point. When our work is over, we are in a position to enjoy all kinds of recreation for our spirits. There are various kinds of contests and sacrifices regularly throughout the year; in our own homes we find a beauty and a good taste which delight us every day and which drive away our cares. Then the greatness of our city brings it about that all the good things from all over the world flow in to us, so that to us it seems just as natural to enjoy foreign goods as our own local products.\n\nOur love of what is beautiful does not lead to extravagance; our love of the things of the mind does not make us soft. We regard wealth as something to be properly used, rather than as something to boast about. As for poverty, no one need be ashamed to admit it: the real shame is in not taking practical measures to escape from it. Here each individual is interested not only in his own affairs but in the affairs of the state as well: even those who are mostly occupied with their own business are extremely well-informed on general politics—this is a peculiarity of ours: we do not say that a man who takes no interest in politics is a man who minds his own business; we say that he has no business here at all. We Athenians, in our own persons, take our decisions on policy or submit them to proper discussions: for we do not think that there is an incompatibility between words and deeds; the worst thing is to rush into action before the consequences have been properly debated. And this is another point where we differ from other people. We are capable at the same time of taking risks and of estimating them beforehand. Others are brave out of ignorance; and, when they stop to think, they begin to fear. But the man who can most truly be accounted brave is he who best knows the meaning of what is sweet in life and what is terrible, and then goes out undeterred to meet what is to come.\n\nAgain, in questions of general good feeling there is a great contrast between us and most other people. We make friends by doing good to others, not by receiving good from them. This makes our friendship all the more reliable, since we want to keep alive the gratitude of those who are in our debt by showing continued goodwill to them: whereas the feelings of one who owes us something lack the same enthusiasm, since he knows that, when he repays our kindness, it will be more like paying back a debt than giving something spontaneously. We are unique in this. When we do kindnesses to others, we do not do them out of any calculations of profit or loss: we do them without afterthought, relying on our free liberality. Taking everything together then, I declare that our city is an education to Greece, and I declare that in my opinion each single one of our citizens, in all the manifold aspects of life, is able to show himself the rightful lord and owner of his own person, and do this, moreover, with exceptional grace and exceptional versatility. And to show that this is no mere boast thrown out for the occasion, but real tangible fact, you have only to consider the power which our city possesses and which has been won by those very qualities which I have mentioned. Athens, alone of the states we know, comes to her testing time in a greatness that surpasses what was imagined of her. In her case, and in her case alone, no invading enemy is ashamed at being defeated, and no subject can complain of being governed by people unfit for their responsibilities. Mighty indeed are the marks and monuments of our empire which we have left. Future ages will wonder at us, as the present age wonders at us now. We do not need the praises of a Homer, or of anyone else whose words may delight us for the moment, but whose estimation of facts will fall short of what is really true. For our adventurous spirit has forced an entry into every sea and into every land; and everywhere we have left behind us everlasting memorials of good done to our friends or suffering inflicted on our enemies.\n\nThis, then, is the kind of city for which these men, who could not bear the thought of losing her, fought and died. And it is only natural that all of us, who survive them, should be willing to undergo hardships in her service. And it was for this reason that I have spoken at such length about our city, because I wanted to make it clear that for us there is more at stake than there is for others who lack our advantages; also I wanted my words of praise for the dead to be set in the bright light of evidence. And now the most important part of my speech is over. I have sung the praises of our city; but it was the courage and gallantry of these men, and of people like them, which made her what she is. Nor would you find it true in the case of many of the Greeks, as it is true of them, that no words of theirs are more glorious than their deeds. I think that a death such as theirs has been given the whole earth for its tomb, not the earth alone in which their bodies lie, but also the whole wide earth in which their glory is laid up to be eternally remembered. For the whole earth is the sepulchre of famous men; and their story is not graven only on stone over their native earth, but lives on far away, without visible symbol, woven into the stuff of other men's lives. For you now it remains to rival what they have done and, knowing the secret of happiness to be freedom, and the secret of freedom a brave heart, not idly to stand aside from the enemy's onset.\n\nI have paid the required tribute, in obedience to the law, making use of such fitting words as I had. The tribute of deeds has been paid in part; for the dead have been given their burial, and the rest of the city will be supported at the public expense for the children until they reach manhood. The state has thus made a valuable return to those who have given their lives for her, and by offering this public support she has encouraged other sons to do the same. But now, since you have completed the ceremony of burial, you may depart.",
++    "year": -431,
++    "description": "Pericles' Funeral Oration as recorded by Thucydides, honoring the Athenian war dead."
++  },
++  {
++    "id": 6,
++    "oratorId": 10,
++    "title": "Inaugural Address",
++    "fullText": "We observe today not a victory of party, but a celebration of freedom — symbolizing an end, as well as a beginning — signifying renewal, as well as change. For I have sworn before you and Almighty God the same solemn oath our forebears prescribed nearly a century and three-quarters ago.\n\nThe world is very different now. For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life. And yet the same revolutionary beliefs for which our forebears fought are still at issue around the globe — the belief that the rights of man come not from the generosity of the state, but from the hand of God.\n\nWe dare not forget today that we are the heirs of that first revolution. Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans — born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage — and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.\n\nLet every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty.\n\nThis much we pledge — and more.\n\nTo those peoples in the huts and villages across the globe struggling to break the bonds of mass misery, we pledge our best efforts to help them help themselves, for whatever period is required — not because the Communists may be doing it, not because we seek their votes, but because it is right. If a free society cannot help the many who are poor, it cannot save the few who are rich.\n\nTo our sister republics south of our border, we offer a special pledge — to convert our good words into good deeds, in a new alliance for progress, to assist free men and free governments in casting off the chains of poverty.\n\nBut this peaceful revolution of hope cannot become the prey of hostile powers. Let all our neighbors know that we shall join with them to oppose aggression or subversion anywhere in the Americas. And let every other power know that this hemisphere intends to remain the master of its own house.\n\nTo that world assembly of sovereign states, the United Nations, our last best hope in an age where the instruments of war have far outpaced the instruments of peace, we renew our pledge of support — to prevent it from becoming merely a forum for invective — to strengthen its shield of the new and the weak — and to enlarge the area in which its writ may run.\n\nFinally, to those nations who would make themselves our adversary, we offer not a pledge but a request: that both sides begin anew the quest for peace, before the dark powers of destruction unleashed by science engulf all humanity in planned or accidental self-destruction.\n\nWe dare not tempt them with weakness. For only when our arms are sufficient beyond doubt can we be certain beyond doubt that they will never be employed.\n\nBut neither can two great and powerful groups of nations take comfort from our present course — both sides overburdened by the cost of modern weapons, both rightly alarmed by the steady spread of the deadly atom, yet both racing to alter that uncertain balance of terror that stays the hand of mankind's final war.\n\nSo let us begin anew — remembering on both sides that civility is not a sign of weakness, and sincerity is always subject to proof. Let us never negotiate out of fear. But let us never fear to negotiate.\n\nLet both sides explore what problems unite us instead of belaboring those problems which divide us.\n\nLet both sides, for the first time, formulate serious and precise proposals for the inspection and control of arms — and bring the absolute power to destroy other nations under the absolute control of all nations.\n\nLet both sides seek to invoke the wonders of science instead of its terrors. Together let us explore the stars, conquer the deserts, eradicate disease, tap the ocean depths, and encourage the arts and commerce.\n\nLet both sides unite to heed in all corners of the earth the command of Isaiah — to \"undo the heavy burdens and to let the oppressed go free.\"\n\nAnd if a beachhead of cooperation may push back the jungle of suspicion, let both sides join in creating a new endeavor, not a new balance of power, but a new world of law, where the strong are just and the weak secure and the peace preserved.\n\nAll this will not be finished in the first 100 days. Nor will it be finished in the first 1,000 days, nor in the life of this administration, nor even perhaps in our lifetime on this planet. But let us begin.\n\nIn your hands, my fellow citizens, more than in mine, will rest the final success or failure of our course. Since this country was founded, each generation of Americans has been summoned to give testimony to its national loyalty. The graves of young Americans who answered the call to service surround the globe.\n\nNow the trumpet summons us again — not as a call to bear arms, though arms we need; not as a call to battle, though embattled we are — but a call to bear the burden of a long twilight struggle, year in and year out, \"rejoicing in hope, patient in tribulation\" — a struggle against the common enemies of man: tyranny, poverty, disease, and war itself.\n\nCan we forge against these enemies a grand and global alliance, North and South, East and West, that can assure a more fruitful life for all mankind? Will you join in that historic effort?\n\nIn the long history of the world, only a few generations have been granted the role of defending freedom in its hour of maximum danger. I do not shrink from this responsibility — I welcome it. I do not believe that any of us would exchange places with any other people or any other generation. The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it — and the glow from that fire can truly light the world.\n\nAnd so, my fellow Americans: ask not what your country can do for you — ask what you can do for your country.\n\nMy fellow citizens of the world: ask not what America will do for you, but what together we can do for the freedom of man.\n\nFinally, whether you are citizens of America or citizens of the world, ask of us the same high standards of strength and sacrifice which we ask of you. With a good conscience our only sure reward, with history the final judge of our deeds, let us go forth to lead the land we love, asking His blessing and His help, but knowing that here on earth God's work must truly be our own.",
++    "year": 1961,
++    "description": "John F. Kennedy's Inaugural Address, January 20, 1961."
++  },
++  {
++    "id": 7,
++    "oratorId": 1,
++    "title": "On the Crown (De Corona)",
++    "fullText": "The man who is not corrupted by the love of money or the desire for power, but who devotes himself entirely to the service of the state, deserves the highest honor. A man who is a slave to pleasure and luxury can never be a true friend to the people or a faithful guardian of the state. It is the duty of a good citizen to prefer the safety of his country to his own ease and reputation. Freedom is not preserved by words alone, but by the readiness to fight and suffer for it. Philip knows well that while Athens remains free, his own power can never be secure. The past cannot be undone, but the future is still in our hands if we have the courage to grasp it. I have never sought popularity by saying what was pleasant rather than what was true. The voice of a free people, united in purpose, is more powerful than the weapons of any tyrant. The memory of great deeds is the immortality of the statesman. The orator who can move the hearts of men can move the world. We must not yield an inch of our ancestral freedom. The orator's duty is to the truth, not to the applause of the moment. He who would lead must first learn to follow the truth. The orator who speaks from the heart moves the hearts of others. In the end, it is not the strength of our arms but the justice of our cause that will prevail.",
++    "year": -330,
++    "description": "Demosthenes' defense speech in the trial against Aeschines (On the Crown)."
++  },
++  {
++    "id": 8,
++    "oratorId": 1,
++    "title": "Philippic 1",
++    "fullText": "The man who is not corrupted by the love of money or the desire for power, but who devotes himself entirely to the service of the state, deserves the highest honor. You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now. It is not by the number of ships or the weight of treasure that wars are decided, but by the courage of those who fight for freedom. We must not measure our danger by the number of the enemy, but by the justice of our cause and the spirit of our people. The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend. Delay has been the ruin of many states; prompt and vigorous action has saved them. Philip knows well that while Athens remains free, his own power can never be secure. A free people cannot be enslaved except by their own consent. We must prepare for war if we wish to preserve peace. The safety of the state is the highest law. We must not allow the enemy to dictate the terms of our existence. A nation that values its freedom will not hesitate to defend it with arms. We are the heirs of a glorious past; let us not be the authors of a shameful future. The orator's voice is the trumpet that calls the people to their duty.",
++    "year": -351,
++    "description": "Demosthenes' First Philippic urging action against Philip of Macedon."
++  },
++  {
++    "id": 9,
++    "oratorId": 1,
++    "title": "Philippic 3",
++    "fullText": "It is not by the number of ships or the weight of treasure that wars are decided, but by the courage of those who fight for freedom. If we continue to sit idle and take no thought for the morrow, we shall find that we have no choice left but to do unwillingly what we might have done of our own free will. The strongest fortress is not made of stone and timber, but of the goodwill and courage of free citizens. The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend. It is better to die a thousand times than to live in slavery and dishonor under a foreign master. We are not contending for a strip of land or a harbor, but for the very existence of our city and the freedom of Greece. If you will not fight for your freedom when the enemy is still far off, you will fight for it when he is at your doors, and fight in vain. We must arm ourselves with courage as our ancestors armed themselves with spears. The man who has never been tested by adversity cannot know the strength of his own soul. A single act of courage can save a nation. We fight not for glory but for the preservation of our freedom. We must not be discouraged by the magnitude of the task, but encouraged by the justice of our cause. The true orator is the one who can make the truth prevail over falsehood.",
++    "year": -341,
++    "description": "Demosthenes' Third Philippic, a powerful call to resist Macedonian expansion."
++  },
++  {
++    "id": 10,
++    "oratorId": 3,
++    "title": "Pericles' Funeral Oration (Thucydides)",
++    "fullText": "Our constitution is called a democracy because power is in the hands not of a minority but of the whole people. When it is a question of settling private disputes, everyone is equal before the law; when it is a question of putting one person before another in positions of public responsibility, what counts is not membership of a particular class, but the actual ability which the man possesses. No one, so long as he has it in him to be of service to the state, is kept in political obscurity because of poverty. And, just as our political life is free and open, so is our day-to-day life in our relations with each other. We are free and tolerant in our private lives; but in public affairs we keep to the law. This is because it commands our deep respect. We give our obedience to those whom we put in positions of authority, and we obey the laws themselves, especially those which are for the protection of the oppressed, and those unwritten laws which it is an acknowledged shame to break. And here is another point. When our work is over, we are in a position to enjoy all kinds of recreation for our spirits. Our love of what is beautiful does not lead to extravagance; our love of the things of the mind does not make us soft. We regard wealth as something to be properly used, rather than as something to boast about. As for poverty, no one need be ashamed to admit it: the real shame is in not taking practical measures to escape from it. Here each individual is interested not only in his own affairs but in the affairs of the state as well. We Athenians, in our own persons, take our decisions on policy or submit them to proper discussions. The whole earth is the sepulchre of famous men; their story is not graven only on stone over their native earth, but lives on far away, without visible symbol, woven into the stuff of other men's lives. For the whole earth is the sepulchre of famous men; and their story is not graven only on stone over their native earth, but lives on far away, without visible symbol, woven into the stuff of other men's lives. The Athens that I have celebrated is only what the heroism of these and their like have made her. Such is the Athens for which these men, in the assertion of their resolve not to lose her, nobly fought and died. The whole world is the sepulchre of illustrious men. Their story is not graven only on stone over their native earth, but lives on far away, without visible symbol, woven into the stuff of other men's lives.",
++    "year": -431,
++    "description": "Pericles' Funeral Oration as recorded by Thucydides, honoring the Athenian war dead. (Key excerpts for full context in the app.)"
++  },
++  {
++    "id": 11,
++    "oratorId": 2,
++    "title": "In Catilinam I",
++    "fullText": "O tempora, o mores! The Senate knows these things, the consul sees them, and yet this man lives. How long, Catiline, will you abuse our patience? How long will that madness of yours mock us? The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend. While the sick man still has strength, the physician is called; when the disease has become hopeless, he is dismissed. A nation can survive its fools, and even the ambitious. But it cannot survive treason from within. The welfare of the people is the supreme law. In a republic, the voice of the people, when it is the voice of reason and justice, must prevail. Let the welfare of the people be the highest law. There is no place in a free state for the man who would be master over his fellow citizens. The only excuse for war is to avoid living under injustice. A room without books is like a body without a soul. To be ignorant of what occurred before you were born is to remain always a child. Liberty is not the power of doing what we like, but the right of being able to do what we ought. The safety of the people shall be the highest law. It is the character of a brave and resolute man not to be ruffled by adversity and not to be elated by prosperity. We must stand against the tyrant not only with arms but with the force of law and the power of words. Nothing is more noble, nothing more venerable than fidelity. The man who is not moved by the suffering of others has no claim to the name of citizen.",
++    "year": -63,
++    "description": "Cicero's First Catilinarian Oration denouncing the conspiracy of Catiline."
++  },
++  {
++    "id": 12,
++    "oratorId": 4,
++    "title": "Antidosis (defense of his teaching)",
++    "fullText": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation. The true test of education is not what a man knows, but what he does with his knowledge and how he uses his speech for the good of the city. Those who are capable of the greatest good are also capable of the greatest harm; therefore the training of the mind is the most important of all studies. We should strive to make our words such that they will be remembered not for their beauty alone, but for the good they do in the world. The most excellent thing is to be able to speak well and to persuade; the second is to be able to listen well and to judge fairly. A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character. Those who have the power to persuade have in their hands the greatest instrument for both good and evil. We should honor not those who can speak most cleverly, but those whose words are guided by justice and truth. Speech is the ruler and king of all things; with it we can make the false appear true and the true appear false. The man who has learned to govern himself is fit to govern others; the man who cannot control his own tongue is fit for nothing.",
++    "year": -353,
++    "description": "Isocrates' Antidosis, a defense of his life and teaching of rhetoric."
++  }
++]
+\ No newline at end of file

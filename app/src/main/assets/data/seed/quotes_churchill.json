@@ -1,0 +1,182 @@
+[
+  {
+    "id": 30801,
+    "oratorId": 8,
+    "text": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches (House of Commons)",
+    "year": 1940,
+    "context": "After the Dunkirk evacuation, preparing Britain for possible invasion."
+  },
+  {
+    "id": 30802,
+    "oratorId": 8,
+    "text": "I have nothing to offer but blood, toil, tears and sweat.",
+    "source": "Blood, Toil, Tears and Sweat",
+    "speech": "Blood, Toil, Tears and Sweat (first speech as Prime Minister)",
+    "year": 1940,
+    "context": "First address to the House of Commons as Prime Minister, May 1940."
+  },
+  {
+    "id": 30803,
+    "oratorId": 8,
+    "text": "We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our Island, whatever the cost may be.",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "year": 1940,
+    "context": "Vowing total resistance to Nazi Germany."
+  },
+  {
+    "id": 30804,
+    "oratorId": 8,
+    "text": "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'",
+    "source": "Their Finest Hour",
+    "speech": "Their Finest Hour (House of Commons)",
+    "year": 1940,
+    "context": "After the fall of France, calling for courage in the coming Battle of Britain."
+  },
+  {
+    "id": 30805,
+    "oratorId": 8,
+    "text": "Never in the field of human conflict was so much owed by so many to so few.",
+    "source": "The Few",
+    "speech": "The Few (House of Commons tribute to the RAF)",
+    "year": 1940,
+    "context": "Honoring the pilots of the Battle of Britain."
+  },
+  {
+    "id": 30806,
+    "oratorId": 8,
+    "text": "We have before us an ordeal of the most grievous kind. We have before us many, many long months of struggle and of suffering.",
+    "source": "Blood, Toil, Tears and Sweat",
+    "speech": "Blood, Toil, Tears and Sweat",
+    "year": 1940,
+    "context": "Setting realistic expectations at the beginning of his premiership."
+  },
+  {
+    "id": 30807,
+    "oratorId": 8,
+    "text": "If we can stand up to him, all Europe may be free and the life of the world may move forward into broad, sunlit uplands.",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "year": 1940,
+    "context": "Offering a vision of victory beyond the immediate darkness."
+  },
+  {
+    "id": 30808,
+    "oratorId": 8,
+    "text": "From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.",
+    "source": "Sinews of Peace (Iron Curtain Speech)",
+    "speech": "Sinews of Peace (Iron Curtain)",
+    "year": 1946,
+    "context": "Fulton, Missouri speech that named the emerging Cold War division of Europe."
+  },
+  {
+    "id": 30809,
+    "oratorId": 8,
+    "text": "I am convinced that the only way to save our civilization is for the English-speaking peoples to stand together.",
+    "source": "Sinews of Peace (Iron Curtain Speech)",
+    "speech": "Sinews of Peace",
+    "year": 1946,
+    "context": "Calling for Anglo-American unity against Soviet expansion."
+  },
+  {
+    "id": 30810,
+    "oratorId": 8,
+    "text": "We shall not flag or fail. We shall go on to the end.",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "year": 1940,
+    "context": "The opening vow of total commitment."
+  },
+  {
+    "id": 30811,
+    "oratorId": 8,
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "source": "Various speeches and writings (frequently quoted)",
+    "speech": "Multiple addresses during WWII",
+    "year": null,
+    "context": "Churchillian philosophy of perseverance."
+  },
+  {
+    "id": 30812,
+    "oratorId": 8,
+    "text": "The nation had the lion's heart. I had the luck to give the roar.",
+    "source": "Speech to the House of Commons on his 80th birthday",
+    "speech": "Tribute on 80th birthday",
+    "year": 1954,
+    "context": "Modestly crediting the British people for victory."
+  },
+  {
+    "id": 30813,
+    "oratorId": 8,
+    "text": "In war: resolution. In defeat: defiance. In victory: magnanimity. In peace: goodwill.",
+    "source": "The Second World War (preface / moral of the work)",
+    "speech": "Often repeated in addresses",
+    "year": 1948,
+    "context": "The famous four-part moral code Churchill proposed for statesmanship."
+  },
+  {
+    "id": 30814,
+    "oratorId": 8,
+    "text": "You ask, what is our policy? I will say: It is to wage war, by sea, land and air, with all our might and with all the strength that God can give us.",
+    "source": "Blood, Toil, Tears and Sweat",
+    "speech": "Blood, Toil, Tears and Sweat",
+    "year": 1940,
+    "context": "Clear statement of total war policy."
+  },
+  {
+    "id": 30815,
+    "oratorId": 8,
+    "text": "We have not journeyed all this way across the centuries, across the oceans, across the mountains, across the prairies because we are made of sugar candy.",
+    "source": "Speech to the Canadian Parliament",
+    "speech": "Speech to the Canadian Parliament",
+    "year": 1941,
+    "context": "Reminding allies of the toughness of the English-speaking peoples."
+  },
+  {
+    "id": 30816,
+    "oratorId": 8,
+    "text": "This is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.",
+    "source": "The End of the Beginning",
+    "speech": "The End of the Beginning (Lord Mayor's Luncheon)",
+    "year": 1942,
+    "context": "After the victory at El Alamein, signaling a turning point."
+  },
+  {
+    "id": 30817,
+    "oratorId": 8,
+    "text": "I have, myself, full confidence that if all do their duty, if nothing is neglected, and if the best arrangements are made, as they are being made, we shall prove ourselves once again able to defend our Island home.",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "year": 1940,
+    "context": "Expressing calm confidence in the face of invasion threat."
+  },
+  {
+    "id": 30818,
+    "oratorId": 8,
+    "text": "An iron curtain has descended across the Continent. Behind that line lie all the capitals of the ancient states of Central and Eastern Europe.",
+    "source": "Sinews of Peace (Iron Curtain Speech)",
+    "speech": "Sinews of Peace",
+    "year": 1946,
+    "context": "Describing the new division of Europe."
+  },
+  {
+    "id": 30819,
+    "oratorId": 8,
+    "text": "We shall not fail or falter; we shall not weaken or tire. Neither the sudden shock of battle, nor the long-drawn trials of vigilance and exertion will wear us down.",
+    "source": "Their Finest Hour",
+    "speech": "Their Finest Hour",
+    "year": 1940,
+    "context": "Vowing endurance for the long war ahead."
+  },
+  {
+    "id": 30820,
+    "oratorId": 8,
+    "text": "Victory at all costs, victory in spite of all terror, victory however long and hard the road may be; for without victory, there is no survival.",
+    "source": "Blood, Toil, Tears and Sweat",
+    "speech": "Blood, Toil, Tears and Sweat",
+    "year": 1940,
+    "context": "The uncompromising commitment to victory as the only path to survival."
+  }
+]

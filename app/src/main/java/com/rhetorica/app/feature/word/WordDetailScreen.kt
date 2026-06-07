@@ -33,6 +33,7 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.R
 
 const val wordDetailRoute = "word/{wordId}"
@@ -43,6 +44,7 @@ fun NavController.navigateToWordDetail(wordId: Long) {
 
 fun NavGraphBuilder.wordDetailScreen(
     onBack: () -> Unit,
+    onReadFullSpeech: (Long, String) -> Unit = { _, _ -> },
 ) {
     composable(
         route = wordDetailRoute,
@@ -50,13 +52,14 @@ fun NavGraphBuilder.wordDetailScreen(
             navArgument("wordId") { type = NavType.LongType },
         ),
     ) {
-        WordDetailRoute(onBack = onBack)
+        WordDetailRoute(onBack = onBack, onReadFullSpeech = onReadFullSpeech)
     }
 }
 
 @Composable
 fun WordDetailRoute(
     onBack: () -> Unit,
+    onReadFullSpeech: (Long, String) -> Unit = { _, _ -> },
     viewModel: WordDetailViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
@@ -64,6 +67,7 @@ fun WordDetailRoute(
         state = state,
         onBack = onBack,
         onToggleSaved = viewModel::toggleSaved,
+        onReadFullSpeech = onReadFullSpeech,
     )
 }
 
@@ -73,6 +77,7 @@ private fun WordDetailScreen(
     state: WordDetailUiState,
     onBack: () -> Unit,
     onToggleSaved: () -> Unit,
+    onReadFullSpeech: (Long, String) -> Unit = { _, _ -> },
 ) {
     Scaffold(
         topBar = {
@@ -183,6 +188,31 @@ private fun WordDetailScreen(
                         body = word.example,
                         italic = true,
                     )
+
+                    if (word.source != null || word.speech != null) {
+                        val attribution = buildString {
+                            val title = word.speech ?: word.source
+                            if (title != null) append("— ").append(title)
+                            if (word.speech != null && word.source != null && word.source != word.speech) {
+                                append(" (").append(word.source).append(")")
+                            }
+                        }.trim()
+                        Text(
+                            text = attribution,
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            modifier = Modifier.padding(start = 4.dp, top = 4.dp),
+                        )
+                    }
+
+                    if (word.speech != null && (word.oratorId ?: 0L) != 0L) {
+                        androidx.compose.material3.OutlinedButton(
+                            onClick = { onReadFullSpeech(word.oratorId!!, word.speech) },
+                            modifier = Modifier.padding(top = 12.dp)
+                        ) {
+                            Text("Read the full speech")
+                        }
+                    }
                 }
             }
         }

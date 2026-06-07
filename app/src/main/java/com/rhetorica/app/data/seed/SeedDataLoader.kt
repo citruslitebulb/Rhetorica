@@ -4,6 +4,10 @@ import android.content.Context
 import android.util.Log
 import com.rhetorica.app.data.local.DictionaryEntity
 import com.rhetorica.app.data.local.DictionaryDao
+import com.rhetorica.app.data.local.QuoteEntity
+import com.rhetorica.app.data.local.QuoteDao
+import com.rhetorica.app.data.local.SpeechEntity
+import com.rhetorica.app.data.local.SpeechDao
 import com.rhetorica.app.data.local.RhetoricaDatabase
 import com.rhetorica.app.data.local.WordEntity
 import com.rhetorica.app.data.local.WordDao
@@ -20,6 +24,8 @@ class SeedDataLoader @Inject constructor(
     @ApplicationContext private val context: Context,
     private val wordDao: WordDao,
     private val dictionaryDao: DictionaryDao,
+    private val quoteDao: QuoteDao,
+    private val speechDao: SpeechDao,
     private val database: RhetoricaDatabase,
     private val json: Json,
 ) {
@@ -35,6 +41,12 @@ class SeedDataLoader @Inject constructor(
             // Always load words to add any new seed data
             // upsertWords uses OnConflictStrategy.REPLACE to handle existing words
             loadWords()
+
+            // Always load quotes to support adding more over time (100 famous speech excerpts per orator)
+            loadQuotes()
+
+            // Load full speeches for deeper reading, linked from word examples
+            loadSpeeches()
         }
     }
 
@@ -111,6 +123,86 @@ class SeedDataLoader @Inject constructor(
         if (allWords.isNotEmpty()) {
             wordDao.upsertWords(allWords)
             Log.i(TAG, "Loaded ${allWords.size} total words")
+        }
+    }
+
+    private suspend fun loadQuotes() {
+        val allQuotes = mutableListOf<QuoteEntity>()
+
+        val oratorQuoteFiles = listOf(
+            "data/seed/quotes_demosthenes.json",
+            "data/seed/quotes_cicero.json",
+            "data/seed/quotes_pericles.json",
+            "data/seed/quotes_isocrates.json",
+            "data/seed/quotes_lincoln.json",
+            "data/seed/quotes_douglass.json",
+            "data/seed/quotes_bryan.json",
+            "data/seed/quotes_churchill.json",
+            "data/seed/quotes_mlk.json",
+            "data/seed/quotes_jfk.json",
+            "data/seed/quotes_fdr.json",
+            "data/seed/quotes_mandela.json",
+            "data/seed/quotes_gandhi.json",
+            "data/seed/quotes_thatcher.json",
+            "data/seed/quotes_obama.json",
+            "data/seed/quotes_angelou.json",
+            "data/seed/quotes_malala.json",
+            "data/seed/quotes_shakespeare.json"
+        )
+
+        val validOratorIds = getValidOratorIds()
+
+        oratorQuoteFiles.forEach { fileName ->
+            try {
+                val quotes = context.assets.open(fileName).bufferedReader().use { reader ->
+                    val jsonString = reader.readText()
+                    json.decodeFromString<List<QuoteEntity>>(jsonString)
+                }
+                val validQuotes = quotes.filter { quote ->
+                    val isValid = quote.oratorId in validOratorIds
+                    if (!isValid) {
+                        Log.w(TAG, "Skipping quote with invalid oratorId: ${quote.oratorId}")
+                    }
+                    isValid
+                }
+                allQuotes.addAll(validQuotes)
+                Log.i(TAG, "Loaded ${validQuotes.size} quotes from $fileName")
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to load quotes from $fileName", e)
+            }
+        }
+
+        if (allQuotes.isNotEmpty()) {
+            quoteDao.upsertQuotes(allQuotes)
+            Log.i(TAG, "Loaded ${allQuotes.size} total quotes")
+        }
+    }
+
+    private suspend fun loadSpeeches() {
+        val allSpeeches = mutableListOf<SpeechEntity>()
+
+        try {
+            val speeches = context.assets.open("data/seed/speeches.json").bufferedReader().use { reader ->
+                val jsonString = reader.readText()
+                json.decodeFromString<List<SpeechEntity>>(jsonString)
+            }
+            val validOratorIds = getValidOratorIds()
+            val validSpeeches = speeches.filter { speech ->
+                val isValid = speech.oratorId in validOratorIds
+                if (!isValid) {
+                    Log.w(TAG, "Skipping speech with invalid oratorId: ${speech.oratorId}")
+                }
+                isValid
+            }
+            allSpeeches.addAll(validSpeeches)
+            Log.i(TAG, "Loaded ${validSpeeches.size} speeches from speeches.json")
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to load speeches", e)
+        }
+
+        if (allSpeeches.isNotEmpty()) {
+            speechDao.upsertSpeeches(allSpeeches)
+            Log.i(TAG, "Loaded ${allSpeeches.size} total speeches")
         }
     }
 }

@@ -8,4 +8,6 @@ data class SavedWordSummary(
     val partOfSpeech: String,
     val oratorId: Long?,
     val savedAtEpochMillis: Long,
+    val source: String? = null,
+    val speech: String? = null,
 )

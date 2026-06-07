@@ -1,0 +1,182 @@
+[
+  {
+    "id": 30901,
+    "oratorId": 9,
+    "text": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream (March on Washington)",
+    "year": 1963,
+    "context": "The most famous passage from the speech delivered from the steps of the Lincoln Memorial."
+  },
+  {
+    "id": 30902,
+    "oratorId": 9,
+    "text": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "The heart of the dream: character over color."
+  },
+  {
+    "id": 30903,
+    "oratorId": 9,
+    "text": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
+    "source": "Letter from Birmingham Jail",
+    "speech": "Letter from Birmingham Jail (written during imprisonment)",
+    "year": 1963,
+    "context": "Response to white clergymen urging patience; one of the greatest documents of the movement."
+  },
+  {
+    "id": 30904,
+    "oratorId": 9,
+    "text": "We must use time creatively, in the knowledge that the time is always ripe to do right.",
+    "source": "Letter from Birmingham Jail",
+    "speech": "Letter from Birmingham Jail",
+    "year": 1963,
+    "context": "Rejecting the idea that the time is 'not right' for justice."
+  },
+  {
+    "id": 30905,
+    "oratorId": 9,
+    "text": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
+    "source": "Strength to Love",
+    "speech": "Various sermons compiled in Strength to Love",
+    "year": 1963,
+    "context": "Defining moral courage in the face of opposition."
+  },
+  {
+    "id": 30906,
+    "oratorId": 9,
+    "text": "We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism.",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "Rejecting gradualism and demanding immediate action."
+  },
+  {
+    "id": 30907,
+    "oratorId": 9,
+    "text": "I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "Vision of reconciliation in the South."
+  },
+  {
+    "id": 30908,
+    "oratorId": 9,
+    "text": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "source": "Strength to Love",
+    "speech": "Sermons",
+    "year": 1963,
+    "context": "Core nonviolent philosophy in memorable form."
+  },
+  {
+    "id": 30909,
+    "oratorId": 9,
+    "text": "We will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "Biblical imagery (Amos) demanding real justice."
+  },
+  {
+    "id": 30910,
+    "oratorId": 9,
+    "text": "Free at last! Free at last! Thank God Almighty, we are free at last!",
+    "source": "I Have a Dream (closing)",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "The ecstatic closing, quoting an old spiritual."
+  },
+  {
+    "id": 30911,
+    "oratorId": 9,
+    "text": "Nonviolence is the answer to the crucial political and moral questions of our time: the need for man to overcome oppression and violence without resorting to violence and oppression.",
+    "source": "Nobel Peace Prize acceptance speech",
+    "speech": "Nobel Lecture",
+    "year": 1964,
+    "context": "Articulating the global relevance of nonviolent resistance."
+  },
+  {
+    "id": 30912,
+    "oratorId": 9,
+    "text": "I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "Particular hope for the most resistant Deep South state."
+  },
+  {
+    "id": 30913,
+    "oratorId": 9,
+    "text": "We must accept finite disappointment, but never lose infinite hope.",
+    "source": "Strength to Love / various addresses",
+    "speech": "Sermons and speeches",
+    "year": 1963,
+    "context": "Distinguishing temporary setbacks from ultimate hope."
+  },
+  {
+    "id": 30914,
+    "oratorId": 9,
+    "text": "The time is always right to do what is right.",
+    "source": "Speech at Oberlin College",
+    "speech": "Speech at Oberlin College",
+    "year": 1964,
+    "context": "Simple, powerful rejection of waiting for the 'right time.'"
+  },
+  {
+    "id": 30915,
+    "oratorId": 9,
+    "text": "I believe that unarmed truth and unconditional love will have the final word in reality.",
+    "source": "Nobel Peace Prize acceptance speech",
+    "speech": "Nobel Lecture",
+    "year": 1964,
+    "context": "Expressing ultimate faith in moral forces."
+  },
+  {
+    "id": 30916,
+    "oratorId": 9,
+    "text": "When we let freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual: 'Free at last! Free at last!'",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "year": 1963,
+    "context": "The soaring conclusion calling for freedom to ring across America."
+  },
+  {
+    "id": 30917,
+    "oratorId": 9,
+    "text": "A riot is the language of the unheard.",
+    "source": "Speech at Grosse Pointe High School",
+    "speech": "The Other America",
+    "year": 1968,
+    "context": "Explaining (not excusing) urban unrest in the context of systemic injustice."
+  },
+  {
+    "id": 30918,
+    "oratorId": 9,
+    "text": "We are now faced with the fact that tomorrow is today. We are confronted with the fierce urgency of now.",
+    "source": "Beyond Vietnam: A Time to Break Silence",
+    "speech": "Beyond Vietnam (Riverside Church)",
+    "year": 1967,
+    "context": "Calling for an end to the Vietnam War and linking it to the domestic struggle."
+  },
+  {
+    "id": 30919,
+    "oratorId": 9,
+    "text": "I have been to the mountaintop. And I don't mind. Like anybody, I would like to live a long life. Longevity has its place. But I'm not concerned about that now. I just want to do God's will.",
+    "source": "I've Been to the Mountaintop",
+    "speech": "I've Been to the Mountaintop (Memphis, the night before his assassination)",
+    "year": 1968,
+    "context": "Prophetic final speech foreseeing his own death but affirming the movement's victory."
+  },
+  {
+    "id": 30920,
+    "oratorId": 9,
+    "text": "Mine eyes have seen the glory of the coming of the Lord.",
+    "source": "I've Been to the Mountaintop",
+    "speech": "I've Been to the Mountaintop",
+    "year": 1968,
+    "context": "Closing line of his last speech, quoting 'The Battle Hymn of the Republic.'"
+  }
+]

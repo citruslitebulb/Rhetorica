@@ -63,6 +63,8 @@ private fun HomeScreen(
                 isSaved = item.isSaved,
                 onClick = { onWordClick(item.word.id) },
                 onToggleSaved = { onToggleSaved(item.word.id) },
+                source = item.word.source,
+                speech = item.word.speech,
             )
         }
     }

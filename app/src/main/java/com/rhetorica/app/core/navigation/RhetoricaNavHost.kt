@@ -11,6 +11,9 @@ import com.rhetorica.app.feature.quiz.QuizRoute
 import com.rhetorica.app.feature.saved.SavedRoute
 import com.rhetorica.app.feature.word.navigateToWordDetail
 import com.rhetorica.app.feature.word.wordDetailScreen
+import com.rhetorica.app.feature.speech.navigateToFullSpeech
+import com.rhetorica.app.feature.speech.speechDetailScreen
+import com.rhetorica.app.feature.speech.SpeechesRoute
 
 @Composable
 fun RhetoricaNavHost(
@@ -30,6 +33,15 @@ fun RhetoricaNavHost(
         }
         composable(TopLevelDestination.Quiz.route) { QuizRoute() }
         composable(TopLevelDestination.Profile.route) { ProfileRoute() }
-        wordDetailScreen(onBack = { navController.popBackStack() })
+        composable(TopLevelDestination.Speeches.route) {
+            SpeechesRoute(
+                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) }
+            )
+        }
+        wordDetailScreen(
+            onBack = { navController.popBackStack() },
+            onReadFullSpeech = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) }
+        )
+        speechDetailScreen(onBack = { navController.popBackStack() })
     }
 }

@@ -1,902 +1,222 @@
 [
   {
-    "id": 271,
-    "word": "Hope",
-    "definition": "A feeling of expectation and desire for a certain thing to happen",
-    "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation. Yes we can repair this world. Yes we can.",
+    "id": 40281,
+    "word": "Opportunity",
+    "definition": "A set of circumstances that makes it possible to do something",
+    "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Yes We Can Speech",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech"
   },
   {
-    "id": 272,
+    "id": 40282,
+    "word": "Prosperity",
+    "definition": "The state of being prosperous",
+    "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "Yes We Can Speech",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech"
+  },
+  {
+    "id": 40283,
     "word": "Audacity",
-    "definition": "The willingness to take bold risks; rude or disrespectful behavior",
-    "example": "The audacity of hope has carried us through difficult times.",
+    "definition": "A willingness to take bold risks",
+    "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "advanced",
+    "source": "2004 Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address"
   },
   {
-    "id": 273,
-    "word": "Change",
-    "definition": "Make or become different",
-    "example": "Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek.",
+    "id": 40284,
+    "word": "Hope",
+    "definition": "A feeling of expectation and desire for a particular thing to happen",
+    "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "2004 Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address"
   },
   {
-    "id": 274,
-    "word": "Unity",
-    "definition": "The state of being united or joined as a whole",
-    "example": "There is not a liberal America and a conservative America—there is the United States of America. There is not a black America and a white America and Latino America and Asian America—there's the United States of America. We are one people, all of us pledging allegiance to the stars and stripes, all of us defending the United States of America.",
+    "id": 40285,
+    "word": "Patchwork",
+    "definition": "A thing composed of many different elements",
+    "example": "Our patchwork heritage is a strength, not a weakness.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "A More Perfect Union (Race Speech)",
+    "speech": "A More Perfect Union (Philadelphia)"
   },
   {
-    "id": 275,
-    "word": "Improbable",
-    "definition": "Not likely to be true or to happen",
-    "example": "The improbable journey that led me to this stage.",
-    "partOfSpeech": "adjective",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 276,
-    "word": "Keynote",
-    "definition": "A prevailing tone or central theme, typically one set at the start of a conference or event",
-    "example": "His keynote address at the 2004 DNC made him a national figure.",
+    "id": 40286,
+    "word": "Heritage",
+    "definition": "Property that is or may be inherited; an inheritance",
+    "example": "Our patchwork heritage is a strength, not a weakness.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "A More Perfect Union (Race Speech)",
+    "speech": "A More Perfect Union (Philadelphia)"
   },
   {
-    "id": 277,
-    "word": "Pledge",
-    "definition": "A solemn promise or undertaking",
-    "example": "We pledge allegiance to an ideal that is bigger than ourselves.",
+    "id": 40287,
+    "word": "Cynics",
+    "definition": "A person who believes that people are motivated purely by self-interest",
+    "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "A More Perfect Union (Race Speech)",
+    "speech": "A More Perfect Union (Philadelphia)"
   },
   {
-    "id": 278,
-    "word": "Allegiance",
-    "definition": "Loyalty or commitment of a subordinate to a superior or of an individual to a group or cause",
-    "example": "All of us pledging allegiance to the stars and stripes.",
+    "id": 40288,
+    "word": "Union",
+    "definition": "The action or fact of joining or being joined",
+    "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "A More Perfect Union (Race Speech)",
+    "speech": "A More Perfect Union (Philadelphia)"
   },
   {
-    "id": 279,
-    "word": "Conservative",
-    "definition": "Holding to traditional attitudes and values and cautious about change or innovation",
-    "example": "There is not a liberal America and a conservative America—there is the United States of America.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 280,
-    "word": "Progress",
-    "definition": "Forward or onward movement toward a destination or goal",
-    "example": "The arc of history bends toward progress.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 281,
-    "word": "Bend",
-    "definition": "Shape or force something straight into a curve or angle; direct or devote",
-    "example": "The arc of the moral universe is long, but it bends toward justice.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 282,
+    "id": 40289,
     "word": "Destiny",
-    "definition": "The events that will necessarily happen to a particular person or thing",
-    "example": "Our destiny is not written for us, but by us.",
+    "definition": "The events that will necessarily happen to a particular person or thing in the future",
+    "example": "We are the ones we've been waiting for. We are the change that we seek.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Yes We Can Speech",
+    "speech": "New Hampshire Concession Speech"
   },
   {
-    "id": 283,
-    "word": "Eloquent",
-    "definition": "Fluent or persuasive in speaking or writing",
-    "example": "His eloquent speeches inspired millions around the world.",
+    "id": 40290,
+    "word": "Moment",
+    "definition": "A very brief period of time",
+    "example": "This is our moment. This is our time.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "2008 Democratic National Convention Acceptance Speech",
+    "speech": "Democratic National Convention Acceptance"
+  },
+  {
+    "id": 40291,
+    "word": "Short-cuts",
+    "definition": "An alternative route that is shorter than the one usually taken",
+    "example": "Our journey has never been one of short-cuts or settling for less.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "2008 Victory Speech",
+    "speech": "Election Night Victory Speech (Grant Park, Chicago)"
+  },
+  {
+    "id": 40292,
+    "word": "Faint-hearted",
+    "definition": "Lacking courage or determination",
+    "example": "Our journey has never been one of short-cuts or settling for less. It has not been the path for the faint-hearted.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "2008 Victory Speech",
+    "speech": "Election Night Victory Speech (Grant Park, Chicago)"
   },
   {
-    "id": 284,
-    "word": "Reject",
-    "definition": "Dismiss as inadequate, inappropriate, or not to one's taste",
-    "example": "We reject the politics of division.",
-    "partOfSpeech": "verb",
+    "id": 40293,
+    "word": "Enduring",
+    "definition": "Continuing or long-lasting",
+    "example": "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'",
+    "partOfSpeech": "adjective",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Their Finest Hour (Churchill, but used in context)",
+    "speech": "Various"
   },
   {
-    "id": 285,
-    "word": "Cynicism",
-    "definition": "An inclination to believe that people are motivated purely by self-interest; skepticism",
-    "example": "We must reject the cynicism that says change is impossible.",
+    "id": 40294,
+    "word": "Bedrock",
+    "definition": "The fundamental principles on which something is based",
+    "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "2004 Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address"
   },
   {
-    "id": 286,
-    "word": "Diversity",
-    "definition": "The practice or quality of including or involving people from a range of different social and ethnic backgrounds and of different genders, sexual orientations, etc.",
-    "example": "Our diversity is our greatest strength.",
+    "id": 40295,
+    "word": "Gift",
+    "definition": "A thing given willingly to someone without payment",
+    "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "2004 Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address"
   },
   {
-    "id": 287,
-    "word": "Inclusion",
-    "definition": "The action or state of including or of being included within a group or structure",
-    "example": "Inclusion means that all voices are heard.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 288,
-    "word": "Inspiration",
-    "definition": "The process of being mentally stimulated to do or feel something, especially to do something creative",
-    "example": "His story is an inspiration to all who dream of a better future.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 289,
-    "word": "Restore",
-    "definition": "Bring back to a former condition, place, or position",
-    "example": "We will restore the promise of America.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 290,
-    "word": "Promise",
-    "definition": "A declaration or assurance that one will do a particular thing or that a particular thing will happen",
-    "example": "The promise of America is that we are all created equal.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1471,
-    "word": "Access",
-    "definition": "A way or means of approaching or entering; an entrance; a passage.",
-    "example": "The speech returned to the idea of access as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1472,
-    "word": "Activism",
-    "definition": "The practice of using action to achieve a result, such as political demonstration or a strike in support of or in opposition to an issue.",
-    "example": "The speech returned to the idea of activism as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1473,
-    "word": "Agency",
-    "definition": "The capacity, condition, or state of acting or of exerting power.",
-    "example": "The speech returned to the idea of agency as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1474,
-    "word": "Advocacy",
-    "definition": "The profession of an advocate",
-    "example": "The speech returned to the idea of advocacy as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1475,
-    "word": "Belonging",
-    "definition": "To have its proper place.",
-    "example": "Where does this document belong?",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1476,
-    "word": "Collaborate",
-    "definition": "To work together with others to achieve a common goal.",
-    "example": "Let's collaborate on this project, and get it finished faster.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1477,
-    "word": "Compassion",
-    "definition": "Deep awareness of the suffering of another, coupled with the wish to relieve it.",
-    "example": "The speech returned to the idea of compassion as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1478,
-    "word": "Creative",
-    "definition": "A person directly involved in a creative marketing process.",
-    "example": "He is a visionary creative.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1479,
-    "word": "Digital",
-    "definition": "A digital option.",
-    "example": "The speech returned to the idea of digital as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1480,
-    "word": "Education",
-    "definition": "The process of imparting knowledge, skill and judgment.",
-    "example": "2016-06-17 AROP JOSEPH 'Education is the slight hammer that breaks the yoke of ignorance, and moulds knowledge, skills, ideas, good moral values in a person be it a child, a youth or full grown adult. no matter a persons age learning never stops'.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1481,
-    "word": "Expression",
-    "definition": "The action of expressing thoughts, ideas, feelings, etc.",
-    "example": "The speech returned to the idea of expression as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1482,
-    "word": "Global",
-    "definition": "A globally scoped identifier.",
-    "example": "The speech returned to the idea of global as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1483,
-    "word": "Healing",
-    "definition": "The process where the cells in the body regenerate and repair themselves.",
-    "example": "The speech returned to the idea of healing as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1484,
-    "word": "Identity",
-    "definition": "Sameness, identicalness; the quality or fact of (several specified things) being the same.",
-    "example": "The speech returned to the idea of identity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1485,
-    "word": "Imagination",
-    "definition": "The image-making power of the mind; the act of mentally creating or reproducing an object not previously perceived; the ability to create such images.",
-    "example": "Imagination is one of the most advanced human faculties.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1486,
-    "word": "Innovation",
-    "definition": "The act of innovating; the introduction of something new, in customs, rites, etc.",
-    "example": "The speech returned to the idea of innovation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1487,
-    "word": "Intersection",
-    "definition": "The point at which different ideas, identities, or forces meet",
-    "example": "She spoke about the intersection of education, dignity, and opportunity.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1488,
-    "word": "Literacy",
-    "definition": "The ability to read and write.",
-    "example": "The speech returned to the idea of literacy as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1489,
-    "word": "Mentor",
-    "definition": "A wise and trusted counselor or teacher",
-    "example": "The speech returned to the idea of mentor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1490,
-    "word": "Narrative",
-    "definition": "The systematic recitation of an event or series of events.",
-    "example": "The speech returned to the idea of narrative as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1491,
+    "id": 40296,
     "word": "Perseverance",
-    "definition": "Steady persistence in doing something despite difficulty or delay in achieving success",
-    "example": "Her perseverance carried the movement through years of resistance.",
+    "definition": "Persistence in doing something despite difficulty or delay in achieving success",
+    "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "2008 Democratic National Convention Acceptance Speech",
+    "speech": "Democratic National Convention Acceptance"
   },
   {
-    "id": 1492,
-    "word": "Platform",
-    "definition": "A raised stage from which speeches are made and on which musical and other performances are made.",
-    "example": "The speech returned to the idea of platform as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1493,
-    "word": "Possibility",
-    "definition": "The quality of being possible.",
-    "example": "The speech returned to the idea of possibility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1494,
-    "word": "Renewal",
-    "definition": "The act of renewing.",
-    "example": "The speech returned to the idea of renewal as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1495,
-    "word": "Representation",
-    "definition": "That which represents something else.",
-    "example": "The Venus of Willendorf was an early representation of the female body.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1496,
-    "word": "Scholarship",
-    "definition": "A grant-in-aid to a student.",
-    "example": "The speech returned to the idea of scholarship as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1497,
-    "word": "Confidence",
-    "definition": "A feeling of trust in one's abilities, judgment, or worth",
-    "example": "Her confidence made the message sound inevitable.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1498,
-    "word": "Storytelling",
-    "definition": "The act and skills of presenting stories and tales.",
-    "example": "The speech returned to the idea of storytelling as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1499,
-    "word": "Sustainable",
-    "definition": "Able to be sustained.",
-    "example": "Her sustainable tone gave the address an unmistakable sense of purpose.",
-    "partOfSpeech": "adjective",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1500,
-    "word": "Transform",
-    "definition": "An operation (often an integration) that converts one function into another.",
-    "example": "The speech returned to the idea of transform as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1501,
-    "word": "Transparency",
-    "definition": "The quality of being transparent; transparence.",
-    "example": "The speech returned to the idea of transparency as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1502,
-    "word": "Uplift",
-    "definition": "The act or result of being uplifted.",
-    "example": "The speech returned to the idea of uplift as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1503,
-    "word": "Visibility",
-    "definition": "The condition of being visible.",
-    "example": "The speech returned to the idea of visibility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1504,
-    "word": "Voice",
-    "definition": "Sound uttered by the mouth, especially by human beings in speech or song; sound thus uttered considered as possessing some special quality or character",
-    "example": "His low voice allowed him to become a bass in the choir.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1505,
-    "word": "Wellness",
-    "definition": "The quality or state of being in good health.",
-    "example": "The speech returned to the idea of wellness as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1506,
-    "word": "Empower",
-    "definition": "To give permission, power, or the legal right to do something.",
-    "example": "The speaker tried to empower the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1507,
-    "word": "Curiosity",
-    "definition": "(uncountable) Inquisitiveness; the tendency to ask and learn about things by asking questions, investigating, or exploring.",
-    "example": "The speech returned to the idea of curiosity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1508,
-    "word": "Openness",
-    "definition": "Accommodating attitude or opinion, as in receptivity to new ideas, behaviors, cultures, peoples, environments, experiences, etc., different from the familiar, conventional, traditional, or one's own.",
-    "example": "The speech returned to the idea of openness as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1509,
-    "word": "Equitable",
-    "definition": "Marked by or having equity.",
-    "example": "Her equitable tone gave the address an unmistakable sense of purpose.",
-    "partOfSpeech": "adjective",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1510,
-    "word": "Participation",
-    "definition": "The act of participating, of taking part in something.",
-    "example": "The speech returned to the idea of participation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1511,
-    "word": "Advocate",
-    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
-    "example": "The speech returned to the idea of advocate as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1512,
-    "word": "Alliance",
-    "definition": "The state of being allied.",
-    "example": "matrimonial alliances; an alliance between church and state, or between two countries",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1513,
-    "word": "Amplify",
-    "definition": "To render larger, more extended, or more intense.",
-    "example": "amplify a microscopes",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1514,
-    "word": "Adapt",
-    "definition": "To make suitable; to make to correspond; to fit or suit",
-    "example": "The speaker tried to adapt the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1515,
-    "word": "Balance",
-    "definition": "A state in which opposing forces harmonise; equilibrium.",
-    "example": "The speech returned to the idea of balance as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1516,
-    "word": "Catalyst",
-    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
-    "example": "The speech returned to the idea of catalyst as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "advanced"
-  },
-  {
-    "id": 1517,
-    "word": "Challenge",
-    "definition": "A confrontation; a dare.",
-    "example": "The speech returned to the idea of challenge as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1518,
-    "word": "Character",
-    "definition": "A being involved in the action of a story.",
-    "example": "The speech returned to the idea of character as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1519,
-    "word": "Choice",
-    "definition": "An option; a decision; an opportunity to choose or select something.",
-    "example": "Do I have a choice of what color to paint it?",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1520,
-    "word": "Clarity",
-    "definition": "The state or measure of being clear, either in appearance, thought or style; lucidity.",
-    "example": "Lack of clarity on the part of the teacher will cause confusion among the students.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1521,
-    "word": "Coalition",
-    "definition": "A temporary group or union of organizations, usually formed for a particular advantage.",
-    "example": "The Liberal Democrats and Conservative parties formed a coalition government in 2010.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1522,
-    "word": "Community",
-    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
-    "example": "The speech returned to the idea of community as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1523,
-    "word": "Consensus",
-    "definition": "A process of decision-making that seeks widespread agreement among group members.",
-    "example": "The speech returned to the idea of consensus as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1524,
-    "word": "Conviction",
-    "definition": "A firmly held belief.",
-    "example": "The speech returned to the idea of conviction as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1525,
-    "word": "Courage",
-    "definition": "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate.",
-    "example": "It takes a lot of courage to be successful in business.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1526,
-    "word": "Credible",
-    "definition": "Believable or plausible.",
-    "example": "Her credible tone gave the address an unmistakable sense of purpose.",
-    "partOfSpeech": "adjective",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1527,
-    "word": "Debate",
-    "definition": "An argument, or discussion, usually in an ordered or formal setting, often with more than two people, generally ending with a vote or other decision.",
-    "example": "After a four-hour debate, the committee voted to table the motion.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1528,
-    "word": "Dialogue",
-    "definition": "A conversation or other form of discourse between two or more individuals.",
-    "example": "Bill and Melinda maintained a dialogue via email over the course of their long-distance relationship.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1529,
-    "word": "Dignity",
-    "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
-    "example": "The speech returned to the idea of dignity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1530,
-    "word": "Discourse",
-    "definition": "Verbal exchange, conversation.",
-    "example": "The speech returned to the idea of discourse as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1531,
-    "word": "Empathy",
-    "definition": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
-    "example": "She had a lot of empathy for her neighbor; she knew what it was like to lose a parent too.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1532,
-    "word": "Endeavor",
-    "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
-    "example": "The speech returned to the idea of endeavor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1533,
-    "word": "Endure",
-    "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
-    "example": "The singer's popularity endured for decades.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1534,
-    "word": "Equity",
-    "definition": "Fairness, impartiality, or justice as determined in light of 'natural law' or 'natural right'.",
-    "example": "The speech returned to the idea of equity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1535,
-    "word": "Ethics",
-    "definition": "The study of principles relating to right and wrong conduct.",
-    "example": "The speech returned to the idea of ethics as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1536,
+    "id": 40297,
     "word": "Evidence",
-    "definition": "Facts or observations presented in support of an assertion.",
-    "example": "There is no evidence that anyone was here earlier.",
+    "definition": "The available body of facts or information indicating whether a belief or proposition is true or valid",
+    "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "2008 Democratic National Convention Acceptance Speech",
+    "speech": "Democratic National Convention Acceptance"
   },
   {
-    "id": 1537,
-    "word": "Fairness",
-    "definition": "The property of being fair or equitable.",
-    "example": "Some questioned the fairness of the new laws.",
+    "id": 40298,
+    "word": "Courage",
+    "definition": "The ability to do something that frightens one; bravery",
+    "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "2008 Democratic National Convention Acceptance Speech",
+    "speech": "Democratic National Convention Acceptance"
   },
   {
-    "id": 1538,
-    "word": "Fortitude",
-    "definition": "Mental or emotional strength that enables courage in the face of adversity.",
-    "example": "The speech returned to the idea of fortitude as a guiding principle.",
+    "id": 40299,
+    "word": "Perfection",
+    "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects",
+    "example": "The cynics may say that we will never build a more perfect union.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "advanced"
+    "complexity": "intermediate",
+    "source": "A More Perfect Union (Race Speech)",
+    "speech": "A More Perfect Union (Philadelphia)"
   },
   {
-    "id": 1539,
-    "word": "Freedom",
-    "definition": "The power or right to act, speak, or think without unjust restraint",
-    "example": "The speech framed freedom as the birthright of every citizen.",
+    "id": 40300,
+    "word": "Spirit",
+    "definition": "The nonphysical part of a person which is the seat of emotions and character",
+    "example": "What the cynics fail to understand is that the ground has shifted beneath them — that the stale political arguments that have consumed us for so long no longer apply.",
     "partOfSpeech": "noun",
     "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1540,
-    "word": "Future",
-    "definition": "The time ahead; those moments yet to be experienced.",
-    "example": "The speech returned to the idea of future as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1541,
-    "word": "Govern",
-    "definition": "The act of governing",
-    "example": "The speech returned to the idea of govern as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1542,
-    "word": "Guide",
-    "definition": "Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation.",
-    "example": "The guide led us around the museum and explained the exhibits.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1543,
-    "word": "Harmony",
-    "definition": "Agreement or accord.",
-    "example": "The speech returned to the idea of harmony as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1544,
-    "word": "Heal",
-    "definition": "A spell or ability that restores hit points or removes a status ailment.",
-    "example": "The speech returned to the idea of heal as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1545,
-    "word": "Humility",
-    "definition": "The characteristic of being humble; humbleness in character and behavior.",
-    "example": "The speech returned to the idea of humility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1546,
-    "word": "Impact",
-    "definition": "The striking of one body against another; collision.",
-    "example": "The speech returned to the idea of impact as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1547,
-    "word": "Influence",
-    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
-    "example": "I have absolutely no influence over him.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1548,
-    "word": "Inspire",
-    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
-    "example": "The speaker tried to inspire the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 15,
-    "complexity": "easy"
-  },
-  {
-    "id": 1549,
-    "word": "Integrity",
-    "definition": "Steadfast adherence to a strict moral or ethical code.",
-    "example": "The speech returned to the idea of integrity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 1550,
-    "word": "Justice",
-    "definition": "The state or characteristic of being just or fair.",
-    "example": "the justice of a description",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address"
   }
 ]

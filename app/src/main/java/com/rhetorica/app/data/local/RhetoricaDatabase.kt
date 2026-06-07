@@ -9,8 +9,8 @@ import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
-    entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class],
-    version = 8,
+    entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class, QuoteEntity::class, SpeechEntity::class],
+    version = 11,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -20,6 +20,8 @@ abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun progressDao(): ProgressDao
     abstract fun dictionaryDao(): DictionaryDao
     abstract fun userPreferencesDao(): UserPreferencesDao
+    abstract fun quoteDao(): QuoteDao
+    abstract fun speechDao(): SpeechDao
 
     companion object {
         @Volatile
@@ -111,6 +113,59 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        private val MIGRATION_8_9 = object : Migration(8, 9) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // New quotes table for famous speech excerpts per orator
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `quotes` (
+                        `id` INTEGER NOT NULL,
+                        `oratorId` INTEGER NOT NULL,
+                        `text` TEXT NOT NULL,
+                        `source` TEXT NOT NULL,
+                        `speech` TEXT,
+                        `year` INTEGER,
+                        `context` TEXT,
+                        PRIMARY KEY(`id`)
+                    )
+                    """.trimIndent()
+                )
+                database.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_quotes_oratorId` ON `quotes` (`oratorId`)"
+                )
+            }
+        }
+
+        private val MIGRATION_9_10 = object : Migration(9, 10) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Add source and speech columns to words for authentic quote context
+                database.execSQL("ALTER TABLE words ADD COLUMN source TEXT")
+                database.execSQL("ALTER TABLE words ADD COLUMN speech TEXT")
+            }
+        }
+
+        private val MIGRATION_10_11 = object : Migration(10, 11) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Full speeches table, linked from word examples for richer context
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `speeches` (
+                        `id` INTEGER NOT NULL,
+                        `oratorId` INTEGER NOT NULL,
+                        `title` TEXT NOT NULL,
+                        `fullText` TEXT NOT NULL,
+                        `year` INTEGER,
+                        `description` TEXT,
+                        PRIMARY KEY(`id`)
+                    )
+                    """.trimIndent()
+                )
+                database.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_speeches_oratorId` ON `speeches` (`oratorId`)"
+                )
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -126,6 +181,9 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_5_6,
                         MIGRATION_6_7,
                         MIGRATION_7_8,
+                        MIGRATION_8_9,
+                        MIGRATION_9_10,
+                        MIGRATION_10_11,
                     )
                     .fallbackToDestructiveMigration()
                     .build()

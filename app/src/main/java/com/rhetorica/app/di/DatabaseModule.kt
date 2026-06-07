@@ -7,6 +7,8 @@ import com.rhetorica.app.data.local.RhetoricaDatabase
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.UserPreferencesDao
+import com.rhetorica.app.data.local.QuoteDao
+import com.rhetorica.app.data.local.SpeechDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -37,4 +39,10 @@ object DatabaseModule {
 
     @Provides
     fun provideUserPreferencesDao(database: RhetoricaDatabase): UserPreferencesDao = database.userPreferencesDao()
+
+    @Provides
+    fun provideQuoteDao(database: RhetoricaDatabase): QuoteDao = database.quoteDao()
+
+    @Provides
+    fun provideSpeechDao(database: RhetoricaDatabase): SpeechDao = database.speechDao()
 }

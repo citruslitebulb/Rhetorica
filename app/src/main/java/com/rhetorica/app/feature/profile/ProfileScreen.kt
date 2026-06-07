@@ -49,6 +49,7 @@ fun ProfileRoute(
         onToggleRotateAll = viewModel::toggleRotateThroughAll,
         onSelectWidgetColor = viewModel::updateWidgetBackgroundColor,
         onWidgetOpacityChanged = viewModel::updateWidgetBackgroundOpacity,
+        onReSeedData = viewModel::reSeedData,
     )
 }
 
@@ -59,6 +60,7 @@ private fun ProfileScreen(
     onToggleRotateAll: () -> Unit,
     onSelectWidgetColor: (Int) -> Unit,
     onWidgetOpacityChanged: (Int) -> Unit,
+    onReSeedData: () -> Unit = {},
 ) {
     if (state.orators.isEmpty()) {
         Column(
@@ -134,6 +136,37 @@ private fun ProfileScreen(
                     Switch(
                         checked = state.rotateThroughAll,
                         onCheckedChange = { onToggleRotateAll() },
+                    )
+                }
+            }
+        }
+
+        // Debug helper for testing seed data updates (source/speech, full speeches, etc.)
+        item {
+            Card(
+                modifier = Modifier.fillMaxWidth(),
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                ),
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Text(
+                        text = "Debug",
+                        style = MaterialTheme.typography.labelLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                    )
+                    androidx.compose.material3.TextButton(onClick = onReSeedData) {
+                        Text("Re-seed data (words + quotes + speeches)")
+                    }
+                    Text(
+                        text = "Use after editing seed JSONs. May need to navigate away and back to see updated word details.",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                 }
             }

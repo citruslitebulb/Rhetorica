@@ -1,902 +1,222 @@
 [
   {
-    "id": 151,
-    "word": "Populism",
-    "definition": "A political approach that claims to represent the interests of ordinary people",
-    "example": "His brand of populism turned economic anger into political energy.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 152,
+    "id": 40121,
     "word": "Crucify",
-    "definition": "Put to death by nailing or binding the hands and feet to a cross",
-    "example": "You shall not crucify mankind upon a cross of gold.",
+    "definition": "Put (someone) to death by nailing or binding them to a cross",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "verb",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 153,
-    "word": "Crowns",
-    "definition": "A circular ornamental headdress worn by a monarch",
-    "example": "Burn down your cities and leave our farms, and your cities will spring up again as if by magic; but destroy our farms and the grass will grow in the streets of every city in the country.",
+    "id": 40122,
+    "word": "Mankind",
+    "definition": "Human beings considered collectively; the human race",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 154,
-    "word": "Thrones",
-    "definition": "The chair on which a sovereign is seated on state occasions",
-    "example": "Having behind us the producing masses of this nation, we shall answer their demands for a gold standard by saying to them: You shall not press down upon the brow of labor this crown of thorns.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 155,
-    "word": "Thorns",
-    "definition": "A stiff, sharp-pointed woody projection on a stem or plant",
-    "example": "You shall not press down upon the brow of labor this crown of thorns.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 156,
-    "word": "Monometallism",
-    "definition": "A system or theory using only one metal as standard currency",
-    "example": "Monometallism serves the interests of the wealthy few.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 157,
-    "word": "Bimetallism",
-    "definition": "The use of two metals, gold and silver, as currency",
-    "example": "Bimetallism will bring prosperity to the farmer and laborer.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 158,
-    "word": "Lustrous",
-    "definition": "Having luster; shining; bright; radiant",
-    "example": "The name of the Lord is lustrous and bright.",
-    "partOfSpeech": "adjective",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 159,
-    "word": "Gethsemane",
-    "definition": "A garden near Jerusalem where Jesus prayed before his crucifixion",
-    "example": "From the garden of Gethsemane to the mount of Calvary, the savior walked.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 160,
-    "word": "Calvary",
-    "definition": "The hill near Jerusalem where Jesus was crucified",
-    "example": "From Gethsemane to Calvary, the path of sacrifice.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 161,
-    "word": "Hedge",
-    "definition": "A fence or boundary formed by closely growing bushes or shrubs",
-    "example": "Our farms are the hedge that protects American prosperity.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 162,
-    "word": "Fertile",
-    "definition": "Producing or capable of producing abundant vegetation or crops",
-    "example": "The fertile prairies of the Midwest feed the nation.",
-    "partOfSpeech": "adjective",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 163,
-    "word": "Plains",
-    "definition": "A large area of flat land with few trees",
-    "example": "The vast plains of our country shall not be dominated by eastern financiers.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 164,
-    "word": "Valleys",
-    "definition": "A low area of land between hills or mountains",
-    "example": "From the valleys to the mountaintops, we demand justice.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 165,
-    "word": "Wage-earners",
-    "definition": "People who work for wages",
-    "example": "The wage-earners of this country deserve fair treatment.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 166,
-    "word": "Aspiring",
-    "definition": "Directing one's hopes or ambitions toward becoming a specified type of person",
-    "example": "The aspiring masses seek only a fair chance.",
-    "partOfSpeech": "adjective",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 167,
-    "word": "Forgotten",
-    "definition": "No longer remembered",
-    "example": "We must not let the forgotten man be cast aside.",
-    "partOfSpeech": "adjective",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 168,
-    "word": "Anvil",
-    "definition": "A heavy iron block on which hot metal is hammered into shape",
-    "example": "Upon this anvil of public opinion, we shall forge a new currency.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 169,
-    "word": "Hammer",
-    "definition": "A tool with a heavy metal head mounted at right angles at the end of a handle",
-    "example": "The hammer of the people shall ring upon the anvil of justice.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 170,
-    "word": "Raiment",
-    "definition": "Clothing; garments; dress",
-    "example": "The raiment of the wealthy is woven from the labor of the poor.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 811,
-    "word": "Abolition",
-    "definition": "The act of abolishing; an annulling; abrogation",
-    "example": "the abolition of debts; the abolition of laws; the abolition of slavery; the abolition of police;; the abolition of taxes",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 812,
-    "word": "Agrarian",
-    "definition": "A person who advocates the political interests of working farmers",
-    "example": "The speech returned to the idea of agrarian as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 813,
-    "word": "Autonomy",
-    "definition": "Self-government; freedom to act or function independently.",
-    "example": "The speech returned to the idea of autonomy as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 814,
-    "word": "Bondage",
-    "definition": "The state of being enslaved or the practice of slavery.",
-    "example": "In Judeo-Christian tradition, the Israelites fled bondage at the hands of the Egyptians, only to wander in the wilderness for the next four decades.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 815,
-    "word": "Citizenship",
-    "definition": "The status of being a citizen, in its various senses.",
-    "example": "The speech returned to the idea of citizenship as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 816,
-    "word": "Commerce",
-    "definition": "The exchange or buying and selling of commodities; especially the exchange of merchandise, on a large scale, between different places or communities; extended trade or traffic.",
-    "example": "The speech returned to the idea of commerce as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 817,
-    "word": "Conciliation",
-    "definition": "The process of bringing peace and harmony; the ending of strife.",
-    "example": "The speech returned to the idea of conciliation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 818,
-    "word": "Constitutional",
-    "definition": "A walk that is taken regularly for good health and wellbeing.",
-    "example": "The speech returned to the idea of constitutional as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 819,
-    "word": "Dissent",
-    "definition": "Disagreement with the ideas, doctrines, decrees, etc. of a political party, government or religion.",
-    "example": "The speech returned to the idea of dissent as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 820,
-    "word": "Emancipation",
-    "definition": "The act of setting free from the power of another, as from slavery, subjection, dependence, or controlling influence.",
-    "example": "The speech returned to the idea of emancipation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 821,
-    "word": "Franchise",
-    "definition": "The right to vote at a public election or referendum; see: suffrage, suffragette.",
-    "example": "The speech returned to the idea of franchise as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 822,
-    "word": "Frontier",
-    "definition": "The part of a country which borders or faces another country or unsettled region",
-    "example": "The speech returned to the idea of frontier as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 823,
-    "word": "Grievance",
-    "definition": "Something which causes grief.",
-    "example": "The speech returned to the idea of grievance as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 824,
-    "word": "Homestead",
-    "definition": "A house together with surrounding land and buildings, especially on a farm; the property comprising these.",
-    "example": "The speech returned to the idea of homestead as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 825,
-    "word": "Industry",
-    "definition": "The tendency to work persistently. Diligence.",
-    "example": "Over the years, their industry and business sense made them wealthy.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 826,
-    "word": "Labor",
-    "definition": "Effort expended on a particular task; toil, work.",
-    "example": "The speech returned to the idea of labor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 827,
-    "word": "Livelihood",
-    "definition": "A means of providing the necessities of life for oneself (for example, a job or income).",
-    "example": "an independent livelihood; to make / earn / gain a good livelihood",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 828,
-    "word": "Manifesto",
-    "definition": "A public declaration of principles, policies, or intentions, especially that of a political party.",
-    "example": "A creed is a manifesto of religious or spiritual beliefs.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 829,
-    "word": "Moderation",
-    "definition": "The state or quality of being moderate; avoidance of extremes",
-    "example": "The speech returned to the idea of moderation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 830,
-    "word": "Ordinance",
-    "definition": "A local law",
-    "example": "The speech returned to the idea of ordinance as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 831,
-    "word": "Petition",
-    "definition": "A formal, written request made to an official person or organized body, often containing many signatures.",
-    "example": "The speech returned to the idea of petition as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 832,
-    "word": "Pluralism",
-    "definition": "The quality or state of being plural, or in the plural number.",
-    "example": "The speech returned to the idea of pluralism as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 833,
-    "word": "Posterity",
-    "definition": "All the future generations, especially the descendants of a specific person.",
-    "example": "The speech returned to the idea of posterity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 834,
-    "word": "Proclamation",
-    "definition": "A statement which is proclaimed; formal public announcement.",
-    "example": "The speech returned to the idea of proclamation as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 835,
+    "id": 40123,
     "word": "Prosperity",
-    "definition": "The condition of being prosperous, of having good fortune",
-    "example": "The speech returned to the idea of prosperity as a guiding principle.",
+    "definition": "The state of being prosperous",
+    "example": "There are two ideas of government. There are those who believe that, if you will only legislate to make the well-to-do prosperous, their prosperity will leak through on those below.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 836,
-    "word": "Reconstruction",
-    "definition": "A thing that has been reconstructed or restored to an earlier state.",
-    "example": "The speech returned to the idea of reconstruction as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 837,
-    "word": "Referendum",
-    "definition": "A direct popular vote on a proposed law or constitutional amendment. The adposition on is usually used before the related subject of the vote.",
-    "example": "The speech returned to the idea of referendum as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 838,
-    "word": "Representation",
-    "definition": "That which represents something else.",
-    "example": "The Venus of Willendorf was an early representation of the female body.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 839,
-    "word": "Reformer",
-    "definition": "One who reforms, or who works for reform.",
-    "example": "The speech returned to the idea of reformer as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 840,
-    "word": "Suffrage",
-    "definition": "The right or chance to vote, express an opinion, or participate in a decision.",
-    "example": "The speech returned to the idea of suffrage as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 841,
-    "word": "Tariff",
-    "definition": "A system of government-imposed duties levied on imported or exported goods; a list of such duties, or the duties themselves.",
-    "example": "The speech returned to the idea of tariff as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 842,
-    "word": "Tenement",
-    "definition": "A building that is rented to multiple tenants, especially a low-rent, run-down one.",
-    "example": "The speech returned to the idea of tenement as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 843,
-    "word": "Toil",
-    "definition": "Labour, work, especially of a grueling nature.",
-    "example": "The speech returned to the idea of toil as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 844,
-    "word": "Union",
-    "definition": "The act of uniting or joining two or more things into one.",
-    "example": "The speech returned to the idea of union as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 845,
-    "word": "Uplift",
-    "definition": "The act or result of being uplifted.",
-    "example": "The speech returned to the idea of uplift as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 846,
-    "word": "Welfare",
-    "definition": "Health, safety, happiness and prosperity; well-being in any respect.",
-    "example": "The speech returned to the idea of welfare as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 847,
-    "word": "Commonwealth",
-    "definition": "The well-being of a community.",
-    "example": "The speech returned to the idea of commonwealth as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 848,
-    "word": "Federation",
-    "definition": "Act of joining together into a single political entity.",
-    "example": "It is 106 years since federation.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 849,
-    "word": "Accountability",
-    "definition": "The state of being accountable; liability to be called on to render an account; accountableness; responsible for; answerable for.",
-    "example": "The speech returned to the idea of accountability as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 850,
-    "word": "Advocate",
-    "definition": "Someone whose job is to speak for someone's case in a court of law; a counsel.",
-    "example": "The speech returned to the idea of advocate as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 851,
-    "word": "Alliance",
-    "definition": "The state of being allied.",
-    "example": "matrimonial alliances; an alliance between church and state, or between two countries",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 852,
-    "word": "Amplify",
-    "definition": "To render larger, more extended, or more intense.",
-    "example": "amplify a microscopes",
+    "id": 40124,
+    "word": "Legislate",
+    "definition": "Make or enact laws",
+    "example": "There are two ideas of government. There are those who believe that, if you will only legislate to make the well-to-do prosperous, their prosperity will leak through on those below.",
     "partOfSpeech": "verb",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "advanced",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 853,
-    "word": "Adapt",
-    "definition": "To make suitable; to make to correspond; to fit or suit",
-    "example": "The speaker tried to adapt the audience with a calm but forceful appeal.",
+    "id": 40125,
+    "word": "Plow",
+    "definition": "Turn up the earth of (an area of land) with a plow, especially before sowing",
+    "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "verb",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 854,
-    "word": "Balance",
-    "definition": "A state in which opposing forces harmonise; equilibrium.",
-    "example": "The speech returned to the idea of balance as a guiding principle.",
+    "id": 40126,
+    "word": "Petition",
+    "definition": "A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause",
+    "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 855,
-    "word": "Catalyst",
-    "definition": "A substance that increases the rate of a chemical reaction without being consumed in the process.",
-    "example": "The speech returned to the idea of catalyst as a guiding principle.",
+    "id": 40127,
+    "word": "Scorn",
+    "definition": "A feeling or expression of contempt",
+    "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
+    "partOfSpeech": "verb",
+    "oratorId": 7,
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
+  },
+  {
+    "id": 40128,
+    "word": "Entreaty",
+    "definition": "An earnest or humble request",
+    "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "advanced"
+    "complexity": "advanced",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 856,
-    "word": "Challenge",
-    "definition": "A confrontation; a dare.",
-    "example": "The speech returned to the idea of challenge as a guiding principle.",
+    "id": 40129,
+    "word": "Bimetallism",
+    "definition": "A system allowing the unrestricted currency of two metals (e.g., gold and silver) as legal tender at a fixed ratio to each other",
+    "example": "If they say bimetallism is good, but that we cannot have it until other nations help us, we reply that, instead of having a gold standard because England has, we will restore bimetallism.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "advanced",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 857,
-    "word": "Character",
-    "definition": "A being involved in the action of a story.",
-    "example": "The speech returned to the idea of character as a guiding principle.",
+    "id": 40130,
+    "word": "Standard",
+    "definition": "A level of quality or attainment",
+    "example": "If they say bimetallism is good, but that we cannot have it until other nations help us, we reply that, instead of having a gold standard because England has, we will restore bimetallism.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 858,
-    "word": "Choice",
-    "definition": "An option; a decision; an opportunity to choose or select something.",
-    "example": "Do I have a choice of what color to paint it?",
+    "id": 40131,
+    "word": "Defiance",
+    "definition": "Open resistance; bold disobedience",
+    "example": "We beg no longer; we entreat no more; we petition no more. We defy them!",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 859,
-    "word": "Clarity",
-    "definition": "The state or measure of being clear, either in appearance, thought or style; lucidity.",
-    "example": "Lack of clarity on the part of the teacher will cause confusion among the students.",
+    "id": 40132,
+    "word": "Thorns",
+    "definition": "A stiff, sharp-pointed woody projection on the stem or other part of a plant",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 860,
-    "word": "Coalition",
-    "definition": "A temporary group or union of organizations, usually formed for a particular advantage.",
-    "example": "The Liberal Democrats and Conservative parties formed a coalition government in 2010.",
+    "id": 40133,
+    "word": "Crown",
+    "definition": "A circular ornamental headdress worn by a monarch as a symbol of authority",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 861,
-    "word": "Community",
-    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
-    "example": "The speech returned to the idea of community as a guiding principle.",
+    "id": 40134,
+    "word": "Labor",
+    "definition": "Work, especially hard physical work",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 862,
-    "word": "Consensus",
-    "definition": "A process of decision-making that seeks widespread agreement among group members.",
-    "example": "The speech returned to the idea of consensus as a guiding principle.",
+    "id": 40135,
+    "word": "Brow",
+    "definition": "A person's forehead",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
   },
   {
-    "id": 863,
-    "word": "Conviction",
-    "definition": "A firmly held belief.",
-    "example": "The speech returned to the idea of conviction as a guiding principle.",
+    "id": 40136,
+    "word": "Conquest",
+    "definition": "The action of conquering a place or people",
+    "example": "We do not come as aggressors. Our war is not a war of conquest; we are fighting in the defense of our homes, our families, and posterity.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "intermediate"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 864,
-    "word": "Courage",
-    "definition": "The quality of being confident, not afraid or easily intimidated, but without being incautious or inconsiderate.",
-    "example": "It takes a lot of courage to be successful in business.",
+    "id": 40137,
+    "word": "Posterity",
+    "definition": "All future generations of people",
+    "example": "We do not come as aggressors. Our war is not a war of conquest; we are fighting in the defense of our homes, our families, and posterity.",
     "partOfSpeech": "noun",
     "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "advanced",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   },
   {
-    "id": 865,
-    "word": "Credible",
-    "definition": "Believable or plausible.",
-    "example": "Her credible tone gave the address an unmistakable sense of purpose.",
+    "id": 40138,
+    "word": "Agitator",
+    "definition": "A person who urges others to protest or rebel",
+    "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
+    "partOfSpeech": "noun",
+    "oratorId": 7,
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
+  },
+  {
+    "id": 40139,
+    "word": "Gold",
+    "definition": "A yellow precious metal, the chemical element of atomic number 79",
+    "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
+    "partOfSpeech": "noun",
+    "oratorId": 7,
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech (Democratic National Convention)"
+  },
+  {
+    "id": 40140,
+    "word": "Honorable",
+    "definition": "Bringing or worthy of honor",
+    "example": "In giving freedom to the slave, we assure freedom to the free — honorable alike in what we give, and what we preserve.",
     "partOfSpeech": "adjective",
     "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 866,
-    "word": "Debate",
-    "definition": "An argument, or discussion, usually in an ordered or formal setting, often with more than two people, generally ending with a vote or other decision.",
-    "example": "After a four-hour debate, the committee voted to table the motion.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 867,
-    "word": "Dialogue",
-    "definition": "A conversation or other form of discourse between two or more individuals.",
-    "example": "Bill and Melinda maintained a dialogue via email over the course of their long-distance relationship.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 868,
-    "word": "Dignity",
-    "definition": "The state of being dignified or worthy of esteem: elevation of mind or character.",
-    "example": "The speech returned to the idea of dignity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 869,
-    "word": "Discourse",
-    "definition": "Verbal exchange, conversation.",
-    "example": "The speech returned to the idea of discourse as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 870,
-    "word": "Empathy",
-    "definition": "Identification with or understanding of the thoughts, feelings, or emotional state of another person.",
-    "example": "She had a lot of empathy for her neighbor; she knew what it was like to lose a parent too.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 871,
-    "word": "Endeavor",
-    "definition": "A sincere attempt; a determined or assiduous effort towards a specific goal; assiduous or persistent activity.",
-    "example": "The speech returned to the idea of endeavor as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 872,
-    "word": "Endure",
-    "definition": "To continue or carry on, despite obstacles or hardships; to persist.",
-    "example": "The singer's popularity endured for decades.",
-    "partOfSpeech": "verb",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 873,
-    "word": "Equity",
-    "definition": "Fairness, impartiality, or justice as determined in light of 'natural law' or 'natural right'.",
-    "example": "The speech returned to the idea of equity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 874,
-    "word": "Ethics",
-    "definition": "The study of principles relating to right and wrong conduct.",
-    "example": "The speech returned to the idea of ethics as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 875,
-    "word": "Evidence",
-    "definition": "Facts or observations presented in support of an assertion.",
-    "example": "There is no evidence that anyone was here earlier.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 876,
-    "word": "Fairness",
-    "definition": "The property of being fair or equitable.",
-    "example": "Some questioned the fairness of the new laws.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 877,
-    "word": "Fortitude",
-    "definition": "Mental or emotional strength that enables courage in the face of adversity.",
-    "example": "The speech returned to the idea of fortitude as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "advanced"
-  },
-  {
-    "id": 878,
-    "word": "Freedom",
-    "definition": "The power or right to act, speak, or think without unjust restraint",
-    "example": "The speech framed freedom as the birthright of every citizen.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 879,
-    "word": "Future",
-    "definition": "The time ahead; those moments yet to be experienced.",
-    "example": "The speech returned to the idea of future as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 880,
-    "word": "Govern",
-    "definition": "The act of governing",
-    "example": "The speech returned to the idea of govern as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 881,
-    "word": "Guide",
-    "definition": "Someone who guides, especially someone hired to show people around a place or an institution and offer information and explanation.",
-    "example": "The guide led us around the museum and explained the exhibits.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 882,
-    "word": "Harmony",
-    "definition": "Agreement or accord.",
-    "example": "The speech returned to the idea of harmony as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 883,
-    "word": "Heal",
-    "definition": "A spell or ability that restores hit points or removes a status ailment.",
-    "example": "The speech returned to the idea of heal as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 884,
-    "word": "Humility",
-    "definition": "The characteristic of being humble; humbleness in character and behavior.",
-    "example": "The speech returned to the idea of humility as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 885,
-    "word": "Impact",
-    "definition": "The striking of one body against another; collision.",
-    "example": "The speech returned to the idea of impact as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 886,
-    "word": "Inclusion",
-    "definition": "An addition or annex to a group, set, or total.",
-    "example": "The poem was a new inclusion in the textbook.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 887,
-    "word": "Influence",
-    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
-    "example": "I have absolutely no influence over him.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 888,
-    "word": "Inspire",
-    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration.",
-    "example": "The speaker tried to inspire the audience with a calm but forceful appeal.",
-    "partOfSpeech": "verb",
-    "oratorId": 7,
-    "complexity": "easy"
-  },
-  {
-    "id": 889,
-    "word": "Integrity",
-    "definition": "Steadfast adherence to a strict moral or ethical code.",
-    "example": "The speech returned to the idea of integrity as a guiding principle.",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "intermediate"
-  },
-  {
-    "id": 890,
-    "word": "Justice",
-    "definition": "The state or characteristic of being just or fair.",
-    "example": "the justice of a description",
-    "partOfSpeech": "noun",
-    "oratorId": 7,
-    "complexity": "easy"
+    "complexity": "intermediate",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech"
   }
 ]
