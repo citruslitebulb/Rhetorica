@@ -25,15 +25,28 @@ import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.expandVertically
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material3.Icon
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
@@ -65,6 +78,10 @@ private fun ProfileScreen(
     onSelectWidgetColor: (Int) -> Unit,
     onWidgetOpacityChanged: (Int) -> Unit,
 ) {
+    var widgetExpanded by rememberSaveable { mutableStateOf(false) }
+    var themesExpanded by rememberSaveable { mutableStateOf(false) }
+    var oratorsExpanded by rememberSaveable { mutableStateOf(true) }
+
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -73,133 +90,154 @@ private fun ProfileScreen(
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
         item {
-            Text(
-                text = stringResource(R.string.profile_widget_appearance),
-                style = MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_widget_appearance),
+                expanded = widgetExpanded,
+                onToggle = { widgetExpanded = !widgetExpanded },
             )
         }
 
         item {
-            WidgetAppearanceCard(
-                selectedColor = state.widgetBackgroundColor,
-                opacityPercent = state.widgetBackgroundOpacityPercent,
-                onSelectColor = onSelectWidgetColor,
-                onOpacityChanged = onWidgetOpacityChanged,
-            )
-        }
-
-        item {
-            Text(
-                text = stringResource(R.string.profile_orator_selection),
-                style = MaterialTheme.typography.headlineMedium,
-                fontWeight = FontWeight.Bold,
-            )
-        }
-
-        item {
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                ),
+            AnimatedVisibility(
+                visible = widgetExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
             ) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Column(modifier = Modifier.weight(1f)) {
-                        Text(
-                            text = stringResource(R.string.profile_rotate_all),
-                            style = MaterialTheme.typography.bodyLarge,
-                        )
-                        Text(
-                            text = "Cycle through all orators daily",
-                            style = MaterialTheme.typography.bodySmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
-                    }
-                    Switch(
-                        checked = state.rotateThroughAll,
-                        onCheckedChange = { onToggleRotateAll() },
+                WidgetAppearanceCard(
+                    selectedColor = state.widgetBackgroundColor,
+                    opacityPercent = state.widgetBackgroundOpacityPercent,
+                    onSelectColor = onSelectWidgetColor,
+                    onOpacityChanged = onWidgetOpacityChanged,
+                )
+            }
+        }
+
+        item {
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_themes_title),
+                expanded = themesExpanded,
+                onToggle = { themesExpanded = !themesExpanded },
+            )
+        }
+
+        item {
+            AnimatedVisibility(
+                visible = themesExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text(
+                        text = stringResource(R.string.profile_themes_hint),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
+                    LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                        item {
+                            FilterChip(
+                                selected = state.selectedThemeCategories.isEmpty(),
+                                onClick = { onClearThemeCategories() },
+                                label = { Text(text = stringResource(R.string.saved_themes_all)) },
+                            )
+                        }
+                        val canonicalThemes = listOf(
+                            "inspirational", "tech", "humanities", "arts",
+                            "leadership", "democracy", "courage", "legacy"
+                        )
+                        items(canonicalThemes, key = { it }) { theme ->
+                            val label = when (theme) {
+                                "inspirational" -> stringResource(R.string.theme_inspirational)
+                                "tech" -> stringResource(R.string.theme_tech)
+                                "humanities" -> stringResource(R.string.theme_humanities)
+                                "arts" -> stringResource(R.string.theme_arts)
+                                "leadership" -> stringResource(R.string.theme_leadership)
+                                "democracy" -> stringResource(R.string.theme_democracy)
+                                "courage" -> stringResource(R.string.theme_courage)
+                                "legacy" -> stringResource(R.string.theme_legacy)
+                                else -> theme.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+                            }
+                            FilterChip(
+                                selected = theme in state.selectedThemeCategories,
+                                onClick = { onToggleThemeCategory(theme) },
+                                label = { Text(text = label) },
+                            )
+                        }
+                    }
                 }
             }
         }
 
         item {
-            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Text(
-                    text = stringResource(R.string.profile_themes_title),
-                    style = MaterialTheme.typography.headlineMedium,
-                    fontWeight = FontWeight.Bold,
-                )
-                Text(
-                    text = stringResource(R.string.profile_themes_hint),
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                )
-                LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    item {
-                        FilterChip(
-                            selected = state.selectedThemeCategories.isEmpty(),
-                            onClick = { onClearThemeCategories() },
-                            label = { Text(text = stringResource(R.string.saved_themes_all)) },
-                        )
-                    }
-                    val canonicalThemes = listOf(
-                        "inspirational", "tech", "humanities", "arts",
-                        "leadership", "democracy", "courage", "legacy"
-                    )
-                    items(canonicalThemes, key = { it }) { theme ->
-                        val label = when (theme) {
-                            "inspirational" -> stringResource(R.string.theme_inspirational)
-                            "tech" -> stringResource(R.string.theme_tech)
-                            "humanities" -> stringResource(R.string.theme_humanities)
-                            "arts" -> stringResource(R.string.theme_arts)
-                            "leadership" -> stringResource(R.string.theme_leadership)
-                            "democracy" -> stringResource(R.string.theme_democracy)
-                            "courage" -> stringResource(R.string.theme_courage)
-                            "legacy" -> stringResource(R.string.theme_legacy)
-                            else -> theme.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
-                        }
-                        FilterChip(
-                            selected = theme in state.selectedThemeCategories,
-                            onClick = { onToggleThemeCategory(theme) },
-                            label = { Text(text = label) },
-                        )
-                    }
-                }
-            }
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_orator_selection),
+                expanded = oratorsExpanded,
+                onToggle = { oratorsExpanded = !oratorsExpanded },
+            )
         }
 
-        if (state.orators.isEmpty()) {
-            item {
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp),
-                ) {
-                    Text(
-                        text = if (state.selectedThemeCategories.isNotEmpty()) {
-                            stringResource(R.string.profile_no_orators_for_themes)
-                        } else {
-                            stringResource(R.string.profile_no_orators)
-                        },
-                        style = MaterialTheme.typography.bodyLarge,
-                    )
+        item {
+            AnimatedVisibility(
+                visible = oratorsExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                        ),
+                    ) {
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(16.dp),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically,
+                        ) {
+                            Column(modifier = Modifier.weight(1f)) {
+                                Text(
+                                    text = stringResource(R.string.profile_rotate_all),
+                                    style = MaterialTheme.typography.bodyLarge,
+                                )
+                                Text(
+                                    text = "Cycle through all orators daily",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                )
+                            }
+                            Switch(
+                                checked = state.rotateThroughAll,
+                                onCheckedChange = { onToggleRotateAll() },
+                            )
+                        }
+                    }
+
+                    if (state.orators.isEmpty()) {
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .padding(16.dp),
+                        ) {
+                            Text(
+                                text = if (state.selectedThemeCategories.isNotEmpty()) {
+                                    stringResource(R.string.profile_no_orators_for_themes)
+                                } else {
+                                    stringResource(R.string.profile_no_orators)
+                                },
+                                style = MaterialTheme.typography.bodyLarge,
+                            )
+                        }
+                    } else {
+                        state.orators.forEach { orator ->
+                            OratorCard(
+                                orator = orator,
+                                isSelected = state.selectedOratorId == orator.id && !state.rotateThroughAll,
+                                onClick = { onSelectOrator(if (state.selectedOratorId == orator.id) null else orator.id) },
+                            )
+                        }
+                    }
                 }
-            }
-        } else {
-            items(state.orators, key = { it.id }) { orator ->
-                OratorCard(
-                    orator = orator,
-                    isSelected = state.selectedOratorId == orator.id && !state.rotateThroughAll,
-                    onClick = { onSelectOrator(if (state.selectedOratorId == orator.id) null else orator.id) },
-                )
             }
         }
     }
@@ -398,5 +436,38 @@ private fun OratorCard(
                 onClick = onClick,
             )
         }
+    }
+}
+
+@Composable
+private fun CollapsibleSectionHeader(
+    title: String,
+    expanded: Boolean,
+    onToggle: () -> Unit,
+) {
+    val rotation by animateFloatAsState(
+        targetValue = if (expanded) 180f else 0f,
+        label = "sectionChevron",
+    )
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable(onClick = onToggle)
+            .padding(vertical = 8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Text(
+            text = title,
+            style = MaterialTheme.typography.headlineMedium,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.weight(1f),
+        )
+        Icon(
+            imageVector = Icons.Filled.ExpandMore,
+            contentDescription = if (expanded) "Collapse section" else "Expand section",
+            tint = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.rotate(rotation),
+        )
     }
 }

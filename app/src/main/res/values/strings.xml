@@ -9,7 +9,7 @@
     <string name="widget_description">Daily vocabulary with definition</string>
     <string name="widget_default_word">Word of the day</string>
     <string name="widget_default_definition">Daily definition will appear here.</string>
-    <string name="profile_orator_selection">Select Your Orator</string>
+    <string name="profile_orator_selection">Orator Selection</string>
     <string name="profile_rotate_all">Rotate Through All Orators</string>
     <string name="profile_themes_title">Word Themes</string>
     <string name="profile_themes_hint">Filter the Home feed by word themes (multi-select). Changes apply to the main feed.</string>
