@@ -1,0 +1,92 @@
+[
+  {
+    "id": 20001,
+    "oratorId": 20,
+    "text": "From those to whom much is given, much is expected.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "The moral center of the speech on using success to solve global inequity."
+  },
+  {
+    "id": 20002,
+    "oratorId": 20,
+    "text": "Humanity's greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "Call to creative capitalism and applying technology and wealth to the poorest."
+  },
+  {
+    "id": 20003,
+    "oratorId": 20,
+    "text": "We are all created equal in the eyes of God, but we are not equal in the eyes of man or in the eyes of the market.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "Highlighting the injustice that market forces alone won't solve for the bottom billion."
+  },
+  {
+    "id": 20004,
+    "oratorId": 20,
+    "text": "If you believe that every life has equal value, it's revolting to learn that some lives are seen as worth saving and others are not.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "On the moral imperative to apply innovation to global health disparities."
+  },
+  {
+    "id": 20005,
+    "oratorId": 20,
+    "text": "The world is getting better, but it's not getting better fast enough, and it's not getting better for everyone.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "Urging graduates to use their privilege to accelerate progress for the poorest."
+  },
+  {
+    "id": 20006,
+    "oratorId": 20,
+    "text": "Creative capitalism is about making the market work for the poor as well as the rich.",
+    "source": "World Economic Forum and Harvard speech",
+    "speech": "Creative Capitalism",
+    "year": 2008,
+    "context": "Insightful framework for using business incentives to solve social problems."
+  },
+  {
+    "id": 20007,
+    "oratorId": 20,
+    "text": "We need to make the market work for the poorest people in the world.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "Core idea that innovation and markets can be harnessed for equity."
+  },
+  {
+    "id": 20008,
+    "oratorId": 20,
+    "text": "Optimism is a moral choice. Pessimism is a moral failure.",
+    "source": "Various talks on global progress",
+    "speech": "Optimism and Progress",
+    "year": null,
+    "context": "Encouragement to focus on solvable problems rather than despair."
+  },
+  {
+    "id": 20009,
+    "oratorId": 20,
+    "text": "The best way to predict the future is to create it — but only if we apply our talents to the right problems.",
+    "source": "Harvard and Davos addresses",
+    "speech": "Applying Innovation",
+    "year": null,
+    "context": "Linking personal success to responsibility for reducing suffering."
+  },
+  {
+    "id": 20010,
+    "oratorId": 20,
+    "text": "We have to find a way to make the breakthroughs that will allow the poorest people to live better lives.",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "year": 2007,
+    "context": "Call for the privileged to direct energy toward the most pressing inequities."
+  }
+]

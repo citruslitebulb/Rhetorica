@@ -1,0 +1,98 @@
+[
+  {
+    "id": 25001,
+    "word": "innovation",
+    "definition": "The action or process of innovating; a new method, idea, product, etc.",
+    "example": "Solving big problems is easier than solving little problems.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Talks on mission and ambition",
+    "speech": "Big Problems Philosophy",
+    "categories": ["innovation", "freedom", "moonshots"]
+  },
+  {
+    "id": 25002,
+    "word": "intelligence",
+    "definition": "The ability to acquire and apply knowledge and skills.",
+    "example": "We simply do not know what the limit to intelligence is.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Comments on AI and future potential",
+    "speech": "Intelligence and Limits",
+    "categories": ["innovation", "technology", "moonshots"]
+  },
+  {
+    "id": 25003,
+    "word": "mission",
+    "definition": "An important assignment carried out for political, religious, or commercial purposes.",
+    "example": "The perfect search engine would understand exactly what you mean and give back exactly what you want.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Early Google vision / IPO letter era",
+    "speech": "On Organizing the World's Information",
+    "categories": ["innovation", "freedom", "vision"]
+  },
+  {
+    "id": 25004,
+    "word": "evil",
+    "definition": "Profoundly immoral and wicked.",
+    "example": "Don't be evil. Do the right thing. Build products that make the world better.",
+    "partOfSpeech": "adjective",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Google company values and talks",
+    "speech": "Don't Be Evil / Do the Right Thing",
+    "categories": ["freedom", "leadership", "humanities"]
+  },
+  {
+    "id": 25005,
+    "word": "stifle",
+    "definition": "To suppress or restrain (an action or quality).",
+    "example": "Too many rules stifle innovation.",
+    "partOfSpeech": "verb",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "Talks on culture and innovation",
+    "speech": "Big Problems Philosophy",
+    "categories": ["innovation", "freedom", "moonshots"]
+  },
+  {
+    "id": 25006,
+    "word": "limit",
+    "definition": "A point or level beyond which something does not or may not extend or pass.",
+    "example": "We simply do not know what the limit to intelligence is.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Comments on AI and future potential",
+    "speech": "Intelligence and Limits",
+    "categories": ["innovation", "technology", "moonshots"]
+  },
+  {
+    "id": 25007,
+    "word": "experiment",
+    "definition": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact.",
+    "example": "We do lots of stuff. The only way you are going to have success is to have lots of failures.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Talks on experimentation",
+    "speech": "Experimentation Culture",
+    "categories": ["innovation", "moonshots", "freedom"]
+  },
+  {
+    "id": 25008,
+    "word": "impact",
+    "definition": "The action of one object coming forcibly into contact with another; a marked effect or influence.",
+    "example": "It's not enough not to be evil. We also actively try to be good.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "Talks on corporate responsibility",
+    "speech": "Don't Be Evil / Do the Right Thing",
+    "categories": ["freedom", "leadership", "vision"]
+  }
+]

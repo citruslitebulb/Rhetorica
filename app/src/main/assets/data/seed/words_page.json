@@ -1,0 +1,98 @@
+[
+  {
+    "id": 24001,
+    "word": "moonshot",
+    "definition": "An ambitious, exploratory, and ground-breaking project undertaken without any expectation of near-term profitability or benefit.",
+    "example": "I think the most important thing we can do as a company and as individuals is to focus on the things that are really going to move the needle, the 10x improvements, the moonshots.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": ["innovation", "moonshots", "vision"]
+  },
+  {
+    "id": 24002,
+    "word": "incremental",
+    "definition": "Relating to or denoting an increase or addition, especially one that is small or gradual.",
+    "example": "Most companies would be happy to improve a product by 10 percent. Not us.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Philosophy of 10x at Google X",
+    "speech": "10x Thinking",
+    "categories": ["innovation", "moonshots", "technology"]
+  },
+  {
+    "id": 24003,
+    "word": "additionality",
+    "definition": "The property of creating an impact or outcome that would not have occurred without the specific intervention or effort.",
+    "example": "It means doing something that wouldn’t happen unless you’re actually doing it.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Talks on additionality and 10x ideas",
+    "speech": "Moonshots and Additionality",
+    "categories": ["innovation", "moonshots", "vision"]
+  },
+  {
+    "id": 24004,
+    "word": "ambition",
+    "definition": "A strong desire to do or achieve something, typically requiring determination and hard work.",
+    "example": "We're at maybe 1% of what is possible. Despite the faster change, we're still moving slow relative to the opportunities we have.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": ["moonshots", "leadership", "vision"]
+  },
+  {
+    "id": 24005,
+    "word": "needle",
+    "definition": "A pointer on a dial, compass, or other instrument; metaphorically, to move the needle means to make a significant impact or change.",
+    "example": "Focus on the things that are really going to move the needle, the 10x improvements, the moonshots.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": ["innovation", "moonshots", "leadership"]
+  },
+  {
+    "id": 24006,
+    "word": "possible",
+    "definition": "Able to be done or achieved; within the realm of feasibility.",
+    "example": "The more you learn about technology, the more you learn what’s possible.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Talks on moonshots",
+    "speech": "Moonshots and Additionality",
+    "categories": ["innovation", "vision", "technology"]
+  },
+  {
+    "id": 24007,
+    "word": "transformative",
+    "definition": "Causing a marked change in someone or something.",
+    "example": "We have the opportunity and the responsibility to build products and technologies that can truly change the world for the better.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": ["moonshots", "innovation", "vision"]
+  },
+  {
+    "id": 24008,
+    "word": "foundational",
+    "definition": "Forming or serving as a necessary base or core; of central importance.",
+    "example": "The future is going to be about what we can imagine and create, not just what we can optimize.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Talks on long-term technology",
+    "speech": "Moonshots and the Future",
+    "categories": ["moonshots", "innovation", "vision"]
+  }
+]

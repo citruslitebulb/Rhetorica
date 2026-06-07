@@ -1,0 +1,62 @@
+[
+  {
+    "id": 19001,
+    "word": "dogma",
+    "definition": "A principle or set of principles laid down by an authority as incontrovertibly true, often without evidence.",
+    "example": "Don't be trapped by dogma — which is living with the results of other people's thinking.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": ["innovation", "vision", "leadership"]
+  },
+  {
+    "id": 19002,
+    "word": "intuition",
+    "definition": "The ability to understand something immediately, without the need for conscious reasoning.",
+    "example": "They somehow already know what you truly want to become. Everything else is secondary.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": ["vision", "humanities", "leadership"]
+  },
+  {
+    "id": 19003,
+    "word": "authenticity",
+    "definition": "The quality of being genuine or real; not false or copied.",
+    "example": "Your time is limited, so don't waste it living someone else's life.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": ["vision", "legacy", "humanities"]
+  },
+  {
+    "id": 19004,
+    "word": "legacy",
+    "definition": "Something transmitted by or received from an ancestor or predecessor.",
+    "example": "And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": ["legacy", "leadership", "inspirational"]
+  },
+  {
+    "id": 19005,
+    "word": "curiosity",
+    "definition": "A strong desire to know or learn something.",
+    "example": "Much of what I stumbled into by following my curiosity and intuition turned out to be priceless later on.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": ["innovation", "vision", "humanities"]
+  }
+]

@@ -74,30 +74,17 @@ class SeedDataLoader @Inject constructor(
 
     private suspend fun loadWords() {
         val allWords = mutableListOf<WordEntity>()
-        
-        val oratorFiles = listOf(
-            "data/seed/words_demosthenes.json",
-            "data/seed/words_cicero.json",
-            "data/seed/words_pericles.json",
-            "data/seed/words_isocrates.json",
-            "data/seed/words_lincoln.json",
-            "data/seed/words_douglass.json",
-            "data/seed/words_bryan.json",
-            "data/seed/words_churchill.json",
-            "data/seed/words_mlk.json",
-            "data/seed/words_jfk.json",
-            "data/seed/words_fdr.json",
-            "data/seed/words_mandela.json",
-            "data/seed/words_gandhi.json",
-            "data/seed/words_thatcher.json",
-            "data/seed/words_obama.json",
-            "data/seed/words_angelou.json",
-            "data/seed/words_malala.json",
-            "data/seed/words_shakespeare.json"
-        )
-        
+
+        // Dynamically discover all words_*.json files so new orators can be added without code changes
+        val seedDir = "data/seed"
+        val oratorFiles = context.assets.list(seedDir)
+            ?.filter { it.startsWith("words_") && it.endsWith(".json") }
+            ?.sorted()
+            ?.map { "$seedDir/$it" }
+            ?: emptyList()
+
         val validOratorIds = getValidOratorIds()
-        
+
         oratorFiles.forEach { fileName ->
             try {
                 val words = context.assets.open(fileName).bufferedReader().use { reader ->
@@ -127,26 +114,14 @@ class SeedDataLoader @Inject constructor(
     private suspend fun loadQuotes() {
         val allQuotes = mutableListOf<QuoteEntity>()
 
-        val oratorQuoteFiles = listOf(
-            "data/seed/quotes_demosthenes.json",
-            "data/seed/quotes_cicero.json",
-            "data/seed/quotes_pericles.json",
-            "data/seed/quotes_isocrates.json",
-            "data/seed/quotes_lincoln.json",
-            "data/seed/quotes_douglass.json",
-            "data/seed/quotes_bryan.json",
-            "data/seed/quotes_churchill.json",
-            "data/seed/quotes_mlk.json",
-            "data/seed/quotes_jfk.json",
-            "data/seed/quotes_fdr.json",
-            "data/seed/quotes_mandela.json",
-            "data/seed/quotes_gandhi.json",
-            "data/seed/quotes_thatcher.json",
-            "data/seed/quotes_obama.json",
-            "data/seed/quotes_angelou.json",
-            "data/seed/quotes_malala.json",
-            "data/seed/quotes_shakespeare.json"
-        )
+        // Dynamically discover all quotes_*.json files so new orators (e.g. modern tech leaders)
+        // can be added by just dropping in new JSON files. No more hardcoded lists.
+        val seedDir = "data/seed"
+        val oratorQuoteFiles = context.assets.list(seedDir)
+            ?.filter { it.startsWith("quotes_") && it.endsWith(".json") }
+            ?.sorted()
+            ?.map { "$seedDir/$it" }
+            ?: emptyList()
 
         val validOratorIds = getValidOratorIds()
 

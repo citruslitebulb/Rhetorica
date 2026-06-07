@@ -1,0 +1,74 @@
+[
+  {
+    "id": 22001,
+    "word": "bifurcate",
+    "definition": "To divide into two branches or forks; to split.",
+    "example": "The future of humanity is going to bifurcate in two directions: Either it's going to become multiplanetary, or it is going to be confined to one planet.",
+    "partOfSpeech": "verb",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": ["innovation", "vision", "space"]
+  },
+  {
+    "id": 22002,
+    "word": "multiplanetary",
+    "definition": "Involving or extending to more than one planet; capable of sustaining life across planets.",
+    "example": "The future of humanity is going to bifurcate in two directions: Either it's going to become multiplanetary...",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": ["space", "sustainability", "vision"]
+  },
+  {
+    "id": 22003,
+    "word": "analogy",
+    "definition": "A comparison between two things, typically for the purpose of explanation or clarification.",
+    "example": "I think it’s important to reason from first principles rather than by analogy.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Interviews and talks on innovation",
+    "speech": "First Principles Thinking",
+    "categories": ["innovation", "leadership", "technology"]
+  },
+  {
+    "id": 22004,
+    "word": "principles",
+    "definition": "Fundamental truths or propositions that serve as the foundation for a system of belief or behavior.",
+    "example": "Boil things down to the most fundamental truths and then reason up from there.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Talks on first principles",
+    "speech": "First Principles Thinking",
+    "categories": ["innovation", "vision", "leadership"]
+  },
+  {
+    "id": 22005,
+    "word": "extinction",
+    "definition": "The state or process of a species, family, or larger group being or becoming extinct.",
+    "example": "If humanity doesn't become multiplanetary, then we're going to stay on one planet and eventually there's going to be an extinction event.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": ["space", "sustainability", "vision"]
+  },
+  {
+    "id": 22006,
+    "word": "reusable",
+    "definition": "Able to be used again or more than once.",
+    "example": "If humanity is to become multi-planetary, the fundamental breakthrough that needs to occur in rocketry is a rapidly and completely reusable rocket.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Talks on reusable rockets",
+    "speech": "Making Life Multiplanetary",
+    "categories": ["innovation", "space", "technology"]
+  }
+]

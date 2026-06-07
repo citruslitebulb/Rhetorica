@@ -1,0 +1,98 @@
+[
+  {
+    "id": 26001,
+    "word": "incremental",
+    "definition": "Relating to or denoting an increase or addition, especially one that is small or gradual.",
+    "example": "We don't do incremental. We do what's next. We ship. We deliver.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["innovation", "competition", "enterprise"]
+  },
+  {
+    "id": 26002,
+    "word": "superiority",
+    "definition": "The state of being superior; dominance or excellence.",
+    "example": "We are building the most advanced technology in the world. Not to follow, but to lead.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["competition", "leadership", "enterprise"]
+  },
+  {
+    "id": 26003,
+    "word": "agile",
+    "definition": "Able to move quickly and easily; nimble.",
+    "example": "If you're light and agile, you close faster, learn faster, and survive long enough to chase bigger budgets later.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Business philosophy",
+    "speech": "Adaptation and Speed",
+    "categories": ["competition", "innovation", "enterprise"]
+  },
+  {
+    "id": 26004,
+    "word": "enterprise",
+    "definition": "A project or undertaking, especially a bold or complex one; a business or company.",
+    "example": "The database is the heart of everything. And we are going to make it the most powerful heart in the industry.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["enterprise", "competition", "technology"]
+  },
+  {
+    "id": 26005,
+    "word": "dominance",
+    "definition": "Power and influence over others.",
+    "example": "The only way to win is to learn faster than anyone else.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle OpenWorld Keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["competition", "leadership", "enterprise"]
+  },
+  {
+    "id": 26006,
+    "word": "agility",
+    "definition": "The ability to move quickly and easily; nimbleness or adaptability.",
+    "example": "The people who change industries tend to learn faster than the environment around them.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Business philosophy and keynotes",
+    "speech": "Adaptation and Speed",
+    "categories": ["competition", "innovation", "enterprise"]
+  },
+  {
+    "id": 26007,
+    "word": "execution",
+    "definition": "The carrying out or putting into effect of a plan, order, or course of action.",
+    "example": "We don't do incremental. We do what's next. We ship. We deliver.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["competition", "leadership", "enterprise"]
+  },
+  {
+    "id": 26008,
+    "word": "leadership",
+    "definition": "The action of leading a group of people or an organization.",
+    "example": "We are building the most advanced technology in the world. Not to follow, but to lead.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["leadership", "competition", "vision"]
+  }
+]

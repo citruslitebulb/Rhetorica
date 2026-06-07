@@ -1,0 +1,92 @@
+[
+  {
+    "id": 25001,
+    "oratorId": 25,
+    "text": "We should be focusing on building the things that don't exist.",
+    "source": "Google I/O and mission statements",
+    "speech": "On Organizing the World's Information",
+    "year": 2013,
+    "context": "The anti-incremental spirit: invent the future instead of copying competitors."
+  },
+  {
+    "id": 25002,
+    "oratorId": 25,
+    "text": "The perfect search engine would understand exactly what you mean and give back exactly what you want.",
+    "source": "Early Google vision / IPO letter era",
+    "speech": "On Organizing the World's Information",
+    "year": 2004,
+    "context": "The ambitious north star for organizing and democratizing all human knowledge."
+  },
+  {
+    "id": 25003,
+    "oratorId": 25,
+    "text": "Solving big problems is easier than solving little problems.",
+    "source": "Talks on mission and ambition",
+    "speech": "Big Problems Philosophy",
+    "year": null,
+    "context": "Counterintuitive idea that grand challenges attract better talent and resources."
+  },
+  {
+    "id": 25004,
+    "oratorId": 25,
+    "text": "We simply do not know what the limit to intelligence is.",
+    "source": "Comments on AI and future potential",
+    "speech": "Intelligence and Limits",
+    "year": null,
+    "context": "Open-ended optimism about the upper bounds of what technology can achieve."
+  },
+  {
+    "id": 25005,
+    "oratorId": 25,
+    "text": "Don't be evil. Do the right thing. Build products that make the world better.",
+    "source": "Google company values and talks",
+    "speech": "Don't Be Evil / Do the Right Thing",
+    "year": null,
+    "context": "The famous guiding principle for technology's impact on humanity."
+  },
+  {
+    "id": 25006,
+    "oratorId": 25,
+    "text": "We want Google to be the third half of your brain.",
+    "source": "Early vision statements",
+    "speech": "Organizing the World's Information",
+    "year": null,
+    "context": "Vision of seamless integration of information into human thought."
+  },
+  {
+    "id": 25007,
+    "oratorId": 25,
+    "text": "Too many rules stifle innovation.",
+    "source": "Talks on culture and innovation",
+    "speech": "Big Problems Philosophy",
+    "year": null,
+    "context": "Insight on the need for freedom and risk-taking to drive breakthroughs."
+  },
+  {
+    "id": 25008,
+    "oratorId": 25,
+    "text": "We believed we could build a better search. We had a simple idea that not all pages are created equal.",
+    "source": "Early Google founding story",
+    "speech": "Founding Vision",
+    "year": null,
+    "context": "The power of a clear, contrarian insight to change an industry."
+  },
+  {
+    "id": 25009,
+    "oratorId": 25,
+    "text": "We do lots of stuff. The only way you are going to have success is to have lots of failures.",
+    "source": "Talks on experimentation",
+    "speech": "Experimentation Culture",
+    "year": null,
+    "context": "Insight on embracing failure as essential to meaningful progress."
+  },
+  {
+    "id": 25010,
+    "oratorId": 25,
+    "text": "It's not enough not to be evil. We also actively try to be good.",
+    "source": "Talks on corporate responsibility",
+    "speech": "Don't Be Evil / Do the Right Thing",
+    "year": null,
+    "context": "Evolution of the motto into proactive positive impact."
+  }
+]

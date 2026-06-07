@@ -1,0 +1,92 @@
+[
+  {
+    "id": 22001,
+    "oratorId": 22,
+    "text": "When something is important enough, you do it even if the odds are not in your favor.",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "year": 2016,
+    "context": "First-principles justification for pursuing extremely difficult goals like Mars colonization."
+  },
+  {
+    "id": 22002,
+    "oratorId": 22,
+    "text": "I think it’s important to reason from first principles rather than by analogy.",
+    "source": "Interviews and talks on innovation",
+    "speech": "First Principles Thinking",
+    "year": null,
+    "context": "The core of Musk's problem-solving method: boil things down to fundamental truths."
+  },
+  {
+    "id": 22003,
+    "oratorId": 22,
+    "text": "The future of humanity is going to bifurcate in two directions: Either it's going to become multiplanetary, or it is going to be confined to one planet.",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "year": 2016,
+    "context": "Existential framing for why ambitious, long-horizon projects matter."
+  },
+  {
+    "id": 22004,
+    "oratorId": 22,
+    "text": "Boil things down to the most fundamental truths and then reason up from there.",
+    "source": "Talks on first principles",
+    "speech": "First Principles Thinking",
+    "year": null,
+    "context": "Practical advice against reasoning by analogy or copying others."
+  },
+  {
+    "id": 22005,
+    "oratorId": 22,
+    "text": "If humanity doesn't become multiplanetary, then we're going to stay on one planet and eventually there's going to be an extinction event.",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "year": 2016,
+    "context": "Stark motivation for making life multiplanetary."
+  },
+  {
+    "id": 22006,
+    "oratorId": 22,
+    "text": "The first step is to establish that something is possible; then probability will occur.",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "year": 2016,
+    "context": "Engineering mindset for turning impossible into inevitable."
+  },
+  {
+    "id": 22007,
+    "oratorId": 22,
+    "text": "Constantly seek criticism. A well thought out critique of whatever you're doing is as valuable as gold.",
+    "source": "Various interviews",
+    "speech": "Feedback and Iteration",
+    "year": null,
+    "context": "Emphasizing rigorous self-improvement and avoiding echo chambers."
+  },
+  {
+    "id": 22008,
+    "oratorId": 22,
+    "text": "Physics teaches you to reason from first principles rather than by analogy.",
+    "source": "Talks on innovation framework",
+    "speech": "First Principles Thinking",
+    "year": null,
+    "context": "Using physics as a mental model for breaking down complex problems."
+  },
+  {
+    "id": 22009,
+    "oratorId": 22,
+    "text": "If something is important enough, you should try even if the probable outcome is failure.",
+    "source": "Interviews on risk and ambition",
+    "speech": "Risk and Ambition",
+    "year": null,
+    "context": "Insight on pursuing high-stakes goals despite uncertainty."
+  },
+  {
+    "id": 22010,
+    "oratorId": 22,
+    "text": "The things that are most likely to affect the future of humanity at a macro level are the Internet, sustainable energy, making life multiplanetary, genetics, and AI.",
+    "source": "STVP Future Fest talk",
+    "speech": "Future of Humanity",
+    "year": 2015,
+    "context": "Prioritizing work based on long-term civilizational impact."
+  }
+]

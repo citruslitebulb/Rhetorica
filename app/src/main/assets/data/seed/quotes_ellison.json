@@ -1,0 +1,92 @@
+[
+  {
+    "id": 26001,
+    "oratorId": 26,
+    "text": "The only way to win is to learn faster than anyone else.",
+    "source": "Oracle OpenWorld Keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "The competitive, aggressive philosophy that drove Oracle's dominance in databases."
+  },
+  {
+    "id": 26002,
+    "oratorId": 26,
+    "text": "We are building the most advanced technology in the world. Not to follow, but to lead. Not to catch up, but to define the future of enterprise computing.",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "Vision of technological superiority and refusing to be a fast follower."
+  },
+  {
+    "id": 26003,
+    "oratorId": 26,
+    "text": "We don't do incremental. We do what's next. We ship. We deliver.",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "Rejection of safe, small improvements in favor of transformative leaps."
+  },
+  {
+    "id": 26004,
+    "oratorId": 26,
+    "text": "The database is the heart of everything.",
+    "source": "Oracle keynotes and vision",
+    "speech": "Enterprise Software Philosophy",
+    "year": null,
+    "context": "Central belief in the foundational role of data infrastructure."
+  },
+  {
+    "id": 26005,
+    "oratorId": 26,
+    "text": "Speed, power, innovation that actually matters in the real world.",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "Prioritizing real-world impact over theoretical or incremental gains."
+  },
+  {
+    "id": 26006,
+    "oratorId": 26,
+    "text": "Our customers demand the best. They demand speed, they demand power, they demand innovation.",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "Customer-driven imperative for excellence and speed."
+  },
+  {
+    "id": 26007,
+    "oratorId": 26,
+    "text": "The people who change industries tend to learn faster than the environment around them.",
+    "source": "Business philosophy and keynotes",
+    "speech": "Adaptation and Speed",
+    "year": null,
+    "context": "Insight on agility and continuous learning as competitive advantages."
+  },
+  {
+    "id": 26008,
+    "oratorId": 26,
+    "text": "We don't follow. We lead. We define the future.",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "year": 2010,
+    "context": "Bold positioning against competitors through superior technology."
+  },
+  {
+    "id": 26009,
+    "oratorId": 26,
+    "text": "Fail fast. Learn faster. Build the thing.",
+    "source": "Modern business talks inspired by Ellison's approach",
+    "speech": "Execution Philosophy",
+    "year": null,
+    "context": "Emphasis on rapid iteration and decisive action over perfectionism."
+  },
+  {
+    "id": 26010,
+    "oratorId": 26,
+    "text": "The lowest bidder may win the contract, but the best technology wins the future.",
+    "source": "Keynote wisdom on quality vs cost",
+    "speech": "Enterprise Software Philosophy",
+    "year": null,
+    "context": "Critique of short-term thinking in favor of long-term technological leadership."
+  }
+]

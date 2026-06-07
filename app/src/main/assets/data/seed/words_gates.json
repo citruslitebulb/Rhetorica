@@ -1,0 +1,98 @@
+[
+  {
+    "id": 20001,
+    "word": "inequity",
+    "definition": "Lack of fairness or justice; inequality.",
+    "example": "Humanity's greatest advances are not in its discoveries, but in how those discoveries are applied to reduce inequity.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["philanthropy", "global-impact", "leadership"]
+  },
+  {
+    "id": 20002,
+    "word": "disparity",
+    "definition": "A great difference; inequality.",
+    "example": "I left Harvard with no real awareness of the awful inequities in the world – the appalling disparities of health, and wealth, and opportunity.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["philanthropy", "global-impact"]
+  },
+  {
+    "id": 20003,
+    "word": "expectation",
+    "definition": "A belief that someone will or should achieve something.",
+    "example": "From those to whom much is given, much is expected.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["philanthropy", "leadership", "global-impact"]
+  },
+  {
+    "id": 20004,
+    "word": "philanthropy",
+    "definition": "The desire to promote the welfare of others, especially by the generous donation of money to good causes.",
+    "example": "When you consider what those of us here in this yard have been given in talent, privilege and opportunity, there is almost no limit to what the world has a right to expect from us.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["philanthropy", "global-impact", "leadership"]
+  },
+  {
+    "id": 20005,
+    "word": "capitalism",
+    "definition": "An economic and political system in which a country's trade and industry are controlled by private owners for profit.",
+    "example": "Creative capitalism is about making the market work for the poor as well as the rich.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "World Economic Forum and Harvard speech",
+    "speech": "Creative Capitalism",
+    "categories": ["philanthropy", "technology", "global-impact"]
+  },
+  {
+    "id": 20006,
+    "word": "creative",
+    "definition": "Involving the use of the imagination or original ideas to create something.",
+    "example": "Creative capitalism is about making the market work for the poor as well as the rich.",
+    "partOfSpeech": "adjective",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "World Economic Forum and Harvard speech",
+    "speech": "Creative Capitalism",
+    "categories": ["philanthropy", "innovation", "global-impact"]
+  },
+  {
+    "id": 20007,
+    "word": "optimism",
+    "definition": "Hopefulness and confidence about the future or the successful outcome of something.",
+    "example": "Optimism is a moral choice. Pessimism is a moral failure.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Various talks on global progress",
+    "speech": "Optimism and Progress",
+    "categories": ["philanthropy", "leadership", "vision"]
+  },
+  {
+    "id": 20008,
+    "word": "suffering",
+    "definition": "The state of undergoing pain, distress, or hardship.",
+    "example": "We have to find a way to make the breakthroughs that will allow the poorest people to live better lives.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["philanthropy", "global-impact", "humanities"]
+  }
+]

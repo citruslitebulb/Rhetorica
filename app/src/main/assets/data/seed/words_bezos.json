@@ -1,0 +1,62 @@
+[
+  {
+    "id": 21001,
+    "word": "cleverness",
+    "definition": "The quality of being clever; quick-witted intelligence or skill.",
+    "example": "Cleverness is a gift, kindness is a choice. Gifts are easy — they're given after all.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": ["entrepreneurship", "leadership", "vision"]
+  },
+  {
+    "id": 21002,
+    "word": "kindness",
+    "definition": "The quality of being friendly, generous, and considerate.",
+    "example": "Cleverness is a gift, kindness is a choice.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": ["leadership", "humanities", "vision"]
+  },
+  {
+    "id": 21003,
+    "word": "regret",
+    "definition": "A feeling of sadness, repentance, or disappointment over something that has happened or been done.",
+    "example": "In the end, we are our choices. Build yourself a great story.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": ["long-termism", "vision", "leadership"]
+  },
+  {
+    "id": 21004,
+    "word": "long-termism",
+    "definition": "The practice of making decisions with a focus on outcomes that will occur far in the future.",
+    "example": "What we choose to do with our gifts will define us.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": ["entrepreneurship", "long-termism", "vision"]
+  },
+  {
+    "id": 21005,
+    "word": "invention",
+    "definition": "The action of inventing something, typically a process or device.",
+    "example": "Gifts are easy — they're given after all. Choices can be hard.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": ["entrepreneurship", "innovation", "vision"]
+  }
+]

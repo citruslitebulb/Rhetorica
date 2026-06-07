@@ -1,0 +1,92 @@
+[
+  {
+    "id": 19001,
+    "oratorId": 19,
+    "text": "Stay hungry. Stay foolish.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "The famous closing line encouraging graduates to follow their curiosity and intuition."
+  },
+  {
+    "id": 19002,
+    "oratorId": 19,
+    "text": "Your time is limited, so don't waste it living someone else's life.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "Part of the 'connecting the dots' and mortality story urging authenticity."
+  },
+  {
+    "id": 19003,
+    "oratorId": 19,
+    "text": "Don't be trapped by dogma — which is living with the results of other people's thinking.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "Warning against following others' paths instead of your own intuition."
+  },
+  {
+    "id": 19004,
+    "oratorId": 19,
+    "text": "And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "Core advice on career and passion from the 'love what you do' story."
+  },
+  {
+    "id": 19005,
+    "oratorId": 19,
+    "text": "You can't connect the dots looking forward; you can only connect them looking backwards.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "The calligraphy class story showing how seemingly irrelevant experiences connect later."
+  },
+  {
+    "id": 19006,
+    "oratorId": 19,
+    "text": "Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "The death story encouraging courage to follow your heart."
+  },
+  {
+    "id": 19007,
+    "oratorId": 19,
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "source": "Various product keynotes and interviews",
+    "speech": "Keynote Philosophy",
+    "year": null,
+    "context": "Core belief driving Apple's relentless focus on design and new ideas."
+  },
+  {
+    "id": 19008,
+    "oratorId": 19,
+    "text": "Design is not just what it looks like and feels like. Design is how it works.",
+    "source": "Interviews and product philosophy",
+    "speech": "Design Philosophy",
+    "year": null,
+    "context": "Emphasizing that great rhetoric in tech is backed by substance and user experience."
+  },
+  {
+    "id": 19009,
+    "oratorId": 19,
+    "text": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "Emphasizing passion and excellence in one's chosen path."
+  },
+  {
+    "id": 19010,
+    "oratorId": 19,
+    "text": "Sometimes life hits you in the head with a brick. Don't lose faith.",
+    "source": "Stanford University Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "year": 2005,
+    "context": "Resilience in the face of setbacks, drawn from his firing from Apple story."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 23001,
+    "word": "purpose",
+    "definition": "The reason for which something is done or created or for which something exists.",
+    "example": "Purpose is that feeling that you are part of something bigger than yourself... Purpose is what creates true happiness.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "purpose", "leadership"]
+  },
+  {
+    "id": 23002,
+    "word": "equality",
+    "definition": "The state of being equal, especially in status, rights, and opportunities.",
+    "example": "Every generation expands its definition of equality.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "purpose", "leadership"]
+  },
+  {
+    "id": 23003,
+    "word": "idealism",
+    "definition": "The practice of forming or pursuing ideals, especially unrealistically.",
+    "example": "It's really good to be idealistic. But be prepared to be misunderstood. Anyone working on a big vision is going to get called crazy.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "purpose", "vision"]
+  },
+  {
+    "id": 23004,
+    "word": "community",
+    "definition": "A group of people living in the same place or having a particular characteristic in common.",
+    "example": "Change starts local. Even global changes start small — with people like us.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "purpose", "technology"]
+  },
+  {
+    "id": 23005,
+    "word": "contract",
+    "definition": "A written or spoken agreement, especially one concerning employment, sales, or tenancy, that is intended to be enforceable by law.",
+    "example": "Previous generations fought for the vote and civil rights. They had the New Deal and Great Society. And now it's time for our generation to define a new social contract.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "advanced",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "leadership", "purpose"]
+  },
+  {
+    "id": 23006,
+    "word": "meaningful",
+    "definition": "Having meaning or significance; important or worthwhile.",
+    "example": "By taking on big meaningful projects together, by redefining equality so everyone has the freedom to pursue purpose, and by building community across the world.",
+    "partOfSpeech": "adjective",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["community", "purpose", "vision"]
+  },
+  {
+    "id": 23007,
+    "word": "misunderstood",
+    "definition": "Incorrectly interpreted or understood.",
+    "example": "It's really good to be idealistic. But be prepared to be misunderstood.",
+    "partOfSpeech": "adjective",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["vision", "leadership", "purpose"]
+  },
+  {
+    "id": 23008,
+    "word": "idealistic",
+    "definition": "Characterized by idealism; unrealistically aiming for perfection.",
+    "example": "It's really good to be idealistic. But be prepared to be misunderstood. Anyone working on a big vision is going to get called crazy.",
+    "partOfSpeech": "adjective",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": ["vision", "purpose", "community"]
+  }
+]
