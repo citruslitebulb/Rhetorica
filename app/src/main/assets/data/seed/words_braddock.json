@@ -1,0 +1,98 @@
+[
+  {
+    "id": 37001,
+    "word": "resilience",
+    "definition": "The capacity to recover quickly from difficulties; toughness; the ability to spring back.",
+    "example": "I have to believe that when things are bad I can change them.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock's personal credo",
+    "categories": ["resilience", "hope"]
+  },
+  {
+    "id": 37002,
+    "word": "comeback",
+    "definition": "A return to a former prosperous or successful state; a recovery after a setback.",
+    "example": "I know what I'm fighting for.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock explaining his improved performance",
+    "categories": ["comeback", "perseverance"]
+  },
+  {
+    "id": 37003,
+    "word": "dignity",
+    "definition": "The state or quality of being worthy of honor or respect; self-respect.",
+    "example": "I believe we live in a great country, a country that's great enough to help a man financially when he's in trouble.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "Cinderella Man (2005)",
+    "speech": "Relief office / public assistance",
+    "categories": ["dignity", "family"]
+  },
+  {
+    "id": 37004,
+    "word": "perseverance",
+    "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
+    "example": "You think you're telling me something? Like, what, boxing is dangerous?",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "Cinderella Man (2005)",
+    "speech": "To the boxing commission",
+    "categories": ["perseverance", "family"]
+  },
+  {
+    "id": 37005,
+    "word": "family",
+    "definition": "A group consisting of parents and children living together; all the descendants of a common ancestor.",
+    "example": "You're everybody's hope, and the kids' hero, and you are the champion of my heart.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "beginner",
+    "source": "Cinderella Man (2005)",
+    "speech": "Mae Braddock to Jim",
+    "categories": ["family", "heart"]
+  },
+  {
+    "id": 37006,
+    "word": "hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen; grounds for believing that something good may happen.",
+    "example": "I have to believe that when things are bad I can change them.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "beginner",
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock's personal credo",
+    "categories": ["hope", "resilience"]
+  },
+  {
+    "id": 37007,
+    "word": "champion",
+    "definition": "A person who has defeated or surpassed all rivals in a competition; a person who fights for a cause.",
+    "example": "You are the champion of my heart, James J. Braddock.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "beginner",
+    "source": "Cinderella Man (2005)",
+    "speech": "Mae Braddock to Jim",
+    "categories": ["champion", "family"]
+  },
+  {
+    "id": 37008,
+    "word": "grit",
+    "definition": "Courage and resolve; strength of character; firmness of mind or spirit in the face of adversity.",
+    "example": "I know what I'm fighting for.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock explaining his improved performance",
+    "categories": ["grit", "perseverance"]
+  }
+]

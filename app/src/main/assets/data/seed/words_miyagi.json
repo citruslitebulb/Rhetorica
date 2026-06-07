@@ -1,0 +1,98 @@
+[
+  {
+    "id": 32001,
+    "word": "balance",
+    "definition": "A state of equilibrium; mental and emotional stability; the ability to remain steady under pressure.",
+    "example": "Lesson not just karate only. Lesson for whole life. Whole life have a balance.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "The Karate Kid (1984)",
+    "speech": "After the tournament",
+    "categories": ["wisdom", "balance", "life"]
+  },
+  {
+    "id": 32002,
+    "word": "discipline",
+    "definition": "Training that corrects, molds, or perfects the mental faculties or moral character; controlled behavior.",
+    "example": "No such thing as bad student, only bad teacher. Teacher say, student do.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "The Karate Kid (1984)",
+    "speech": "Training discussion",
+    "categories": ["discipline", "mentorship"]
+  },
+  {
+    "id": 32003,
+    "word": "perseverance",
+    "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
+    "example": "Man who catch fly with chopstick, accomplish anything.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "advanced",
+    "source": "The Karate Kid (1984)",
+    "speech": "Early training",
+    "categories": ["perseverance", "focus"]
+  },
+  {
+    "id": 32004,
+    "word": "mentorship",
+    "definition": "The guidance provided by a mentor, especially an experienced person in a company or educational institution.",
+    "example": "First learn stand, then learn fly. Nature rule, Daniel-San. Not mine.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "The Karate Kid Part II (1986)",
+    "speech": "On patience and progression",
+    "categories": ["mentorship", "wisdom"]
+  },
+  {
+    "id": 32005,
+    "word": "focus",
+    "definition": "The center of interest or activity; close or narrow attention; concentration.",
+    "example": "Man who catch fly with chopstick, accomplish anything.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "beginner",
+    "source": "The Karate Kid (1984)",
+    "speech": "Early training",
+    "categories": ["focus", "discipline"]
+  },
+  {
+    "id": 32006,
+    "word": "respect",
+    "definition": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements.",
+    "example": "Walk on road, hm? Walk right side, safe. Walk left side, safe. Walk middle, sooner or later get squish just like grape.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "beginner",
+    "source": "The Karate Kid (1984)",
+    "speech": "On choices and commitment",
+    "categories": ["respect", "wisdom"]
+  },
+  {
+    "id": 32007,
+    "word": "wisdom",
+    "definition": "The quality of having experience, knowledge, and good judgment; the soundness of an action or decision.",
+    "example": "If come from inside you, always right one.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "The Karate Kid (1984)",
+    "speech": "On confidence and authenticity",
+    "categories": ["wisdom", "balance"]
+  },
+  {
+    "id": 32008,
+    "word": "patience",
+    "definition": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry or upset.",
+    "example": "Better learn balance. Balance is key.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "beginner",
+    "source": "The Karate Kid (1984)",
+    "speech": "Balance lesson",
+    "categories": ["patience", "discipline"]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 35001,
+    "word": "perfection",
+    "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects; excellence.",
+    "example": "We will be perfect in every aspect of the game. You drop a pass, you run a mile...",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Remember the Titans (2000)",
+    "speech": "Camp speech on perfection",
+    "categories": ["perfection", "discipline"]
+  },
+  {
+    "id": 35002,
+    "word": "unity",
+    "definition": "The state of being united or joined as a whole; harmony or agreement.",
+    "example": "If we don't come together right now on this hallowed ground, we too will be destroyed, just like they were.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Remember the Titans (2000)",
+    "speech": "Gettysburg speech",
+    "categories": ["unity", "teamwork"]
+  },
+  {
+    "id": 35003,
+    "word": "respect",
+    "definition": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements; due regard.",
+    "example": "I don't care if you like each other or not, but you will respect each other.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "beginner",
+    "source": "Remember the Titans (2000)",
+    "speech": "Gettysburg speech",
+    "categories": ["respect", "leadership"]
+  },
+  {
+    "id": 35004,
+    "word": "leadership",
+    "definition": "The action of leading a group of people or an organization; the state or position of being a leader.",
+    "example": "Attitude reflects leadership, Captain.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Remember the Titans (2000)",
+    "speech": "Julius to Gerry",
+    "categories": ["leadership", "attitude"]
+  },
+  {
+    "id": 35005,
+    "word": "attitude",
+    "definition": "A settled way of thinking or feeling about someone or something, typically one that is reflected in a person's behavior.",
+    "example": "Attitude reflects leadership, Captain.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "beginner",
+    "source": "Remember the Titans (2000)",
+    "speech": "Julius to Gerry",
+    "categories": ["attitude", "leadership"]
+  },
+  {
+    "id": 35006,
+    "word": "teamwork",
+    "definition": "The combined action of a group, especially when effective and efficient.",
+    "example": "Left side! Strong side!",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "beginner",
+    "source": "Remember the Titans (2000)",
+    "speech": "Gerry and Julius bonding",
+    "categories": ["teamwork", "unity"]
+  },
+  {
+    "id": 35007,
+    "word": "winner",
+    "definition": "A person or thing that wins something; a person who is successful or victorious.",
+    "example": "I'm a winner. I'm going to win.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "beginner",
+    "source": "Remember the Titans (2000)",
+    "speech": "Coach Boone",
+    "categories": ["winner", "belief"]
+  },
+  {
+    "id": 35008,
+    "word": "hallowed",
+    "definition": "Greatly revered or respected; sacred; made holy.",
+    "example": "If we don't come together right now on this hallowed ground...",
+    "partOfSpeech": "adjective",
+    "oratorId": 35,
+    "complexity": "advanced",
+    "source": "Remember the Titans (2000)",
+    "speech": "Gettysburg speech",
+    "categories": ["respect", "history"]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": 33001,
+    "word": "underdog",
+    "definition": "A competitor thought to have little chance of winning; one who is expected to lose but often surprises.",
+    "example": "It's not the size of the dog in the fight, it's the size of the fight in the dog.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "Rudy (1993)",
+    "speech": "Rudy's mantra",
+    "categories": ["underdog", "heart"]
+  },
+  {
+    "id": 33002,
+    "word": "perseverance",
+    "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
+    "example": "You're five feet nothing, a hundred and nothing, and you have hardly a speck of athletic ability. And you hung in there...",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "advanced",
+    "source": "Rudy (1993)",
+    "speech": "Fortune's Truth",
+    "categories": ["perseverance", "determination"]
+  },
+  {
+    "id": 33003,
+    "word": "dream",
+    "definition": "A cherished aspiration, ambition, or ideal; something that one hopes or intends to accomplish.",
+    "example": "Having dreams is what makes life tolerable.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "beginner",
+    "source": "Rudy (1993)",
+    "speech": "Pete's advice",
+    "categories": ["dreams", "hope"]
+  },
+  {
+    "id": 33004,
+    "word": "determination",
+    "definition": "Firmness of purpose; resoluteness; the quality of being resolute and unwavering.",
+    "example": "I came here to play football for the Irish. And I'm gonna finish what I started.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "Rudy (1993)",
+    "speech": "Rudy's resolve",
+    "categories": ["determination", "perseverance"]
+  },
+  {
+    "id": 33005,
+    "word": "heart",
+    "definition": "Courage, spirit, or enthusiasm; the emotional or moral core that drives effort and loyalty.",
+    "example": "It's not the size of the dog in the fight, it's the size of the fight in the dog.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "beginner",
+    "source": "Rudy (1993)",
+    "speech": "Rudy's mantra",
+    "categories": ["heart", "courage"]
+  },
+  {
+    "id": 33006,
+    "word": "resolve",
+    "definition": "Firm determination to do something; a formal resolution or decision.",
+    "example": "I came here to play football for the Irish. And I'm gonna finish what I started.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "Rudy (1993)",
+    "speech": "Rudy's resolve",
+    "categories": ["resolve", "determination"]
+  },
+  {
+    "id": 33007,
+    "word": "pride",
+    "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements or those of close associates.",
+    "example": "Someday, you're gonna look back on this and you're gonna be proud of yourself.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "beginner",
+    "source": "Rudy (1993)",
+    "speech": "Pete",
+    "categories": ["pride", "perseverance"]
+  },
+  {
+    "id": 33008,
+    "word": "walk-on",
+    "definition": "An athlete who tries out for a team without having been recruited or offered a scholarship; an underdog who earns a spot through effort.",
+    "example": "You're gonna walk outta here with a degree from the University of Notre Dame.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "Rudy (1993)",
+    "speech": "Fortune's Truth",
+    "categories": ["underdog", "determination"]
+  }
+]

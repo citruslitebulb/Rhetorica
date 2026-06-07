@@ -1,0 +1,98 @@
+[
+  {
+    "id": 34001,
+    "word": "opportunity",
+    "definition": "A set of circumstances that makes it possible to do something; a chance for advancement or progress.",
+    "example": "Great moments are born from great opportunity. And that's what you have here tonight, boys.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["opportunity", "belief"]
+  },
+  {
+    "id": 34002,
+    "word": "belief",
+    "definition": "Trust, faith, or confidence in someone or something; a firmly held opinion or conviction.",
+    "example": "This is your time. Their time is done. It's over.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "beginner",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["belief", "teamwork"]
+  },
+  {
+    "id": 34003,
+    "word": "destiny",
+    "definition": "The hidden power believed to control future events; the course of events in a person's life.",
+    "example": "You were born to be hockey players. Every one of you. And you were meant to be here tonight.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["destiny", "belief"]
+  },
+  {
+    "id": 34004,
+    "word": "underdog",
+    "definition": "A competitor thought to have little chance of winning a contest; one expected to lose.",
+    "example": "If we played 'em ten times, they might win nine. But not this game. Not tonight.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["underdog", "perseverance"]
+  },
+  {
+    "id": 34005,
+    "word": "teamwork",
+    "definition": "The combined action of a group, especially when effective and efficient; collaborative effort.",
+    "example": "Tonight, we skate with them. Tonight, we stay with them. And we shut them down because we can!",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "beginner",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["teamwork", "leadership"]
+  },
+  {
+    "id": 34006,
+    "word": "moment",
+    "definition": "A very brief period of time; an opportunity or occasion for decisive action.",
+    "example": "Great moments are born from great opportunity.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "beginner",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech",
+    "categories": ["moment", "opportunity"]
+  },
+  {
+    "id": 34007,
+    "word": "conditioning",
+    "definition": "The process of training or accustoming a person or animal to behave in a certain way; physical fitness training.",
+    "example": "You don't have enough talent to win on talent alone.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks to the team",
+    "categories": ["conditioning", "discipline"]
+  },
+  {
+    "id": 34008,
+    "word": "dream",
+    "definition": "A cherished aspiration, ambition, or ideal; something that one hopes or intends to accomplish.",
+    "example": "We should be dreaming. We grew up as kids having dreams, but now we're too sophisticated as adults.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "beginner",
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks",
+    "categories": ["dreams", "belief"]
+  }
+]

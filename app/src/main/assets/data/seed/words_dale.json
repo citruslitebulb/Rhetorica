@@ -1,0 +1,98 @@
+[
+  {
+    "id": 36001,
+    "word": "fundamentals",
+    "definition": "The basic principles or elements of a subject or skill; the essential parts.",
+    "example": "I've seen you guys can shoot but there's more to the game than shooting. There's fundamentals and defense.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "Hoosiers (1986)",
+    "speech": "Practice",
+    "categories": ["fundamentals", "discipline"]
+  },
+  {
+    "id": 36002,
+    "word": "potential",
+    "definition": "Having or showing the capacity to develop into something in the future; latent qualities or abilities.",
+    "example": "If you put your effort and concentration into playing to your potential, to be the best that you can be...",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "Hoosiers (1986)",
+    "speech": "Pre-game speech at regional finals",
+    "categories": ["potential", "belief"]
+  },
+  {
+    "id": 36003,
+    "word": "teamwork",
+    "definition": "The combined action of a group, especially when effective and efficient; functioning as one unit.",
+    "example": "Five players on the floor functioning as one single unit: team, team, team – no one more important than the other.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "beginner",
+    "source": "Hoosiers (1986)",
+    "speech": "On teamwork",
+    "categories": ["teamwork", "unity"]
+  },
+  {
+    "id": 36004,
+    "word": "underdog",
+    "definition": "A competitor thought to have little chance of winning; one who is not favored.",
+    "example": "Forget about the crowds, the size of the school, their fancy uniforms, and remember what got you here.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "Hoosiers (1986)",
+    "speech": "Pre-game speech at regional finals",
+    "categories": ["underdog", "focus"]
+  },
+  {
+    "id": 36005,
+    "word": "discipline",
+    "definition": "Training that corrects, molds, or perfects the mental faculties or moral character; controlled behavior.",
+    "example": "My practices aren't designed for your enjoyment.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "Hoosiers (1986)",
+    "speech": "Early practice",
+    "categories": ["discipline", "fundamentals"]
+  },
+  {
+    "id": 36006,
+    "word": "focus",
+    "definition": "The center of interest or activity; close attention; concentration on the present task.",
+    "example": "Focus on the fundamentals that we've gone over time and time again.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "beginner",
+    "source": "Hoosiers (1986)",
+    "speech": "Pre-game speech at regional finals",
+    "categories": ["focus", "fundamentals"]
+  },
+  {
+    "id": 36007,
+    "word": "tradition",
+    "definition": "The transmission of customs or beliefs from generation to generation; a long-established custom or belief.",
+    "example": "There's a tradition in tournament play to not talk about the next step until you've climbed the one in front of you.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "Hoosiers (1986)",
+    "speech": "Pre-game speech at regional finals",
+    "categories": ["tradition", "focus"]
+  },
+  {
+    "id": 36008,
+    "word": "winner",
+    "definition": "A person or thing that wins something; in Coach Dale's definition, anyone who gives full effort to their potential.",
+    "example": "I don't care what the scoreboard says at the end of the game, in my book we're gonna be winners.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "beginner",
+    "source": "Hoosiers (1986)",
+    "speech": "Pre-game speech at regional finals",
+    "categories": ["winner", "belief"]
+  }
+]

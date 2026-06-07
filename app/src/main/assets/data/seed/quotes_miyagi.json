@@ -1,0 +1,74 @@
+[
+  {
+    "id": 32001,
+    "oratorId": 32,
+    "text": "Wax on, right hand. Wax off, left hand.",
+    "source": "The Karate Kid (1984)",
+    "speech": "Miyagi's Training",
+    "year": 1984,
+    "context": "The iconic lesson that secretly teaches Daniel how to block while building muscle memory and patience."
+  },
+  {
+    "id": 32002,
+    "oratorId": 32,
+    "text": "Lesson not just karate only. Lesson for whole life. Whole life have a balance.",
+    "source": "The Karate Kid (1984)",
+    "speech": "After the tournament",
+    "year": 1984,
+    "context": "Miyagi explaining that the principles of karate and training apply to everything in life."
+  },
+  {
+    "id": 32003,
+    "oratorId": 32,
+    "text": "No such thing as bad student, only bad teacher.",
+    "source": "The Karate Kid (1984)",
+    "speech": "Training discussion",
+    "year": 1984,
+    "context": "Emphasizing the responsibility of the teacher and the unlimited potential in every student."
+  },
+  {
+    "id": 32004,
+    "oratorId": 32,
+    "text": "If come from inside you, always right one.",
+    "source": "The Karate Kid (1984)",
+    "speech": "On confidence and authenticity",
+    "year": 1984,
+    "context": "True power, correctness, and strength come from inner conviction rather than external approval."
+  },
+  {
+    "id": 32005,
+    "oratorId": 32,
+    "text": "Man who catch fly with chopstick, accomplish anything.",
+    "source": "The Karate Kid (1984)",
+    "speech": "Early training",
+    "year": 1984,
+    "context": "A seemingly impossible task that proves focus, patience, and belief can achieve the extraordinary."
+  },
+  {
+    "id": 32006,
+    "oratorId": 32,
+    "text": "Better learn balance. Balance is key. Balance good, karate good. Everything good. Balance bad, better pack up, go home.",
+    "source": "The Karate Kid (1984)",
+    "speech": "Balance lesson",
+    "year": 1984,
+    "context": "Balance in stance, in mind, and in life is the foundation of success in karate and beyond."
+  },
+  {
+    "id": 32007,
+    "oratorId": 32,
+    "text": "Walk on road, hm? Walk right side, safe. Walk left side, safe. Walk middle, sooner or later get squish just like grape.",
+    "source": "The Karate Kid (1984)",
+    "speech": "On choices and commitment",
+    "year": 1984,
+    "context": "Half-measures and indecision lead to failure; full commitment to one path is required."
+  },
+  {
+    "id": 32008,
+    "oratorId": 32,
+    "text": "First learn stand, then learn fly. Nature rule, Daniel-San. Not mine.",
+    "source": "The Karate Kid Part II (1986)",
+    "speech": "On patience and progression",
+    "year": 1986,
+    "context": "Master the basics and fundamentals before attempting the advanced; respect the natural order of growth."
+  }
+]
