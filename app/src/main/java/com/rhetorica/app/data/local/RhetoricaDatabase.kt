@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class, QuoteEntity::class, SpeechEntity::class],
-    version = 11,
+    version = 14,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -166,6 +166,28 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        private val MIGRATION_11_12 = object : Migration(11, 12) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Add categories (thematic tags) to words for filtering by inspirational, tech, humanities, arts, leadership, democracy, courage, legacy, etc.
+                database.execSQL("ALTER TABLE words ADD COLUMN categories TEXT NOT NULL DEFAULT '[]'")
+            }
+        }
+
+        private val MIGRATION_12_13 = object : Migration(12, 13) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Add selected theme categories to user preferences (global filter for Home feed, controlled from Profile)
+                database.execSQL("ALTER TABLE user_preferences ADD COLUMN selectedThemeCategories TEXT NOT NULL DEFAULT '[]'")
+            }
+        }
+
+        private val MIGRATION_13_14 = object : Migration(13, 14) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                // Add themeCategories (thematic tags like leadership, democracy, etc.) to dictionaries/orators
+                // so that the Profile themes filter can also apply to which orators are available/shown in the feed.
+                database.execSQL("ALTER TABLE dictionaries ADD COLUMN themeCategories TEXT NOT NULL DEFAULT '[]'")
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -184,6 +206,9 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_8_9,
                         MIGRATION_9_10,
                         MIGRATION_10_11,
+                        MIGRATION_11_12,
+                        MIGRATION_12_13,
+                        MIGRATION_13_14,
                     )
                     .fallbackToDestructiveMigration()
                     .build()

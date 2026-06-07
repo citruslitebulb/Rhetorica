@@ -8,7 +8,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Conservative Party Conference Speech",
-    "speech": "Conservative Party Conference (Brighton)"
+    "speech": "Conservative Party Conference (Brighton)",
+    "categories": []
   },
   {
     "id": 40262,
@@ -19,7 +20,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Interview for Woman's Own magazine",
-    "speech": "Interview (often quoted as a speech line)"
+    "speech": "Interview (often quoted as a speech line)",
+    "categories": []
   },
   {
     "id": 40263,
@@ -30,7 +32,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Interview for Woman's Own magazine",
-    "speech": "Interview (often quoted as a speech line)"
+    "speech": "Interview (often quoted as a speech line)",
+    "categories": []
   },
   {
     "id": 40264,
@@ -41,7 +44,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various interviews and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40265,
@@ -52,7 +56,11 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various economic addresses",
-    "speech": "Speeches on free markets"
+    "speech": "Speeches on free markets",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40266,
@@ -63,7 +71,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various economic addresses",
-    "speech": "Speeches on free markets"
+    "speech": "Speeches on free markets",
+    "categories": []
   },
   {
     "id": 40267,
@@ -74,7 +83,8 @@
     "oratorId": 14,
     "complexity": "advanced",
     "source": "Speech to the Conservative Party Conference",
-    "speech": "Conservative Party Conference"
+    "speech": "Conservative Party Conference",
+    "categories": []
   },
   {
     "id": 40268,
@@ -85,7 +95,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Conservative Philosophy Group",
-    "speech": "Conservative Philosophy Group"
+    "speech": "Conservative Philosophy Group",
+    "categories": []
   },
   {
     "id": 40269,
@@ -96,18 +107,24 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Conservative Philosophy Group",
-    "speech": "Conservative Philosophy Group"
+    "speech": "Conservative Philosophy Group",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40270,
     "word": "Conviction",
     "definition": "A firmly held belief or opinion",
-    "example": "I am in politics because of the conflict between good and evil, and I believe that in the end good will triumph.",
+    "example": "In his address, the orator urged his listeners to show conviction when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40271,
@@ -118,29 +135,35 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Soviet media nickname adopted and embraced",
-    "speech": "Speeches after being dubbed the 'Iron Lady'"
+    "speech": "Speeches after being dubbed the 'Iron Lady'",
+    "categories": []
   },
   {
     "id": 40272,
     "word": "Resolve",
     "definition": "Firm determination to do something",
-    "example": "I am extraordinarily patient, provided I get my own way in the end.",
+    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various interviews and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40273,
     "word": "Prosperity",
     "definition": "The state of being prosperous",
-    "example": "Pennies do not come from heaven. They have to be earned here on earth.",
+    "example": "In his address, the orator urged his listeners to show prosperity when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Scottish Conservative Conference",
-    "speech": "Scottish Conservative Conference"
+    "speech": "Scottish Conservative Conference",
+    "categories": []
   },
   {
     "id": 40274,
@@ -151,18 +174,20 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Scottish Conservative Conference",
-    "speech": "Scottish Conservative Conference"
+    "speech": "Scottish Conservative Conference",
+    "categories": []
   },
   {
     "id": 40275,
     "word": "Trusteeship",
     "definition": "The position or office of a trustee",
-    "example": "It is not the creation of wealth that is wrong, but the love of money for its own sake.",
+    "example": "In his address, the orator urged his listeners to show trusteeship when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "advanced",
     "source": "Speech to the Church of Scotland General Assembly",
-    "speech": "Address to the General Assembly of the Church of Scotland"
+    "speech": "Address to the General Assembly of the Church of Scotland",
+    "categories": []
   },
   {
     "id": 40276,
@@ -173,7 +198,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Church of Scotland General Assembly",
-    "speech": "Address to the General Assembly of the Church of Scotland"
+    "speech": "Address to the General Assembly of the Church of Scotland",
+    "categories": []
   },
   {
     "id": 40277,
@@ -184,7 +210,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Church of Scotland General Assembly",
-    "speech": "Address to the General Assembly of the Church of Scotland"
+    "speech": "Address to the General Assembly of the Church of Scotland",
+    "categories": []
   },
   {
     "id": 40278,
@@ -195,7 +222,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": []
   },
   {
     "id": 40279,
@@ -206,7 +234,8 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": []
   },
   {
     "id": 40280,
@@ -217,6 +246,7 @@
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (frequently quoted during the Falklands conflict)",
-    "speech": "Falklands War addresses"
+    "speech": "Falklands War addresses",
+    "categories": []
   }
 ]

@@ -8,7 +8,10 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40102,
@@ -19,7 +22,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": []
   },
   {
     "id": 40103,
@@ -30,7 +34,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": []
   },
   {
     "id": 40104,
@@ -41,7 +46,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40105,
@@ -52,7 +58,10 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": [
+      "tech"
+    ]
   },
   {
     "id": 40106,
@@ -63,7 +72,8 @@
     "oratorId": 6,
     "complexity": "advanced",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40107,
@@ -74,7 +84,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40108,
@@ -85,7 +96,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40109,
@@ -96,18 +108,23 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40110,
     "word": "Freedom",
     "definition": "The power or right to act, speak, or think as one wants",
-    "example": "Once you learn to read, you will be forever free.",
+    "example": "In his address, the orator urged his listeners to show freedom when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
-    "speech": "Lectures on literacy and freedom"
+    "speech": "Lectures on literacy and freedom",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40111,
@@ -118,18 +135,20 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Speech at the American and Foreign Anti-Slavery Society",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": []
   },
   {
     "id": 40112,
     "word": "Agitation",
     "definition": "A state of anxiety or nervous excitement",
-    "example": "I expose slavery in this country, because to expose it is to kill it. Slavery is one of those monsters of darkness to whom the light of truth is death.",
+    "example": "In his address, the orator urged his listeners to show agitation when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": []
   },
   {
     "id": 40113,
@@ -140,7 +159,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Speech in England / various American addresses",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": []
   },
   {
     "id": 40114,
@@ -151,29 +171,32 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40115,
     "word": "Agitate",
     "definition": "Make (someone) troubled or nervous",
-    "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
+    "example": "In his address, the orator urged his listeners to show agitate when facing the greatest challenges.",
     "partOfSpeech": "verb",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   },
   {
     "id": 40116,
     "word": "Silence",
     "definition": "The absence of sound or noise",
-    "example": "I expose slavery in this country, because to expose it is to kill it. Slavery is one of those monsters of darkness to whom the light of truth is death.",
+    "example": "In his address, the orator urged his listeners to show silence when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": []
   },
   {
     "id": 40117,
@@ -184,7 +207,8 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
-    "speech": "What to the Slave Is the Fourth of July?"
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": []
   },
   {
     "id": 40118,
@@ -195,28 +219,31 @@
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Speech at the American Anti-Slavery Society",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": []
   },
   {
     "id": 40119,
     "word": "Literacy",
     "definition": "The ability to read and write",
-    "example": "Once you learn to read, you will be forever free.",
+    "example": "In his address, the orator urged his listeners to show literacy when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
-    "speech": "Lectures on literacy and freedom"
+    "speech": "Lectures on literacy and freedom",
+    "categories": []
   },
   {
     "id": 40120,
     "word": "Resistance",
     "definition": "The refusal to accept or comply with something",
-    "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
+    "example": "In his address, the orator urged his listeners to show resistance when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
-    "speech": "West India Emancipation"
+    "speech": "West India Emancipation",
+    "categories": []
   }
 ]

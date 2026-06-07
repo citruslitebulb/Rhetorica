@@ -10,4 +10,5 @@ data class SavedWordSummary(
     val savedAtEpochMillis: Long,
     val source: String? = null,
     val speech: String? = null,
+    val categories: List<String> = emptyList(),
 )

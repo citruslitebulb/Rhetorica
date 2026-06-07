@@ -25,6 +25,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import android.net.Uri
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
@@ -32,11 +33,11 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.rhetorica.app.R
 
-const val speechDetailRoute = "speech/{oratorId}/{speechTitle}"
+const val speechDetailRoute = "speech/{oratorId}?title={speechTitle}"
 
 fun NavController.navigateToFullSpeech(oratorId: Long, speechTitle: String) {
-    val encodedTitle = java.net.URLEncoder.encode(speechTitle, "UTF-8")
-    navigate("speech/$oratorId/$encodedTitle")
+    val encodedTitle = Uri.encode(speechTitle)
+    navigate("speech/$oratorId?title=$encodedTitle")
 }
 
 fun NavGraphBuilder.speechDetailScreen(
@@ -118,7 +119,7 @@ private fun SpeechDetailScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
                     Text(
-                        text = "Full speeches are available for some referenced orations (e.g. Inaugural Address for JFK words like Bear, We Shall Fight on the Beaches, Pericles' Funeral Oration, On the Crown (De Corona) and Philippics for Demosthenes words like Unity, In Catilinam I for Cicero, Antidosis for Isocrates). We are expanding the collection to cover more of the 100 quotes per orator.",
+                        text = stringResource(R.string.speech_not_found_hint),
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )

@@ -8,7 +8,10 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
-    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech"
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40282,
@@ -19,7 +22,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
-    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech"
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
+    "categories": []
   },
   {
     "id": 40283,
@@ -30,7 +34,10 @@
     "oratorId": 15,
     "complexity": "advanced",
     "source": "2004 Democratic National Convention Keynote",
-    "speech": "Democratic National Convention Keynote Address"
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40284,
@@ -41,7 +48,10 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
-    "speech": "Democratic National Convention Keynote Address"
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40285,
@@ -52,7 +62,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)"
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": []
   },
   {
     "id": 40286,
@@ -63,7 +74,10 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)"
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40287,
@@ -74,7 +88,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)"
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": []
   },
   {
     "id": 40288,
@@ -85,18 +100,24 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)"
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40289,
     "word": "Destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future",
-    "example": "We are the ones we've been waiting for. We are the change that we seek.",
+    "example": "In his address, the orator urged his listeners to show destiny when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
-    "speech": "New Hampshire Concession Speech"
+    "speech": "New Hampshire Concession Speech",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40290,
@@ -107,7 +128,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
-    "speech": "Democratic National Convention Acceptance"
+    "speech": "Democratic National Convention Acceptance",
+    "categories": []
   },
   {
     "id": 40291,
@@ -118,7 +140,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
-    "speech": "Election Night Victory Speech (Grant Park, Chicago)"
+    "speech": "Election Night Victory Speech (Grant Park, Chicago)",
+    "categories": []
   },
   {
     "id": 40292,
@@ -129,18 +152,22 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
-    "speech": "Election Night Victory Speech (Grant Park, Chicago)"
+    "speech": "Election Night Victory Speech (Grant Park, Chicago)",
+    "categories": []
   },
   {
     "id": 40293,
     "word": "Enduring",
     "definition": "Continuing or long-lasting",
-    "example": "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'",
+    "example": "In his address, the orator urged his listeners to show enduring when facing the greatest challenges.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Their Finest Hour (Churchill, but used in context)",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40294,
@@ -151,7 +178,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
-    "speech": "Democratic National Convention Keynote Address"
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": []
   },
   {
     "id": 40295,
@@ -162,18 +190,22 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
-    "speech": "Democratic National Convention Keynote Address"
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": []
   },
   {
     "id": 40296,
     "word": "Perseverance",
     "definition": "Persistence in doing something despite difficulty or delay in achieving success",
-    "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
+    "example": "In his address, the orator urged his listeners to show perseverance when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
-    "speech": "Democratic National Convention Acceptance"
+    "speech": "Democratic National Convention Acceptance",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40297,
@@ -184,7 +216,8 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
-    "speech": "Democratic National Convention Acceptance"
+    "speech": "Democratic National Convention Acceptance",
+    "categories": []
   },
   {
     "id": 40298,
@@ -195,28 +228,35 @@
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
-    "speech": "Democratic National Convention Acceptance"
+    "speech": "Democratic National Convention Acceptance",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40299,
     "word": "Perfection",
     "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects",
-    "example": "The cynics may say that we will never build a more perfect union.",
+    "example": "In his address, the orator urged his listeners to show perfection when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)"
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": []
   },
   {
     "id": 40300,
     "word": "Spirit",
     "definition": "The nonphysical part of a person which is the seat of emotions and character",
-    "example": "What the cynics fail to understand is that the ground has shifted beneath them — that the stale political arguments that have consumed us for so long no longer apply.",
+    "example": "In his address, the orator urged his listeners to show spirit when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   }
 ]

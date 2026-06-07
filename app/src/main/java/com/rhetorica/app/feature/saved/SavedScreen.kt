@@ -36,6 +36,8 @@ fun SavedRoute(
         onToggleSaved = viewModel::toggleSaved,
         onSelectOrator = viewModel::selectOrator,
         onSelectSort = viewModel::selectSort,
+        onToggleCategory = viewModel::toggleCategory,
+        onClearCategories = viewModel::clearCategoryFilter,
     )
 }
 
@@ -46,6 +48,8 @@ private fun SavedScreen(
     onToggleSaved: (Long) -> Unit,
     onSelectOrator: (Long?) -> Unit,
     onSelectSort: (SavedSortOption) -> Unit,
+    onToggleCategory: (String) -> Unit,
+    onClearCategories: () -> Unit,
 ) {
     val isTrulyEmpty = state.totalSavedCount == 0
     val isFilteredEmpty = state.words.isEmpty() && !isTrulyEmpty
@@ -117,6 +121,8 @@ private fun SavedScreen(
                 state = state,
                 onSelectOrator = onSelectOrator,
                 onSelectSort = onSelectSort,
+                onToggleCategory = onToggleCategory,
+                onClearCategories = onClearCategories,
             )
         }
 
@@ -158,6 +164,7 @@ private fun SavedScreen(
                     onToggleSaved = { onToggleSaved(word.id) },
                     source = word.source,
                     speech = word.speech,
+                    categories = word.categories,
                 )
             }
         }
@@ -169,6 +176,8 @@ private fun SavedControls(
     state: SavedUiState,
     onSelectOrator: (Long?) -> Unit,
     onSelectSort: (SavedSortOption) -> Unit,
+    onToggleCategory: (String) -> Unit,
+    onClearCategories: () -> Unit,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -190,6 +199,44 @@ private fun SavedControls(
                         selected = state.selectedOratorId == orator.id,
                         onClick = { onSelectOrator(orator.id) },
                         label = { Text(text = orator.name) },
+                    )
+                }
+            }
+        }
+
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text(
+                text = stringResource(R.string.saved_themes_label),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                item {
+                    FilterChip(
+                        selected = state.selectedCategories.isEmpty(),
+                        onClick = { onClearCategories() },
+                        label = { Text(text = stringResource(R.string.saved_themes_all)) },
+                    )
+                }
+                // Always offer the canonical theme categories so the UI always references them
+                val canonical = listOf("inspirational", "tech", "humanities", "arts", "leadership", "democracy", "courage", "legacy")
+                val themeChips = canonical + state.availableCategories.filterNot { it in canonical }
+                items(themeChips.distinct(), key = { it }) { cat ->
+                    val label = when (cat) {
+                        "inspirational" -> stringResource(R.string.theme_inspirational)
+                        "tech" -> stringResource(R.string.theme_tech)
+                        "humanities" -> stringResource(R.string.theme_humanities)
+                        "arts" -> stringResource(R.string.theme_arts)
+                        "leadership" -> stringResource(R.string.theme_leadership)
+                        "democracy" -> stringResource(R.string.theme_democracy)
+                        "courage" -> stringResource(R.string.theme_courage)
+                        "legacy" -> stringResource(R.string.theme_legacy)
+                        else -> cat.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+                    }
+                    FilterChip(
+                        selected = cat in state.selectedCategories,
+                        onClick = { onToggleCategory(cat) },
+                        label = { Text(text = label) },
                     )
                 }
             }

@@ -8,7 +8,10 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
-    "speech": "Inaugural and public readings / addresses"
+    "speech": "Inaugural and public readings / addresses",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40302,
@@ -19,7 +22,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
-    "speech": "Inaugural and public readings / addresses"
+    "speech": "Inaugural and public readings / addresses",
+    "categories": []
   },
   {
     "id": 40303,
@@ -30,18 +34,22 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
-    "speech": "Inaugural and public readings / addresses"
+    "speech": "Inaugural and public readings / addresses",
+    "categories": []
   },
   {
     "id": 40304,
     "word": "Resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness",
-    "example": "You may shoot me with your words, you may cut me with your eyes, you may kill me with your hatefulness, but still, like air, I'll rise.",
+    "example": "In his address, the orator urged his listeners to show resilience when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise",
-    "speech": "Various readings"
+    "speech": "Various readings",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40305,
@@ -52,7 +60,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise",
-    "speech": "Public readings"
+    "speech": "Public readings",
+    "categories": []
   },
   {
     "id": 40306,
@@ -63,7 +72,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews and speeches (widely quoted)",
-    "speech": "Multiple addresses on leadership and teaching"
+    "speech": "Multiple addresses on leadership and teaching",
+    "categories": []
   },
   {
     "id": 40307,
@@ -74,7 +84,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40308,
@@ -85,7 +96,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various addresses on resilience",
-    "speech": "Multiple speeches"
+    "speech": "Multiple speeches",
+    "categories": []
   },
   {
     "id": 40309,
@@ -96,7 +108,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews",
-    "speech": "Public wisdom shared in speeches"
+    "speech": "Public wisdom shared in speeches",
+    "categories": []
   },
   {
     "id": 40310,
@@ -107,7 +120,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40311,
@@ -118,7 +132,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40312,
@@ -129,7 +144,8 @@
     "oratorId": 16,
     "complexity": "advanced",
     "source": "On the Pulse of Morning (Inaugural Poem)",
-    "speech": "Inaugural Poem for President Bill Clinton"
+    "speech": "Inaugural Poem for President Bill Clinton",
+    "categories": []
   },
   {
     "id": 40313,
@@ -140,18 +156,24 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
-    "speech": "Inaugural Poem for President Bill Clinton"
+    "speech": "Inaugural Poem for President Bill Clinton",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40314,
     "word": "Grace",
     "definition": "Simple elegance or refinement of movement",
-    "example": "Lift up your eyes upon this day breaking for you. Give birth again to the dream.",
+    "example": "In his address, the orator urged his listeners to show grace when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
-    "speech": "Inaugural Poem for President Bill Clinton"
+    "speech": "Inaugural Poem for President Bill Clinton",
+    "categories": []
   },
   {
     "id": 40315,
@@ -162,7 +184,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews and talks on personal growth",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": []
   },
   {
     "id": 40316,
@@ -173,7 +196,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various public talks",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": []
   },
   {
     "id": 40317,
@@ -184,7 +208,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40318,
@@ -195,7 +220,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
-    "speech": "Multiple"
+    "speech": "Multiple",
+    "categories": []
   },
   {
     "id": 40319,
@@ -206,7 +232,8 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews",
-    "speech": "Public wisdom"
+    "speech": "Public wisdom",
+    "categories": []
   },
   {
     "id": 40320,
@@ -217,6 +244,7 @@
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews",
-    "speech": "Public wisdom"
+    "speech": "Public wisdom",
+    "categories": []
   }
 ]

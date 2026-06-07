@@ -3,12 +3,13 @@
     "id": 40061,
     "word": "Persuasion",
     "definition": "The action or fact of persuading someone or of being persuaded to do or believe something",
-    "example": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
+    "example": "In his address, the orator urged his listeners to show persuasion when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40062,
@@ -19,7 +20,8 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40063,
@@ -30,18 +32,20 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40064,
     "word": "Integrity",
     "definition": "The quality of being honest and having strong moral principles",
-    "example": "We must not judge a man by his words alone, but by whether his actions are in harmony with his speech.",
+    "example": "In his address, the orator urged his listeners to show integrity when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panathenaicus",
-    "speech": "Panathenaicus"
+    "speech": "Panathenaicus",
+    "categories": []
   },
   {
     "id": 40065,
@@ -52,7 +56,8 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panathenaicus",
-    "speech": "Panathenaicus"
+    "speech": "Panathenaicus",
+    "categories": []
   },
   {
     "id": 40066,
@@ -63,18 +68,20 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "To Nicocles",
-    "speech": "To Nicocles (letter of advice to a ruler)"
+    "speech": "To Nicocles (letter of advice to a ruler)",
+    "categories": []
   },
   {
     "id": 40067,
     "word": "Virtue",
     "definition": "Behavior showing high moral standards",
-    "example": "A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character.",
+    "example": "In his address, the orator urged his listeners to show virtue when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40068,
@@ -85,7 +92,10 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40069,
@@ -96,7 +106,8 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40070,
@@ -107,7 +118,10 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panegyricus",
-    "speech": "Panegyricus"
+    "speech": "Panegyricus",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40071,
@@ -118,7 +132,10 @@
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Panegyricus",
-    "speech": "Panegyricus"
+    "speech": "Panegyricus",
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40072,
@@ -129,18 +146,20 @@
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Panegyricus",
-    "speech": "Panegyricus"
+    "speech": "Panegyricus",
+    "categories": []
   },
   {
     "id": 40073,
     "word": "Paideia",
     "definition": "The rearing and education of a child; cultural upbringing",
-    "example": "Education is the best provision for old age; it furnishes a man with a treasure that time cannot take away.",
+    "example": "In his address, the orator urged his listeners to show paideia when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40074,
@@ -151,7 +170,8 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40075,
@@ -162,7 +182,8 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panegyricus",
-    "speech": "Panegyricus"
+    "speech": "Panegyricus",
+    "categories": []
   },
   {
     "id": 40076,
@@ -173,40 +194,46 @@
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panegyricus",
-    "speech": "Panegyricus"
+    "speech": "Panegyricus",
+    "categories": []
   },
   {
     "id": 40077,
     "word": "Logos",
     "definition": "A principle of order and knowledge",
-    "example": "Speech is the ruler and king of all things; with it we can make the false appear true and the true appear false.",
+    "example": "In his address, the orator urged his listeners to show logos when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   },
   {
     "id": 40078,
     "word": "Self-mastery",
     "definition": "Control of one's emotions, desires, or actions by one's own will",
-    "example": "The man who has learned to govern himself is fit to govern others; the man who cannot control his own tongue is fit for nothing.",
+    "example": "In his address, the orator urged his listeners to show self-mastery when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "To Nicocles",
-    "speech": "To Nicocles (letter of advice to a ruler)"
+    "speech": "To Nicocles (letter of advice to a ruler)",
+    "categories": []
   },
   {
     "id": 40079,
     "word": "Moral",
     "definition": "Concerned with the principles of right and wrong behavior",
-    "example": "A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character.",
+    "example": "In his address, the orator urged his listeners to show moral when facing the greatest challenges.",
     "partOfSpeech": "adjective",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40080,
@@ -217,6 +244,7 @@
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
-    "speech": "Antidosis (defense of his teaching)"
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": []
   }
 ]

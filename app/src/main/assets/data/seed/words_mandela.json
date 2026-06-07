@@ -8,7 +8,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
-    "speech": "Statement from the Dock at the Rivonia Trial"
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": []
   },
   {
     "id": 40222,
@@ -19,7 +20,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
-    "speech": "Statement from the Dock at the Rivonia Trial"
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": []
   },
   {
     "id": 40223,
@@ -30,7 +32,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
-    "speech": "Statement from the Dock at the Rivonia Trial"
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": []
   },
   {
     "id": 40224,
@@ -41,7 +44,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
-    "speech": "Address on education"
+    "speech": "Address on education",
+    "categories": []
   },
   {
     "id": 40225,
@@ -52,7 +56,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
-    "speech": "Address on education"
+    "speech": "Address on education",
+    "categories": []
   },
   {
     "id": 40226,
@@ -63,7 +68,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Various speeches and interviews",
-    "speech": "Multiple addresses"
+    "speech": "Multiple addresses",
+    "categories": []
   },
   {
     "id": 40227,
@@ -74,7 +80,11 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
-    "speech": "Various post-release addresses"
+    "speech": "Various post-release addresses",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40228,
@@ -85,18 +95,20 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
-    "speech": "Various post-release addresses"
+    "speech": "Various post-release addresses",
+    "categories": []
   },
   {
     "id": 40229,
     "word": "Forgiveness",
     "definition": "The action or process of forgiving or being forgiven",
-    "example": "No one is born hating another person because of the color of his skin, or his background, or his religion. People must learn to hate, and if they can learn to hate, they can be taught to love.",
+    "example": "In his address, the orator urged his listeners to show forgiveness when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
-    "speech": "Various reconciliation addresses"
+    "speech": "Various reconciliation addresses",
+    "categories": []
   },
   {
     "id": 40230,
@@ -107,7 +119,12 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
-    "speech": "Autobiographical reflections in speeches"
+    "speech": "Autobiographical reflections in speeches",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40231,
@@ -118,7 +135,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom / post-presidency interviews",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": []
   },
   {
     "id": 40232,
@@ -129,7 +147,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
-    "speech": "Reflections after release"
+    "speech": "Reflections after release",
+    "categories": []
   },
   {
     "id": 40233,
@@ -140,7 +159,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
-    "speech": "Reflections after release"
+    "speech": "Reflections after release",
+    "categories": []
   },
   {
     "id": 40234,
@@ -151,7 +171,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
-    "speech": "Autobiography and later speeches"
+    "speech": "Autobiography and later speeches",
+    "categories": []
   },
   {
     "id": 40235,
@@ -162,7 +183,10 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40236,
@@ -173,7 +197,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40237,
@@ -184,7 +209,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40238,
@@ -195,7 +221,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40239,
@@ -206,7 +233,8 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40240,
@@ -217,6 +245,7 @@
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement / Long Walk to Freedom",
-    "speech": "Statement from the Dock"
+    "speech": "Statement from the Dock",
+    "categories": []
   }
 ]

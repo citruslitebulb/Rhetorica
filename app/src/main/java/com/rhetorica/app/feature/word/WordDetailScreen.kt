@@ -1,11 +1,13 @@
 package com.rhetorica.app.feature.word
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
@@ -175,6 +177,35 @@ private fun WordDetailScreen(
                                 style = MaterialTheme.typography.labelLarge,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                             )
+                        }
+                    }
+
+                    if (word.categories.isNotEmpty()) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            word.categories.forEach { cat ->
+                                val label = when (cat) {
+                                    "inspirational" -> stringResource(R.string.theme_inspirational)
+                                    "tech" -> stringResource(R.string.theme_tech)
+                                    "humanities" -> stringResource(R.string.theme_humanities)
+                                    "arts" -> stringResource(R.string.theme_arts)
+                                    "leadership" -> stringResource(R.string.theme_leadership)
+                                    "democracy" -> stringResource(R.string.theme_democracy)
+                                    "courage" -> stringResource(R.string.theme_courage)
+                                    "legacy" -> stringResource(R.string.theme_legacy)
+                                    else -> cat.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+                                }
+                                Text(
+                                    text = label,
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier
+                                        .background(
+                                            MaterialTheme.colorScheme.primary.copy(alpha = 0.12f),
+                                            RoundedCornerShape(6.dp),
+                                        )
+                                        .padding(horizontal = 8.dp, vertical = 3.dp),
+                                )
+                            }
                         }
                     }
 

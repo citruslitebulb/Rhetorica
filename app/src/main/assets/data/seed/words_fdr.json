@@ -8,7 +8,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40202,
@@ -19,7 +20,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40203,
@@ -30,7 +32,8 @@
     "oratorId": 11,
     "complexity": "advanced",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40204,
@@ -41,7 +44,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40205,
@@ -52,7 +56,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Speech accepting the Democratic nomination",
-    "speech": "Democratic National Convention acceptance"
+    "speech": "Democratic National Convention acceptance",
+    "categories": []
   },
   {
     "id": 40206,
@@ -63,7 +68,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
-    "speech": "Second Inaugural Address"
+    "speech": "Second Inaugural Address",
+    "categories": []
   },
   {
     "id": 40207,
@@ -74,7 +80,8 @@
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Day of Infamy Speech",
-    "speech": "Address to Congress requesting declaration of war"
+    "speech": "Address to Congress requesting declaration of war",
+    "categories": []
   },
   {
     "id": 40208,
@@ -85,7 +92,11 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Four Freedoms Speech",
-    "speech": "State of the Union Address (Four Freedoms)"
+    "speech": "State of the Union Address (Four Freedoms)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40209,
@@ -96,7 +107,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
-    "speech": "Fireside Chat on national security"
+    "speech": "Fireside Chat on national security",
+    "categories": []
   },
   {
     "id": 40210,
@@ -107,7 +119,10 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
-    "speech": "Fireside Chat on national security"
+    "speech": "Fireside Chat on national security",
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40211,
@@ -118,7 +133,8 @@
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
-    "speech": "Arsenal of Democracy Fireside Chat"
+    "speech": "Arsenal of Democracy Fireside Chat",
+    "categories": []
   },
   {
     "id": 40212,
@@ -129,7 +145,8 @@
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
-    "speech": "Arsenal of Democracy Fireside Chat"
+    "speech": "Arsenal of Democracy Fireside Chat",
+    "categories": []
   },
   {
     "id": 40213,
@@ -140,7 +157,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
-    "speech": "Undelivered address"
+    "speech": "Undelivered address",
+    "categories": []
   },
   {
     "id": 40214,
@@ -151,7 +169,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
-    "speech": "Undelivered address"
+    "speech": "Undelivered address",
+    "categories": []
   },
   {
     "id": 40215,
@@ -162,7 +181,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40216,
@@ -173,18 +193,20 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
-    "speech": "First Inaugural Address"
+    "speech": "First Inaugural Address",
+    "categories": []
   },
   {
     "id": 40217,
     "word": "Interdependence",
     "definition": "The dependence of two or more people or things on each other",
-    "example": "We have learned that we cannot live alone, at peace; that our own well-being is dependent on the well-being of other nations far away.",
+    "example": "In his address, the orator urged his listeners to show interdependence when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Fourth Inaugural Address",
-    "speech": "Fourth Inaugural Address"
+    "speech": "Fourth Inaugural Address",
+    "categories": []
   },
   {
     "id": 40218,
@@ -195,7 +217,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Fourth Inaugural Address",
-    "speech": "Fourth Inaugural Address"
+    "speech": "Fourth Inaugural Address",
+    "categories": []
   },
   {
     "id": 40219,
@@ -206,7 +229,8 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Pan American Day Address",
-    "speech": "Pan American Day Address"
+    "speech": "Pan American Day Address",
+    "categories": []
   },
   {
     "id": 40220,
@@ -217,6 +241,7 @@
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Pan American Day Address",
-    "speech": "Pan American Day Address"
+    "speech": "Pan American Day Address",
+    "categories": []
   }
 ]

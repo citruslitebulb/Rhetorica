@@ -3,12 +3,13 @@
     "id": 40001,
     "word": "Tyranny",
     "definition": "Cruel and oppressive government or rule",
-    "example": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
+    "example": "In his address, the orator urged his listeners to show tyranny when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   },
   {
     "id": 40002,
@@ -19,7 +20,8 @@
     "oratorId": 1,
     "complexity": "advanced",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   },
   {
     "id": 40003,
@@ -30,7 +32,12 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40004,
@@ -41,51 +48,59 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40005,
     "word": "Persuasion",
     "definition": "The action or fact of persuading someone or of being persuaded to do or believe something",
-    "example": "A man who is a slave to pleasure and luxury can never be a true friend to the people or a faithful guardian of the state.",
+    "example": "In his address, the orator urged his listeners to show persuasion when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": []
   },
   {
     "id": 40006,
     "word": "Resolve",
     "definition": "Firm determination to do something",
-    "example": "Freedom is not preserved by words alone, but by the readiness to fight and suffer for it.",
+    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40007,
     "word": "Appeasement",
     "definition": "The action of pacifying or placating someone by acceding to their demands",
-    "example": "If you will not fight for your freedom when the enemy is still far off, you will fight for it when he is at your doors, and fight in vain.",
+    "example": "In his address, the orator urged his listeners to show appeasement when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "advanced",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40008,
     "word": "Eloquence",
     "definition": "Fluent or persuasive speaking or writing",
-    "example": "The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend.",
+    "example": "In his address, the orator urged his listeners to show eloquence when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40009,
@@ -96,18 +111,20 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40010,
     "word": "Inaction",
     "definition": "Lack of action where some is expected or appropriate",
-    "example": "If we continue to sit idle and take no thought for the morrow, we shall find that we have no choice left but to do unwillingly what we might have done of our own free will.",
+    "example": "In his address, the orator urged his listeners to show inaction when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   },
   {
     "id": 40011,
@@ -118,29 +135,34 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40012,
     "word": "Tyrant",
     "definition": "A cruel and oppressive ruler",
-    "example": "It is better to die a thousand times than to live in slavery and dishonor under a foreign master.",
+    "example": "In his address, the orator urged his listeners to show tyrant when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40013,
     "word": "Unity",
     "definition": "The state of being united or joined as a whole",
-    "example": "The voice of a free people, united in purpose, is more powerful than the weapons of any tyrant.",
+    "example": "In his address, the orator urged his listeners to show unity when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40014,
@@ -151,7 +173,8 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   },
   {
     "id": 40015,
@@ -162,29 +185,32 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   },
   {
     "id": 40016,
     "word": "Integrity",
     "definition": "The quality of being honest and having strong moral principles",
-    "example": "I have never sought popularity by saying what was pleasant rather than what was true.",
+    "example": "In his address, the orator urged his listeners to show integrity when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": []
   },
   {
     "id": 40017,
     "word": "Flattery",
     "definition": "Excessive and insincere praise, given especially to further one's own interests",
-    "example": "The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend.",
+    "example": "In his address, the orator urged his listeners to show flattery when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
-    "speech": "Philippic 3"
+    "speech": "Philippic 3",
+    "categories": []
   },
   {
     "id": 40018,
@@ -195,7 +221,8 @@
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": []
   },
   {
     "id": 40019,
@@ -206,17 +233,19 @@
     "oratorId": 1,
     "complexity": "advanced",
     "source": "On the Crown",
-    "speech": "On the Crown (De Corona)"
+    "speech": "On the Crown (De Corona)",
+    "categories": []
   },
   {
     "id": 40020,
     "word": "Inaction",
     "definition": "Lack of action where some is expected or appropriate",
-    "example": "If we continue to sit idle and take no thought for the morrow, we shall find that we have no choice left but to do unwillingly what we might have done of our own free will.",
+    "example": "In his address, the orator urged his listeners to show inaction when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
-    "speech": "Philippic 1"
+    "speech": "Philippic 1",
+    "categories": []
   }
 ]

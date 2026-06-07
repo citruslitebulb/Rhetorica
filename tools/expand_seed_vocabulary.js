@@ -46,6 +46,77 @@ const oratorCategory = {
   18: "literary",
 };
 
+const thematicSignals = {
+  inspirational: new Set([
+    "dream", "hope", "vision", "inspire", "courage", "rise", "voice", "unity", "future", "change", "audacity", "possibility", "empower", "perseverance", "resilience", "optimism", "impact"
+  ]),
+  humanities: new Set([
+    "justice", "dignity", "equality", "ethics", "freedom", "liberty", "citizenship", "discourse", "empathy", "humanity", "injustice", "rights", "moral", "principle", "philosophy", "wisdom", "creed"
+  ]),
+  arts: new Set([
+    "eloquent", "poetic", "metaphor", "rhetoric", "cadence", "lyric", "soliloquy", "stanza", "sonnet", "prose", "narrative", "imagery", "grandeur", "timeless", "muse", "wit", "question", "noble"
+  ]),
+  tech: new Set([
+    "innovation", "digital", "platform", "transform", "sustainable", "agency", "collaboration", "network", "system", "progress", "strategy", "global", "mobilize"
+  ]),
+  leadership: new Set([
+    "courage", "resolve", "conviction", "sacrifice", "vision", "character", "leadership", "example", "glory", "command", "guide", "inspire", "authority", "statesman"
+  ]),
+  democracy: new Set([
+    "democracy", "politics", "civic", "citizenship", "union", "republic", "elect", "representation", "assembly", "vote", "liberty", "freedom"
+  ]),
+  courage: new Set([
+    "courage", "valiant", "brave", "fortitude", "endure", "resolve", "manliness", "bold", "daring", "heroic", "fearless"
+  ]),
+  legacy: new Set([
+    "legacy", "posterity", "heritage", "enduring", "destiny", "glory", "memory", "tomb", "example", "immortal", "timeless", "history"
+  ]),
+};
+
+function categorizeWord(rawWord, eraCategory, oratorId) {
+  const normalized = normalizeWord(rawWord);
+  const cats = new Set();
+
+  for (const [cat, signals] of Object.entries(thematicSignals)) {
+    if (signals.has(normalized)) {
+      cats.add(cat);
+    }
+  }
+
+  // Orator-era boosts for common inspirational / thematic terms
+  const inspirationalOrators = new Set([9, 10, 11, 12, 15, 16, 17]); // MLK, JFK, FDR, Mandela, Obama, Angelou, Malala
+  if (inspirationalOrators.has(oratorId)) {
+    if (["dream", "hope", "voice", "change", "vision", "audacity"].some((k) => normalized.includes(k))) {
+      cats.add("inspirational");
+    }
+  }
+  if (eraCategory === "literary" || oratorId === 18) {
+    cats.add("arts");
+  }
+  if ((eraCategory === "modern" || eraCategory === "twentieth") && ["innovat", "digital", "platform", "transform"].some((k) => normalized.includes(k))) {
+    cats.add("tech");
+  }
+
+  // Boosts for new categories
+  const leadershipOrators = new Set([1, 3, 5, 8, 9, 10, 11, 12, 15]); // Ancient statesmen + Lincoln, Churchill, civil rights leaders, modern presidents
+  if (leadershipOrators.has(oratorId)) {
+    if (["courage", "resolve", "sacrifice", "vision", "character"].some((k) => normalized.includes(k))) {
+      cats.add("leadership");
+    }
+  }
+  if (oratorId === 3 || normalized.includes("democracy") || normalized.includes("civic")) {
+    cats.add("democracy");
+  }
+  if (["courage", "valiant", "resolve", "brave"].some((k) => normalized.includes(k))) {
+    cats.add("courage");
+  }
+  if (["legacy", "posterity", "heritage", "enduring"].some((k) => normalized.includes(k))) {
+    cats.add("legacy");
+  }
+
+  return Array.from(cats);
+}
+
 const parsePool = (entries) =>
   entries.map((entry) => {
     const [word, complexity] = entry.split("|");
@@ -592,6 +663,7 @@ async function main() {
     const existingWords = wordFile.words.map((entry) => ({
       ...entry,
       complexity: entry.complexity ?? classifyExisting(entry.word),
+      categories: entry.categories ?? categorizeWord(entry.word, category, wordFile.oratorId),
     }));
 
     const existingSet = new Set(existingWords.map((entry) => normalizeWord(entry.word)));
@@ -614,6 +686,7 @@ async function main() {
         partOfSpeech: sourceData.partOfSpeech,
         oratorId: wordFile.oratorId,
         complexity: candidate.complexity,
+        categories: categorizeWord(sourceData.word, category, wordFile.oratorId),
       });
       existingSet.add(normalized);
 

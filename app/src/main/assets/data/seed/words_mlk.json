@@ -8,7 +8,10 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40162,
@@ -19,7 +22,10 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40163,
@@ -30,7 +36,10 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Letter from Birmingham Jail",
-    "speech": "Letter from Birmingham Jail (written during imprisonment)"
+    "speech": "Letter from Birmingham Jail (written during imprisonment)",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40164,
@@ -41,7 +50,8 @@
     "oratorId": 9,
     "complexity": "advanced",
     "source": "Letter from Birmingham Jail",
-    "speech": "Letter from Birmingham Jail (written during imprisonment)"
+    "speech": "Letter from Birmingham Jail (written during imprisonment)",
+    "categories": []
   },
   {
     "id": 40165,
@@ -52,7 +62,10 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Letter from Birmingham Jail",
-    "speech": "Letter from Birmingham Jail (written during imprisonment)"
+    "speech": "Letter from Birmingham Jail (written during imprisonment)",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40166,
@@ -63,7 +76,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40167,
@@ -74,7 +88,8 @@
     "oratorId": 9,
     "complexity": "advanced",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream"
+    "speech": "I Have a Dream",
+    "categories": []
   },
   {
     "id": 40168,
@@ -85,7 +100,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40169,
@@ -96,7 +112,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40170,
@@ -107,7 +124,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40171,
@@ -118,7 +136,10 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40172,
@@ -129,7 +150,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40173,
@@ -140,7 +162,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40174,
@@ -151,7 +174,8 @@
     "oratorId": 9,
     "complexity": "advanced",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream"
+    "speech": "I Have a Dream",
+    "categories": []
   },
   {
     "id": 40175,
@@ -162,18 +186,20 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Speech at Grosse Pointe High School",
-    "speech": "The Other America"
+    "speech": "The Other America",
+    "categories": []
   },
   {
     "id": 40176,
     "word": "Terror",
     "definition": "Extreme fear",
-    "example": "We are now faced with the fact that tomorrow is today. We are confronted with the fierce urgency of now.",
+    "example": "In his address, the orator urged his listeners to show terror when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40177,
@@ -184,7 +210,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40178,
@@ -195,7 +222,8 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": []
   },
   {
     "id": 40179,
@@ -206,7 +234,11 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
-    "speech": "I Have a Dream (March on Washington)"
+    "speech": "I Have a Dream (March on Washington)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40180,
@@ -217,6 +249,9 @@
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Strength to Love",
-    "speech": "Various sermons compiled in Strength to Love"
+    "speech": "Various sermons compiled in Strength to Love",
+    "categories": [
+      "inspirational"
+    ]
   }
 ]

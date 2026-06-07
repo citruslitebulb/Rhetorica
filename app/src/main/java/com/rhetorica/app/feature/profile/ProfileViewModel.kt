@@ -7,7 +7,6 @@ import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
-import com.rhetorica.app.data.seed.SeedDataLoader
 import com.rhetorica.app.widget.WidgetAppearance
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -22,17 +21,28 @@ import javax.inject.Inject
 class ProfileViewModel @Inject constructor(
     private val dictionaryRepository: DictionaryRepository,
     private val userPreferencesDao: UserPreferencesDao,
-    private val seedDataLoader: SeedDataLoader,
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
     val uiState: StateFlow<ProfileUiState> = combine(
         dictionaryRepository.observeActiveOratorProfiles(),
         userPreferencesDao.observeUserPreferences(),
     ) { orators, preferences ->
+        val selectedThemes = preferences?.selectedThemeCategories ?: emptyList()
+        val filteredOrators = if (selectedThemes.isEmpty()) {
+            orators
+        } else {
+            orators.filter { orator ->
+                orator.themeCategories.any { theme -> theme in selectedThemes }
+            }
+        }
+        val effectiveSelectedOratorId = preferences?.selectedOratorId?.takeIf { id ->
+            filteredOrators.any { it.id == id }
+        }
         ProfileUiState(
-            orators = orators,
-            selectedOratorId = preferences?.selectedOratorId,
+            orators = filteredOrators,
+            selectedOratorId = effectiveSelectedOratorId,
             rotateThroughAll = preferences?.rotateThroughAll ?: false,
+            selectedThemeCategories = selectedThemes,
             widgetBackgroundColor = preferences?.widgetBackgroundColor ?: 0xFF2C3E50.toInt(),
             widgetBackgroundOpacityPercent = preferences?.widgetBackgroundOpacityPercent ?: 80,
         )
@@ -70,6 +80,40 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
+    fun toggleThemeCategory(category: String) {
+        viewModelScope.launch {
+            val currentPrefs = userPreferencesDao.getUserPreferences()
+            val currentThemes = currentPrefs?.selectedThemeCategories ?: emptyList()
+            val updatedThemes = if (category in currentThemes) {
+                currentThemes - category
+            } else {
+                currentThemes + category
+            }
+            val updatedPrefs = currentPrefs?.copy(selectedThemeCategories = updatedThemes)
+                ?: UserPreferencesEntity(
+                    favoriteOratorIds = emptyList(),
+                    rotateThroughAll = false,
+                    selectedOratorId = null,
+                    selectedThemeCategories = updatedThemes,
+                )
+            userPreferencesDao.upsertUserPreferences(updatedPrefs)
+        }
+    }
+
+    fun clearThemeCategories() {
+        viewModelScope.launch {
+            val currentPrefs = userPreferencesDao.getUserPreferences()
+            val updatedPrefs = currentPrefs?.copy(selectedThemeCategories = emptyList())
+                ?: UserPreferencesEntity(
+                    favoriteOratorIds = emptyList(),
+                    rotateThroughAll = false,
+                    selectedOratorId = null,
+                    selectedThemeCategories = emptyList(),
+                )
+            userPreferencesDao.upsertUserPreferences(updatedPrefs)
+        }
+    }
+
     fun updateWidgetBackgroundColor(colorValue: Int) {
         viewModelScope.launch {
             val currentPrefs = userPreferencesDao.getUserPreferences()
@@ -102,23 +146,13 @@ class ProfileViewModel @Inject constructor(
             WidgetAppearance.refreshAllWidgets(context)
         }
     }
-
-    fun reSeedData() {
-        viewModelScope.launch {
-            try {
-                seedDataLoader.loadSeedDataIfNeeded()
-                // Note: after this, user may need to navigate back to the word list or detail to see fresh data
-            } catch (e: Exception) {
-                android.util.Log.e("ProfileViewModel", "Re-seed failed", e)
-            }
-        }
-    }
 }
 
 data class ProfileUiState(
     val orators: List<OratorProfile> = emptyList(),
     val selectedOratorId: Long? = null,
     val rotateThroughAll: Boolean = false,
+    val selectedThemeCategories: List<String> = emptyList(),
     val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
     val widgetBackgroundOpacityPercent: Int = 80,
     val isLoading: Boolean = false,

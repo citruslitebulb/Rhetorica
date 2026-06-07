@@ -8,7 +8,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40182,
@@ -19,7 +20,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40183,
@@ -30,7 +32,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40184,
@@ -41,7 +44,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40185,
@@ -52,7 +56,8 @@
     "oratorId": 10,
     "complexity": "advanced",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40186,
@@ -63,7 +68,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Ich bin ein Berliner",
-    "speech": "Ich bin ein Berliner"
+    "speech": "Ich bin ein Berliner",
+    "categories": []
   },
   {
     "id": 40187,
@@ -74,29 +80,32 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40188,
     "word": "Peace",
     "definition": "Freedom from disturbance; tranquility",
-    "example": "We do not want a war. We do not now expect a war. This generation of Americans has already had enough — more than enough — of war and hate and oppression.",
+    "example": "In his address, the orator urged his listeners to show peace when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40189,
     "word": "Terror",
     "definition": "Extreme fear",
-    "example": "We do not want a war. We do not now expect a war. This generation of Americans has already had enough — more than enough — of war and hate and oppression.",
+    "example": "In his address, the orator urged his listeners to show terror when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40190,
@@ -107,7 +116,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40191,
@@ -118,7 +128,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40192,
@@ -129,7 +140,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40193,
@@ -140,7 +152,8 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Moon Speech",
-    "speech": "Address at Rice University on the Nation's Space Effort"
+    "speech": "Address at Rice University on the Nation's Space Effort",
+    "categories": []
   },
   {
     "id": 40194,
@@ -151,29 +164,32 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Remarks at the signing of the charter establishing the German Peace Corps",
-    "speech": "Various"
+    "speech": "Various",
+    "categories": []
   },
   {
     "id": 40195,
     "word": "Skeptic",
     "definition": "A person inclined to question or doubt accepted opinions",
-    "example": "Our problems are man-made — therefore, they can be solved by man. And man can be as big as he wants.",
+    "example": "In his address, the orator urged his listeners to show skeptic when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "American University Commencement Address",
-    "speech": "American University Commencement"
+    "speech": "American University Commencement",
+    "categories": []
   },
   {
     "id": 40196,
     "word": "Cynic",
     "definition": "A person who believes that people are motivated purely by self-interest",
-    "example": "Our problems are man-made — therefore, they can be solved by man. And man can be as big as he wants.",
+    "example": "In his address, the orator urged his listeners to show cynic when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "American University Commencement Address",
-    "speech": "American University Commencement"
+    "speech": "American University Commencement",
+    "categories": []
   },
   {
     "id": 40197,
@@ -184,7 +200,10 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "American University Commencement Address",
-    "speech": "American University Commencement"
+    "speech": "American University Commencement",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40198,
@@ -195,18 +214,23 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40199,
     "word": "Freedom",
     "definition": "The power or right to act, speak, or think as one wants",
-    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
+    "example": "In his address, the orator urged his listeners to show freedom when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40200,
@@ -217,17 +241,19 @@
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   },
   {
     "id": 40201,
     "word": "Bear",
     "definition": "Carry the weight of; support; endure",
-    "example": "Ask not what your country can do for you; ask what you can do for your country.",
+    "example": "In his address, the orator urged his listeners to show bear when facing the greatest challenges.",
     "partOfSpeech": "verb",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
-    "speech": "Inaugural Address"
+    "speech": "Inaugural Address",
+    "categories": []
   }
 ]

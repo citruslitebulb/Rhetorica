@@ -8,7 +8,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40142,
@@ -19,7 +20,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40143,
@@ -30,29 +32,35 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40144,
     "word": "Invasion",
     "definition": "An instance of invading a country or region with an armed force",
-    "example": "We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our Island, whatever the cost may be.",
+    "example": "In his address, the orator urged his listeners to show invasion when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40145,
     "word": "Resolve",
     "definition": "Firm determination to do something",
-    "example": "Let us therefore brace ourselves to our duties, and so bear ourselves that, if the British Empire and its Commonwealth last for a thousand years, men will still say, 'This was their finest hour.'",
+    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40146,
@@ -63,7 +71,8 @@
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40147,
@@ -74,7 +83,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40148,
@@ -85,18 +95,20 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40149,
     "word": "Endurance",
     "definition": "The fact or power of enduring an unpleasant or difficult process or situation without giving way",
-    "example": "We shall not flag or fail. We shall go on to the end.",
+    "example": "In his address, the orator urged his listeners to show endurance when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40150,
@@ -107,7 +119,8 @@
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40151,
@@ -118,18 +131,20 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40152,
     "word": "Triumph",
     "definition": "A great victory or achievement",
-    "example": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "example": "In his address, the orator urged his listeners to show triumph when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40153,
@@ -140,7 +155,12 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40154,
@@ -151,7 +171,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40155,
@@ -162,7 +183,10 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40156,
@@ -173,7 +197,8 @@
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40157,
@@ -184,7 +209,8 @@
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40158,
@@ -195,7 +221,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40159,
@@ -206,7 +233,8 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   },
   {
     "id": 40160,
@@ -217,6 +245,7 @@
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches"
+    "speech": "We Shall Fight on the Beaches",
+    "categories": []
   }
 ]

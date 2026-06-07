@@ -19,6 +19,7 @@
       "Perseverance",
       "Logic"
     ],
+    "themeCategories": ["leadership", "courage", "democracy", "legacy", "humanities"],
     "isActive": true
   },
   {
@@ -41,6 +42,7 @@
       "Eloquence",
       "Wisdom"
     ],
+    "themeCategories": ["leadership", "humanities", "legacy", "arts"],
     "isActive": true
   },
   {
@@ -63,6 +65,7 @@
       "Civic duty",
       "Athens"
     ],
+    "themeCategories": ["leadership", "democracy", "courage", "legacy", "inspirational"],
     "isActive": true
   },
   {
@@ -85,6 +88,7 @@
       "Philosophy",
       "Wisdom"
     ],
+    "themeCategories": ["leadership", "humanities", "legacy"],
     "isActive": true
   },
   {
@@ -107,6 +111,7 @@
       "Freedom",
       "Unity"
     ],
+    "themeCategories": ["leadership", "democracy", "courage", "legacy", "inspirational"],
     "isActive": true
   },
   {
@@ -129,6 +134,7 @@
       "Justice",
       "Human rights"
     ],
+    "themeCategories": ["leadership", "courage", "legacy", "inspirational", "humanities"],
     "isActive": true
   },
   {
@@ -151,6 +157,7 @@
       "Religion",
       "Democracy"
     ],
+    "themeCategories": ["leadership", "democracy", "legacy", "inspirational"],
     "isActive": true
   },
   {
@@ -173,6 +180,7 @@
       "Defiance",
       "Patriotism"
     ],
+    "themeCategories": ["leadership", "courage", "legacy", "inspirational", "democracy"],
     "isActive": true
   },
   {
@@ -195,6 +203,7 @@
       "Equality",
       "Nonviolence"
     ],
+    "themeCategories": ["leadership", "inspirational", "courage", "legacy", "democracy", "humanities"],
     "isActive": true
   },
   {
@@ -217,6 +226,7 @@
       "Space",
       "Democracy"
     ],
+    "themeCategories": ["leadership", "inspirational", "democracy", "legacy", "courage"],
     "isActive": true
   },
   {
@@ -239,6 +249,7 @@
       "Resilience",
       "Crisis management"
     ],
+    "themeCategories": ["leadership", "inspirational", "courage", "legacy", "democracy"],
     "isActive": true
   },
   {
@@ -261,6 +272,7 @@
       "Leadership",
       "Equality"
     ],
+    "themeCategories": ["leadership", "courage", "legacy", "inspirational", "democracy", "humanities"],
     "isActive": true
   },
   {
@@ -283,6 +295,7 @@
       "Simplicity",
       "Independence"
     ],
+    "themeCategories": ["leadership", "courage", "legacy", "inspirational", "democracy"],
     "isActive": true
   },
   {
@@ -305,6 +318,7 @@
       "Conservatism",
       "Strength"
     ],
+    "themeCategories": ["leadership", "courage", "legacy", "democracy"],
     "isActive": true
   },
   {
@@ -327,6 +341,7 @@
       "Inspiration",
       "Unity"
     ],
+    "themeCategories": ["leadership", "inspirational", "democracy", "legacy", "courage", "humanities"],
     "isActive": true
   },
   {
@@ -349,6 +364,7 @@
       "Resilience",
       "Wisdom"
     ],
+    "themeCategories": ["leadership", "inspirational", "courage", "legacy", "arts", "humanities"],
     "isActive": true
   },
   {
@@ -371,6 +387,7 @@
       "Courage",
       "Human rights"
     ],
+    "themeCategories": ["leadership", "courage", "inspirational", "legacy", "democracy", "humanities"],
     "isActive": true
   },
   {
@@ -393,6 +410,7 @@
       "Language",
       "Timeless"
     ],
+    "themeCategories": ["arts", "legacy", "humanities", "inspirational"],
     "isActive": true
   }
 ]

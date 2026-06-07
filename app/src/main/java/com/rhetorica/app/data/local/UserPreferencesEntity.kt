@@ -11,6 +11,7 @@ data class UserPreferencesEntity(
     val favoriteOratorIds: List<Long>,
     val rotateThroughAll: Boolean = false,
     val selectedOratorId: Long? = null,
+    val selectedThemeCategories: List<String> = emptyList(),
     val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
     val widgetBackgroundOpacityPercent: Int = 80,
 )

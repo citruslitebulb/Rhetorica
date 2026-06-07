@@ -80,7 +80,7 @@
     "id": 40128,
     "word": "Entreaty",
     "definition": "An earnest or humble request",
-    "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
+    "example": "In his address, the orator urged his listeners to show entreaty when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "advanced",
@@ -113,7 +113,7 @@
     "id": 40131,
     "word": "Defiance",
     "definition": "Open resistance; bold disobedience",
-    "example": "We beg no longer; we entreat no more; we petition no more. We defy them!",
+    "example": "In his address, the orator urged his listeners to show defiance when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
@@ -184,13 +184,16 @@
     "oratorId": 7,
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40138,
     "word": "Agitator",
     "definition": "A person who urges others to protest or rebel",
-    "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
+    "example": "In his address, the orator urged his listeners to show agitator when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",

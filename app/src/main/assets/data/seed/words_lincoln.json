@@ -8,7 +8,11 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40082,
@@ -19,7 +23,8 @@
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40083,
@@ -30,7 +35,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40084,
@@ -41,7 +47,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40085,
@@ -52,7 +59,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40086,
@@ -63,7 +71,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40087,
@@ -74,7 +83,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "House Divided Speech",
-    "speech": "House Divided Speech (Illinois Republican Convention)"
+    "speech": "House Divided Speech (Illinois Republican Convention)",
+    "categories": []
   },
   {
     "id": 40088,
@@ -85,7 +95,10 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "House Divided Speech",
-    "speech": "House Divided Speech (Illinois Republican Convention)"
+    "speech": "House Divided Speech (Illinois Republican Convention)",
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 40089,
@@ -96,7 +109,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40090,
@@ -107,18 +121,24 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40091,
     "word": "Courage",
     "definition": "The ability to do something that frightens one; bravery",
-    "example": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.",
+    "example": "In his address, the orator urged his listeners to show courage when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40092,
@@ -129,18 +149,20 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40093,
     "word": "Emancipation",
     "definition": "The fact or process of being set free from legal, social, or political restrictions",
-    "example": "In giving freedom to the slave, we assure freedom to the free — honorable alike in what we give, and what we preserve.",
+    "example": "In his address, the orator urged his listeners to show emancipation when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Second Inaugural Address",
-    "speech": "Second Inaugural Address"
+    "speech": "Second Inaugural Address",
+    "categories": []
   },
   {
     "id": 40094,
@@ -151,7 +173,8 @@
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Second Inaugural Address",
-    "speech": "Second Inaugural Address"
+    "speech": "Second Inaugural Address",
+    "categories": []
   },
   {
     "id": 40095,
@@ -162,7 +185,8 @@
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Second Inaugural Address",
-    "speech": "Second Inaugural Address"
+    "speech": "Second Inaugural Address",
+    "categories": []
   },
   {
     "id": 40096,
@@ -173,7 +197,11 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40097,
@@ -184,7 +212,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40098,
@@ -195,7 +224,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40099,
@@ -206,7 +236,8 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   },
   {
     "id": 40100,
@@ -217,6 +248,7 @@
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
-    "speech": "Gettysburg Address"
+    "speech": "Gettysburg Address",
+    "categories": []
   }
 ]

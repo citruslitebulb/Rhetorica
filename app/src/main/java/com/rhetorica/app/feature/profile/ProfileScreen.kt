@@ -19,6 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Slider
@@ -47,9 +48,10 @@ fun ProfileRoute(
         state = state,
         onSelectOrator = viewModel::selectOrator,
         onToggleRotateAll = viewModel::toggleRotateThroughAll,
+        onToggleThemeCategory = viewModel::toggleThemeCategory,
+        onClearThemeCategories = viewModel::clearThemeCategories,
         onSelectWidgetColor = viewModel::updateWidgetBackgroundColor,
         onWidgetOpacityChanged = viewModel::updateWidgetBackgroundOpacity,
-        onReSeedData = viewModel::reSeedData,
     )
 }
 
@@ -58,24 +60,11 @@ private fun ProfileScreen(
     state: ProfileUiState,
     onSelectOrator: (Long?) -> Unit,
     onToggleRotateAll: () -> Unit,
+    onToggleThemeCategory: (String) -> Unit,
+    onClearThemeCategories: () -> Unit,
     onSelectWidgetColor: (Int) -> Unit,
     onWidgetOpacityChanged: (Int) -> Unit,
-    onReSeedData: () -> Unit = {},
 ) {
-    if (state.orators.isEmpty()) {
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-        ) {
-            Text(
-                text = stringResource(R.string.profile_no_orators),
-                style = MaterialTheme.typography.bodyLarge,
-            )
-        }
-        return
-    }
-
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
@@ -141,43 +130,77 @@ private fun ProfileScreen(
             }
         }
 
-        // Debug helper for testing seed data updates (source/speech, full speeches, etc.)
         item {
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                ),
-            ) {
-                Column(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp),
-                ) {
-                    Text(
-                        text = "Debug",
-                        style = MaterialTheme.typography.labelLarge,
-                        color = MaterialTheme.colorScheme.primary,
-                    )
-                    androidx.compose.material3.TextButton(onClick = onReSeedData) {
-                        Text("Re-seed data (words + quotes + speeches)")
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(
+                    text = stringResource(R.string.profile_themes_title),
+                    style = MaterialTheme.typography.headlineMedium,
+                    fontWeight = FontWeight.Bold,
+                )
+                Text(
+                    text = stringResource(R.string.profile_themes_hint),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                LazyRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                    item {
+                        FilterChip(
+                            selected = state.selectedThemeCategories.isEmpty(),
+                            onClick = { onClearThemeCategories() },
+                            label = { Text(text = stringResource(R.string.saved_themes_all)) },
+                        )
                     }
-                    Text(
-                        text = "Use after editing seed JSONs. May need to navigate away and back to see updated word details.",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    val canonicalThemes = listOf(
+                        "inspirational", "tech", "humanities", "arts",
+                        "leadership", "democracy", "courage", "legacy"
                     )
+                    items(canonicalThemes, key = { it }) { theme ->
+                        val label = when (theme) {
+                            "inspirational" -> stringResource(R.string.theme_inspirational)
+                            "tech" -> stringResource(R.string.theme_tech)
+                            "humanities" -> stringResource(R.string.theme_humanities)
+                            "arts" -> stringResource(R.string.theme_arts)
+                            "leadership" -> stringResource(R.string.theme_leadership)
+                            "democracy" -> stringResource(R.string.theme_democracy)
+                            "courage" -> stringResource(R.string.theme_courage)
+                            "legacy" -> stringResource(R.string.theme_legacy)
+                            else -> theme.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+                        }
+                        FilterChip(
+                            selected = theme in state.selectedThemeCategories,
+                            onClick = { onToggleThemeCategory(theme) },
+                            label = { Text(text = label) },
+                        )
+                    }
                 }
             }
         }
 
-        items(state.orators, key = { it.id }) { orator ->
-            OratorCard(
-                orator = orator,
-                isSelected = state.selectedOratorId == orator.id && !state.rotateThroughAll,
-                onClick = { onSelectOrator(if (state.selectedOratorId == orator.id) null else orator.id) },
-            )
+        if (state.orators.isEmpty()) {
+            item {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                ) {
+                    Text(
+                        text = if (state.selectedThemeCategories.isNotEmpty()) {
+                            stringResource(R.string.profile_no_orators_for_themes)
+                        } else {
+                            stringResource(R.string.profile_no_orators)
+                        },
+                        style = MaterialTheme.typography.bodyLarge,
+                    )
+                }
+            }
+        } else {
+            items(state.orators, key = { it.id }) { orator ->
+                OratorCard(
+                    orator = orator,
+                    isSelected = state.selectedOratorId == orator.id && !state.rotateThroughAll,
+                    onClick = { onSelectOrator(if (state.selectedOratorId == orator.id) null else orator.id) },
+                )
+            }
         }
     }
 }

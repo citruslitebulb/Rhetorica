@@ -8,7 +8,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings and speeches (often attributed)",
-    "speech": "Young India and public addresses"
+    "speech": "Young India and public addresses",
+    "categories": []
   },
   {
     "id": 40242,
@@ -19,7 +20,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "Public addresses on non-violence"
+    "speech": "Public addresses on non-violence",
+    "categories": []
   },
   {
     "id": 40243,
@@ -30,7 +32,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "Addresses on non-violence and reconciliation"
+    "speech": "Addresses on non-violence and reconciliation",
+    "categories": []
   },
   {
     "id": 40244,
@@ -41,7 +44,10 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (widely attributed)",
-    "speech": "Public teachings"
+    "speech": "Public teachings",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40245,
@@ -52,7 +58,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On satyagraha and personal discipline"
+    "speech": "On satyagraha and personal discipline",
+    "categories": []
   },
   {
     "id": 40246,
@@ -63,7 +70,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On satyagraha and personal discipline"
+    "speech": "On satyagraha and personal discipline",
+    "categories": []
   },
   {
     "id": 40247,
@@ -74,7 +82,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On truth (satya) and integrity"
+    "speech": "On truth (satya) and integrity",
+    "categories": []
   },
   {
     "id": 40248,
@@ -85,7 +94,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On truth (satya) and integrity"
+    "speech": "On truth (satya) and integrity",
+    "categories": []
   },
   {
     "id": 40249,
@@ -96,7 +106,10 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "Public exhortations"
+    "speech": "Public exhortations",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40250,
@@ -107,18 +120,20 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Young India / Harijan",
-    "speech": "Writings on satyagraha"
+    "speech": "Writings on satyagraha",
+    "categories": []
   },
   {
     "id": 40251,
     "word": "Error",
     "definition": "A mistake",
-    "example": "Freedom is not worth having if it does not connote freedom to err.",
+    "example": "In his address, the orator urged his listeners to show error when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "On swaraj (self-rule) and liberty"
+    "speech": "On swaraj (self-rule) and liberty",
+    "categories": []
   },
   {
     "id": 40252,
@@ -129,18 +144,20 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Young India / Harijan",
-    "speech": "Writings on satyagraha"
+    "speech": "Writings on satyagraha",
+    "categories": []
   },
   {
     "id": 40253,
     "word": "Truth",
     "definition": "The quality or state of being true",
-    "example": "A 'No' uttered from the deepest conviction is better than a 'Yes' merely uttered to please, or worse, to avoid trouble.",
+    "example": "In his address, the orator urged his listeners to show truth when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On truth and courage"
+    "speech": "On truth and courage",
+    "categories": []
   },
   {
     "id": 40254,
@@ -151,7 +168,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (widely attributed in his writings on trusteeship and simplicity)",
-    "speech": "On economics and simple living"
+    "speech": "On economics and simple living",
+    "categories": []
   },
   {
     "id": 40255,
@@ -162,7 +180,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "On hope during the independence struggle"
+    "speech": "On hope during the independence struggle",
+    "categories": []
   },
   {
     "id": 40256,
@@ -173,7 +192,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "On hope during the independence struggle"
+    "speech": "On hope during the independence struggle",
+    "categories": []
   },
   {
     "id": 40257,
@@ -184,7 +204,8 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
-    "speech": "On non-violence"
+    "speech": "On non-violence",
+    "categories": []
   },
   {
     "id": 40258,
@@ -195,18 +216,22 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
-    "speech": "On truth and courage"
+    "speech": "On truth and courage",
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40259,
     "word": "Civilization",
     "definition": "The stage of human social and cultural development and organization that is considered most advanced",
-    "example": "The greatness of a nation and its moral progress can be judged by the way its animals are treated.",
+    "example": "In his address, the orator urged his listeners to show civilization when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
-    "speech": "On ethics and civilization"
+    "speech": "On ethics and civilization",
+    "categories": []
   },
   {
     "id": 40260,
@@ -217,6 +242,9 @@
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
-    "speech": "On ethics and civilization"
+    "speech": "On ethics and civilization",
+    "categories": [
+      "humanities"
+    ]
   }
 ]

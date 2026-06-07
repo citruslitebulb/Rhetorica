@@ -16,4 +16,5 @@ data class WordEntity(
     val complexity: String = "intermediate",
     val source: String? = null,
     val speech: String? = null,
+    val categories: List<String> = emptyList(),
 )

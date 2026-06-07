@@ -11,7 +11,10 @@
     <string name="widget_default_definition">Daily definition will appear here.</string>
     <string name="profile_orator_selection">Select Your Orator</string>
     <string name="profile_rotate_all">Rotate Through All Orators</string>
+    <string name="profile_themes_title">Word Themes</string>
+    <string name="profile_themes_hint">Filter the Home feed by word themes (multi-select). Changes apply to the main feed.</string>
     <string name="profile_no_orators">No orators available</string>
+    <string name="profile_no_orators_for_themes">No orators match the selected themes. Try clearing or changing the themes above.</string>
     <string name="profile_widget_appearance">Widget Appearance</string>
     <string name="profile_widget_color">Background color</string>
     <string name="profile_widget_opacity">Opacity</string>
@@ -39,6 +42,16 @@
     <string name="saved_sort_newest">Newest</string>
     <string name="saved_sort_alphabetical">A-Z</string>
     <string name="saved_sort_part_of_speech">Part of speech</string>
+    <string name="saved_themes_label">Themes</string>
+    <string name="saved_themes_all">All themes</string>
+    <string name="theme_inspirational">Inspirational</string>
+    <string name="theme_tech">Tech</string>
+    <string name="theme_humanities">Humanities</string>
+    <string name="theme_arts">Arts</string>
+    <string name="theme_leadership">Leadership</string>
+    <string name="theme_democracy">Democracy</string>
+    <string name="theme_courage">Courage</string>
+    <string name="theme_legacy">Legacy</string>
     <string name="widget_color_midnight">Midnight</string>
     <string name="widget_color_claret">Claret</string>
     <string name="widget_color_bronze">Bronze</string>
@@ -46,5 +59,6 @@
     <string name="widget_color_plum">Plum</string>
     <string name="speech_detail_title">Full Speech</string>
     <string name="speech_not_found">Speech not found.</string>
+    <string name="speech_not_found_hint">Full speeches are available for many referenced orations, including Obama\'s Yes We Can speech, JFK\'s Inaugural Address, We Shall Fight on the Beaches, Pericles\' Funeral Oration, and more. We are continuing to expand the collection.</string>
     <string name="nav_speeches">Speeches</string>
 </resources>

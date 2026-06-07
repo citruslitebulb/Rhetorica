@@ -46,6 +46,7 @@ class DictionaryRepository @Inject constructor(
             colorAccent = colorAccent,
             sampleSpeech = sampleSpeech,
             tags = tags,
+            themeCategories = themeCategories,
             isActive = isActive,
         )
     }

@@ -8,7 +8,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Speech at the United Nations",
-    "speech": "Address to the United Nations Youth Assembly"
+    "speech": "Address to the United Nations Youth Assembly",
+    "categories": []
   },
   {
     "id": 40322,
@@ -19,7 +20,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40323,
@@ -30,7 +32,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40324,
@@ -41,7 +44,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40325,
@@ -52,7 +56,12 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40326,
@@ -63,7 +72,10 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40327,
@@ -74,7 +86,10 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40328,
@@ -85,7 +100,10 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40329,
@@ -96,7 +114,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40330,
@@ -107,7 +126,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40331,
@@ -118,7 +138,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40332,
@@ -129,7 +150,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Various addresses (including UN and Nobel)",
-    "speech": "Multiple speeches on education vs. violence"
+    "speech": "Multiple speeches on education vs. violence",
+    "categories": []
   },
   {
     "id": 40333,
@@ -140,7 +162,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40334,
@@ -151,7 +174,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40335,
@@ -162,7 +186,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40336,
@@ -173,7 +198,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40337,
@@ -184,7 +210,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
-    "speech": "UN Youth Assembly"
+    "speech": "UN Youth Assembly",
+    "categories": []
   },
   {
     "id": 40338,
@@ -195,7 +222,8 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
-    "speech": "Nobel Lecture"
+    "speech": "Nobel Lecture",
+    "categories": []
   },
   {
     "id": 40339,
@@ -206,7 +234,10 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
-    "speech": "Nobel Lecture"
+    "speech": "Nobel Lecture",
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 40340,
@@ -217,6 +248,7 @@
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
-    "speech": "Nobel Lecture"
+    "speech": "Nobel Lecture",
+    "categories": []
   }
 ]

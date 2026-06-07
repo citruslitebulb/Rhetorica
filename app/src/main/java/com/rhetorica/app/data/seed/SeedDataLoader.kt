@@ -33,10 +33,8 @@ class SeedDataLoader @Inject constructor(
 
     suspend fun loadSeedDataIfNeeded() = withContext(Dispatchers.IO) {
         database.withTransaction {
-            val dictionaryCount = dictionaryDao.dictionaryCount()
-            if (dictionaryCount == 0) {
-                loadDictionaries()
-            }
+            // Always load dictionaries (upsert) to pick up updates such as new themeCategories on orators
+            loadDictionaries()
             
             // Always load words to add any new seed data
             // upsertWords uses OnConflictStrategy.REPLACE to handle existing words

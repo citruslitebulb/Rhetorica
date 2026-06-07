@@ -12,5 +12,6 @@ data class OratorProfile(
     val colorAccent: Long,
     val sampleSpeech: String,
     val tags: List<String>,
+    val themeCategories: List<String> = emptyList(),
     val isActive: Boolean = true,
 )

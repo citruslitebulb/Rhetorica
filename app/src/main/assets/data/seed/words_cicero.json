@@ -8,7 +8,8 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   },
   {
     "id": 40022,
@@ -19,7 +20,8 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   },
   {
     "id": 40023,
@@ -30,18 +32,22 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Orator",
-    "speech": "Orator ad M. Brutum"
+    "speech": "Orator ad M. Brutum",
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40024,
     "word": "Ignorance",
     "definition": "Lack of knowledge or information",
-    "example": "The life of the dead is placed in the memory of the living. Not to know what happened before you were born is to remain a child forever.",
+    "example": "In his address, the orator urged his listeners to show ignorance when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Orator",
-    "speech": "Orator ad M. Brutum"
+    "speech": "Orator ad M. Brutum",
+    "categories": []
   },
   {
     "id": 40025,
@@ -52,7 +58,8 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   },
   {
     "id": 40026,
@@ -63,18 +70,23 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On the Laws (De Legibus)",
-    "speech": "De Legibus"
+    "speech": "De Legibus",
+    "categories": []
   },
   {
     "id": 40027,
     "word": "Liberty",
     "definition": "The state of being free within society from oppressive restrictions",
-    "example": "There is no place in a free state for the man who would be master over his fellow citizens.",
+    "example": "In his address, the orator urged his listeners to show liberty when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
-    "speech": "Philippica II"
+    "speech": "Philippica II",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40028,
@@ -85,40 +97,46 @@
     "oratorId": 2,
     "complexity": "advanced",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40029,
     "word": "Tyrant",
     "definition": "A cruel and oppressive ruler",
-    "example": "There is no place in a free state for the man who would be master over his fellow citizens.",
+    "example": "In his address, the orator urged his listeners to show tyrant when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
-    "speech": "Philippica II"
+    "speech": "Philippica II",
+    "categories": []
   },
   {
     "id": 40030,
     "word": "Justice",
     "definition": "Just behavior or treatment",
-    "example": "The man who is not moved by the suffering of others has no claim to the name of citizen.",
+    "example": "In his address, the orator urged his listeners to show justice when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Against Verres",
-    "speech": "In Verrem"
+    "speech": "In Verrem",
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40031,
     "word": "Corruption",
     "definition": "Dishonest or fraudulent conduct by those in power",
-    "example": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
+    "example": "In his address, the orator urged his listeners to show corruption when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   },
   {
     "id": 40032,
@@ -129,18 +147,20 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   },
   {
     "id": 40033,
     "word": "Constancy",
     "definition": "The quality of being faithful and dependable",
-    "example": "It is the character of a brave and resolute man not to be ruffled by adversity and not to be elated by prosperity.",
+    "example": "In his address, the orator urged his listeners to show constancy when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "advanced",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40034,
@@ -151,7 +171,8 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40035,
@@ -162,29 +183,34 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Against Verres",
-    "speech": "In Verrem"
+    "speech": "In Verrem",
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40036,
     "word": "Virtue",
     "definition": "Behavior showing high moral standards",
-    "example": "We are not born for ourselves alone, but for our country, our friends, and our fellow citizens.",
+    "example": "In his address, the orator urged his listeners to show virtue when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40037,
     "word": "Persuade",
     "definition": "Cause (someone) to do something through reasoning or argument",
-    "example": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
+    "example": "In his address, the orator urged his listeners to show persuade when facing the greatest challenges.",
     "partOfSpeech": "verb",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Antidosis",
-    "speech": "Antidosis"
+    "speech": "Antidosis",
+    "categories": []
   },
   {
     "id": 40038,
@@ -195,28 +221,31 @@
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40039,
     "word": "Honor",
     "definition": "High respect; great esteem",
-    "example": "Nothing is more noble, nothing more venerable than fidelity.",
+    "example": "In his address, the orator urged his listeners to show honor when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
-    "speech": "De Officiis"
+    "speech": "De Officiis",
+    "categories": []
   },
   {
     "id": 40040,
     "word": "Conspiracy",
     "definition": "A secret plan by a group to do something unlawful or harmful",
-    "example": "O tempora, o mores! The Senate knows these things, the consul sees them, and yet this man lives.",
+    "example": "In his address, the orator urged his listeners to show conspiracy when facing the greatest challenges.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
-    "speech": "In Catilinam I"
+    "speech": "In Catilinam I",
+    "categories": []
   }
 ]

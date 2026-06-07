@@ -65,6 +65,7 @@ private fun HomeScreen(
                 onToggleSaved = { onToggleSaved(item.word.id) },
                 source = item.word.source,
                 speech = item.word.speech,
+                categories = item.word.categories,
             )
         }
     }
