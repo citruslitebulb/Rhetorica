@@ -70,5 +70,65 @@
     "source": "Talks on reusable rockets",
     "speech": "Making Life Multiplanetary",
     "categories": ["innovation", "space", "technology"]
+  },
+  {
+    "id": 22007,
+    "word": "persistence",
+    "definition": "The quality of continuing to do something in spite of difficulty or opposition.",
+    "example": "Persistence is very important. You should not give up unless you are forced to give up.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Talks on determination",
+    "speech": "Personal Philosophy",
+    "categories": ["innovation", "leadership", "vision"]
+  },
+  {
+    "id": 22008,
+    "word": "optimism",
+    "definition": "Hopefulness and confidence about the future or the successful outcome of something.",
+    "example": "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Talks on mindset and optimism",
+    "speech": "Optimism and Progress",
+    "categories": ["vision", "leadership", "sustainability"]
+  },
+  {
+    "id": 22009,
+    "word": "sustainability",
+    "definition": "The ability to be maintained at a certain rate or level; avoidance of the depletion of natural resources.",
+    "example": "The things that are most likely to affect the future of humanity at a macro level are the Internet, sustainable energy, making life multiplanetary, genetics, and AI.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "STVP Future Fest talk",
+    "speech": "Future of Humanity",
+    "categories": ["sustainability", "innovation", "space"]
+  },
+  {
+    "id": 22010,
+    "word": "colonization",
+    "definition": "The action or process of settling among and establishing control over the indigenous people of an area; in this context, establishing human presence on other planets.",
+    "example": "If humanity is to become multi-planetary, the fundamental breakthrough that needs to occur in rocketry is a rapidly and completely reusable rocket.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": ["space", "vision", "sustainability"]
+  },
+  {
+    "id": 22011,
+    "word": "framework",
+    "definition": "A basic structure underlying a system, concept, or text.",
+    "example": "I tend to approach things from a physics framework. And physics teaches you to reason from first principles rather than by analogy.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Talks on innovation framework",
+    "speech": "First Principles Thinking",
+    "categories": ["innovation", "leadership", "technology"]
   }
 ]

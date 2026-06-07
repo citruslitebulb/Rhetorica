@@ -88,5 +88,50 @@
     "speech": "Day 1 vs Day 2",
     "year": null,
     "context": "Insight into maintaining startup agility at scale."
+  },
+  {
+    "id": 21011,
+    "oratorId": 21,
+    "text": "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.",
+    "source": "Amazon culture and leadership talks",
+    "speech": "Customer Obsession",
+    "year": null,
+    "context": "Defining the relentless focus on improving customer experience as a core leadership duty."
+  },
+  {
+    "id": 21012,
+    "oratorId": 21,
+    "text": "Your margin is my opportunity.",
+    "source": "Amazon shareholder letters and strategy",
+    "speech": "Competitive Strategy",
+    "year": null,
+    "context": "Insightful view of competition: using efficiency to deliver more value to customers."
+  },
+  {
+    "id": 21013,
+    "oratorId": 21,
+    "text": "We start with the customer and we work backwards.",
+    "source": "Amazon leadership principles and talks",
+    "speech": "Customer Obsession",
+    "year": null,
+    "context": "The foundational approach of beginning every initiative by deeply understanding customer needs."
+  },
+  {
+    "id": 21014,
+    "oratorId": 21,
+    "text": "If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.",
+    "source": "Talks on growth and brand",
+    "speech": "Customer Experience",
+    "year": null,
+    "context": "The power of exceptional customer service to drive organic growth through advocacy."
+  },
+  {
+    "id": 21015,
+    "oratorId": 21,
+    "text": "We are willing to be misunderstood for long periods of time.",
+    "source": "Amazon shareholder letters",
+    "speech": "Long-term Thinking",
+    "year": null,
+    "context": "Courage to pursue bold, long-term bets even when they are not immediately understood by the market."
   }
 ]

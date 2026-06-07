@@ -58,5 +58,65 @@
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
     "categories": ["entrepreneurship", "innovation", "vision"]
+  },
+  {
+    "id": 21006,
+    "word": "frugality",
+    "definition": "The quality of being frugal; careful management of resources, especially money or materials.",
+    "example": "Frugality is a core principle. We spend money on things that matter to customers.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Amazon shareholder letters and culture",
+    "speech": "Leadership Principles",
+    "categories": ["entrepreneurship", "long-termism", "customer-focus"]
+  },
+  {
+    "id": 21007,
+    "word": "ownership",
+    "definition": "The act, state, or right of possessing something; leaders act on behalf of the entire company.",
+    "example": "Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Amazon Leadership Principles",
+    "speech": "Leadership Principles",
+    "categories": ["leadership", "long-termism", "entrepreneurship"]
+  },
+  {
+    "id": 21008,
+    "word": "metrics",
+    "definition": "A system or standard of measurement; data used to track performance.",
+    "example": "We start with the customer and work backwards, using metrics that matter to the customer experience.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Amazon talks on measurement",
+    "speech": "Customer Obsession",
+    "categories": ["customer-focus", "leadership", "innovation"]
+  },
+  {
+    "id": 21009,
+    "word": "obsession",
+    "definition": "The state of being obsessed with someone or something; an idea or thought that continually preoccupies or intrudes on a person's mind.",
+    "example": "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Amazon culture and leadership talks",
+    "speech": "Customer Obsession",
+    "categories": ["customer-focus", "leadership", "entrepreneurship"]
+  },
+  {
+    "id": 21010,
+    "word": "stasis",
+    "definition": "A period or state of inactivity or equilibrium; a slowing or stoppage of growth or development.",
+    "example": "Day 2 is stasis. Followed by irrelevance. Followed by excruciating, painful decline. Followed by death.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Amazon shareholder letters",
+    "speech": "Day 1 vs Day 2",
+    "categories": ["long-termism", "vision", "leadership"]
   }
 ]

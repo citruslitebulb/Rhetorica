@@ -88,5 +88,50 @@
     "speech": "Future of Humanity",
     "year": 2015,
     "context": "Prioritizing work based on long-term civilizational impact."
+  },
+  {
+    "id": 22011,
+    "oratorId": 22,
+    "text": "Failure is an option here. If things are not failing, you are not innovating enough.",
+    "source": "SpaceX and Tesla talks",
+    "speech": "Innovation and Risk",
+    "year": null,
+    "context": "Embracing failure as essential to rapid progress and true innovation."
+  },
+  {
+    "id": 22012,
+    "oratorId": 22,
+    "text": "I think it is possible for ordinary people to choose to be extraordinary.",
+    "source": "Interviews on personal agency",
+    "speech": "Personal Philosophy",
+    "year": null,
+    "context": "Insight that greatness comes from deliberate choice and effort, not just talent."
+  },
+  {
+    "id": 22013,
+    "oratorId": 22,
+    "text": "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.",
+    "source": "Talks on mindset and optimism",
+    "speech": "Optimism and Progress",
+    "year": null,
+    "context": "The power of positive long-term outlook for motivation and decision-making."
+  },
+  {
+    "id": 22014,
+    "oratorId": 22,
+    "text": "The path to the CEO's office should not be through the CFO's office, and it should not be through the marketing department. It needs to be through engineering and design.",
+    "source": "Talks on company culture and priorities",
+    "speech": "Leadership and Priorities",
+    "year": null,
+    "context": "Emphasizing that technology and product excellence must lead business strategy."
+  },
+  {
+    "id": 22015,
+    "oratorId": 22,
+    "text": "AI is the biggest risk we face as a civilization.",
+    "source": "Interviews and talks on AI safety",
+    "speech": "AI and the Future",
+    "year": null,
+    "context": "Stark warning about the existential stakes of artificial intelligence development."
   }
 ]
