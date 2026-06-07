@@ -50,6 +50,7 @@ import androidx.compose.material3.Icon
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
+import com.rhetorica.app.core.model.WordThemes
 import com.rhetorica.app.widget.WidgetAppearance
 
 @Composable
@@ -140,22 +141,9 @@ private fun ProfileScreen(
                                 label = { Text(text = stringResource(R.string.saved_themes_all)) },
                             )
                         }
-                        val canonicalThemes = listOf(
-                            "inspirational", "tech", "humanities", "arts",
-                            "leadership", "democracy", "courage", "legacy"
-                        )
+                        val canonicalThemes = WordThemes.canonicalList()
                         items(canonicalThemes, key = { it }) { theme ->
-                            val label = when (theme) {
-                                "inspirational" -> stringResource(R.string.theme_inspirational)
-                                "tech" -> stringResource(R.string.theme_tech)
-                                "humanities" -> stringResource(R.string.theme_humanities)
-                                "arts" -> stringResource(R.string.theme_arts)
-                                "leadership" -> stringResource(R.string.theme_leadership)
-                                "democracy" -> stringResource(R.string.theme_democracy)
-                                "courage" -> stringResource(R.string.theme_courage)
-                                "legacy" -> stringResource(R.string.theme_legacy)
-                                else -> theme.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
-                            }
+                            val label = WordThemes.displayName(theme)
                             FilterChip(
                                 selected = theme in state.selectedThemeCategories,
                                 onClick = { onToggleThemeCategory(theme) },

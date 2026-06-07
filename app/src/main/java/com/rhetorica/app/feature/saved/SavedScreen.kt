@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
+import com.rhetorica.app.core.model.WordThemes
 import com.rhetorica.app.core.ui.WordListCard
 
 @Composable
@@ -219,20 +220,10 @@ private fun SavedControls(
                     )
                 }
                 // Always offer the canonical theme categories so the UI always references them
-                val canonical = listOf("inspirational", "tech", "humanities", "arts", "leadership", "democracy", "courage", "legacy")
+                val canonical = WordThemes.canonicalList()
                 val themeChips = canonical + state.availableCategories.filterNot { it in canonical }
                 items(themeChips.distinct(), key = { it }) { cat ->
-                    val label = when (cat) {
-                        "inspirational" -> stringResource(R.string.theme_inspirational)
-                        "tech" -> stringResource(R.string.theme_tech)
-                        "humanities" -> stringResource(R.string.theme_humanities)
-                        "arts" -> stringResource(R.string.theme_arts)
-                        "leadership" -> stringResource(R.string.theme_leadership)
-                        "democracy" -> stringResource(R.string.theme_democracy)
-                        "courage" -> stringResource(R.string.theme_courage)
-                        "legacy" -> stringResource(R.string.theme_legacy)
-                        else -> cat.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
-                    }
+                    val label = WordThemes.displayName(cat)
                     FilterChip(
                         selected = cat in state.selectedCategories,
                         onClick = { onToggleCategory(cat) },

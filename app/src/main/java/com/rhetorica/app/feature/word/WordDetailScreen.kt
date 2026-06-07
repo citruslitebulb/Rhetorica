@@ -37,6 +37,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.R
+import com.rhetorica.app.core.model.WordThemes
 
 const val wordDetailRoute = "word/{wordId}"
 
@@ -183,17 +184,7 @@ private fun WordDetailScreen(
                     if (word.categories.isNotEmpty()) {
                         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             word.categories.forEach { cat ->
-                                val label = when (cat) {
-                                    "inspirational" -> stringResource(R.string.theme_inspirational)
-                                    "tech" -> stringResource(R.string.theme_tech)
-                                    "humanities" -> stringResource(R.string.theme_humanities)
-                                    "arts" -> stringResource(R.string.theme_arts)
-                                    "leadership" -> stringResource(R.string.theme_leadership)
-                                    "democracy" -> stringResource(R.string.theme_democracy)
-                                    "courage" -> stringResource(R.string.theme_courage)
-                                    "legacy" -> stringResource(R.string.theme_legacy)
-                                    else -> cat.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
-                                }
+                                val label = WordThemes.displayName(cat)
                                 Text(
                                     text = label,
                                     style = MaterialTheme.typography.labelMedium,

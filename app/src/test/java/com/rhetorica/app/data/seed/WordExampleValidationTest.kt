@@ -1,5 +1,7 @@
 package com.rhetorica.app.data.seed
 
+import com.rhetorica.app.core.model.WordThemes
+import com.rhetorica.app.data.local.DictionaryEntity
 import com.rhetorica.app.data.local.WordEntity
 import kotlinx.serialization.json.Json
 import org.junit.Assert.fail
@@ -101,6 +103,79 @@ class WordExampleValidationTest {
                 }
             }
             fail(summary)
+        }
+    }
+
+    @Test
+    fun `all themeCategories used in seed data must be valid`() {
+        if (!seedDir.exists()) {
+            fail("Seed directory not found at ${seedDir.absolutePath}")
+            return
+        }
+
+        val failures = mutableListOf<String>()
+
+        // Validate word themes
+        val wordFiles = seedDir.listFiles { _, name ->
+            name.startsWith("words_") && name.endsWith(".json")
+        }?.map { it.name } ?: emptyList()
+
+        wordFiles.forEach { fileName ->
+            val file = File(seedDir, fileName)
+            val words = json.decodeFromString<List<WordEntity>>(file.readText())
+
+            words.forEach { word ->
+                word.categories.forEach { theme ->
+                    if (!WordThemes.isValid(theme)) {
+                        failures.add("$fileName: word='${word.word}' uses invalid theme '$theme'")
+                    }
+                }
+            }
+        }
+
+        // Validate orator (dictionary) themes
+        val dictFile = File(seedDir, "dictionaries.json")
+        if (dictFile.exists()) {
+            val orators = json.decodeFromString<List<DictionaryEntity>>(dictFile.readText())
+            orators.forEach { orator ->
+                orator.themeCategories.forEach { theme ->
+                    if (!WordThemes.isValid(theme)) {
+                        failures.add("dictionaries.json: orator='${orator.name}' uses invalid theme '$theme'")
+                    }
+                }
+            }
+        }
+
+        if (failures.isNotEmpty()) {
+            fail(
+                "Found ${failures.size} invalid theme references in seed data:\n" +
+                failures.joinToString("\n")
+            )
+        }
+    }
+
+    @Test
+    fun `word entries have required non-blank fields`() {
+        val wordFiles = seedDir.listFiles { _, name ->
+            name.startsWith("words_") && name.endsWith(".json")
+        }?.map { it.name } ?: emptyList()
+
+        val failures = mutableListOf<String>()
+
+        wordFiles.forEach { fileName ->
+            val file = File(seedDir, fileName)
+            val words = json.decodeFromString<List<WordEntity>>(file.readText())
+
+            words.forEach { w ->
+                if (w.word.isBlank()) failures.add("$fileName: id=${w.id} has blank word")
+                if (w.definition.isBlank()) failures.add("$fileName: word='${w.word}' has blank definition")
+                if (w.example.isBlank()) failures.add("$fileName: word='${w.word}' has blank example")
+                if (w.partOfSpeech.isBlank()) failures.add("$fileName: word='${w.word}' has blank partOfSpeech")
+            }
+        }
+
+        if (failures.isNotEmpty()) {
+            fail("Data integrity issues found:\n${failures.joinToString("\n")}")
         }
     }
 }
