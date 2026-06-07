@@ -1,0 +1,98 @@
+[
+  {
+    "id": 30001,
+    "word": "commitment",
+    "definition": "The state or quality of being dedicated to a cause, activity, or relationship.",
+    "example": "Do or do not. There is no try.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "categories": ["wisdom", "balance", "patience"]
+  },
+  {
+    "id": 30002,
+    "word": "fear",
+    "definition": "An unpleasant emotion caused by the belief that someone or something is dangerous, likely to cause pain, or a threat.",
+    "example": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode I - The Phantom Menace",
+    "speech": "Yoda's Warning to Anakin",
+    "categories": ["fear", "wisdom", "balance"]
+  },
+  {
+    "id": 30003,
+    "word": "failure",
+    "definition": "Lack of success; the neglect of an expected or required action.",
+    "example": "The greatest teacher, failure is.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode VIII - The Last Jedi",
+    "speech": "Yoda's Lesson to Luke",
+    "categories": ["failure", "wisdom", "patience"]
+  },
+  {
+    "id": 30004,
+    "word": "attachment",
+    "definition": "Affection, fondness, or sympathy for someone or something; emotional dependence.",
+    "example": "Train yourself to let go of everything you fear to lose.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Star Wars: Episode III - Revenge of the Sith",
+    "speech": "Yoda's Advice to Anakin",
+    "categories": ["balance", "wisdom", "fear"]
+  },
+  {
+    "id": 30005,
+    "word": "knowledge",
+    "definition": "Facts, information, and skills acquired through experience or education; the theoretical or practical understanding of a subject.",
+    "example": "In a dark place we find ourselves, and a little more knowledge lights our way.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode III - Revenge of the Sith",
+    "speech": "Yoda Reflecting on the Jedi's Situation",
+    "categories": ["wisdom", "balance", "patience"]
+  },
+  {
+    "id": 30006,
+    "word": "patience",
+    "definition": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry or upset.",
+    "example": "Do or do not. There is no try.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "categories": ["patience", "wisdom", "balance"]
+  },
+  {
+    "id": 30007,
+    "word": "humility",
+    "definition": "A modest or low view of one's own importance; humbleness.",
+    "example": "Size matters not. Look at me. Judge me by my size, do you?",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "categories": ["wisdom", "balance", "virtue"]
+  },
+  {
+    "id": 30008,
+    "word": "detachment",
+    "definition": "The state of being objective or aloof; freedom from emotional involvement.",
+    "example": "Train yourself to let go of everything you fear to lose.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Star Wars: Episode III - Revenge of the Sith",
+    "speech": "Yoda's Advice to Anakin",
+    "categories": ["balance", "wisdom", "fear"]
+  }
+]

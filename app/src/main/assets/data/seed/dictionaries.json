@@ -596,5 +596,101 @@
     ],
     "themeCategories": ["innovation", "leadership", "technology", "competition", "enterprise"],
     "isActive": true
+  },
+  {
+    "id": 27,
+    "name": "Uncle Ben",
+    "description": "Wise uncle and mentor whose iconic words 'With great power comes great responsibility' have defined the hero's journey and themes of duty in Spider-Man stories across film, television, and comics",
+    "oratorName": "Uncle Ben",
+    "wordCount": 12,
+    "category": "Fictional / Modern Inspirational",
+    "era": "20th-21st Century (Comics, Film & TV)",
+    "bio": "Benjamin 'Ben' Parker, the uncle of Peter Parker (Spider-Man). In countless adaptations, his final lesson to his nephew about the burden and moral duty that comes with power has become one of the most enduring and inspirational messages in popular culture about responsibility, choice, and heroism.",
+    "portraitUrl": "",
+    "primaryStyle": "Mentorship, moral clarity, and quiet wisdom",
+    "voiceStyle": "Warm, earnest, paternal, and sincere",
+    "colorAccent": 4210752,
+    "sampleSpeech": "With great power comes great responsibility.",
+    "tags": [
+      "Responsibility",
+      "Heroism",
+      "Mentorship",
+      "Ethics",
+      "Duty"
+    ],
+    "themeCategories": ["responsibility", "ethics", "heroism", "mentorship", "power"],
+    "isActive": true
+  },
+  {
+    "id": 28,
+    "name": "Marcus Aurelius",
+    "description": "Roman Emperor and Stoic philosopher whose personal reflections in 'Meditations' offer profound insights on duty, resilience, virtue, and living in accordance with reason and nature.",
+    "oratorName": "Marcus Aurelius",
+    "wordCount": 15,
+    "category": "Historical / Philosophical",
+    "era": "Ancient Rome (121–180 AD)",
+    "bio": "Marcus Aurelius Antoninus was Roman emperor from 161 to 180 AD and a Stoic philosopher. His private writings, known as 'Meditations', were never meant for publication but provide one of the most honest and practical guides to ethical living, leadership under pressure, and finding tranquility amid chaos.",
+    "portraitUrl": "",
+    "primaryStyle": "Stoic reflection and moral reasoning",
+    "voiceStyle": "Calm, introspective, and authoritative",
+    "colorAccent": 6042144,
+    "sampleSpeech": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "tags": [
+      "Stoicism",
+      "Resilience",
+      "Virtue",
+      "Leadership",
+      "Philosophy"
+    ],
+    "themeCategories": ["stoicism", "resilience", "virtue", "duty", "wisdom"],
+    "isActive": true
+  },
+  {
+    "id": 29,
+    "name": "Gandalf",
+    "description": "Wise wizard and mentor from Middle-earth whose counsel on courage, destiny, and choosing to do what is right has inspired generations.",
+    "oratorName": "Gandalf",
+    "wordCount": 12,
+    "category": "Fictional / Mythic",
+    "era": "Middle-earth (Legendarium)",
+    "bio": "Gandalf the Grey (later the White) is a Maia sent to Middle-earth to aid in the fight against Sauron. As a guide to Frodo and the Fellowship, his words blend ancient wisdom, quiet humor, and a deep understanding of hope and perseverance in the face of overwhelming darkness.",
+    "portraitUrl": "",
+    "primaryStyle": "Mentorship, prophecy, and steadfast wisdom",
+    "voiceStyle": "Grave yet kind, commanding, and occasionally wry",
+    "colorAccent": 4210752,
+    "sampleSpeech": "All we have to decide is what to do with the time that is given us.",
+    "tags": [
+      "Wisdom",
+      "Courage",
+      "Destiny",
+      "Mentorship",
+      "Hope"
+    ],
+    "themeCategories": ["wisdom", "courage", "destiny", "mentorship", "hope"],
+    "isActive": true
+  },
+  {
+    "id": 30,
+    "name": "Yoda",
+    "description": "Jedi Master whose paradoxical teachings on fear, failure, and the Force emphasize patience, acceptance, and the power of the present moment.",
+    "oratorName": "Yoda",
+    "wordCount": 12,
+    "category": "Fictional / Mythic",
+    "era": "Star Wars Galaxy",
+    "bio": "Yoda is one of the most powerful and revered Jedi Masters in the galaxy. Over 900 years old, his unique speech patterns and concise, riddle-like wisdom have guided generations of Jedi in the ways of the Force, teaching that true strength lies in humility, discipline, and letting go of fear.",
+    "portraitUrl": "",
+    "primaryStyle": "Paradoxical wisdom and spiritual guidance",
+    "voiceStyle": "Inverted syntax, ancient, patient, and profound",
+    "colorAccent": 2263842,
+    "sampleSpeech": "Do or do not. There is no try.",
+    "tags": [
+      "Wisdom",
+      "Failure",
+      "Fear",
+      "Patience",
+      "The Force"
+    ],
+    "themeCategories": ["wisdom", "fear", "failure", "patience", "balance"],
+    "isActive": true
   }
 ]

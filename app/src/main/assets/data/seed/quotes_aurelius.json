@@ -1,0 +1,92 @@
+[
+  {
+    "id": 28001,
+    "oratorId": 28,
+    "text": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "source": "Meditations",
+    "speech": "Book VIII",
+    "year": null,
+    "context": "Core Stoic principle: focus on what is within your control to achieve inner strength and freedom from external turmoil."
+  },
+  {
+    "id": 28002,
+    "oratorId": 28,
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "source": "Meditations",
+    "speech": "Book IV",
+    "year": null,
+    "context": "Emphasizes personal responsibility for one's mental state and perspective."
+  },
+  {
+    "id": 28003,
+    "oratorId": 28,
+    "text": "Waste no more time arguing about what a good man should be. Be one.",
+    "source": "Meditations",
+    "speech": "Book X",
+    "year": null,
+    "context": "A call to action and integrity rather than endless debate or theoretical virtue."
+  },
+  {
+    "id": 28004,
+    "oratorId": 28,
+    "text": "The impediment to action advances action. What stands in the way becomes the way.",
+    "source": "Meditations",
+    "speech": "Book V",
+    "year": null,
+    "context": "Famous 'obstacle is the way' teaching: turn adversity into opportunity through perception and will."
+  },
+  {
+    "id": 28005,
+    "oratorId": 28,
+    "text": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+    "source": "Meditations",
+    "speech": "Book II",
+    "year": null,
+    "context": "Encourages critical thinking and detachment from unexamined assumptions."
+  },
+  {
+    "id": 28006,
+    "oratorId": 28,
+    "text": "Choose not to be harmed — and you won’t feel harmed. Don’t feel harmed — and you haven’t been.",
+    "source": "Meditations",
+    "speech": "Book IV",
+    "year": null,
+    "context": "Stoic control over judgment: external events only harm us if we allow them to through our interpretation."
+  },
+  {
+    "id": 28007,
+    "oratorId": 28,
+    "text": "It is not death that a man should fear, but he should fear never beginning to live.",
+    "source": "Meditations",
+    "speech": "Book XII",
+    "year": null,
+    "context": "Urges living fully and purposefully rather than being paralyzed by fear of the inevitable."
+  },
+  {
+    "id": 28008,
+    "oratorId": 28,
+    "text": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+    "source": "Meditations",
+    "speech": "Book VI",
+    "year": null,
+    "context": "Amor fati — loving one's fate and embracing relationships and circumstances as they are."
+  },
+  {
+    "id": 28009,
+    "oratorId": 28,
+    "text": "The best revenge is to be unlike him who performed the injury.",
+    "source": "Meditations",
+    "speech": "Book VI",
+    "year": null,
+    "context": "True strength lies in moral superiority and refusing to let others dictate your character."
+  },
+  {
+    "id": 28010,
+    "oratorId": 28,
+    "text": "Do not act as if you had ten thousand years to live. Death hangs over you. While you live, while it is in your power, be good.",
+    "source": "Meditations",
+    "speech": "Book IV",
+    "year": null,
+    "context": "Memento mori: the urgency of living virtuously now, without delay or excuse."
+  }
+]

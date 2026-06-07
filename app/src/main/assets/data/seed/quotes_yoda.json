@@ -1,0 +1,74 @@
+[
+  {
+    "id": 30001,
+    "oratorId": 30,
+    "text": "Do or do not. There is no try.",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "year": 1980,
+    "context": "Emphasizes full commitment over half-hearted attempts; a lesson in decisive action and belief."
+  },
+  {
+    "id": 30002,
+    "oratorId": 30,
+    "text": "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.",
+    "source": "Star Wars: Episode I - The Phantom Menace",
+    "speech": "Yoda's Warning to Anakin",
+    "year": 1999,
+    "context": "Chain of emotional consequences; insight into how fear corrupts and destroys."
+  },
+  {
+    "id": 30003,
+    "oratorId": 30,
+    "text": "The greatest teacher, failure is.",
+    "source": "Star Wars: Episode VIII - The Last Jedi",
+    "speech": "Yoda's Lesson to Luke",
+    "year": 2017,
+    "context": "Reframing failure as essential to growth and wisdom rather than something to be feared or avoided."
+  },
+  {
+    "id": 30004,
+    "oratorId": 30,
+    "text": "Train yourself to let go of everything you fear to lose.",
+    "source": "Star Wars: Episode III - Revenge of the Sith",
+    "speech": "Yoda's Advice to Anakin",
+    "year": 2005,
+    "context": "Detachment from fear-driven attachment as the path to peace and the light side."
+  },
+  {
+    "id": 30005,
+    "oratorId": 30,
+    "text": "In a dark place we find ourselves, and a little more knowledge lights our way.",
+    "source": "Star Wars: Episode III - Revenge of the Sith",
+    "speech": "Yoda Reflecting on the Jedi's Situation",
+    "year": 2005,
+    "context": "Knowledge and understanding as a source of hope and guidance even in desperate times."
+  },
+  {
+    "id": 30006,
+    "oratorId": 30,
+    "text": "Size matters not. Look at me. Judge me by my size, do you?",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "year": 1980,
+    "context": "True power and capability come from within, not from physical appearance or assumptions."
+  },
+  {
+    "id": 30007,
+    "oratorId": 30,
+    "text": "Luminous beings are we, not this crude matter.",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "year": 1980,
+    "context": "Reminder of the spiritual or energetic nature of beings beyond the physical body."
+  },
+  {
+    "id": 30008,
+    "oratorId": 30,
+    "text": "You must unlearn what you have learned.",
+    "source": "Star Wars: Episode V - The Empire Strikes Back",
+    "speech": "Yoda's Training on Dagobah",
+    "year": 1980,
+    "context": "The necessity of shedding preconceptions and ego to truly learn and grow."
+  }
+]

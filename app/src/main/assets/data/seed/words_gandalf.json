@@ -1,0 +1,98 @@
+[
+  {
+    "id": 29001,
+    "word": "destiny",
+    "definition": "The events that will necessarily happen to a particular person or thing in the future.",
+    "example": "All we have to decide is what to do with the time that is given us.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past",
+    "categories": ["destiny", "wisdom", "courage"]
+  },
+  {
+    "id": 29002,
+    "word": "peril",
+    "definition": "Serious and immediate danger.",
+    "example": "The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair...",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Two Towers",
+    "speech": "The White Rider",
+    "categories": ["courage", "wisdom", "hope"]
+  },
+  {
+    "id": 29003,
+    "word": "courage",
+    "definition": "The ability to do something that frightens one; bravery.",
+    "example": "Courage is found in unlikely places.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Two Towers",
+    "speech": "The White Rider",
+    "categories": ["courage", "wisdom", "hope"]
+  },
+  {
+    "id": 29004,
+    "word": "judgement",
+    "definition": "The ability to make considered decisions or come to sensible conclusions.",
+    "example": "Many that live deserve death. And some that die deserve life. Can you give it to them? Then do not be too eager to deal out death in judgement.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past",
+    "categories": ["wisdom", "ethics", "mentorship"]
+  },
+  {
+    "id": 29005,
+    "word": "grief",
+    "definition": "Deep sorrow, especially that caused by someone's death.",
+    "example": "I will not say: do not weep; for not all tears are an evil.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Return of the King",
+    "speech": "The Grey Havens",
+    "categories": ["wisdom", "hope", "mentorship"]
+  },
+  {
+    "id": 29006,
+    "word": "power",
+    "definition": "The ability or capacity to do something or act in a particular way.",
+    "example": "There is only one Lord of the Ring, only one who can bend it to his will. And he does not share power.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past",
+    "categories": ["power", "wisdom", "courage"]
+  },
+  {
+    "id": 29007,
+    "word": "hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen.",
+    "example": "The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings: The Two Towers",
+    "speech": "The White Rider",
+    "categories": ["hope", "wisdom", "courage"]
+  },
+  {
+    "id": 29008,
+    "word": "agency",
+    "definition": "The capacity of an individual to act independently and to make their own free choices.",
+    "example": "All we have to decide is what to do with the time that is given us.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "advanced",
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past",
+    "categories": ["wisdom", "courage", "destiny"]
+  }
+]

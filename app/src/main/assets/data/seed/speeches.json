@@ -366,5 +366,45 @@
     "fullText": "The goal is to accelerate the world's transition to sustainable energy.\n\nTesla Energy is about making sustainable energy accessible and affordable for everyone.\n\nThe Powerwall and Powerpack are the building blocks of a sustainable energy future.\n\nSolar panels on every roof. Batteries in every home and business.\n\nElectric cars for everyone.\n\nThis is how we solve climate change.\n\nThis is how we make the world a better place.\n\nSustainable energy is the future.\n\nAnd the future is now.",
     "year": 2016,
     "description": "Elon Musk's 2016 Tesla Energy announcement speech introducing Powerwall and accelerating the shift to sustainable energy and solar power."
+  },
+  {
+    "id": 47,
+    "oratorId": 27,
+    "title": "Uncle Ben's Final Lesson",
+    "fullText": "I know you think I'm just an old man, Peter, but listen to me. You have a gift. A power that most people will never understand. And with that power comes a responsibility. A responsibility to use it to help people, to protect them, not to hurt them. Remember that. With great power comes great responsibility. Don't ever forget that.",
+    "year": 2002,
+    "description": "Uncle Ben's iconic deathbed advice to Peter Parker in the 2002 Spider-Man film, establishing the central theme of responsibility that defines the character's journey."
+  },
+  {
+    "id": 48,
+    "oratorId": 27,
+    "title": "Peter Parker's Reflection on Responsibility",
+    "fullText": "I had a choice. I could have stopped it. But I didn't. And now... someone is dead because of me. Uncle Ben was right. With great power comes great responsibility. I can't just stand by and watch bad things happen. I have to do something. I have to be better. I have to be Spider-Man.",
+    "year": 2002,
+    "description": "Peter Parker's internal monologue and realization following tragedy in the Spider-Man films, embracing the burden of his powers."
+  },
+  {
+    "id": 49,
+    "oratorId": 28,
+    "title": "You Have Power Over Your Mind",
+    "fullText": "You have power over your mind - not outside events. Realize this, and you will find strength. It is not death that a man should fear, but he should fear never beginning to live. Waste no more time arguing about what a good man should be. Be one. The impediment to action advances action. What stands in the way becomes the way.",
+    "year": null,
+    "description": "Reflective passages from Marcus Aurelius' Meditations on inner strength, mortality, virtue in action, and turning obstacles into opportunities."
+  },
+  {
+    "id": 50,
+    "oratorId": 29,
+    "title": "All We Have to Decide",
+    "fullText": "I wish it need not have happened in my time,\" said Frodo. \"So do I,\" said Gandalf, \"and so do all who live to see such times. But that is not for them to decide. All we have to decide is what to do with the time that is given us.\"",
+    "year": 1954,
+    "description": "Gandalf's wise counsel to Frodo in The Lord of the Rings, emphasizing personal agency and responsibility in the face of overwhelming events."
+  },
+  {
+    "id": 51,
+    "oratorId": 30,
+    "title": "Do or Do Not",
+    "fullText": "Luke: \"I don't... I don't believe it.\" Yoda: \"That is why you fail.\" ... \"Do or do not. There is no try.\"",
+    "year": 1980,
+    "description": "Yoda's iconic training lesson to Luke Skywalker on Dagobah, teaching full commitment, belief, and the power of decisive action over doubt."
   }
 ]
