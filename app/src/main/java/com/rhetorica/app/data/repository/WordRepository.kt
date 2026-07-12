@@ -85,6 +85,58 @@ class WordRepository @Inject constructor(
         }
     }
 
+    /**
+     * Pick a random library word suitable for letter-guessing.
+     * Matches playable letter length (A–Z only) in [minLetters, maxLetters] inclusive.
+     *
+     * Prefer candidates that are not in [excludeWordIds] and whose definition is not in
+     * [excludeDefinitions] so consecutive rounds never reuse the same prompt/answer pair.
+     */
+    suspend fun getRandomWordForLetterGuess(
+        oratorId: Long?,
+        minLetters: Int,
+        maxLetters: Int,
+        excludeWordIds: Set<Long> = emptySet(),
+        excludeDefinitions: Set<String> = emptySet(),
+        poolSize: Int = 500,
+    ): WordEntity? {
+        fun letterCountOk(word: WordEntity): Boolean {
+            val letters = word.word.filter { it.isLetter() }
+            return letters.isNotEmpty() && letters.length in minLetters..maxLetters
+        }
+
+        suspend fun pool(orator: Long?): List<WordEntity> {
+            return if (orator == null) {
+                wordDao.getRandomWordsPool(poolSize)
+            } else {
+                wordDao.getRandomWordsPoolByOrator(orator, poolSize)
+            }.filter(::letterCountOk)
+        }
+
+        fun pick(candidates: List<WordEntity>): WordEntity? {
+            if (candidates.isEmpty()) return null
+            val notSameWord = candidates.filter { it.id !in excludeWordIds }
+            val notSameDef = notSameWord.filter {
+                it.definition.trim().lowercase() !in excludeDefinitions
+            }
+            return when {
+                notSameDef.isNotEmpty() -> notSameDef.random()
+                notSameWord.isNotEmpty() -> notSameWord.random()
+                else -> candidates.random()
+            }
+        }
+
+        pick(pool(oratorId))?.let { return it }
+
+        // Fall back to full library if the selected orator is too thin for this band.
+        if (oratorId != null) {
+            pick(pool(null))?.let { return it }
+        }
+
+        // Last resort: larger pool, still prefer exclusions.
+        return pick(wordDao.getRandomWordsPool(poolSize * 3).filter(::letterCountOk))
+    }
+
     suspend fun saveWord(wordId: Long) {
         savedWordDao.saveWord(
             SavedWordEntity(

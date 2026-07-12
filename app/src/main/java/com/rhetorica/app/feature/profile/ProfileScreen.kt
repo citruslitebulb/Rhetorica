@@ -26,14 +26,19 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -58,11 +63,13 @@ import com.rhetorica.app.widget.WidgetAppearance
 
 @Composable
 fun ProfileRoute(
+    onBack: () -> Unit,
     viewModel: ProfileViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     ProfileScreen(
         state = state,
+        onBack = onBack,
         onSelectOrator = viewModel::selectOrator,
         onToggleRotateAll = viewModel::toggleRotateThroughAll,
         onToggleThemeCategory = viewModel::toggleThemeCategory,
@@ -72,10 +79,11 @@ fun ProfileRoute(
     )
 }
 
-@OptIn(ExperimentalLayoutApi::class)
+@OptIn(ExperimentalLayoutApi::class, ExperimentalMaterial3Api::class)
 @Composable
 private fun ProfileScreen(
     state: ProfileUiState,
+    onBack: () -> Unit,
     onSelectOrator: (Long?) -> Unit,
     onToggleRotateAll: () -> Unit,
     onToggleThemeCategory: (String) -> Unit,
@@ -87,9 +95,25 @@ private fun ProfileScreen(
     var themesExpanded by rememberSaveable { mutableStateOf(false) }
     var oratorsExpanded by rememberSaveable { mutableStateOf(true) }
 
+    Scaffold(
+        topBar = {
+            CenterAlignedTopAppBar(
+                title = { Text(text = stringResource(R.string.nav_profile)) },
+                navigationIcon = {
+                    IconButton(onClick = onBack) {
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Outlined.ArrowBack,
+                            contentDescription = stringResource(R.string.back),
+                        )
+                    }
+                },
+            )
+        },
+    ) { innerPadding ->
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()
+            .padding(innerPadding)
             .background(MaterialTheme.colorScheme.background),
         contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
@@ -252,6 +276,7 @@ private fun ProfileScreen(
                 }
             }
         }
+    }
     }
 }
 

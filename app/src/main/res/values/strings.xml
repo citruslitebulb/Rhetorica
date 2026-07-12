@@ -4,8 +4,10 @@
     <string name="app_tagline">Daily words that moved empires</string>
     <string name="nav_home">Home</string>
     <string name="nav_saved">Saved</string>
-    <string name="nav_quiz">Quiz</string>
-    <string name="nav_profile">Profile</string>
+    <string name="nav_quiz">Quest</string>
+    <string name="nav_profile">Settings</string>
+    <string name="home_settings">Settings</string>
+    <string name="orator_portrait_cd">Portrait of %1$s</string>
     <string name="widget_description">Daily vocabulary with definition</string>
     <string name="widget_default_word">Word of the day</string>
     <string name="widget_default_definition">Daily definition will appear here.</string>
@@ -84,8 +86,8 @@
     <string name="word_speak">Pronounce word</string>
     <string name="word_read_full_speech">Read the full speech</string>
 
-    <!-- Quiz -->
-    <string name="quiz_title">Word quiz</string>
+    <!-- Quest (quiz) -->
+    <string name="quiz_title">Quest</string>
     <string name="quiz_subtitle">Match the definition to the correct word.</string>
     <string name="quiz_prompt_label">Definition</string>
     <string name="quiz_score">Session score: %1$d / %2$d</string>
@@ -94,14 +96,30 @@
     <string name="quiz_feedback_incorrect">Not quite. The correct word is highlighted.</string>
     <string name="quiz_next">Next question</string>
     <string name="quiz_retry">Try again</string>
-    <string name="quiz_unavailable_title">Quiz not ready</string>
-    <string name="quiz_unavailable_body">Need at least a few words in the library before quizzing. Check back after seeding finishes.</string>
+    <string name="quiz_unavailable_title">Quest not ready</string>
+    <string name="quiz_unavailable_body">Need at least a few words in the library before starting a quest. Check back after seeding finishes.</string>
+    <string name="quiz_mode_multiple_choice">Multiple choice</string>
+    <string name="quiz_mode_word_guess">Letter guess</string>
+    <string name="quiz_word_guess_subtitle">Read the definition, then guess the word. You have %1$d attempts.</string>
+    <string name="quiz_difficulty_label">Difficulty</string>
+    <string name="quiz_difficulty_easy">Easy</string>
+    <string name="quiz_difficulty_medium">Medium</string>
+    <string name="quiz_difficulty_hard">Hard</string>
+    <string name="quiz_difficulty_hardcore">Hardcore</string>
+    <string name="quiz_enter">Enter</string>
+    <string name="quiz_delete">⌫</string>
+    <string name="quiz_guess_won">Correct — %1$s</string>
+    <string name="quiz_guess_lost">Out of attempts. The word was %1$s.</string>
+    <string name="quiz_guess_need_length">Use exactly %1$d letters.</string>
+    <string name="quiz_guess_need_min">Enter at least %1$d letters.</string>
+    <string name="quiz_guess_next">Next word</string>
+    <string name="quiz_word_guess_unavailable_body">No matching words for this difficulty. Try another setting or finish seeding.</string>
 
     <!-- Profile progress -->
     <string name="profile_progress_title">Your progress</string>
     <string name="profile_progress_viewed">Opens</string>
     <string name="profile_progress_saved">Saved</string>
-    <string name="profile_progress_quiz">Quiz</string>
+    <string name="profile_progress_quiz">Quest</string>
     <string name="profile_widget_preview_attribution">Orator · Rhetorica · Word of the Day</string>
 
     <!-- Notifications -->

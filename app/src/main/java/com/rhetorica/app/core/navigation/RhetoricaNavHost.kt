@@ -9,11 +9,11 @@ import com.rhetorica.app.feature.home.HomeRoute
 import com.rhetorica.app.feature.profile.ProfileRoute
 import com.rhetorica.app.feature.quiz.QuizRoute
 import com.rhetorica.app.feature.saved.SavedRoute
-import com.rhetorica.app.feature.word.navigateToWordDetail
-import com.rhetorica.app.feature.word.wordDetailScreen
+import com.rhetorica.app.feature.speech.SpeechesRoute
 import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.feature.speech.speechDetailScreen
-import com.rhetorica.app.feature.speech.SpeechesRoute
+import com.rhetorica.app.feature.word.navigateToWordDetail
+import com.rhetorica.app.feature.word.wordDetailScreen
 
 @Composable
 fun RhetoricaNavHost(
@@ -26,21 +26,30 @@ fun RhetoricaNavHost(
         modifier = modifier,
     ) {
         composable(TopLevelDestination.Home.route) {
-            HomeRoute(onWordClick = { wordId -> navController.navigateToWordDetail(wordId) })
+            HomeRoute(
+                onWordClick = { wordId -> navController.navigateToWordDetail(wordId) },
+                onSettingsClick = {
+                    navController.navigate(AppRoutes.PROFILE) {
+                        launchSingleTop = true
+                    }
+                },
+            )
         }
         composable(TopLevelDestination.Saved.route) {
             SavedRoute(onWordClick = { wordId -> navController.navigateToWordDetail(wordId) })
         }
         composable(TopLevelDestination.Quiz.route) { QuizRoute() }
-        composable(TopLevelDestination.Profile.route) { ProfileRoute() }
         composable(TopLevelDestination.Speeches.route) {
             SpeechesRoute(
-                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) }
+                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },
             )
+        }
+        composable(AppRoutes.PROFILE) {
+            ProfileRoute(onBack = { navController.popBackStack() })
         }
         wordDetailScreen(
             onBack = { navController.popBackStack() },
-            onReadFullSpeech = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) }
+            onReadFullSpeech = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },
         )
         speechDetailScreen(onBack = { navController.popBackStack() })
     }

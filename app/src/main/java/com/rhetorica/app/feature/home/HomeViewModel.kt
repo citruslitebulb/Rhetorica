@@ -80,10 +80,8 @@ class HomeViewModel @Inject constructor(
 
         val oratorNameById = orators.associate { it.id to it.name }
         // Always show the orator who actually owns the word (which is the selected one when set).
-        val wotdOratorName = when {
-            wotdOratorId != null -> oratorNameById[wotdOratorId]
-            else -> wordOfTheDay?.oratorId?.let { oratorNameById[it] }
-        }
+        val resolvedWotdOratorId = wotdOratorId ?: wordOfTheDay?.oratorId
+        val wotdOratorName = resolvedWotdOratorId?.let { oratorNameById[it] }
 
         // Keep the daily word out of the main list when present to avoid duplication.
         val listWords = if (wordOfTheDay != null) {
@@ -105,6 +103,7 @@ class HomeViewModel @Inject constructor(
                     isSaved = wotd.id in savedWordIds,
                 )
             },
+            wordOfTheDayOratorId = resolvedWotdOratorId,
             wordOfTheDayOratorName = wotdOratorName,
             totalWordCount = words.size,
             hasActiveFilters = hasActiveFilters,
@@ -140,6 +139,7 @@ class HomeViewModel @Inject constructor(
 data class HomeUiState(
     val words: List<HomeWordCardState> = emptyList(),
     val wordOfTheDay: HomeWordCardState? = null,
+    val wordOfTheDayOratorId: Long? = null,
     val wordOfTheDayOratorName: String? = null,
     val totalWordCount: Int = 0,
     val hasActiveFilters: Boolean = false,

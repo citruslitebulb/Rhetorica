@@ -56,4 +56,18 @@ interface WordDao {
         """,
     )
     suspend fun getRandomWordsByOrator(oratorId: Long, limit: Int): List<WordEntity>
+
+    /** Larger pool for letter-guess filtering (length / alphabetic-only). */
+    @Query("SELECT * FROM words ORDER BY RANDOM() LIMIT :limit")
+    suspend fun getRandomWordsPool(limit: Int): List<WordEntity>
+
+    @Query(
+        """
+        SELECT * FROM words
+        WHERE oratorId = :oratorId
+        ORDER BY RANDOM()
+        LIMIT :limit
+        """,
+    )
+    suspend fun getRandomWordsPoolByOrator(oratorId: Long, limit: Int): List<WordEntity>
 }
