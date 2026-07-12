@@ -10,7 +10,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
     entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class, QuoteEntity::class, SpeechEntity::class],
-    version = 14,
+    version = 15,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -188,6 +188,40 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        /**
+         * Make quotes.source nullable so seed rows without a source field load cleanly.
+         * SQLite cannot ALTER nullability in-place — rebuild the table and preserve data.
+         */
+        private val MIGRATION_14_15 = object : Migration(14, 15) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `quotes_new` (
+                        `id` INTEGER NOT NULL,
+                        `oratorId` INTEGER NOT NULL,
+                        `text` TEXT NOT NULL,
+                        `source` TEXT,
+                        `speech` TEXT,
+                        `year` INTEGER,
+                        `context` TEXT,
+                        PRIMARY KEY(`id`)
+                    )
+                    """.trimIndent(),
+                )
+                database.execSQL(
+                    """
+                    INSERT INTO `quotes_new` (`id`, `oratorId`, `text`, `source`, `speech`, `year`, `context`)
+                    SELECT `id`, `oratorId`, `text`, `source`, `speech`, `year`, `context` FROM `quotes`
+                    """.trimIndent(),
+                )
+                database.execSQL("DROP TABLE `quotes`")
+                database.execSQL("ALTER TABLE `quotes_new` RENAME TO `quotes`")
+                database.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_quotes_oratorId` ON `quotes` (`oratorId`)",
+                )
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -209,6 +243,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_11_12,
                         MIGRATION_12_13,
                         MIGRATION_13_14,
+                        MIGRATION_14_15,
                     )
                     .fallbackToDestructiveMigration()
                     .build()

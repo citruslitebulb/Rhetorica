@@ -9,6 +9,16 @@
     <string name="widget_description">Daily vocabulary with definition</string>
     <string name="widget_default_word">Word of the day</string>
     <string name="widget_default_definition">Daily definition will appear here.</string>
+    <string name="widget_brand_short">Rhetorica</string>
+    <string name="widget_brand_full">Rhetorica · Word of the Day</string>
+    <string name="widget_laurel">✦</string>
+    <string name="widget_speech_cta">Tap for full speech</string>
+    <string name="widget_error_title">Word of the Day</string>
+    <string name="widget_error_body">Open Rhetorica to refresh.</string>
+    <string name="widget_loading_body">Loading…</string>
+    <string name="widget_setup_body">Open the app to finish setup.</string>
+    <string name="widget_loading_vocab_body">Loading vocabulary…</string>
+    <string name="widget_empty_body">No words available</string>
     <string name="profile_orator_selection">Orator Selection</string>
     <string name="profile_rotate_all">Rotate Through All Orators</string>
     <string name="profile_themes_title">Word Themes</string>
@@ -61,4 +71,44 @@
     <string name="speech_not_found">Speech not found.</string>
     <string name="speech_not_found_hint">Full speeches are available for many referenced orations, including Obama\'s Yes We Can speech, JFK\'s Inaugural Address, We Shall Fight on the Beaches, Pericles\' Funeral Oration, and more. We are continuing to expand the collection.</string>
     <string name="nav_speeches">Speeches</string>
+
+    <!-- Home -->
+    <string name="home_wotd_badge">Word of the Day</string>
+    <string name="home_browse_title">Browse vocabulary</string>
+    <string name="home_empty_title">Loading your library</string>
+    <string name="home_empty_body">Seed data is still arriving. Open the app again in a moment if this persists.</string>
+    <string name="home_filtered_empty_title">No words match your filters</string>
+    <string name="home_filtered_empty_body">Try another orator or clear themes in Profile to see more words.</string>
+
+    <!-- Word detail -->
+    <string name="word_speak">Pronounce word</string>
+    <string name="word_related_quote_title">From this orator</string>
+    <string name="word_read_full_speech">Read the full speech</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">Word quiz</string>
+    <string name="quiz_subtitle">Match the definition to the correct word.</string>
+    <string name="quiz_prompt_label">Definition</string>
+    <string name="quiz_score">Session score: %1$d / %2$d</string>
+    <string name="quiz_correct_badge">Correct</string>
+    <string name="quiz_feedback_correct">Well chosen — that matches the definition.</string>
+    <string name="quiz_feedback_incorrect">Not quite. The correct word is highlighted.</string>
+    <string name="quiz_next">Next question</string>
+    <string name="quiz_retry">Try again</string>
+    <string name="quiz_unavailable_title">Quiz not ready</string>
+    <string name="quiz_unavailable_body">Need at least a few words in the library before quizzing. Check back after seeding finishes.</string>
+
+    <!-- Profile progress -->
+    <string name="profile_progress_title">Your progress</string>
+    <string name="profile_progress_viewed">Opens</string>
+    <string name="profile_progress_saved">Saved</string>
+    <string name="profile_progress_quiz">Quiz</string>
+    <string name="profile_widget_preview_attribution">Orator · Rhetorica · Word of the Day</string>
+
+    <!-- Notifications -->
+    <string name="notification_action_favorite">Favorite</string>
+    <string name="notification_action_more_info">More info</string>
+    <string name="notification_action_hear">Hear</string>
+    <string name="notification_word_saved">Word saved to favorites</string>
+    <string name="notification_word_save_failed">Failed to save word</string>
 </resources>

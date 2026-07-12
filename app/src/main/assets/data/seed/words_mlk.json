@@ -1,7 +1,7 @@
 [
   {
     "id": 40161,
-    "word": "Dream",
+    "word": "dream",
     "definition": "A series of thoughts, images, and sensations occurring in a person's mind during sleep",
     "example": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
     "partOfSpeech": "noun",
@@ -9,41 +9,35 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40162,
-    "word": "Creed",
-    "definition": "A system of religious belief; a faith",
+    "word": "creed",
+    "definition": "A system of religious belief; a faith; a word that gains force in public speech.",
     "example": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40163,
-    "word": "Injustice",
-    "definition": "Lack of fairness or justice",
+    "word": "injustice",
+    "definition": "Lack of fairness or justice; a word that gains force in public speech.",
     "example": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Letter from Birmingham Jail",
     "speech": "Letter from Birmingham Jail (written during imprisonment)",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40164,
-    "word": "Mutuality",
+    "word": "mutuality",
     "definition": "The quality of being mutual; sharing of a feeling, action, or relationship",
     "example": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
     "partOfSpeech": "noun",
@@ -51,11 +45,11 @@
     "complexity": "advanced",
     "source": "Letter from Birmingham Jail",
     "speech": "Letter from Birmingham Jail (written during imprisonment)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40165,
-    "word": "Destiny",
+    "word": "destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future",
     "example": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
     "partOfSpeech": "noun",
@@ -63,25 +57,23 @@
     "complexity": "intermediate",
     "source": "Letter from Birmingham Jail",
     "speech": "Letter from Birmingham Jail (written during imprisonment)",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40166,
-    "word": "Urgency",
-    "definition": "Importance requiring swift action",
+    "word": "urgency",
+    "definition": "Importance requiring swift action; a word that gains force in public speech.",
     "example": "We have also come to this hallowed spot to remind America of the fierce urgency of Now.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40167,
-    "word": "Gradualism",
+    "word": "gradualism",
     "definition": "A policy of gradual reform rather than sudden change or revolution",
     "example": "This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism.",
     "partOfSpeech": "noun",
@@ -89,11 +81,11 @@
     "complexity": "advanced",
     "source": "I Have a Dream",
     "speech": "I Have a Dream",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40168,
-    "word": "Nonviolence",
+    "word": "nonviolence",
     "definition": "The use of peaceful means, not force, to bring about political or social change",
     "example": "Nonviolence is the answer to the crucial political and moral questions of our time.",
     "partOfSpeech": "noun",
@@ -101,11 +93,11 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40169,
-    "word": "Oppression",
+    "word": "oppression",
     "definition": "Prolonged cruel or unjust treatment or exercise of authority",
     "example": "I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.",
     "partOfSpeech": "noun",
@@ -113,23 +105,23 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40170,
-    "word": "Oasis",
-    "definition": "A fertile spot in a desert, where water is found",
+    "word": "oasis",
+    "definition": "A fertile spot in a desert, where water is found; a word that gains force in public speech.",
     "example": "I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40171,
-    "word": "Character",
+    "word": "character",
     "definition": "The mental and moral qualities distinctive to an individual",
     "example": "I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.",
     "partOfSpeech": "noun",
@@ -137,112 +129,107 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": [
-      "leadership"
-    ]
+    "categories": ["leadership"]
   },
   {
     "id": 40172,
-    "word": "Hate",
-    "definition": "Intense dislike; hatred",
+    "word": "hate",
+    "definition": "Intense dislike; hatred; a word that gains force in public speech.",
     "example": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40173,
-    "word": "Stream",
-    "definition": "A small, narrow river",
+    "word": "stream",
+    "definition": "A small, narrow river; a word that gains force in public speech.",
     "example": "We will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40174,
-    "word": "Righteousness",
-    "definition": "The quality of being morally right or justifiable",
+    "word": "righteousness",
+    "definition": "The quality of being morally right or justifiable; a word that gains force in public speech.",
     "example": "We will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "advanced",
     "source": "I Have a Dream",
     "speech": "I Have a Dream",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40175,
-    "word": "Unheard",
-    "definition": "Not heard or listened to",
+    "word": "unheard",
+    "definition": "Not heard or listened to; a word that gains force in public speech.",
     "example": "A riot is the language of the unheard.",
     "partOfSpeech": "adjective",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "Speech at Grosse Pointe High School",
     "speech": "The Other America",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40176,
-    "word": "Terror",
-    "definition": "Extreme fear",
-    "example": "In his address, the orator urged his listeners to show terror when facing the greatest challenges.",
+    "word": "terror",
+    "definition": "Extreme fear; a word that gains force in public speech.",
+    "example": "Terror is the hinge of I Have a Dream (March on Washington): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40177,
-    "word": "Silence",
-    "definition": "The absence of sound or noise",
+    "word": "silence",
+    "definition": "The absence of sound or noise; a word that gains force in public speech.",
     "example": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40178,
-    "word": "Mountaintop",
-    "definition": "The top of a mountain",
+    "word": "mountaintop",
+    "definition": "The top of a mountain; a word that gains force in public speech.",
     "example": "I have been to the mountaintop. And I don't mind. Like anybody, I would like to live a long life.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40179,
-    "word": "Glory",
-    "definition": "High renown or honor won by notable achievements",
+    "word": "glory",
+    "definition": "High renown or honor won by notable achievements; a word that gains force in public speech.",
     "example": "Mine eyes have seen the glory of the coming of the Lord.",
     "partOfSpeech": "noun",
     "oratorId": 9,
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": [
-      "leadership",
-      "legacy"
-    ]
+    "categories": ["leadership", "legacy"]
   },
   {
     "id": 40180,
-    "word": "Hope",
+    "word": "hope",
     "definition": "A feeling of expectation and desire for a particular thing to happen",
     "example": "We must accept finite disappointment, but never lose infinite hope.",
     "partOfSpeech": "noun",
@@ -250,8 +237,30 @@
     "complexity": "intermediate",
     "source": "Strength to Love",
     "speech": "Various sermons compiled in Strength to Love",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["arts", "humanities", "legacy"]
+  },
+  {
+    "id": 40365,
+    "oratorId": 9,
+    "word": "brotherhood",
+    "definition": "An association or community of people linked by a common interest.",
+    "example": "He dreamed of a table of brotherhood where former enemies could sit without fear.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["democracy", "inspirational", "humanities"],
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream"
+  },
+  {
+    "id": 40366,
+    "oratorId": 9,
+    "word": "crescendo",
+    "definition": "A gradual increase in intensity; a peak of rhetorical force.",
+    "example": "The refrain rose in crescendo—I have a dream today—until hope itself became a cadence.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "categories": ["arts", "inspirational", "democracy"],
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream"
   }
 ]

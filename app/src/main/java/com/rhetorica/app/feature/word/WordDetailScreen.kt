@@ -7,17 +7,21 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.outlined.BookmarkBorder
+import androidx.compose.material.icons.automirrored.outlined.VolumeUp
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -35,20 +39,23 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.WordThemes
 
 const val wordDetailRoute = "word/{wordId}"
 
 fun NavController.navigateToWordDetail(wordId: Long) {
-    navigate("word/$wordId")
+    navigate("word/$wordId") {
+        launchSingleTop = true
+    }
 }
 
 fun NavGraphBuilder.wordDetailScreen(
     onBack: () -> Unit,
     onReadFullSpeech: (Long, String) -> Unit = { _, _ -> },
 ) {
+    // Deep links (rhetorica://word/{id}) are handled in MainActivity to avoid double-nav
+    // when both NavHost deepLinks and Activity intent handling fire.
     composable(
         route = wordDetailRoute,
         arguments = listOf(
@@ -70,6 +77,7 @@ fun WordDetailRoute(
         state = state,
         onBack = onBack,
         onToggleSaved = viewModel::toggleSaved,
+        onSpeak = viewModel::speakWord,
         onReadFullSpeech = onReadFullSpeech,
     )
 }
@@ -80,6 +88,7 @@ private fun WordDetailScreen(
     state: WordDetailUiState,
     onBack: () -> Unit,
     onToggleSaved: () -> Unit,
+    onSpeak: () -> Unit,
     onReadFullSpeech: (Long, String) -> Unit = { _, _ -> },
 ) {
     Scaffold(
@@ -96,6 +105,12 @@ private fun WordDetailScreen(
                 },
                 actions = {
                     if (state.word != null) {
+                        IconButton(onClick = onSpeak) {
+                            Icon(
+                                imageVector = Icons.AutoMirrored.Outlined.VolumeUp,
+                                contentDescription = stringResource(R.string.word_speak),
+                            )
+                        }
                         IconButton(onClick = onToggleSaved) {
                             Icon(
                                 imageVector = if (state.isSaved) {
@@ -128,7 +143,7 @@ private fun WordDetailScreen(
                 }
             }
 
-            state.word == null -> {
+            state.notFound || state.word == null -> {
                 Column(
                     modifier = Modifier
                         .fillMaxSize()
@@ -150,6 +165,7 @@ private fun WordDetailScreen(
                     modifier = Modifier
                         .fillMaxSize()
                         .padding(innerPadding)
+                        .verticalScroll(rememberScrollState())
                         .padding(24.dp),
                     verticalArrangement = Arrangement.spacedBy(20.dp),
                 ) {
@@ -227,12 +243,31 @@ private fun WordDetailScreen(
                         )
                     }
 
+                    state.relatedQuote?.let { quote ->
+                        DetailBlock(
+                            title = stringResource(R.string.word_related_quote_title),
+                            body = "“${quote.text}”",
+                            italic = true,
+                        )
+                        val quoteAttribution = listOfNotNull(
+                            quote.speech ?: quote.source,
+                            quote.year?.toString(),
+                        ).joinToString(" · ")
+                        if (quoteAttribution.isNotBlank()) {
+                            Text(
+                                text = "— $quoteAttribution",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                    }
+
                     if (word.speech != null && (word.oratorId ?: 0L) != 0L) {
-                        androidx.compose.material3.OutlinedButton(
+                        OutlinedButton(
                             onClick = { onReadFullSpeech(word.oratorId!!, word.speech) },
-                            modifier = Modifier.padding(top = 12.dp)
+                            modifier = Modifier.padding(top = 4.dp),
                         ) {
-                            Text("Read the full speech")
+                            Text(text = stringResource(R.string.word_read_full_speech))
                         }
                     }
                 }

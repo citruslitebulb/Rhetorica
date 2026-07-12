@@ -4,7 +4,7 @@
     "name": "Demosthenes",
     "description": "Greatest ancient orator who overcame a stutter to deliver powerful Philippics against tyranny",
     "oratorName": "Demosthenes",
-    "wordCount": 20,
+    "wordCount": 21,
     "category": "Ancient Classics",
     "era": "Ancient Greece (384-322 BC)",
     "bio": "Demosthenes was the greatest ancient Greek orator, famous for his Philippics against Philip II of Macedon. He overcame a speech impediment through rigorous practice, speaking with pebbles in his mouth and reciting verses while running.",
@@ -27,7 +27,7 @@
     "name": "Cicero",
     "description": "Roman master of persuasion, combining philosophy and law in eloquent speeches",
     "oratorName": "Cicero",
-    "wordCount": 20,
+    "wordCount": 21,
     "category": "Ancient Classics",
     "era": "Roman Republic (106-43 BC)",
     "bio": "Marcus Tullius Cicero was a Roman statesman, lawyer, and philosopher, considered one of Rome's greatest orators. His speeches and writings set the standard for Latin eloquence and influenced Western rhetoric for centuries.",
@@ -96,7 +96,7 @@
     "name": "Abraham Lincoln",
     "description": "16th U.S. President known for the Gettysburg Address and mastery of clarity",
     "oratorName": "Abraham Lincoln",
-    "wordCount": 20,
+    "wordCount": 21,
     "category": "19th Century Powerhouses",
     "era": "American Civil War (1809-1865)",
     "bio": "Abraham Lincoln was the 16th President of the United States, leading the country through the Civil War. His speeches, particularly the Gettysburg Address, are masterpieces of concise, powerful rhetoric.",
@@ -165,7 +165,7 @@
     "name": "Winston Churchill",
     "description": "British Prime Minister whose WWII speeches combined wit with resolve",
     "oratorName": "Winston Churchill",
-    "wordCount": 20,
+    "wordCount": 19,
     "category": "20th Century Legends",
     "era": "World War II (1874-1965)",
     "bio": "Sir Winston Churchill was a British statesman who served as Prime Minister during WWII. His speeches inspired the British people during their darkest hours, combining wit, resolve, and historical grandeur.",
@@ -188,7 +188,7 @@
     "name": "Martin Luther King Jr.",
     "description": "Civil rights leader whose 'I Have a Dream' speech used rhythm and biblical power",
     "oratorName": "Martin Luther King Jr.",
-    "wordCount": 20,
+    "wordCount": 22,
     "category": "20th Century Legends",
     "era": "Civil Rights Era (1929-1968)",
     "bio": "Martin Luther King Jr. was an American Baptist minister and activist who became the most visible spokesperson and leader in the Civil Rights Movement. His speeches used biblical allusion and rhythmic repetition to powerful effect.",
@@ -211,7 +211,7 @@
     "name": "John F. Kennedy",
     "description": "35th U.S. President whose speeches conveyed youthful idealism and vision",
     "oratorName": "John F. Kennedy",
-    "wordCount": 20,
+    "wordCount": 21,
     "category": "20th Century Legends",
     "era": "Cold War Era (1917-1963)",
     "bio": "John F. Kennedy was the 35th President of the United States. His inaugural address and Moon speech exemplified his ability to inspire with youthful idealism and bold vision for the future.",
@@ -395,7 +395,7 @@
     "name": "William Shakespeare",
     "description": "English playwright and poet whose works shaped the English language with unparalleled eloquence",
     "oratorName": "William Shakespeare",
-    "wordCount": 20,
+    "wordCount": 22,
     "category": "Literary Classics",
     "era": "Elizabethan Era (1564-1616)",
     "bio": "William Shakespeare was an English playwright, poet, and actor, widely regarded as the greatest writer in the English language. His plays and sonnets introduced hundreds of words and phrases into English, demonstrating masterful command of rhetoric and wordplay.",
@@ -418,7 +418,7 @@
     "name": "Steve Jobs",
     "description": "Apple co-founder whose keynote addresses and Stanford speech defined inspirational product storytelling and design simplicity",
     "oratorName": "Steve Jobs",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Silicon Valley Era (1955-2011)",
     "bio": "Steve Jobs was the co-founder, chairman, and CEO of Apple Inc. His 2005 Stanford commencement address and iconic product launches are masterclasses in rhetoric that blend personal narrative, simplicity, and a call to pursue passion and excellence.",
@@ -433,7 +433,7 @@
       "Perseverance",
       "Vision"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "vision", "entrepreneurship"],
+    "themeCategories": ["tech", "leadership"],
     "isActive": true
   },
   {
@@ -441,7 +441,7 @@
     "name": "Bill Gates",
     "description": "Microsoft co-founder turned global health advocate whose speeches combine data, empathy, and urgent calls to action",
     "oratorName": "Bill Gates",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Personal Computing to Philanthropy (born 1955)",
     "bio": "Bill Gates co-founded Microsoft and later co-founded the Bill & Melinda Gates Foundation. His Harvard commencement and Davos addresses use clear data and moral clarity to advocate for reducing global inequity through innovation and partnership.",
@@ -456,7 +456,7 @@
       "Global health",
       "Equity"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "philanthropy", "global-impact"],
+    "themeCategories": ["tech", "leadership", "legacy"],
     "isActive": true
   },
   {
@@ -464,7 +464,7 @@
     "name": "Jeff Bezos",
     "description": "Amazon founder whose addresses emphasize long-term thinking, customer obsession, and the power of personal choice",
     "oratorName": "Jeff Bezos",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Internet Era (born 1964)",
     "bio": "Jeff Bezos founded Amazon.com and Blue Origin. His Princeton baccalaureate speech 'We are what we choose' and shareholder letters highlight regret minimization, invention, and building enduring value through deliberate choices.",
@@ -479,7 +479,7 @@
       "Customer",
       "Invention"
     ],
-    "themeCategories": ["innovation", "leadership", "entrepreneurship", "long-termism", "customer-focus"],
+    "themeCategories": ["tech", "leadership"],
     "isActive": true
   },
   {
@@ -487,7 +487,7 @@
     "name": "Elon Musk",
     "description": "Tesla, SpaceX, and xAI founder known for first-principles vision speeches on sustainable energy, space colonization, and AI",
     "oratorName": "Elon Musk",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "21st Century (born 1971)",
     "bio": "Elon Musk is the founder of SpaceX, Tesla, Neuralink, and xAI. His public addresses and presentations articulate ambitious multiplanetary and sustainable futures using first principles thinking and engineering optimism.",
@@ -502,7 +502,7 @@
       "Innovation",
       "First principles"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "vision", "space", "sustainability"],
+    "themeCategories": ["tech", "leadership", "legacy"],
     "isActive": true
   },
   {
@@ -510,7 +510,7 @@
     "name": "Mark Zuckerberg",
     "description": "Facebook/Meta founder whose Harvard address focused on purpose, community, and building for everyone",
     "oratorName": "Mark Zuckerberg",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Social Internet Era (born 1984)",
     "bio": "Mark Zuckerberg co-founded and leads Meta Platforms. His 2017 Harvard commencement speech emphasized creating purpose for others, taking on big projects, redefining equality, and building global community.",
@@ -525,7 +525,7 @@
       "Connection",
       "Technology"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "community", "purpose"],
+    "themeCategories": ["tech", "leadership", "inspirational"],
     "isActive": true
   },
   {
@@ -533,7 +533,7 @@
     "name": "Larry Page",
     "description": "Google co-founder and Alphabet founder championing moonshot projects and 10x thinking in technology",
     "oratorName": "Larry Page",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Internet Search Era (born 1973)",
     "bio": "Larry Page co-founded Google and Alphabet. His I/O keynotes and letters promote ambitious 'moonshots,' rapid progress, and focusing engineering talent on solving humanity's biggest problems rather than incremental gains.",
@@ -548,7 +548,7 @@
       "Ambition",
       "AI"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "vision", "moonshots"],
+    "themeCategories": ["tech", "leadership"],
     "isActive": true
   },
   {
@@ -556,7 +556,7 @@
     "name": "Sergey Brin",
     "description": "Google co-founder whose talks highlight freedom of information, rapid innovation, and organizing the world's knowledge",
     "oratorName": "Sergey Brin",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Internet Search Era (born 1973)",
     "bio": "Sergey Brin co-founded Google with Larry Page. Known for emphasizing 'Don't be evil,' open access to information, and using technology to tackle grand challenges alongside his partner.",
@@ -571,7 +571,7 @@
       "Search",
       "Innovation"
     ],
-    "themeCategories": ["innovation", "technology", "information", "freedom", "moonshots"],
+    "themeCategories": ["tech", "democracy"],
     "isActive": true
   },
   {
@@ -579,7 +579,7 @@
     "name": "Larry Ellison",
     "description": "Oracle co-founder and executive whose keynotes blended competitive fire, database evangelism, and bold predictions",
     "oratorName": "Larry Ellison",
-    "wordCount": 23,
+    "wordCount": 16,
     "category": "Modern / Contemporary",
     "era": "Enterprise Software Era (born 1944)",
     "bio": "Larry Ellison co-founded Oracle Corporation and has been known for charismatic, often provocative keynotes that drove the relational database revolution and enterprise software adoption with a focus on technology superiority.",
@@ -594,7 +594,7 @@
       "Competition",
       "Leadership"
     ],
-    "themeCategories": ["innovation", "leadership", "technology", "competition", "enterprise"],
+    "themeCategories": ["tech", "leadership"],
     "isActive": true
   },
   {
@@ -602,7 +602,7 @@
     "name": "Uncle Ben",
     "description": "Wise uncle and mentor whose iconic words 'With great power comes great responsibility' have defined the hero's journey and themes of duty in Spider-Man stories across film, television, and comics",
     "oratorName": "Uncle Ben",
-    "wordCount": 12,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th-21st Century (Comics, Film & TV)",
     "bio": "Benjamin 'Ben' Parker, the uncle of Peter Parker (Spider-Man). In countless adaptations, his final lesson to his nephew about the burden and moral duty that comes with power has become one of the most enduring and inspirational messages in popular culture about responsibility, choice, and heroism.",
@@ -618,7 +618,7 @@
       "Ethics",
       "Duty"
     ],
-    "themeCategories": ["responsibility", "ethics", "heroism", "mentorship", "power"],
+    "themeCategories": ["leadership", "humanities", "courage"],
     "isActive": true
   },
   {
@@ -626,7 +626,7 @@
     "name": "Marcus Aurelius",
     "description": "Roman Emperor and Stoic philosopher whose personal reflections in 'Meditations' offer profound insights on duty, resilience, virtue, and living in accordance with reason and nature.",
     "oratorName": "Marcus Aurelius",
-    "wordCount": 15,
+    "wordCount": 16,
     "category": "Historical / Philosophical",
     "era": "Ancient Rome (121–180 AD)",
     "bio": "Marcus Aurelius Antoninus was Roman emperor from 161 to 180 AD and a Stoic philosopher. His private writings, known as 'Meditations', were never meant for publication but provide one of the most honest and practical guides to ethical living, leadership under pressure, and finding tranquility amid chaos.",
@@ -642,7 +642,7 @@
       "Leadership",
       "Philosophy"
     ],
-    "themeCategories": ["stoicism", "resilience", "virtue", "duty", "wisdom"],
+    "themeCategories": ["humanities", "courage", "leadership"],
     "isActive": true
   },
   {
@@ -650,7 +650,7 @@
     "name": "Gandalf",
     "description": "Wise wizard and mentor from Middle-earth whose counsel on courage, destiny, and choosing to do what is right has inspired generations.",
     "oratorName": "Gandalf",
-    "wordCount": 12,
+    "wordCount": 16,
     "category": "Fictional / Mythic",
     "era": "Middle-earth (Legendarium)",
     "bio": "Gandalf the Grey (later the White) is a Maia sent to Middle-earth to aid in the fight against Sauron. As a guide to Frodo and the Fellowship, his words blend ancient wisdom, quiet humor, and a deep understanding of hope and perseverance in the face of overwhelming darkness.",
@@ -666,7 +666,7 @@
       "Mentorship",
       "Hope"
     ],
-    "themeCategories": ["wisdom", "courage", "destiny", "mentorship", "hope"],
+    "themeCategories": ["humanities", "courage", "inspirational", "leadership"],
     "isActive": true
   },
   {
@@ -674,7 +674,7 @@
     "name": "Yoda",
     "description": "Jedi Master whose paradoxical teachings on fear, failure, and the Force emphasize patience, acceptance, and the power of the present moment.",
     "oratorName": "Yoda",
-    "wordCount": 12,
+    "wordCount": 16,
     "category": "Fictional / Mythic",
     "era": "Star Wars Galaxy",
     "bio": "Yoda is one of the most powerful and revered Jedi Masters in the galaxy. Over 900 years old, his unique speech patterns and concise, riddle-like wisdom have guided generations of Jedi in the ways of the Force, teaching that true strength lies in humility, discipline, and letting go of fear.",
@@ -690,7 +690,7 @@
       "Patience",
       "The Force"
     ],
-    "themeCategories": ["wisdom", "fear", "failure", "patience", "balance"],
+    "themeCategories": ["humanities", "courage"],
     "isActive": true
   },
   {
@@ -698,7 +698,7 @@
     "name": "Rocky Balboa",
     "description": "Underdog boxer whose raw, heartfelt speeches on heart, perseverance, and refusing to stay down have become iconic motivational anthems.",
     "oratorName": "Rocky Balboa",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th-21st Century (Film)",
     "bio": "Rocky Balboa is a fictional small-time club fighter from Philadelphia created by Sylvester Stallone. His underdog journey and plainspoken wisdom about taking life's hardest punches, getting back up, and the will to keep moving forward have inspired millions across the Rocky film series. His monologues prize heart, effort, and character over talent or luck.",
@@ -714,7 +714,7 @@
       "Resilience",
       "Grit"
     ],
-    "themeCategories": ["perseverance", "courage", "resilience", "heart", "underdog", "motivation"],
+    "themeCategories": ["courage", "inspirational"],
     "isActive": true
   },
   {
@@ -722,7 +722,7 @@
     "name": "Mr. Miyagi",
     "description": "Wise Okinawan karate master and mentor whose unorthodox training methods and simple life lessons taught balance, discipline, and that true strength comes from within.",
     "oratorName": "Mr. Miyagi",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "Nariyoshi Miyagi is the humble, philosophical karate instructor from the Karate Kid films. Through seemingly mundane chores like waxing cars and painting fences, he imparts profound wisdom about life, balance, and perseverance to his young student Daniel. His teachings emphasize that the greatest lessons are often the simplest and that real power comes from within.",
@@ -738,7 +738,7 @@
       "Wisdom",
       "Perseverance"
     ],
-    "themeCategories": ["wisdom", "balance", "discipline", "mentorship", "perseverance"],
+    "themeCategories": ["humanities", "leadership", "courage"],
     "isActive": true
   },
   {
@@ -746,7 +746,7 @@
     "name": "Rudy Ruettiger",
     "description": "Working-class underdog who refused to let size, lack of talent, or naysayers stop him from earning a place on the Notre Dame football team.",
     "oratorName": "Rudy Ruettiger",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "Daniel 'Rudy' Ruettiger is the real-life inspired protagonist of the 1993 film. Despite being told repeatedly that he was too small and untalented, he worked menial jobs, studied relentlessly, and walked on to the Notre Dame football team. His story is the ultimate testament to heart, persistence, and proving people wrong.",
@@ -762,7 +762,7 @@
       "Dreams",
       "Determination"
     ],
-    "themeCategories": ["perseverance", "courage", "heart", "underdog", "dreams"],
+    "themeCategories": ["courage", "inspirational"],
     "isActive": true
   },
   {
@@ -770,7 +770,7 @@
     "name": "Herb Brooks",
     "description": "Intense coach who forged a team of college underdogs into Olympic champions with the 'Miracle on Ice' victory over the Soviet Union.",
     "oratorName": "Herb Brooks",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "Herb Brooks coached the 1980 U.S. Olympic men's ice hockey team to one of the greatest upsets in sports history. In the film Miracle, his demanding leadership, belief in the moment, and legendary pre-game speech turned a group of American college players into a unified team that defeated the dominant Soviets.",
@@ -786,7 +786,7 @@
       "Underdog",
       "Opportunity"
     ],
-    "themeCategories": ["leadership", "teamwork", "perseverance", "belief", "underdog"],
+    "themeCategories": ["leadership", "courage", "inspirational"],
     "isActive": true
   },
   {
@@ -794,7 +794,7 @@
     "name": "Herman Boone",
     "description": "Tough, principled coach who united a racially divided high school football team through discipline, respect, and the demand for perfection.",
     "oratorName": "Herman Boone",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "Coach Herman Boone, portrayed by Denzel Washington in Remember the Titans, took over a newly integrated Virginia high school football team in 1971. His no-nonsense approach, powerful speeches on unity, and insistence on excellence helped the Titans overcome deep prejudice and become state champions.",
@@ -810,7 +810,7 @@
       "Respect",
       "Perfection"
     ],
-    "themeCategories": ["leadership", "teamwork", "unity", "discipline", "respect"],
+    "themeCategories": ["leadership", "democracy"],
     "isActive": true
   },
   {
@@ -818,7 +818,7 @@
     "name": "Norman Dale",
     "description": "No-nonsense basketball coach who restored pride and taught fundamentals to a small-town Indiana team of underdogs.",
     "oratorName": "Norman Dale",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "Coach Norman Dale, played by Gene Hackman in Hoosiers, arrives in tiny Hickory, Indiana to coach a high school basketball team with big dreams but little experience or size. He emphasizes fundamentals, teamwork, sacrifice, and playing to your potential regardless of the scoreboard or the odds.",
@@ -834,7 +834,7 @@
       "Belief",
       "Underdog"
     ],
-    "themeCategories": ["fundamentals", "teamwork", "discipline", "belief", "underdog"],
+    "themeCategories": ["leadership", "inspirational", "courage"],
     "isActive": true
   },
   {
@@ -842,7 +842,7 @@
     "name": "James J. Braddock",
     "description": "Depression-era boxer and devoted family man who fought his way from the docks and public assistance back to the heavyweight title.",
     "oratorName": "James J. Braddock",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "20th Century (Film)",
     "bio": "James J. Braddock, known as the 'Cinderella Man,' was a real boxer whose story was dramatized by Russell Crowe. After injuries and the Great Depression left him broke, he returned to the ring to feed his family. His comeback became a symbol of hope, resilience, and fighting for what matters most.",
@@ -858,7 +858,7 @@
       "Hope",
       "Comeback"
     ],
-    "themeCategories": ["resilience", "perseverance", "family", "hope", "comeback"],
+    "themeCategories": ["courage", "inspirational"],
     "isActive": true
   },
   {
@@ -866,7 +866,7 @@
     "name": "Tommy Conlon",
     "description": "Wounded, intensely driven MMA fighter who channels pain, discipline, and family trauma into the cage in pursuit of redemption.",
     "oratorName": "Tommy Conlon",
-    "wordCount": 8,
+    "wordCount": 16,
     "category": "Fictional / Modern Inspirational",
     "era": "21st Century (Film)",
     "bio": "Tommy Conlon (Tom Hardy) in the 2011 film Warrior is a former U.S. Marine and gifted fighter estranged from his family. His raw drive, refusal to quit, and the story's powerful emotional climax explore fighting through personal hell, brotherhood, and the redemptive power of love and forgiveness.",
@@ -882,7 +882,7 @@
       "Pain",
       "Forgiveness"
     ],
-    "themeCategories": ["redemption", "family", "perseverance", "forgiveness", "heart"],
+    "themeCategories": ["courage", "inspirational"],
     "isActive": true
   }
 ]

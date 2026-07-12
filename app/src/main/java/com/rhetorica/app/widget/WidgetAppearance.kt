@@ -19,6 +19,14 @@ data class WidgetColorPreset(
 )
 
 object WidgetAppearance {
+    // Elegant dark + gold proposal colors (matching the selected design direction)
+    const val WIDGET_CARD_BG = 0xFF1C2433.toInt()
+    const val WIDGET_GOLD = 0xFFD4AF37.toInt()
+    const val WIDGET_GOLD_MUTED = 0xFFB8973A.toInt()
+    const val WIDGET_TEXT_PRIMARY = 0xFFF5F0E6.toInt()
+    const val WIDGET_TEXT_SECONDARY = 0xFFC8BFA8.toInt()
+    const val WIDGET_TEXT_ATTRIBUTION = 0xFFE8DFC8.toInt()
+
     val colorPresets = listOf(
         WidgetColorPreset(colorValue = 0xFF2C3E50.toInt(), labelRes = R.string.widget_color_midnight),
         WidgetColorPreset(colorValue = 0xFF5C2D2D.toInt(), labelRes = R.string.widget_color_claret),
@@ -37,6 +45,52 @@ object WidgetAppearance {
         return (alpha shl 24) or (colorValue and 0x00FFFFFF)
     }
 
+    /**
+     * Gold-bordered card background for the premium widget design.
+     * [fillColorArgb] should already include the user's opacity preference.
+     */
+    fun createElegantCardBitmap(
+        widthPx: Int,
+        heightPx: Int,
+        cornerRadiusPx: Float,
+        fillColorArgb: Int = WIDGET_CARD_BG,
+        borderColorArgb: Int = WIDGET_GOLD,
+        borderWidthPx: Float = 5f,
+    ): Bitmap {
+        val safeWidth = widthPx.coerceAtLeast(1)
+        val safeHeight = heightPx.coerceAtLeast(1)
+        val bitmap = Bitmap.createBitmap(safeWidth, safeHeight, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+
+        val fillPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = fillColorArgb
+            style = Paint.Style.FILL
+        }
+
+        val borderPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = borderColorArgb
+            style = Paint.Style.STROKE
+            strokeWidth = borderWidthPx
+        }
+
+        val rect = RectF(0f, 0f, safeWidth.toFloat(), safeHeight.toFloat())
+        canvas.drawRoundRect(rect, cornerRadiusPx, cornerRadiusPx, fillPaint)
+
+        // Gold border inset so the stroke sits inside the bounds.
+        val inset = borderWidthPx / 2f
+        val borderRect = RectF(
+            inset,
+            inset,
+            safeWidth - inset,
+            safeHeight - inset,
+        )
+        val borderRadius = (cornerRadiusPx - inset).coerceAtLeast(0f)
+        canvas.drawRoundRect(borderRect, borderRadius, borderRadius, borderPaint)
+
+        return bitmap
+    }
+
+    // Legacy solid rounded background (kept for compatibility / old customization path)
     fun createRoundedBackgroundBitmap(
         widthPx: Int,
         heightPx: Int,

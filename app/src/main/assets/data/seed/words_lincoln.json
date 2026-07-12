@@ -1,7 +1,7 @@
 [
   {
     "id": 40081,
-    "word": "Liberty",
+    "word": "liberty",
     "definition": "The state of being free within society from oppressive restrictions",
     "example": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
     "partOfSpeech": "noun",
@@ -9,14 +9,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40082,
-    "word": "Proposition",
+    "word": "proposition",
     "definition": "A statement or assertion that expresses a judgment or opinion",
     "example": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
     "partOfSpeech": "noun",
@@ -24,11 +21,11 @@
     "complexity": "advanced",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40083,
-    "word": "Devotion",
+    "word": "devotion",
     "definition": "Love, loyalty, or enthusiasm for a person or activity",
     "example": "It is rather for us to be here dedicated to the great task remaining before us — that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion.",
     "partOfSpeech": "noun",
@@ -36,137 +33,131 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40084,
-    "word": "Malice",
-    "definition": "The intention or desire to do evil; ill will",
+    "word": "malice",
+    "definition": "The intention or desire to do evil; ill will; a word that gains force in public speech.",
     "example": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40085,
-    "word": "Charity",
+    "word": "charity",
     "definition": "The voluntary giving of help, typically in the form of money, to those in need",
     "example": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40086,
-    "word": "Firmness",
-    "definition": "The quality of being firm in purpose or action",
+    "word": "firmness",
+    "definition": "The quality of being firm in purpose or action; a word that gains force in public speech.",
     "example": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40087,
-    "word": "Divided",
-    "definition": "Split into parts or factions",
+    "word": "divided",
+    "definition": "Split into parts or factions; a word that gains force in public speech.",
     "example": "A house divided against itself cannot stand. I believe this government cannot endure, permanently half slave and half free.",
     "partOfSpeech": "adjective",
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "House Divided Speech",
     "speech": "House Divided Speech (Illinois Republican Convention)",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40088,
-    "word": "Endure",
-    "definition": "Suffer (something painful or difficult) patiently",
+    "word": "endure",
+    "definition": "Suffer (something painful or difficult) patiently; a word that gains force in public speech.",
     "example": "A house divided against itself cannot stand. I believe this government cannot endure, permanently half slave and half free.",
     "partOfSpeech": "verb",
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "House Divided Speech",
     "speech": "House Divided Speech (Illinois Republican Convention)",
-    "categories": [
-      "courage"
-    ]
+    "categories": ["courage"]
   },
   {
     "id": 40089,
-    "word": "Affection",
-    "definition": "A gentle feeling of fondness or liking",
+    "word": "affection",
+    "definition": "A gentle feeling of fondness or liking; a word that gains force in public speech.",
     "example": "We are not enemies, but friends. We must not be enemies. Though passion may have strained it must not break our bonds of affection.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40090,
-    "word": "Bonds",
+    "word": "bonds",
     "definition": "A force or feeling that unites people; a shared emotion or interest",
     "example": "We are not enemies, but friends. We must not be enemies. Though passion may have strained it must not break our bonds of affection.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40091,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
-    "example": "In his address, the orator urged his listeners to show courage when facing the greatest challenges.",
+    "example": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it—with courage.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "source": "Cooper Union Address",
+    "speech": "Cooper Union Address",
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40092,
-    "word": "Faith",
+    "word": "faith",
     "definition": "Complete trust or confidence in someone or something",
     "example": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
-    "source": "Gettysburg Address",
-    "speech": "Gettysburg Address",
-    "categories": []
+    "source": "Cooper Union Address",
+    "speech": "Cooper Union Address",
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40093,
-    "word": "Emancipation",
+    "word": "emancipation",
     "definition": "The fact or process of being set free from legal, social, or political restrictions",
-    "example": "In his address, the orator urged his listeners to show emancipation when facing the greatest challenges.",
+    "example": "If God wills that every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said of the unfinished work of emancipation.",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40094,
-    "word": "Scourge",
+    "word": "scourge",
     "definition": "A person or thing that causes great trouble or suffering",
     "example": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
     "partOfSpeech": "noun",
@@ -174,38 +165,35 @@
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40095,
-    "word": "Fervently",
-    "definition": "Very enthusiastically or passionately",
+    "word": "fervently",
+    "definition": "Very enthusiastically or passionately; a word that gains force in public speech.",
     "example": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
     "partOfSpeech": "adverb",
     "oratorId": 5,
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40096,
-    "word": "Resolve",
-    "definition": "Firm determination to do something",
+    "word": "resolve",
+    "definition": "Firm determination to do something; a word that gains force in public speech.",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "verb",
     "oratorId": 5,
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": [
-      "leadership",
-      "courage"
-    ]
+    "categories": ["leadership", "courage"]
   },
   {
     "id": 40097,
-    "word": "Vain",
+    "word": "vain",
     "definition": "Having or showing an excessively high opinion of one's appearance, abilities, or worth",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "adjective",
@@ -213,11 +201,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40098,
-    "word": "Birth",
+    "word": "birth",
     "definition": "The emergence of a baby or other young from the body of its mother",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "noun",
@@ -225,11 +213,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40099,
-    "word": "Perish",
+    "word": "perish",
     "definition": "Suffer death, typically in a violent, sudden, or untimely way",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom — and that government of the people, by the people, for the people, shall not perish from the earth.",
     "partOfSpeech": "verb",
@@ -237,11 +225,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40100,
-    "word": "Government",
+    "word": "government",
     "definition": "The system by which a nation, state, or community is governed",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom — and that government of the people, by the people, for the people, shall not perish from the earth.",
     "partOfSpeech": "noun",
@@ -249,6 +237,18 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
+  },
+  {
+    "id": 40364,
+    "oratorId": 5,
+    "word": "consecrate",
+    "definition": "To make or declare sacred; to dedicate formally to a divine or solemn purpose.",
+    "example": "We cannot consecrate this ground—the dead have already made it holy beyond our poor power.",
+    "partOfSpeech": "verb",
+    "complexity": "advanced",
+    "categories": ["humanities", "legacy", "courage"],
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address"
   }
 ]

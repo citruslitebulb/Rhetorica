@@ -3,13 +3,13 @@
     "id": 29001,
     "word": "destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future.",
-    "example": "All we have to decide is what to do with the time that is given us.",
+    "example": "Destiny is not only what happens to us; all we have to decide is what to do with the time that is given us.",
     "partOfSpeech": "noun",
     "oratorId": 29,
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Fellowship of the Ring",
     "speech": "The Shadow of the Past",
-    "categories": ["destiny", "wisdom", "courage"]
+    "categories": ["inspirational", "humanities", "courage"]
   },
   {
     "id": 29002,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Two Towers",
     "speech": "The White Rider",
-    "categories": ["courage", "wisdom", "hope"]
+    "categories": ["courage", "humanities", "inspirational"]
   },
   {
     "id": 29003,
@@ -33,7 +33,7 @@
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Two Towers",
     "speech": "The White Rider",
-    "categories": ["courage", "wisdom", "hope"]
+    "categories": ["courage", "humanities", "inspirational"]
   },
   {
     "id": 29004,
@@ -45,19 +45,19 @@
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Fellowship of the Ring",
     "speech": "The Shadow of the Past",
-    "categories": ["wisdom", "ethics", "mentorship"]
+    "categories": ["humanities", "leadership"]
   },
   {
     "id": 29005,
     "word": "grief",
     "definition": "Deep sorrow, especially that caused by someone's death.",
-    "example": "I will not say: do not weep; for not all tears are an evil.",
+    "example": "Grief need not be denied: I will not say do not weep, for not all tears are an evil.",
     "partOfSpeech": "noun",
     "oratorId": 29,
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Return of the King",
     "speech": "The Grey Havens",
-    "categories": ["wisdom", "hope", "mentorship"]
+    "categories": ["humanities", "inspirational", "leadership"]
   },
   {
     "id": 29006,
@@ -69,30 +69,126 @@
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Fellowship of the Ring",
     "speech": "The Shadow of the Past",
-    "categories": ["power", "wisdom", "courage"]
+    "categories": ["leadership", "humanities", "courage"]
   },
   {
     "id": 29007,
     "word": "hope",
     "definition": "A feeling of expectation and desire for a certain thing to happen.",
-    "example": "The world is indeed full of peril, and in it there are many dark places; but still there is much that is fair, and though in all lands love is now mingled with grief, it grows perhaps the greater.",
+    "example": "Hope remains even when the world is full of peril and many dark places—still there is much that is fair.",
     "partOfSpeech": "noun",
     "oratorId": 29,
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Two Towers",
     "speech": "The White Rider",
-    "categories": ["hope", "wisdom", "courage"]
+    "categories": ["inspirational", "humanities", "courage"]
   },
   {
     "id": 29008,
     "word": "agency",
     "definition": "The capacity of an individual to act independently and to make their own free choices.",
-    "example": "All we have to decide is what to do with the time that is given us.",
+    "example": "Agency is the choice before us: all we have to decide is what to do with the time that is given us.",
     "partOfSpeech": "noun",
     "oratorId": 29,
     "complexity": "advanced",
     "source": "The Lord of the Rings: The Fellowship of the Ring",
     "speech": "The Shadow of the Past",
-    "categories": ["wisdom", "courage", "destiny"]
+    "categories": ["humanities", "courage", "inspirational"]
+  },
+  {
+    "id": 29009,
+    "oratorId": 29,
+    "word": "fellowship",
+    "definition": "Friendly association, especially with people who share interests; a company of companions.",
+    "example": "Fellowship is the answer when the road is too dark for one pair of feet.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings",
+    "speech": "Council counsel",
+    "categories": ["inspirational", "leadership", "courage"]
+  },
+  {
+    "id": 29010,
+    "oratorId": 29,
+    "word": "shadow",
+    "definition": "A dark area; metaphorically, evil or despair that follows light.",
+    "example": "Even the smallest person can change the course of the future when the shadow seems complete.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings",
+    "speech": "Counsel to Frodo",
+    "categories": ["courage", "inspirational", "humanities"]
+  },
+  {
+    "id": 29011,
+    "oratorId": 29,
+    "word": "pity",
+    "definition": "The feeling of sorrow and compassion caused by the suffering of others.",
+    "example": "It was pity that stayed Bilbo’s hand—and pity that left a crack for light to enter later.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Fellowship of the Ring",
+    "speech": "On Bilbo and the Ring",
+    "categories": ["humanities", "legacy", "courage"]
+  },
+  {
+    "id": 29012,
+    "oratorId": 29,
+    "word": "wanderer",
+    "definition": "A person who travels aimlessly; one who roams.",
+    "example": "Not all those who wander are lost—a wanderer may still walk a true road.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Fellowship of the Ring",
+    "speech": "Verse of the Rings / Strider",
+    "categories": ["inspirational", "arts", "legacy"]
+  },
+  {
+    "id": 29013,
+    "oratorId": 29,
+    "word": "kindle",
+    "definition": "To light or set on fire; to arouse or inspire an emotion.",
+    "example": "A single act of kindness can kindle hope when strategy has gone cold.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings",
+    "speech": "Counsel of hope",
+    "categories": ["inspirational", "humanities"]
+  },
+  {
+    "id": 29014,
+    "oratorId": 29,
+    "word": "endurance",
+    "definition": "The ability to withstand hardship over a long period.",
+    "example": "Endurance, not glory, carries the Ring when strength has already been spent.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Lord of the Rings",
+    "speech": "On the long road",
+    "categories": ["courage", "legacy"]
+  },
+  {
+    "id": 29015,
+    "oratorId": 29,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past"
+  },
+  {
+    "id": 29016,
+    "oratorId": 29,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "The Lord of the Rings: The Fellowship of the Ring",
+    "speech": "The Shadow of the Past"
   }
 ]

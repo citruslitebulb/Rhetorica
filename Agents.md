@@ -25,8 +25,8 @@ Core characteristics:
 ## Tech Stack
 - **Language / UI**: Kotlin 100%, Jetpack Compose + Material 3
 - **Architecture**: Single-Activity, Navigation Compose, Hilt (DI), ViewModel + Kotlin Flow/StateFlow
-- **Persistence**: Room (entities + DAOs for words, saved words, progress, dictionaries, preferences, quotes, speeches). Current schema version: 14. Heavy use of migrations and `@TypeConverters` (JSON lists).
-- **Seeding**: Kotlinx Serialization + assets in `app/src/main/assets/data/seed/`. `SeedDataLoader` runs on every launch (upserts dictionaries, words, quotes, speeches).
+- **Persistence**: Room (entities + DAOs for words, saved words, progress, dictionaries, preferences, quotes, speeches). Current schema version: 15. Heavy use of migrations and `@TypeConverters` (JSON lists).
+- **Seeding**: Kotlinx Serialization + assets in `app/src/main/assets/data/seed/`. `SeedDataLoader` version-gates reloads via `SEED_VERSION` (skips full upsert when already current). On reload it upserts then **prunes** IDs absent from assets (chunked deletes; orphaned saved words cleaned). Any `words_*.json` parse failure **or invalid `oratorId`** aborts the whole load (no prune / no version bump). Quote/speech prune is skipped if those assets failed partially. **Always bump `SeedDataLoader.SEED_VERSION` when any seed JSON changes.**
 - **Background / Widget**: WorkManager (Hilt-enabled) for daily Word of the Day notifications + `AppWidgetProvider`.
 - **Build**: Gradle Kotlin DSL + version catalog (`gradle/libs.versions.toml`), KSP for Room/Hilt.
 - **Min / Target**: API 27 / 35
@@ -130,7 +130,7 @@ Always check the "Current Status", "Still Outstanding", and "MVP Milestones" sec
 5. After changes, provide a short verification plan (e.g. "Builds cleanly. Verified home feed filtering by orator and theme. Widget updates on color change.").
 6. Do not introduce new third-party dependencies without strong justification (current set is deliberate and minimal).
 7. Database schema changes **must** include a proper `Migration` in `RhetoricaDatabase` + version bump.
-8. Seed JSON changes affect first-run and re-seed for all users — keep them additive where possible.
+8. Seed JSON changes affect first-run and re-seed for all users — keep them additive where possible. **Bump `SeedDataLoader.SEED_VERSION` whenever bundled seed assets change**, or returning installs will skip the reload.
 9. Update or add tests when behavior changes (currently very few tests exist; at minimum validate seed loading).
 
 ## Verification Expectations

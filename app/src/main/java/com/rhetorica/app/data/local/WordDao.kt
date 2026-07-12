@@ -32,9 +32,28 @@ interface WordDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertWords(words: List<WordEntity>)
 
+    @Query("SELECT id FROM words")
+    suspend fun getAllWordIds(): List<Long>
+
+    @Query("DELETE FROM words WHERE id IN (:ids)")
+    suspend fun deleteWordsByIds(ids: List<Long>)
+
     @Query("SELECT COUNT(*) FROM words")
     suspend fun wordCount(): Int
 
     @Query("SELECT COUNT(*) FROM words WHERE oratorId = :oratorId")
     suspend fun wordCountByOrator(oratorId: Long): Int
+
+    @Query("SELECT * FROM words ORDER BY RANDOM() LIMIT :limit")
+    suspend fun getRandomWords(limit: Int): List<WordEntity>
+
+    @Query(
+        """
+        SELECT * FROM words
+        WHERE oratorId = :oratorId
+        ORDER BY RANDOM()
+        LIMIT :limit
+        """,
+    )
+    suspend fun getRandomWordsByOrator(oratorId: Long, limit: Int): List<WordEntity>
 }

@@ -77,10 +77,26 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 - Widget appearance settings currently support flat color presets plus translucency, persist locally, and refresh the widget reliably.
 
 ### Still Outstanding
-- Quiz flow and persisted quiz outcomes.
 - Widget image backgrounds, presets/gallery selection, and related image/translucency handling.
-- TTS implementation beyond placeholder hooks.
 - Motion polish, broader accessibility pass, and performance polish.
+- Notification time picker (currently WorkManager 24h periodic with fixed initial delay).
+- Onboarding / first-run orator pick flow.
+
+### Recently Improved
+- Quiz: definition-match multiple choice with session score + progress persistence (scoped to selected orator when set).
+- TTS: real `TextToSpeech` via `TtsSpeaker` (word detail + notification Hear; single-engine lifecycle).
+- Deep links: widget speech CTA and notification body / “More info” open word detail.
+- Home: Word of the Day hero + empty / filter-empty states.
+- Word detail: speech-matched orator quote + speak button; safe not-found state.
+- Profile: opens / saved / quiz progress stats.
+- Seed: version-gated reload with orphan prune (chunked deletes; any words_*.json parse failure or invalid oratorId aborts without prune/version bump; quote/speech prune only when those assets load cleanly).
+
+### Store Launch Phase (New Focus)
+The core MVP feature set is largely complete. The project has entered the **Google Play Store release preparation** phase. See the dedicated plan:
+
+→ **[PlayStore_Release_Plan.md](./PlayStore_Release_Plan.md)**
+
+Key remaining work for publication includes release signing + minification, producing store assets (screenshots, feature graphic), creating a Privacy Policy, and filling out the Play Console Data Safety / Content Rating sections. Quiz and TTS are implemented in-app.
 
 ## 7) MVP Milestones
 ### Milestone 1 - Foundation
@@ -100,7 +116,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 3. [Done] Saved screen with filtering/sorting basics.
 
 ### Milestone 4 - Quiz + Profile Shell
-1. [Not started] Basic quiz flow (multiple choice or definition match).
+1. [Done] Basic quiz flow (definition-match multiple choice + session score).
 2. [Not started] Persist quiz outcomes to progress table.
 3. [Done/Partial] Profile/Settings scaffold with TTS placeholder and widget appearance settings controls.
 
@@ -126,6 +142,8 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 - UI is cohesive in dark and light modes.
 - Codebase is modular enough for later API/sync integration.
 
+> **Note**: Full "Definition of Done" for publishing to the Google Play Store is defined in [PlayStore_Release_Plan.md](./PlayStore_Release_Plan.md#7-definition-of-store-ready-v10). The MVP DoD above is a prerequisite.
+
 ## 9) Immediate First Deliverable (this sprint)
 1. [Done] Full root build files and convention plugins.
 2. [Done] App theme and reusable word card component.
@@ -142,3 +160,21 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 3. Seed dataset source: self-curated JSON, public word list, or generated starter set?
 4. Detail pattern: bottom sheet (faster) vs full screen (cleaner navigation)?
 5. Should Profile include streaks in MVP, or defer to phase 2?
+
+---
+
+## 11) Post-MVP: Google Play Store Release (See Dedicated Plan)
+Major new workstream: preparing the app for public distribution on the Google Play Store.
+
+All release-specific planning, technical requirements, asset needs, policy work, code tasks, and phased milestones are documented in:
+
+**`PlayStore_Release_Plan.md`** (root of the repository).
+
+This includes:
+- Release signing configuration and enabling R8/minification.
+- Completing or gating incomplete features (Quiz, TTS, notification deep links).
+- Store listing assets (screenshots, feature graphic).
+- Privacy Policy + Data Safety section.
+- Pre-launch testing process and Definition of "Store-Ready".
+
+Update the dedicated release plan as work progresses. Re-read both `App_Plan.md` and `PlayStore_Release_Plan.md` before starting significant release-related changes.

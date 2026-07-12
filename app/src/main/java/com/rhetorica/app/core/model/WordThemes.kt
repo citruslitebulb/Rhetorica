@@ -37,7 +37,11 @@ object WordThemes {
         "democracy" -> "Democracy"
         "courage" -> "Courage"
         "legacy" -> "Legacy"
-        else -> theme.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+        else -> theme
+            .split(Regex("\\s+"))
+            .joinToString(" ") { part ->
+                part.replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+            }
     }
 
     /** Returns true if the given string is one of the supported theme values. */

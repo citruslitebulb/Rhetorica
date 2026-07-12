@@ -9,43 +9,43 @@
     "complexity": "advanced",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["innovation", "moonshots", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 24002,
     "word": "incremental",
     "definition": "Relating to or denoting an increase or addition, especially one that is small or gradual.",
-    "example": "Most companies would be happy to improve a product by 10 percent. Not us.",
+    "example": "We reject the merely incremental: most companies improve ten percent; we aim for something far bolder.",
     "partOfSpeech": "adjective",
     "oratorId": 24,
     "complexity": "intermediate",
     "source": "Philosophy of 10x at Google X",
     "speech": "10x Thinking",
-    "categories": ["innovation", "moonshots", "technology"]
+    "categories": ["tech"]
   },
   {
     "id": 24003,
     "word": "additionality",
     "definition": "The property of creating an impact or outcome that would not have occurred without the specific intervention or effort.",
-    "example": "It means doing something that wouldn’t happen unless you’re actually doing it.",
+    "example": "Additionality means doing something that wouldn’t happen unless you are actually doing it.",
     "partOfSpeech": "noun",
     "oratorId": 24,
     "complexity": "advanced",
     "source": "Talks on additionality and 10x ideas",
     "speech": "Moonshots and Additionality",
-    "categories": ["innovation", "moonshots", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 24004,
     "word": "ambition",
     "definition": "A strong desire to do or achieve something, typically requiring determination and hard work.",
-    "example": "We're at maybe 1% of what is possible. Despite the faster change, we're still moving slow relative to the opportunities we have.",
+    "example": "Ambition admits we are at maybe one percent of what is possible—still moving slowly relative to the opportunity.",
     "partOfSpeech": "noun",
     "oratorId": 24,
     "complexity": "intermediate",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["moonshots", "leadership", "vision"]
+    "categories": ["tech", "leadership", "inspirational"]
   },
   {
     "id": 24005,
@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["innovation", "moonshots", "leadership"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 24006,
@@ -69,30 +69,126 @@
     "complexity": "intermediate",
     "source": "Talks on moonshots",
     "speech": "Moonshots and Additionality",
-    "categories": ["innovation", "vision", "technology"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 24007,
     "word": "transformative",
     "definition": "Causing a marked change in someone or something.",
-    "example": "We have the opportunity and the responsibility to build products and technologies that can truly change the world for the better.",
+    "example": "Transformative products and technologies are both our opportunity and our responsibility.",
     "partOfSpeech": "adjective",
     "oratorId": 24,
     "complexity": "advanced",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["moonshots", "innovation", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 24008,
     "word": "foundational",
     "definition": "Forming or serving as a necessary base or core; of central importance.",
-    "example": "The future is going to be about what we can imagine and create, not just what we can optimize.",
+    "example": "Foundational work imagines and creates the future, not merely optimizes the present.",
     "partOfSpeech": "adjective",
     "oratorId": 24,
     "complexity": "advanced",
     "source": "Talks on long-term technology",
     "speech": "Moonshots and the Future",
-    "categories": ["moonshots", "innovation", "vision"]
+    "categories": ["tech", "inspirational"]
+  },
+  {
+    "id": 24009,
+    "oratorId": 24,
+    "word": "10x",
+    "definition": "An improvement on the order of ten times, not ten percent.",
+    "example": "Aim for 10x, not 10 percent—small thinking makes small organizations.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Moonshot culture",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 24010,
+    "oratorId": 24,
+    "word": "imagine",
+    "definition": "To form a mental image of something not present; to conceive creatively.",
+    "example": "The future belongs to those who can imagine it clearly enough to prototype.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Vision talks",
+    "speech": "Vision talks",
+    "categories": ["inspirational", "tech"]
+  },
+  {
+    "id": 24011,
+    "oratorId": 24,
+    "word": "constraint",
+    "definition": "A limitation or restriction that shapes design choices.",
+    "example": "Treat physics as a constraint, not an excuse—great engineering dances with limits.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Engineering culture",
+    "speech": "Engineering talks",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 24012,
+    "oratorId": 24,
+    "word": "audacity",
+    "definition": "Willingness to take bold risks; confident daring.",
+    "example": "Audacity without rigor is noise; rigor without audacity is maintenance.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Moonshot culture",
+    "speech": "Moonshot talks",
+    "categories": ["courage", "tech", "leadership"]
+  },
+  {
+    "id": 24013,
+    "oratorId": 24,
+    "word": "platform",
+    "definition": "A foundation on which other applications, processes, or technologies are built.",
+    "example": "Build a platform when one product cannot hold the whole opportunity.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Product strategy",
+    "speech": "Product strategy talks",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 24014,
+    "oratorId": 24,
+    "word": "relentless",
+    "definition": "Oppressively constant; unyielding in pursuit.",
+    "example": "Relentless curiosity is the only scalable hiring filter that still feels human.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Culture remarks",
+    "speech": "Culture talks",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 24015,
+    "oratorId": 24,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots"
+  },
+  {
+    "id": 24016,
+    "oratorId": 24,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots"
   }
 ]

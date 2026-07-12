@@ -1,19 +1,19 @@
 [
   {
     "id": 40061,
-    "word": "Persuasion",
+    "word": "persuasion",
     "definition": "The action or fact of persuading someone or of being persuaded to do or believe something",
-    "example": "In his address, the orator urged his listeners to show persuasion when facing the greatest challenges.",
+    "example": "Persuasion is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40062,
-    "word": "Cooperation",
+    "word": "cooperation",
     "definition": "The action or process of working together to the same end",
     "example": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
     "partOfSpeech": "noun",
@@ -21,11 +21,11 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40063,
-    "word": "Education",
+    "word": "education",
     "definition": "The process of receiving or giving systematic instruction",
     "example": "The true test of education is not what a man knows, but what he does with his knowledge and how he uses his speech for the good of the city.",
     "partOfSpeech": "noun",
@@ -33,23 +33,23 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40064,
-    "word": "Integrity",
+    "word": "integrity",
     "definition": "The quality of being honest and having strong moral principles",
-    "example": "In his address, the orator urged his listeners to show integrity when facing the greatest challenges.",
+    "example": "Integrity is the hinge of Panathenaicus: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40065,
-    "word": "Harmony",
+    "word": "harmony",
     "definition": "The combination of simultaneously sounded musical notes to produce a pleasing effect",
     "example": "We must not judge a man by his words alone, but by whether his actions are in harmony with his speech.",
     "partOfSpeech": "noun",
@@ -57,11 +57,11 @@
     "complexity": "intermediate",
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40066,
-    "word": "Counselor",
+    "word": "counselor",
     "definition": "A person who gives advice or guidance",
     "example": "He who is a good counselor to his friends and a wise guide to his city deserves greater honor than the man who wins many battles.",
     "partOfSpeech": "noun",
@@ -69,23 +69,23 @@
     "complexity": "intermediate",
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40067,
-    "word": "Virtue",
+    "word": "virtue",
     "definition": "Behavior showing high moral standards",
-    "example": "In his address, the orator urged his listeners to show virtue when facing the greatest challenges.",
+    "example": "Virtue is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40068,
-    "word": "Character",
+    "word": "character",
     "definition": "The mental and moral qualities distinctive to an individual",
     "example": "A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character.",
     "partOfSpeech": "noun",
@@ -93,13 +93,11 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": [
-      "leadership"
-    ]
+    "categories": ["leadership"]
   },
   {
     "id": 40069,
-    "word": "Corrupt",
+    "word": "corrupt",
     "definition": "Cause to act dishonestly in return for money or personal gain",
     "example": "A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character.",
     "partOfSpeech": "adjective",
@@ -107,11 +105,11 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40070,
-    "word": "Justice",
+    "word": "justice",
     "definition": "Just behavior or treatment",
     "example": "The man who can speak most eloquently on behalf of justice will be the true benefactor of his fellow citizens.",
     "partOfSpeech": "noun",
@@ -119,13 +117,11 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40071,
-    "word": "Eloquently",
+    "word": "eloquently",
     "definition": "In a fluent or persuasive manner",
     "example": "The man who can speak most eloquently on behalf of justice will be the true benefactor of his fellow citizens.",
     "partOfSpeech": "adverb",
@@ -133,13 +129,11 @@
     "complexity": "advanced",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40072,
-    "word": "Benefactor",
+    "word": "benefactor",
     "definition": "A person who gives money or other help to a person or cause",
     "example": "The man who can speak most eloquently on behalf of justice will be the true benefactor of his fellow citizens.",
     "partOfSpeech": "noun",
@@ -147,23 +141,23 @@
     "complexity": "advanced",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40073,
-    "word": "Paideia",
+    "word": "paideia",
     "definition": "The rearing and education of a child; cultural upbringing",
-    "example": "In his address, the orator urged his listeners to show paideia when facing the greatest challenges.",
+    "example": "Paideia is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40074,
-    "word": "Treasure",
+    "word": "treasure",
     "definition": "A quantity of precious metals, gems, or other valuable objects",
     "example": "Education is the best provision for old age; it furnishes a man with a treasure that time cannot take away.",
     "partOfSpeech": "noun",
@@ -171,11 +165,11 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40075,
-    "word": "Advantage",
+    "word": "advantage",
     "definition": "A condition or circumstance that puts one in a favorable or superior position",
     "example": "We must not allow the desire for immediate advantage to lead us into actions that will bring lasting disgrace.",
     "partOfSpeech": "noun",
@@ -183,11 +177,11 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40076,
-    "word": "Disgrace",
+    "word": "disgrace",
     "definition": "Loss of reputation or respect as the result of a dishonorable action",
     "example": "We must not allow the desire for immediate advantage to lead us into actions that will bring lasting disgrace.",
     "partOfSpeech": "noun",
@@ -195,49 +189,47 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40077,
-    "word": "Logos",
+    "word": "logos",
     "definition": "A principle of order and knowledge",
-    "example": "In his address, the orator urged his listeners to show logos when facing the greatest challenges.",
+    "example": "Logos is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40078,
     "word": "Self-mastery",
     "definition": "Control of one's emotions, desires, or actions by one's own will",
-    "example": "In his address, the orator urged his listeners to show self-mastery when facing the greatest challenges.",
+    "example": "Self-mastery is the hinge of To Nicocles (letter of advice to a ruler): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
-    "categories": []
+    "categories": ["inspirational"]
   },
   {
     "id": 40079,
-    "word": "Moral",
+    "word": "moral",
     "definition": "Concerned with the principles of right and wrong behavior",
-    "example": "In his address, the orator urged his listeners to show moral when facing the greatest challenges.",
+    "example": "A moral argument runs through Antidosis (defense of his teaching): conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40080,
-    "word": "Sophistry",
+    "word": "sophistry",
     "definition": "The use of clever but false arguments, especially with the intention of deceiving",
     "example": "He emphasized moral education and ethical persuasion over the sophistry of his contemporaries.",
     "partOfSpeech": "noun",
@@ -245,6 +237,6 @@
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": []
+    "categories": ["inspirational"]
   }
 ]

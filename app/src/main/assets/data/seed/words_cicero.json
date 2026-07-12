@@ -1,7 +1,7 @@
 [
   {
     "id": 40021,
-    "word": "Patience",
+    "word": "patience",
     "definition": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry or upset",
     "example": "How long, Catiline, will you abuse our patience? How long will that madness of yours mock us?",
     "partOfSpeech": "noun",
@@ -9,11 +9,11 @@
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40022,
-    "word": "Madness",
+    "word": "madness",
     "definition": "The state of being mentally ill, especially severely",
     "example": "How long, Catiline, will you abuse our patience? How long will that madness of yours mock us?",
     "partOfSpeech": "noun",
@@ -21,11 +21,11 @@
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40023,
-    "word": "Memory",
+    "word": "memory",
     "definition": "The faculty by which the mind stores and remembers information",
     "example": "The life of the dead is placed in the memory of the living. Not to know what happened before you were born is to remain a child forever.",
     "partOfSpeech": "noun",
@@ -33,37 +33,35 @@
     "complexity": "intermediate",
     "source": "Orator",
     "speech": "Orator ad M. Brutum",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40024,
-    "word": "Ignorance",
-    "definition": "Lack of knowledge or information",
-    "example": "In his address, the orator urged his listeners to show ignorance when facing the greatest challenges.",
+    "word": "ignorance",
+    "definition": "Lack of knowledge or information; a word that gains force in public speech.",
+    "example": "Ignorance is the hinge of Orator ad M. Brutum: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Orator",
     "speech": "Orator ad M. Brutum",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40025,
-    "word": "Treason",
-    "definition": "The crime of betraying one's country",
+    "word": "treason",
+    "definition": "The crime of betraying one's country; a word that gains force in public speech.",
     "example": "A nation can survive its fools, and even the ambitious. But it cannot survive treason from within.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40026,
-    "word": "Welfare",
+    "word": "welfare",
     "definition": "The health, happiness, and fortunes of a person or group",
     "example": "The welfare of the people is the supreme law.",
     "partOfSpeech": "noun",
@@ -71,26 +69,23 @@
     "complexity": "intermediate",
     "source": "On the Laws (De Legibus)",
     "speech": "De Legibus",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40027,
-    "word": "Liberty",
+    "word": "liberty",
     "definition": "The state of being free within society from oppressive restrictions",
-    "example": "In his address, the orator urged his listeners to show liberty when facing the greatest challenges.",
+    "example": "Liberty is the hinge of Philippica II: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
     "speech": "Philippica II",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40028,
-    "word": "Fidelity",
+    "word": "fidelity",
     "definition": "Faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support",
     "example": "Nothing is more noble, nothing more venerable than fidelity.",
     "partOfSpeech": "noun",
@@ -98,85 +93,83 @@
     "complexity": "advanced",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40029,
-    "word": "Tyrant",
-    "definition": "A cruel and oppressive ruler",
-    "example": "In his address, the orator urged his listeners to show tyrant when facing the greatest challenges.",
+    "word": "tyrant",
+    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
+    "example": "Tyrant is the hinge of Philippica II: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
     "speech": "Philippica II",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40030,
-    "word": "Justice",
-    "definition": "Just behavior or treatment",
-    "example": "In his address, the orator urged his listeners to show justice when facing the greatest challenges.",
+    "word": "justice",
+    "definition": "Just behavior or treatment; a word that gains force in public speech.",
+    "example": "Justice is the hinge of In Verrem: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Against Verres",
     "speech": "In Verrem",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40031,
-    "word": "Corruption",
-    "definition": "Dishonest or fraudulent conduct by those in power",
-    "example": "In his address, the orator urged his listeners to show corruption when facing the greatest challenges.",
+    "word": "corruption",
+    "definition": "Dishonest or fraudulent conduct by those in power; a word that gains force in public speech.",
+    "example": "Corruption is the hinge of In Catilinam I: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40032,
-    "word": "Luxury",
-    "definition": "The state of great comfort and extravagant living",
+    "word": "luxury",
+    "definition": "The state of great comfort and extravagant living; a word that gains force in public speech.",
     "example": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40033,
-    "word": "Constancy",
-    "definition": "The quality of being faithful and dependable",
-    "example": "In his address, the orator urged his listeners to show constancy when facing the greatest challenges.",
+    "word": "constancy",
+    "definition": "The quality of being faithful and dependable; a word that gains force in public speech.",
+    "example": "Constancy is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "advanced",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40034,
-    "word": "Resolute",
-    "definition": "Admirably purposeful, determined, and unwavering",
+    "word": "resolute",
+    "definition": "Admirably purposeful, determined, and unwavering; a word that gains force in public speech.",
     "example": "It is the character of a brave and resolute man not to be ruffled by adversity and not to be elated by prosperity.",
     "partOfSpeech": "adjective",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40035,
-    "word": "Republic",
+    "word": "republic",
     "definition": "A state in which supreme power is held by the people and their elected representatives",
     "example": "In a republic, the voice of the people, when it is the voice of reason and justice, must prevail.",
     "partOfSpeech": "noun",
@@ -184,37 +177,35 @@
     "complexity": "intermediate",
     "source": "Against Verres",
     "speech": "In Verrem",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40036,
-    "word": "Virtue",
-    "definition": "Behavior showing high moral standards",
-    "example": "In his address, the orator urged his listeners to show virtue when facing the greatest challenges.",
+    "word": "virtue",
+    "definition": "Behavior showing high moral standards; a word that gains force in public speech.",
+    "example": "Virtue is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40037,
-    "word": "Persuade",
+    "word": "persuade",
     "definition": "Cause (someone) to do something through reasoning or argument",
-    "example": "In his address, the orator urged his listeners to show persuade when facing the greatest challenges.",
+    "example": "The appeal was not to wait, but to persuade—Antidosis made delay look like surrender.",
     "partOfSpeech": "verb",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40038,
-    "word": "Citizen",
+    "word": "citizen",
     "definition": "A legally recognized subject or national of a state or commonwealth",
     "example": "We are not born for ourselves alone, but for our country, our friends, and our fellow citizens.",
     "partOfSpeech": "noun",
@@ -222,30 +213,42 @@
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40039,
-    "word": "Honor",
-    "definition": "High respect; great esteem",
-    "example": "In his address, the orator urged his listeners to show honor when facing the greatest challenges.",
+    "word": "honor",
+    "definition": "High respect; great esteem; a word that gains force in public speech.",
+    "example": "Honor is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40040,
-    "word": "Conspiracy",
+    "word": "conspiracy",
     "definition": "A secret plan by a group to do something unlawful or harmful",
-    "example": "In his address, the orator urged his listeners to show conspiracy when facing the greatest challenges.",
+    "example": "Conspiracy is the hinge of In Catilinam I: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
+  },
+  {
+    "id": 40362,
+    "oratorId": 2,
+    "word": "eloquence",
+    "definition": "Fluent, forceful, and persuasive speaking or writing.",
+    "example": "Cicero treated eloquence as moral architecture—beauty built to carry truth.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "categories": ["arts", "humanities", "leadership"],
+    "source": "Orations",
+    "speech": "In Catilinam I"
   }
 ]

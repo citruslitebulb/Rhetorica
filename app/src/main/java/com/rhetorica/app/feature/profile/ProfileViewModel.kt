@@ -7,6 +7,7 @@ import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.widget.WidgetAppearance
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
@@ -21,12 +22,14 @@ import javax.inject.Inject
 class ProfileViewModel @Inject constructor(
     private val dictionaryRepository: DictionaryRepository,
     private val userPreferencesDao: UserPreferencesDao,
+    private val progressRepository: ProgressRepository,
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
     val uiState: StateFlow<ProfileUiState> = combine(
         dictionaryRepository.observeActiveOratorProfiles(),
         userPreferencesDao.observeUserPreferences(),
-    ) { orators, preferences ->
+        progressRepository.observeProgress(),
+    ) { orators, preferences, progress ->
         val selectedThemes = preferences?.selectedThemeCategories ?: emptyList()
         val filteredOrators = if (selectedThemes.isEmpty()) {
             orators
@@ -45,6 +48,9 @@ class ProfileViewModel @Inject constructor(
             selectedThemeCategories = selectedThemes,
             widgetBackgroundColor = preferences?.widgetBackgroundColor ?: 0xFF2C3E50.toInt(),
             widgetBackgroundOpacityPercent = preferences?.widgetBackgroundOpacityPercent ?: 80,
+            viewedCount = progress?.viewedCount ?: 0,
+            savedCount = progress?.savedCount ?: 0,
+            quizCorrectCount = progress?.quizCorrectCount ?: 0,
         )
     }.stateIn(
         scope = viewModelScope,
@@ -52,15 +58,25 @@ class ProfileViewModel @Inject constructor(
         initialValue = ProfileUiState(),
     )
 
+    init {
+        viewModelScope.launch {
+            progressRepository.syncSavedCount()
+        }
+    }
+
     fun selectOrator(oratorId: Long?) {
         viewModelScope.launch {
             val currentPrefs = userPreferencesDao.getUserPreferences()
-            val updatedPrefs = currentPrefs?.copy(selectedOratorId = oratorId)
-                ?: UserPreferencesEntity(
-                    favoriteOratorIds = emptyList(),
-                    rotateThroughAll = false,
-                    selectedOratorId = oratorId,
-                )
+            // Selecting a specific orator must exit "rotate through all" so Word of the Day
+            // is taken from that orator's vocabulary (not a global word re-labeled).
+            val updatedPrefs = currentPrefs?.copy(
+                selectedOratorId = oratorId,
+                rotateThroughAll = if (oratorId != null) false else currentPrefs.rotateThroughAll,
+            ) ?: UserPreferencesEntity(
+                favoriteOratorIds = emptyList(),
+                rotateThroughAll = false,
+                selectedOratorId = oratorId,
+            )
             userPreferencesDao.upsertUserPreferences(updatedPrefs)
             WidgetAppearance.refreshAllWidgets(context)
         }
@@ -69,12 +85,16 @@ class ProfileViewModel @Inject constructor(
     fun toggleRotateThroughAll() {
         viewModelScope.launch {
             val currentPrefs = userPreferencesDao.getUserPreferences()
-            val updatedPrefs = currentPrefs?.copy(rotateThroughAll = !currentPrefs.rotateThroughAll)
-                ?: UserPreferencesEntity(
-                    favoriteOratorIds = emptyList(),
-                    rotateThroughAll = true,
-                    selectedOratorId = null,
-                )
+            val enableRotate = !(currentPrefs?.rotateThroughAll ?: false)
+            val updatedPrefs = currentPrefs?.copy(
+                rotateThroughAll = enableRotate,
+                // Global rotation means no single orator owns the daily word.
+                selectedOratorId = if (enableRotate) null else currentPrefs.selectedOratorId,
+            ) ?: UserPreferencesEntity(
+                favoriteOratorIds = emptyList(),
+                rotateThroughAll = true,
+                selectedOratorId = null,
+            )
             userPreferencesDao.upsertUserPreferences(updatedPrefs)
             WidgetAppearance.refreshAllWidgets(context)
         }
@@ -155,5 +175,8 @@ data class ProfileUiState(
     val selectedThemeCategories: List<String> = emptyList(),
     val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
     val widgetBackgroundOpacityPercent: Int = 80,
+    val viewedCount: Int = 0,
+    val savedCount: Int = 0,
+    val quizCorrectCount: Int = 0,
     val isLoading: Boolean = false,
 )

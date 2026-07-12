@@ -20,6 +20,12 @@ interface DictionaryDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertDictionaries(dictionaries: List<DictionaryEntity>)
 
+    @Query("SELECT id FROM dictionaries")
+    suspend fun getAllDictionaryIds(): List<Long>
+
+    @Query("DELETE FROM dictionaries WHERE id IN (:ids)")
+    suspend fun deleteDictionariesByIds(ids: List<Long>)
+
     @Query("UPDATE dictionaries SET isActive = :isActive WHERE id = :dictionaryId")
     suspend fun updateDictionaryActiveStatus(dictionaryId: Long, isActive: Boolean)
 

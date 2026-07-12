@@ -1,7 +1,7 @@
 [
   {
     "id": 40341,
-    "word": "Question",
+    "word": "question",
     "definition": "A sentence worded or expressed so as to elicit information",
     "example": "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them.",
     "partOfSpeech": "noun",
@@ -9,13 +9,11 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40342,
-    "word": "Noble",
+    "word": "noble",
     "definition": "Having or showing fine personal qualities or high moral principles",
     "example": "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them.",
     "partOfSpeech": "adjective",
@@ -23,13 +21,11 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40343,
-    "word": "Fortune",
+    "word": "fortune",
     "definition": "Chance or luck as an external, arbitrary force affecting human affairs",
     "example": "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune, or to take arms against a sea of troubles, and by opposing end them.",
     "partOfSpeech": "noun",
@@ -37,55 +33,47 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40344,
-    "word": "Eloquent",
-    "definition": "Fluent or persuasive in speaking or writing",
-    "example": "In his address, the orator urged his listeners to show eloquent when facing the greatest challenges.",
+    "word": "eloquent",
+    "definition": "Fluent or persuasive in speaking or writing; a word that gains force in public speech.",
+    "example": "A eloquent argument runs through Hamlet, Act 2 Scene 2: conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40345,
-    "word": "Infinite",
-    "definition": "Limitless or endless in space, extent, or size",
+    "word": "infinite",
+    "definition": "Limitless or endless in space, extent, or size; a word that gains force in public speech.",
     "example": "What a piece of work is a man! How noble in reason, how infinite in faculty! In form and moving how express and admirable! In action how like an angel! In apprehension how like a god!",
     "partOfSpeech": "adjective",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40346,
-    "word": "Breach",
-    "definition": "A gap in a wall, barrier, or defense",
+    "word": "breach",
+    "definition": "A gap in a wall, barrier, or defense; a word that gains force in public speech.",
     "example": "Once more unto the breach, dear friends, once more; or close the wall up with our English dead.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 3 Scene 1",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40347,
-    "word": "Brother",
+    "word": "brother",
     "definition": "A man or boy in relation to other sons and daughters of his parents",
     "example": "We few, we happy few, we band of brothers; for he today that sheds his blood with me shall be my brother.",
     "partOfSpeech": "noun",
@@ -93,83 +81,71 @@
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40348,
-    "word": "Honour",
-    "definition": "High respect; great esteem",
-    "example": "In his address, the orator urged his listeners to show honour when facing the greatest challenges.",
+    "word": "honour",
+    "definition": "High respect; great esteem; a word that gains force in public speech.",
+    "example": "Honour is the hinge of Henry V, Act 4 Scene 3 (St Crispin's Day Speech): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40349,
-    "word": "Countrymen",
-    "definition": "A person from the same country as someone else",
+    "word": "countrymen",
+    "definition": "A person from the same country as someone else; a word that gains force in public speech.",
     "example": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40350,
-    "word": "Evil",
-    "definition": "Profoundly immoral and wicked",
+    "word": "evil",
+    "definition": "Profoundly immoral and wicked; a word that gains force in public speech.",
     "example": "The evil that men do lives after them; the good is oft interred with their bones.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40351,
-    "word": "Interred",
-    "definition": "Place (a corpse) in a grave or tomb",
+    "word": "interred",
+    "definition": "Place (a corpse) in a grave or tomb; a word that gains force in public speech.",
     "example": "The evil that men do lives after them; the good is oft interred with their bones.",
     "partOfSpeech": "verb",
     "oratorId": 18,
     "complexity": "advanced",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40352,
-    "word": "Orator",
-    "definition": "A person who is skilled in public speaking",
+    "word": "orator",
+    "definition": "A person who is skilled in public speaking; a word that gains force in public speech.",
     "example": "I am no orator, as Brutus is; but, as you know me all, a plain blunt man, that love my friend.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40353,
-    "word": "Stage",
+    "word": "stage",
     "definition": "A raised floor or platform, typically in a theater, on which actors, entertainers, or speakers perform",
     "example": "All the world's a stage, and all the men and women merely players; they have their exits and their entrances; and one man in his time plays many parts.",
     "partOfSpeech": "noun",
@@ -177,27 +153,23 @@
     "complexity": "intermediate",
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40354,
-    "word": "Player",
-    "definition": "A person taking part in a sport or game",
+    "word": "player",
+    "definition": "A person taking part in a sport or game; a word that gains force in public speech.",
     "example": "All the world's a stage, and all the men and women merely players; they have their exits and their entrances; and one man in his time plays many parts.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40355,
-    "word": "Discontent",
+    "word": "discontent",
     "definition": "Dissatisfaction with one's circumstances; lack of contentment",
     "example": "Now is the winter of our discontent made glorious summer by this sun of York.",
     "partOfSpeech": "noun",
@@ -205,13 +177,11 @@
     "complexity": "intermediate",
     "source": "Richard III",
     "speech": "Richard III, Act 1 Scene 1 (Opening soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40356,
-    "word": "Kingdom",
+    "word": "kingdom",
     "definition": "A country, state, or territory ruled by a king or queen",
     "example": "A horse! a horse! my kingdom for a horse!",
     "partOfSpeech": "noun",
@@ -219,13 +189,11 @@
     "complexity": "intermediate",
     "source": "Richard III",
     "speech": "Richard III, Act 5 Scene 4",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40357,
-    "word": "Candle",
+    "word": "candle",
     "definition": "A cylinder or block of wax or tallow with a central wick that is lit to produce light as it burns",
     "example": "Out, out, brief candle! Life's but a walking shadow, a poor player that struts and frets his hour upon the stage and then is heard no more.",
     "partOfSpeech": "noun",
@@ -233,13 +201,11 @@
     "complexity": "intermediate",
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40358,
-    "word": "Shadow",
+    "word": "shadow",
     "definition": "A dark area or shape produced by a body coming between rays of light and a surface",
     "example": "Out, out, brief candle! Life's but a walking shadow, a poor player that struts and frets his hour upon the stage and then is heard no more.",
     "partOfSpeech": "noun",
@@ -247,13 +213,11 @@
     "complexity": "intermediate",
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40359,
-    "word": "Stars",
+    "word": "stars",
     "definition": "A fixed luminous point in the night sky that is a large, remote incandescent body like the sun",
     "example": "The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.",
     "partOfSpeech": "noun",
@@ -261,23 +225,42 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 1 Scene 2 (Cassius to Brutus)",
-    "categories": [
-      "arts"
-    ]
+    "categories": ["arts"]
   },
   {
     "id": 40360,
-    "word": "Valiant",
-    "definition": "Possessing or showing courage or determination",
+    "word": "valiant",
+    "definition": "Possessing or showing courage or determination; a word that gains force in public speech.",
     "example": "Cowards die many times before their deaths; the valiant never taste of death but once.",
     "partOfSpeech": "adjective",
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 2 Scene 2 (Caesar to Calpurnia)",
-    "categories": [
-      "courage",
-      "arts"
-    ]
+    "categories": ["courage", "arts"]
+  },
+  {
+    "id": 40367,
+    "oratorId": 18,
+    "word": "soliloquy",
+    "definition": "An act of speaking one’s thoughts aloud when alone, especially in drama.",
+    "example": "Hamlet’s soliloquy turns private dread into public philosophy of action and delay.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "categories": ["arts", "humanities"],
+    "source": "Hamlet",
+    "speech": "To be, or not to be"
+  },
+  {
+    "id": 40368,
+    "oratorId": 18,
+    "word": "conscience",
+    "definition": "An inner sense of right and wrong guiding action; a word that gains force in public speech.",
+    "example": "Thus conscience does make cowards of us all—and turns resolution pale with thought.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["humanities", "courage", "arts"],
+    "source": "Hamlet",
+    "speech": "To be, or not to be"
   }
 ]

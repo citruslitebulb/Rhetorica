@@ -25,4 +25,13 @@ interface SpeechDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertSpeeches(speeches: List<SpeechEntity>)
+
+    @Query("SELECT id FROM speeches")
+    suspend fun getAllSpeechIds(): List<Long>
+
+    @Query("DELETE FROM speeches WHERE id IN (:ids)")
+    suspend fun deleteSpeechesByIds(ids: List<Long>)
+
+    @Query("SELECT COUNT(*) FROM speeches")
+    suspend fun speechCount(): Int
 }

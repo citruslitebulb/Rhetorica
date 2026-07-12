@@ -3,13 +3,13 @@
     "id": 25001,
     "word": "innovation",
     "definition": "The action or process of innovating; a new method, idea, product, etc.",
-    "example": "Solving big problems is easier than solving little problems.",
+    "example": "Innovation often finds that solving big problems is easier than solving little ones.",
     "partOfSpeech": "noun",
     "oratorId": 25,
     "complexity": "intermediate",
     "source": "Talks on mission and ambition",
     "speech": "Big Problems Philosophy",
-    "categories": ["innovation", "freedom", "moonshots"]
+    "categories": ["tech", "democracy"]
   },
   {
     "id": 25002,
@@ -21,19 +21,19 @@
     "complexity": "intermediate",
     "source": "Comments on AI and future potential",
     "speech": "Intelligence and Limits",
-    "categories": ["innovation", "technology", "moonshots"]
+    "categories": ["tech"]
   },
   {
     "id": 25003,
     "word": "mission",
     "definition": "An important assignment carried out for political, religious, or commercial purposes.",
-    "example": "The perfect search engine would understand exactly what you mean and give back exactly what you want.",
+    "example": "Our mission is a perfect search engine—one that understands exactly what you mean and gives back exactly what you want.",
     "partOfSpeech": "noun",
     "oratorId": 25,
     "complexity": "intermediate",
     "source": "Early Google vision / IPO letter era",
     "speech": "On Organizing the World's Information",
-    "categories": ["innovation", "freedom", "vision"]
+    "categories": ["tech", "democracy", "inspirational"]
   },
   {
     "id": 25004,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Google company values and talks",
     "speech": "Don't Be Evil / Do the Right Thing",
-    "categories": ["freedom", "leadership", "humanities"]
+    "categories": ["democracy", "leadership", "humanities"]
   },
   {
     "id": 25005,
@@ -57,7 +57,7 @@
     "complexity": "advanced",
     "source": "Talks on culture and innovation",
     "speech": "Big Problems Philosophy",
-    "categories": ["innovation", "freedom", "moonshots"]
+    "categories": ["tech", "democracy"]
   },
   {
     "id": 25006,
@@ -69,30 +69,126 @@
     "complexity": "intermediate",
     "source": "Comments on AI and future potential",
     "speech": "Intelligence and Limits",
-    "categories": ["innovation", "technology", "moonshots"]
+    "categories": ["tech"]
   },
   {
     "id": 25007,
     "word": "experiment",
     "definition": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact.",
-    "example": "We do lots of stuff. The only way you are going to have success is to have lots of failures.",
+    "example": "Every experiment multiplies attempts: the only path to success is to allow lots of failures.",
     "partOfSpeech": "noun",
     "oratorId": 25,
     "complexity": "intermediate",
     "source": "Talks on experimentation",
     "speech": "Experimentation Culture",
-    "categories": ["innovation", "moonshots", "freedom"]
+    "categories": ["tech", "democracy"]
   },
   {
     "id": 25008,
     "word": "impact",
     "definition": "The action of one object coming forcibly into contact with another; a marked effect or influence.",
-    "example": "It's not enough not to be evil. We also actively try to be good.",
+    "example": "Impact asks more than “don’t be evil”—we must actively try to be good.",
     "partOfSpeech": "noun",
     "oratorId": 25,
     "complexity": "intermediate",
     "source": "Talks on corporate responsibility",
     "speech": "Don't Be Evil / Do the Right Thing",
-    "categories": ["freedom", "leadership", "vision"]
+    "categories": ["democracy", "leadership", "inspirational"]
+  },
+  {
+    "id": 25009,
+    "oratorId": 25,
+    "word": "organize",
+    "definition": "To arrange systematically; to put into a structured whole.",
+    "example": "The mission was almost absurd in scale: organize the world’s information and make it useful.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Google mission",
+    "speech": "On Organizing the World's Information",
+    "categories": ["tech", "inspirational"]
+  },
+  {
+    "id": 25010,
+    "oratorId": 25,
+    "word": "useful",
+    "definition": "Able to be used for a practical purpose; beneficial.",
+    "example": "Information is not enough—it must become useful in the moment of need.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Google mission",
+    "speech": "On Organizing the World's Information",
+    "categories": ["tech", "humanities"]
+  },
+  {
+    "id": 25011,
+    "oratorId": 25,
+    "word": "curiosity",
+    "definition": "A strong desire to know or learn something.",
+    "example": "Hire for curiosity and the product roadmap writes half of itself.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Hiring philosophy",
+    "speech": "Talks on culture",
+    "categories": ["humanities", "tech", "leadership"]
+  },
+  {
+    "id": 25012,
+    "oratorId": 25,
+    "word": "access",
+    "definition": "The means or opportunity to approach or use something.",
+    "example": "Access to knowledge is a quiet form of power redistribution.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Mission talks",
+    "speech": "Mission talks",
+    "categories": ["democracy", "tech", "humanities"]
+  },
+  {
+    "id": 25013,
+    "oratorId": 25,
+    "word": "serendipity",
+    "definition": "The occurrence of valuable discoveries by chance.",
+    "example": "Great search preserves serendipity—the result you needed but did not know to name.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Search philosophy",
+    "speech": "Search talks",
+    "categories": ["tech", "arts", "humanities"]
+  },
+  {
+    "id": 25014,
+    "oratorId": 25,
+    "word": "openness",
+    "definition": "Lack of secrecy or concealment; willingness to share.",
+    "example": "Openness in research multiplies progress faster than secrecy multiplies prestige.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Research culture",
+    "speech": "Research remarks",
+    "categories": ["humanities", "tech"]
+  },
+  {
+    "id": 25015,
+    "oratorId": 25,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Talks on mission and ambition",
+    "speech": "Big Problems Philosophy"
+  },
+  {
+    "id": 25016,
+    "oratorId": 25,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Talks on mission and ambition",
+    "speech": "Big Problems Philosophy"
   }
 ]

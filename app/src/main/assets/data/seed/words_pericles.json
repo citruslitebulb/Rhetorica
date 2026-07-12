@@ -1,7 +1,7 @@
 [
   {
     "id": 40041,
-    "word": "Democracy",
+    "word": "democracy",
     "definition": "A system of government by the whole population or all the eligible members of a state",
     "example": "Our constitution is called a democracy because power is in the hands not of a minority but of the whole people.",
     "partOfSpeech": "noun",
@@ -9,13 +9,11 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40042,
-    "word": "Politics",
+    "word": "politics",
     "definition": "The activities associated with the governance of a country or area",
     "example": "We do not say that a man who takes no interest in politics is a man who minds his own business; we say that he has no business here at all.",
     "partOfSpeech": "noun",
@@ -23,13 +21,11 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40043,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet with courage go out to meet it.",
     "partOfSpeech": "noun",
@@ -37,16 +33,11 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage",
-      "democracy"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40044,
-    "word": "Refinement",
+    "word": "refinement",
     "definition": "The process of removing impurities or unwanted elements from a substance",
     "example": "We cultivate refinement without extravagance and knowledge without effeminacy; wealth we employ more for use than for show.",
     "partOfSpeech": "noun",
@@ -54,27 +45,23 @@
     "complexity": "advanced",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40045,
-    "word": "Honor",
-    "definition": "High respect; great esteem",
+    "word": "honor",
+    "definition": "High respect; great esteem; a word that gains force in public speech.",
     "example": "It is only the love of honor that never grows old; and honor it is, not gain, as some would have it, that rejoices the heart of age and helplessness.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40046,
-    "word": "Sacrifice",
+    "word": "sacrifice",
     "definition": "An act of giving up something valued for the sake of something else regarded as more important",
     "example": "The sacrifice which they collectively made was individually repaid to them; for they received again each one for himself a praise which grows not old.",
     "partOfSpeech": "noun",
@@ -82,29 +69,23 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "leadership",
-      "democracy"
-    ]
+    "categories": ["leadership", "democracy"]
   },
   {
     "id": 40047,
-    "word": "Legacy",
-    "definition": "Something handed down by a predecessor",
-    "example": "In his address, the orator urged his listeners to show legacy when facing the greatest challenges.",
+    "word": "legacy",
+    "definition": "Something handed down by a predecessor; a word that gains force in public speech.",
+    "example": "Legacy is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "legacy",
-      "democracy"
-    ]
+    "categories": ["legacy", "democracy"]
   },
   {
     "id": 40048,
-    "word": "Freedom",
+    "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
     "example": "Make up your minds that happiness depends on being free, and freedom depends on being courageous.",
     "partOfSpeech": "noun",
@@ -112,101 +93,83 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40049,
-    "word": "Happiness",
-    "definition": "The state of being happy",
+    "word": "happiness",
+    "definition": "The state of being happy; a word that gains force in public speech.",
     "example": "Make up your minds that happiness depends on being free, and freedom depends on being courageous.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40050,
-    "word": "Glory",
-    "definition": "High renown or honor won by notable achievements",
+    "word": "glory",
+    "definition": "High renown or honor won by notable achievements; a word that gains force in public speech.",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "leadership",
-      "legacy",
-      "democracy"
-    ]
+    "categories": ["leadership", "legacy", "democracy"]
   },
   {
     "id": 40051,
-    "word": "Civic",
+    "word": "civic",
     "definition": "Relating to a city or town, especially its administration; municipal",
-    "example": "In his address, the orator urged his listeners to show civic when facing the greatest challenges.",
+    "example": "A civic argument runs through Pericles' Funeral Oration (Thucydides): conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40052,
-    "word": "Openness",
-    "definition": "Lack of restriction; accessibility",
-    "example": "In his address, the orator urged his listeners to show openness when facing the greatest challenges.",
+    "word": "openness",
+    "definition": "Lack of restriction; accessibility; a word that gains force in public speech.",
+    "example": "Openness is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40053,
-    "word": "Manliness",
+    "word": "manliness",
     "definition": "The traditional male quality of being courageous and resilient",
-    "example": "In his address, the orator urged his listeners to show manliness when facing the greatest challenges.",
+    "example": "Manliness is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "courage",
-      "democracy"
-    ]
+    "categories": ["courage", "democracy"]
   },
   {
     "id": 40054,
-    "word": "Prosperity",
-    "definition": "The state of being prosperous",
-    "example": "In his address, the orator urged his listeners to show prosperity when facing the greatest challenges.",
+    "word": "prosperity",
+    "definition": "The state of being prosperous; a word that gains force in public speech.",
+    "example": "Prosperity is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40055,
-    "word": "Example",
+    "word": "example",
     "definition": "A person or thing regarded in terms of their fitness to be imitated",
     "example": "We do not copy our neighbors, but are an example to them.",
     "partOfSpeech": "noun",
@@ -214,46 +177,35 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "leadership",
-      "legacy",
-      "democracy"
-    ]
+    "categories": ["leadership", "legacy", "democracy"]
   },
   {
     "id": 40056,
-    "word": "Resolve",
-    "definition": "Firm determination to do something",
+    "word": "resolve",
+    "definition": "Firm determination to do something; a word that gains force in public speech.",
     "example": "Such is the Athens for which these men, in the assertion of their resolve not to lose her, nobly fought and died.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "leadership",
-      "courage",
-      "democracy"
-    ]
+    "categories": ["leadership", "courage", "democracy"]
   },
   {
     "id": 40057,
-    "word": "Noble",
+    "word": "noble",
     "definition": "Having or showing fine personal qualities or high moral principles",
-    "example": "In his address, the orator urged his listeners to show noble when facing the greatest challenges.",
+    "example": "A noble argument runs through Pericles' Funeral Oration (Thucydides): conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "arts",
-      "democracy"
-    ]
+    "categories": ["arts", "democracy"]
   },
   {
     "id": 40058,
-    "word": "Vision",
+    "word": "vision",
     "definition": "The ability to think about or plan the future with imagination or wisdom",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it.",
     "partOfSpeech": "noun",
@@ -261,29 +213,23 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "democracy"
-    ]
+    "categories": ["inspirational", "leadership", "democracy"]
   },
   {
     "id": 40059,
-    "word": "Danger",
-    "definition": "The possibility of suffering harm or injury",
+    "word": "danger",
+    "definition": "The possibility of suffering harm or injury; a word that gains force in public speech.",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it.",
     "partOfSpeech": "noun",
     "oratorId": 3,
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40060,
-    "word": "Tomb",
+    "word": "tomb",
     "definition": "A large vault, typically an underground one, for burying the dead",
     "example": "The whole earth is the tomb of famous men; not only are they commemorated by columns and inscriptions in their own country, but in foreign lands there dwells also an unwritten memorial of them.",
     "partOfSpeech": "noun",
@@ -291,9 +237,6 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": [
-      "legacy",
-      "democracy"
-    ]
+    "categories": ["legacy", "democracy"]
   }
 ]

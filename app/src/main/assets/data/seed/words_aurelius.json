@@ -9,43 +9,43 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book V",
-    "categories": ["stoicism", "resilience", "wisdom"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 28002,
     "word": "tranquility",
     "definition": "The quality or state of being tranquil; calmness; peacefulness.",
-    "example": "You have power over your mind - not outside events. Realize this, and you will find strength.",
+    "example": "Seek tranquility of mind: you have power over your judgment of events, not over the events themselves.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VIII",
-    "categories": ["stoicism", "resilience", "virtue"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 28003,
     "word": "virtue",
     "definition": "Behavior showing high moral standards; a good or useful quality of a thing.",
-    "example": "Waste no more time arguing about what a good man should be. Be one.",
+    "example": "Waste no more time arguing about virtue—embody it. Be the good person you describe.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book X",
-    "categories": ["virtue", "ethics", "wisdom"]
+    "categories": ["humanities"]
   },
   {
     "id": 28004,
     "word": "judgment",
     "definition": "The ability to make considered decisions or come to sensible conclusions.",
-    "example": "Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.",
+    "example": "Suspend hasty judgment: everything we hear is an opinion, not a fact; everything we see is a perspective, not the truth.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book II",
-    "categories": ["stoicism", "wisdom", "resilience"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 28005,
@@ -57,19 +57,19 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["stoicism", "acceptance", "wisdom"]
+    "categories": ["humanities"]
   },
   {
     "id": 28006,
     "word": "resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness.",
-    "example": "Choose not to be harmed — and you won’t feel harmed. Don’t feel harmed — and you haven’t been.",
+    "example": "Resilience is choosing not to be harmed—and so not feeling harmed; refuse the injury, and you have not been injured.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book IV",
-    "categories": ["resilience", "stoicism", "virtue"]
+    "categories": ["courage", "humanities"]
   },
   {
     "id": 28007,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book II",
-    "categories": ["wisdom", "stoicism", "judgment"]
+    "categories": ["humanities"]
   },
   {
     "id": 28008,
@@ -93,31 +93,31 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book II",
-    "categories": ["wisdom", "stoicism", "resilience"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 28009,
     "word": "acceptance",
     "definition": "The action of consenting to receive or undertake something offered; agreement to an offer or proposal.",
-    "example": "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.",
+    "example": "Practice acceptance of the things to which fate binds you, and love the people with whom fate brings you together.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["stoicism", "acceptance", "virtue"]
+    "categories": ["humanities"]
   },
   {
     "id": 28010,
     "word": "mortality",
     "definition": "The state of being subject to death; the quality or state of being mortal.",
-    "example": "It is not death that a man should fear, but he should fear never beginning to live.",
+    "example": "Fear not mortality itself, but never beginning to live while you still draw breath.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book XII",
-    "categories": ["stoicism", "wisdom", "resilience"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 28011,
@@ -129,18 +129,66 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["virtue", "ethics", "stoicism"]
+    "categories": ["humanities"]
   },
   {
     "id": 28012,
     "word": "urgency",
     "definition": "Importance requiring swift action.",
-    "example": "Do not act as if you had ten thousand years to live. Death hangs over you. While you live, while it is in your power, be good.",
+    "example": "Act with urgency: do not live as if you had ten thousand years; death hangs over you—while it is in your power, be good.",
     "partOfSpeech": "noun",
     "oratorId": 28,
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book IV",
-    "categories": ["wisdom", "virtue", "resilience"]
+    "categories": ["humanities", "courage"]
+  },
+  {
+    "id": 28013,
+    "oratorId": 28,
+    "word": "logos",
+    "definition": "In Stoic thought, the rational principle ordering the cosmos and human reason.",
+    "example": "Live according to logos: let reason, not impulse, write the next line of your day.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": ["humanities", "leadership"]
+  },
+  {
+    "id": 28014,
+    "oratorId": 28,
+    "word": "discipline",
+    "definition": "Training that develops self-control, character, or efficiency.",
+    "example": "Discipline of perception is the first freedom—see clearly before you act.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": ["leadership", "humanities", "courage"]
+  },
+  {
+    "id": 28015,
+    "oratorId": 28,
+    "word": "impermanence",
+    "definition": "The state of not lasting forever; transience.",
+    "example": "Impermanence is not a threat to meaning; it is the reason this hour matters.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": ["humanities", "legacy"]
+  },
+  {
+    "id": 28016,
+    "oratorId": 28,
+    "word": "equanimity",
+    "definition": "Mental calmness and composure, especially in difficulty.",
+    "example": "Equanimity is not numbness—it is strength that refuses to be jerked by every rumor.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": ["humanities", "courage", "leadership"]
   }
 ]

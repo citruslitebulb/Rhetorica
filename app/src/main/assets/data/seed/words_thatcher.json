@@ -1,7 +1,7 @@
 [
   {
     "id": 40261,
-    "word": "Turning",
+    "word": "turning",
     "definition": "Move in a circular direction wholly or partly around an axis or point",
     "example": "The lady's not for turning.",
     "partOfSpeech": "verb",
@@ -9,11 +9,11 @@
     "complexity": "intermediate",
     "source": "Conservative Party Conference Speech",
     "speech": "Conservative Party Conference (Brighton)",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40262,
-    "word": "Society",
+    "word": "society",
     "definition": "The aggregate of people living together in a more or less ordered community",
     "example": "There is no such thing as society. There are individual men and women and there are families.",
     "partOfSpeech": "noun",
@@ -21,23 +21,23 @@
     "complexity": "intermediate",
     "source": "Interview for Woman's Own magazine",
     "speech": "Interview (often quoted as a speech line)",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40263,
-    "word": "Individual",
-    "definition": "A single human being as distinct from a group",
+    "word": "individual",
+    "definition": "A single human being as distinct from a group; a word that gains force in public speech.",
     "example": "There is no such thing as society. There are individual men and women and there are families.",
     "partOfSpeech": "adjective",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Interview for Woman's Own magazine",
     "speech": "Interview (often quoted as a speech line)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40264,
-    "word": "Patient",
+    "word": "patient",
     "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious",
     "example": "I am extraordinarily patient, provided I get my own way in the end.",
     "partOfSpeech": "adjective",
@@ -45,11 +45,11 @@
     "complexity": "intermediate",
     "source": "Various interviews and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40265,
-    "word": "Liberty",
+    "word": "liberty",
     "definition": "The state of being free within society from oppressive restrictions",
     "example": "There can be no liberty unless there is economic liberty.",
     "partOfSpeech": "noun",
@@ -57,26 +57,23 @@
     "complexity": "intermediate",
     "source": "Various economic addresses",
     "speech": "Speeches on free markets",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40266,
-    "word": "Economic",
-    "definition": "Relating to economics or the economy",
+    "word": "economic",
+    "definition": "Relating to economics or the economy; a word that gains force in public speech.",
     "example": "There can be no liberty unless there is economic liberty.",
     "partOfSpeech": "adjective",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various economic addresses",
     "speech": "Speeches on free markets",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40267,
-    "word": "Socialism",
+    "word": "socialism",
     "definition": "A political and economic theory of social organization which advocates that the means of production, distribution, and exchange should be owned or regulated by the community as a whole",
     "example": "To cure the British disease with socialism was like trying to cure leukaemia with leeches.",
     "partOfSpeech": "noun",
@@ -84,11 +81,11 @@
     "complexity": "advanced",
     "source": "Speech to the Conservative Party Conference",
     "speech": "Conservative Party Conference",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40268,
-    "word": "Ideology",
+    "word": "ideology",
     "definition": "A system of ideas and ideals, especially one which forms the basis of economic or political theory and policy",
     "example": "We must have an ideology. The other side have an ideology, they have a philosophy, they believe in it.",
     "partOfSpeech": "noun",
@@ -96,11 +93,11 @@
     "complexity": "intermediate",
     "source": "Speech to the Conservative Philosophy Group",
     "speech": "Conservative Philosophy Group",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40269,
-    "word": "Philosophy",
+    "word": "philosophy",
     "definition": "The study of the fundamental nature of knowledge, reality, and existence",
     "example": "We must have an ideology. The other side have an ideology, they have a philosophy, they believe in it.",
     "partOfSpeech": "noun",
@@ -108,102 +105,95 @@
     "complexity": "intermediate",
     "source": "Speech to the Conservative Philosophy Group",
     "speech": "Conservative Philosophy Group",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40270,
-    "word": "Conviction",
-    "definition": "A firmly held belief or opinion",
-    "example": "In his address, the orator urged his listeners to show conviction when facing the greatest challenges.",
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion; a word that gains force in public speech.",
+    "example": "Conviction is the hinge of Multiple addresses: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
     "speech": "Multiple addresses",
-    "categories": [
-      "leadership"
-    ]
+    "categories": ["leadership"]
   },
   {
     "id": 40271,
-    "word": "Iron",
-    "definition": "A strong, hard magnetic silvery-grey metal",
+    "word": "iron",
+    "definition": "A strong, hard magnetic silvery-grey metal; a word that gains force in public speech.",
     "example": "What Britain needs is an iron lady.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Soviet media nickname adopted and embraced",
     "speech": "Speeches after being dubbed the 'Iron Lady'",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40272,
-    "word": "Resolve",
-    "definition": "Firm determination to do something",
-    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
+    "word": "resolve",
+    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "example": "Resolve is the hinge of Multiple: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various interviews and speeches",
     "speech": "Multiple",
-    "categories": [
-      "leadership",
-      "courage"
-    ]
+    "categories": ["leadership", "courage"]
   },
   {
     "id": 40273,
-    "word": "Prosperity",
-    "definition": "The state of being prosperous",
-    "example": "In his address, the orator urged his listeners to show prosperity when facing the greatest challenges.",
+    "word": "prosperity",
+    "definition": "The state of being prosperous; a word that gains force in public speech.",
+    "example": "Prosperity is the hinge of Scottish Conservative Conference: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Scottish Conservative Conference",
     "speech": "Scottish Conservative Conference",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40274,
-    "word": "Earned",
-    "definition": "Obtain (money) in return for labor or services",
+    "word": "earned",
+    "definition": "Obtain (money) in return for labor or services; a word that gains force in public speech.",
     "example": "Pennies do not come from heaven. They have to be earned here on earth.",
     "partOfSpeech": "verb",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Scottish Conservative Conference",
     "speech": "Scottish Conservative Conference",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40275,
-    "word": "Trusteeship",
-    "definition": "The position or office of a trustee",
-    "example": "In his address, the orator urged his listeners to show trusteeship when facing the greatest challenges.",
+    "word": "trusteeship",
+    "definition": "The position or office of a trustee; a word that gains force in public speech.",
+    "example": "Trusteeship is the hinge of Address to the General Assembly of the Church of Scotland: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "advanced",
     "source": "Speech to the Church of Scotland General Assembly",
     "speech": "Address to the General Assembly of the Church of Scotland",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40276,
-    "word": "Wealth",
-    "definition": "An abundance of valuable possessions or money",
+    "word": "wealth",
+    "definition": "An abundance of valuable possessions or money; a word that gains force in public speech.",
     "example": "It is not the creation of wealth that is wrong, but the love of money for its own sake.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Speech to the Church of Scotland General Assembly",
     "speech": "Address to the General Assembly of the Church of Scotland",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40277,
-    "word": "Creation",
+    "word": "creation",
     "definition": "The action or process of bringing something into existence",
     "example": "It is not the creation of wealth that is wrong, but the love of money for its own sake.",
     "partOfSpeech": "noun",
@@ -211,42 +201,42 @@
     "complexity": "intermediate",
     "source": "Speech to the Church of Scotland General Assembly",
     "speech": "Address to the General Assembly of the Church of Scotland",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40278,
-    "word": "Evil",
-    "definition": "Profoundly immoral and wicked",
+    "word": "evil",
+    "definition": "Profoundly immoral and wicked; a word that gains force in public speech.",
     "example": "I am in politics because of the conflict between good and evil, and I believe that in the end good will triumph.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
     "speech": "Multiple addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40279,
-    "word": "Triumph",
-    "definition": "A great victory or achievement",
+    "word": "triumph",
+    "definition": "A great victory or achievement; a word that gains force in public speech.",
     "example": "I am in politics because of the conflict between good and evil, and I believe that in the end good will triumph.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (often in interviews about her worldview)",
     "speech": "Multiple addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40280,
-    "word": "Defeat",
-    "definition": "An instance of being defeated",
+    "word": "defeat",
+    "definition": "An instance of being defeated; a word that gains force in public speech.",
     "example": "Defeat? I do not recognize the meaning of the word.",
     "partOfSpeech": "noun",
     "oratorId": 14,
     "complexity": "intermediate",
     "source": "Various (frequently quoted during the Falklands conflict)",
     "speech": "Falklands War addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   }
 ]

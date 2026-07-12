@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
-    "categories": ["entrepreneurship", "leadership", "vision"]
+    "categories": ["tech", "leadership", "inspirational"]
   },
   {
     "id": 21002,
@@ -21,43 +21,43 @@
     "complexity": "intermediate",
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
-    "categories": ["leadership", "humanities", "vision"]
+    "categories": ["leadership", "humanities", "inspirational"]
   },
   {
     "id": 21003,
     "word": "regret",
     "definition": "A feeling of sadness, repentance, or disappointment over something that has happened or been done.",
-    "example": "In the end, we are our choices. Build yourself a great story.",
+    "example": "Minimize regret: in the end we are our choices, so build yourself a story you will not wish to rewrite.",
     "partOfSpeech": "noun",
     "oratorId": 21,
     "complexity": "intermediate",
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
-    "categories": ["long-termism", "vision", "leadership"]
+    "categories": ["tech", "inspirational", "leadership"]
   },
   {
     "id": 21004,
     "word": "long-termism",
     "definition": "The practice of making decisions with a focus on outcomes that will occur far in the future.",
-    "example": "What we choose to do with our gifts will define us.",
+    "example": "Long-termism asks what we will do with our gifts—and that answer will define us more than any quarter’s results.",
     "partOfSpeech": "noun",
     "oratorId": 21,
     "complexity": "advanced",
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
-    "categories": ["entrepreneurship", "long-termism", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 21005,
     "word": "invention",
     "definition": "The action of inventing something, typically a process or device.",
-    "example": "Gifts are easy — they're given after all. Choices can be hard.",
+    "example": "Invention is hard because gifts are easy; choices demand courage, and great companies choose to invent.",
     "partOfSpeech": "noun",
     "oratorId": 21,
     "complexity": "intermediate",
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
-    "categories": ["entrepreneurship", "innovation", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 21006,
@@ -69,19 +69,19 @@
     "complexity": "intermediate",
     "source": "Amazon shareholder letters and culture",
     "speech": "Leadership Principles",
-    "categories": ["entrepreneurship", "long-termism", "customer-focus"]
+    "categories": ["tech"]
   },
   {
     "id": 21007,
     "word": "ownership",
     "definition": "The act, state, or right of possessing something; leaders act on behalf of the entire company.",
-    "example": "Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results.",
+    "example": "Ownership means thinking long term and refusing to sacrifice long-term value for short-term results.",
     "partOfSpeech": "noun",
     "oratorId": 21,
     "complexity": "intermediate",
     "source": "Amazon Leadership Principles",
     "speech": "Leadership Principles",
-    "categories": ["leadership", "long-termism", "entrepreneurship"]
+    "categories": ["leadership", "tech"]
   },
   {
     "id": 21008,
@@ -93,19 +93,19 @@
     "complexity": "intermediate",
     "source": "Amazon talks on measurement",
     "speech": "Customer Obsession",
-    "categories": ["customer-focus", "leadership", "innovation"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 21009,
     "word": "obsession",
     "definition": "The state of being obsessed with someone or something; an idea or thought that continually preoccupies or intrudes on a person's mind.",
-    "example": "We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better.",
+    "example": "Customer obsession treats guests as invited to a party where we are the hosts—our job is their delight every day.",
     "partOfSpeech": "noun",
     "oratorId": 21,
     "complexity": "intermediate",
     "source": "Amazon culture and leadership talks",
     "speech": "Customer Obsession",
-    "categories": ["customer-focus", "leadership", "entrepreneurship"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 21010,
@@ -117,6 +117,78 @@
     "complexity": "advanced",
     "source": "Amazon shareholder letters",
     "speech": "Day 1 vs Day 2",
-    "categories": ["long-termism", "vision", "leadership"]
+    "categories": ["tech", "inspirational", "leadership"]
+  },
+  {
+    "id": 21011,
+    "oratorId": 21,
+    "word": "customer",
+    "definition": "A person who buys goods or services; the focus of a business.",
+    "example": "Start with the customer and work backwards—every process is a servant of that end.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Amazon leadership principles",
+    "speech": "Day 1 Philosophy",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 21012,
+    "oratorId": 21,
+    "word": "day-one",
+    "definition": "A mindset of permanent beginning: urgency, invention, and refusal of stagnation.",
+    "example": "Day-one culture resists day-two stagnation—bureaucracy, proxies, and resting on momentum.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Shareholder letters",
+    "speech": "Day 1 Philosophy",
+    "categories": ["tech", "leadership", "inspirational"]
+  },
+  {
+    "id": 21013,
+    "oratorId": 21,
+    "word": "proxy",
+    "definition": "A stand-in measure used instead of the real goal (often dangerously).",
+    "example": "When a metric becomes a proxy for the mission, people optimize the number and forget the customer.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Leadership principles",
+    "speech": "Leadership talks",
+    "categories": ["leadership", "tech"]
+  },
+  {
+    "id": 21014,
+    "oratorId": 21,
+    "word": "invent",
+    "definition": "To create or design something that has not existed before.",
+    "example": "If you invent only what is safe, you will never hear the future arrive.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Shareholder letters",
+    "speech": "Long-Term Thinking",
+    "categories": ["tech", "inspirational"]
+  },
+  {
+    "id": 21015,
+    "oratorId": 21,
+    "word": "patience",
+    "definition": "The capacity to accept delay without anger; long-horizon endurance.",
+    "example": "Patience is a strategy when the flywheel needs years, not quarters, to turn.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Long-term investing talks",
+    "speech": "Long-Term Thinking",
+    "categories": ["leadership", "tech"]
+  },
+  {
+    "id": 21016,
+    "oratorId": 21,
+    "word": "high-standards",
+    "definition": "Demanding criteria for quality that raise the floor for everyone.",
+    "example": "High-standards are contagious: people either rise to them or leave the room.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Leadership principles",
+    "speech": "Leadership principles",
+    "categories": ["leadership"]
   }
 ]

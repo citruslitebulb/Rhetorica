@@ -3,25 +3,25 @@
     "id": 35001,
     "word": "perfection",
     "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects; excellence.",
-    "example": "We will be perfect in every aspect of the game. You drop a pass, you run a mile...",
+    "example": "We will pursue perfection in every aspect of the game: drop a pass, you run a mile—no excuses.",
     "partOfSpeech": "noun",
     "oratorId": 35,
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection",
-    "categories": ["perfection", "discipline"]
+    "categories": ["leadership"]
   },
   {
     "id": 35002,
     "word": "unity",
     "definition": "The state of being united or joined as a whole; harmony or agreement.",
-    "example": "If we don't come together right now on this hallowed ground, we too will be destroyed, just like they were.",
+    "example": "Without unity on this hallowed ground, we too will be destroyed, just as they were.",
     "partOfSpeech": "noun",
     "oratorId": 35,
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["unity", "teamwork"]
+    "categories": ["leadership"]
   },
   {
     "id": 35003,
@@ -33,7 +33,7 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["respect", "leadership"]
+    "categories": ["humanities", "leadership"]
   },
   {
     "id": 35004,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Julius to Gerry",
-    "categories": ["leadership", "attitude"]
+    "categories": ["leadership", "inspirational"]
   },
   {
     "id": 35005,
@@ -57,19 +57,19 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Julius to Gerry",
-    "categories": ["attitude", "leadership"]
+    "categories": ["inspirational", "leadership"]
   },
   {
     "id": 35006,
     "word": "teamwork",
     "definition": "The combined action of a group, especially when effective and efficient.",
-    "example": "Left side! Strong side!",
+    "example": "Teamwork shouts from both sides of the field: left side, strong side—one team, one purpose.",
     "partOfSpeech": "noun",
     "oratorId": 35,
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Gerry and Julius bonding",
-    "categories": ["teamwork", "unity"]
+    "categories": ["leadership"]
   },
   {
     "id": 35007,
@@ -81,7 +81,7 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Coach Boone",
-    "categories": ["winner", "belief"]
+    "categories": ["courage", "inspirational"]
   },
   {
     "id": 35008,
@@ -93,6 +93,102 @@
     "complexity": "advanced",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["respect", "history"]
+    "categories": ["humanities", "legacy"]
+  },
+  {
+    "id": 35009,
+    "oratorId": 35,
+    "word": "together",
+    "definition": "With each other; in unity.",
+    "example": "We will not be perfect until we play as one—together is the only formation that wins.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Remember the Titans",
+    "speech": "Team speeches",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 35010,
+    "oratorId": 35,
+    "word": "perfect",
+    "definition": "Having all required elements; free from flaw in effort and standard.",
+    "example": "We will be perfect in every aspect of the game—you drop a pass, you run a mile.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Remember the Titans",
+    "speech": "Training standards",
+    "categories": ["leadership", "courage"]
+  },
+  {
+    "id": 35011,
+    "oratorId": 35,
+    "word": "left-side",
+    "definition": "A call of unity and strength from one half of a divided team.",
+    "example": "Left-side stands at the center of the argument: Left side! Strong side!—the chant that turned two sides into one body.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Remember the Titans",
+    "speech": "Team unity",
+    "categories": ["leadership", "courage", "democracy"]
+  },
+  {
+    "id": 35012,
+    "oratorId": 35,
+    "word": "listen",
+    "definition": "To give attention with the ear; to heed.",
+    "example": "You will listen to each other, or you will listen to the sound of losing.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Remember the Titans",
+    "speech": "Team meetings",
+    "categories": ["leadership", "humanities"]
+  },
+  {
+    "id": 35013,
+    "oratorId": 35,
+    "word": "football",
+    "definition": "A team sport; here, a vehicle for character and integration.",
+    "example": "Football is the classroom; character is the exam you cannot cheat.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Remember the Titans",
+    "speech": "Season arc",
+    "categories": ["leadership", "legacy"]
+  },
+  {
+    "id": 35014,
+    "oratorId": 35,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Remember the Titans (2000)",
+    "speech": "Camp speech on perfection"
+  },
+  {
+    "id": 35015,
+    "oratorId": 35,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Remember the Titans (2000)",
+    "speech": "Camp speech on perfection"
+  },
+  {
+    "id": 35016,
+    "oratorId": 35,
+    "word": "integrity",
+    "definition": "The quality of being honest and having strong moral principles.",
+    "example": "Integrity is what you do when the speech ends and no one is applauding.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "legacy", "humanities"],
+    "source": "Remember the Titans (2000)",
+    "speech": "Camp speech on perfection"
   }
 ]

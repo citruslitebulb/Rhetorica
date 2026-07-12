@@ -1,7 +1,7 @@
 [
   {
     "id": 40181,
-    "word": "Country",
+    "word": "country",
     "definition": "A nation with its own government, occupying a particular territory",
     "example": "Ask not what your country can do for you; ask what you can do for your country.",
     "partOfSpeech": "noun",
@@ -9,35 +9,35 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40182,
-    "word": "Burden",
-    "definition": "A load, typically a heavy one",
+    "word": "burden",
+    "definition": "A load, typically a heavy one; a word that gains force in public speech.",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40183,
-    "word": "Hardship",
-    "definition": "Severe suffering or privation",
+    "word": "hardship",
+    "definition": "Severe suffering or privation; a word that gains force in public speech.",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40184,
-    "word": "Revolution",
+    "word": "revolution",
     "definition": "A forcible overthrow of a government or social order, in favor of a new system",
     "example": "Those who make peaceful revolution impossible will make violent revolution inevitable.",
     "partOfSpeech": "noun",
@@ -45,35 +45,35 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40185,
-    "word": "Inevitable",
-    "definition": "Certain to happen; unavoidable",
+    "word": "inevitable",
+    "definition": "Certain to happen; unavoidable; a word that gains force in public speech.",
     "example": "Those who make peaceful revolution impossible will make violent revolution inevitable.",
     "partOfSpeech": "adjective",
     "oratorId": 10,
     "complexity": "advanced",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40186,
-    "word": "Berlin",
-    "definition": "The capital of Germany",
+    "word": "berlin",
+    "definition": "The capital of Germany; a word that gains force in public speech.",
     "example": "Ich bin ein Berliner.",
     "partOfSpeech": "proper noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Ich bin ein Berliner",
     "speech": "Ich bin ein Berliner",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40187,
-    "word": "Generation",
+    "word": "generation",
     "definition": "All of the people born and living at about the same time",
     "example": "The torch has been passed to a new generation of Americans — born in this century, tempered by war, disciplined by a hard and bitter peace.",
     "partOfSpeech": "noun",
@@ -81,35 +81,35 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40188,
-    "word": "Peace",
-    "definition": "Freedom from disturbance; tranquility",
-    "example": "In his address, the orator urged his listeners to show peace when facing the greatest challenges.",
+    "word": "peace",
+    "definition": "Freedom from disturbance; tranquility; a word that gains force in public speech.",
+    "example": "Peace is the hinge of Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40189,
-    "word": "Terror",
-    "definition": "Extreme fear",
-    "example": "In his address, the orator urged his listeners to show terror when facing the greatest challenges.",
+    "word": "terror",
+    "definition": "Extreme fear; a word that gains force in public speech.",
+    "example": "Terror is the hinge of Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40190,
-    "word": "Planet",
+    "word": "planet",
     "definition": "A celestial body moving in an elliptical orbit around a star",
     "example": "For in the final analysis, our most basic common link is that we all inhabit this small planet.",
     "partOfSpeech": "noun",
@@ -117,11 +117,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40191,
-    "word": "Negotiate",
+    "word": "negotiate",
     "definition": "Try to reach an agreement or compromise by discussion",
     "example": "Let us never negotiate out of fear. But let us never fear to negotiate.",
     "partOfSpeech": "verb",
@@ -129,11 +129,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40192,
-    "word": "Myth",
+    "word": "myth",
     "definition": "A traditional story, especially one concerning the early history of a people or explaining a natural or social phenomenon",
     "example": "The great enemy of the truth is very often not the lie — deliberate, contrived and dishonest — but the myth — persistent, persuasive and unrealistic.",
     "partOfSpeech": "noun",
@@ -141,23 +141,23 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40193,
-    "word": "Decade",
-    "definition": "A period of ten years",
+    "word": "decade",
+    "definition": "A period of ten years; a word that gains force in public speech.",
     "example": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Moon Speech",
     "speech": "Address at Rice University on the Nation's Space Effort",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40194,
-    "word": "Idea",
+    "word": "idea",
     "definition": "A thought or suggestion as to a possible course of action",
     "example": "A man may die, nations may rise and fall, but an idea lives on.",
     "partOfSpeech": "noun",
@@ -165,35 +165,35 @@
     "complexity": "intermediate",
     "source": "Remarks at the signing of the charter establishing the German Peace Corps",
     "speech": "Various",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40195,
-    "word": "Skeptic",
+    "word": "skeptic",
     "definition": "A person inclined to question or doubt accepted opinions",
-    "example": "In his address, the orator urged his listeners to show skeptic when facing the greatest challenges.",
+    "example": "Skeptic is the hinge of American University Commencement: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40196,
-    "word": "Cynic",
+    "word": "cynic",
     "definition": "A person who believes that people are motivated purely by self-interest",
-    "example": "In his address, the orator urged his listeners to show cynic when facing the greatest challenges.",
+    "example": "Cynic is the hinge of American University Commencement: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40197,
-    "word": "Destiny",
+    "word": "destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future",
     "example": "Our problems are man-made — therefore, they can be solved by man. And man can be as big as he wants. No problem of human destiny is beyond human beings.",
     "partOfSpeech": "noun",
@@ -201,59 +201,54 @@
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40198,
-    "word": "Torch",
-    "definition": "A portable means of illumination",
+    "word": "torch",
+    "definition": "A portable means of illumination; a word that gains force in public speech.",
     "example": "The torch has been passed to a new generation of Americans.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40199,
-    "word": "Freedom",
+    "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
-    "example": "In his address, the orator urged his listeners to show freedom when facing the greatest challenges.",
+    "example": "Freedom is the hinge of Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40200,
-    "word": "Survival",
-    "definition": "The state or fact of continuing to live or exist",
+    "word": "survival",
+    "definition": "The state or fact of continuing to live or exist; a word that gains force in public speech.",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40201,
-    "word": "Bear",
-    "definition": "Carry the weight of; support; endure",
-    "example": "In his address, the orator urged his listeners to show bear when facing the greatest challenges.",
+    "word": "bear",
+    "definition": "Carry the weight of; support; endure; a word that gains force in public speech.",
+    "example": "The appeal was not to wait, but to bear—Inaugural Address made delay look like surrender.",
     "partOfSpeech": "verb",
     "oratorId": 10,
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   }
 ]

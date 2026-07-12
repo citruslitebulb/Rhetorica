@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["responsibility", "ethics", "heroism"]
+    "categories": ["leadership", "humanities", "courage"]
   },
   {
     "id": 27002,
@@ -21,19 +21,19 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["power", "responsibility", "ethics"]
+    "categories": ["leadership", "humanities"]
   },
   {
     "id": 27003,
     "word": "burden",
     "definition": "A load, typically a heavy one; a duty or misfortune that causes hardship.",
-    "example": "You have a gift. A power that most people will never understand. And with that power comes a responsibility.",
+    "example": "Power is a burden and a gift most people will never understand—and with that power comes responsibility.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["responsibility", "heroism", "mentorship"]
+    "categories": ["leadership", "courage"]
   },
   {
     "id": 27004,
@@ -45,102 +45,150 @@
     "complexity": "intermediate",
     "source": "Harry Potter and the Chamber of Secrets (2002)",
     "speech": "Dumbledore's Lesson",
-    "categories": ["ethics", "responsibility", "heroism"]
+    "categories": ["humanities", "leadership", "courage"]
   },
   {
     "id": 27005,
     "word": "destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future.",
-    "example": "All we have to decide is what to do with the time that is given us.",
+    "example": "Destiny still leaves you a choice: all we have to decide is what to do with the time that is given us.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Fellowship of the Ring (2001)",
     "speech": "Gandalf's Wisdom to Frodo",
-    "categories": ["responsibility", "heroism", "mentorship"]
+    "categories": ["leadership", "courage"]
   },
   {
     "id": 27006,
     "word": "duty",
     "definition": "A moral or legal obligation; a responsibility.",
-    "example": "With great power comes great responsibility. Don't ever forget that.",
+    "example": "Duty is simple to say and hard to live: with great power comes great responsibility—don’t ever forget that.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["responsibility", "ethics", "heroism"]
+    "categories": ["leadership", "humanities", "courage"]
   },
   {
     "id": 27007,
     "word": "sacrifice",
     "definition": "An act of giving up something valued for the sake of something else regarded as more important or worthy.",
-    "example": "The needs of the many outweigh the needs of the few, or the one.",
+    "example": "Sacrifice puts the needs of the many above the needs of the few, or the one.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Star Trek II: The Wrath of Khan (1982)",
     "speech": "Spock's Sacrifice",
-    "categories": ["responsibility", "heroism", "ethics"]
+    "categories": ["leadership", "courage", "humanities"]
   },
   {
     "id": 27008,
     "word": "integrity",
     "definition": "The quality of being honest and having strong moral principles; moral uprightness.",
-    "example": "It's not who I am underneath, but what I do that defines me.",
+    "example": "Integrity is not who I am underneath, but what I do that defines me.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Batman Begins (2005)",
     "speech": "Bruce Wayne's Training and Resolve",
-    "categories": ["ethics", "responsibility", "heroism"]
+    "categories": ["humanities", "leadership", "courage"]
   },
   {
     "id": 27009,
     "word": "heroism",
     "definition": "Great bravery; actions that are courageous and noble, often in service of others.",
-    "example": "I am no man.",
+    "example": "Heroism can be a quiet stand: I am no man—and still I will not yield.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "The Lord of the Rings: The Return of the King (2003)",
     "speech": "Éowyn's Stand Against the Witch-king",
-    "categories": ["heroism", "responsibility", "power"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 27010,
     "word": "accountability",
     "definition": "The fact or condition of being accountable; responsibility for one's actions.",
-    "example": "I can't just stand by and watch bad things happen. I have to do something. I have to be better.",
+    "example": "Accountability refuses the sideline: I can’t just watch bad things happen; I have to do something; I have to be better.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "advanced",
     "source": "Spider-Man (2002)",
     "speech": "Peter Parker's Reflection on Responsibility",
-    "categories": ["responsibility", "ethics", "heroism"]
+    "categories": ["leadership", "humanities", "courage"]
   },
   {
     "id": 27011,
     "word": "mentorship",
     "definition": "The guidance provided by a mentor, especially an experienced person in a company or educational institution.",
-    "example": "You have a gift. A power that most people will never understand. And with that power comes a responsibility.",
+    "example": "Mentorship names the gift and the weight: you have a power most will never understand, and with it responsibility.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["mentorship", "responsibility", "ethics"]
+    "categories": ["leadership", "humanities"]
   },
   {
     "id": 27012,
     "word": "consequence",
     "definition": "A result or effect of an action or condition.",
-    "example": "If you could do good things for other people, you had a moral obligation to do those things.",
+    "example": "Consequence follows power: if you can do good for others, you have a moral obligation to do those things.",
     "partOfSpeech": "noun",
     "oratorId": 27,
     "complexity": "intermediate",
     "source": "Spider-Man: Homecoming (2017)",
     "speech": "Tony Stark to Peter Parker",
-    "categories": ["responsibility", "ethics", "power"]
+    "categories": ["leadership", "humanities"]
+  },
+  {
+    "id": 27013,
+    "oratorId": 27,
+    "word": "ordinary",
+    "definition": "With no special features; normal—until action reveals more.",
+    "example": "Ordinary people become extraordinary when they refuse to look away.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Spider-Man lore",
+    "speech": "On responsibility",
+    "categories": ["inspirational", "courage", "democracy"]
+  },
+  {
+    "id": 27014,
+    "oratorId": 27,
+    "word": "stand",
+    "definition": "To take up a position of resistance or support.",
+    "example": "I can’t just stand by—accountability begins when watching becomes participating.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Hero reflections",
+    "speech": "Peter Parker's Reflection on Responsibility",
+    "categories": ["courage", "leadership", "democracy"]
+  },
+  {
+    "id": 27015,
+    "oratorId": 27,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Spider-Man (2002)",
+    "speech": "Uncle Ben's Final Lesson"
+  },
+  {
+    "id": 27016,
+    "oratorId": 27,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Spider-Man (2002)",
+    "speech": "Uncle Ben's Final Lesson"
   }
 ]

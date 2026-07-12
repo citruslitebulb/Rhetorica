@@ -3,96 +3,192 @@
     "id": 38001,
     "word": "redemption",
     "definition": "The action of saving or being saved from sin, error, or evil; the act of being redeemed or making amends.",
-    "example": "Tap out, Tommy. It's okay... I love you! I love you, Tommy!",
+    "example": "Redemption can sound like love in the corner: tap out, Tommy—it’s okay; I love you.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "advanced",
     "source": "Warrior (2011)",
     "speech": "Final fight climax",
-    "categories": ["redemption", "family"]
+    "categories": ["legacy"]
   },
   {
     "id": 38002,
     "word": "discipline",
     "definition": "Training that corrects, molds, or perfects the mental faculties or moral character; strict training.",
-    "example": "We train. That's it. I don't wanna hear a word about anything but training, you understand?",
+    "example": "Discipline is the rule of the room: we train—that’s it; not a word about anything but training.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "intermediate",
     "source": "Warrior (2011)",
     "speech": "Tommy to his father",
-    "categories": ["discipline", "focus"]
+    "categories": ["leadership"]
   },
   {
     "id": 38003,
     "word": "perseverance",
     "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
-    "example": "I'm not a quitter. I don't tap.",
+    "example": "Perseverance refuses the mat: I’m not a quitter; I don’t tap.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "advanced",
     "source": "Warrior (2011)",
     "speech": "Tommy's warrior ethos",
-    "categories": ["perseverance", "grit"]
+    "categories": ["courage"]
   },
   {
     "id": 38004,
     "word": "forgiveness",
     "definition": "The action or process of forgiving or being forgiven; compassionate release from resentment.",
-    "example": "Tap out, Tommy. It's okay... I love you! I love you, Tommy!",
+    "example": "Forgiveness can be a plea from the ropes: tap out—it’s okay; I love you, Tommy.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "intermediate",
     "source": "Warrior (2011)",
     "speech": "Final fight climax",
-    "categories": ["forgiveness", "family"]
+    "categories": ["humanities", "legacy"]
   },
   {
     "id": 38005,
     "word": "grit",
     "definition": "Courage and resolve; strength of character; firmness of mind or spirit.",
-    "example": "I'm not a quitter. I don't tap.",
+    "example": "Grit says I’m not a quitter; I don’t tap.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "intermediate",
     "source": "Warrior (2011)",
     "speech": "Tommy's warrior ethos",
-    "categories": ["grit", "perseverance"]
+    "categories": ["courage"]
   },
   {
     "id": 38006,
     "word": "family",
     "definition": "A group consisting of parents and children living together in a household; close relations bound by love or loyalty.",
-    "example": "You never had any interest in underdogs. But I was your son.",
+    "example": "Family cuts deepest: you never cared for underdogs, but I was your son.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "beginner",
     "source": "Warrior (2011)",
     "speech": "Brendan confronting his father",
-    "categories": ["family", "pain"]
+    "categories": ["legacy", "courage"]
   },
   {
     "id": 38007,
     "word": "endurance",
     "definition": "The ability to endure an unpleasant or difficult process or situation without giving way.",
-    "example": "In the end, it's not about who hits harder. It's about who can take it and keep coming.",
+    "example": "Endurance decides the fight: not who hits harder, but who can take it and keep coming.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "intermediate",
     "source": "Warrior (2011)",
     "speech": "Tommy's fighting philosophy",
-    "categories": ["endurance", "grit"]
+    "categories": ["courage"]
   },
   {
     "id": 38008,
     "word": "pain",
     "definition": "Physical or emotional suffering or distress; the opposite of pleasure.",
-    "example": "I think I liked you better when you were a drunk.",
+    "example": "Pain has a dark humor: I think I liked you better when you were a drunk.",
     "partOfSpeech": "noun",
     "oratorId": 38,
     "complexity": "beginner",
     "source": "Warrior (2011)",
     "speech": "Tommy to his father",
-    "categories": ["pain", "family"]
+    "categories": ["courage", "legacy"]
+  },
+  {
+    "id": 38009,
+    "oratorId": 38,
+    "word": "brother",
+    "definition": "A male sibling; a fellow member bound by loyalty.",
+    "example": "In the cage or out of it, brother is a word that can save you or break you.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Warrior",
+    "speech": "Family conflict",
+    "categories": ["legacy", "humanities", "courage"]
+  },
+  {
+    "id": 38010,
+    "oratorId": 38,
+    "word": "tap",
+    "definition": "To signal submission in combat sports.",
+    "example": "I’m not a quitter—I don’t tap—until love makes surrender a different kind of strength.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Warrior",
+    "speech": "Tournament arc",
+    "categories": ["courage", "humanities"]
+  },
+  {
+    "id": 38011,
+    "oratorId": 38,
+    "word": "train",
+    "definition": "To teach a skill through practice; to prepare physically.",
+    "example": "We train. That’s it—not a word about anything but the work in front of us.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Warrior",
+    "speech": "Training",
+    "categories": ["leadership", "courage"]
+  },
+  {
+    "id": 38012,
+    "oratorId": 38,
+    "word": "forgive",
+    "definition": "To stop feeling angry or resentful toward someone for an offense.",
+    "example": "To forgive a father is sometimes harder than any round in the cage.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Warrior",
+    "speech": "Family conflict",
+    "categories": ["humanities", "legacy", "courage"]
+  },
+  {
+    "id": 38013,
+    "oratorId": 38,
+    "word": "underdog",
+    "definition": "A competitor thought to have little chance of winning.",
+    "example": "You never had interest in underdogs—until one of them was your son.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Warrior",
+    "speech": "Family conflict",
+    "categories": ["courage", "inspirational", "legacy"]
+  },
+  {
+    "id": 38014,
+    "oratorId": 38,
+    "word": "round",
+    "definition": "A segment of a fight; another interval of suffering and will.",
+    "example": "Survive the round you are in—tomorrow’s strategy cannot help tonight’s blood.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Warrior",
+    "speech": "Tournament arc",
+    "categories": ["courage", "inspirational"]
+  },
+  {
+    "id": 38015,
+    "oratorId": 38,
+    "word": "sober",
+    "definition": "Not affected by alcohol; clear-headed and restrained.",
+    "example": "A sober second chance is heavier than a drunken apology.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Warrior",
+    "speech": "Redemption arc",
+    "categories": ["humanities", "courage", "legacy"]
+  },
+  {
+    "id": 38016,
+    "oratorId": 38,
+    "word": "love",
+    "definition": "An intense feeling of deep affection; steadfast care.",
+    "example": "Love can sound like a corner man pleading: tap out—it’s okay; I love you.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Warrior",
+    "speech": "Climax",
+    "categories": ["humanities", "legacy", "inspirational"]
   }
 ]

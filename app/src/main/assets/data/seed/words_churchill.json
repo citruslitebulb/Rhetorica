@@ -1,130 +1,103 @@
 [
   {
     "id": 40141,
-    "word": "Surrender",
-    "definition": "Cease resistance to an enemy or opponent and submit to their authority",
-    "example": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.",
+    "word": "surrender",
+    "definition": "To cease resistance and submit; to yield a free people's future.",
+    "example": "We shall fight on the beaches, we shall fight on the landing grounds; we shall never surrender.",
     "partOfSpeech": "verb",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40142,
-    "word": "Toil",
-    "definition": "Work extremely hard or incessantly",
-    "example": "I have nothing to offer but blood, toil, tears and sweat.",
+    "word": "toil",
+    "definition": "Exhausting labor undertaken for a hard cause.",
+    "example": "I have nothing to offer but blood, toil, tears and sweat—the honest ledger of a nation at war.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40143,
-    "word": "Sweat",
-    "definition": "Moisture exuded through the pores of the skin, typically in profuse quantities as a reaction to heat, physical exertion, fever, or fear",
-    "example": "I have nothing to offer but blood, toil, tears and sweat.",
+    "word": "fortitude",
+    "definition": "Courage in pain or adversity; steady moral strength.",
+    "example": "Blood, toil, tears and sweat named the price; fortitude named the character that would pay it.",
     "partOfSpeech": "noun",
     "oratorId": 8,
-    "complexity": "intermediate",
+    "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40144,
-    "word": "Invasion",
-    "definition": "An instance of invading a country or region with an armed force",
-    "example": "In his address, the orator urged his listeners to show invasion when facing the greatest challenges.",
+    "word": "defiance",
+    "definition": "Open resistance; bold disobedience in the face of threat.",
+    "example": "Defiance rang through the promise to fight on the beaches and never surrender.",
     "partOfSpeech": "noun",
     "oratorId": 8,
-    "complexity": "intermediate",
+    "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40145,
-    "word": "Resolve",
-    "definition": "Firm determination to do something",
-    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
+    "word": "resolve",
+    "definition": "Firm determination to act despite fear or fatigue.",
+    "example": "In war: resolution. In defeat: defiance. In victory: magnanimity—resolve in every tense of the struggle.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": [
-      "leadership",
-      "courage"
-    ]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 40146,
-    "word": "Magnanimity",
-    "definition": "The fact or condition of being magnanimous; generosity",
+    "word": "magnanimity",
+    "definition": "Generosity of spirit, especially toward a defeated opponent.",
     "example": "In war: resolution. In defeat: defiance. In victory: magnanimity. In peace: goodwill.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["leadership", "humanities", "legacy"]
   },
   {
     "id": 40147,
-    "word": "Curtain",
-    "definition": "A piece of material suspended at the top to form a screen",
-    "example": "From Stettin in the Baltic to Trieste in the Adriatic, an iron curtain has descended across the Continent.",
-    "partOfSpeech": "noun",
-    "oratorId": 8,
-    "complexity": "intermediate",
-    "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches",
-    "categories": []
-  },
-  {
-    "id": 40148,
-    "word": "Defiance",
-    "definition": "Open resistance; bold disobedience",
-    "example": "In war: resolution. In defeat: defiance. In victory: magnanimity. In peace: goodwill.",
-    "partOfSpeech": "noun",
-    "oratorId": 8,
-    "complexity": "intermediate",
-    "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches",
-    "categories": []
-  },
-  {
-    "id": 40149,
-    "word": "Endurance",
-    "definition": "The fact or power of enduring an unpleasant or difficult process or situation without giving way",
-    "example": "In his address, the orator urged his listeners to show endurance when facing the greatest challenges.",
-    "partOfSpeech": "noun",
-    "oratorId": 8,
-    "complexity": "intermediate",
-    "source": "We Shall Fight on the Beaches",
-    "speech": "We Shall Fight on the Beaches",
-    "categories": []
-  },
-  {
-    "id": 40150,
-    "word": "Vigilance",
-    "definition": "The action or state of keeping careful watch for possible danger or difficulties",
-    "example": "We shall not fail or falter; we shall not weaken or tire. Neither the sudden shock of battle, nor the long-drawn trials of vigilance and exertion will wear us down.",
+    "word": "vigilance",
+    "definition": "The action or state of keeping careful watch for possible danger.",
+    "example": "From Stettin in the Baltic to Trieste in the Adriatic an iron curtain fell—and vigilance became the price of free nations.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "democracy", "leadership"]
+  },
+  {
+    "id": 40149,
+    "word": "endurance",
+    "definition": "The fact or power of enduring an unpleasant or difficult process or situation without giving way",
+    "example": "Endurance is the hinge of We Shall Fight on the Beaches: without it the rest is decoration.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40151,
-    "word": "Exertion",
+    "word": "exertion",
     "definition": "Physical or mental effort",
     "example": "We shall not fail or falter; we shall not weaken or tire. Neither the sudden shock of battle, nor the long-drawn trials of vigilance and exertion will wear us down.",
     "partOfSpeech": "noun",
@@ -132,23 +105,23 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40152,
-    "word": "Triumph",
+    "word": "triumph",
     "definition": "A great victory or achievement",
-    "example": "In his address, the orator urged his listeners to show triumph when facing the greatest challenges.",
+    "example": "Triumph is the hinge of We Shall Fight on the Beaches: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 8,
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40153,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
     "partOfSpeech": "noun",
@@ -156,15 +129,11 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40154,
-    "word": "Arsenal",
+    "word": "arsenal",
     "definition": "A collection of weapons and military equipment",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
@@ -172,11 +141,11 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40155,
-    "word": "Democracy",
+    "word": "democracy",
     "definition": "A system of government by the whole population or all the eligible members of a state",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
@@ -184,13 +153,11 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40156,
-    "word": "Appeasement",
+    "word": "appeasement",
     "definition": "The action of pacifying or placating someone by acceding to their demands",
     "example": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness.",
     "partOfSpeech": "noun",
@@ -198,11 +165,11 @@
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40157,
-    "word": "Ruthlessness",
+    "word": "ruthlessness",
     "definition": "The quality of being cruel or having no pity",
     "example": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness.",
     "partOfSpeech": "noun",
@@ -210,11 +177,11 @@
     "complexity": "advanced",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40158,
-    "word": "Beginning",
+    "word": "beginning",
     "definition": "The point in time or space at which something starts",
     "example": "This is not the end. It is not even the beginning of the end. But it is, perhaps, the end of the beginning.",
     "partOfSpeech": "noun",
@@ -222,11 +189,11 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40159,
-    "word": "Victory",
+    "word": "victory",
     "definition": "An act of defeating an enemy or opponent in a battle, game, or other competition",
     "example": "Victory at all costs, victory in spite of all terror, victory however long and hard the road may be; for without victory, there is no survival.",
     "partOfSpeech": "noun",
@@ -234,11 +201,11 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40160,
-    "word": "Survival",
+    "word": "survival",
     "definition": "The state or fact of continuing to live or exist, typically in spite of an accident, ordeal, or difficult circumstances",
     "example": "Victory at all costs, victory in spite of all terror, victory however long and hard the road may be; for without victory, there is no survival.",
     "partOfSpeech": "noun",
@@ -246,6 +213,18 @@
     "complexity": "intermediate",
     "source": "We Shall Fight on the Beaches",
     "speech": "We Shall Fight on the Beaches",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
+  },
+  {
+    "id": 40361,
+    "oratorId": 8,
+    "word": "indomitable",
+    "definition": "Impossible to subdue or defeat.",
+    "example": "He summoned an indomitable will: we shall never surrender.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "categories": ["courage", "leadership", "legacy"],
+    "source": "War speeches",
+    "speech": "We Shall Fight on the Beaches"
   }
 ]

@@ -1,31 +1,31 @@
 [
   {
     "id": 40241,
-    "word": "Blind",
-    "definition": "Unable to see; sightless",
+    "word": "blind",
+    "definition": "Unable to see; sightless; a word that gains force in public speech.",
     "example": "An eye for an eye only ends up making the whole world blind.",
     "partOfSpeech": "adjective",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings and speeches (often attributed)",
     "speech": "Young India and public addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40242,
-    "word": "Peace",
-    "definition": "Freedom from disturbance; tranquility",
+    "word": "peace",
+    "definition": "Freedom from disturbance; tranquility; a word that gains force in public speech.",
     "example": "There is no path to peace. Peace is the path.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Public addresses on non-violence",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40243,
-    "word": "Forgiveness",
+    "word": "forgiveness",
     "definition": "The action or process of forgiving or being forgiven",
     "example": "The weak can never forgive. Forgiveness is the attribute of the strong.",
     "partOfSpeech": "noun",
@@ -33,37 +33,35 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Addresses on non-violence and reconciliation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40244,
-    "word": "Change",
-    "definition": "Make or become different",
+    "word": "change",
+    "definition": "Make or become different; a word that gains force in public speech.",
     "example": "You must be the change you wish to see in the world.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (widely attributed)",
     "speech": "Public teachings",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40245,
-    "word": "Strength",
-    "definition": "The quality or state of being physically strong",
+    "word": "strength",
+    "definition": "The quality or state of being physically strong; a word that gains force in public speech.",
     "example": "Strength does not come from physical capacity. It comes from an indomitable will.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On satyagraha and personal discipline",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40246,
-    "word": "Will",
+    "word": "will",
     "definition": "The faculty by which a person decides on and initiates action",
     "example": "Strength does not come from physical capacity. It comes from an indomitable will.",
     "partOfSpeech": "noun",
@@ -71,23 +69,23 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On satyagraha and personal discipline",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40247,
-    "word": "Happiness",
-    "definition": "The state of being happy",
+    "word": "happiness",
+    "definition": "The state of being happy; a word that gains force in public speech.",
     "example": "Happiness is when what you think, what you say, and what you do are in harmony.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth (satya) and integrity",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40248,
-    "word": "Harmony",
+    "word": "harmony",
     "definition": "The combination of simultaneously sounded musical notes to produce a pleasing effect",
     "example": "Happiness is when what you think, what you say, and what you do are in harmony.",
     "partOfSpeech": "noun",
@@ -95,11 +93,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth (satya) and integrity",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40249,
-    "word": "Future",
+    "word": "future",
     "definition": "The time or a period of time following the moment of speaking or writing",
     "example": "The future depends on what you do today.",
     "partOfSpeech": "noun",
@@ -107,13 +105,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Public exhortations",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40250,
-    "word": "Violence",
+    "word": "violence",
     "definition": "Behavior involving physical force intended to hurt, damage, or kill someone or something",
     "example": "I object to violence because when it appears to do good, the good is only temporary; the evil it does is permanent.",
     "partOfSpeech": "noun",
@@ -121,19 +117,19 @@
     "complexity": "intermediate",
     "source": "Young India / Harijan",
     "speech": "Writings on satyagraha",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40251,
-    "word": "Error",
-    "definition": "A mistake",
-    "example": "In his address, the orator urged his listeners to show error when facing the greatest challenges.",
+    "word": "error",
+    "definition": "A mistake; a word that gains force in public speech.",
+    "example": "Error is the hinge of On swaraj (self-rule) and liberty: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On swaraj (self-rule) and liberty",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40252,
@@ -145,23 +141,23 @@
     "complexity": "intermediate",
     "source": "Young India / Harijan",
     "speech": "Writings on satyagraha",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40253,
-    "word": "Truth",
-    "definition": "The quality or state of being true",
-    "example": "In his address, the orator urged his listeners to show truth when facing the greatest challenges.",
+    "word": "truth",
+    "definition": "The quality or state of being true; a word that gains force in public speech.",
+    "example": "Truth is the hinge of On truth and courage: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth and courage",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40254,
-    "word": "Greed",
+    "word": "greed",
     "definition": "Intense and selfish desire for something, especially wealth, power, or food",
     "example": "Earth provides enough to satisfy every man's needs, but not every man's greed.",
     "partOfSpeech": "noun",
@@ -169,23 +165,23 @@
     "complexity": "intermediate",
     "source": "Various (widely attributed in his writings on trusteeship and simplicity)",
     "speech": "On economics and simple living",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40255,
-    "word": "Darkness",
-    "definition": "The partial or total absence of light",
+    "word": "darkness",
+    "definition": "The partial or total absence of light; a word that gains force in public speech.",
     "example": "In the midst of darkness, light persists.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On hope during the independence struggle",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40256,
-    "word": "Light",
+    "word": "light",
     "definition": "The natural agent that stimulates sight and makes things visible",
     "example": "In the midst of darkness, light persists.",
     "partOfSpeech": "noun",
@@ -193,11 +189,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On hope during the independence struggle",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40257,
-    "word": "Path",
+    "word": "path",
     "definition": "A way or track laid down for walking or made by continual treading",
     "example": "There is no path to peace. Peace is the path.",
     "partOfSpeech": "noun",
@@ -205,37 +201,35 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On non-violence",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40258,
-    "word": "Conviction",
-    "definition": "A firmly held belief or opinion",
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion; a word that gains force in public speech.",
     "example": "A 'No' uttered from the deepest conviction is better than a 'Yes' merely uttered to please, or worse, to avoid trouble.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth and courage",
-    "categories": [
-      "leadership"
-    ]
+    "categories": ["leadership"]
   },
   {
     "id": 40259,
-    "word": "Civilization",
+    "word": "civilization",
     "definition": "The stage of human social and cultural development and organization that is considered most advanced",
-    "example": "In his address, the orator urged his listeners to show civilization when facing the greatest challenges.",
+    "example": "Civilization is the hinge of On ethics and civilization: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 13,
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
     "speech": "On ethics and civilization",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40260,
-    "word": "Moral",
+    "word": "moral",
     "definition": "Concerned with the principles of right and wrong behavior",
     "example": "The greatness of a nation and its moral progress can be judged by the way its animals are treated.",
     "partOfSpeech": "adjective",
@@ -243,8 +237,6 @@
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
     "speech": "On ethics and civilization",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": 40221,
-    "word": "Domination",
+    "word": "domination",
     "definition": "The exercise of power or influence over someone or something",
     "example": "I have fought against white domination, and I have fought against black domination.",
     "partOfSpeech": "noun",
@@ -9,23 +9,23 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40222,
-    "word": "Ideal",
-    "definition": "A person or thing regarded as perfect",
+    "word": "ideal",
+    "definition": "A person or thing regarded as perfect; a word that gains force in public speech.",
     "example": "I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities.",
     "partOfSpeech": "noun",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40223,
-    "word": "Harmony",
+    "word": "harmony",
     "definition": "The combination of simultaneously sounded musical notes to produce a pleasing effect",
     "example": "I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities.",
     "partOfSpeech": "noun",
@@ -33,11 +33,11 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40224,
-    "word": "Education",
+    "word": "education",
     "definition": "The process of receiving or giving systematic instruction",
     "example": "Education is the most powerful weapon which you can use to change the world.",
     "partOfSpeech": "noun",
@@ -45,11 +45,11 @@
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
     "speech": "Address on education",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40225,
-    "word": "Weapon",
+    "word": "weapon",
     "definition": "A thing designed or used for inflicting bodily harm or physical damage",
     "example": "Education is the most powerful weapon which you can use to change the world.",
     "partOfSpeech": "noun",
@@ -57,23 +57,23 @@
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
     "speech": "Address on education",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40226,
-    "word": "Impossible",
-    "definition": "Not able to occur, exist, or be done",
+    "word": "impossible",
+    "definition": "Not able to occur, exist, or be done; a word that gains force in public speech.",
     "example": "It always seems impossible until it's done.",
     "partOfSpeech": "adjective",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Various speeches and interviews",
     "speech": "Multiple addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40227,
-    "word": "Freedom",
+    "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
     "example": "For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.",
     "partOfSpeech": "noun",
@@ -81,14 +81,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
     "speech": "Various post-release addresses",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40228,
-    "word": "Chains",
+    "word": "chains",
     "definition": "A series of linked metal rings used for fastening or securing something",
     "example": "For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.",
     "partOfSpeech": "noun",
@@ -96,23 +93,23 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
     "speech": "Various post-release addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40229,
-    "word": "Forgiveness",
+    "word": "forgiveness",
     "definition": "The action or process of forgiving or being forgiven",
-    "example": "In his address, the orator urged his listeners to show forgiveness when facing the greatest challenges.",
+    "example": "Forgiveness is the hinge of Various reconciliation addresses: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Various reconciliation addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40230,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "I learned that courage was not the absence of fear, but the triumph over it.",
     "partOfSpeech": "noun",
@@ -120,15 +117,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Autobiographical reflections in speeches",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40231,
-    "word": "Partner",
+    "word": "partner",
     "definition": "A person who takes part in an undertaking with another or others",
     "example": "If you want to make peace with your enemy, you have to work with your enemy. Then he becomes your partner.",
     "partOfSpeech": "noun",
@@ -136,11 +129,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom / post-presidency interviews",
     "speech": "Various",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40232,
-    "word": "Prison",
+    "word": "prison",
     "definition": "A building in which people are legally held as a punishment for a crime they have committed",
     "example": "As I walked out the door toward the gate that would lead to my freedom, I knew if I didn't leave my bitterness and hatred behind, I'd still be in prison.",
     "partOfSpeech": "noun",
@@ -148,11 +141,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Reflections after release",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40233,
-    "word": "Bitterness",
+    "word": "bitterness",
     "definition": "Anger and disappointment at being treated unfairly",
     "example": "As I walked out the door toward the gate that would lead to my freedom, I knew if I didn't leave my bitterness and hatred behind, I'd still be in prison.",
     "partOfSpeech": "noun",
@@ -160,11 +153,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Reflections after release",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40234,
-    "word": "Optimist",
+    "word": "optimist",
     "definition": "A person who tends to be hopeful and confident about the future",
     "example": "I am fundamentally an optimist. Whether that comes from nature or nurture, I cannot say.",
     "partOfSpeech": "noun",
@@ -172,11 +165,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Autobiography and later speeches",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40235,
-    "word": "Sacrifice",
+    "word": "sacrifice",
     "definition": "An act of giving up something valued for the sake of something else regarded as more important",
     "example": "We dedicate this day to all the heroes and heroines in this country and the rest of the world who sacrificed in many ways and surrendered their lives so that we could be free.",
     "partOfSpeech": "noun",
@@ -184,13 +177,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": [
-      "leadership"
-    ]
+    "categories": ["leadership"]
   },
   {
     "id": 40236,
-    "word": "Disaster",
+    "word": "disaster",
     "definition": "A sudden event, such as an accident or a natural catastrophe, that causes great damage or loss of life",
     "example": "Out of the experience of an extraordinary human disaster that lasted too long, must be born a society of which all humanity will be proud.",
     "partOfSpeech": "noun",
@@ -198,35 +189,35 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40237,
-    "word": "Reign",
-    "definition": "Rule as a monarch",
+    "word": "reign",
+    "definition": "Rule as a monarch; a word that gains force in public speech.",
     "example": "Let freedom reign. The sun never set on so glorious a human achievement.",
     "partOfSpeech": "verb",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40238,
-    "word": "Glorious",
-    "definition": "Having, bringing, or worthy of fame or admiration",
+    "word": "glorious",
+    "definition": "Having, bringing, or worthy of fame or admiration; a word that gains force in public speech.",
     "example": "Let freedom reign. The sun never set on so glorious a human achievement.",
     "partOfSpeech": "adjective",
     "oratorId": 12,
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40239,
-    "word": "Achievement",
+    "word": "achievement",
     "definition": "A thing done successfully with effort, skill, or courage",
     "example": "Let freedom reign. The sun never set on so glorious a human achievement.",
     "partOfSpeech": "noun",
@@ -234,11 +225,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40240,
-    "word": "Leader",
+    "word": "leader",
     "definition": "The person who leads or commands a group, organization, or country",
     "example": "Real leaders must be ready to sacrifice all for the freedom of their people.",
     "partOfSpeech": "noun",
@@ -246,6 +237,6 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement / Long Walk to Freedom",
     "speech": "Statement from the Dock",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   }
 ]

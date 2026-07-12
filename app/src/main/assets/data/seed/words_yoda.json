@@ -3,13 +3,13 @@
     "id": 30001,
     "word": "commitment",
     "definition": "The state or quality of being dedicated to a cause, activity, or relationship.",
-    "example": "Do or do not. There is no try.",
+    "example": "Commitment leaves no half-measure: do or do not—there is no try.",
     "partOfSpeech": "noun",
     "oratorId": 30,
     "complexity": "intermediate",
     "source": "Star Wars: Episode V - The Empire Strikes Back",
     "speech": "Yoda's Training on Dagobah",
-    "categories": ["wisdom", "balance", "patience"]
+    "categories": ["humanities"]
   },
   {
     "id": 30002,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "Star Wars: Episode I - The Phantom Menace",
     "speech": "Yoda's Warning to Anakin",
-    "categories": ["fear", "wisdom", "balance"]
+    "categories": ["courage", "humanities"]
   },
   {
     "id": 30003,
@@ -33,19 +33,19 @@
     "complexity": "intermediate",
     "source": "Star Wars: Episode VIII - The Last Jedi",
     "speech": "Yoda's Lesson to Luke",
-    "categories": ["failure", "wisdom", "patience"]
+    "categories": ["courage", "humanities"]
   },
   {
     "id": 30004,
     "word": "attachment",
     "definition": "Affection, fondness, or sympathy for someone or something; emotional dependence.",
-    "example": "Train yourself to let go of everything you fear to lose.",
+    "example": "Attachment is the path to fear; train yourself to let go of everything you fear to lose.",
     "partOfSpeech": "noun",
     "oratorId": 30,
     "complexity": "advanced",
     "source": "Star Wars: Episode III - Revenge of the Sith",
     "speech": "Yoda's Advice to Anakin",
-    "categories": ["balance", "wisdom", "fear"]
+    "categories": ["humanities", "courage"]
   },
   {
     "id": 30005,
@@ -57,42 +57,138 @@
     "complexity": "intermediate",
     "source": "Star Wars: Episode III - Revenge of the Sith",
     "speech": "Yoda Reflecting on the Jedi's Situation",
-    "categories": ["wisdom", "balance", "patience"]
+    "categories": ["humanities"]
   },
   {
     "id": 30006,
     "word": "patience",
     "definition": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry or upset.",
-    "example": "Do or do not. There is no try.",
+    "example": "Patience is not delay dressed as virtue—do or do not; there is no try.",
     "partOfSpeech": "noun",
     "oratorId": 30,
     "complexity": "intermediate",
     "source": "Star Wars: Episode V - The Empire Strikes Back",
     "speech": "Yoda's Training on Dagobah",
-    "categories": ["patience", "wisdom", "balance"]
+    "categories": ["humanities"]
   },
   {
     "id": 30007,
     "word": "humility",
     "definition": "A modest or low view of one's own importance; humbleness.",
-    "example": "Size matters not. Look at me. Judge me by my size, do you?",
+    "example": "Humility knows size matters not: look at me—judge me by my size, do you?",
     "partOfSpeech": "noun",
     "oratorId": 30,
     "complexity": "intermediate",
     "source": "Star Wars: Episode V - The Empire Strikes Back",
     "speech": "Yoda's Training on Dagobah",
-    "categories": ["wisdom", "balance", "virtue"]
+    "categories": ["humanities"]
   },
   {
     "id": 30008,
     "word": "detachment",
     "definition": "The state of being objective or aloof; freedom from emotional involvement.",
-    "example": "Train yourself to let go of everything you fear to lose.",
+    "example": "Detachment is the Jedi’s hard lesson: train yourself to let go of everything you fear to lose.",
     "partOfSpeech": "noun",
     "oratorId": 30,
     "complexity": "advanced",
     "source": "Star Wars: Episode III - Revenge of the Sith",
     "speech": "Yoda's Advice to Anakin",
-    "categories": ["balance", "wisdom", "fear"]
+    "categories": ["humanities", "courage"]
+  },
+  {
+    "id": 30009,
+    "oratorId": 30,
+    "word": "luminous",
+    "definition": "Full of or shedding light; brilliant or enlightening.",
+    "example": "In a dark place we find ourselves, and a little more knowledge lights our way—luminous, if we allow it.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "Star Wars",
+    "speech": "Counsel in darkness",
+    "categories": ["humanities", "inspirational"]
+  },
+  {
+    "id": 30010,
+    "oratorId": 30,
+    "word": "control",
+    "definition": "The power to influence or direct behavior or the course of events.",
+    "example": "Control is an illusion the dark side sells; mastery begins with the self.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Star Wars",
+    "speech": "Lessons on the Force",
+    "categories": ["humanities", "leadership", "courage"]
+  },
+  {
+    "id": 30011,
+    "oratorId": 30,
+    "word": "pass",
+    "definition": "To go by; to let something move beyond without holding it.",
+    "example": "Train yourself to let go—what you fear to lose will pass through open hands more safely.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Revenge of the Sith",
+    "speech": "Yoda's Advice to Anakin",
+    "categories": ["humanities", "courage"]
+  },
+  {
+    "id": 30012,
+    "oratorId": 30,
+    "word": "judge",
+    "definition": "To form an opinion about; to conclude after assessment.",
+    "example": "Size matters not—judge me by my size, do you?",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "The Empire Strikes Back",
+    "speech": "Training Luke",
+    "categories": ["inspirational", "courage", "humanities"]
+  },
+  {
+    "id": 30013,
+    "oratorId": 30,
+    "word": "try",
+    "definition": "To make an attempt or effort to do something.",
+    "example": "Do or do not. There is no try—commitment leaves no half-measure.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "The Empire Strikes Back",
+    "speech": "Training Luke",
+    "categories": ["courage", "leadership", "inspirational"]
+  },
+  {
+    "id": 30014,
+    "oratorId": 30,
+    "word": "anger",
+    "definition": "A strong feeling of annoyance, displeasure, or hostility.",
+    "example": "Fear leads to anger; anger leads to hate—the path is a slope, not a single step.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "The Phantom Menace",
+    "speech": "On fear",
+    "categories": ["humanities", "courage"]
+  },
+  {
+    "id": 30015,
+    "oratorId": 30,
+    "word": "serenity",
+    "definition": "The state of being calm, peaceful, and untroubled.",
+    "example": "Serenity is not the absence of the storm—it is balance within it.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Star Wars lore / Jedi code themes",
+    "speech": "Jedi counsel",
+    "categories": ["humanities", "inspirational"]
+  },
+  {
+    "id": 30016,
+    "oratorId": 30,
+    "word": "teacher",
+    "definition": "A person who instructs others.",
+    "example": "The greatest teacher, failure is—if the student will listen.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "The Last Jedi",
+    "speech": "Yoda's Lesson to Luke",
+    "categories": ["humanities", "leadership", "legacy"]
   }
 ]

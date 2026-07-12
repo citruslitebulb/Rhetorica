@@ -9,55 +9,55 @@
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["opportunity", "belief"]
+    "categories": ["inspirational"]
   },
   {
     "id": 34002,
     "word": "belief",
     "definition": "Trust, faith, or confidence in someone or something; a firmly held opinion or conviction.",
-    "example": "This is your time. Their time is done. It's over.",
+    "example": "Belief says this is your time; their time is done—it’s over.",
     "partOfSpeech": "noun",
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["belief", "teamwork"]
+    "categories": ["inspirational", "leadership"]
   },
   {
     "id": 34003,
     "word": "destiny",
     "definition": "The hidden power believed to control future events; the course of events in a person's life.",
-    "example": "You were born to be hockey players. Every one of you. And you were meant to be here tonight.",
+    "example": "Destiny put you here: you were born to be hockey players, and you were meant to be here tonight.",
     "partOfSpeech": "noun",
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["destiny", "belief"]
+    "categories": ["inspirational"]
   },
   {
     "id": 34004,
     "word": "underdog",
     "definition": "A competitor thought to have little chance of winning a contest; one expected to lose.",
-    "example": "If we played 'em ten times, they might win nine. But not this game. Not tonight.",
+    "example": "Play the underdog’s game: if we played them ten times they might win nine—but not this game, not tonight.",
     "partOfSpeech": "noun",
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["underdog", "perseverance"]
+    "categories": ["courage"]
   },
   {
     "id": 34005,
     "word": "teamwork",
     "definition": "The combined action of a group, especially when effective and efficient; collaborative effort.",
-    "example": "Tonight, we skate with them. Tonight, we stay with them. And we shut them down because we can!",
+    "example": "Teamwork means tonight we skate with them, stay with them, and shut them down because we can.",
     "partOfSpeech": "noun",
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["teamwork", "leadership"]
+    "categories": ["leadership"]
   },
   {
     "id": 34006,
@@ -69,19 +69,19 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["moment", "opportunity"]
+    "categories": ["inspirational"]
   },
   {
     "id": 34007,
     "word": "conditioning",
     "definition": "The process of training or accustoming a person or animal to behave in a certain way; physical fitness training.",
-    "example": "You don't have enough talent to win on talent alone.",
+    "example": "Conditioning closes the gap when you don’t have enough talent to win on talent alone.",
     "partOfSpeech": "noun",
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks to the team",
-    "categories": ["conditioning", "discipline"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 34008,
@@ -93,6 +93,102 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks",
-    "categories": ["dreams", "belief"]
+    "categories": ["inspirational"]
+  },
+  {
+    "id": 34009,
+    "oratorId": 34,
+    "word": "tonight",
+    "definition": "On the present or approaching evening; this decisive moment.",
+    "example": "If we played them ten times, they might win nine. But not this game. Not tonight.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Miracle",
+    "speech": "Locker room speech",
+    "categories": ["courage", "inspirational", "leadership"]
+  },
+  {
+    "id": 34010,
+    "oratorId": 34,
+    "word": "name-on-the-front",
+    "definition": "Allegiance to the team identity over individual glory (the jersey’s front).",
+    "example": "Name-on-the-front stands at the center of the argument: The name on the front of the jersey is more important than the one on the back.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Miracle",
+    "speech": "Team identity",
+    "categories": ["leadership", "courage"]
+  },
+  {
+    "id": 34011,
+    "oratorId": 34,
+    "word": "skate",
+    "definition": "To move on skates; metaphorically, to match pace with a superior opponent.",
+    "example": "Tonight we skate with them—we stay with them—and we shut them down because we can.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Miracle",
+    "speech": "Locker room speech",
+    "categories": ["courage", "leadership"]
+  },
+  {
+    "id": 34012,
+    "oratorId": 34,
+    "word": "condition",
+    "definition": "The state of physical fitness; to train for endurance.",
+    "example": "You don’t have enough talent to win on talent alone—condition until character shows.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Miracle",
+    "speech": "Training philosophy",
+    "categories": ["leadership", "courage"]
+  },
+  {
+    "id": 34013,
+    "oratorId": 34,
+    "word": "american",
+    "definition": "Of or relating to the United States; used here as a call to shared identity.",
+    "example": "A american argument runs through Locker room speech: conviction without cruelty, force without panic.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Miracle",
+    "speech": "Locker room speech",
+    "categories": ["inspirational", "courage", "legacy"]
+  },
+  {
+    "id": 34014,
+    "oratorId": 34,
+    "word": "together",
+    "definition": "With each other; into companionship or unity.",
+    "example": "Great moments are born from great opportunity—and from players who finally play together.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Miracle",
+    "speech": "Team building",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 34015,
+    "oratorId": 34,
+    "word": "miracle",
+    "definition": "An extraordinary event that brings welcome consequences; a seeming impossibility achieved.",
+    "example": "They called it a miracle after the fact; in the room it was only work meeting belief.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Miracle",
+    "speech": "1980 Olympic hockey",
+    "categories": ["inspirational", "legacy", "courage"]
+  },
+  {
+    "id": 34016,
+    "oratorId": 34,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Miracle (2004)",
+    "speech": "Herb Brooks pre-game speech"
   }
 ]

@@ -12,14 +12,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import androidx.navigation.compose.rememberNavController
 import com.rhetorica.app.core.navigation.TopLevelDestination
 import com.rhetorica.app.core.navigation.RhetoricaNavHost
 
 @Composable
-fun RhetoricaApp() {
-    val navController = rememberNavController()
+fun RhetoricaApp(navController: NavHostController) {
     val currentDestination = navController.currentBackStackEntryAsState().value?.destination
     val destinations = TopLevelDestination.entries
     val currentRoute = currentDestination?.route

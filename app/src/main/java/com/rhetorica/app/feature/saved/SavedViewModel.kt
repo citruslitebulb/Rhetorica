@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.SavedWordSummary
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.data.repository.WordRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -20,6 +21,7 @@ import kotlinx.coroutines.launch
 class SavedViewModel @Inject constructor(
     private val repository: WordRepository,
     private val dictionaryRepository: DictionaryRepository,
+    private val progressRepository: ProgressRepository,
 ) : ViewModel() {
     private val selectedOratorId = MutableStateFlow<Long?>(null)
     private val selectedSort = MutableStateFlow(SavedSortOption.Newest)
@@ -64,6 +66,7 @@ class SavedViewModel @Inject constructor(
     fun toggleSaved(wordId: Long) {
         viewModelScope.launch {
             repository.toggleSaved(wordId)
+            progressRepository.syncSavedCount()
         }
     }
 

@@ -1,1 +1,14 @@
-[ full 100 quotes for Lincoln, original 20 + 80 more from Gettysburg, Second Inaugural, House Divided, Cooper Union, First Inaugural, and other speeches ... ] 
+[
+  {
+    "id": 30501,
+    "oratorId": 5,
+    "text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
+    "source": "Gettysburg Address"
+  },
+  {
+    "id": 30502,
+    "oratorId": 5,
+    "text": "With malice toward none with charity for all with firmness in the right as God gives us to see the right let us strive on to finish the work we are in.",
+    "source": "Second Inaugural Address"
+  }
+]

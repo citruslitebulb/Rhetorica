@@ -1,183 +1,199 @@
 [
   {
     "id": 40121,
-    "word": "Crucify",
+    "word": "crucify",
     "definition": "Put (someone) to death by nailing or binding them to a cross",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "verb",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40122,
-    "word": "Mankind",
+    "word": "mankind",
     "definition": "Human beings considered collectively; the human race",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40123,
-    "word": "Prosperity",
+    "word": "prosperity",
     "definition": "The state of being prosperous",
     "example": "There are two ideas of government. There are those who believe that, if you will only legislate to make the well-to-do prosperous, their prosperity will leak through on those below.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40124,
-    "word": "Legislate",
+    "word": "legislate",
     "definition": "Make or enact laws",
     "example": "There are two ideas of government. There are those who believe that, if you will only legislate to make the well-to-do prosperous, their prosperity will leak through on those below.",
     "partOfSpeech": "verb",
     "oratorId": 7,
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40125,
-    "word": "Plow",
+    "word": "plow",
     "definition": "Turn up the earth of (an area of land) with a plow, especially before sowing",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "verb",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40126,
-    "word": "Petition",
+    "word": "petition",
     "definition": "A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause",
     "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40127,
-    "word": "Scorn",
+    "word": "scorn",
     "definition": "A feeling or expression of contempt",
     "example": "We have petitioned, and our petitions have been scorned; we have entreated, and our entreaties have been disregarded.",
     "partOfSpeech": "verb",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40128,
-    "word": "Entreaty",
+    "word": "entreaty",
     "definition": "An earnest or humble request",
-    "example": "In his address, the orator urged his listeners to show entreaty when facing the greatest challenges.",
+    "example": "Entreaty is the hinge of Cross of Gold Speech: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40129,
-    "word": "Bimetallism",
+    "word": "bimetallism",
     "definition": "A system allowing the unrestricted currency of two metals (e.g., gold and silver) as legal tender at a fixed ratio to each other",
     "example": "If they say bimetallism is good, but that we cannot have it until other nations help us, we reply that, instead of having a gold standard because England has, we will restore bimetallism.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40130,
-    "word": "Standard",
+    "word": "standard",
     "definition": "A level of quality or attainment",
     "example": "If they say bimetallism is good, but that we cannot have it until other nations help us, we reply that, instead of having a gold standard because England has, we will restore bimetallism.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40131,
-    "word": "Defiance",
+    "word": "defiance",
     "definition": "Open resistance; bold disobedience",
-    "example": "In his address, the orator urged his listeners to show defiance when facing the greatest challenges.",
+    "example": "Defiance is the hinge of Cross of Gold Speech: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40132,
-    "word": "Thorns",
+    "word": "thorns",
     "definition": "A stiff, sharp-pointed woody projection on the stem or other part of a plant",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40133,
-    "word": "Crown",
+    "word": "crown",
     "definition": "A circular ornamental headdress worn by a monarch as a symbol of authority",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40134,
-    "word": "Labor",
+    "word": "labor",
     "definition": "Work, especially hard physical work",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40135,
-    "word": "Brow",
+    "word": "brow",
     "definition": "A person's forehead",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40136,
-    "word": "Conquest",
+    "word": "conquest",
     "definition": "The action of conquering a place or people",
     "example": "We do not come as aggressors. Our war is not a war of conquest; we are fighting in the defense of our homes, our families, and posterity.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40137,
-    "word": "Posterity",
+    "word": "posterity",
     "definition": "All future generations of people",
     "example": "We do not come as aggressors. Our war is not a war of conquest; we are fighting in the defense of our homes, our families, and posterity.",
     "partOfSpeech": "noun",
@@ -185,41 +201,42 @@
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40138,
-    "word": "Agitator",
+    "word": "agitator",
     "definition": "A person who urges others to protest or rebel",
-    "example": "In his address, the orator urged his listeners to show agitator when facing the greatest challenges.",
+    "example": "Agitator is the hinge of Cross of Gold Speech: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   },
   {
     "id": 40139,
-    "word": "Gold",
+    "word": "gold",
     "definition": "A yellow precious metal, the chemical element of atomic number 79",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech (Democratic National Convention)"
+    "speech": "Cross of Gold Speech (Democratic National Convention)",
+    "categories": ["inspirational"]
   },
   {
     "id": 40140,
-    "word": "Honorable",
+    "word": "honorable",
     "definition": "Bringing or worthy of honor",
     "example": "In giving freedom to the slave, we assure freedom to the free — honorable alike in what we give, and what we preserve.",
     "partOfSpeech": "adjective",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
-    "speech": "Cross of Gold Speech"
+    "speech": "Cross of Gold Speech",
+    "categories": ["inspirational"]
   }
 ]

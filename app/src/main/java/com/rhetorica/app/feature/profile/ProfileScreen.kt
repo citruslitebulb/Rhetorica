@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
@@ -90,6 +91,21 @@ private fun ProfileScreen(
         contentPadding = androidx.compose.foundation.layout.PaddingValues(16.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
     ) {
+        item {
+            Text(
+                text = stringResource(R.string.profile_progress_title),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+            )
+        }
+        item {
+            ProgressStatsRow(
+                viewedCount = state.viewedCount,
+                savedCount = state.savedCount,
+                quizCorrectCount = state.quizCorrectCount,
+            )
+        }
+
         item {
             CollapsibleSectionHeader(
                 title = stringResource(R.string.profile_widget_appearance),
@@ -338,27 +354,61 @@ private fun WidgetPreview(
     colorValue: Int,
     opacityPercent: Int,
 ) {
-    val previewColor = WidgetAppearance.composeColor(colorValue, opacityPercent)
+    // Mirrors the live widget: gold border over the user's fill color + opacity.
+    val borderColor = Color(0xFFD4AF37)
+    val cardBg = WidgetAppearance.composeColor(colorValue, opacityPercent)
 
     Box(
         modifier = Modifier
             .fillMaxWidth()
-            .clip(RoundedCornerShape(18.dp))
-            .background(previewColor)
-            .padding(16.dp),
+            .clip(RoundedCornerShape(16.dp))
+            .background(cardBg)
+            .border(
+                width = 2.dp,
+                color = borderColor,
+                shape = RoundedCornerShape(16.dp),
+            )
+            .padding(14.dp),
     ) {
-        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(
                 text = stringResource(R.string.widget_default_word),
                 style = MaterialTheme.typography.titleLarge,
-                color = Color.White,
+                color = borderColor,
                 fontWeight = FontWeight.Bold,
             )
             Text(
                 text = stringResource(R.string.widget_default_definition),
                 style = MaterialTheme.typography.bodyMedium,
-                color = Color.White.copy(alpha = 0.92f),
+                color = Color(0xFFF5F0E6),
             )
+
+            // Thin gold divider hint
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 4.dp)
+                    .height(1.dp)
+                    .background(borderColor.copy(alpha = 0.7f)),
+            )
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                // Laurel hint (simple circle + text as placeholder)
+                Box(
+                    modifier = Modifier
+                        .size(12.dp)
+                        .clip(CircleShape)
+                        .background(borderColor.copy(alpha = 0.85f)),
+                )
+                Text(
+                    text = stringResource(R.string.profile_widget_preview_attribution),
+                    style = MaterialTheme.typography.labelSmall,
+                    color = Color(0xFFE8DFC8),
+                )
+            }
         }
     }
 }
@@ -422,6 +472,68 @@ private fun OratorCard(
             RadioButton(
                 selected = isSelected,
                 onClick = onClick,
+            )
+        }
+    }
+}
+
+@Composable
+private fun ProgressStatsRow(
+    viewedCount: Int,
+    savedCount: Int,
+    quizCorrectCount: Int,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        ProgressStatCard(
+            label = stringResource(R.string.profile_progress_viewed),
+            value = viewedCount.toString(),
+            modifier = Modifier.weight(1f),
+        )
+        ProgressStatCard(
+            label = stringResource(R.string.profile_progress_saved),
+            value = savedCount.toString(),
+            modifier = Modifier.weight(1f),
+        )
+        ProgressStatCard(
+            label = stringResource(R.string.profile_progress_quiz),
+            value = quizCorrectCount.toString(),
+            modifier = Modifier.weight(1f),
+        )
+    }
+}
+
+@Composable
+private fun ProgressStatCard(
+    label: String,
+    value: String,
+    modifier: Modifier = Modifier,
+) {
+    Card(
+        modifier = modifier,
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant,
+        ),
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.spacedBy(4.dp),
+        ) {
+            Text(
+                text = value,
+                style = MaterialTheme.typography.titleLarge,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary,
+            )
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
     }

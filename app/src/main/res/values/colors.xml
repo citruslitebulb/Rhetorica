@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Widget specific colors matching the elegant dark + gold proposal -->
+    <color name="widget_gold">#D4AF37</color>
+    <color name="widget_gold_muted">#B8973A</color>
+    <color name="widget_card_background">#1C2433</color>
+    <color name="widget_text_primary">#F5F0E6</color>
+    <color name="widget_text_secondary">#C8BFA8</color>
+    <color name="widget_text_attribution">#E8DFC8</color>
+    <color name="widget_divider">#D4AF37</color>
+    <color name="widget_brand">#D4AF37</color>
+</resources>

@@ -45,4 +45,16 @@ interface SavedWordDao {
 
     @Query("DELETE FROM saved_words WHERE wordId = :wordId")
     suspend fun unsaveWord(wordId: Long)
+
+    /** Drop favorites that no longer have a matching word row (e.g. after seed prune). */
+    @Query(
+        """
+        DELETE FROM saved_words
+        WHERE wordId NOT IN (SELECT id FROM words)
+        """,
+    )
+    suspend fun deleteOrphanedSavedWords()
+
+    @Query("SELECT COUNT(*) FROM saved_words")
+    suspend fun savedCount(): Int
 }

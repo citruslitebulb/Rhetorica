@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Practice",
-    "categories": ["fundamentals", "discipline"]
+    "categories": ["leadership"]
   },
   {
     "id": 36002,
@@ -21,43 +21,43 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["potential", "belief"]
+    "categories": ["inspirational"]
   },
   {
     "id": 36003,
     "word": "teamwork",
     "definition": "The combined action of a group, especially when effective and efficient; functioning as one unit.",
-    "example": "Five players on the floor functioning as one single unit: team, team, team – no one more important than the other.",
+    "example": "Teamwork is five players on the floor as one unit—team, team, team—no one more important than the other.",
     "partOfSpeech": "noun",
     "oratorId": 36,
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "On teamwork",
-    "categories": ["teamwork", "unity"]
+    "categories": ["leadership"]
   },
   {
     "id": 36004,
     "word": "underdog",
     "definition": "A competitor thought to have little chance of winning; one who is not favored.",
-    "example": "Forget about the crowds, the size of the school, their fancy uniforms, and remember what got you here.",
+    "example": "The underdog forgets the crowds, the school size, the fancy uniforms, and remembers what got them here.",
     "partOfSpeech": "noun",
     "oratorId": 36,
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["underdog", "focus"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 36005,
     "word": "discipline",
     "definition": "Training that corrects, molds, or perfects the mental faculties or moral character; controlled behavior.",
-    "example": "My practices aren't designed for your enjoyment.",
+    "example": "Discipline designs practices not for your enjoyment, but for your readiness when the lights come on.",
     "partOfSpeech": "noun",
     "oratorId": 36,
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Early practice",
-    "categories": ["discipline", "fundamentals"]
+    "categories": ["leadership"]
   },
   {
     "id": 36006,
@@ -69,7 +69,7 @@
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["focus", "fundamentals"]
+    "categories": ["leadership"]
   },
   {
     "id": 36007,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["tradition", "focus"]
+    "categories": ["legacy", "leadership"]
   },
   {
     "id": 36008,
@@ -93,6 +93,102 @@
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["winner", "belief"]
+    "categories": ["courage", "inspirational"]
+  },
+  {
+    "id": 36009,
+    "oratorId": 36,
+    "word": "team",
+    "definition": "A group organized to work together.",
+    "example": "Five players on the floor functioning as one single unit: team, team, team.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Hoosiers",
+    "speech": "Coach Dale talks",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 36010,
+    "oratorId": 36,
+    "word": "measure",
+    "definition": "To assess size or extent; the basket’s height as a metaphor for constancy.",
+    "example": "The basket is still ten feet—measure your fear against what has not changed.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Hoosiers",
+    "speech": "State finals calm",
+    "categories": ["courage", "inspirational", "leadership"]
+  },
+  {
+    "id": 36011,
+    "oratorId": 36,
+    "word": "small-town",
+    "definition": "Characteristic of a small community; often underestimated.",
+    "example": "A small-town team can still walk into a palace if their habits are bigger than the building.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Hoosiers",
+    "speech": "Underdog season",
+    "categories": ["inspirational", "legacy", "courage"]
+  },
+  {
+    "id": 36012,
+    "oratorId": 36,
+    "word": "pass",
+    "definition": "To throw the ball to a teammate; to prioritize the group.",
+    "example": "The best shot is sometimes the pass you almost refused to make.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Hoosiers",
+    "speech": "Team basketball",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 36013,
+    "oratorId": 36,
+    "word": "pressure",
+    "definition": "Continuous physical or mental force; stress of competition.",
+    "example": "Pressure is a privilege when you trained for the moment it arrives.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Hoosiers",
+    "speech": "Game preparation",
+    "categories": ["courage", "leadership"]
+  },
+  {
+    "id": 36014,
+    "oratorId": 36,
+    "word": "belief",
+    "definition": "Trust or confidence in a person, team, or idea.",
+    "example": "Belief starts on the practice floor, long before the gym ever fills.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Hoosiers",
+    "speech": "Season arc",
+    "categories": ["inspirational", "courage"]
+  },
+  {
+    "id": 36015,
+    "oratorId": 36,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Hoosiers (1986)",
+    "speech": "Practice"
+  },
+  {
+    "id": 36016,
+    "oratorId": 36,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Hoosiers (1986)",
+    "speech": "Practice"
   }
 ]

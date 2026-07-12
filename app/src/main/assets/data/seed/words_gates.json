@@ -9,43 +9,43 @@
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["philanthropy", "global-impact", "leadership"]
+    "categories": ["legacy", "leadership"]
   },
   {
     "id": 20002,
     "word": "disparity",
     "definition": "A great difference; inequality.",
-    "example": "I left Harvard with no real awareness of the awful inequities in the world – the appalling disparities of health, and wealth, and opportunity.",
+    "example": "I left Harvard unaware of the world’s disparity—the appalling gaps of health and wealth I would later work to close.",
     "partOfSpeech": "noun",
     "oratorId": 20,
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["philanthropy", "global-impact"]
+    "categories": ["legacy"]
   },
   {
     "id": 20003,
     "word": "expectation",
     "definition": "A belief that someone will or should achieve something.",
-    "example": "From those to whom much is given, much is expected.",
+    "example": "Expectation follows gift: from those to whom much is given, much is expected.",
     "partOfSpeech": "noun",
     "oratorId": 20,
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["philanthropy", "leadership", "global-impact"]
+    "categories": ["legacy", "leadership"]
   },
   {
     "id": 20004,
     "word": "philanthropy",
     "definition": "The desire to promote the welfare of others, especially by the generous donation of money to good causes.",
-    "example": "When you consider what those of us here in this yard have been given in talent, privilege and opportunity, there is almost no limit to what the world has a right to expect from us.",
+    "example": "Philanthropy asks what those of us with talent, privilege, and opportunity will give back.",
     "partOfSpeech": "noun",
     "oratorId": 20,
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["philanthropy", "global-impact", "leadership"]
+    "categories": ["legacy", "leadership"]
   },
   {
     "id": 20005,
@@ -57,7 +57,7 @@
     "complexity": "advanced",
     "source": "World Economic Forum and Harvard speech",
     "speech": "Creative Capitalism",
-    "categories": ["philanthropy", "technology", "global-impact"]
+    "categories": ["legacy", "tech"]
   },
   {
     "id": 20006,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "World Economic Forum and Harvard speech",
     "speech": "Creative Capitalism",
-    "categories": ["philanthropy", "innovation", "global-impact"]
+    "categories": ["legacy", "tech"]
   },
   {
     "id": 20007,
@@ -81,18 +81,114 @@
     "complexity": "intermediate",
     "source": "Various talks on global progress",
     "speech": "Optimism and Progress",
-    "categories": ["philanthropy", "leadership", "vision"]
+    "categories": ["legacy", "leadership", "inspirational"]
   },
   {
     "id": 20008,
     "word": "suffering",
     "definition": "The state of undergoing pain, distress, or hardship.",
-    "example": "We have to find a way to make the breakthroughs that will allow the poorest people to live better lives.",
+    "example": "Ending preventable suffering means finding breakthroughs so the poorest people can live better lives.",
     "partOfSpeech": "noun",
     "oratorId": 20,
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["philanthropy", "global-impact", "humanities"]
+    "categories": ["legacy", "humanities"]
+  },
+  {
+    "id": 20009,
+    "oratorId": 20,
+    "word": "equity",
+    "definition": "Fairness in outcomes and access, not merely equal treatment on paper.",
+    "example": "Philanthropy without equity still leaves the poorest waiting at the back of the line for breakthroughs.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Gates Foundation talks",
+    "speech": "Global health addresses",
+    "categories": ["legacy", "humanities", "inspirational"]
+  },
+  {
+    "id": 20010,
+    "oratorId": 20,
+    "word": "breakthrough",
+    "definition": "A sudden, important advance in knowledge or technique.",
+    "example": "A single medical breakthrough can rewrite the life expectancy of an entire generation.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Harvard Commencement",
+    "speech": "Harvard Commencement Address",
+    "categories": ["tech", "inspirational", "legacy"]
+  },
+  {
+    "id": 20011,
+    "oratorId": 20,
+    "word": "complexity",
+    "definition": "The state of having many interconnected parts; difficulty of analysis.",
+    "example": "Software taught him to tame complexity; global health taught him complexity fights back.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Reflections on work",
+    "speech": "Various addresses",
+    "categories": ["tech", "humanities"]
+  },
+  {
+    "id": 20012,
+    "oratorId": 20,
+    "word": "privilege",
+    "definition": "A special right or advantage available only to a particular person or group.",
+    "example": "Privilege unused for others is a wasted inheritance of luck and education.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Harvard Commencement",
+    "speech": "Harvard Commencement Address",
+    "categories": ["leadership", "legacy", "humanities"]
+  },
+  {
+    "id": 20013,
+    "oratorId": 20,
+    "word": "measure",
+    "definition": "To assess by a standard; a basis for comparison.",
+    "example": "We measure progress not by patents filed, but by lives lengthened and children educated.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Foundation metrics talks",
+    "speech": "Foundation addresses",
+    "categories": ["leadership", "legacy"]
+  },
+  {
+    "id": 20014,
+    "oratorId": 20,
+    "word": "scale",
+    "definition": "The relative size or extent of something; to grow to large size.",
+    "example": "Ideas that cannot scale remain anecdotes; ideas that scale become history.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Tech and philanthropy",
+    "speech": "Various",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 20015,
+    "oratorId": 20,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 20016,
+    "oratorId": 20,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
   }
 ]

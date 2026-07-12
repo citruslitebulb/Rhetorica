@@ -1,7 +1,7 @@
 [
   {
     "id": 40281,
-    "word": "Opportunity",
+    "word": "opportunity",
     "definition": "A set of circumstances that makes it possible to do something",
     "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation.",
     "partOfSpeech": "noun",
@@ -9,39 +9,35 @@
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40282,
-    "word": "Prosperity",
-    "definition": "The state of being prosperous",
+    "word": "prosperity",
+    "definition": "The state of being prosperous; a word that gains force in public speech.",
     "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40283,
-    "word": "Audacity",
-    "definition": "A willingness to take bold risks",
+    "word": "audacity",
+    "definition": "A willingness to take bold risks; a word that gains force in public speech.",
     "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "advanced",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40284,
-    "word": "Hope",
+    "word": "hope",
     "definition": "A feeling of expectation and desire for a particular thing to happen",
     "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
@@ -49,25 +45,23 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40285,
-    "word": "Patchwork",
-    "definition": "A thing composed of many different elements",
+    "word": "patchwork",
+    "definition": "A thing composed of many different elements; a word that gains force in public speech.",
     "example": "Our patchwork heritage is a strength, not a weakness.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40286,
-    "word": "Heritage",
+    "word": "heritage",
     "definition": "Property that is or may be inherited; an inheritance",
     "example": "Our patchwork heritage is a strength, not a weakness.",
     "partOfSpeech": "noun",
@@ -75,13 +69,11 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40287,
-    "word": "Cynics",
+    "word": "cynics",
     "definition": "A person who believes that people are motivated purely by self-interest",
     "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
     "partOfSpeech": "noun",
@@ -89,47 +81,43 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40288,
-    "word": "Union",
-    "definition": "The action or fact of joining or being joined",
+    "word": "union",
+    "definition": "The action or fact of joining or being joined; a word that gains force in public speech.",
     "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40289,
-    "word": "Destiny",
+    "word": "destiny",
     "definition": "The events that will necessarily happen to a particular person or thing in the future",
-    "example": "In his address, the orator urged his listeners to show destiny when facing the greatest challenges.",
+    "example": "Destiny is the hinge of New Hampshire Concession Speech: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Concession Speech",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40290,
-    "word": "Moment",
-    "definition": "A very brief period of time",
+    "word": "moment",
+    "definition": "A very brief period of time; a word that gains force in public speech.",
     "example": "This is our moment. This is our time.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40291,
@@ -141,37 +129,35 @@
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
     "speech": "Election Night Victory Speech (Grant Park, Chicago)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40292,
     "word": "Faint-hearted",
-    "definition": "Lacking courage or determination",
+    "definition": "Lacking courage or determination; a word that gains force in public speech.",
     "example": "Our journey has never been one of short-cuts or settling for less. It has not been the path for the faint-hearted.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
     "speech": "Election Night Victory Speech (Grant Park, Chicago)",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40293,
-    "word": "Enduring",
-    "definition": "Continuing or long-lasting",
-    "example": "In his address, the orator urged his listeners to show enduring when facing the greatest challenges.",
+    "word": "enduring",
+    "definition": "Continuing or long-lasting; a word that gains force in public speech.",
+    "example": "A enduring argument runs through Various: conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Their Finest Hour (Churchill, but used in context)",
     "speech": "Various",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40294,
-    "word": "Bedrock",
+    "word": "bedrock",
     "definition": "The fundamental principles on which something is based",
     "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
@@ -179,11 +165,11 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40295,
-    "word": "Gift",
+    "word": "gift",
     "definition": "A thing given willingly to someone without payment",
     "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
@@ -191,25 +177,23 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40296,
-    "word": "Perseverance",
+    "word": "perseverance",
     "definition": "Persistence in doing something despite difficulty or delay in achieving success",
-    "example": "In his address, the orator urged his listeners to show perseverance when facing the greatest challenges.",
+    "example": "Perseverance is the hinge of Democratic National Convention Acceptance: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40297,
-    "word": "Evidence",
+    "word": "evidence",
     "definition": "The available body of facts or information indicating whether a belief or proposition is true or valid",
     "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
     "partOfSpeech": "noun",
@@ -217,11 +201,11 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40298,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "Hope is that thing inside us that insists, despite all the evidence to the contrary, that something better awaits us if we have the courage to reach for it.",
     "partOfSpeech": "noun",
@@ -229,34 +213,30 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40299,
-    "word": "Perfection",
+    "word": "perfection",
     "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects",
-    "example": "In his address, the orator urged his listeners to show perfection when facing the greatest challenges.",
+    "example": "Perfection is the hinge of A More Perfect Union (Philadelphia): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40300,
-    "word": "Spirit",
+    "word": "spirit",
     "definition": "The nonphysical part of a person which is the seat of emotions and character",
-    "example": "In his address, the orator urged his listeners to show spirit when facing the greatest challenges.",
+    "example": "Spirit is the hinge of First Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   }
 ]

@@ -58,12 +58,13 @@ class SavedSortOptionTest {
 
         val sorted = SavedSortOption.PartOfSpeech.sort(words)
 
+        // Alphabetical by part of speech, then by word within the same POS.
         assertEquals(
-            listOf("Cherry", "Apple", "Banana", "Zebra"),
+            listOf("Cherry", "Banana", "Zebra", "Apple"),
             sorted.map { it.word }
         )
         assertEquals(
-            listOf("adjective", "verb", "noun", "noun"),
+            listOf("adjective", "noun", "noun", "verb"),
             sorted.map { it.partOfSpeech }
         )
     }

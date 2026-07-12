@@ -14,7 +14,7 @@ data class QuoteEntity(
     @PrimaryKey val id: Long,
     val oratorId: Long,
     val text: String,
-    val source: String,
+    val source: String? = null,
     val speech: String? = null,
     val year: Int? = null,
     val context: String? = null,

@@ -9,19 +9,19 @@
     "complexity": "intermediate",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["innovation", "competition", "enterprise"]
+    "categories": ["tech"]
   },
   {
     "id": 26002,
     "word": "superiority",
     "definition": "The state of being superior; dominance or excellence.",
-    "example": "We are building the most advanced technology in the world. Not to follow, but to lead.",
+    "example": "Superiority is the aim: building the most advanced technology not to follow, but to lead.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "advanced",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["competition", "leadership", "enterprise"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 26003,
@@ -33,66 +33,162 @@
     "complexity": "intermediate",
     "source": "Business philosophy",
     "speech": "Adaptation and Speed",
-    "categories": ["competition", "innovation", "enterprise"]
+    "categories": ["tech"]
   },
   {
     "id": 26004,
     "word": "enterprise",
     "definition": "A project or undertaking, especially a bold or complex one; a business or company.",
-    "example": "The database is the heart of everything. And we are going to make it the most powerful heart in the industry.",
+    "example": "Enterprise lives in the database—the heart of everything—and we will make it the most powerful heart in the industry.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "intermediate",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["enterprise", "competition", "technology"]
+    "categories": ["tech"]
   },
   {
     "id": 26005,
     "word": "dominance",
     "definition": "Power and influence over others.",
-    "example": "The only way to win is to learn faster than anyone else.",
+    "example": "Dominance goes to those who learn faster than anyone else.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "intermediate",
     "source": "Oracle OpenWorld Keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["competition", "leadership", "enterprise"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 26006,
     "word": "agility",
     "definition": "The ability to move quickly and easily; nimbleness or adaptability.",
-    "example": "The people who change industries tend to learn faster than the environment around them.",
+    "example": "Agility belongs to people who change industries by learning faster than the environment around them.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "intermediate",
     "source": "Business philosophy and keynotes",
     "speech": "Adaptation and Speed",
-    "categories": ["competition", "innovation", "enterprise"]
+    "categories": ["tech"]
   },
   {
     "id": 26007,
     "word": "execution",
     "definition": "The carrying out or putting into effect of a plan, order, or course of action.",
-    "example": "We don't do incremental. We do what's next. We ship. We deliver.",
+    "example": "Execution rejects the incremental: we do what’s next; we ship; we deliver.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "intermediate",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["competition", "leadership", "enterprise"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 26008,
     "word": "leadership",
     "definition": "The action of leading a group of people or an organization.",
-    "example": "We are building the most advanced technology in the world. Not to follow, but to lead.",
+    "example": "Leadership builds the most advanced technology in the world—not to follow, but to lead.",
     "partOfSpeech": "noun",
     "oratorId": 26,
     "complexity": "intermediate",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["leadership", "competition", "vision"]
+    "categories": ["leadership", "tech", "inspirational"]
+  },
+  {
+    "id": 26009,
+    "oratorId": 26,
+    "word": "database",
+    "definition": "A structured set of data held in a computer, accessible in various ways.",
+    "example": "He treated the database as industrial infrastructure—the silent heart of modern enterprise.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 26010,
+    "oratorId": 26,
+    "word": "compete",
+    "definition": "To strive to gain or win something by defeating others.",
+    "example": "To compete at the top is to learn faster than the market can copy you.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Competitive strategy",
+    "speech": "Industry talks",
+    "categories": ["tech", "leadership", "courage"]
+  },
+  {
+    "id": 26011,
+    "oratorId": 26,
+    "word": "cloud",
+    "definition": "On-demand computing resources delivered over the internet.",
+    "example": "The cloud is not a place—it is an operating model that punishes hesitation.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Cloud strategy talks",
+    "speech": "Cloud keynotes",
+    "categories": ["tech"]
+  },
+  {
+    "id": 26012,
+    "oratorId": 26,
+    "word": "automation",
+    "definition": "The use of technology to perform tasks with minimal human intervention.",
+    "example": "Automation without judgment creates faster mistakes; pair it with accountability.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Enterprise talks",
+    "speech": "Enterprise talks",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 26013,
+    "oratorId": 26,
+    "word": "ruthless",
+    "definition": "Without pity or compassion; relentlessly severe (in pursuit of goals).",
+    "example": "A ruthless focus on the mission can still leave room for loyalty to people who ship.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "Leadership style commentary",
+    "speech": "Leadership remarks",
+    "categories": ["leadership", "courage"]
+  },
+  {
+    "id": 26014,
+    "oratorId": 26,
+    "word": "architecture",
+    "definition": "The complex structure of a system; the art of designing structures.",
+    "example": "Software architecture is destiny: choose poorly and every feature becomes a tax.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Engineering strategy",
+    "speech": "Engineering keynotes",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 26015,
+    "oratorId": 26,
+    "word": "performance",
+    "definition": "The action of carrying out a task; measurable efficiency of a system.",
+    "example": "Performance is a feature: users feel latency as disrespect.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Product philosophy",
+    "speech": "Product talks",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 26016,
+    "oratorId": 26,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Oracle keynotes",
+    "speech": "Oracle OpenWorld Keynote Vision"
   }
 ]

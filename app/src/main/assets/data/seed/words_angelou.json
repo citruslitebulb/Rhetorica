@@ -1,33 +1,31 @@
 [
   {
     "id": 40301,
-    "word": "History",
-    "definition": "The study of past events",
+    "word": "history",
+    "definition": "The study of past events; a word that gains force in public speech.",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": [
-      "legacy"
-    ]
+    "categories": ["legacy"]
   },
   {
     "id": 40302,
-    "word": "Bitter",
-    "definition": "Having a sharp, pungent taste or smell; not sweet",
+    "word": "bitter",
+    "definition": "Having a sharp, pungent taste or smell; not sweet; a word that gains force in public speech.",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40303,
-    "word": "Dust",
+    "word": "dust",
     "definition": "Fine, dry powder consisting of tiny particles of earth or waste matter",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "noun",
@@ -35,25 +33,23 @@
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40304,
-    "word": "Resilience",
+    "word": "resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness",
-    "example": "In his address, the orator urged his listeners to show resilience when facing the greatest challenges.",
+    "example": "Resilience is the hinge of Various readings: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Still I Rise",
     "speech": "Various readings",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40305,
-    "word": "Ancestors",
+    "word": "ancestors",
     "definition": "A person, typically one more remote than a grandparent, from whom one is descended",
     "example": "Leaving behind nights of terror and fear I rise into a daybreak that's wondrously clear I rise bringing the gifts that my ancestors gave.",
     "partOfSpeech": "noun",
@@ -61,23 +57,23 @@
     "complexity": "intermediate",
     "source": "Still I Rise",
     "speech": "Public readings",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40306,
-    "word": "Feel",
-    "definition": "Experience (an emotion or sensation)",
+    "word": "feel",
+    "definition": "Experience (an emotion or sensation); a word that gains force in public speech.",
     "example": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     "partOfSpeech": "verb",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews and speeches (widely quoted)",
     "speech": "Multiple addresses on leadership and teaching",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40307,
-    "word": "Light",
+    "word": "light",
     "definition": "The natural agent that stimulates sight and makes things visible",
     "example": "Nothing can dim the light which shines from within.",
     "partOfSpeech": "noun",
@@ -85,23 +81,23 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40308,
-    "word": "Defeats",
-    "definition": "An instance of being defeated",
+    "word": "defeats",
+    "definition": "An instance of being defeated; a word that gains force in public speech.",
     "example": "We may encounter many defeats but we must not be defeated.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various addresses on resilience",
     "speech": "Multiple speeches",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40309,
-    "word": "Attitude",
+    "word": "attitude",
     "definition": "A settled way of thinking or feeling about someone or something",
     "example": "If you don't like something, change it. If you can't change it, change your attitude.",
     "partOfSpeech": "noun",
@@ -109,23 +105,23 @@
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom shared in speeches",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40310,
-    "word": "Passion",
-    "definition": "Strong and barely controllable emotion",
+    "word": "passion",
+    "definition": "Strong and barely controllable emotion; a word that gains force in public speech.",
     "example": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40311,
-    "word": "Compassion",
+    "word": "compassion",
     "definition": "Sympathetic pity and concern for the sufferings or misfortunes of others",
     "example": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "partOfSpeech": "noun",
@@ -133,23 +129,23 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40312,
-    "word": "Wrenching",
-    "definition": "Causing great physical or mental pain",
+    "word": "wrenching",
+    "definition": "Causing great physical or mental pain; a word that gains force in public speech.",
     "example": "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
     "complexity": "advanced",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40313,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.",
     "partOfSpeech": "noun",
@@ -157,51 +153,47 @@
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40314,
-    "word": "Grace",
-    "definition": "Simple elegance or refinement of movement",
-    "example": "In his address, the orator urged his listeners to show grace when facing the greatest challenges.",
+    "word": "grace",
+    "definition": "Simple elegance or refinement of movement; a word that gains force in public speech.",
+    "example": "Grace is the hinge of Inaugural Poem for President Bill Clinton: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40315,
-    "word": "Better",
-    "definition": "Of a more excellent or effective type or quality",
+    "word": "better",
+    "definition": "Of a more excellent or effective type or quality; a word that gains force in public speech.",
     "example": "Do the best you can until you know better. Then when you know better, do better.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews and talks on personal growth",
     "speech": "Multiple addresses",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40316,
-    "word": "Virtues",
-    "definition": "Behavior showing high moral standards",
+    "word": "virtues",
+    "definition": "Behavior showing high moral standards; a word that gains force in public speech.",
     "example": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various public talks",
     "speech": "Multiple addresses",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40317,
-    "word": "Butterfly",
+    "word": "butterfly",
     "definition": "A nectar-feeding insect with two pairs of large, typically brightly colored wings",
     "example": "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
     "partOfSpeech": "noun",
@@ -209,11 +201,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40318,
-    "word": "Beauty",
+    "word": "beauty",
     "definition": "A combination of qualities, such as shape, color, or form, that pleases the aesthetic senses",
     "example": "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
     "partOfSpeech": "noun",
@@ -221,30 +213,30 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40319,
-    "word": "Sum",
-    "definition": "A particular amount of money",
+    "word": "sum",
+    "definition": "A particular amount of money; a word that gains force in public speech.",
     "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40320,
-    "word": "Total",
-    "definition": "Comprising the whole number or amount",
+    "word": "total",
+    "definition": "Comprising the whole number or amount; a word that gains force in public speech.",
     "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   }
 ]

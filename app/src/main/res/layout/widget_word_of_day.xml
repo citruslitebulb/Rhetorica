@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Elegant gold-bordered dark card design for Rhetorica Word of the Day widget.
+    IMPORTANT: RemoteViews only supports a restricted set of view classes.
+    Plain android.view.View is NOT allowed below API 31 and will cause
+    "Can't load widget" on many devices (minSdk 27). Use TextView/ImageView/LinearLayout only.
+-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/widgetRoot"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp">
+    android:padding="6dp">
 
     <ImageView
         android:id="@+id/widgetBackgroundImage"
@@ -16,28 +22,175 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center_vertical"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="14dp">
 
-        <TextView
-            android:id="@+id/widgetWordText"
+        <!-- Header: word + orator + top-right brand -->
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/widget_default_word"
-            android:textColor="@android:color/white"
-            android:textSize="22sp"
-            android:textStyle="bold" />
+            android:gravity="top"
+            android:orientation="horizontal">
 
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/widgetWordText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/widget_default_word"
+                    android:textColor="@color/widget_gold"
+                    android:textSize="26sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/widgetOratorMinimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/widget_text_secondary"
+                    android:textSize="11sp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/widgetTopLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_brand_short"
+                android:textColor="@color/widget_gold"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <!-- Definition (medium and larger; toggled in provider) -->
         <TextView
             android:id="@+id/widgetDefinitionText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:lineSpacingExtra="2dp"
             android:maxLines="3"
             android:text="@string/widget_default_definition"
-            android:textColor="@android:color/white"
-            android:textSize="14sp" />
+            android:textColor="@color/widget_text_primary"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <!-- Thin gold divider (TextView, not View — RemoteViews-safe) -->
+        <TextView
+            android:id="@+id/widgetGoldDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="6dp"
+            android:background="@color/widget_gold"
+            android:visibility="gone" />
+
+        <!-- Attribution row (medium+) -->
+        <LinearLayout
+            android:id="@+id/widgetAttributionRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/widgetLaurelIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/widget_laurel"
+                android:textColor="@color/widget_gold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/widgetAttributionText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/widget_text_attribution"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/widgetBrandText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/widget_brand_full"
+                android:textColor="@color/widget_gold"
+                android:textSize="9sp" />
+        </LinearLayout>
+
+        <!-- Quote / example (large only) -->
+        <TextView
+            android:id="@+id/widgetQuoteText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="11sp"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/widgetQuoteSourceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/widget_gold"
+            android:textSize="9sp"
+            android:visibility="gone" />
+
+        <!-- Bottom bar + speech CTA (large only) -->
+        <LinearLayout
+            android:id="@+id/widgetBottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/widgetBookIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:text="@string/widget_brand_short"
+                android:textColor="@color/widget_gold"
+                android:textSize="10sp" />
+
+            <!-- Spacer must be TextView — plain View is forbidden in RemoteViews pre-API 31 -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/widgetSpeechCta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/widget_cta_pill"
+                android:paddingLeft="8dp"
+                android:paddingTop="2dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="2dp"
+                android:text="@string/widget_speech_cta"
+                android:textColor="@color/widget_card_background"
+                android:textSize="9sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
     </LinearLayout>
 </FrameLayout>

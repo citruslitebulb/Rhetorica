@@ -3,73 +3,73 @@
     "id": 37001,
     "word": "resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness; the ability to spring back.",
-    "example": "I have to believe that when things are bad I can change them.",
+    "example": "Resilience is believing that when things are bad, you can still change them.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "intermediate",
     "source": "Cinderella Man (2005)",
     "speech": "Braddock's personal credo",
-    "categories": ["resilience", "hope"]
+    "categories": ["courage", "inspirational"]
   },
   {
     "id": 37002,
     "word": "comeback",
     "definition": "A return to a former prosperous or successful state; a recovery after a setback.",
-    "example": "I know what I'm fighting for.",
+    "example": "A true comeback begins when you know what you are fighting for—and refuse to stay down.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "intermediate",
     "source": "Cinderella Man (2005)",
     "speech": "Braddock explaining his improved performance",
-    "categories": ["comeback", "perseverance"]
+    "categories": ["courage"]
   },
   {
     "id": 37003,
     "word": "dignity",
     "definition": "The state or quality of being worthy of honor or respect; self-respect.",
-    "example": "I believe we live in a great country, a country that's great enough to help a man financially when he's in trouble.",
+    "example": "Dignity insists we live in a country great enough to help a man when he is in trouble.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "intermediate",
     "source": "Cinderella Man (2005)",
     "speech": "Relief office / public assistance",
-    "categories": ["dignity", "family"]
+    "categories": ["legacy"]
   },
   {
     "id": 37004,
     "word": "perseverance",
     "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
-    "example": "You think you're telling me something? Like, what, boxing is dangerous?",
+    "example": "Perseverance answers danger with resolve: you think boxing is dangerous? So is giving up.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "advanced",
     "source": "Cinderella Man (2005)",
     "speech": "To the boxing commission",
-    "categories": ["perseverance", "family"]
+    "categories": ["courage", "legacy"]
   },
   {
     "id": 37005,
     "word": "family",
     "definition": "A group consisting of parents and children living together; all the descendants of a common ancestor.",
-    "example": "You're everybody's hope, and the kids' hero, and you are the champion of my heart.",
+    "example": "Family made him everybody’s hope, the kids’ hero, and the champion of one heart above all.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "beginner",
     "source": "Cinderella Man (2005)",
     "speech": "Mae Braddock to Jim",
-    "categories": ["family", "heart"]
+    "categories": ["legacy", "courage"]
   },
   {
     "id": 37006,
     "word": "hope",
     "definition": "A feeling of expectation and desire for a certain thing to happen; grounds for believing that something good may happen.",
-    "example": "I have to believe that when things are bad I can change them.",
+    "example": "Hope is the belief that when things are bad, you can still change them.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "beginner",
     "source": "Cinderella Man (2005)",
     "speech": "Braddock's personal credo",
-    "categories": ["hope", "resilience"]
+    "categories": ["inspirational", "courage"]
   },
   {
     "id": 37007,
@@ -81,18 +81,114 @@
     "complexity": "beginner",
     "source": "Cinderella Man (2005)",
     "speech": "Mae Braddock to Jim",
-    "categories": ["champion", "family"]
+    "categories": ["courage", "legacy"]
   },
   {
     "id": 37008,
     "word": "grit",
     "definition": "Courage and resolve; strength of character; firmness of mind or spirit in the face of adversity.",
-    "example": "I know what I'm fighting for.",
+    "example": "Grit is knowing what you are fighting for when the odds say walk away.",
     "partOfSpeech": "noun",
     "oratorId": 37,
     "complexity": "intermediate",
     "source": "Cinderella Man (2005)",
     "speech": "Braddock explaining his improved performance",
-    "categories": ["grit", "perseverance"]
+    "categories": ["courage"]
+  },
+  {
+    "id": 37009,
+    "oratorId": 37,
+    "word": "believe",
+    "definition": "To accept as true; to have confidence in.",
+    "example": "I have to believe that when things are bad I can change them.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Cinderella Man",
+    "speech": "Braddock resolve",
+    "categories": ["inspirational", "courage"]
+  },
+  {
+    "id": 37010,
+    "oratorId": 37,
+    "word": "fight",
+    "definition": "To take part in a violent struggle; to struggle determinedly.",
+    "example": "I know what I’m fighting for—and that knowledge is heavier than any opponent.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Cinderella Man",
+    "speech": "Braddock resolve",
+    "categories": ["courage", "legacy", "inspirational"]
+  },
+  {
+    "id": 37011,
+    "oratorId": 37,
+    "word": "relief",
+    "definition": "Financial or material assistance; alleviation of distress.",
+    "example": "Dignity asked for work, not pity—yet relief kept a family standing until the comeback.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Cinderella Man",
+    "speech": "Depression-era struggle",
+    "categories": ["humanities", "democracy", "legacy"]
+  },
+  {
+    "id": 37012,
+    "oratorId": 37,
+    "word": "heavyweight",
+    "definition": "A boxer of the heaviest class; metaphorically, a major challenge.",
+    "example": "A heavyweight title is loud; a heavyweight character is quiet and rarer.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Cinderella Man",
+    "speech": "Title fight arc",
+    "categories": ["courage", "legacy"]
+  },
+  {
+    "id": 37013,
+    "oratorId": 37,
+    "word": "hunger",
+    "definition": "A feeling of needing food; strong desire or craving.",
+    "example": "Hunger can mean dinner—or the sharper hunger to reclaim your name.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Cinderella Man",
+    "speech": "Depression-era struggle",
+    "categories": ["courage", "humanities"]
+  },
+  {
+    "id": 37014,
+    "oratorId": 37,
+    "word": "promise",
+    "definition": "An assurance that one will do something; grounds for expectation.",
+    "example": "He fought on a promise to his children that the lights would stay on.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Cinderella Man",
+    "speech": "Family and fight",
+    "categories": ["legacy", "inspirational"]
+  },
+  {
+    "id": 37015,
+    "oratorId": 37,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock's personal credo"
+  },
+  {
+    "id": 37016,
+    "oratorId": 37,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Cinderella Man (2005)",
+    "speech": "Braddock's personal credo"
   }
 ]

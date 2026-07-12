@@ -9,7 +9,7 @@
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["innovation", "vision", "space"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 22002,
@@ -21,7 +21,7 @@
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["space", "sustainability", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 22003,
@@ -33,19 +33,19 @@
     "complexity": "intermediate",
     "source": "Interviews and talks on innovation",
     "speech": "First Principles Thinking",
-    "categories": ["innovation", "leadership", "technology"]
+    "categories": ["tech", "leadership"]
   },
   {
     "id": 22004,
     "word": "principles",
     "definition": "Fundamental truths or propositions that serve as the foundation for a system of belief or behavior.",
-    "example": "Boil things down to the most fundamental truths and then reason up from there.",
+    "example": "First principles mean boiling things down to fundamental truths and then reasoning up from there.",
     "partOfSpeech": "noun",
     "oratorId": 22,
     "complexity": "intermediate",
     "source": "Talks on first principles",
     "speech": "First Principles Thinking",
-    "categories": ["innovation", "vision", "leadership"]
+    "categories": ["tech", "inspirational", "leadership"]
   },
   {
     "id": 22005,
@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["space", "sustainability", "vision"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 22006,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "Talks on reusable rockets",
     "speech": "Making Life Multiplanetary",
-    "categories": ["innovation", "space", "technology"]
+    "categories": ["tech"]
   },
   {
     "id": 22007,
@@ -81,43 +81,43 @@
     "complexity": "intermediate",
     "source": "Talks on determination",
     "speech": "Personal Philosophy",
-    "categories": ["innovation", "leadership", "vision"]
+    "categories": ["tech", "leadership", "inspirational"]
   },
   {
     "id": 22008,
     "word": "optimism",
     "definition": "Hopefulness and confidence about the future or the successful outcome of something.",
-    "example": "If you get up in the morning and think the future is going to be better, it is a bright day. Otherwise, it's not.",
+    "example": "Optimism is getting up thinking the future will be better—that makes it a bright day; otherwise it is not.",
     "partOfSpeech": "noun",
     "oratorId": 22,
     "complexity": "intermediate",
     "source": "Talks on mindset and optimism",
     "speech": "Optimism and Progress",
-    "categories": ["vision", "leadership", "sustainability"]
+    "categories": ["inspirational", "leadership", "tech"]
   },
   {
     "id": 22009,
     "word": "sustainability",
     "definition": "The ability to be maintained at a certain rate or level; avoidance of the depletion of natural resources.",
-    "example": "The things that are most likely to affect the future of humanity at a macro level are the Internet, sustainable energy, making life multiplanetary, genetics, and AI.",
+    "example": "Sustainability sits with the internet and multi-planetary life among the forces most likely to shape humanity’s future.",
     "partOfSpeech": "noun",
     "oratorId": 22,
     "complexity": "intermediate",
     "source": "STVP Future Fest talk",
     "speech": "Future of Humanity",
-    "categories": ["sustainability", "innovation", "space"]
+    "categories": ["tech"]
   },
   {
     "id": 22010,
     "word": "colonization",
     "definition": "The action or process of settling among and establishing control over the indigenous people of an area; in this context, establishing human presence on other planets.",
-    "example": "If humanity is to become multi-planetary, the fundamental breakthrough that needs to occur in rocketry is a rapidly and completely reusable rocket.",
+    "example": "Mars colonization needs a rocketry breakthrough: rapid and complete reusability if humanity is to become multi-planetary.",
     "partOfSpeech": "noun",
     "oratorId": 22,
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["space", "vision", "sustainability"]
+    "categories": ["tech", "inspirational"]
   },
   {
     "id": 22011,
@@ -129,6 +129,66 @@
     "complexity": "intermediate",
     "source": "Talks on innovation framework",
     "speech": "First Principles Thinking",
-    "categories": ["innovation", "leadership", "technology"]
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 22012,
+    "oratorId": 22,
+    "word": "reusability",
+    "definition": "The ability of a system (e.g. rockets) to be used again after recovery.",
+    "example": "Without reusability, spaceflight remains a fireworks show priced for nations alone.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Starship updates",
+    "speech": "Starship Update",
+    "categories": ["tech", "leadership"]
+  },
+  {
+    "id": 22013,
+    "oratorId": 22,
+    "word": "physics",
+    "definition": "The science of matter, energy, and their interactions; fundamental constraints on engineering.",
+    "example": "Reason from physics first—marketing cannot repeal thermodynamics.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Engineering talks",
+    "speech": "Engineering discussions",
+    "categories": ["tech", "humanities"]
+  },
+  {
+    "id": 22014,
+    "oratorId": 22,
+    "word": "acceleration",
+    "definition": "Increase in rate or speed; rapid progress.",
+    "example": "The goal is not gradualism for its own sake, but intelligent acceleration of useful tech.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Product launches",
+    "speech": "Product and energy talks",
+    "categories": ["tech", "inspirational"]
+  },
+  {
+    "id": 22015,
+    "oratorId": 22,
+    "word": "scarce",
+    "definition": "Insufficient for the demand; rare.",
+    "example": "Attention is scarce; waste it on theater and the mission starves.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Work culture remarks",
+    "speech": "Internal and public remarks",
+    "categories": ["leadership", "tech"]
+  },
+  {
+    "id": 22016,
+    "oratorId": 22,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary"
   }
 ]

@@ -1,13 +1,11 @@
 package com.rhetorica.app.data.local
 
-import android.util.Log
 import androidx.room.TypeConverter
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 
 class Converters {
     private val json = Json { ignoreUnknownKeys = true }
-    private val TAG = "Converters"
 
     @TypeConverter
     fun fromStringList(value: List<String>): String {
@@ -16,10 +14,10 @@ class Converters {
 
     @TypeConverter
     fun toStringList(value: String): List<String> {
+        // Avoid android.util.Log here so pure JVM unit tests can exercise parse failures.
         return try {
             json.decodeFromString(value)
-        } catch (e: Exception) {
-            Log.e(TAG, "Failed to parse string list: $value", e)
+        } catch (_: Exception) {
             emptyList()
         }
     }
@@ -33,8 +31,7 @@ class Converters {
     fun toLongList(value: String): List<Long> {
         return try {
             json.decodeFromString(value)
-        } catch (e: Exception) {
-            Log.e(TAG, "Failed to parse long list: $value", e)
+        } catch (_: Exception) {
             emptyList()
         }
     }

@@ -9,79 +9,79 @@
     "complexity": "intermediate",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["perseverance", "ambition"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 31002,
     "word": "perseverance",
     "definition": "Steady persistence in a course of action, a purpose, or a state, especially in spite of difficulties, obstacles, or discouragement.",
-    "example": "Going in one more round when you don't think you can. That's what makes all the difference in your life.",
+    "example": "Perseverance is going one more round when you don’t think you can—that’s what makes all the difference.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "advanced",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["perseverance", "resilience"]
+    "categories": ["courage"]
   },
   {
     "id": 31003,
     "word": "resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness; the ability to spring back into shape.",
-    "example": "It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward.",
+    "example": "Resilience isn’t how hard you hit; it’s how hard you can get hit and keep moving forward.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "intermediate",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["resilience", "courage"]
+    "categories": ["courage"]
   },
   {
     "id": 31004,
     "word": "grit",
     "definition": "Courage and resolve; strength of character; firmness of mind or spirit.",
-    "example": "The world ain't all sunshine and rainbows... You, me, or nobody is gonna hit as hard as life. But it ain't about how hard you hit.",
+    "example": "Grit faces a mean world: nobody hits as hard as life, but you keep moving forward anyway.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "intermediate",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["grit", "perseverance"]
+    "categories": ["courage"]
   },
   {
     "id": 31005,
     "word": "heart",
     "definition": "Courage, spirit, or enthusiasm; the emotional or moral core that drives determination and passion.",
-    "example": "It ain't about how hard you hit. It's about how hard you can get hit and keep moving forward.",
+    "example": "Heart isn’t about how hard you hit—it’s about how hard you can get hit and keep moving forward.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "beginner",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["heart", "courage"]
+    "categories": ["courage"]
   },
   {
     "id": 31006,
     "word": "underdog",
     "definition": "A competitor thought to have little chance of winning a fight or contest; one who is expected to lose.",
-    "example": "I can't beat him, but I can go the distance. If I can go the distance, I'll know for the first time in my life that I weren't just another bum from the neighborhood.",
+    "example": "The underdog may not beat him, but can go the distance—and know for the first time he isn’t just another bum.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "intermediate",
     "source": "Rocky (1976)",
     "speech": "Rocky to Adrian",
-    "categories": ["underdog", "ambition"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 31007,
     "word": "adversity",
     "definition": "Difficulties; misfortune; a state of hardship or affliction.",
-    "example": "The world ain't all sunshine and rainbows. It's a very mean and nasty place and I don't care how tough you are it will beat you to your knees and keep you there permanently if you let it.",
+    "example": "Adversity fills a mean, nasty world; it doesn’t care how tough you are—so you move forward anyway.",
     "partOfSpeech": "noun",
     "oratorId": 31,
     "complexity": "advanced",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["adversity", "resilience"]
+    "categories": ["courage"]
   },
   {
     "id": 31008,
@@ -93,6 +93,102 @@
     "complexity": "beginner",
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr.",
-    "categories": ["perseverance", "victory"]
+    "categories": ["courage"]
+  },
+  {
+    "id": 31009,
+    "oratorId": 31,
+    "word": "distance",
+    "definition": "The full length of a race or struggle; endurance to the finish.",
+    "example": "I can’t beat him, but I can go the distance—and that will mean I am not just another bum from the neighborhood.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Rocky",
+    "speech": "Going the Distance",
+    "categories": ["courage", "inspirational", "legacy"]
+  },
+  {
+    "id": 31010,
+    "oratorId": 31,
+    "word": "forward",
+    "definition": "Toward a point ahead; onward in progress.",
+    "example": "It is not how hard you hit—it is how hard you can get hit and keep moving forward.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Rocky Balboa",
+    "speech": "Keep Moving Forward",
+    "categories": ["courage", "inspirational"]
+  },
+  {
+    "id": 31011,
+    "oratorId": 31,
+    "word": "belief",
+    "definition": "Trust, faith, or confidence in someone or something.",
+    "example": "Belief is a muscle: unused, it atrophies under other people’s opinions.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Rocky series",
+    "speech": "Locker-room counsel",
+    "categories": ["inspirational", "courage"]
+  },
+  {
+    "id": 31012,
+    "oratorId": 31,
+    "word": "round",
+    "definition": "A unit of play in a contest; another attempt after fatigue.",
+    "example": "Going in one more round when you don’t think you can—that is perseverance with a mouthguard.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Rocky series",
+    "speech": "On perseverance",
+    "categories": ["courage", "inspirational"]
+  },
+  {
+    "id": 31013,
+    "oratorId": 31,
+    "word": "tough",
+    "definition": "Strong enough to withstand adverse conditions; resilient.",
+    "example": "Life is tough; tough is not the same as cruel—keep your heart while you take the punches.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Rocky Balboa",
+    "speech": "Keep Moving Forward",
+    "categories": ["courage", "humanities"]
+  },
+  {
+    "id": 31014,
+    "oratorId": 31,
+    "word": "neighborhood",
+    "definition": "A district or community within a town or city.",
+    "example": "He fought so the neighborhood would see that somebody from these streets could stand tall.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Rocky",
+    "speech": "Going the Distance",
+    "categories": ["legacy", "inspirational", "democracy"]
+  },
+  {
+    "id": 31015,
+    "oratorId": 31,
+    "word": "will",
+    "definition": "The faculty by which a person decides on and initiates action.",
+    "example": "Talent opens the door; will keeps you in the gym after talent gets tired.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Rocky series",
+    "speech": "Training montages / counsel",
+    "categories": ["courage", "leadership"]
+  },
+  {
+    "id": 31016,
+    "oratorId": 31,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Rocky Balboa (2006)",
+    "speech": "Rocky to his son Rocky Jr."
   }
 ]

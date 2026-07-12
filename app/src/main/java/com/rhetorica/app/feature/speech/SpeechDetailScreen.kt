@@ -37,12 +37,15 @@ const val speechDetailRoute = "speech/{oratorId}?title={speechTitle}"
 
 fun NavController.navigateToFullSpeech(oratorId: Long, speechTitle: String) {
     val encodedTitle = Uri.encode(speechTitle)
-    navigate("speech/$oratorId?title=$encodedTitle")
+    navigate("speech/$oratorId?title=$encodedTitle") {
+        launchSingleTop = true
+    }
 }
 
 fun NavGraphBuilder.speechDetailScreen(
     onBack: () -> Unit,
 ) {
+    // Deep links are handled in MainActivity (explicit intents from widget/notification).
     composable(
         route = speechDetailRoute,
         arguments = listOf(

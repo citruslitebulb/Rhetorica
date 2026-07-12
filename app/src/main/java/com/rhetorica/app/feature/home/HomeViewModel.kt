@@ -2,10 +2,11 @@ package com.rhetorica.app.feature.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.WordEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.data.repository.ProgressRepository
+import com.rhetorica.app.data.repository.WordOfDaySelector
 import com.rhetorica.app.data.repository.WordRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
@@ -20,6 +21,7 @@ class HomeViewModel @Inject constructor(
     private val repository: WordRepository,
     private val userPreferencesDao: UserPreferencesDao,
     private val dictionaryRepository: DictionaryRepository,
+    private val progressRepository: ProgressRepository,
 ) : ViewModel() {
     val uiState: StateFlow<HomeUiState> = combine(
         userPreferencesDao.observeUserPreferences(),
@@ -31,20 +33,19 @@ class HomeViewModel @Inject constructor(
         val rotateThroughAll = preferences?.rotateThroughAll ?: false
         val selectedThemes = preferences?.selectedThemeCategories ?: emptyList()
         val activeThemeSet = selectedThemes.toSet()
+        val hasActiveFilters = selectedThemes.isNotEmpty() ||
+            (!rotateThroughAll && selectedOratorId != null)
 
-        // Determine orators that match the selected themes (if any)
         val themeMatchingOratorIds: Set<Long> = if (selectedThemes.isEmpty()) {
-            emptySet() // means "all"
+            emptySet()
         } else {
             orators.filter { orator ->
                 orator.themeCategories.any { it in activeThemeSet }
             }.map { it.id }.toSet()
         }
 
-        // Effective orator for filtering:
-        // - If specific orator selected and it matches themes (or no themes), use it
-        // - Else if rotate, use null (all, but restricted below to theme matching)
-        val effectiveOratorId = if (rotateThroughAll) {
+        // Feed filter may consider themes + orator selection.
+        val feedOratorId = if (rotateThroughAll) {
             null
         } else {
             selectedOratorId?.takeIf { id ->
@@ -54,33 +55,60 @@ class HomeViewModel @Inject constructor(
 
         var filteredWords = words
 
-        if (effectiveOratorId != null) {
-            filteredWords = filteredWords.filter { it.oratorId == effectiveOratorId }
+        if (feedOratorId != null) {
+            filteredWords = filteredWords.filter { it.oratorId == feedOratorId }
         } else if (themeMatchingOratorIds.isNotEmpty()) {
             filteredWords = filteredWords.filter { (it.oratorId ?: 0L) in themeMatchingOratorIds }
         }
 
-        // Word-level theme filter (in addition to orator themes)
-        val activeCategories = activeThemeSet
-        if (activeCategories.isNotEmpty()) {
+        if (activeThemeSet.isNotEmpty()) {
             filteredWords = filteredWords.filter { word ->
-                word.categories.any { cat -> cat in activeCategories }
+                word.categories.any { cat -> cat in activeThemeSet }
             }
         }
 
-        val availableCategories = words
-            .flatMap { it.categories }
-            .distinct()
-            .sorted()
+        // Word of the Day is owned by the selected orator (or all, if rotating).
+        // Themes never reassign the WotD to a different orator's word.
+        val wotdOratorId = WordOfDaySelector.resolveOratorId(
+            selectedOratorId = selectedOratorId,
+            rotateThroughAll = rotateThroughAll,
+        )
+        val wordOfTheDay = WordOfDaySelector.select(
+            allWords = words,
+            oratorId = wotdOratorId,
+        )
+
+        val oratorNameById = orators.associate { it.id to it.name }
+        // Always show the orator who actually owns the word (which is the selected one when set).
+        val wotdOratorName = when {
+            wotdOratorId != null -> oratorNameById[wotdOratorId]
+            else -> wordOfTheDay?.oratorId?.let { oratorNameById[it] }
+        }
+
+        // Keep the daily word out of the main list when present to avoid duplication.
+        val listWords = if (wordOfTheDay != null) {
+            filteredWords.filter { it.id != wordOfTheDay.id }
+        } else {
+            filteredWords
+        }
 
         HomeUiState(
-            words = filteredWords.map { word ->
+            words = listWords.map { word ->
                 HomeWordCardState(
                     word = word,
                     isSaved = word.id in savedWordIds,
                 )
             },
-            availableCategories = availableCategories,
+            wordOfTheDay = wordOfTheDay?.let { wotd ->
+                HomeWordCardState(
+                    word = wotd,
+                    isSaved = wotd.id in savedWordIds,
+                )
+            },
+            wordOfTheDayOratorName = wotdOratorName,
+            totalWordCount = words.size,
+            hasActiveFilters = hasActiveFilters,
+            availableCategories = words.flatMap { it.categories }.distinct().sorted(),
             selectedCategories = activeThemeSet,
             isLoading = false,
         )
@@ -94,9 +122,9 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch {
             try {
                 repository.fixNullOratorIds()
+                progressRepository.syncSavedCount()
             } catch (e: Exception) {
-                // Log error and update UI state if needed
-                android.util.Log.e("HomeViewModel", "Failed to fix orator IDs", e)
+                android.util.Log.e("HomeViewModel", "Failed during home init", e)
             }
         }
     }
@@ -104,12 +132,17 @@ class HomeViewModel @Inject constructor(
     fun toggleSaved(wordId: Long) {
         viewModelScope.launch {
             repository.toggleSaved(wordId)
+            progressRepository.syncSavedCount()
         }
     }
 }
 
 data class HomeUiState(
     val words: List<HomeWordCardState> = emptyList(),
+    val wordOfTheDay: HomeWordCardState? = null,
+    val wordOfTheDayOratorName: String? = null,
+    val totalWordCount: Int = 0,
+    val hasActiveFilters: Boolean = false,
     val availableCategories: List<String> = emptyList(),
     val selectedCategories: Set<String> = emptySet(),
     val isLoading: Boolean = false,

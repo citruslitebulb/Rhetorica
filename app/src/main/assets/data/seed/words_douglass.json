@@ -1,45 +1,43 @@
 [
   {
     "id": 40101,
-    "word": "Injustice",
-    "definition": "Lack of fairness or justice",
+    "word": "injustice",
+    "definition": "Lack of fairness or justice; a word that gains force in public speech.",
     "example": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40102,
-    "word": "Cruelty",
-    "definition": "Cruel behavior or attitudes",
-    "example": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "word": "hypocrisy",
+    "definition": "The practice of claiming standards to which one’s own behavior does not conform.",
+    "example": "He named the hypocrisy of praising freedom while protecting the machinery of bondage.",
     "partOfSpeech": "noun",
     "oratorId": 6,
-    "complexity": "intermediate",
+    "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40103,
-    "word": "Victim",
-    "definition": "A person harmed, injured, or killed as a result of a crime or accident",
-    "example": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
+    "word": "indictment",
+    "definition": "A formal accusation; a powerful public charge against wrong.",
+    "example": "His Fourth of July oration was an indictment of a nation celebrating liberty while denying it.",
     "partOfSpeech": "noun",
     "oratorId": 6,
-    "complexity": "intermediate",
+    "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40104,
-    "word": "Struggle",
+    "word": "struggle",
     "definition": "A forceful or violent effort to get free of restraint or resist attack",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "noun",
@@ -47,37 +45,35 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40105,
-    "word": "Progress",
-    "definition": "Forward or onward movement toward a destination",
+    "word": "progress",
+    "definition": "Forward or onward movement toward a destination; a word that gains force in public speech.",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": [
-      "tech"
-    ]
+    "categories": ["tech"]
   },
   {
     "id": 40106,
-    "word": "Agitation",
-    "definition": "A state of anxiety or nervous excitement",
+    "word": "agitation",
+    "definition": "A state of anxiety or nervous excitement; a word that gains force in public speech.",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "advanced",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40107,
-    "word": "Endurance",
+    "word": "endurance",
     "definition": "The fact or power of enduring an unpleasant or difficult process or situation without giving way",
     "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
     "partOfSpeech": "noun",
@@ -85,23 +81,23 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40108,
-    "word": "Tyrants",
-    "definition": "A cruel and oppressive ruler",
+    "word": "tyrants",
+    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
     "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40109,
-    "word": "Oppress",
+    "word": "oppress",
     "definition": "Keep (someone) in subjection and hardship, especially by the unjust exercise of authority",
     "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
     "partOfSpeech": "verb",
@@ -109,26 +105,23 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40110,
-    "word": "Freedom",
+    "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
-    "example": "In his address, the orator urged his listeners to show freedom when facing the greatest challenges.",
+    "example": "Freedom is the hinge of Lectures on literacy and freedom: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
     "speech": "Lectures on literacy and freedom",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40111,
-    "word": "Degrade",
+    "word": "degrade",
     "definition": "Treat or regard (someone) with contempt or disrespect",
     "example": "The soul that is within me no man can degrade.",
     "partOfSpeech": "verb",
@@ -136,23 +129,23 @@
     "complexity": "intermediate",
     "source": "Speech at the American and Foreign Anti-Slavery Society",
     "speech": "Various",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40112,
-    "word": "Agitation",
-    "definition": "A state of anxiety or nervous excitement",
-    "example": "In his address, the orator urged his listeners to show agitation when facing the greatest challenges.",
+    "word": "agitation",
+    "definition": "A state of anxiety or nervous excitement; a word that gains force in public speech.",
+    "example": "Agitation is the hinge of What to the Slave Is the Fourth of July?: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40113,
-    "word": "Chain",
+    "word": "chain",
     "definition": "A series of linked metal rings used for fastening or securing something",
     "example": "No man can put a chain about the ankle of his fellow man without at last finding the other end fastened about his own neck.",
     "partOfSpeech": "noun",
@@ -160,59 +153,59 @@
     "complexity": "intermediate",
     "source": "Speech in England / various American addresses",
     "speech": "Various",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40114,
-    "word": "Doom",
-    "definition": "Death, destruction, or some other terrible fate",
+    "word": "doom",
+    "definition": "Death, destruction, or some other terrible fate; a word that gains force in public speech.",
     "example": "The arm of the Lord is not shortened, and the doom of slavery is certain.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40115,
-    "word": "Agitate",
-    "definition": "Make (someone) troubled or nervous",
-    "example": "In his address, the orator urged his listeners to show agitate when facing the greatest challenges.",
+    "word": "agitate",
+    "definition": "Make (someone) troubled or nervous; a word that gains force in public speech.",
+    "example": "The appeal was not to wait, but to agitate—West India Emancipation made delay look like surrender.",
     "partOfSpeech": "verb",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40116,
-    "word": "Silence",
-    "definition": "The absence of sound or noise",
-    "example": "In his address, the orator urged his listeners to show silence when facing the greatest challenges.",
+    "word": "silence",
+    "definition": "The absence of sound or noise; a word that gains force in public speech.",
+    "example": "Silence is the hinge of What to the Slave Is the Fourth of July?: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40117,
-    "word": "Truth",
-    "definition": "The quality or state of being true",
+    "word": "truth",
+    "definition": "The quality or state of being true; a word that gains force in public speech.",
     "example": "I expose slavery in this country, because to expose it is to kill it. Slavery is one of those monsters of darkness to whom the light of truth is death.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40118,
-    "word": "Grave",
+    "word": "grave",
     "definition": "A hole dug in the ground to receive a coffin or corpse",
     "example": "I would rather be a free man in my grave than a slave beneath the sod.",
     "partOfSpeech": "noun",
@@ -220,30 +213,30 @@
     "complexity": "intermediate",
     "source": "Speech at the American Anti-Slavery Society",
     "speech": "Various",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40119,
-    "word": "Literacy",
-    "definition": "The ability to read and write",
-    "example": "In his address, the orator urged his listeners to show literacy when facing the greatest challenges.",
+    "word": "literacy",
+    "definition": "The ability to read and write; a word that gains force in public speech.",
+    "example": "Literacy is the hinge of Lectures on literacy and freedom: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
     "speech": "Lectures on literacy and freedom",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40120,
-    "word": "Resistance",
-    "definition": "The refusal to accept or comply with something",
-    "example": "In his address, the orator urged his listeners to show resistance when facing the greatest challenges.",
+    "word": "resistance",
+    "definition": "The refusal to accept or comply with something; a word that gains force in public speech.",
+    "example": "Resistance is the hinge of West India Emancipation: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   }
 ]

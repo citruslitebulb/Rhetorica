@@ -9,90 +9,186 @@
     "complexity": "intermediate",
     "source": "The Karate Kid (1984)",
     "speech": "After the tournament",
-    "categories": ["wisdom", "balance", "life"]
+    "categories": ["humanities"]
   },
   {
     "id": 32002,
     "word": "discipline",
     "definition": "Training that corrects, molds, or perfects the mental faculties or moral character; controlled behavior.",
-    "example": "No such thing as bad student, only bad teacher. Teacher say, student do.",
+    "example": "Discipline runs both ways: no such thing as bad student, only bad teacher—teacher say, student do.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "intermediate",
     "source": "The Karate Kid (1984)",
     "speech": "Training discussion",
-    "categories": ["discipline", "mentorship"]
+    "categories": ["leadership"]
   },
   {
     "id": 32003,
     "word": "perseverance",
     "definition": "Steady persistence in a course of action in spite of difficulties, obstacles, or discouragement.",
-    "example": "Man who catch fly with chopstick, accomplish anything.",
+    "example": "Perseverance looks small until it isn’t: man who catch fly with chopstick can accomplish anything.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "advanced",
     "source": "The Karate Kid (1984)",
     "speech": "Early training",
-    "categories": ["perseverance", "focus"]
+    "categories": ["courage", "leadership"]
   },
   {
     "id": 32004,
     "word": "mentorship",
     "definition": "The guidance provided by a mentor, especially an experienced person in a company or educational institution.",
-    "example": "First learn stand, then learn fly. Nature rule, Daniel-San. Not mine.",
+    "example": "Mentorship orders the path: first learn stand, then learn fly—nature’s rule, Daniel-san, not mine.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "intermediate",
     "source": "The Karate Kid Part II (1986)",
     "speech": "On patience and progression",
-    "categories": ["mentorship", "wisdom"]
+    "categories": ["leadership", "humanities"]
   },
   {
     "id": 32005,
     "word": "focus",
     "definition": "The center of interest or activity; close or narrow attention; concentration.",
-    "example": "Man who catch fly with chopstick, accomplish anything.",
+    "example": "Focus can look like catching a fly with chopsticks—and the man who can do that can accomplish anything.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "beginner",
     "source": "The Karate Kid (1984)",
     "speech": "Early training",
-    "categories": ["focus", "discipline"]
+    "categories": ["leadership"]
   },
   {
     "id": 32006,
     "word": "respect",
     "definition": "A feeling of deep admiration for someone or something elicited by their abilities, qualities, or achievements.",
-    "example": "Walk on road, hm? Walk right side, safe. Walk left side, safe. Walk middle, sooner or later get squish just like grape.",
+    "example": "Respect the road: walk right side, safe; walk left side, safe; walk middle, sooner or later get squish like grape.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "beginner",
     "source": "The Karate Kid (1984)",
     "speech": "On choices and commitment",
-    "categories": ["respect", "wisdom"]
+    "categories": ["humanities"]
   },
   {
     "id": 32007,
     "word": "wisdom",
     "definition": "The quality of having experience, knowledge, and good judgment; the soundness of an action or decision.",
-    "example": "If come from inside you, always right one.",
+    "example": "Wisdom from inside you is always the right one.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "intermediate",
     "source": "The Karate Kid (1984)",
     "speech": "On confidence and authenticity",
-    "categories": ["wisdom", "balance"]
+    "categories": ["humanities"]
   },
   {
     "id": 32008,
     "word": "patience",
     "definition": "The capacity to accept or tolerate delay, trouble, or suffering without getting angry or upset.",
-    "example": "Better learn balance. Balance is key.",
+    "example": "Patience learns balance first—balance is key.",
     "partOfSpeech": "noun",
     "oratorId": 32,
     "complexity": "beginner",
     "source": "The Karate Kid (1984)",
     "speech": "Balance lesson",
-    "categories": ["patience", "discipline"]
+    "categories": ["humanities", "leadership"]
+  },
+  {
+    "id": 32009,
+    "oratorId": 32,
+    "word": "wax",
+    "definition": "To apply wax; in training, a repetitive motion that builds skill indirectly.",
+    "example": "Wax on, wax off—the chore hides the lesson until the body understands.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "The Karate Kid",
+    "speech": "Miyagi training",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 32010,
+    "oratorId": 32,
+    "word": "honor",
+    "definition": "High respect; adherence to what is right.",
+    "example": "Karate is for defense; honor decides when the hands stay down.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Karate Kid",
+    "speech": "Miyagi philosophy",
+    "categories": ["humanities", "courage", "legacy"]
+  },
+  {
+    "id": 32011,
+    "oratorId": 32,
+    "word": "inner",
+    "definition": "Situated inside; of the mind or spirit rather than outward show.",
+    "example": "If come from inside you, always right one—the inner voice before the crowd’s.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "The Karate Kid",
+    "speech": "Miyagi counsel",
+    "categories": ["humanities", "inspirational"]
+  },
+  {
+    "id": 32012,
+    "oratorId": 32,
+    "word": "defense",
+    "definition": "The action of protecting from attack.",
+    "example": "First learn stand, then learn fly—defense before spectacle.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "The Karate Kid",
+    "speech": "Miyagi training",
+    "categories": ["courage", "leadership"]
+  },
+  {
+    "id": 32013,
+    "oratorId": 32,
+    "word": "trust",
+    "definition": "Firm belief in the reliability or truth of someone or something.",
+    "example": "Trust the process when the lesson looks like chores and not championships.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "The Karate Kid",
+    "speech": "Miyagi training",
+    "categories": ["leadership", "inspirational"]
+  },
+  {
+    "id": 32014,
+    "oratorId": 32,
+    "word": "gentle",
+    "definition": "Mild in temperament or behavior; not harsh.",
+    "example": "A gentle teacher can still forge a fighter who never starts the fight.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "The Karate Kid",
+    "speech": "Miyagi philosophy",
+    "categories": ["humanities", "leadership"]
+  },
+  {
+    "id": 32015,
+    "oratorId": 32,
+    "word": "foundation",
+    "definition": "An underlying basis or principle.",
+    "example": "Without foundation, fancy kicks are only decoration waiting to collapse.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Karate Kid",
+    "speech": "Miyagi training",
+    "categories": ["leadership", "legacy"]
+  },
+  {
+    "id": 32016,
+    "oratorId": 32,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "The Karate Kid (1984)",
+    "speech": "After the tournament"
   }
 ]

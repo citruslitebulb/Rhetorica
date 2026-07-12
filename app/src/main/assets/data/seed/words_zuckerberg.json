@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "purpose", "leadership"]
+    "categories": ["democracy", "inspirational", "leadership"]
   },
   {
     "id": 23002,
@@ -21,31 +21,31 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "purpose", "leadership"]
+    "categories": ["democracy", "inspirational", "leadership"]
   },
   {
     "id": 23003,
     "word": "idealism",
     "definition": "The practice of forming or pursuing ideals, especially unrealistically.",
-    "example": "It's really good to be idealistic. But be prepared to be misunderstood. Anyone working on a big vision is going to get called crazy.",
+    "example": "Idealism is good fuel—but be prepared to be misunderstood; anyone with a big vision will be.",
     "partOfSpeech": "noun",
     "oratorId": 23,
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "purpose", "vision"]
+    "categories": ["democracy", "inspirational"]
   },
   {
     "id": 23004,
     "word": "community",
     "definition": "A group of people living in the same place or having a particular characteristic in common.",
-    "example": "Change starts local. Even global changes start small — with people like us.",
+    "example": "Community change starts local; even global shifts begin small—with people like us.",
     "partOfSpeech": "noun",
     "oratorId": 23,
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "purpose", "technology"]
+    "categories": ["democracy", "inspirational", "tech"]
   },
   {
     "id": 23005,
@@ -57,7 +57,7 @@
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "leadership", "purpose"]
+    "categories": ["democracy", "leadership", "inspirational"]
   },
   {
     "id": 23006,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["community", "purpose", "vision"]
+    "categories": ["democracy", "inspirational"]
   },
   {
     "id": 23007,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["vision", "leadership", "purpose"]
+    "categories": ["inspirational", "leadership"]
   },
   {
     "id": 23008,
@@ -93,6 +93,102 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["vision", "purpose", "community"]
+    "categories": ["inspirational", "democracy"]
+  },
+  {
+    "id": 23009,
+    "oratorId": 23,
+    "word": "connection",
+    "definition": "A relationship in which people or things are linked.",
+    "example": "The bet was simple and vast: connection at global scale can still start with one campus network.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Harvard Commencement",
+    "speech": "Harvard Commencement Address",
+    "categories": ["tech", "democracy", "inspirational"]
+  },
+  {
+    "id": 23010,
+    "oratorId": 23,
+    "word": "progress",
+    "definition": "Forward movement toward a destination or improved condition.",
+    "example": "Progress is uneven—defend the direction even when the week looks ugly.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Public essays",
+    "speech": "Public addresses",
+    "categories": ["inspirational", "tech"]
+  },
+  {
+    "id": 23011,
+    "oratorId": 23,
+    "word": "responsibility",
+    "definition": "The state of being accountable for something within one’s power.",
+    "example": "Scale without responsibility is just a larger blast radius.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Public testimony and talks",
+    "speech": "Public addresses",
+    "categories": ["leadership", "democracy", "tech"]
+  },
+  {
+    "id": 23012,
+    "oratorId": 23,
+    "word": "mission",
+    "definition": "An important assignment or purpose undertaken by a group.",
+    "example": "A mission statement is worthless until it forces trade-offs in the product roadmap.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Company culture",
+    "speech": "Internal and public talks",
+    "categories": ["leadership", "tech"]
+  },
+  {
+    "id": 23013,
+    "oratorId": 23,
+    "word": "conviction",
+    "definition": "A firmly held belief or opinion.",
+    "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "courage"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 23014,
+    "oratorId": 23,
+    "word": "clarity",
+    "definition": "The quality of being coherent and intelligible.",
+    "example": "Clarity is kindness in speech—confusion is often a way to hide.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "humanities"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 23015,
+    "oratorId": 23,
+    "word": "integrity",
+    "definition": "The quality of being honest and having strong moral principles.",
+    "example": "Integrity is what you do when the speech ends and no one is applauding.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["leadership", "legacy", "humanities"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 23016,
+    "oratorId": 23,
+    "word": "sacrifice",
+    "definition": "The act of giving up something valued for the sake of other considerations.",
+    "example": "Sacrifice is the receipt attached to every lasting freedom.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "categories": ["courage", "legacy"],
+    "source": "Harvard University Commencement Address",
+    "speech": "Harvard Commencement Address"
   }
 ]

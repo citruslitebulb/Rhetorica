@@ -1,55 +1,55 @@
 [
   {
     "id": 40321,
-    "word": "Pen",
-    "definition": "An instrument for writing or drawing with ink",
+    "word": "pen",
+    "definition": "An instrument for writing or drawing with ink; a word that gains force in public speech.",
     "example": "One child, one teacher, one book, one pen can change the world.",
     "partOfSpeech": "noun",
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "Speech at the United Nations",
     "speech": "Address to the United Nations Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40322,
-    "word": "Bullets",
-    "definition": "A projectile fired from a gun",
+    "word": "bullets",
+    "definition": "A projectile fired from a gun; a word that gains force in public speech.",
     "example": "They thought that the bullets would silence us, but they failed.",
     "partOfSpeech": "noun",
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40323,
-    "word": "Silence",
-    "definition": "The absence of sound or noise",
+    "word": "silence",
+    "definition": "The absence of sound or noise; a word that gains force in public speech.",
     "example": "They thought that the bullets would silence us, but they failed. And out of that silence came thousands of voices.",
     "partOfSpeech": "noun",
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40324,
-    "word": "Ambitions",
-    "definition": "A strong desire to do or achieve something",
+    "word": "ambitions",
+    "definition": "A strong desire to do or achieve something; a word that gains force in public speech.",
     "example": "The terrorists thought that they would change my aims and stop my ambitions. But nothing changed in my life except this: weakness, fear and hopelessness died. Strength, power and courage were born.",
     "partOfSpeech": "noun",
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40325,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "The terrorists thought that they would change my aims and stop my ambitions. But nothing changed in my life except this: weakness, fear and hopelessness died. Strength, power and courage were born.",
     "partOfSpeech": "noun",
@@ -57,15 +57,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40326,
-    "word": "Voice",
+    "word": "voice",
     "definition": "The sound produced in a person's larynx and uttered through the mouth",
     "example": "I speak not for myself, but so those without a voice can be heard. Those who have fought for their rights. Their right to live in peace. Their right to be treated with dignity. Their right to equality of opportunity. Their right to be educated.",
     "partOfSpeech": "noun",
@@ -73,13 +69,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40327,
-    "word": "Equality",
+    "word": "equality",
     "definition": "The state of being equal, especially in status, rights, and opportunities",
     "example": "Their right to live in peace. Their right to be treated with dignity. Their right to equality of opportunity. Their right to be educated.",
     "partOfSpeech": "noun",
@@ -87,13 +81,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40328,
-    "word": "Dignity",
+    "word": "dignity",
     "definition": "The state or quality of being worthy of honor or respect",
     "example": "Their right to live in peace. Their right to be treated with dignity.",
     "partOfSpeech": "noun",
@@ -101,13 +93,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": [
-      "humanities"
-    ]
+    "categories": ["humanities"]
   },
   {
     "id": 40329,
-    "word": "Terrorists",
+    "word": "terrorists",
     "definition": "A person who uses unlawful violence and intimidation, especially against civilians, in the pursuit of political aims",
     "example": "The terrorists thought that they would change my aims and stop my ambitions.",
     "partOfSpeech": "noun",
@@ -115,11 +105,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40330,
-    "word": "Extremists",
+    "word": "extremists",
     "definition": "A person who holds extreme political or religious views",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -127,11 +117,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40331,
-    "word": "Education",
+    "word": "education",
     "definition": "The process of receiving or giving systematic instruction",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -139,11 +129,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40332,
-    "word": "Terrorism",
+    "word": "terrorism",
     "definition": "The unlawful use of violence and intimidation, especially against civilians, in the pursuit of political aims",
     "example": "With guns you can kill terrorists, with education you can kill terrorism.",
     "partOfSpeech": "noun",
@@ -151,23 +141,23 @@
     "complexity": "intermediate",
     "source": "Various addresses (including UN and Nobel)",
     "speech": "Multiple speeches on education vs. violence",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40333,
-    "word": "Hate",
-    "definition": "Intense or passionate dislike",
+    "word": "hate",
+    "definition": "Intense or passionate dislike; a word that gains force in public speech.",
     "example": "I do not even hate the Talib who shot me. Even if there is a gun in my hand and he stands in front of me, I would not shoot him.",
     "partOfSpeech": "noun",
     "oratorId": 17,
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40334,
-    "word": "Gun",
+    "word": "gun",
     "definition": "A weapon incorporating a metal tube from which bullets, shells, or other missiles are propelled by explosive force",
     "example": "I do not even hate the Talib who shot me. Even if there is a gun in my hand and he stands in front of me, I would not shoot him.",
     "partOfSpeech": "noun",
@@ -175,11 +165,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40335,
-    "word": "Power",
+    "word": "power",
     "definition": "The ability or capacity to do something or act in a particular way",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -187,11 +177,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40336,
-    "word": "Books",
+    "word": "books",
     "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -199,11 +189,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40337,
-    "word": "Pens",
+    "word": "pens",
     "definition": "An instrument for writing or drawing with ink, typically consisting of a metal nib or ball, or a nylon tip, fitted into a metal or plastic holder",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -211,11 +201,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40338,
-    "word": "Sister",
+    "word": "sister",
     "definition": "A woman or girl in relation to other daughters and sons of her parents",
     "example": "We call upon our sisters around the world to be brave — to embrace the strength within themselves and realize their full potential.",
     "partOfSpeech": "noun",
@@ -223,11 +213,11 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40339,
-    "word": "Brave",
+    "word": "brave",
     "definition": "Ready to face and endure danger or pain; showing courage",
     "example": "We call upon our sisters around the world to be brave — to embrace the strength within themselves and realize their full potential.",
     "partOfSpeech": "adjective",
@@ -235,13 +225,11 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": [
-      "courage"
-    ]
+    "categories": ["courage"]
   },
   {
     "id": 40340,
-    "word": "Potential",
+    "word": "potential",
     "definition": "Having or showing the capacity to develop into something in the future",
     "example": "We call upon our sisters around the world to be brave — to embrace the strength within themselves and realize their full potential.",
     "partOfSpeech": "noun",
@@ -249,6 +237,6 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   }
 ]

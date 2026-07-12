@@ -18,13 +18,23 @@ class WordExampleValidationTest {
 
     private val json = Json { ignoreUnknownKeys = true }
 
-    private val seedDir = File("app/src/main/assets/data/seed")
+    /**
+     * Resolve seed assets whether Gradle's working directory is the repo root
+     * (`app/src/...`) or the `:app` module (`src/...`).
+     */
+    private val seedDir: File = listOf(
+        File("src/main/assets/data/seed"),
+        File("app/src/main/assets/data/seed"),
+    ).firstOrNull { it.isDirectory }
+        ?: File("src/main/assets/data/seed")
 
     @Test
     fun `every word example must contain the word itself`() {
         if (!seedDir.exists()) {
-            fail("Seed directory not found at ${seedDir.absolutePath}. " +
-                 "Run tests from the project root (e.g. ./gradlew :app:test).")
+            fail(
+                "Seed directory not found. Tried src/main/assets/data/seed and " +
+                    "app/src/main/assets/data/seed (cwd=${File(".").absolutePath}).",
+            )
             return
         }
 

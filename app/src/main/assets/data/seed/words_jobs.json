@@ -9,37 +9,37 @@
     "complexity": "advanced",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["innovation", "vision", "leadership"]
+    "categories": ["tech", "inspirational", "leadership"]
   },
   {
     "id": 19002,
     "word": "intuition",
     "definition": "The ability to understand something immediately, without the need for conscious reasoning.",
-    "example": "They somehow already know what you truly want to become. Everything else is secondary.",
+    "example": "Trust intuition: your heart and gut somehow already know what you truly want to become; everything else is secondary.",
     "partOfSpeech": "noun",
     "oratorId": 19,
     "complexity": "intermediate",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["vision", "humanities", "leadership"]
+    "categories": ["inspirational", "humanities", "leadership"]
   },
   {
     "id": 19003,
     "word": "authenticity",
     "definition": "The quality of being genuine or real; not false or copied.",
-    "example": "Your time is limited, so don't waste it living someone else's life.",
+    "example": "Authenticity refuses a borrowed life—your time is limited, so don’t waste it living someone else’s.",
     "partOfSpeech": "noun",
     "oratorId": 19,
     "complexity": "intermediate",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["vision", "legacy", "humanities"]
+    "categories": ["inspirational", "legacy", "humanities"]
   },
   {
     "id": 19004,
     "word": "legacy",
     "definition": "Something transmitted by or received from an ancestor or predecessor.",
-    "example": "And I have always wished that for myself. And now, as you graduate to begin anew, I wish that for you.",
+    "example": "Legacy is the wish he carried for himself and now offers graduates beginning anew.",
     "partOfSpeech": "noun",
     "oratorId": 19,
     "complexity": "intermediate",
@@ -57,6 +57,138 @@
     "complexity": "intermediate",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["innovation", "vision", "humanities"]
+    "categories": ["tech", "inspirational", "humanities"]
+  },
+  {
+    "id": 19006,
+    "oratorId": 19,
+    "word": "renaissance",
+    "definition": "A revival of art, skill, or cultural achievement; a renewed flourishing.",
+    "example": "He cast the personal computer as a tool of renaissance—technology in service of human creativity.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Various interviews",
+    "speech": "Think Different era",
+    "categories": ["arts", "tech", "inspirational"]
+  },
+  {
+    "id": 19007,
+    "oratorId": 19,
+    "word": "intersection",
+    "definition": "A point where two or more things meet and influence each other.",
+    "example": "Innovation, he argued, lives at the intersection of technology and the liberal arts.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "iPad introduction",
+    "speech": "iPad introduction",
+    "categories": ["tech", "arts", "humanities"]
+  },
+  {
+    "id": 19008,
+    "oratorId": 19,
+    "word": "simplicity",
+    "definition": "The quality of being easy to understand or use; freedom from complexity.",
+    "example": "Simplicity is the ultimate sophistication—remove until only the essential remains.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Design philosophy",
+    "speech": "Design talks",
+    "categories": ["tech", "arts", "leadership"]
+  },
+  {
+    "id": 19009,
+    "oratorId": 19,
+    "word": "insanely",
+    "definition": "To an extreme or extraordinary degree (colloquial intensifier).",
+    "example": "The promise was not merely better—it was insanely great, or not worth shipping.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Early Apple culture",
+    "speech": "Apple product launches",
+    "categories": ["tech", "inspirational"]
+  },
+  {
+    "id": 19010,
+    "oratorId": 19,
+    "word": "connect",
+    "definition": "To join or bring together; to form a meaningful link.",
+    "example": "You cannot connect the dots looking forward; you can only connect them looking backward.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Stanford Commencement",
+    "speech": "Stanford Commencement Address",
+    "categories": ["inspirational", "legacy", "humanities"]
+  },
+  {
+    "id": 19011,
+    "oratorId": 19,
+    "word": "death",
+    "definition": "The end of life; used metaphorically as the ultimate constraint that clarifies priorities.",
+    "example": "Death is the hinge of Stanford Commencement Address: without it the rest is decoration.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Stanford Commencement",
+    "speech": "Stanford Commencement Address",
+    "categories": ["humanities", "inspirational", "legacy"]
+  },
+  {
+    "id": 19012,
+    "oratorId": 19,
+    "word": "stay",
+    "definition": "To remain in a specified state or place; to continue.",
+    "example": "Stay hungry. Stay foolish—keep the beginner’s appetite even after success.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Stanford Commencement",
+    "speech": "Stanford Commencement Address",
+    "categories": ["inspirational", "leadership"]
+  },
+  {
+    "id": 19013,
+    "oratorId": 19,
+    "word": "design",
+    "definition": "The purposeful shaping of how something looks and works.",
+    "example": "Design is not just how it looks; design is how it works—form obeying function and feeling.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Product philosophy",
+    "speech": "Product keynotes",
+    "categories": ["tech", "arts"]
+  },
+  {
+    "id": 19014,
+    "oratorId": 19,
+    "word": "humanity",
+    "definition": "Human beings collectively; the quality of being humane.",
+    "example": "Humanity is the hinge of iPad introduction: without it the rest is decoration.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "iPad introduction",
+    "speech": "iPad introduction",
+    "categories": ["humanities", "tech", "arts"]
+  },
+  {
+    "id": 19015,
+    "oratorId": 19,
+    "word": "pioneer",
+    "definition": "A person who is among the first to explore or develop a new area.",
+    "example": "The ones who are crazy enough to think they can change the world are the ones who do—pioneers, not caretakers.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Think Different",
+    "speech": "Think Different",
+    "categories": ["inspirational", "leadership", "legacy"]
+  },
+  {
+    "id": 19016,
+    "oratorId": 19,
+    "word": "polish",
+    "definition": "Refinement and care applied until a work feels finished and intentional.",
+    "example": "He demanded polish on details most people never notice—because excellence is a habit of attention.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Apple product culture",
+    "speech": "Product reviews / culture",
+    "categories": ["leadership", "tech", "arts"]
   }
 ]

@@ -7,8 +7,6 @@ import com.rhetorica.app.data.local.SavedWordSummary
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
 import kotlinx.coroutines.flow.Flow
-import java.time.LocalDate
-import java.time.ZoneId
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -36,24 +34,55 @@ class WordRepository @Inject constructor(
         }
     }
 
-    suspend fun getWordOfTheDay(): WordEntity? {
-        val count = wordDao.wordCount()
-        if (count == 0) return null
-
-        val dayOfYear = LocalDate.now(ZoneId.systemDefault()).dayOfYear
-        val offset = (dayOfYear - 1) % count
-        return wordDao.getWordOfTheDay(offset)
-    }
+    suspend fun getWordOfTheDay(): WordEntity? = getWordOfTheDayForPreferences(
+        selectedOratorId = null,
+        rotateThroughAll = true,
+    )
 
     suspend fun getWordOfTheDayByOrator(oratorId: Long?): WordEntity? {
-        if (oratorId == null) return getWordOfTheDay()
+        return getWordOfTheDayForPreferences(
+            selectedOratorId = oratorId,
+            rotateThroughAll = oratorId == null,
+        )
+    }
 
-        val count = wordDao.wordCountByOrator(oratorId)
-        if (count == 0) return null
+    /**
+     * Word of the Day for the user's orator preference.
+     * When a specific orator is selected (and not rotating), the word is always
+     * drawn from that orator's list — never a global word with a swapped label.
+     */
+    suspend fun getWordOfTheDayForPreferences(
+        selectedOratorId: Long?,
+        rotateThroughAll: Boolean,
+    ): WordEntity? {
+        val oratorId = WordOfDaySelector.resolveOratorId(
+            selectedOratorId = selectedOratorId,
+            rotateThroughAll = rotateThroughAll,
+        )
+        return if (oratorId == null) {
+            val count = wordDao.wordCount()
+            if (count == 0) return null
+            val offset = WordOfDaySelector.dayOffset(count)
+            wordDao.getWordOfTheDay(offset)
+        } else {
+            val count = wordDao.wordCountByOrator(oratorId)
+            if (count == 0) return null
+            val offset = WordOfDaySelector.dayOffset(count)
+            wordDao.getWordOfTheDayByOrator(oratorId, offset)
+        }
+    }
 
-        val dayOfYear = LocalDate.now(ZoneId.systemDefault()).dayOfYear
-        val offset = (dayOfYear - 1) % count
-        return wordDao.getWordOfTheDayByOrator(oratorId, offset)
+    suspend fun getRandomWords(limit: Int): List<WordEntity> = wordDao.getRandomWords(limit)
+
+    suspend fun getRandomWords(
+        limit: Int,
+        oratorId: Long?,
+    ): List<WordEntity> {
+        return if (oratorId == null) {
+            wordDao.getRandomWords(limit)
+        } else {
+            wordDao.getRandomWordsByOrator(oratorId, limit)
+        }
     }
 
     suspend fun saveWord(wordId: Long) {

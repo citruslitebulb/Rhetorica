@@ -1,31 +1,31 @@
 [
   {
     "id": 40001,
-    "word": "Tyranny",
-    "definition": "Cruel and oppressive government or rule",
-    "example": "In his address, the orator urged his listeners to show tyranny when facing the greatest challenges.",
+    "word": "tyranny",
+    "definition": "Cruel and oppressive government or rule; a word that gains force in public speech.",
+    "example": "Tyranny is the hinge of Philippic 1: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40002,
-    "word": "Deliberation",
-    "definition": "Long and careful consideration or discussion",
+    "word": "deliberation",
+    "definition": "Long and careful consideration or discussion; a word that gains force in public speech.",
     "example": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "advanced",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40003,
-    "word": "Courage",
+    "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
     "example": "It is not by the number of ships or the weight of treasure that wars are decided, but by the courage of those who fight for freedom.",
     "partOfSpeech": "noun",
@@ -33,15 +33,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": [
-      "inspirational",
-      "leadership",
-      "courage"
-    ]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 40004,
-    "word": "Fortress",
+    "word": "fortress",
     "definition": "A military stronghold, especially a strongly fortified town",
     "example": "The strongest fortress is not made of stone and timber, but of the goodwill and courage of free citizens.",
     "partOfSpeech": "noun",
@@ -49,62 +45,59 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40005,
-    "word": "Persuasion",
+    "word": "persuasion",
     "definition": "The action or fact of persuading someone or of being persuaded to do or believe something",
-    "example": "In his address, the orator urged his listeners to show persuasion when facing the greatest challenges.",
+    "example": "Persuasion is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40006,
-    "word": "Resolve",
-    "definition": "Firm determination to do something",
-    "example": "In his address, the orator urged his listeners to show resolve when facing the greatest challenges.",
+    "word": "resolve",
+    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "example": "Resolve is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": [
-      "leadership",
-      "courage"
-    ]
+    "categories": ["leadership", "courage"]
   },
   {
     "id": 40007,
-    "word": "Appeasement",
+    "word": "appeasement",
     "definition": "The action of pacifying or placating someone by acceding to their demands",
-    "example": "In his address, the orator urged his listeners to show appeasement when facing the greatest challenges.",
+    "example": "Appeasement is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "advanced",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40008,
-    "word": "Eloquence",
-    "definition": "Fluent or persuasive speaking or writing",
-    "example": "In his address, the orator urged his listeners to show eloquence when facing the greatest challenges.",
+    "word": "eloquence",
+    "definition": "Fluent or persuasive speaking or writing; a word that gains force in public speech.",
+    "example": "Eloquence is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40009,
-    "word": "Citizens",
+    "word": "citizens",
     "definition": "A legally recognized subject or national of a state or commonwealth",
     "example": "The strongest fortress is not made of stone and timber, but of the goodwill and courage of free citizens.",
     "partOfSpeech": "noun",
@@ -112,140 +105,150 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40010,
-    "word": "Inaction",
+    "word": "inaction",
     "definition": "Lack of action where some is expected or appropriate",
-    "example": "In his address, the orator urged his listeners to show inaction when facing the greatest challenges.",
+    "example": "Inaction is the hinge of Philippic 1: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40011,
-    "word": "Orator",
-    "definition": "A person who is skilled in public speaking",
+    "word": "orator",
+    "definition": "A person who is skilled in public speaking; a word that gains force in public speech.",
     "example": "The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   },
   {
     "id": 40012,
-    "word": "Tyrant",
-    "definition": "A cruel and oppressive ruler",
-    "example": "In his address, the orator urged his listeners to show tyrant when facing the greatest challenges.",
+    "word": "tyrant",
+    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
+    "example": "Tyrant is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40013,
-    "word": "Unity",
-    "definition": "The state of being united or joined as a whole",
-    "example": "In his address, the orator urged his listeners to show unity when facing the greatest challenges.",
+    "word": "unity",
+    "definition": "The state of being united or joined as a whole; a word that gains force in public speech.",
+    "example": "Unity is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": [
-      "inspirational"
-    ]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40014,
-    "word": "Prompt",
-    "definition": "Done without delay; immediate",
+    "word": "prompt",
+    "definition": "Done without delay; immediate; a word that gains force in public speech.",
     "example": "Delay has been the ruin of many states; prompt and vigorous action has saved them.",
     "partOfSpeech": "adjective",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40015,
-    "word": "Vigorous",
-    "definition": "Strong, healthy, and full of energy",
+    "word": "vigorous",
+    "definition": "Strong, healthy, and full of energy; a word that gains force in public speech.",
     "example": "Delay has been the ruin of many states; prompt and vigorous action has saved them.",
     "partOfSpeech": "adjective",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40016,
-    "word": "Integrity",
+    "word": "integrity",
     "definition": "The quality of being honest and having strong moral principles",
-    "example": "In his address, the orator urged his listeners to show integrity when facing the greatest challenges.",
+    "example": "Integrity is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40017,
-    "word": "Flattery",
+    "word": "flattery",
     "definition": "Excessive and insincere praise, given especially to further one's own interests",
-    "example": "In his address, the orator urged his listeners to show flattery when facing the greatest challenges.",
+    "example": "Flattery is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40018,
-    "word": "Guardian",
-    "definition": "A person who protects or defends something",
+    "word": "guardian",
+    "definition": "A person who protects or defends something; a word that gains force in public speech.",
     "example": "A man who is a slave to pleasure and luxury can never be a true friend to the people or a faithful guardian of the state.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40019,
-    "word": "Adversity",
-    "definition": "Difficulties; misfortune",
+    "word": "adversity",
+    "definition": "Difficulties; misfortune; a word that gains force in public speech.",
     "example": "The man who has never been tested by adversity cannot know the strength of his own soul.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "advanced",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40020,
-    "word": "Inaction",
+    "word": "inaction",
     "definition": "Lack of action where some is expected or appropriate",
-    "example": "In his address, the orator urged his listeners to show inaction when facing the greatest challenges.",
+    "example": "Inaction is the hinge of Philippic 1: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
+  },
+  {
+    "id": 40363,
+    "oratorId": 1,
+    "word": "philippic",
+    "definition": "A bitter verbal denunciation, especially a speech against a public enemy.",
+    "example": "Each philippic sharpened the case against Philip until delay itself looked like treason.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "categories": ["democracy", "courage", "leadership"],
+    "source": "Philippics",
+    "speech": "Philippic 1"
   }
 ]

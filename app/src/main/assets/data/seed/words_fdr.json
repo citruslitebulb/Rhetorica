@@ -1,7 +1,7 @@
 [
   {
     "id": 40201,
-    "word": "Fear",
+    "word": "fear",
     "definition": "An unpleasant emotion caused by the threat of danger, pain, or harm",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
@@ -9,23 +9,23 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40202,
-    "word": "Terror",
-    "definition": "Extreme fear",
+    "word": "terror",
+    "definition": "Extreme fear; a word that gains force in public speech.",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40203,
-    "word": "Paralyze",
+    "word": "paralyze",
     "definition": "Cause (a person or part of the body) to become partly or wholly incapable of movement",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "verb",
@@ -33,23 +33,23 @@
     "complexity": "advanced",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40204,
-    "word": "Retreat",
-    "definition": "An act of moving back or withdrawing",
+    "word": "retreat",
+    "definition": "An act of moving back or withdrawing; a word that gains force in public speech.",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40205,
-    "word": "Deal",
+    "word": "deal",
     "definition": "An agreement entered into by two or more parties for their mutual benefit",
     "example": "I pledge you, I pledge myself, to a new deal for the American people.",
     "partOfSpeech": "noun",
@@ -57,23 +57,23 @@
     "complexity": "intermediate",
     "source": "Speech accepting the Democratic nomination",
     "speech": "Democratic National Convention acceptance",
-    "categories": []
+    "categories": ["arts", "humanities", "legacy"]
   },
   {
     "id": 40206,
-    "word": "Abundance",
-    "definition": "A very large quantity of something",
+    "word": "abundance",
+    "definition": "A very large quantity of something; a word that gains force in public speech.",
     "example": "The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40207,
-    "word": "Infamy",
+    "word": "infamy",
     "definition": "The state of being well known for some bad quality or deed",
     "example": "Yesterday, December 7, 1941 — a date which will live in infamy — the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan.",
     "partOfSpeech": "noun",
@@ -81,11 +81,11 @@
     "complexity": "advanced",
     "source": "Day of Infamy Speech",
     "speech": "Address to Congress requesting declaration of war",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40208,
-    "word": "Freedom",
+    "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
     "example": "We look forward to a world founded upon four essential human freedoms.",
     "partOfSpeech": "noun",
@@ -93,26 +93,23 @@
     "complexity": "intermediate",
     "source": "Four Freedoms Speech",
     "speech": "State of the Union Address (Four Freedoms)",
-    "categories": [
-      "humanities",
-      "democracy"
-    ]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40209,
-    "word": "Arsenal",
-    "definition": "A collection of weapons and military equipment",
+    "word": "arsenal",
+    "definition": "A collection of weapons and military equipment; a word that gains force in public speech.",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
     "speech": "Fireside Chat on national security",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40210,
-    "word": "Democracy",
+    "word": "democracy",
     "definition": "A system of government by the whole population or all the eligible members of a state",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
@@ -120,13 +117,11 @@
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
     "speech": "Fireside Chat on national security",
-    "categories": [
-      "democracy"
-    ]
+    "categories": ["democracy"]
   },
   {
     "id": 40211,
-    "word": "Appeasement",
+    "word": "appeasement",
     "definition": "The action of pacifying or placating someone by acceding to their demands",
     "example": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness.",
     "partOfSpeech": "noun",
@@ -134,35 +129,35 @@
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
     "speech": "Arsenal of Democracy Fireside Chat",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40212,
-    "word": "Ruthlessness",
-    "definition": "The quality of being cruel or having no pity",
+    "word": "ruthlessness",
+    "definition": "The quality of being cruel or having no pity; a word that gains force in public speech.",
     "example": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
     "speech": "Arsenal of Democracy Fireside Chat",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40213,
-    "word": "Doubts",
-    "definition": "A feeling of uncertainty or lack of conviction",
+    "word": "doubts",
+    "definition": "A feeling of uncertainty or lack of conviction; a word that gains force in public speech.",
     "example": "The only limit to our realization of tomorrow will be our doubts of today.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
     "speech": "Undelivered address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40214,
-    "word": "Realization",
+    "word": "realization",
     "definition": "The fulfillment or achievement of something desired or anticipated",
     "example": "The only limit to our realization of tomorrow will be our doubts of today.",
     "partOfSpeech": "noun",
@@ -170,23 +165,23 @@
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
     "speech": "Undelivered address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40215,
-    "word": "Happiness",
-    "definition": "The state of being happy",
+    "word": "happiness",
+    "definition": "The state of being happy; a word that gains force in public speech.",
     "example": "Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40216,
-    "word": "Achievement",
+    "word": "achievement",
     "definition": "A thing done successfully with effort, skill, or courage",
     "example": "Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
     "partOfSpeech": "noun",
@@ -194,23 +189,23 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40217,
-    "word": "Interdependence",
+    "word": "interdependence",
     "definition": "The dependence of two or more people or things on each other",
-    "example": "In his address, the orator urged his listeners to show interdependence when facing the greatest challenges.",
+    "example": "Interdependence is the hinge of Fourth Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "advanced",
     "source": "Fourth Inaugural Address",
     "speech": "Fourth Inaugural Address",
-    "categories": []
+    "categories": ["democracy", "humanities", "courage"]
   },
   {
     "id": 40218,
-    "word": "Cooperative",
+    "word": "cooperative",
     "definition": "Involving mutual assistance in working toward a common goal",
     "example": "The structure of world peace cannot be the work of one man, or one party, or one nation. It must be a peace which rests on the cooperative effort of the whole world.",
     "partOfSpeech": "adjective",
@@ -218,11 +213,11 @@
     "complexity": "intermediate",
     "source": "Fourth Inaugural Address",
     "speech": "Fourth Inaugural Address",
-    "categories": []
+    "categories": ["courage", "leadership", "legacy"]
   },
   {
     "id": 40219,
-    "word": "Prisoners",
+    "word": "prisoners",
     "definition": "A person captured and kept confined by an enemy or criminal",
     "example": "Men are not prisoners of fate, but only prisoners of their own minds.",
     "partOfSpeech": "noun",
@@ -230,11 +225,11 @@
     "complexity": "intermediate",
     "source": "Pan American Day Address",
     "speech": "Pan American Day Address",
-    "categories": []
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 40220,
-    "word": "Fate",
+    "word": "fate",
     "definition": "The development of events outside a person's control, regarded as predetermined by a supernatural power",
     "example": "Men are not prisoners of fate, but only prisoners of their own minds.",
     "partOfSpeech": "noun",
@@ -242,6 +237,6 @@
     "complexity": "intermediate",
     "source": "Pan American Day Address",
     "speech": "Pan American Day Address",
-    "categories": []
+    "categories": ["leadership", "democracy", "legacy"]
   }
 ]
