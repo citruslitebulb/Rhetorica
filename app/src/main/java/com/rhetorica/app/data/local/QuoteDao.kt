@@ -26,31 +26,6 @@ interface QuoteDao {
     @Query("SELECT COUNT(*) FROM quotes")
     suspend fun quoteCount(): Int
 
-    @Query("SELECT * FROM quotes WHERE oratorId = :oratorId ORDER BY RANDOM() LIMIT 1")
-    suspend fun getRandomQuoteByOrator(oratorId: Long): QuoteEntity?
-
-    /**
-     * Prefer a quote tied to the same speech/source as the word the user is viewing.
-     */
-    @Query(
-        """
-        SELECT * FROM quotes
-        WHERE oratorId = :oratorId
-          AND (
-            (:speech IS NOT NULL AND speech = :speech)
-            OR (:source IS NOT NULL AND (source = :source OR speech = :source))
-            OR (:speech IS NOT NULL AND source = :speech)
-          )
-        ORDER BY RANDOM()
-        LIMIT 1
-        """,
-    )
-    suspend fun getQuoteMatchingSpeechOrSource(
-        oratorId: Long,
-        speech: String?,
-        source: String?,
-    ): QuoteEntity?
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertQuotes(quotes: List<QuoteEntity>)
 

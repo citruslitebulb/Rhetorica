@@ -243,25 +243,6 @@ private fun WordDetailScreen(
                         )
                     }
 
-                    state.relatedQuote?.let { quote ->
-                        DetailBlock(
-                            title = stringResource(R.string.word_related_quote_title),
-                            body = "“${quote.text}”",
-                            italic = true,
-                        )
-                        val quoteAttribution = listOfNotNull(
-                            quote.speech ?: quote.source,
-                            quote.year?.toString(),
-                        ).joinToString(" · ")
-                        if (quoteAttribution.isNotBlank()) {
-                            Text(
-                                text = "— $quoteAttribution",
-                                style = MaterialTheme.typography.labelMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            )
-                        }
-                    }
-
                     if (word.speech != null && (word.oratorId ?: 0L) != 0L) {
                         OutlinedButton(
                             onClick = { onReadFullSpeech(word.oratorId!!, word.speech) },

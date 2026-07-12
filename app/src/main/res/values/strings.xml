@@ -82,7 +82,6 @@
 
     <!-- Word detail -->
     <string name="word_speak">Pronounce word</string>
-    <string name="word_related_quote_title">From this orator</string>
     <string name="word_read_full_speech">Read the full speech</string>
 
     <!-- Quiz -->
