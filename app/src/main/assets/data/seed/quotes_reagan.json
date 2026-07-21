@@ -1,0 +1,74 @@
+[
+  {
+    "id": 40001,
+    "oratorId": 40,
+    "text": "Mr. Gorbachev, tear down this wall!",
+    "source": "Berlin Wall Address",
+    "speech": "Remarks at the Brandenburg Gate",
+    "year": 1987,
+    "context": "Challenging the Soviet leader to open East Berlin."
+  },
+  {
+    "id": 40002,
+    "oratorId": 40,
+    "text": "Freedom is never more than one generation away from extinction. We didn't pass it to our children in the bloodstream. It must be fought for, protected, and handed on.",
+    "source": "Various addresses",
+    "speech": "On freedom's inheritance",
+    "year": 1961,
+    "context": "Warning that liberty requires active stewardship."
+  },
+  {
+    "id": 40003,
+    "oratorId": 40,
+    "text": "I've spoken of the shining city all my political life.",
+    "source": "Farewell Address",
+    "speech": "Farewell Address to the Nation",
+    "year": 1989,
+    "context": "Recalling his metaphor for America's promise."
+  },
+  {
+    "id": 40004,
+    "oratorId": 40,
+    "text": "Government is not the solution to our problem; government is the problem.",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "year": 1981,
+    "context": "Framing limited government as a governing philosophy."
+  },
+  {
+    "id": 40005,
+    "oratorId": 40,
+    "text": "There is no limit to the amount of good you can do if you don't care who gets the credit.",
+    "source": "Attributed maxim used in speeches",
+    "speech": "On service without vanity",
+    "year": 1981,
+    "context": "Praising selfless public work."
+  },
+  {
+    "id": 40006,
+    "oratorId": 40,
+    "text": "We will always remember. We will always be proud. We will always be prepared, so we may always be free.",
+    "source": "D-Day commemorations",
+    "speech": "Pointe du Hoc / D-Day remembrances",
+    "year": 1984,
+    "context": "Honoring Allied sacrifice and readiness."
+  },
+  {
+    "id": 40007,
+    "oratorId": 40,
+    "text": "The future doesn't belong to the fainthearted; it belongs to the brave.",
+    "source": "Challenger disaster address",
+    "speech": "Address to the Nation on the Challenger",
+    "year": 1986,
+    "context": "Comforting a grieving nation after the shuttle tragedy."
+  },
+  {
+    "id": 40008,
+    "oratorId": 40,
+    "text": "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+    "source": "Diplomatic remarks",
+    "speech": "On peace",
+    "year": 1982,
+    "context": "Defining peace as skilled conflict resolution."
+  }
+]

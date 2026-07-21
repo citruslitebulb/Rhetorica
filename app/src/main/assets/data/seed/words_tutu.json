@@ -1,0 +1,252 @@
+[
+  {
+    "id": 49001,
+    "oratorId": 49,
+    "word": "neutral",
+    "definition": "Not supporting either side in a conflict; impartial in appearance.",
+    "example": "If you are neutral in situations of injustice, you have chosen the side of the oppressor.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Sermons and public addresses",
+    "speech": "On neutrality",
+    "categories": [
+      "courage",
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 49002,
+    "oratorId": 49,
+    "word": "injustice",
+    "definition": "Lack of fairness or justice.",
+    "example": "If you are neutral in situations of injustice, you have chosen the side of the oppressor.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Sermons and public addresses",
+    "speech": "On neutrality",
+    "categories": [
+      "courage",
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 49003,
+    "oratorId": 49,
+    "word": "oppressor",
+    "definition": "A person or group that keeps others in subjection by unjust force.",
+    "example": "If you are neutral in situations of injustice, you have chosen the side of the oppressor.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Sermons and public addresses",
+    "speech": "On neutrality",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 49004,
+    "oratorId": 49,
+    "word": "ubuntu",
+    "definition": "A Southern African ethic: I am because we are; personhood through others.",
+    "example": "Ubuntu says: my humanity is bound up in yours. A person is a person through other persons.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Talks on African humanism",
+    "speech": "On ubuntu",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 49005,
+    "oratorId": 49,
+    "word": "humanity",
+    "definition": "Human beings collectively; the quality of being humane.",
+    "example": "My humanity is bound up in yours, for we can only be human together.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Talks on African humanism",
+    "speech": "On ubuntu",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 49006,
+    "oratorId": 49,
+    "word": "reconcile",
+    "definition": "Restore friendly relations; bring into agreement after conflict.",
+    "example": "Without forgiveness, there can be no future for a relationship between individuals or nations—we must reconcile without amnesia.",
+    "partOfSpeech": "verb",
+    "complexity": "advanced",
+    "source": "Truth and Reconciliation themes",
+    "speech": "On forgiveness",
+    "categories": [
+      "humanities",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 49007,
+    "oratorId": 49,
+    "word": "forgiveness",
+    "definition": "The action of pardoning a wrong without erasing its truth.",
+    "example": "Without forgiveness, there can be no future for a relationship between individuals or nations.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Truth and Reconciliation themes",
+    "speech": "On forgiveness",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 49008,
+    "oratorId": 49,
+    "word": "hope",
+    "definition": "A feeling of expectation and desire for a better outcome.",
+    "example": "Hope is being able to see that there is light despite all of the darkness.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Sermons",
+    "speech": "On hope",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 49009,
+    "oratorId": 49,
+    "word": "light",
+    "definition": "Illumination; metaphorically, moral clarity in darkness.",
+    "example": "Hope is being able to see that there is light despite all of the darkness.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Sermons",
+    "speech": "On hope",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 49010,
+    "oratorId": 49,
+    "word": "darkness",
+    "definition": "The absence of light; a condition of despair or evil.",
+    "example": "Hope is being able to see that there is light despite all of the darkness.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Sermons",
+    "speech": "On hope",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 49011,
+    "oratorId": 49,
+    "word": "rainbow",
+    "definition": "An arc of spectrum colors; his image for a multiracial nation.",
+    "example": "We are the rainbow people of God—different colors, one sky.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Post-apartheid addresses",
+    "speech": "Rainbow nation",
+    "categories": [
+      "democracy",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 49012,
+    "oratorId": 49,
+    "word": "truth",
+    "definition": "Honesty about what happened; the commission's first word.",
+    "example": "Without truth, reconciliation is cheap; without reconciliation, truth becomes only a weapon.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Truth and Reconciliation Commission",
+    "speech": "On truth and reconciliation",
+    "categories": [
+      "humanities",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 49013,
+    "oratorId": 49,
+    "word": "peace",
+    "definition": "Freedom from disturbance; right relationship after conflict.",
+    "example": "If you want peace, you don't talk to your friends. You talk to your enemies.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Public diplomacy remarks",
+    "speech": "On peace",
+    "categories": [
+      "leadership",
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 49014,
+    "oratorId": 49,
+    "word": "enemy",
+    "definition": "A person who is actively opposed or hostile.",
+    "example": "If you want peace, you don't talk to your friends. You talk to your enemy.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Public diplomacy remarks",
+    "speech": "On peace",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 49015,
+    "oratorId": 49,
+    "word": "doormat",
+    "definition": "A mat for wiping shoes; a person who submits to mistreatment.",
+    "example": "Forgiving is not forgetting; it's actually remembering—remembering and not using your right to hit back. It's a second chance for a new beginning. And the remembering part is particularly important. Especially if you don't want to repeat what happened. Forgiveness does not mean saying that what happened was acceptable. Forgiveness does not mean that you become a doormat.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On forgiveness",
+    "speech": "On forgiveness",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 49016,
+    "oratorId": 49,
+    "word": "together",
+    "definition": "With or in proximity to another; jointly.",
+    "example": "My humanity is bound up in yours, for we can only be human together.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Talks on African humanism",
+    "speech": "On ubuntu",
+    "categories": [
+      "inspirational",
+      "humanities",
+      "democracy"
+    ]
+  }
+]

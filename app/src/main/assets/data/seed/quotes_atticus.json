@@ -1,0 +1,74 @@
+[
+  {
+    "id": 51001,
+    "oratorId": 51,
+    "text": "You never really understand a person until you consider things from his point of view—until you climb into his skin and walk around in it.",
+    "source": "To Kill a Mockingbird",
+    "speech": "Lesson to Scout",
+    "year": 1960,
+    "context": "Empathy as disciplined imagination."
+  },
+  {
+    "id": 51002,
+    "oratorId": 51,
+    "text": "I wanted you to see what real courage is, instead of getting the idea that courage is a man with a gun in his hand.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On Mrs. Dubose",
+    "year": 1960,
+    "context": "Courage as endurance for a lost cause."
+  },
+  {
+    "id": 51003,
+    "oratorId": 51,
+    "text": "The one thing that doesn't abide by majority rule is a person's conscience.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On conscience",
+    "year": 1960,
+    "context": "Moral independence from the crowd."
+  },
+  {
+    "id": 51004,
+    "oratorId": 51,
+    "text": "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On mockingbirds",
+    "year": 1960,
+    "context": "Protecting the harmless."
+  },
+  {
+    "id": 51005,
+    "oratorId": 51,
+    "text": "But there is one way in this country in which all men are created equal—that institution, gentlemen, is a court.",
+    "source": "To Kill a Mockingbird",
+    "speech": "Courtroom speech",
+    "year": 1960,
+    "context": "Law as formal equality."
+  },
+  {
+    "id": 51006,
+    "oratorId": 51,
+    "text": "Before I can live with other folks I've got to live with myself.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On integrity",
+    "year": 1960,
+    "context": "Self-respect as the first jury."
+  },
+  {
+    "id": 51007,
+    "oratorId": 51,
+    "text": "The one place where a man ought to get a square deal is in a courtroom, be he any color of the rainbow, but people have a way of carrying their resentments right into a jury box.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On juries",
+    "year": 1960,
+    "context": "Naming prejudice inside procedure."
+  },
+  {
+    "id": 51008,
+    "oratorId": 51,
+    "text": "It's when you know you're licked before you begin but you begin anyway and you see it through no matter what.",
+    "source": "To Kill a Mockingbird",
+    "speech": "On real courage",
+    "year": 1960,
+    "context": "Defining courage as finished work."
+  }
+]

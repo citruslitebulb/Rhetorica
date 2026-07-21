@@ -1,0 +1,74 @@
+[
+  {
+    "id": 50001,
+    "oratorId": 50,
+    "text": "From where the sun now stands I will fight no more forever.",
+    "source": "Surrender at Bear Paw Mountains",
+    "speech": "Surrender speech",
+    "year": 1877,
+    "context": "Ending the Nez Perce fighting retreat."
+  },
+  {
+    "id": 50002,
+    "oratorId": 50,
+    "text": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "source": "Surrender at Bear Paw Mountains",
+    "speech": "Surrender speech",
+    "year": 1877,
+    "context": "Addressing remaining leaders in defeat."
+  },
+  {
+    "id": 50003,
+    "oratorId": 50,
+    "text": "It is cold, and we have no blankets; the little children are freezing to death.",
+    "source": "Surrender at Bear Paw Mountains",
+    "speech": "Surrender speech",
+    "year": 1877,
+    "context": "Naming the human cost of pursuit."
+  },
+  {
+    "id": 50004,
+    "oratorId": 50,
+    "text": "I want to have time to look for my children, and see how many of them I can find. Maybe I shall find them among the dead.",
+    "source": "Surrender at Bear Paw Mountains",
+    "speech": "Surrender speech",
+    "year": 1877,
+    "context": "A father's inventory of loss."
+  },
+  {
+    "id": 50005,
+    "oratorId": 50,
+    "text": "Treat all men alike. Give them all the same law. Give them all an even chance to live and grow.",
+    "source": "Lincoln Hall address",
+    "speech": "On equal law",
+    "year": 1879,
+    "context": "Demanding equal law after removal."
+  },
+  {
+    "id": 50006,
+    "oratorId": 50,
+    "text": "Good words do not last long unless they amount to something.",
+    "source": "Lincoln Hall address",
+    "speech": "On broken promises",
+    "year": 1879,
+    "context": "Judging rhetoric by results."
+  },
+  {
+    "id": 50007,
+    "oratorId": 50,
+    "text": "I believe much trouble and blood would be saved if we opened our hearts more.",
+    "source": "Public addresses",
+    "speech": "On open hearts",
+    "year": 1879,
+    "context": "Empathy as practical policy."
+  },
+  {
+    "id": 50008,
+    "oratorId": 50,
+    "text": "We only ask an even chance to live as other men live.",
+    "source": "Lincoln Hall address",
+    "speech": "On equal chance",
+    "year": 1879,
+    "context": "A minimal demand for fairness."
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "id": 42001,
+    "oratorId": 42,
+    "word": "liberty",
+    "definition": "Freedom from oppressive restriction on one's way of life or political views.",
+    "example": "I know not what course others may take; but as for me, give me liberty, or give me death!",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 42002,
+    "oratorId": 42,
+    "word": "death",
+    "definition": "The end of life; here, the alternative to living without freedom.",
+    "example": "I know not what course others may take; but as for me, give me liberty, or give me death!",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 42003,
+    "oratorId": 42,
+    "word": "chain",
+    "definition": "A restraint that binds; metaphorically, political bondage.",
+    "example": "Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery?",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 42004,
+    "oratorId": 42,
+    "word": "slavery",
+    "definition": "The condition of being owned and controlled; here, political subjugation.",
+    "example": "Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery?",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "democracy",
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 42005,
+    "oratorId": 42,
+    "word": "illusion",
+    "definition": "A false idea or belief; a comforting untruth.",
+    "example": "Mr. President, it is natural to man to indulge in the illusions of hope. We are apt to shut our eyes against a painful truth.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 42006,
+    "oratorId": 42,
+    "word": "hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen.",
+    "example": "It is natural to man to indulge in the illusions of hope. We are apt to shut our eyes against a painful truth.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 42007,
+    "oratorId": 42,
+    "word": "solace",
+    "definition": "Comfort or consolation in a time of distress.",
+    "example": "I have but one lamp by which my feet are guided, and that is the lamp of experience. I know of no way of judging of the future but by the past—and false hope is no solace when the fleets and armies are already here.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 42008,
+    "oratorId": 42,
+    "word": "experience",
+    "definition": "Practical contact with facts or events that yields knowledge.",
+    "example": "I have but one lamp by which my feet are guided, and that is the lamp of experience.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 42009,
+    "oratorId": 42,
+    "word": "lamp",
+    "definition": "A device that gives light; metaphorically, a guide for judgment.",
+    "example": "I have but one lamp by which my feet are guided, and that is the lamp of experience.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 42010,
+    "oratorId": 42,
+    "word": "war",
+    "definition": "Armed conflict between nations or parties.",
+    "example": "The war is actually begun! The next gale that sweeps from the north will bring to our ears the clash of resounding arms!",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 42011,
+    "oratorId": 42,
+    "word": "gale",
+    "definition": "A very strong wind; a sudden forceful event.",
+    "example": "The next gale that sweeps from the north will bring to our ears the clash of resounding arms!",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "arts",
+      "courage"
+    ]
+  },
+  {
+    "id": 42012,
+    "oratorId": 42,
+    "word": "supplicate",
+    "definition": "To ask or beg for something earnestly or humbly.",
+    "example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne.",
+    "partOfSpeech": "verb",
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 42013,
+    "oratorId": 42,
+    "word": "petition",
+    "definition": "A formal written request appealing to authority.",
+    "example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 42014,
+    "oratorId": 42,
+    "word": "vigilant",
+    "definition": "Keeping careful watch for possible danger or difficulties.",
+    "example": "Gentlemen may cry, Peace, Peace—but there is no peace. The war is actually begun, and the vigilant freeman must hear the arms already raised.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 42015,
+    "oratorId": 42,
+    "word": "course",
+    "definition": "A path of action chosen among alternatives.",
+    "example": "I know not what course others may take; but as for me, give me liberty, or give me death!",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 42016,
+    "oratorId": 42,
+    "word": "peace",
+    "definition": "Freedom from disturbance; quiet without conflict.",
+    "example": "Gentlemen may cry, Peace, Peace—but there is no peace. The war is actually begun!",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church)",
+    "categories": [
+      "courage",
+      "democracy",
+      "legacy"
+    ]
+  }
+]

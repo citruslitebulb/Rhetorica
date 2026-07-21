@@ -52,6 +52,22 @@ object OratorPortraits {
         36L to "norman_dale",
         37L to "james_j_braddock",
         38L to "tommy_conlon",
+        39L to "theodore_roosevelt",
+        40L to "ronald_reagan",
+        41L to "eleanor_roosevelt",
+        42L to "patrick_henry",
+        43L to "ruth_bader_ginsburg",
+                44L to "john_lewis",
+        45L to "sojourner_truth",
+        46L to "susan_b_anthony",
+        47L to "benjamin_franklin",
+        48L to "malcolm_x",
+        49L to "desmond_tutu",
+        50L to "chief_joseph",
+        51L to "atticus_finch",
+        52L to "albus_dumbledore",
+        53L to "oprah_winfrey",
+        54L to "elizabeth_i",
     )
 
     fun slugFor(oratorId: Long?): String? =

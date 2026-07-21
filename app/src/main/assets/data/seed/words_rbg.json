@@ -1,0 +1,251 @@
+[
+  {
+    "id": 43001,
+    "oratorId": 43,
+    "word": "dissent",
+    "definition": "A judicial opinion disagreeing with the majority; public disagreement in principle.",
+    "example": "Dissents speak to a future age. It's not simply to say, 'My colleagues are wrong and I would do it this way,' but the greatest dissents do become court opinions.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Interviews on the role of dissent",
+    "speech": "On dissent",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43002,
+    "oratorId": 43,
+    "word": "equality",
+    "definition": "The state of being equal, especially in status, rights, and opportunities.",
+    "example": "Women will only have true equality when men share with them the responsibility of bringing up the next generation.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speeches on gender and law",
+    "speech": "On equality and family",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43003,
+    "oratorId": 43,
+    "word": "citizen",
+    "definition": "A person with full membership and standing under a constitution.",
+    "example": "The pedestal upon which women have been placed has all too often, upon closer inspection, been a cage—and full citizenship means stepping off both.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Equal-protection advocacy",
+    "speech": "On full citizenship",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 43004,
+    "oratorId": 43,
+    "word": "pedestal",
+    "definition": "A base supporting a statue; metaphorically, false elevation that restricts.",
+    "example": "The pedestal upon which women have been placed has all too often, upon closer inspection, been a cage.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Equal-protection advocacy",
+    "speech": "On full citizenship",
+    "categories": [
+      "humanities",
+      "democracy",
+      "arts"
+    ]
+  },
+  {
+    "id": 43005,
+    "oratorId": 43,
+    "word": "cage",
+    "definition": "An enclosure that confines; a structure that looks protective but traps.",
+    "example": "The pedestal upon which women have been placed has all too often, upon closer inspection, been a cage.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Equal-protection advocacy",
+    "speech": "On full citizenship",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 43006,
+    "oratorId": 43,
+    "word": "favor",
+    "definition": "Preferential treatment; an unearned advantage.",
+    "example": "I ask no favor for my sex. All I ask of our brethren is that they take their feet off our necks.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Quoting Sarah Grimké in advocacy and later remarks",
+    "speech": "On equal justice",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43007,
+    "oratorId": 43,
+    "word": "brethren",
+    "definition": "Fellow members of a group; here, men as co-citizens.",
+    "example": "I ask no favor for my sex. All I ask of our brethren is that they take their feet off our necks.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Quoting Sarah Grimké in advocacy and later remarks",
+    "speech": "On equal justice",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 43008,
+    "oratorId": 43,
+    "word": "justice",
+    "definition": "The quality of being fair and reasonable under law.",
+    "example": "Fight for the things that you care about, but do it in a way that will lead others to join you—that is how justice gains allies.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Advice to young people",
+    "speech": "On fighting for justice",
+    "categories": [
+      "democracy",
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 43009,
+    "oratorId": 43,
+    "word": "ally",
+    "definition": "A person or group that cooperates with another for a common purpose.",
+    "example": "Fight for the things that you care about, but do it in a way that will lead others to join you as an ally.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Advice to young people",
+    "speech": "On fighting for justice",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 43010,
+    "oratorId": 43,
+    "word": "constitution",
+    "definition": "The fundamental principles and laws of a nation.",
+    "example": "The Constitution is a living document to the extent that we read its grand principles in light of new understandings—without discarding its text.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Judicial philosophy remarks",
+    "speech": "On the Constitution",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43011,
+    "oratorId": 43,
+    "word": "opinion",
+    "definition": "A formal statement of reasons for a judicial decision.",
+    "example": "The greatest dissents do become court opinions and gradually over time their views become the dominant view.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On dissent",
+    "speech": "On dissent",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43012,
+    "oratorId": 43,
+    "word": "patience",
+    "definition": "The capacity to accept delay without anger while still pressing forward.",
+    "example": "Real change, enduring change, happens one step at a time—and patience is not the enemy of urgency.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Reflections on reform",
+    "speech": "On enduring change",
+    "categories": [
+      "leadership",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 43013,
+    "oratorId": 43,
+    "word": "enduring",
+    "definition": "Lasting over a long period; able to withstand strain.",
+    "example": "Real change, enduring change, happens one step at a time.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Reflections on reform",
+    "speech": "On enduring change",
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 43014,
+    "oratorId": 43,
+    "word": "collegial",
+    "definition": "Relating to shared responsibility among colleagues; cooperative in tone.",
+    "example": "You can disagree without being disagreeable—a collegial court still argues hard about the law.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "On judicial culture",
+    "speech": "On disagreement",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 43015,
+    "oratorId": 43,
+    "word": "sex",
+    "definition": "Biological category of male or female; a basis of unjust legal classification.",
+    "example": "I ask no favor for my sex. All I ask of our brethren is that they take their feet off our necks.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Quoting Sarah Grimké",
+    "speech": "On equal justice",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 43016,
+    "oratorId": 43,
+    "word": "step",
+    "definition": "A single movement in a process of progress.",
+    "example": "Real change, enduring change, happens one step at a time.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Reflections on reform",
+    "speech": "On enduring change",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": 46001,
+    "oratorId": 46,
+    "word": "failure",
+    "definition": "Lack of success; the opposite of the movement's destiny as she named it.",
+    "example": "Failure is impossible.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Last public words / convention charge",
+    "speech": "On the suffrage cause",
+    "categories": [
+      "inspirational",
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 46002,
+    "oratorId": 46,
+    "word": "impossible",
+    "definition": "Not able to occur or be done—except when she denied the word power.",
+    "example": "Failure is impossible.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Last public words / convention charge",
+    "speech": "On the suffrage cause",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 46003,
+    "oratorId": 46,
+    "word": "ballot",
+    "definition": "A system or act of voting; the paper or ticket used to cast a vote.",
+    "example": "It was we, the people; not we, the white male citizens; nor yet we, the male citizens; but we, the whole people, who formed the Union—and the ballot belongs to that whole.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 46004,
+    "oratorId": 46,
+    "word": "citizen",
+    "definition": "A legally recognized member of a state with rights and duties.",
+    "example": "It was we, the people; not we, the white male citizens; nor yet we, the male citizens; but we, the whole people, who formed the Union.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 46005,
+    "oratorId": 46,
+    "word": "union",
+    "definition": "The United States as a political whole; a joining into one body.",
+    "example": "It was we, the people; not we, the white male citizens; nor yet we, the male citizens; but we, the whole people, who formed the Union.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 46006,
+    "oratorId": 46,
+    "word": "oligarchy",
+    "definition": "Government by a small privileged group.",
+    "example": "To them this government is not a democracy; it is not a republic; it is an odious aristocracy; a hateful oligarchy of sex.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 46007,
+    "oratorId": 46,
+    "word": "aristocracy",
+    "definition": "Rule by a hereditary or elite class.",
+    "example": "To them this government is not a democracy; it is not a republic; it is an odious aristocracy; a hateful oligarchy of sex.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 46008,
+    "oratorId": 46,
+    "word": "odious",
+    "definition": "Extremely unpleasant; deserving hatred.",
+    "example": "To them this government is not a democracy; it is not a republic; it is an odious aristocracy; a hateful oligarchy of sex.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 46009,
+    "oratorId": 46,
+    "word": "suffrage",
+    "definition": "The right to vote in political elections.",
+    "example": "Suffrage is the pivotal right.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Campaign addresses",
+    "speech": "On suffrage",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 46010,
+    "oratorId": 46,
+    "word": "pivotal",
+    "definition": "Of crucial importance in relation to the development or success of something.",
+    "example": "Suffrage is the pivotal right.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "Campaign addresses",
+    "speech": "On suffrage",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 46011,
+    "oratorId": 46,
+    "word": "independence",
+    "definition": "Freedom from control by others; self-government.",
+    "example": "Cautious, careful people, always casting about to preserve their reputation and social standing, never can bring about a reform—independence of mind is required.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Letters and speeches on reform",
+    "speech": "On reformers",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 46012,
+    "oratorId": 46,
+    "word": "reform",
+    "definition": "Make changes in order to improve a system or institution.",
+    "example": "Cautious, careful people, always casting about to preserve their reputation and social standing, never can bring about a reform.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Letters and speeches on reform",
+    "speech": "On reformers",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 46013,
+    "oratorId": 46,
+    "word": "organize",
+    "definition": "Coordinate people into an effective body for action.",
+    "example": "The true woman will not be exponent of another, or allow another to be such for her—she will organize her own power.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Organizational addresses",
+    "speech": "On women's power",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 46014,
+    "oratorId": 46,
+    "word": "arrest",
+    "definition": "Seize by legal authority and take into custody.",
+    "example": "I was arrested for voting, and I am as guilty of the crime of demanding my rights as any freeman who ever cast a ballot.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "courage",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 46015,
+    "oratorId": 46,
+    "word": "guilty",
+    "definition": "Responsible for a specified wrong—or proudly so in civil disobedience.",
+    "example": "I shall earnestly and persistently continue to urge all women to the practical recognition of the old revolutionary maxim that Resistance to tyranny is obedience to God—and if that makes me guilty, so be it.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 46016,
+    "oratorId": 46,
+    "word": "tyranny",
+    "definition": "Cruel and oppressive government or rule.",
+    "example": "Resistance to tyranny is obedience to God.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "After her 1872 arrest",
+    "categories": [
+      "courage",
+      "democracy",
+      "legacy"
+    ]
+  }
+]

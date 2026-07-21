@@ -1,0 +1,74 @@
+[
+  {
+    "id": 48001,
+    "oratorId": 48,
+    "text": "By any means necessary.",
+    "source": "OAAU founding rally themes",
+    "speech": "By Any Means Necessary",
+    "year": 1964,
+    "context": "Claiming the right to full personhood without permission."
+  },
+  {
+    "id": 48002,
+    "oratorId": 48,
+    "text": "The ballot or the bullet.",
+    "source": "Cleveland address",
+    "speech": "The Ballot or the Bullet",
+    "year": 1964,
+    "context": "Framing political urgency for Black voters."
+  },
+  {
+    "id": 48003,
+    "oratorId": 48,
+    "text": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "source": "Speeches on youth",
+    "speech": "On education",
+    "year": 1964,
+    "context": "Self-improvement as strategy."
+  },
+  {
+    "id": 48004,
+    "oratorId": 48,
+    "text": "I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against.",
+    "source": "Autobiography / public remarks",
+    "speech": "On truth",
+    "year": 1965,
+    "context": "Principle over faction."
+  },
+  {
+    "id": 48005,
+    "oratorId": 48,
+    "text": "Usually when people are sad, they don't do anything. They just cry over their condition. But when they get angry, they bring about a change.",
+    "source": "Speeches",
+    "speech": "On anger and change",
+    "year": 1963,
+    "context": "Anger as fuel for organization."
+  },
+  {
+    "id": 48006,
+    "oratorId": 48,
+    "text": "A man who stands for nothing will fall for anything.",
+    "source": "Popular attribution from his teaching",
+    "speech": "On principle",
+    "year": 1964,
+    "context": "Warning against unrooted minds."
+  },
+  {
+    "id": 48007,
+    "oratorId": 48,
+    "text": "You're not to be so blind with patriotism that you can't face reality. Wrong is wrong, no matter who does it or says it.",
+    "source": "Public remarks",
+    "speech": "On patriotism",
+    "year": 1964,
+    "context": "Moral clarity over national myth."
+  },
+  {
+    "id": 48008,
+    "oratorId": 48,
+    "text": "I believe in the brotherhood of man, all men, but I don't believe in brotherhood with anybody who doesn't want brotherhood with me.",
+    "source": "Post-Mecca clarity",
+    "speech": "On brotherhood",
+    "year": 1964,
+    "context": "Reciprocal humanism."
+  }
+]

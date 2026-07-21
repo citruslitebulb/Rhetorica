@@ -1,0 +1,74 @@
+[
+  {
+    "id": 42001,
+    "oratorId": 42,
+    "text": "I know not what course others may take; but as for me, give me liberty, or give me death!",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention (St. John's Church, Richmond)",
+    "year": 1775,
+    "context": "Closing appeal for armed resistance to British rule."
+  },
+  {
+    "id": 42002,
+    "oratorId": 42,
+    "text": "Is life so dear, or peace so sweet, as to be purchased at the price of chains and slavery? Forbid it, Almighty God!",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Rejecting security bought by submission."
+  },
+  {
+    "id": 42003,
+    "oratorId": 42,
+    "text": "I have but one lamp by which my feet are guided, and that is the lamp of experience.",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Judging the future by Britain's past conduct."
+  },
+  {
+    "id": 42004,
+    "oratorId": 42,
+    "text": "Gentlemen may cry, Peace, Peace—but there is no peace. The war is actually begun!",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Declaring that conflict had already started in fact."
+  },
+  {
+    "id": 42005,
+    "oratorId": 42,
+    "text": "The battle, sir, is not to the strong alone; it is to the vigilant, the active, the brave.",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Encouraging a smaller force through moral readiness."
+  },
+  {
+    "id": 42006,
+    "oratorId": 42,
+    "text": "We are apt to shut our eyes against a painful truth, and listen to the song of that siren till she transforms us into beasts.",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Warning against comforting self-deception."
+  },
+  {
+    "id": 42007,
+    "oratorId": 42,
+    "text": "Three millions of people, armed in the holy cause of liberty, and in such a country as that which we possess, are invincible by any force which our enemy can send against us.",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Claiming popular resolve as a military advantage."
+  },
+  {
+    "id": 42008,
+    "oratorId": 42,
+    "text": "It is natural to man to indulge in the illusions of hope.",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Second Virginia Convention",
+    "year": 1775,
+    "context": "Opening the case against false optimism."
+  }
+]

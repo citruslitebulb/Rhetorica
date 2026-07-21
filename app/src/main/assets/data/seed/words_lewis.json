@@ -1,0 +1,257 @@
+[
+  {
+    "id": 44001,
+    "oratorId": 44,
+    "word": "trouble",
+    "definition": "Difficulty or public disturbance; here, righteous disruption for justice.",
+    "example": "Never, ever be afraid to make some noise and get in good trouble, necessary trouble.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Commencement and rally addresses",
+    "speech": "Good Trouble",
+    "categories": [
+      "courage",
+      "democracy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 44002,
+    "oratorId": 44,
+    "word": "necessary",
+    "definition": "Required to be done; essential to a just outcome.",
+    "example": "Never, ever be afraid to make some noise and get in good trouble, necessary trouble.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Commencement and rally addresses",
+    "speech": "Good Trouble",
+    "categories": [
+      "courage",
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 44003,
+    "oratorId": 44,
+    "word": "bridge",
+    "definition": "A structure spanning a gap; metaphorically, a crossing into risk for justice.",
+    "example": "We are going to march. We are going to walk. We are going across that bridge—and the nation will see what happens when peaceful people meet the club.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Selma / Bloody Sunday remembrances",
+    "speech": "On the Edmund Pettus Bridge",
+    "categories": [
+      "courage",
+      "legacy",
+      "democracy"
+    ]
+  },
+  {
+    "id": 44004,
+    "oratorId": 44,
+    "word": "march",
+    "definition": "To walk together in a public demonstration for a cause.",
+    "example": "We are going to march. We are going to walk. We are going across that bridge.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Selma campaign",
+    "speech": "On the Edmund Pettus Bridge",
+    "categories": [
+      "courage",
+      "democracy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 44005,
+    "oratorId": 44,
+    "word": "nonviolence",
+    "definition": "The use of peaceful means, not force, to bring about political change.",
+    "example": "Nonviolence is not a tactic for the soft; it is a disciplined force that can redeem the soul of America.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Civil rights training and speeches",
+    "speech": "On nonviolence",
+    "categories": [
+      "courage",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 44006,
+    "oratorId": 44,
+    "word": "redeem",
+    "definition": "To compensate for faults or to restore moral worth.",
+    "example": "Nonviolence is not a tactic for the soft; it is a disciplined force that can redeem the soul of America.",
+    "partOfSpeech": "verb",
+    "complexity": "advanced",
+    "source": "Civil rights speeches",
+    "speech": "On nonviolence",
+    "categories": [
+      "inspirational",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 44007,
+    "oratorId": 44,
+    "word": "vote",
+    "definition": "A formal indication of choice in an election or decision.",
+    "example": "The vote is precious. It is almost sacred. It is the most powerful nonviolent tool we have in a democratic society.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Voting rights addresses",
+    "speech": "On the precious vote",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 44008,
+    "oratorId": 44,
+    "word": "sacred",
+    "definition": "Connected with reverence; set apart as worthy of deep respect.",
+    "example": "The vote is precious. It is almost sacred. It is the most powerful nonviolent tool we have in a democratic society.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Voting rights addresses",
+    "speech": "On the precious vote",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 44009,
+    "oratorId": 44,
+    "word": "beloved",
+    "definition": "Dearly loved; forming a community bound by care.",
+    "example": "We must build a beloved community—not a utopia without conflict, but a place where justice is ordinary.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Civil rights philosophy",
+    "speech": "Beloved community",
+    "categories": [
+      "inspirational",
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 44010,
+    "oratorId": 44,
+    "word": "community",
+    "definition": "A group of people living in the same place or sharing a common purpose.",
+    "example": "We must build a beloved community—not a utopia without conflict, but a place where justice is ordinary.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Civil rights philosophy",
+    "speech": "Beloved community",
+    "categories": [
+      "democracy",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 44011,
+    "oratorId": 44,
+    "word": "justice",
+    "definition": "Just behavior or treatment; fairness as a public good.",
+    "example": "We must build a beloved community—not a utopia without conflict, but a place where justice is ordinary.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Civil rights philosophy",
+    "speech": "Beloved community",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 44012,
+    "oratorId": 44,
+    "word": "noise",
+    "definition": "Loud sound; public outcry that refuses silence.",
+    "example": "Never, ever be afraid to make some noise and get in good trouble, necessary trouble.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Commencement addresses",
+    "speech": "Good Trouble",
+    "categories": [
+      "courage",
+      "inspirational",
+      "democracy"
+    ]
+  },
+  {
+    "id": 44013,
+    "oratorId": 44,
+    "word": "ordinary",
+    "definition": "With no special rank; common people as agents of history.",
+    "example": "Ordinary people with extraordinary vision can redeem the soul of America when they refuse to get used to injustice.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Final essay and public messages",
+    "speech": "On ordinary people",
+    "categories": [
+      "inspirational",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 44014,
+    "oratorId": 44,
+    "word": "vision",
+    "definition": "The ability to think about or plan the future with imagination.",
+    "example": "Ordinary people with extraordinary vision can redeem the soul of America.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Final essay and public messages",
+    "speech": "On ordinary people",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 44015,
+    "oratorId": 44,
+    "word": "silence",
+    "definition": "Absence of sound or protest; quiet that can enable injustice.",
+    "example": "When you see something that is not right, not fair, not just, you have a moral obligation to say something, to do something—silence is not neutral.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Moral obligation speeches",
+    "speech": "On moral obligation",
+    "categories": [
+      "courage",
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 44016,
+    "oratorId": 44,
+    "word": "obligation",
+    "definition": "A duty arising from moral principle or law.",
+    "example": "When you see something that is not right, not fair, not just, you have a moral obligation to say something, to do something.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Moral obligation speeches",
+    "speech": "On moral obligation",
+    "categories": [
+      "courage",
+      "leadership",
+      "democracy"
+    ]
+  }
+]

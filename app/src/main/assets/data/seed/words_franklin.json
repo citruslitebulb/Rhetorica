@@ -1,0 +1,246 @@
+[
+  {
+    "id": 47001,
+    "oratorId": 47,
+    "word": "liberty",
+    "definition": "Freedom from arbitrary control; a political and personal good.",
+    "example": "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Reply to the Governor / Pennsylvania Assembly",
+    "speech": "On liberty and safety",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 47002,
+    "oratorId": 47,
+    "word": "safety",
+    "definition": "The condition of being protected from danger.",
+    "example": "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Reply to the Governor / Pennsylvania Assembly",
+    "speech": "On liberty and safety",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47003,
+    "oratorId": 47,
+    "word": "essential",
+    "definition": "Absolutely necessary; forming the core of something.",
+    "example": "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Reply to the Governor / Pennsylvania Assembly",
+    "speech": "On liberty and safety",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 47004,
+    "oratorId": 47,
+    "word": "industry",
+    "definition": "Diligent work; productive activity.",
+    "example": "Early to bed and early to rise makes a man healthy, wealthy, and wise—and industry is the engine under that proverb.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47005,
+    "oratorId": 47,
+    "word": "frugality",
+    "definition": "The quality of being economical with money or resources.",
+    "example": "Beware of little expenses; a small leak will sink a great ship—and frugality plugs the leak.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47006,
+    "oratorId": 47,
+    "word": "diligence",
+    "definition": "Careful and persistent work or effort.",
+    "example": "Diligence is the mother of good luck.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47007,
+    "oratorId": 47,
+    "word": "compromise",
+    "definition": "A settlement of dispute by mutual concession.",
+    "example": "When a broad table is to be made, and the edges of planks do not fit, the artist takes a little from both—and compromise makes the joint.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Constitutional Convention remarks",
+    "speech": "On the Constitution",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47008,
+    "oratorId": 47,
+    "word": "constitution",
+    "definition": "The fundamental law of a political body.",
+    "example": "I agree to this Constitution with all its faults, if they are such; because I think a general government necessary for us.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Speech at the Constitutional Convention",
+    "speech": "Closing speech on the Constitution",
+    "categories": [
+      "democracy",
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47009,
+    "oratorId": 47,
+    "word": "fault",
+    "definition": "An imperfection or defect.",
+    "example": "I agree to this Constitution with all its faults, if they are such; because I think a general government necessary for us.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech at the Constitutional Convention",
+    "speech": "Closing speech on the Constitution",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 47010,
+    "oratorId": 47,
+    "word": "humility",
+    "definition": "A modest view of one's own importance.",
+    "example": "In this world nothing can be said to be certain, except death and taxes—a line that teaches humility about our plans.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Letter on the Constitution / later maxims",
+    "speech": "On certainty",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 47011,
+    "oratorId": 47,
+    "word": "virtue",
+    "definition": "Behavior showing high moral standards; excellence of character.",
+    "example": "Only a virtuous people are capable of freedom. As nations become corrupt and vicious, they have more need of masters—virtue is the republic's fuel.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Letters on government",
+    "speech": "On virtue and freedom",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 47012,
+    "oratorId": 47,
+    "word": "energy",
+    "definition": "Forceful exertion; capacity for action.",
+    "example": "Energy and persistence conquer all things.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Attributed maxims",
+    "speech": "On energy",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 47013,
+    "oratorId": 47,
+    "word": "persistence",
+    "definition": "Firm continuance in a course of action despite difficulty.",
+    "example": "Energy and persistence conquer all things.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Attributed maxims",
+    "speech": "On energy",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 47014,
+    "oratorId": 47,
+    "word": "lost",
+    "definition": "Unable to be found or recovered; wasted.",
+    "example": "Lost time is never found again.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 47015,
+    "oratorId": 47,
+    "word": "well",
+    "definition": "In a good or satisfactory way; thoroughly done.",
+    "example": "Well done is better than well said.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 47016,
+    "oratorId": 47,
+    "word": "hang",
+    "definition": "To be suspended; metaphorically, to stand or fall together.",
+    "example": "We must, indeed, all hang together, or most assuredly we shall all hang separately.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "At the signing of the Declaration (attributed)",
+    "speech": "On unity",
+    "categories": [
+      "courage",
+      "democracy",
+      "leadership"
+    ]
+  }
+]

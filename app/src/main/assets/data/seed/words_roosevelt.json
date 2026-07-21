@@ -1,0 +1,250 @@
+[
+  {
+    "id": 39001,
+    "oratorId": 39,
+    "word": "arena",
+    "definition": "The public field of contest and risk where real effort is tested.",
+    "example": "The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 39002,
+    "oratorId": 39,
+    "word": "critic",
+    "definition": "One who judges from the sidelines without bearing the cost of action.",
+    "example": "It is not the critic who counts; not the man who points out how the strong man stumbles.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 39003,
+    "oratorId": 39,
+    "word": "strive",
+    "definition": "To struggle earnestly toward a worthy goal despite failure.",
+    "example": "Who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 39004,
+    "oratorId": 39,
+    "word": "devotion",
+    "definition": "Loyal dedication of energy to a cause larger than comfort.",
+    "example": "Who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly—that devotion is what the arena measures.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 39005,
+    "oratorId": 39,
+    "word": "strenuous",
+    "definition": "Requiring great effort; marked by vigorous, demanding action.",
+    "example": "I wish to preach, not the doctrine of ignoble ease, but the doctrine of the strenuous life.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 39006,
+    "oratorId": 39,
+    "word": "ignoble",
+    "definition": "Not honorable in character or purpose; base or petty.",
+    "example": "I wish to preach, not the doctrine of ignoble ease, but the doctrine of the strenuous life.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 39007,
+    "oratorId": 39,
+    "word": "bully",
+    "definition": "As Roosevelt used it: excellent, first-rate—especially of a public platform for persuasion.",
+    "example": "I suppose my critics will call that preaching; I call it using the bully pulpit.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "White House remarks (popular attribution)",
+    "speech": "The bully pulpit",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 39008,
+    "oratorId": 39,
+    "word": "pulpit",
+    "definition": "A raised platform for speaking; metaphorically, a position of moral influence.",
+    "example": "I suppose my critics will call that preaching; I call it using the bully pulpit.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "White House remarks (popular attribution)",
+    "speech": "The bully pulpit",
+    "categories": [
+      "leadership",
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 39009,
+    "oratorId": 39,
+    "word": "square",
+    "definition": "Fair and honest dealing; a just bargain between parties.",
+    "example": "We demand that big business give the people a square deal.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Square Deal speeches",
+    "speech": "The Square Deal",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 39010,
+    "oratorId": 39,
+    "word": "conservation",
+    "definition": "Protection and wise use of natural resources for the long term.",
+    "example": "Conservation means development as much as it does protection; the earth and its resources are for the people.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Conservation addresses",
+    "speech": "Conservation as a National Duty",
+    "categories": [
+      "leadership",
+      "legacy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 39011,
+    "oratorId": 39,
+    "word": "citizenship",
+    "definition": "The duties and character of a free person in a republic.",
+    "example": "Citizenship in a republic means more than voting once; it means standing in the arena when the work is hard.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 39012,
+    "oratorId": 39,
+    "word": "daring",
+    "definition": "Willing to take bold risks; adventurous courage in action.",
+    "example": "If he fails, at least he fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 39013,
+    "oratorId": 39,
+    "word": "timid",
+    "definition": "Showing a lack of courage or confidence; easily frightened.",
+    "example": "His place shall never be with those cold and timid souls who neither know victory nor defeat.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 39014,
+    "oratorId": 39,
+    "word": "triumph",
+    "definition": "A great victory or achievement after struggle.",
+    "example": "Who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne)",
+    "categories": [
+      "inspirational",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 39015,
+    "oratorId": 39,
+    "word": "reform",
+    "definition": "To improve by removing abuses or correcting faults in institutions.",
+    "example": "Reform is not a pastime for the idle; it is the hard work of making institutions serve free people.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Progressive campaign addresses",
+    "speech": "Progressive reform addresses",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 39016,
+    "oratorId": 39,
+    "word": "character",
+    "definition": "Moral quality revealed by conduct under pressure.",
+    "example": "Character, in the long run, is the decisive factor in the life of an individual and of nations alike.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Various addresses",
+    "speech": "Citizenship and character",
+    "categories": [
+      "leadership",
+      "humanities",
+      "legacy"
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "id": 54001,
+    "oratorId": 54,
+    "word": "feeble",
+    "definition": "Lacking physical strength, especially as a result of age or illness.",
+    "example": "I know I have the body but of a weak and feeble woman; but I have the heart and stomach of a king.",
+    "partOfSpeech": "adjective",
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "arts",
+      "leadership"
+    ]
+  },
+  {
+    "id": 54002,
+    "oratorId": 54,
+    "word": "heart",
+    "definition": "The center of feeling, courage, and loyalty.",
+    "example": "I have the heart and stomach of a king, and of a king of England too.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54003,
+    "oratorId": 54,
+    "word": "stomach",
+    "definition": "Appetite for conflict; courage or guts in early modern English.",
+    "example": "I have the heart and stomach of a king, and of a king of England too.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "arts"
+    ]
+  },
+  {
+    "id": 54004,
+    "oratorId": 54,
+    "word": "king",
+    "definition": "A male sovereign; here, royal martial authority claimed by a queen.",
+    "example": "I have the heart and stomach of a king, and of a king of England too.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54005,
+    "oratorId": 54,
+    "word": "realm",
+    "definition": "A kingdom; a field of royal authority.",
+    "example": "I am come amongst you, as you see, at this time, not for my recreation and disport, but being resolved, in the midst and heat of the battle, to live and die amongst you all; to lay down for my God, and for my kingdom, and my people, my honour and my blood, even in the dust—this realm is my body politic.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "legacy",
+      "democracy"
+    ]
+  },
+  {
+    "id": 54006,
+    "oratorId": 54,
+    "word": "honour",
+    "definition": "High respect; personal and public reputation for courage.",
+    "example": "To lay down for my God, and for my kingdom, and my people, my honour and my blood, even in the dust.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54007,
+    "oratorId": 54,
+    "word": "blood",
+    "definition": "The fluid of life; lineage and sacrificial cost.",
+    "example": "To lay down for my God, and for my kingdom, and my people, my honour and my blood, even in the dust.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54008,
+    "oratorId": 54,
+    "word": "faith",
+    "definition": "Complete trust; religious fidelity.",
+    "example": "I know already, for your forwardness you have deserved rewards and crowns; and We do assure you on the word of a prince, they shall be duly paid you—keep faith with me as I keep faith with you.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 54009,
+    "oratorId": 54,
+    "word": "prince",
+    "definition": "A sovereign ruler (of either sex in Elizabethan usage).",
+    "example": "We do assure you on the word of a prince, they shall be duly paid you.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "arts"
+    ]
+  },
+  {
+    "id": 54010,
+    "oratorId": 54,
+    "word": "tyrant",
+    "definition": "A cruel and oppressive ruler.",
+    "example": "I do not desire to live to distrust my faithful and loving people—let tyrants fear.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 54011,
+    "oratorId": 54,
+    "word": "faithful",
+    "definition": "Loyal and steadfast.",
+    "example": "Let tyrants fear, I have always so behaved myself that, under God, I have placed my chiefest strength and safeguard in the loyal hearts and good-will of my subjects—my faithful and loving people.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54012,
+    "oratorId": 54,
+    "word": "safeguard",
+    "definition": "A measure taken to protect someone or something.",
+    "example": "I have placed my chiefest strength and safeguard in the loyal hearts and good-will of my subjects.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 54013,
+    "oratorId": 54,
+    "word": "subject",
+    "definition": "A person under the rule of a monarch.",
+    "example": "I have placed my chiefest strength and safeguard in the loyal hearts and good-will of my subjects.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 54014,
+    "oratorId": 54,
+    "word": "invade",
+    "definition": "Enter a country or region so as to subjugate it.",
+    "example": "I myself will take up arms, I myself will be your general, judge, and rewarder of every one of your virtues in the field—if Europe's princes dare invade.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 54015,
+    "oratorId": 54,
+    "word": "general",
+    "definition": "A commander of an army.",
+    "example": "I myself will take up arms, I myself will be your general, judge, and rewarder of every one of your virtues in the field.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 54016,
+    "oratorId": 54,
+    "word": "virtue",
+    "definition": "Behavior showing high moral standards; excellence in arms and character.",
+    "example": "I myself will be your general, judge, and rewarder of every one of your virtues in the field.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Tilbury",
+    "categories": [
+      "courage",
+      "leadership",
+      "humanities"
+    ]
+  }
+]

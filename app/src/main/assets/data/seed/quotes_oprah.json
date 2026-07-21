@@ -1,0 +1,74 @@
+[
+  {
+    "id": 53001,
+    "oratorId": 53,
+    "text": "What I know for sure is that speaking your truth is the most powerful tool we all have.",
+    "source": "Golden Globes",
+    "speech": "Cecil B. DeMille Award",
+    "year": 2018,
+    "context": "Truth-telling as civic instrument."
+  },
+  {
+    "id": 53002,
+    "oratorId": 53,
+    "text": "Their time is up.",
+    "source": "Golden Globes",
+    "speech": "Cecil B. DeMille Award",
+    "year": 2018,
+    "context": "Declaring an end to protected abuse."
+  },
+  {
+    "id": 53003,
+    "oratorId": 53,
+    "text": "Be thankful for what you have; you'll end up having more.",
+    "source": "Talks on living",
+    "speech": "On gratitude",
+    "year": 2000,
+    "context": "Gratitude as abundance practice."
+  },
+  {
+    "id": 53004,
+    "oratorId": 53,
+    "text": "I know for sure that what we dwell on is who we become.",
+    "source": "Public talks",
+    "speech": "On attention",
+    "year": 2005,
+    "context": "Attention shapes character."
+  },
+  {
+    "id": 53005,
+    "oratorId": 53,
+    "text": "Turn your wounds into wisdom.",
+    "source": "Life advice addresses",
+    "speech": "On wounds",
+    "year": 2001,
+    "context": "Pain as curriculum."
+  },
+  {
+    "id": 53006,
+    "oratorId": 53,
+    "text": "The biggest adventure you can take is to live the life of your dreams.",
+    "source": "Inspirational talks",
+    "speech": "On dreams",
+    "year": 2004,
+    "context": "Agency as adventure."
+  },
+  {
+    "id": 53007,
+    "oratorId": 53,
+    "text": "Excellence is the best deterrent to racism or sexism.",
+    "source": "Career counsel",
+    "speech": "On excellence",
+    "year": 1998,
+    "context": "Craft as rebuttal."
+  },
+  {
+    "id": 53008,
+    "oratorId": 53,
+    "text": "You become what you believe—not what you wish or want but what you truly believe.",
+    "source": "Talks on belief",
+    "speech": "On belief",
+    "year": 2002,
+    "context": "Belief as formative force."
+  }
+]

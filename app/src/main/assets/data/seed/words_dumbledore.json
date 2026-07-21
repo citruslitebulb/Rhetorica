@@ -1,0 +1,249 @@
+[
+  {
+    "id": 52001,
+    "oratorId": 52,
+    "word": "happiness",
+    "definition": "The state of feeling or showing pleasure or contentment.",
+    "example": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Prisoner of Azkaban",
+    "speech": "Great Hall address after Black's escape",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 52002,
+    "oratorId": 52,
+    "word": "dark",
+    "definition": "With little or no light; morally grim.",
+    "example": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Prisoner of Azkaban",
+    "speech": "Great Hall address after Black's escape",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 52003,
+    "oratorId": 52,
+    "word": "light",
+    "definition": "Illumination; hope made practical.",
+    "example": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Prisoner of Azkaban",
+    "speech": "Great Hall address after Black's escape",
+    "categories": [
+      "inspirational",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 52004,
+    "oratorId": 52,
+    "word": "choice",
+    "definition": "An act of selecting between possibilities; the seat of moral character.",
+    "example": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Chamber of Secrets",
+    "speech": "On the Sorting and identity",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 52005,
+    "oratorId": 52,
+    "word": "ability",
+    "definition": "Possession of the means or skill to do something.",
+    "example": "It is our choices, Harry, that show what we truly are, far more than our ability alone.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Chamber of Secrets",
+    "speech": "On the Sorting and identity",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 52006,
+    "oratorId": 52,
+    "word": "love",
+    "definition": "An intense feeling of deep affection; a protective force in the story's moral physics.",
+    "example": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Deathly Hallows",
+    "speech": "King's Cross counsel",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 52007,
+    "oratorId": 52,
+    "word": "pity",
+    "definition": "The feeling of sorrow and compassion caused by others' suffering.",
+    "example": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Deathly Hallows",
+    "speech": "King's Cross counsel",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 52008,
+    "oratorId": 52,
+    "word": "fear",
+    "definition": "An unpleasant emotion caused by threat or danger.",
+    "example": "It is the unknown we fear when we look upon death and darkness, nothing more.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Half-Blood Prince",
+    "speech": "On fear and death",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 52009,
+    "oratorId": 52,
+    "word": "death",
+    "definition": "The end of life; a teacher of perspective.",
+    "example": "Do not pity the dead, Harry. Pity the living—and remember that to the well-organized mind, death is but the next great adventure.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Philosopher's Stone / Deathly Hallows",
+    "speech": "On death",
+    "categories": [
+      "humanities",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 52010,
+    "oratorId": 52,
+    "word": "adventure",
+    "definition": "An unusual and exciting experience; a journey into risk.",
+    "example": "To the well-organized mind, death is but the next great adventure.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Philosopher's Stone",
+    "speech": "On death",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 52011,
+    "oratorId": 52,
+    "word": "word",
+    "definition": "A single distinct unit of language; speech as power.",
+    "example": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Deathly Hallows / related counsel",
+    "speech": "On words",
+    "categories": [
+      "arts",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 52012,
+    "oratorId": 52,
+    "word": "magic",
+    "definition": "The power of influencing events by supernatural means; metaphorically, transformative speech.",
+    "example": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Deathly Hallows / related counsel",
+    "speech": "On words",
+    "categories": [
+      "arts",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 52013,
+    "oratorId": 52,
+    "word": "help",
+    "definition": "Make it easier for someone to do something; give assistance.",
+    "example": "Help will always be given at Hogwarts to those who ask for it.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Chamber of Secrets / Order of the Phoenix themes",
+    "speech": "On asking for help",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 52014,
+    "oratorId": 52,
+    "word": "difference",
+    "definition": "A point or way in which people or things are not the same.",
+    "example": "We are only as strong as we are united, as weak as we are divided—indifference to one another is a kind of difference that wounds.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Goblet of Fire",
+    "speech": "After the Triwizard final",
+    "categories": [
+      "leadership",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 52015,
+    "oratorId": 52,
+    "word": "united",
+    "definition": "Joined together politically or for a common purpose.",
+    "example": "We are only as strong as we are united, as weak as we are divided.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Goblet of Fire",
+    "speech": "After the Triwizard final",
+    "categories": [
+      "leadership",
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 52016,
+    "oratorId": 52,
+    "word": "hope",
+    "definition": "A feeling of expectation and desire for a certain thing to happen.",
+    "example": "Happiness can be found even in dark times—hope is the hand that finds the switch.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Prisoner of Azkaban themes",
+    "speech": "On light",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": 45001,
+    "oratorId": 45,
+    "word": "woman",
+    "definition": "An adult female person; here, a claim to full human dignity.",
+    "example": "And ain't I a woman?",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 45002,
+    "oratorId": 45,
+    "word": "carriage",
+    "definition": "A wheeled vehicle for people; a symbol of polite privilege.",
+    "example": "That man over there says that women need to be helped into carriages—and lifted over ditches.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 45003,
+    "oratorId": 45,
+    "word": "ditch",
+    "definition": "A narrow channel dug in the ground; a muddy obstacle of daily labor.",
+    "example": "That man over there says that women need to be helped into carriages, and lifted over ditches, and to have the best place everywhere.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 45004,
+    "oratorId": 45,
+    "word": "plough",
+    "definition": "To turn soil with a plough; hard field labor.",
+    "example": "I have ploughed and planted, and gathered into barns, and no man could head me.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 45005,
+    "oratorId": 45,
+    "word": "plant",
+    "definition": "To put seeds or young plants in the ground to grow.",
+    "example": "I have ploughed and planted, and gathered into barns, and no man could head me—and ain't I a woman?",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 45006,
+    "oratorId": 45,
+    "word": "intellect",
+    "definition": "The faculty of reasoning and understanding.",
+    "example": "What's that got to do with women's rights or negroes' rights? If my cup won't hold but a pint, and yours holds a quart, wouldn't you be mean not to let me have my little half-measure full—intellect is not a closed club.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 45007,
+    "oratorId": 45,
+    "word": "pint",
+    "definition": "A unit of liquid measure; a small share of capacity.",
+    "example": "If my cup won't hold but a pint, and yours holds a quart, wouldn't you be mean not to let me have my little half-measure full?",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 45008,
+    "oratorId": 45,
+    "word": "quart",
+    "definition": "A unit of liquid measure equal to two pints; a larger share.",
+    "example": "If my cup won't hold but a pint, and yours holds a quart, wouldn't you be mean not to let me have my little half-measure full?",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 45009,
+    "oratorId": 45,
+    "word": "truth",
+    "definition": "That which is in accordance with fact or reality; her chosen name and method.",
+    "example": "The Lord has made me a sign unto this nation, an' I go round a-testifyin' for truth.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Narrative and lectures",
+    "speech": "On her mission",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 45010,
+    "oratorId": 45,
+    "word": "slavery",
+    "definition": "The system of owning people as property.",
+    "example": "I have borne thirteen children, and seen most all sold off to slavery, and when I cried out with my mother's grief, none but Jesus heard me.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "courage",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 45011,
+    "oratorId": 45,
+    "word": "grief",
+    "definition": "Deep sorrow, especially from loss.",
+    "example": "I have borne thirteen children, and seen most all sold off to slavery, and when I cried out with my mother's grief, none but Jesus heard me.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 45012,
+    "oratorId": 45,
+    "word": "right",
+    "definition": "A moral or legal entitlement.",
+    "example": "If the first woman God ever made was strong enough to turn the world upside down all alone, these women together ought to be able to turn it back, and get it right side up again.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 45013,
+    "oratorId": 45,
+    "word": "strong",
+    "definition": "Having power to endure labor, pain, or opposition.",
+    "example": "I have ploughed and planted, and gathered into barns, and no man could head me—and ain't I a woman? Look at me! Look at my arm! I have as much muscle as any man, and can do as much work as any man—I am as strong.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 45014,
+    "oratorId": 45,
+    "word": "equal",
+    "definition": "Having the same status, rights, or value.",
+    "example": "If women want any rights more than they's got, why don't they just take them, and not be talking about it—equal standing is claimed by work as well as by words.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Lectures on rights",
+    "speech": "On taking rights",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 45015,
+    "oratorId": 45,
+    "word": "sojourn",
+    "definition": "A temporary stay; to dwell for a time while traveling.",
+    "example": "The Spirit calls me, and I must sojourn and go speak the truth where it is needed.",
+    "partOfSpeech": "verb",
+    "complexity": "advanced",
+    "source": "On taking her name",
+    "speech": "On her calling",
+    "categories": [
+      "inspirational",
+      "legacy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 45016,
+    "oratorId": 45,
+    "word": "testify",
+    "definition": "To declare solemnly as witness; to speak publicly for a cause.",
+    "example": "I go round a-testifyin' and showin' this people their sins and the need of repentance.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Narrative and lectures",
+    "speech": "On her mission",
+    "categories": [
+      "courage",
+      "humanities",
+      "inspirational"
+    ]
+  }
+]

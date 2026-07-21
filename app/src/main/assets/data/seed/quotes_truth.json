@@ -1,0 +1,74 @@
+[
+  {
+    "id": 45001,
+    "oratorId": 45,
+    "text": "And ain't I a woman?",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron, Ohio",
+    "year": 1851,
+    "context": "Claiming full womanhood against polite exclusion."
+  },
+  {
+    "id": 45002,
+    "oratorId": 45,
+    "text": "If my cup won't hold but a pint, and yours holds a quart, wouldn't you be mean not to let me have my little half-measure full?",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "year": 1851,
+    "context": "On sharing intellect and opportunity."
+  },
+  {
+    "id": 45003,
+    "oratorId": 45,
+    "text": "I am not going to die, I'm going home like a shooting star.",
+    "source": "Attributed late-life remark",
+    "speech": "On death",
+    "year": 1883,
+    "context": "Facing the end with defiance and light."
+  },
+  {
+    "id": 45004,
+    "oratorId": 45,
+    "text": "Truth is powerful and it prevails.",
+    "source": "Lectures",
+    "speech": "On truth",
+    "year": 1850,
+    "context": "Her method and her name."
+  },
+  {
+    "id": 45005,
+    "oratorId": 45,
+    "text": "Religion without humanity is poor human stuff.",
+    "source": "Addresses on faith",
+    "speech": "On religion",
+    "year": 1853,
+    "context": "Linking belief to humane conduct."
+  },
+  {
+    "id": 45006,
+    "oratorId": 45,
+    "text": "I feel safe even in the midst of my enemies; for the truth is powerful and will prevail.",
+    "source": "Narrative themes",
+    "speech": "On safety in truth",
+    "year": 1850,
+    "context": "Courage rooted in conviction."
+  },
+  {
+    "id": 45007,
+    "oratorId": 45,
+    "text": "If the first woman God ever made was strong enough to turn the world upside down all alone, these women together ought to be able to turn it back.",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "year": 1851,
+    "context": "Calling women into collective power."
+  },
+  {
+    "id": 45008,
+    "oratorId": 45,
+    "text": "Where there is so much racket there must be something out of kilter.",
+    "source": "Ain't I a Woman?",
+    "speech": "Women's Convention, Akron",
+    "year": 1851,
+    "context": "Opening by naming the disturbance of injustice."
+  }
+]

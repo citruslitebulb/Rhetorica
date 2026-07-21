@@ -1,0 +1,74 @@
+[
+  {
+    "id": 41001,
+    "oratorId": 41,
+    "text": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You must do the thing you think you cannot do.",
+    "source": "You Learn by Living",
+    "speech": "On courage",
+    "year": 1960,
+    "context": "Defining courage as practiced action against fear."
+  },
+  {
+    "id": 41002,
+    "oratorId": 41,
+    "text": "Where, after all, do universal human rights begin? In small places, close to home—so close and so small that they cannot be seen on any maps of the world.",
+    "source": "Remarks on the Universal Declaration",
+    "speech": "The Great Question",
+    "year": 1958,
+    "context": "Rooting human rights in daily life, not abstractions."
+  },
+  {
+    "id": 41003,
+    "oratorId": 41,
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "source": "Attributed",
+    "speech": "On dreams",
+    "year": 1940,
+    "context": "Encouraging hopeful imagination paired with work."
+  },
+  {
+    "id": 41004,
+    "oratorId": 41,
+    "text": "No one can make you feel inferior without your consent.",
+    "source": "This Is My Story / later popular form",
+    "speech": "On self-respect",
+    "year": 1937,
+    "context": "On refusing internalized contempt."
+  },
+  {
+    "id": 41005,
+    "oratorId": 41,
+    "text": "It is better to light a candle than to curse the darkness.",
+    "source": "Associated maxim",
+    "speech": "On constructive action",
+    "year": 1945,
+    "context": "Preferring small useful deeds over pure complaint."
+  },
+  {
+    "id": 41006,
+    "oratorId": 41,
+    "text": "Do what you feel in your heart to be right—for you'll be criticized anyway.",
+    "source": "Advice often quoted from her letters and talks",
+    "speech": "On conscience",
+    "year": 1944,
+    "context": "Acting on conscience despite inevitable critics."
+  },
+  {
+    "id": 41007,
+    "oratorId": 41,
+    "text": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+    "source": "Attributed aphorism popularized in her circles",
+    "speech": "On conversation and character",
+    "year": 1940,
+    "context": "Elevating discourse toward ideas."
+  },
+  {
+    "id": 41008,
+    "oratorId": 41,
+    "text": "When will our consciences grow so tender that we will act to prevent human misery rather than avenge it?",
+    "source": "Newspaper columns and talks",
+    "speech": "On conscience and prevention",
+    "year": 1946,
+    "context": "Pushing prevention over reactive vengeance."
+  }
+]

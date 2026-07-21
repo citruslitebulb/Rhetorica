@@ -1,0 +1,74 @@
+[
+  {
+    "id": 52001,
+    "oratorId": 52,
+    "text": "Happiness can be found, even in the darkest of times, if one only remembers to turn on the light.",
+    "source": "Prisoner of Azkaban",
+    "speech": "Great Hall",
+    "year": 1999,
+    "context": "Hope as an active gesture."
+  },
+  {
+    "id": 52002,
+    "oratorId": 52,
+    "text": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
+    "source": "Chamber of Secrets",
+    "speech": "Headmaster's office",
+    "year": 1998,
+    "context": "Character as chosen path."
+  },
+  {
+    "id": 52003,
+    "oratorId": 52,
+    "text": "Do not pity the dead, Harry. Pity the living, and, above all, those who live without love.",
+    "source": "Deathly Hallows",
+    "speech": "King's Cross",
+    "year": 2007,
+    "context": "Love as the measure of life."
+  },
+  {
+    "id": 52004,
+    "oratorId": 52,
+    "text": "To the well-organized mind, death is but the next great adventure.",
+    "source": "Philosopher's Stone",
+    "speech": "On Nicolas Flamel",
+    "year": 1997,
+    "context": "Reframing mortality."
+  },
+  {
+    "id": 52005,
+    "oratorId": 52,
+    "text": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic.",
+    "source": "Deathly Hallows / related",
+    "speech": "On language",
+    "year": 2007,
+    "context": "Rhetoric as power."
+  },
+  {
+    "id": 52006,
+    "oratorId": 52,
+    "text": "We are only as strong as we are united, as weak as we are divided.",
+    "source": "Goblet of Fire",
+    "speech": "After Cedric's death",
+    "year": 2000,
+    "context": "Unity after terror."
+  },
+  {
+    "id": 52007,
+    "oratorId": 52,
+    "text": "It does not do to dwell on dreams and forget to live.",
+    "source": "Philosopher's Stone",
+    "speech": "On the Mirror of Erised",
+    "year": 1997,
+    "context": "Against living only in longing."
+  },
+  {
+    "id": 52008,
+    "oratorId": 52,
+    "text": "Help will always be given at Hogwarts to those who ask for it.",
+    "source": "Chamber / Order themes",
+    "speech": "On asking",
+    "year": 1998,
+    "context": "Institution as refuge."
+  }
+]

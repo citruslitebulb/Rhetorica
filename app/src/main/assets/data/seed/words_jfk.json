@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40182,
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40183,
@@ -33,7 +41,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40184,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40185,
@@ -57,7 +73,11 @@
     "complexity": "advanced",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40186,
@@ -69,7 +89,11 @@
     "complexity": "intermediate",
     "source": "Ich bin ein Berliner",
     "speech": "Ich bin ein Berliner",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40187,
@@ -81,7 +105,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40188,
@@ -93,7 +121,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40189,
@@ -105,7 +137,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40190,
@@ -117,7 +153,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40191,
@@ -129,7 +169,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40192,
@@ -141,7 +185,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40193,
@@ -153,7 +201,11 @@
     "complexity": "intermediate",
     "source": "Moon Speech",
     "speech": "Address at Rice University on the Nation's Space Effort",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40194,
@@ -165,7 +217,11 @@
     "complexity": "intermediate",
     "source": "Remarks at the signing of the charter establishing the German Peace Corps",
     "speech": "Various",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40195,
@@ -177,7 +233,11 @@
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40196,
@@ -189,7 +249,11 @@
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40197,
@@ -201,7 +265,9 @@
     "complexity": "intermediate",
     "source": "American University Commencement Address",
     "speech": "American University Commencement",
-    "categories": ["legacy"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40198,
@@ -213,7 +279,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40199,
@@ -225,7 +295,10 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "democracy"]
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40200,
@@ -237,10 +310,14 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
-    "id": 40201,
+    "id": 40370,
     "word": "bear",
     "definition": "Carry the weight of; support; endure; a word that gains force in public speech.",
     "example": "The appeal was not to wait, but to bear—Inaugural Address made delay look like surrender.",
@@ -249,6 +326,10 @@
     "complexity": "intermediate",
     "source": "Inaugural Address",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   }
 ]

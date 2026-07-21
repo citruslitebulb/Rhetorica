@@ -1,0 +1,249 @@
+[
+  {
+    "id": 51001,
+    "oratorId": 51,
+    "word": "understand",
+    "definition": "Perceive the intended meaning of; grasp sympathetically.",
+    "example": "You never really understand a person until you consider things from his point of view.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "Lesson to Scout",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 51002,
+    "oratorId": 51,
+    "word": "climb",
+    "definition": "Go up or into with effort; enter imaginatively.",
+    "example": "You never really understand a person until you consider things from his point of view—until you climb into his skin and walk around in it.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "Lesson to Scout",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 51003,
+    "oratorId": 51,
+    "word": "skin",
+    "definition": "The natural outer covering of the body; a metaphor for another's life.",
+    "example": "Until you climb into his skin and walk around in it.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "Lesson to Scout",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 51004,
+    "oratorId": 51,
+    "word": "courage",
+    "definition": "The ability to do something that frightens one; strength in the face of pain.",
+    "example": "I wanted you to see what real courage is, instead of getting the idea that courage is a man with a gun in his hand.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On Mrs. Dubose",
+    "categories": [
+      "courage",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 51005,
+    "oratorId": 51,
+    "word": "gun",
+    "definition": "A weapon that fires projectiles; a false image of bravery.",
+    "example": "I wanted you to see what real courage is, instead of getting the idea that courage is a man with a gun in his hand.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On Mrs. Dubose",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 51006,
+    "oratorId": 51,
+    "word": "conscience",
+    "definition": "An inner sense of right and wrong.",
+    "example": "The one thing that doesn't abide by majority rule is a person's conscience.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "To Kill a Mockingbird",
+    "speech": "On conscience",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 51007,
+    "oratorId": 51,
+    "word": "majority",
+    "definition": "The greater number; the larger part of a group.",
+    "example": "The one thing that doesn't abide by majority rule is a person's conscience.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "To Kill a Mockingbird",
+    "speech": "On conscience",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 51008,
+    "oratorId": 51,
+    "word": "mockingbird",
+    "definition": "A songbird; a symbol of innocent beings who should not be harmed.",
+    "example": "Shoot all the bluejays you want, if you can hit 'em, but remember it's a sin to kill a mockingbird.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "To Kill a Mockingbird",
+    "speech": "On mockingbirds",
+    "categories": [
+      "humanities",
+      "arts",
+      "legacy"
+    ]
+  },
+  {
+    "id": 51009,
+    "oratorId": 51,
+    "word": "sin",
+    "definition": "An immoral act; a wrong against the innocent.",
+    "example": "Remember it's a sin to kill a mockingbird.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On mockingbirds",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 51010,
+    "oratorId": 51,
+    "word": "court",
+    "definition": "A tribunal for justice; the arena of public judgment.",
+    "example": "But there is one way in this country in which all men are created equal—there is one human institution that makes a pauper the equal of a Rockefeller, the stupid man the equal of an Einstein, and the ignorant man the equal of any college president. That institution, gentlemen, is a court.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "Courtroom speech",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 51011,
+    "oratorId": 51,
+    "word": "equal",
+    "definition": "Having the same status, rights, or value.",
+    "example": "But there is one way in this country in which all men are created equal—there is one human institution that makes a pauper the equal of a Rockefeller.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "Courtroom speech",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 51012,
+    "oratorId": 51,
+    "word": "pauper",
+    "definition": "A very poor person.",
+    "example": "That institution makes a pauper the equal of a Rockefeller.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "To Kill a Mockingbird",
+    "speech": "Courtroom speech",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 51013,
+    "oratorId": 51,
+    "word": "integrity",
+    "definition": "The quality of being honest and having strong moral principles.",
+    "example": "Before I can live with other folks I've got to live with myself. The one thing that doesn't abide by majority rule is a person's conscience—and integrity is what remains when the town goes home.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "To Kill a Mockingbird",
+    "speech": "On living with oneself",
+    "categories": [
+      "courage",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 51014,
+    "oratorId": 51,
+    "word": "ugly",
+    "definition": "Unpleasant or repulsive, especially in moral character.",
+    "example": "There's something in our world that makes men lose their heads—they couldn't be fair if they tried. In our courts, when it's a white man's word against a black man's, the white man always wins. They're ugly, but those are the facts of life.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On Maycomb's disease",
+    "categories": [
+      "courage",
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 51015,
+    "oratorId": 51,
+    "word": "simple",
+    "definition": "Easily understood; not complicated; plain in manner.",
+    "example": "I do my best to love everybody—it's not simple, but it's the job.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On loving everybody",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 51016,
+    "oratorId": 51,
+    "word": "stand",
+    "definition": "Be in or rise to an upright position; take a firm public position.",
+    "example": "Scout, simply by the nature of the work, every lawyer gets at least one case in his lifetime that affects him personally. This one's mine, I guess—and a man must stand for it.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "To Kill a Mockingbird",
+    "speech": "On taking the case",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  }
+]

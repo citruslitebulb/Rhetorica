@@ -1,0 +1,252 @@
+[
+  {
+    "id": 41001,
+    "oratorId": 41,
+    "word": "dignity",
+    "definition": "The state of being worthy of honor and respect.",
+    "example": "Where, after all, do universal human rights begin? In small places, close to home—so close and so small that they cannot be seen on any maps of the world—yet they are the world of the individual person: the neighborhood he lives in; the school or college he attends; the factory, farm or office where he works. Such are the places where every man, woman and child seeks equal justice, equal opportunity, equal dignity without discrimination.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "humanities",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41002,
+    "oratorId": 41,
+    "word": "universal",
+    "definition": "Applicable everywhere and to all people without exception.",
+    "example": "The Universal Declaration of Human Rights was meant to be a common standard of achievement for all peoples and all nations.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "UN human rights work",
+    "speech": "On the Universal Declaration",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41003,
+    "oratorId": 41,
+    "word": "fear",
+    "definition": "An unpleasant emotion caused by the threat of danger or pain.",
+    "example": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "You Learn by Living",
+    "speech": "On courage and fear",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 41004,
+    "oratorId": 41,
+    "word": "confidence",
+    "definition": "A feeling of self-assurance arising from ability or experience.",
+    "example": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "You Learn by Living",
+    "speech": "On courage and fear",
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 41005,
+    "oratorId": 41,
+    "word": "curiosity",
+    "definition": "A strong desire to know or learn something.",
+    "example": "I think, at a child's birth, if a mother could ask a fairy godmother to endow it with the most useful gift, that gift should be curiosity.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Essays and lectures",
+    "speech": "On education and curiosity",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 41006,
+    "oratorId": 41,
+    "word": "justice",
+    "definition": "Fair treatment according to what is due or merited.",
+    "example": "Such are the places where every man, woman and child seeks equal justice, equal opportunity, equal dignity without discrimination.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 41007,
+    "oratorId": 41,
+    "word": "opportunity",
+    "definition": "A set of circumstances that makes it possible to do something.",
+    "example": "Such are the places where every man, woman and child seeks equal justice, equal opportunity, equal dignity without discrimination.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "democracy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 41008,
+    "oratorId": 41,
+    "word": "discrimination",
+    "definition": "Unjust treatment of people based on group identity rather than merit.",
+    "example": "Equal dignity without discrimination is the quiet test of whether rights are real in daily life.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 41009,
+    "oratorId": 41,
+    "word": "citizen",
+    "definition": "A member of a political community with rights and duties.",
+    "example": "The destiny of human rights is in the hands of all our citizens in all our communities.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "democracy",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41010,
+    "oratorId": 41,
+    "word": "future",
+    "definition": "Time yet to come; the period in which consequences unfold.",
+    "example": "The future belongs to those who believe in the beauty of their dreams—and work to make them less fragile.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Attributed counsel",
+    "speech": "On dreams and the future",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41011,
+    "oratorId": 41,
+    "word": "beauty",
+    "definition": "A quality that pleases the mind as a high ideal of form or spirit.",
+    "example": "The future belongs to those who believe in the beauty of their dreams.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Attributed counsel",
+    "speech": "On dreams and the future",
+    "categories": [
+      "inspirational",
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 41012,
+    "oratorId": 41,
+    "word": "hate",
+    "definition": "Intense hostility; the will to diminish another.",
+    "example": "People grow through experience if they meet life honestly and courageously. This is how character is built—and how hate is starved of fuel.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Essays on living",
+    "speech": "On character and hate",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 41013,
+    "oratorId": 41,
+    "word": "light",
+    "definition": "Illumination; metaphorically, understanding that dispels ignorance.",
+    "example": "It is better to light a candle than to curse the darkness.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Popular maxim associated with her work",
+    "speech": "On light and action",
+    "categories": [
+      "inspirational",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41014,
+    "oratorId": 41,
+    "word": "candle",
+    "definition": "A small source of flame; a symbol of modest, useful action.",
+    "example": "It is better to light a candle than to curse the darkness.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Popular maxim associated with her work",
+    "speech": "On light and action",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 41015,
+    "oratorId": 41,
+    "word": "right",
+    "definition": "A moral or legal entitlement to have or do something.",
+    "example": "Where, after all, do universal human rights begin? In small places, close to home.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "On the Universal Declaration of Human Rights",
+    "speech": "The Great Question (UN remarks)",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 41016,
+    "oratorId": 41,
+    "word": "courage",
+    "definition": "The ability to do something that frightens one; strength in the face of pain.",
+    "example": "You gain strength, courage and confidence by every experience in which you really stop to look fear in the face. You must do the thing you think you cannot do.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "You Learn by Living",
+    "speech": "On courage and fear",
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
+  }
+]

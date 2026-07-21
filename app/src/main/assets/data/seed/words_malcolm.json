@@ -1,0 +1,251 @@
+[
+  {
+    "id": 48001,
+    "oratorId": 48,
+    "word": "means",
+    "definition": "A method or instrument for achieving a result.",
+    "example": "We declare our right on this earth to be a man, to be a human being, to be respected as a human being—by any means necessary.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Organization of Afro-American Unity",
+    "speech": "By Any Means Necessary",
+    "categories": [
+      "courage",
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 48002,
+    "oratorId": 48,
+    "word": "necessary",
+    "definition": "Required to be done; essential.",
+    "example": "By any means necessary.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Organization of Afro-American Unity",
+    "speech": "By Any Means Necessary",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 48003,
+    "oratorId": 48,
+    "word": "human",
+    "definition": "Of or characteristic of people; claiming full personhood.",
+    "example": "We declare our right on this earth to be a man, to be a human being, to be respected as a human being.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Organization of Afro-American Unity",
+    "speech": "By Any Means Necessary",
+    "categories": [
+      "humanities",
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 48004,
+    "oratorId": 48,
+    "word": "respect",
+    "definition": "Due regard for the feelings, rights, or traditions of others.",
+    "example": "We declare our right on this earth to be a man, to be a human being, to be respected as a human being.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Organization of Afro-American Unity",
+    "speech": "By Any Means Necessary",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 48005,
+    "oratorId": 48,
+    "word": "ballot",
+    "definition": "A system of voting; political participation as power.",
+    "example": "The ballot or the bullet—if you don't take it through the ballot, you may be forced to take it another way.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet",
+    "categories": [
+      "democracy",
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 48006,
+    "oratorId": 48,
+    "word": "bullet",
+    "definition": "A projectile from a firearm; a metaphor for force when politics fails.",
+    "example": "The ballot or the bullet.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 48007,
+    "oratorId": 48,
+    "word": "education",
+    "definition": "The process of receiving or giving systematic instruction.",
+    "example": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speeches on self-improvement",
+    "speech": "On education",
+    "categories": [
+      "inspirational",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 48008,
+    "oratorId": 48,
+    "word": "passport",
+    "definition": "An official document for travel; metaphorically, entry to opportunity.",
+    "example": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Speeches on self-improvement",
+    "speech": "On education",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 48009,
+    "oratorId": 48,
+    "word": "tomorrow",
+    "definition": "The day after today; the near future.",
+    "example": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speeches on self-improvement",
+    "speech": "On education",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 48010,
+    "oratorId": 48,
+    "word": "truth",
+    "definition": "That which is true or in accordance with fact.",
+    "example": "I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Autobiography and speeches",
+    "speech": "On truth",
+    "categories": [
+      "humanities",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 48011,
+    "oratorId": 48,
+    "word": "justice",
+    "definition": "Just behavior or treatment.",
+    "example": "I'm for truth, no matter who tells it. I'm for justice, no matter who it is for or against.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Autobiography and speeches",
+    "speech": "On truth",
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 48012,
+    "oratorId": 48,
+    "word": "sincerity",
+    "definition": "The quality of being free from pretense or deceit.",
+    "example": "Usually when people are sad, they don't do anything. They just cry over their condition. But when they get angry, they bring about a change—sincerity without action is still sleep.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Speeches on social change",
+    "speech": "On anger and change",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 48013,
+    "oratorId": 48,
+    "word": "change",
+    "definition": "Make or become different; social transformation.",
+    "example": "Usually when people are sad, they don't do anything. They just cry over their condition. But when they get angry, they bring about a change.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Speeches on social change",
+    "speech": "On anger and change",
+    "categories": [
+      "courage",
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 48014,
+    "oratorId": 48,
+    "word": "brotherhood",
+    "definition": "An association or community of people linked by common interest.",
+    "example": "I believe in recognizing every human being as a human being—neither white, black, brown, or red; and when you are dealing with humanity as a family, brotherhood is not a slogan.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Post-Mecca interviews and speeches",
+    "speech": "On brotherhood",
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 48015,
+    "oratorId": 48,
+    "word": "house",
+    "definition": "A building for human habitation; metaphorically, the American order.",
+    "example": "We are not fighting for integration, nor are we fighting for separation. We are fighting for recognition as human beings—and a house divided against itself still needs truth told inside it.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Various addresses",
+    "speech": "On recognition",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 48016,
+    "oratorId": 48,
+    "word": "wake",
+    "definition": "To emerge or cause to emerge from sleep; to become alert.",
+    "example": "The greatest mistake of the movement has been trying to organize a sleeping people around specific goals. You have to wake the people up first, then you'll get action.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Organizational strategy remarks",
+    "speech": "On waking the people",
+    "categories": [
+      "leadership",
+      "courage",
+      "inspirational"
+    ]
+  }
+]

@@ -1,0 +1,249 @@
+[
+  {
+    "id": 50001,
+    "oratorId": 50,
+    "word": "tired",
+    "definition": "In need of rest or sleep; exhausted by struggle.",
+    "example": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "courage",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 50002,
+    "oratorId": 50,
+    "word": "heart",
+    "definition": "The center of feeling and will.",
+    "example": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 50003,
+    "oratorId": 50,
+    "word": "sick",
+    "definition": "Affected by physical or mental distress.",
+    "example": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 50004,
+    "oratorId": 50,
+    "word": "sad",
+    "definition": "Feeling or showing sorrow.",
+    "example": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 50005,
+    "oratorId": 50,
+    "word": "fight",
+    "definition": "Take part in a violent struggle; resist by force.",
+    "example": "From where the sun now stands I will fight no more forever.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "courage",
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 50006,
+    "oratorId": 50,
+    "word": "forever",
+    "definition": "For all future time; eternally.",
+    "example": "From where the sun now stands I will fight no more forever.",
+    "partOfSpeech": "adverb",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 50007,
+    "oratorId": 50,
+    "word": "chief",
+    "definition": "A leader of a people or clan.",
+    "example": "Hear me, my chiefs! I am tired; my heart is sick and sad.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 50008,
+    "oratorId": 50,
+    "word": "sun",
+    "definition": "The star that is the central body of the solar system; a marker of time and place.",
+    "example": "From where the sun now stands I will fight no more forever.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "arts",
+      "legacy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 50009,
+    "oratorId": 50,
+    "word": "child",
+    "definition": "A young human being.",
+    "example": "It is cold, and we have no blankets; the little children are freezing to death.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 50010,
+    "oratorId": 50,
+    "word": "freezing",
+    "definition": "Suffering or dying from extreme cold.",
+    "example": "It is cold, and we have no blankets; the little children are freezing to death.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 50011,
+    "oratorId": 50,
+    "word": "look",
+    "definition": "Direct one's gaze; search.",
+    "example": "I want to have time to look for my children, and see how many of them I can find.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 50012,
+    "oratorId": 50,
+    "word": "dead",
+    "definition": "No longer alive.",
+    "example": "Maybe I shall find them among the dead.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 50013,
+    "oratorId": 50,
+    "word": "treaty",
+    "definition": "A formally concluded agreement between peoples or nations.",
+    "example": "Good words do not last long unless they amount to something—treaty promises broken are worse than silence.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Lincoln Hall speech / later addresses",
+    "speech": "On broken promises",
+    "categories": [
+      "democracy",
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 50014,
+    "oratorId": 50,
+    "word": "promise",
+    "definition": "A declaration that one will do or refrain from something.",
+    "example": "Good words will not give my people good health and stop them from dying. Good words will not make good the promise of your war chief.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Lincoln Hall speech",
+    "speech": "On broken promises",
+    "categories": [
+      "courage",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 50015,
+    "oratorId": 50,
+    "word": "equal",
+    "definition": "Having the same rights or status.",
+    "example": "Treat all men alike. Give them all the same law. Give them all an even chance to live and grow—equal standing under one sky.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Lincoln Hall speech",
+    "speech": "On equal law",
+    "categories": [
+      "democracy",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 50016,
+    "oratorId": 50,
+    "word": "peace",
+    "definition": "Freedom from war; a condition of settled quiet.",
+    "example": "I will fight no more forever—not because peace is easy, but because my people can bear no more winter war.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Surrender speech themes",
+    "speech": "Bear Paw Mountains surrender",
+    "categories": [
+      "leadership",
+      "legacy",
+      "inspirational"
+    ]
+  }
+]

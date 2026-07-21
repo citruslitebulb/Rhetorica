@@ -1,0 +1,74 @@
+[
+  {
+    "id": 47001,
+    "oratorId": 47,
+    "text": "They who can give up essential liberty to obtain a little temporary safety deserve neither liberty nor safety.",
+    "source": "Pennsylvania Assembly reply",
+    "speech": "On liberty and safety",
+    "year": 1755,
+    "context": "Warning against trading freedom for security theater."
+  },
+  {
+    "id": 47002,
+    "oratorId": 47,
+    "text": "We must, indeed, all hang together, or most assuredly we shall all hang separately.",
+    "source": "Attributed at Declaration signing",
+    "speech": "On colonial unity",
+    "year": 1776,
+    "context": "Humor with a noose's edge."
+  },
+  {
+    "id": 47003,
+    "oratorId": 47,
+    "text": "Well done is better than well said.",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "year": 1737,
+    "context": "Preferring deeds to rhetoric."
+  },
+  {
+    "id": 47004,
+    "oratorId": 47,
+    "text": "Diligence is the mother of good luck.",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "year": 1736,
+    "context": "Luck as the child of work."
+  },
+  {
+    "id": 47005,
+    "oratorId": 47,
+    "text": "Lost time is never found again.",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "year": 1748,
+    "context": "On the irrecoverable hour."
+  },
+  {
+    "id": 47006,
+    "oratorId": 47,
+    "text": "I agree to this Constitution with all its faults, if they are such.",
+    "source": "Constitutional Convention",
+    "speech": "Closing speech",
+    "year": 1787,
+    "context": "Supporting imperfect union over disunion."
+  },
+  {
+    "id": 47007,
+    "oratorId": 47,
+    "text": "In this world nothing can be said to be certain, except death and taxes.",
+    "source": "Letter to Jean-Baptiste Le Roy",
+    "speech": "On certainty",
+    "year": 1789,
+    "context": "A durable American joke with bite."
+  },
+  {
+    "id": 47008,
+    "oratorId": 47,
+    "text": "An investment in knowledge pays the best interest.",
+    "source": "Poor Richard themes / popular form",
+    "speech": "On knowledge",
+    "year": 1758,
+    "context": "Education as compound return."
+  }
+]

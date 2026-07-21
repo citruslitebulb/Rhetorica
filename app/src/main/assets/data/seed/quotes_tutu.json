@@ -1,0 +1,74 @@
+[
+  {
+    "id": 49001,
+    "oratorId": 49,
+    "text": "If you are neutral in situations of injustice, you have chosen the side of the oppressor.",
+    "source": "Sermons and addresses",
+    "speech": "On neutrality",
+    "year": 1984,
+    "context": "Rejecting false impartiality."
+  },
+  {
+    "id": 49002,
+    "oratorId": 49,
+    "text": "My humanity is bound up in yours, for we can only be human together.",
+    "source": "On ubuntu",
+    "speech": "Talks on African humanism",
+    "year": 1999,
+    "context": "Personhood as relationship."
+  },
+  {
+    "id": 49003,
+    "oratorId": 49,
+    "text": "Hope is being able to see that there is light despite all of the darkness.",
+    "source": "Sermons",
+    "speech": "On hope",
+    "year": 2000,
+    "context": "Hope as disciplined sight."
+  },
+  {
+    "id": 49004,
+    "oratorId": 49,
+    "text": "If you want peace, you don't talk to your friends. You talk to your enemies.",
+    "source": "Public remarks",
+    "speech": "On peace",
+    "year": 1995,
+    "context": "Dialogue across enmity."
+  },
+  {
+    "id": 49005,
+    "oratorId": 49,
+    "text": "Do your little bit of good where you are; it's those little bits of good put together that overwhelm the world.",
+    "source": "Addresses",
+    "speech": "On small goods",
+    "year": 2000,
+    "context": "Incremental moral action."
+  },
+  {
+    "id": 49006,
+    "oratorId": 49,
+    "text": "We are the rainbow people of God.",
+    "source": "Post-apartheid preaching",
+    "speech": "Rainbow nation",
+    "year": 1994,
+    "context": "Naming multiracial South Africa."
+  },
+  {
+    "id": 49007,
+    "oratorId": 49,
+    "text": "Forgiveness does not mean condoning what has been done. It means taking what happened seriously and not minimizing it.",
+    "source": "On forgiveness",
+    "speech": "Truth and reconciliation themes",
+    "year": 1999,
+    "context": "Hard forgiveness, not amnesia."
+  },
+  {
+    "id": 49008,
+    "oratorId": 49,
+    "text": "Differences are not intended to separate, to alienate. We are different precisely in order to realize our need of one another.",
+    "source": "On difference",
+    "speech": "Ubuntu teaching",
+    "year": 2004,
+    "context": "Diversity as interdependence."
+  }
+]

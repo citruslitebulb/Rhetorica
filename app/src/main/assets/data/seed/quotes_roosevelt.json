@@ -1,0 +1,74 @@
+[
+  {
+    "id": 39001,
+    "oratorId": 39,
+    "text": "It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena.",
+    "source": "Citizenship in a Republic",
+    "speech": "Citizenship in a Republic (Sorbonne, Paris)",
+    "year": 1910,
+    "context": "Defining the moral worth of effort over mere commentary."
+  },
+  {
+    "id": 39002,
+    "oratorId": 39,
+    "text": "I wish to preach, not the doctrine of ignoble ease, but the doctrine of the strenuous life.",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life (Chicago)",
+    "year": 1899,
+    "context": "Urging Americans toward vigorous public and private effort."
+  },
+  {
+    "id": 39003,
+    "oratorId": 39,
+    "text": "Speak softly and carry a big stick; you will go far.",
+    "source": "West African proverb, popularized by Roosevelt",
+    "speech": "Foreign policy remarks",
+    "year": 1901,
+    "context": "Summarizing a diplomacy of restraint backed by strength."
+  },
+  {
+    "id": 39004,
+    "oratorId": 39,
+    "text": "The government is us; we are the government, you and I.",
+    "source": "Campaign and civic addresses",
+    "speech": "Civic responsibility remarks",
+    "year": 1902,
+    "context": "Linking democratic power to ordinary citizens."
+  },
+  {
+    "id": 39005,
+    "oratorId": 39,
+    "text": "Do what you can, with what you have, where you are.",
+    "source": "Attributed counsel",
+    "speech": "Practical citizenship",
+    "year": 1903,
+    "context": "A compact rule for useful action without excuses."
+  },
+  {
+    "id": 39006,
+    "oratorId": 39,
+    "text": "A vote is like a rifle: its usefulness depends upon the character of the user.",
+    "source": "Civic addresses",
+    "speech": "Citizenship and the ballot",
+    "year": 1904,
+    "context": "Tying suffrage to moral responsibility."
+  },
+  {
+    "id": 39007,
+    "oratorId": 39,
+    "text": "The best executive is the one who has sense enough to pick good men to do what he wants done, and self-restraint enough to keep from meddling with them while they do it.",
+    "source": "Leadership maxims",
+    "speech": "On executive leadership",
+    "year": 1905,
+    "context": "Delegating authority without abandoning responsibility."
+  },
+  {
+    "id": 39008,
+    "oratorId": 39,
+    "text": "Conservation is a great moral issue, for it involves the patriotic duty of ensuring the safety and continuance of the nation.",
+    "source": "Conservation addresses",
+    "speech": "Conservation as a National Duty",
+    "year": 1908,
+    "context": "Framing resource protection as civic duty."
+  }
+]

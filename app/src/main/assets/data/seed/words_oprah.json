@@ -1,0 +1,249 @@
+[
+  {
+    "id": 53001,
+    "oratorId": 53,
+    "word": "truth",
+    "definition": "That which is true; honest speech about one's experience.",
+    "example": "What I know for sure is that speaking your truth is the most powerful tool we all have.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 53002,
+    "oratorId": 53,
+    "word": "tool",
+    "definition": "A device or implement used to carry out a function; a means of effect.",
+    "example": "Speaking your truth is the most powerful tool we all have.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 53003,
+    "oratorId": 53,
+    "word": "powerful",
+    "definition": "Having great power or strength; highly effective.",
+    "example": "Speaking your truth is the most powerful tool we all have.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 53004,
+    "oratorId": 53,
+    "word": "gratitude",
+    "definition": "The quality of being thankful; readiness to show appreciation.",
+    "example": "Be thankful for what you have; you'll end up having more. If you concentrate on what you don't have, you will never, ever have enough—gratitude multiplies.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Talks on living",
+    "speech": "On gratitude",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 53005,
+    "oratorId": 53,
+    "word": "concentrate",
+    "definition": "Focus all one's attention or mental effort on.",
+    "example": "If you concentrate on what you don't have, you will never, ever have enough.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Talks on living",
+    "speech": "On gratitude",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 53006,
+    "oratorId": 53,
+    "word": "possibility",
+    "definition": "A thing that may happen or be the case; open potential.",
+    "example": "I know for sure that what we dwell on is who we become—possibility grows where attention goes.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Talks on becoming",
+    "speech": "On attention",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 53007,
+    "oratorId": 53,
+    "word": "dwell",
+    "definition": "Think, speak, or write at length about; live in a mental place.",
+    "example": "I know for sure that what we dwell on is who we become.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Talks on becoming",
+    "speech": "On attention",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 53008,
+    "oratorId": 53,
+    "word": "become",
+    "definition": "Begin to be; grow into a new state.",
+    "example": "I know for sure that what we dwell on is who we become.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Talks on becoming",
+    "speech": "On attention",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 53009,
+    "oratorId": 53,
+    "word": "story",
+    "definition": "An account of incidents or events; narrative as power.",
+    "example": "You get a story. You get a story. Everybody gets a story—and the story we tell becomes the life we lead.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Show themes / public talks",
+    "speech": "On story",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 53010,
+    "oratorId": 53,
+    "word": "voice",
+    "definition": "The sound produced in speech; the right and power to be heard.",
+    "example": "For too long, women have not been heard or believed if they dare speak their truth to the power of those men. But their time is up, and their voice is rising.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "courage",
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 53011,
+    "oratorId": 53,
+    "word": "believe",
+    "definition": "Accept as true; feel sure of the truth of.",
+    "example": "For too long, women have not been heard or believed if they dare speak their truth to the power of those men.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "courage",
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 53012,
+    "oratorId": 53,
+    "word": "time",
+    "definition": "The indefinite continued progress of existence; a historical moment.",
+    "example": "Their time is up.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "courage",
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 53013,
+    "oratorId": 53,
+    "word": "intention",
+    "definition": "A thing intended; an aim or plan.",
+    "example": "Intention rules the day—when you know what you want and why, action finds a road.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Leadership talks",
+    "speech": "On intention",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 53014,
+    "oratorId": 53,
+    "word": "excellence",
+    "definition": "The quality of being outstanding or extremely good.",
+    "example": "Excellence is the best deterrent to racism or sexism or any other kind of -ism—you do the work so well they cannot deny you.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Career advice addresses",
+    "speech": "On excellence",
+    "categories": [
+      "leadership",
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 53015,
+    "oratorId": 53,
+    "word": "deterrent",
+    "definition": "A thing that discourages or is intended to discourage an action.",
+    "example": "Excellence is the best deterrent to racism or sexism.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Career advice addresses",
+    "speech": "On excellence",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 53016,
+    "oratorId": 53,
+    "word": "rise",
+    "definition": "Move from a lower to a higher position; come into power or notice.",
+    "example": "I want all the girls watching here and now to know that a new day is on the horizon—and when that new day finally dawns, it will be because of a lot of magnificent women, and some pretty phenomenal men, fighting hard to make sure that they become the leaders who take us to the time when nobody ever has to say 'Me too' again—when we all rise.",
+    "partOfSpeech": "verb",
+    "complexity": "basic",
+    "source": "Golden Globes Cecil B. DeMille address",
+    "speech": "Golden Globes 2018",
+    "categories": [
+      "inspirational",
+      "courage",
+      "leadership"
+    ]
+  }
+]

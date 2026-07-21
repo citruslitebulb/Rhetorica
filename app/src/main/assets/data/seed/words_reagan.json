@@ -1,0 +1,251 @@
+[
+  {
+    "id": 40401,
+    "oratorId": 40,
+    "word": "freedom",
+    "definition": "The power to act, speak, and think without unjust restraint.",
+    "example": "Freedom is never more than one generation away from extinction. We didn't pass it to our children in the bloodstream.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Various addresses",
+    "speech": "On freedom's inheritance",
+    "categories": [
+      "democracy",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40402,
+    "oratorId": 40,
+    "word": "extinction",
+    "definition": "The state of being destroyed or ending permanently.",
+    "example": "Freedom is never more than one generation away from extinction. We didn't pass it to our children in the bloodstream.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Various addresses",
+    "speech": "On freedom's inheritance",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 40403,
+    "oratorId": 40,
+    "word": "prosperity",
+    "definition": "A condition of economic well-being and thriving.",
+    "example": "If you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: come here to this gate.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Berlin Wall Address",
+    "speech": "Tear Down This Wall (Brandenburg Gate)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 40404,
+    "oratorId": 40,
+    "word": "liberalization",
+    "definition": "The process of making laws or systems less restrictive.",
+    "example": "If you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: come here to this gate.",
+    "partOfSpeech": "noun",
+    "complexity": "advanced",
+    "source": "Berlin Wall Address",
+    "speech": "Tear Down This Wall (Brandenburg Gate)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 40405,
+    "oratorId": 40,
+    "word": "gate",
+    "definition": "An opening that controls entry; here, a political threshold of change.",
+    "example": "Mr. Gorbachev, open this gate! Mr. Gorbachev, tear down this wall!",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Berlin Wall Address",
+    "speech": "Tear Down This Wall (Brandenburg Gate)",
+    "categories": [
+      "democracy",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40406,
+    "oratorId": 40,
+    "word": "evil",
+    "definition": "Profoundly immoral and destructive force or system.",
+    "example": "I urge you to beware the temptation of pride—the temptation of blithely declaring yourselves above it all and label both sides equally at fault, to ignore the facts of history and the aggressive impulses of an evil empire.",
+    "partOfSpeech": "adjective",
+    "complexity": "basic",
+    "source": "Evil Empire Speech",
+    "speech": "Evil Empire (National Association of Evangelicals)",
+    "categories": [
+      "courage",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 40407,
+    "oratorId": 40,
+    "word": "empire",
+    "definition": "A vast political dominion; here, a system of coercive power.",
+    "example": "I urge you to beware the temptation of pride—the temptation to ignore the facts of history and the aggressive impulses of an evil empire.",
+    "partOfSpeech": "noun",
+    "complexity": "intermediate",
+    "source": "Evil Empire Speech",
+    "speech": "Evil Empire (National Association of Evangelicals)",
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40408,
+    "oratorId": 40,
+    "word": "morning",
+    "definition": "The beginning of day; metaphorically, a renewed national spirit.",
+    "example": "It's morning again in America—and under the leadership of hope, work seems possible again.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "1984 campaign theme",
+    "speech": "Morning in America",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 40409,
+    "oratorId": 40,
+    "word": "shining",
+    "definition": "Giving off or reflecting bright light; radiantly exemplary.",
+    "example": "I've spoken of the shining city all my political life, but I don't know if I ever quite communicated what I saw when I said it.",
+    "partOfSpeech": "adjective",
+    "complexity": "intermediate",
+    "source": "Farewell Address",
+    "speech": "Farewell Address to the Nation",
+    "categories": [
+      "inspirational",
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40410,
+    "oratorId": 40,
+    "word": "city",
+    "definition": "A large community; in Reagan's image, the American ideal made visible.",
+    "example": "In my mind it was a tall, proud city built on rocks stronger than oceans, wind-swept, God-blessed, and teeming with people of all kinds living in harmony and peace.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Farewell Address",
+    "speech": "Farewell Address to the Nation",
+    "categories": [
+      "democracy",
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40411,
+    "oratorId": 40,
+    "word": "trust",
+    "definition": "Firm belief in reliability, truth, or ability.",
+    "example": "The nine most terrifying words in the English language are: I'm from the government, and I'm here to help—a line that mocked misplaced trust in bureaucracy.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Press conference quip",
+    "speech": "On government and trust",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 40412,
+    "oratorId": 40,
+    "word": "negotiate",
+    "definition": "To discuss in order to reach an agreement.",
+    "example": "We can negotiate from strength; peace is not the absence of principle, but the product of clear purpose.",
+    "partOfSpeech": "verb",
+    "complexity": "intermediate",
+    "source": "Arms control addresses",
+    "speech": "Peace through strength",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 40413,
+    "oratorId": 40,
+    "word": "strength",
+    "definition": "Capacity for force or endurance; power to resist pressure.",
+    "example": "We maintain strength not to make war, but so that peace can be negotiated without surrender.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Defense and diplomacy addresses",
+    "speech": "Peace through strength",
+    "categories": [
+      "leadership",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40414,
+    "oratorId": 40,
+    "word": "dream",
+    "definition": "A cherished aspiration or ideal for the future.",
+    "example": "America is too great for small dreams; our dream is large enough to include the stranger at the gate.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Inaugural and campaign addresses",
+    "speech": "On the American dream",
+    "categories": [
+      "inspirational",
+      "democracy"
+    ]
+  },
+  {
+    "id": 40415,
+    "oratorId": 40,
+    "word": "hero",
+    "definition": "A person admired for courage, outstanding achievements, or noble qualities.",
+    "example": "Those who say that we are in a time when there are no heroes just don't know where to look—heroes still walk among us.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "inspirational",
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 40416,
+    "oratorId": 40,
+    "word": "peace",
+    "definition": "Freedom from war and violent conflict; ordered calm among nations.",
+    "example": "Peace is not absence of conflict; it is the ability to handle conflict by peaceful means while liberty stands.",
+    "partOfSpeech": "noun",
+    "complexity": "basic",
+    "source": "Diplomatic addresses",
+    "speech": "On peace and liberty",
+    "categories": [
+      "leadership",
+      "democracy",
+      "inspirational"
+    ]
+  }
+]
