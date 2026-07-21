@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40222,
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40223,
@@ -33,7 +41,11 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement",
     "speech": "Statement from the Dock at the Rivonia Trial",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40224,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
     "speech": "Address on education",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40225,
@@ -57,7 +73,11 @@
     "complexity": "intermediate",
     "source": "Speech at the University of the Witwatersrand",
     "speech": "Address on education",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40226,
@@ -69,7 +89,11 @@
     "complexity": "intermediate",
     "source": "Various speeches and interviews",
     "speech": "Multiple addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40227,
@@ -81,19 +105,10 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
     "speech": "Various post-release addresses",
-    "categories": ["humanities", "democracy"]
-  },
-  {
-    "id": 40228,
-    "word": "chains",
-    "definition": "A series of linked metal rings used for fastening or securing something",
-    "example": "For to be free is not merely to cast off one's chains, but to live in a way that respects and enhances the freedom of others.",
-    "partOfSpeech": "noun",
-    "oratorId": 12,
-    "complexity": "intermediate",
-    "source": "Long Walk to Freedom (autobiography; often delivered in speeches)",
-    "speech": "Various post-release addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40229,
@@ -105,7 +120,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Various reconciliation addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40230,
@@ -117,7 +136,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Autobiographical reflections in speeches",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40231,
@@ -129,7 +152,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom / post-presidency interviews",
     "speech": "Various",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40232,
@@ -141,7 +168,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Reflections after release",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40233,
@@ -153,7 +184,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Reflections after release",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40234,
@@ -165,7 +200,11 @@
     "complexity": "intermediate",
     "source": "Long Walk to Freedom",
     "speech": "Autobiography and later speeches",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40235,
@@ -177,7 +216,9 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40236,
@@ -189,7 +230,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40237,
@@ -201,7 +246,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40238,
@@ -213,7 +262,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40239,
@@ -225,7 +278,11 @@
     "complexity": "intermediate",
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40240,
@@ -237,6 +294,10 @@
     "complexity": "intermediate",
     "source": "Rivonia Trial Statement / Long Walk to Freedom",
     "speech": "Statement from the Dock",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   }
 ]

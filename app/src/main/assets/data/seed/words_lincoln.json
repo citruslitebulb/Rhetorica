@@ -9,7 +9,10 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "democracy"]
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40082,
@@ -21,7 +24,11 @@
     "complexity": "advanced",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40083,
@@ -33,7 +40,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40084,
@@ -45,7 +56,11 @@
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40085,
@@ -57,7 +72,11 @@
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40086,
@@ -69,7 +88,11 @@
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40087,
@@ -81,7 +104,11 @@
     "complexity": "intermediate",
     "source": "House Divided Speech",
     "speech": "House Divided Speech (Illinois Republican Convention)",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40088,
@@ -93,7 +120,9 @@
     "complexity": "intermediate",
     "source": "House Divided Speech",
     "speech": "House Divided Speech (Illinois Republican Convention)",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 40089,
@@ -105,11 +134,15 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40090,
-    "word": "bonds",
+    "word": "bond",
     "definition": "A force or feeling that unites people; a shared emotion or interest",
     "example": "We are not enemies, but friends. We must not be enemies. Though passion may have strained it must not break our bonds of affection.",
     "partOfSpeech": "noun",
@@ -117,7 +150,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40091,
@@ -129,7 +166,11 @@
     "complexity": "intermediate",
     "source": "Cooper Union Address",
     "speech": "Cooper Union Address",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40092,
@@ -141,7 +182,11 @@
     "complexity": "intermediate",
     "source": "Cooper Union Address",
     "speech": "Cooper Union Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40093,
@@ -153,7 +198,11 @@
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40094,
@@ -165,7 +214,11 @@
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40095,
@@ -177,7 +230,11 @@
     "complexity": "advanced",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40096,
@@ -189,7 +246,10 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["leadership", "courage"]
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40097,
@@ -201,7 +261,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40098,
@@ -213,7 +277,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40099,
@@ -225,7 +293,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40100,
@@ -237,7 +309,11 @@
     "complexity": "intermediate",
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40364,
@@ -247,7 +323,11 @@
     "example": "We cannot consecrate this ground—the dead have already made it holy beyond our poor power.",
     "partOfSpeech": "verb",
     "complexity": "advanced",
-    "categories": ["humanities", "legacy", "courage"],
+    "categories": [
+      "humanities",
+      "legacy",
+      "courage"
+    ],
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address"
   }

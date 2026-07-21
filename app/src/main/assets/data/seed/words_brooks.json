@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 34002,
@@ -21,7 +23,10 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["inspirational", "leadership"]
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
   },
   {
     "id": 34003,
@@ -33,7 +38,9 @@
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 34004,
@@ -45,7 +52,9 @@
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 34005,
@@ -57,7 +66,9 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 34006,
@@ -69,7 +80,9 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 34007,
@@ -81,7 +94,10 @@
     "complexity": "intermediate",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks to the team",
-    "categories": ["courage", "leadership"]
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   },
   {
     "id": 34008,
@@ -93,7 +109,9 @@
     "complexity": "beginner",
     "source": "Miracle (2004)",
     "speech": "Herb Brooks",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 34009,
@@ -105,19 +123,26 @@
     "complexity": "basic",
     "source": "Miracle",
     "speech": "Locker room speech",
-    "categories": ["courage", "inspirational", "leadership"]
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
   },
   {
     "id": 34010,
     "oratorId": 34,
-    "word": "name-on-the-front",
-    "definition": "Allegiance to the team identity over individual glory (the jersey’s front).",
-    "example": "Name-on-the-front stands at the center of the argument: The name on the front of the jersey is more important than the one on the back.",
+    "word": "team identity",
+    "definition": "Shared allegiance to the group over individual glory; putting the team name ahead of the player’s name.",
+    "example": "Team identity means the name on the front of the jersey matters more than the name on the back.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
     "source": "Miracle",
-    "speech": "Team identity",
-    "categories": ["leadership", "courage"]
+    "speech": "Miracle locker room",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 34011,
@@ -129,7 +154,10 @@
     "complexity": "basic",
     "source": "Miracle",
     "speech": "Locker room speech",
-    "categories": ["courage", "leadership"]
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   },
   {
     "id": 34012,
@@ -141,7 +169,10 @@
     "complexity": "intermediate",
     "source": "Miracle",
     "speech": "Training philosophy",
-    "categories": ["leadership", "courage"]
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 34013,
@@ -153,7 +184,11 @@
     "complexity": "basic",
     "source": "Miracle",
     "speech": "Locker room speech",
-    "categories": ["inspirational", "courage", "legacy"]
+    "categories": [
+      "inspirational",
+      "courage",
+      "legacy"
+    ]
   },
   {
     "id": 34014,
@@ -165,7 +200,10 @@
     "complexity": "basic",
     "source": "Miracle",
     "speech": "Team building",
-    "categories": ["leadership", "inspirational"]
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 34015,
@@ -177,7 +215,11 @@
     "complexity": "intermediate",
     "source": "Miracle",
     "speech": "1980 Olympic hockey",
-    "categories": ["inspirational", "legacy", "courage"]
+    "categories": [
+      "inspirational",
+      "legacy",
+      "courage"
+    ]
   },
   {
     "id": 34016,
@@ -187,7 +229,10 @@
     "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": [
+      "leadership",
+      "courage"
+    ],
     "source": "Miracle (2004)",
     "speech": "Herb Brooks pre-game speech"
   }

@@ -9,11 +9,15 @@
     "complexity": "intermediate",
     "source": "Speech at the United Nations",
     "speech": "Address to the United Nations Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40322,
-    "word": "bullets",
+    "word": "bullet",
     "definition": "A projectile fired from a gun; a word that gains force in public speech.",
     "example": "They thought that the bullets would silence us, but they failed.",
     "partOfSpeech": "noun",
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40323,
@@ -33,19 +41,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40324,
-    "word": "ambitions",
-    "definition": "A strong desire to do or achieve something; a word that gains force in public speech.",
-    "example": "The terrorists thought that they would change my aims and stop my ambitions. But nothing changed in my life except this: weakness, fear and hopelessness died. Strength, power and courage were born.",
-    "partOfSpeech": "noun",
-    "oratorId": 17,
-    "complexity": "intermediate",
-    "source": "United Nations Speech",
-    "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40325,
@@ -57,7 +57,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40326,
@@ -69,7 +73,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40327,
@@ -81,7 +89,9 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40328,
@@ -93,11 +103,13 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40329,
-    "word": "terrorists",
+    "word": "terrorist",
     "definition": "A person who uses unlawful violence and intimidation, especially against civilians, in the pursuit of political aims",
     "example": "The terrorists thought that they would change my aims and stop my ambitions.",
     "partOfSpeech": "noun",
@@ -105,11 +117,15 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40330,
-    "word": "extremists",
+    "word": "extremist",
     "definition": "A person who holds extreme political or religious views",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -117,7 +133,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40331,
@@ -129,7 +149,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40332,
@@ -141,7 +165,11 @@
     "complexity": "intermediate",
     "source": "Various addresses (including UN and Nobel)",
     "speech": "Multiple speeches on education vs. violence",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40333,
@@ -153,7 +181,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40334,
@@ -165,7 +197,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40335,
@@ -177,11 +213,15 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40336,
-    "word": "books",
+    "word": "book",
     "definition": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers",
     "example": "The extremists are afraid of books and pens. The power of education frightens them.",
     "partOfSpeech": "noun",
@@ -189,19 +229,11 @@
     "complexity": "intermediate",
     "source": "United Nations Speech",
     "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40337,
-    "word": "pens",
-    "definition": "An instrument for writing or drawing with ink, typically consisting of a metal nib or ball, or a nylon tip, fitted into a metal or plastic holder",
-    "example": "The extremists are afraid of books and pens. The power of education frightens them.",
-    "partOfSpeech": "noun",
-    "oratorId": 17,
-    "complexity": "intermediate",
-    "source": "United Nations Speech",
-    "speech": "UN Youth Assembly",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40338,
@@ -213,7 +245,11 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40339,
@@ -225,7 +261,9 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 40340,
@@ -237,6 +275,10 @@
     "complexity": "intermediate",
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   }
 ]

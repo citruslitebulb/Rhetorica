@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40002,
@@ -21,7 +25,11 @@
     "complexity": "advanced",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40003,
@@ -33,7 +41,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40004,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40005,
@@ -57,7 +73,11 @@
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40006,
@@ -69,7 +89,10 @@
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["leadership", "courage"]
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40007,
@@ -81,7 +104,11 @@
     "complexity": "advanced",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40008,
@@ -93,19 +120,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40009,
-    "word": "citizens",
-    "definition": "A legally recognized subject or national of a state or commonwealth",
-    "example": "The strongest fortress is not made of stone and timber, but of the goodwill and courage of free citizens.",
-    "partOfSpeech": "noun",
-    "oratorId": 1,
-    "complexity": "intermediate",
-    "source": "Third Philippic",
-    "speech": "Philippic 3",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40010,
@@ -117,7 +136,11 @@
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40011,
@@ -129,7 +152,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40012,
@@ -141,7 +168,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40013,
@@ -153,7 +184,11 @@
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40014,
@@ -165,7 +200,11 @@
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40015,
@@ -177,7 +216,11 @@
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40016,
@@ -189,7 +232,11 @@
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40017,
@@ -201,7 +248,11 @@
     "complexity": "intermediate",
     "source": "Third Philippic",
     "speech": "Philippic 3",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40018,
@@ -213,7 +264,11 @@
     "complexity": "intermediate",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40019,
@@ -225,7 +280,11 @@
     "complexity": "advanced",
     "source": "On the Crown",
     "speech": "On the Crown (De Corona)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40020,
@@ -237,7 +296,11 @@
     "complexity": "intermediate",
     "source": "First Philippic",
     "speech": "Philippic 1",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40363,
@@ -247,7 +310,11 @@
     "example": "Each philippic sharpened the case against Philip until delay itself looked like treason.",
     "partOfSpeech": "noun",
     "complexity": "advanced",
-    "categories": ["democracy", "courage", "leadership"],
+    "categories": [
+      "democracy",
+      "courage",
+      "leadership"
+    ],
     "source": "Philippics",
     "speech": "Philippic 1"
   }

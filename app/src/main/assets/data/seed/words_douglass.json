@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40102,
@@ -21,7 +23,11 @@
     "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40103,
@@ -33,7 +39,11 @@
     "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40104,
@@ -45,7 +55,11 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40105,
@@ -57,7 +71,9 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["tech"]
+    "categories": [
+      "tech"
+    ]
   },
   {
     "id": 40106,
@@ -69,7 +85,11 @@
     "complexity": "advanced",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40107,
@@ -81,19 +101,11 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["leadership", "democracy", "legacy"]
-  },
-  {
-    "id": 40108,
-    "word": "tyrants",
-    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
-    "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
-    "partOfSpeech": "noun",
-    "oratorId": 6,
-    "complexity": "intermediate",
-    "source": "West India Emancipation speech",
-    "speech": "West India Emancipation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40109,
@@ -105,7 +117,11 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40110,
@@ -117,7 +133,10 @@
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
     "speech": "Lectures on literacy and freedom",
-    "categories": ["humanities", "democracy"]
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40111,
@@ -129,7 +148,11 @@
     "complexity": "intermediate",
     "source": "Speech at the American and Foreign Anti-Slavery Society",
     "speech": "Various",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40112,
@@ -141,7 +164,11 @@
     "complexity": "advanced",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40113,
@@ -153,7 +180,11 @@
     "complexity": "intermediate",
     "source": "Speech in England / various American addresses",
     "speech": "Various",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40114,
@@ -165,7 +196,11 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40115,
@@ -177,7 +212,11 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40116,
@@ -189,7 +228,11 @@
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40117,
@@ -201,7 +244,11 @@
     "complexity": "intermediate",
     "source": "What to the Slave Is the Fourth of July?",
     "speech": "What to the Slave Is the Fourth of July?",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40118,
@@ -213,7 +260,11 @@
     "complexity": "intermediate",
     "source": "Speech at the American Anti-Slavery Society",
     "speech": "Various",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40119,
@@ -225,7 +276,11 @@
     "complexity": "intermediate",
     "source": "Various lectures on literacy and freedom",
     "speech": "Lectures on literacy and freedom",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40120,
@@ -237,6 +292,10 @@
     "complexity": "intermediate",
     "source": "West India Emancipation speech",
     "speech": "West India Emancipation",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   }
 ]

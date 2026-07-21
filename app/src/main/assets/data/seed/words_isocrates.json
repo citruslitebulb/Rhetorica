@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40062,
@@ -21,7 +23,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40063,
@@ -33,7 +37,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40064,
@@ -45,7 +51,9 @@
     "complexity": "intermediate",
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40065,
@@ -57,7 +65,9 @@
     "complexity": "intermediate",
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40066,
@@ -69,7 +79,9 @@
     "complexity": "intermediate",
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40067,
@@ -81,7 +93,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40068,
@@ -93,7 +107,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40069,
@@ -105,7 +121,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40070,
@@ -117,7 +135,9 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40071,
@@ -129,7 +149,9 @@
     "complexity": "advanced",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40072,
@@ -141,7 +163,9 @@
     "complexity": "advanced",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40073,
@@ -153,7 +177,9 @@
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40074,
@@ -165,7 +191,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40075,
@@ -177,7 +205,9 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40076,
@@ -189,7 +219,9 @@
     "complexity": "intermediate",
     "source": "Panegyricus",
     "speech": "Panegyricus",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40077,
@@ -201,19 +233,23 @@
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40078,
-    "word": "Self-mastery",
+    "word": "self mastery",
     "definition": "Control of one's emotions, desires, or actions by one's own will",
-    "example": "Self-mastery is the hinge of To Nicocles (letter of advice to a ruler): without it the rest is decoration.",
+    "example": "Self mastery is the hinge of To Nicocles (letter of advice to a ruler): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40079,
@@ -225,7 +261,9 @@
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   },
   {
     "id": 40080,
@@ -237,6 +275,8 @@
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   }
 ]

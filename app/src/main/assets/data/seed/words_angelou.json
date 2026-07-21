@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": ["legacy"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40302,
@@ -21,7 +23,11 @@
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40303,
@@ -33,7 +39,11 @@
     "complexity": "intermediate",
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40304,
@@ -45,11 +55,15 @@
     "complexity": "intermediate",
     "source": "Still I Rise",
     "speech": "Various readings",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40305,
-    "word": "ancestors",
+    "word": "ancestor",
     "definition": "A person, typically one more remote than a grandparent, from whom one is descended",
     "example": "Leaving behind nights of terror and fear I rise into a daybreak that's wondrously clear I rise bringing the gifts that my ancestors gave.",
     "partOfSpeech": "noun",
@@ -57,7 +71,11 @@
     "complexity": "intermediate",
     "source": "Still I Rise",
     "speech": "Public readings",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40306,
@@ -69,7 +87,11 @@
     "complexity": "intermediate",
     "source": "Various interviews and speeches (widely quoted)",
     "speech": "Multiple addresses on leadership and teaching",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40307,
@@ -81,19 +103,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40308,
-    "word": "defeats",
-    "definition": "An instance of being defeated; a word that gains force in public speech.",
-    "example": "We may encounter many defeats but we must not be defeated.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate",
-    "source": "Various addresses on resilience",
-    "speech": "Multiple speeches",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40309,
@@ -105,7 +119,11 @@
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom shared in speeches",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40310,
@@ -117,7 +135,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40311,
@@ -129,7 +151,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40312,
@@ -141,7 +167,11 @@
     "complexity": "advanced",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40313,
@@ -153,7 +183,11 @@
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40314,
@@ -165,7 +199,11 @@
     "complexity": "intermediate",
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40315,
@@ -177,19 +215,11 @@
     "complexity": "intermediate",
     "source": "Various interviews and talks on personal growth",
     "speech": "Multiple addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40316,
-    "word": "virtues",
-    "definition": "Behavior showing high moral standards; a word that gains force in public speech.",
-    "example": "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
-    "partOfSpeech": "noun",
-    "oratorId": 16,
-    "complexity": "intermediate",
-    "source": "Various public talks",
-    "speech": "Multiple addresses",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40317,
@@ -201,7 +231,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40318,
@@ -213,7 +247,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches",
     "speech": "Multiple",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40319,
@@ -225,7 +263,11 @@
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40320,
@@ -237,6 +279,10 @@
     "complexity": "intermediate",
     "source": "Various interviews",
     "speech": "Public wisdom",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   }
 ]

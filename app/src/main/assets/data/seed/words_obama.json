@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40282,
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40283,
@@ -33,7 +41,11 @@
     "complexity": "advanced",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40284,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40285,
@@ -57,7 +73,11 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40286,
@@ -69,19 +89,9 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": ["legacy"]
-  },
-  {
-    "id": 40287,
-    "word": "cynics",
-    "definition": "A person who believes that people are motivated purely by self-interest",
-    "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
-    "partOfSpeech": "noun",
-    "oratorId": 15,
-    "complexity": "intermediate",
-    "source": "A More Perfect Union (Race Speech)",
-    "speech": "A More Perfect Union (Philadelphia)",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40288,
@@ -93,7 +103,9 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": ["democracy"]
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40289,
@@ -105,7 +117,9 @@
     "complexity": "intermediate",
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Concession Speech",
-    "categories": ["legacy"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40290,
@@ -117,31 +131,43 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40291,
-    "word": "Short-cuts",
+    "word": "shortcut",
     "definition": "An alternative route that is shorter than the one usually taken",
-    "example": "Our journey has never been one of short-cuts or settling for less.",
+    "example": "Our journey has never been one of shortcuts or settling for less.",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
     "speech": "Election Night Victory Speech (Grant Park, Chicago)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40292,
-    "word": "Faint-hearted",
+    "word": "fainthearted",
     "definition": "Lacking courage or determination; a word that gains force in public speech.",
-    "example": "Our journey has never been one of short-cuts or settling for less. It has not been the path for the faint-hearted.",
+    "example": "Our journey has never been one of shortcuts or settling for less. It has not been the path for the fainthearted.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "2008 Victory Speech",
     "speech": "Election Night Victory Speech (Grant Park, Chicago)",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40293,
@@ -153,7 +179,9 @@
     "complexity": "intermediate",
     "source": "Their Finest Hour (Churchill, but used in context)",
     "speech": "Various",
-    "categories": ["legacy"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40294,
@@ -165,7 +193,11 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40295,
@@ -177,7 +209,11 @@
     "complexity": "intermediate",
     "source": "2004 Democratic National Convention Keynote",
     "speech": "Democratic National Convention Keynote Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40296,
@@ -189,7 +225,11 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40297,
@@ -201,7 +241,11 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40298,
@@ -213,7 +257,11 @@
     "complexity": "intermediate",
     "source": "2008 Democratic National Convention Acceptance Speech",
     "speech": "Democratic National Convention Acceptance",
-    "categories": ["inspirational", "leadership", "courage"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 40299,
@@ -225,7 +273,11 @@
     "complexity": "intermediate",
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40300,
@@ -237,6 +289,10 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   }
 ]

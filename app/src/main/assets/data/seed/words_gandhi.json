@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "Various writings and speeches (often attributed)",
     "speech": "Young India and public addresses",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40242,
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Public addresses on non-violence",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40243,
@@ -33,7 +41,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Addresses on non-violence and reconciliation",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40244,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "Various (widely attributed)",
     "speech": "Public teachings",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40245,
@@ -57,7 +73,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On satyagraha and personal discipline",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40246,
@@ -69,7 +89,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On satyagraha and personal discipline",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40247,
@@ -81,7 +105,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth (satya) and integrity",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40248,
@@ -93,7 +121,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth (satya) and integrity",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40249,
@@ -105,7 +137,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "Public exhortations",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40250,
@@ -117,7 +153,11 @@
     "complexity": "intermediate",
     "source": "Young India / Harijan",
     "speech": "Writings on satyagraha",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40251,
@@ -129,19 +169,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On swaraj (self-rule) and liberty",
-    "categories": ["humanities", "inspirational", "legacy"]
-  },
-  {
-    "id": 40252,
-    "word": "Non-violence",
-    "definition": "The use of peaceful means, not force, to bring about political or social change",
-    "example": "Non-violence is the greatest force at the disposal of mankind.",
-    "partOfSpeech": "noun",
-    "oratorId": 13,
-    "complexity": "intermediate",
-    "source": "Young India / Harijan",
-    "speech": "Writings on satyagraha",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40253,
@@ -153,7 +185,11 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth and courage",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40254,
@@ -165,7 +201,11 @@
     "complexity": "intermediate",
     "source": "Various (widely attributed in his writings on trusteeship and simplicity)",
     "speech": "On economics and simple living",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   },
   {
     "id": 40255,
@@ -177,7 +217,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On hope during the independence struggle",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40256,
@@ -189,7 +233,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On hope during the independence struggle",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40257,
@@ -201,7 +249,11 @@
     "complexity": "intermediate",
     "source": "Various",
     "speech": "On non-violence",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40258,
@@ -213,7 +265,9 @@
     "complexity": "intermediate",
     "source": "Various writings",
     "speech": "On truth and courage",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 40259,
@@ -225,7 +279,11 @@
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
     "speech": "On ethics and civilization",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40260,
@@ -237,6 +295,8 @@
     "complexity": "intermediate",
     "source": "Various (often in writings on compassion)",
     "speech": "On ethics and civilization",
-    "categories": ["humanities"]
+    "categories": [
+      "humanities"
+    ]
   }
 ]

@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Rudy (1993)",
     "speech": "Rudy's mantra",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33002,
@@ -21,7 +23,9 @@
     "complexity": "advanced",
     "source": "Rudy (1993)",
     "speech": "Fortune's Truth",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33003,
@@ -33,7 +37,9 @@
     "complexity": "beginner",
     "source": "Rudy (1993)",
     "speech": "Pete's advice",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 33004,
@@ -45,7 +51,9 @@
     "complexity": "intermediate",
     "source": "Rudy (1993)",
     "speech": "Rudy's resolve",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33005,
@@ -57,7 +65,9 @@
     "complexity": "beginner",
     "source": "Rudy (1993)",
     "speech": "Rudy's mantra",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33006,
@@ -69,7 +79,9 @@
     "complexity": "intermediate",
     "source": "Rudy (1993)",
     "speech": "Rudy's resolve",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33007,
@@ -81,7 +93,10 @@
     "complexity": "beginner",
     "source": "Rudy (1993)",
     "speech": "Pete",
-    "categories": ["legacy", "courage"]
+    "categories": [
+      "legacy",
+      "courage"
+    ]
   },
   {
     "id": 33008,
@@ -93,7 +108,9 @@
     "complexity": "intermediate",
     "source": "Rudy (1993)",
     "speech": "Fortune's Truth",
-    "categories": ["courage"]
+    "categories": [
+      "courage"
+    ]
   },
   {
     "id": 33009,
@@ -105,7 +122,10 @@
     "complexity": "basic",
     "source": "Rudy",
     "speech": "Rudy's pursuit",
-    "categories": ["courage", "inspirational"]
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   },
   {
     "id": 33010,
@@ -117,7 +137,10 @@
     "complexity": "basic",
     "source": "Rudy",
     "speech": "Practice field",
-    "categories": ["leadership", "courage"]
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 33011,
@@ -129,7 +152,10 @@
     "complexity": "intermediate",
     "source": "Rudy",
     "speech": "Team practice",
-    "categories": ["courage", "inspirational"]
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   },
   {
     "id": 33012,
@@ -141,7 +167,11 @@
     "complexity": "intermediate",
     "source": "Rudy",
     "speech": "Team loyalty",
-    "categories": ["leadership", "legacy", "inspirational"]
+    "categories": [
+      "leadership",
+      "legacy",
+      "inspirational"
+    ]
   },
   {
     "id": 33013,
@@ -153,7 +183,10 @@
     "complexity": "intermediate",
     "source": "Rudy",
     "speech": "Underdog story",
-    "categories": ["courage", "inspirational"]
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   },
   {
     "id": 33014,
@@ -165,7 +198,10 @@
     "complexity": "basic",
     "source": "Rudy",
     "speech": "Stadium moment",
-    "categories": ["legacy", "inspirational"]
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
   },
   {
     "id": 33015,
@@ -177,7 +213,10 @@
     "complexity": "basic",
     "source": "Rudy",
     "speech": "Rudy's pursuit",
-    "categories": ["courage", "leadership"]
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   },
   {
     "id": 33016,
@@ -187,7 +226,10 @@
     "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": [
+      "leadership",
+      "courage"
+    ],
     "source": "Rudy (1993)",
     "speech": "Rudy's mantra"
   }

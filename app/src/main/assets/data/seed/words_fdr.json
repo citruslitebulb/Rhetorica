@@ -9,7 +9,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40202,
@@ -21,7 +25,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40203,
@@ -33,7 +41,11 @@
     "complexity": "advanced",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40204,
@@ -45,7 +57,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40205,
@@ -57,7 +73,11 @@
     "complexity": "intermediate",
     "source": "Speech accepting the Democratic nomination",
     "speech": "Democratic National Convention acceptance",
-    "categories": ["arts", "humanities", "legacy"]
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 40206,
@@ -69,7 +89,11 @@
     "complexity": "intermediate",
     "source": "Second Inaugural Address",
     "speech": "Second Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40207,
@@ -81,7 +105,11 @@
     "complexity": "advanced",
     "source": "Day of Infamy Speech",
     "speech": "Address to Congress requesting declaration of war",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40208,
@@ -93,7 +121,10 @@
     "complexity": "intermediate",
     "source": "Four Freedoms Speech",
     "speech": "State of the Union Address (Four Freedoms)",
-    "categories": ["humanities", "democracy"]
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
   },
   {
     "id": 40209,
@@ -105,7 +136,11 @@
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
     "speech": "Fireside Chat on national security",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40210,
@@ -117,7 +152,9 @@
     "complexity": "intermediate",
     "source": "Arsenal of Democracy (Fireside Chat)",
     "speech": "Fireside Chat on national security",
-    "categories": ["democracy"]
+    "categories": [
+      "democracy"
+    ]
   },
   {
     "id": 40211,
@@ -129,7 +166,11 @@
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
     "speech": "Arsenal of Democracy Fireside Chat",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40212,
@@ -141,11 +182,15 @@
     "complexity": "advanced",
     "source": "Fireside Chat on national security",
     "speech": "Arsenal of Democracy Fireside Chat",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40213,
-    "word": "doubts",
+    "word": "doubt",
     "definition": "A feeling of uncertainty or lack of conviction; a word that gains force in public speech.",
     "example": "The only limit to our realization of tomorrow will be our doubts of today.",
     "partOfSpeech": "noun",
@@ -153,7 +198,11 @@
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
     "speech": "Undelivered address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40214,
@@ -165,7 +214,11 @@
     "complexity": "intermediate",
     "source": "Undelivered Jefferson Day address (written the day before his death)",
     "speech": "Undelivered address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40215,
@@ -177,7 +230,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40216,
@@ -189,7 +246,11 @@
     "complexity": "intermediate",
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40217,
@@ -201,7 +262,11 @@
     "complexity": "advanced",
     "source": "Fourth Inaugural Address",
     "speech": "Fourth Inaugural Address",
-    "categories": ["democracy", "humanities", "courage"]
+    "categories": [
+      "democracy",
+      "humanities",
+      "courage"
+    ]
   },
   {
     "id": 40218,
@@ -213,11 +278,15 @@
     "complexity": "intermediate",
     "source": "Fourth Inaugural Address",
     "speech": "Fourth Inaugural Address",
-    "categories": ["courage", "leadership", "legacy"]
+    "categories": [
+      "courage",
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 40219,
-    "word": "prisoners",
+    "word": "prisoner",
     "definition": "A person captured and kept confined by an enemy or criminal",
     "example": "Men are not prisoners of fate, but only prisoners of their own minds.",
     "partOfSpeech": "noun",
@@ -225,7 +294,11 @@
     "complexity": "intermediate",
     "source": "Pan American Day Address",
     "speech": "Pan American Day Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": [
+      "humanities",
+      "inspirational",
+      "legacy"
+    ]
   },
   {
     "id": 40220,
@@ -237,6 +310,10 @@
     "complexity": "intermediate",
     "source": "Pan American Day Address",
     "speech": "Pan American Day Address",
-    "categories": ["leadership", "democracy", "legacy"]
+    "categories": [
+      "leadership",
+      "democracy",
+      "legacy"
+    ]
   }
 ]

@@ -1,15 +1,17 @@
 [
   {
     "id": 36001,
-    "word": "fundamentals",
-    "definition": "The basic principles or elements of a subject or skill; the essential parts.",
+    "word": "fundamental",
+    "definition": "A basic principle or element of a subject or skill; an essential part.",
     "example": "I've seen you guys can shoot but there's more to the game than shooting. There's fundamentals and defense.",
     "partOfSpeech": "noun",
     "oratorId": 36,
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Practice",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 36002,
@@ -21,7 +23,9 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 36003,
@@ -33,7 +37,9 @@
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "On teamwork",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 36004,
@@ -45,7 +51,10 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["courage", "leadership"]
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   },
   {
     "id": 36005,
@@ -57,7 +66,9 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Early practice",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 36006,
@@ -69,7 +80,9 @@
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 36007,
@@ -81,7 +94,10 @@
     "complexity": "intermediate",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["legacy", "leadership"]
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
   },
   {
     "id": 36008,
@@ -93,7 +109,10 @@
     "complexity": "beginner",
     "source": "Hoosiers (1986)",
     "speech": "Pre-game speech at regional finals",
-    "categories": ["courage", "inspirational"]
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   },
   {
     "id": 36009,
@@ -105,7 +124,10 @@
     "complexity": "basic",
     "source": "Hoosiers",
     "speech": "Coach Dale talks",
-    "categories": ["leadership", "inspirational"]
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 36010,
@@ -117,19 +139,27 @@
     "complexity": "intermediate",
     "source": "Hoosiers",
     "speech": "State finals calm",
-    "categories": ["courage", "inspirational", "leadership"]
+    "categories": [
+      "courage",
+      "inspirational",
+      "leadership"
+    ]
   },
   {
     "id": 36011,
     "oratorId": 36,
-    "word": "small-town",
+    "word": "small town",
     "definition": "Characteristic of a small community; often underestimated.",
-    "example": "A small-town team can still walk into a palace if their habits are bigger than the building.",
+    "example": "A small town team can still walk into a palace if their habits are bigger than the building.",
     "partOfSpeech": "adjective",
     "complexity": "intermediate",
     "source": "Hoosiers",
     "speech": "Underdog season",
-    "categories": ["inspirational", "legacy", "courage"]
+    "categories": [
+      "inspirational",
+      "legacy",
+      "courage"
+    ]
   },
   {
     "id": 36012,
@@ -141,7 +171,10 @@
     "complexity": "basic",
     "source": "Hoosiers",
     "speech": "Team basketball",
-    "categories": ["leadership", "inspirational"]
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 36013,
@@ -153,7 +186,10 @@
     "complexity": "intermediate",
     "source": "Hoosiers",
     "speech": "Game preparation",
-    "categories": ["courage", "leadership"]
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   },
   {
     "id": 36014,
@@ -165,7 +201,10 @@
     "complexity": "intermediate",
     "source": "Hoosiers",
     "speech": "Season arc",
-    "categories": ["inspirational", "courage"]
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
   },
   {
     "id": 36015,
@@ -175,7 +214,10 @@
     "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": [
+      "leadership",
+      "courage"
+    ],
     "source": "Hoosiers (1986)",
     "speech": "Practice"
   },
@@ -187,7 +229,10 @@
     "example": "Clarity is kindness in speech—confusion is often a way to hide.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "humanities"],
+    "categories": [
+      "leadership",
+      "humanities"
+    ],
     "source": "Hoosiers (1986)",
     "speech": "Practice"
   }

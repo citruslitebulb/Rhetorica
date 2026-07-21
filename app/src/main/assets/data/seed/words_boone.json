@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 35002,
@@ -21,7 +23,9 @@
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 35003,
@@ -33,7 +37,10 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["humanities", "leadership"]
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
   },
   {
     "id": 35004,
@@ -45,7 +52,10 @@
     "complexity": "intermediate",
     "source": "Remember the Titans (2000)",
     "speech": "Julius to Gerry",
-    "categories": ["leadership", "inspirational"]
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 35005,
@@ -57,7 +67,10 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Julius to Gerry",
-    "categories": ["inspirational", "leadership"]
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
   },
   {
     "id": 35006,
@@ -69,7 +82,9 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Gerry and Julius bonding",
-    "categories": ["leadership"]
+    "categories": [
+      "leadership"
+    ]
   },
   {
     "id": 35007,
@@ -81,7 +96,10 @@
     "complexity": "beginner",
     "source": "Remember the Titans (2000)",
     "speech": "Coach Boone",
-    "categories": ["courage", "inspirational"]
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   },
   {
     "id": 35008,
@@ -93,7 +111,10 @@
     "complexity": "advanced",
     "source": "Remember the Titans (2000)",
     "speech": "Gettysburg speech",
-    "categories": ["humanities", "legacy"]
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
   },
   {
     "id": 35009,
@@ -105,7 +126,10 @@
     "complexity": "basic",
     "source": "Remember the Titans",
     "speech": "Team speeches",
-    "categories": ["leadership", "inspirational"]
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 35010,
@@ -117,19 +141,26 @@
     "complexity": "intermediate",
     "source": "Remember the Titans",
     "speech": "Training standards",
-    "categories": ["leadership", "courage"]
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   },
   {
     "id": 35011,
     "oratorId": 35,
-    "word": "left-side",
+    "word": "left side",
     "definition": "A call of unity and strength from one half of a divided team.",
-    "example": "Left-side stands at the center of the argument: Left side! Strong side!—the chant that turned two sides into one body.",
+    "example": "Left side stands at the center of the argument: Left side! Strong side!—the chant that turned two sides into one body.",
     "partOfSpeech": "noun",
     "complexity": "basic",
     "source": "Remember the Titans",
     "speech": "Team unity",
-    "categories": ["leadership", "courage", "democracy"]
+    "categories": [
+      "leadership",
+      "courage",
+      "democracy"
+    ]
   },
   {
     "id": 35012,
@@ -141,7 +172,10 @@
     "complexity": "basic",
     "source": "Remember the Titans",
     "speech": "Team meetings",
-    "categories": ["leadership", "humanities"]
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
   },
   {
     "id": 35013,
@@ -153,7 +187,10 @@
     "complexity": "basic",
     "source": "Remember the Titans",
     "speech": "Season arc",
-    "categories": ["leadership", "legacy"]
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
   },
   {
     "id": 35014,
@@ -163,7 +200,10 @@
     "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": [
+      "leadership",
+      "courage"
+    ],
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection"
   },
@@ -175,7 +215,10 @@
     "example": "Clarity is kindness in speech—confusion is often a way to hide.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "humanities"],
+    "categories": [
+      "leadership",
+      "humanities"
+    ],
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection"
   },
@@ -187,7 +230,11 @@
     "example": "Integrity is what you do when the speech ends and no one is applauding.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "legacy", "humanities"],
+    "categories": [
+      "leadership",
+      "legacy",
+      "humanities"
+    ],
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection"
   }

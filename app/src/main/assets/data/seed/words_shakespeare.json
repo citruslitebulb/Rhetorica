@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40342,
@@ -21,7 +23,9 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40343,
@@ -33,7 +37,9 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40344,
@@ -45,7 +51,9 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40345,
@@ -57,7 +65,9 @@
     "complexity": "intermediate",
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40346,
@@ -69,7 +79,9 @@
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 3 Scene 1",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40347,
@@ -81,7 +93,9 @@
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40348,
@@ -93,7 +107,9 @@
     "complexity": "intermediate",
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40349,
@@ -105,7 +121,9 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40350,
@@ -117,7 +135,9 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40351,
@@ -129,7 +149,9 @@
     "complexity": "advanced",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40352,
@@ -141,7 +163,9 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40353,
@@ -153,7 +177,9 @@
     "complexity": "intermediate",
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40354,
@@ -165,7 +191,9 @@
     "complexity": "intermediate",
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40355,
@@ -177,7 +205,9 @@
     "complexity": "intermediate",
     "source": "Richard III",
     "speech": "Richard III, Act 1 Scene 1 (Opening soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40356,
@@ -189,7 +219,9 @@
     "complexity": "intermediate",
     "source": "Richard III",
     "speech": "Richard III, Act 5 Scene 4",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40357,
@@ -201,7 +233,9 @@
     "complexity": "intermediate",
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40358,
@@ -213,11 +247,13 @@
     "complexity": "intermediate",
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40359,
-    "word": "stars",
+    "word": "star",
     "definition": "A fixed luminous point in the night sky that is a large, remote incandescent body like the sun",
     "example": "The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.",
     "partOfSpeech": "noun",
@@ -225,7 +261,9 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 1 Scene 2 (Cassius to Brutus)",
-    "categories": ["arts"]
+    "categories": [
+      "arts"
+    ]
   },
   {
     "id": 40360,
@@ -237,7 +275,10 @@
     "complexity": "intermediate",
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 2 Scene 2 (Caesar to Calpurnia)",
-    "categories": ["courage", "arts"]
+    "categories": [
+      "courage",
+      "arts"
+    ]
   },
   {
     "id": 40367,
@@ -247,7 +288,10 @@
     "example": "Hamlet’s soliloquy turns private dread into public philosophy of action and delay.",
     "partOfSpeech": "noun",
     "complexity": "advanced",
-    "categories": ["arts", "humanities"],
+    "categories": [
+      "arts",
+      "humanities"
+    ],
     "source": "Hamlet",
     "speech": "To be, or not to be"
   },
@@ -259,7 +303,11 @@
     "example": "Thus conscience does make cowards of us all—and turns resolution pale with thought.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["humanities", "courage", "arts"],
+    "categories": [
+      "humanities",
+      "courage",
+      "arts"
+    ],
     "source": "Hamlet",
     "speech": "To be, or not to be"
   }

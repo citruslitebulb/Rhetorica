@@ -9,7 +9,10 @@
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["tech", "inspirational"]
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   },
   {
     "id": 22002,
@@ -21,7 +24,10 @@
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["tech", "inspirational"]
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   },
   {
     "id": 22003,
@@ -33,19 +39,26 @@
     "complexity": "intermediate",
     "source": "Interviews and talks on innovation",
     "speech": "First Principles Thinking",
-    "categories": ["tech", "leadership"]
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   },
   {
     "id": 22004,
-    "word": "principles",
-    "definition": "Fundamental truths or propositions that serve as the foundation for a system of belief or behavior.",
+    "word": "principle",
+    "definition": "A fundamental truth or proposition that serves as the foundation for a system of belief or behavior.",
     "example": "First principles mean boiling things down to fundamental truths and then reasoning up from there.",
     "partOfSpeech": "noun",
     "oratorId": 22,
     "complexity": "intermediate",
     "source": "Talks on first principles",
     "speech": "First Principles Thinking",
-    "categories": ["tech", "inspirational", "leadership"]
+    "categories": [
+      "tech",
+      "inspirational",
+      "leadership"
+    ]
   },
   {
     "id": 22005,
@@ -57,7 +70,10 @@
     "complexity": "intermediate",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["tech", "inspirational"]
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   },
   {
     "id": 22006,
@@ -69,7 +85,9 @@
     "complexity": "intermediate",
     "source": "Talks on reusable rockets",
     "speech": "Making Life Multiplanetary",
-    "categories": ["tech"]
+    "categories": [
+      "tech"
+    ]
   },
   {
     "id": 22007,
@@ -81,7 +99,11 @@
     "complexity": "intermediate",
     "source": "Talks on determination",
     "speech": "Personal Philosophy",
-    "categories": ["tech", "leadership", "inspirational"]
+    "categories": [
+      "tech",
+      "leadership",
+      "inspirational"
+    ]
   },
   {
     "id": 22008,
@@ -93,7 +115,11 @@
     "complexity": "intermediate",
     "source": "Talks on mindset and optimism",
     "speech": "Optimism and Progress",
-    "categories": ["inspirational", "leadership", "tech"]
+    "categories": [
+      "inspirational",
+      "leadership",
+      "tech"
+    ]
   },
   {
     "id": 22009,
@@ -105,7 +131,9 @@
     "complexity": "intermediate",
     "source": "STVP Future Fest talk",
     "speech": "Future of Humanity",
-    "categories": ["tech"]
+    "categories": [
+      "tech"
+    ]
   },
   {
     "id": 22010,
@@ -117,7 +145,10 @@
     "complexity": "advanced",
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
-    "categories": ["tech", "inspirational"]
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   },
   {
     "id": 22011,
@@ -129,7 +160,10 @@
     "complexity": "intermediate",
     "source": "Talks on innovation framework",
     "speech": "First Principles Thinking",
-    "categories": ["tech", "leadership"]
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   },
   {
     "id": 22012,
@@ -141,7 +175,10 @@
     "complexity": "advanced",
     "source": "Starship updates",
     "speech": "Starship Update",
-    "categories": ["tech", "leadership"]
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   },
   {
     "id": 22013,
@@ -153,7 +190,10 @@
     "complexity": "intermediate",
     "source": "Engineering talks",
     "speech": "Engineering discussions",
-    "categories": ["tech", "humanities"]
+    "categories": [
+      "tech",
+      "humanities"
+    ]
   },
   {
     "id": 22014,
@@ -165,7 +205,10 @@
     "complexity": "intermediate",
     "source": "Product launches",
     "speech": "Product and energy talks",
-    "categories": ["tech", "inspirational"]
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   },
   {
     "id": 22015,
@@ -177,7 +220,10 @@
     "complexity": "intermediate",
     "source": "Work culture remarks",
     "speech": "Internal and public remarks",
-    "categories": ["leadership", "tech"]
+    "categories": [
+      "leadership",
+      "tech"
+    ]
   },
   {
     "id": 22016,
@@ -187,7 +233,10 @@
     "example": "Conviction without evidence is noise; conviction after struggle is leadership.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": [
+      "leadership",
+      "courage"
+    ],
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary"
   }

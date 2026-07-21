@@ -9,7 +9,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40122,
@@ -21,7 +23,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40123,
@@ -33,7 +37,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40124,
@@ -45,7 +51,9 @@
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40125,
@@ -57,7 +65,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40126,
@@ -69,7 +79,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40127,
@@ -81,7 +93,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40128,
@@ -93,7 +107,9 @@
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40129,
@@ -105,7 +121,9 @@
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40130,
@@ -117,7 +135,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40131,
@@ -129,11 +149,13 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40132,
-    "word": "thorns",
+    "word": "thorn",
     "definition": "A stiff, sharp-pointed woody projection on the stem or other part of a plant",
     "example": "You shall not press down upon the brow of labor this crown of thorns, you shall not crucify mankind upon a cross of gold.",
     "partOfSpeech": "noun",
@@ -141,7 +163,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40133,
@@ -153,7 +177,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40134,
@@ -165,7 +191,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40135,
@@ -177,7 +205,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40136,
@@ -189,7 +219,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40137,
@@ -201,7 +233,9 @@
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["legacy"]
+    "categories": [
+      "legacy"
+    ]
   },
   {
     "id": 40138,
@@ -213,7 +247,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40139,
@@ -225,7 +261,9 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech (Democratic National Convention)",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   },
   {
     "id": 40140,
@@ -237,6 +275,8 @@
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
-    "categories": ["inspirational"]
+    "categories": [
+      "inspirational"
+    ]
   }
 ]

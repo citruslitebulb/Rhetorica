@@ -17,3 +17,7 @@ Desktop.ini
 # Skills directories
 .cursor/skills/
 .windsurf/skills/
+
+# Local agent / MCP session dumps (not app source)
+mcps/
+terminals/

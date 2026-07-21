@@ -114,7 +114,7 @@ class SeedDataLoader @Inject constructor(
 
     companion object {
         /** Increment when bundled seed assets change. */
-        const val SEED_VERSION = 3
+        const val SEED_VERSION = 5
         private const val PREFS_NAME = "rhetorica_seed"
         private const val KEY_SEED_VERSION = "seed_version"
         private const val MIN_EXPECTED_WORDS = 50
