@@ -3,6 +3,7 @@ package com.rhetorica.app.feature.quiz
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.data.local.UserPreferencesDao
+import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.data.repository.WordOfDaySelector
 import com.rhetorica.app.data.repository.WordRepository
@@ -19,6 +20,11 @@ import kotlinx.coroutines.launch
 enum class QuizMode {
     MultipleChoice,
     WordGuess,
+}
+
+enum class QuizPool {
+    Library,
+    Saved,
 }
 
 /**
@@ -69,6 +75,12 @@ class QuizViewModel @Inject constructor(
         loadForCurrentMode()
     }
 
+    fun setPool(pool: QuizPool) {
+        if (_uiState.value.pool == pool) return
+        _uiState.update { it.copy(pool = pool) }
+        loadForCurrentMode()
+    }
+
     fun setDifficulty(difficulty: WordGuessDifficulty) {
         if (_uiState.value.difficulty == difficulty) return
         _uiState.update { it.copy(difficulty = difficulty) }
@@ -108,14 +120,25 @@ class QuizViewModel @Inject constructor(
                 )
             }
 
-            val preferences = userPreferencesDao.getUserPreferences()
+            val preferences = userPreferencesDao.getUserPreferences().orDefault()
+            val visible = wordRepository.resolveVisibleOratorIds(preferences)
             val oratorId = WordOfDaySelector.resolveOratorId(
-                selectedOratorId = preferences?.selectedOratorId,
-                rotateThroughAll = preferences?.rotateThroughAll ?: false,
+                selectedOratorId = preferences.selectedOratorId,
+                rotateThroughAll = preferences.rotateThroughAll,
+                visibleOratorIds = visible,
             )
 
-            var pool = wordRepository.getRandomWords(limit = 16, oratorId = oratorId)
-            if (pool.size < MIN_OPTIONS) {
+            val savedOnly = _uiState.value.pool == QuizPool.Saved
+            var pool = if (savedOnly) {
+                wordRepository.getRandomSavedWords(limit = 16)
+            } else {
+                wordRepository.getRandomWords(
+                    limit = 16,
+                    oratorId = oratorId,
+                    visibleOratorIds = visible,
+                )
+            }
+            if (!savedOnly && pool.size < MIN_OPTIONS) {
                 pool = wordRepository.getRandomWords(limit = 16, oratorId = null)
             }
 
@@ -155,7 +178,7 @@ class QuizViewModel @Inject constructor(
 
         val isCorrect = optionId == state.correctWordId
         viewModelScope.launch {
-            if (isCorrect) progressRepository.recordQuizCorrect()
+            progressRepository.recordQuizResult(correct = isCorrect)
         }
 
         _uiState.update {
@@ -212,10 +235,12 @@ class QuizViewModel @Inject constructor(
                 )
             }
 
-            val preferences = userPreferencesDao.getUserPreferences()
+            val preferences = userPreferencesDao.getUserPreferences().orDefault()
+            val visible = wordRepository.resolveVisibleOratorIds(preferences)
             val oratorId = WordOfDaySelector.resolveOratorId(
-                selectedOratorId = preferences?.selectedOratorId,
-                rotateThroughAll = preferences?.rotateThroughAll ?: false,
+                selectedOratorId = preferences.selectedOratorId,
+                rotateThroughAll = preferences.rotateThroughAll,
+                visibleOratorIds = visible,
             )
 
             val word = wordRepository.getRandomWordForLetterGuess(
@@ -224,6 +249,8 @@ class QuizViewModel @Inject constructor(
                 maxLetters = difficulty.maxLetters,
                 excludeWordIds = excludeIds,
                 excludeDefinitions = excludeDefs,
+                savedOnly = previous.pool == QuizPool.Saved,
+                visibleOratorIds = visible,
             )
 
             ensureActive()
@@ -346,8 +373,8 @@ class QuizViewModel @Inject constructor(
         val won = guess == target
         val lost = !won && submitted.size >= state.maxAttempts
 
-        if (won) {
-            viewModelScope.launch { progressRepository.recordQuizCorrect() }
+        if (won || lost) {
+            viewModelScope.launch { progressRepository.recordQuizResult(correct = won) }
         }
 
         _uiState.update {
@@ -381,7 +408,8 @@ class QuizViewModel @Inject constructor(
 }
 
 data class QuizUiState(
-    val mode: QuizMode = QuizMode.WordGuess,
+    val mode: QuizMode = QuizMode.MultipleChoice,
+    val pool: QuizPool = QuizPool.Library,
     val difficulty: WordGuessDifficulty = WordGuessDifficulty.Easy,
     val isLoading: Boolean = false,
     val isUnavailable: Boolean = false,

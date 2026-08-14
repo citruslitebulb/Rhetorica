@@ -7,6 +7,7 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
+import com.rhetorica.app.core.model.ThemeMode
 
 private val RhetoricaDarkScheme = darkColorScheme(
     primary = Color(0xFFD4AF37),        // Gold
@@ -37,10 +38,16 @@ private val RhetoricaLightScheme = lightColorScheme(
 
 @Composable
 fun RhetoricaTheme(
+    themeMode: ThemeMode = ThemeMode.System,
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme) RhetoricaDarkScheme else RhetoricaLightScheme
+    val useDark = when (themeMode) {
+        ThemeMode.System -> darkTheme
+        ThemeMode.Dark -> true
+        ThemeMode.Light -> false
+    }
+    val colorScheme = if (useDark) RhetoricaDarkScheme else RhetoricaLightScheme
 
     MaterialTheme(
         colorScheme = colorScheme,

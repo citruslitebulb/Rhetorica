@@ -86,6 +86,7 @@ object WordNotificationHelper {
             )
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setContentIntent(mainPendingIntent)
+            .setOnlyAlertOnce(true)
             .setAutoCancel(true)
             .addAction(
                 android.R.drawable.star_on,

@@ -8,16 +8,16 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Handler
 import android.os.Looper
-import android.util.Log
+import com.rhetorica.app.core.util.AppLog
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
 import com.rhetorica.app.MainActivity
 import com.rhetorica.app.R
 import com.rhetorica.app.data.local.UserPreferencesDao
-import com.rhetorica.app.data.local.WordDao
+import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.DictionaryRepository
-import com.rhetorica.app.data.repository.WordOfDaySelector
+import com.rhetorica.app.data.repository.WordRepository
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.concurrent.Executors
 import javax.inject.Inject
@@ -33,7 +33,7 @@ import kotlinx.coroutines.runBlocking
 class WordOfDayWidgetProvider : AppWidgetProvider() {
 
     @Inject
-    lateinit var wordDao: WordDao
+    lateinit var wordRepository: WordRepository
 
     @Inject
     lateinit var userPreferencesDao: UserPreferencesDao
@@ -75,7 +75,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                 try {
                     appWidgetManager.updateAppWidget(appWidgetId, loadingViews(context))
                 } catch (e: Exception) {
-                    Log.e(TAG, "Failed to push loading layout for $appWidgetId", e)
+                    AppLog.e(TAG, "Failed to push loading layout for $appWidgetId", e)
                 }
             }
         }
@@ -89,16 +89,16 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                         try {
                             appWidgetManager.updateAppWidget(appWidgetId, remoteViews)
                         } catch (e: Exception) {
-                            Log.e(TAG, "Failed to apply widget update $appWidgetId", e)
+                            AppLog.e(TAG, "Failed to apply widget update $appWidgetId", e)
                         }
                     }
                 } catch (e: Exception) {
-                    Log.e(TAG, "Failed to build widget $appWidgetId", e)
+                    AppLog.e(TAG, "Failed to build widget $appWidgetId", e)
                     mainHandler.post {
                         try {
                             appWidgetManager.updateAppWidget(appWidgetId, errorViews(appContext))
                         } catch (inner: Exception) {
-                            Log.e(TAG, "Failed to apply error layout $appWidgetId", inner)
+                            AppLog.e(TAG, "Failed to apply error layout $appWidgetId", inner)
                         }
                     }
                 }
@@ -157,11 +157,15 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             18f,
             context.resources.displayMetrics,
         )
-        val backgroundBitmap = WidgetAppearance.createElegantCardBitmap(
+        val backgroundBitmap = WidgetAppearance.createCardBitmap(
+            context = context,
             widthPx = widthPx,
             heightPx = heightPx,
             cornerRadiusPx = cornerRadiusPx,
             fillColorArgb = fillColor,
+            imageKey = content.imageKey,
+            galleryUri = content.galleryUri,
+            opacityPercent = content.opacityPercent,
         )
 
         val rootPendingIntent = if (content.wordId != null) {
@@ -352,11 +356,11 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
 
     private fun loadContent(context: Context): WidgetRemoteState = runBlocking {
         try {
-            if (!::wordDao.isInitialized ||
+            if (!::wordRepository.isInitialized ||
                 !::userPreferencesDao.isInitialized ||
                 !::dictionaryRepository.isInitialized
             ) {
-                Log.w(TAG, "Hilt dependencies not injected yet")
+                AppLog.w(TAG, "Hilt dependencies not injected yet")
                 return@runBlocking WidgetRemoteState(
                     wordId = null,
                     word = context.getString(R.string.widget_error_title),
@@ -371,47 +375,16 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                 )
             }
 
-            val preferences = userPreferencesDao.getUserPreferences()
-            val selectedOratorId = preferences?.selectedOratorId
-            val rotateThroughAll = preferences?.rotateThroughAll ?: false
-            val backgroundColor = preferences?.widgetBackgroundColor
-                ?: WidgetAppearance.WIDGET_CARD_BG
-            val opacityPercent = preferences?.widgetBackgroundOpacityPercent
-                ?: DEFAULT_OPACITY_PERCENT
+            val preferences = userPreferencesDao.getUserPreferences().orDefault()
+            val backgroundColor = preferences.widgetBackgroundColor
+            val opacityPercent = preferences.widgetBackgroundOpacityPercent
+            val imageKey = preferences.widgetBackgroundImageKey
+            val galleryUri = preferences.widgetGalleryUri
 
-            // Selected orator owns the daily word; do not pull a global word and re-label it.
-            val wotdOratorId = WordOfDaySelector.resolveOratorId(
-                selectedOratorId = selectedOratorId,
-                rotateThroughAll = rotateThroughAll,
+            val word = wordRepository.getWordOfTheDayForPreferences(
+                selectedOratorId = preferences.selectedOratorId,
+                rotateThroughAll = preferences.rotateThroughAll,
             )
-
-            val count = if (wotdOratorId == null) {
-                wordDao.wordCount()
-            } else {
-                wordDao.wordCountByOrator(wotdOratorId)
-            }
-
-            if (count == 0) {
-                return@runBlocking WidgetRemoteState(
-                    wordId = null,
-                    word = context.getString(R.string.widget_error_title),
-                    partOfSpeech = null,
-                    definition = context.getString(R.string.widget_loading_vocab_body),
-                    oratorName = null,
-                    example = null,
-                    speechTitle = null,
-                    oratorId = null,
-                    backgroundColor = backgroundColor,
-                    opacityPercent = opacityPercent,
-                )
-            }
-
-            val offset = WordOfDaySelector.dayOffset(count)
-            val word = if (wotdOratorId == null) {
-                wordDao.getWordOfTheDay(offset)
-            } else {
-                wordDao.getWordOfTheDayByOrator(wotdOratorId, offset)
-            }
 
             if (word == null) {
                 return@runBlocking WidgetRemoteState(
@@ -425,12 +398,12 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                     oratorId = null,
                     backgroundColor = backgroundColor,
                     opacityPercent = opacityPercent,
+                    imageKey = imageKey,
+                    galleryUri = galleryUri,
                 )
             }
 
-            // Prefer the selected orator's name so the widget never looks like it
-            // "swapped" the speaker to match a global word.
-            val oratorName = (wotdOratorId ?: word.oratorId)?.let { id ->
+            val oratorName = word.oratorId?.let { id ->
                 dictionaryRepository.getOratorProfileById(id)?.name
             }
 
@@ -442,12 +415,14 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
                 oratorName = oratorName,
                 example = word.example.takeIf { it.isNotBlank() },
                 speechTitle = word.speech ?: word.source,
-                oratorId = word.oratorId ?: wotdOratorId,
+                oratorId = word.oratorId,
                 backgroundColor = backgroundColor,
                 opacityPercent = opacityPercent,
+                imageKey = imageKey,
+                galleryUri = galleryUri,
             )
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to load widget content", e)
+            AppLog.e(TAG, "Failed to load widget content", e)
             WidgetRemoteState(
                 wordId = null,
                 word = context.getString(R.string.widget_error_title),
@@ -546,4 +521,6 @@ private data class WidgetRemoteState(
     val oratorId: Long?,
     val backgroundColor: Int,
     val opacityPercent: Int,
+    val imageKey: String = WidgetImagePreset.None.key,
+    val galleryUri: String = "",
 )

@@ -128,4 +128,68 @@
     <string name="notification_action_hear">Hear</string>
     <string name="notification_word_saved">Word saved to favorites</string>
     <string name="notification_word_save_failed">Failed to save word</string>
+
+    <string name="search_title">Search</string>
+    <string name="search_hint">Words or speeches</string>
+    <string name="search_min_chars">Type at least two letters.</string>
+    <string name="search_empty">No matching words or speeches.</string>
+    <string name="search_words_header">Words</string>
+    <string name="search_speeches_header">Speeches</string>
+
+    <string name="home_wotd_opened">Today\'s word · opened</string>
+    <string name="home_feed_end_title">You have seen this collection</string>
+    <string name="home_feed_end_body">%1$d words in this filter. Change orator or themes in Settings for a new set.</string>
+
+    <string name="quiz_pool_library">Library</string>
+    <string name="quiz_pool_saved">Saved words</string>
+    <string name="quiz_saved_unavailable_body">Save at least four words to quiz yourself from your collection.</string>
+
+    <string name="profile_progress_accuracy">Accuracy</string>
+    <string name="profile_progress_accuracy_value">%1$d%%</string>
+    <string name="profile_progress_streak">Streak</string>
+    <string name="profile_today_done">Today\'s word is opened</string>
+    <string name="profile_habit_title">Daily habit</string>
+    <string name="profile_notifications_title">Daily notification</string>
+    <string name="profile_notifications_hint">A Word of the Day reminder at the time you choose.</string>
+    <string name="profile_notification_time_value">%1$02d:%2$02d</string>
+    <string name="profile_notification_system_settings">Open system notification settings</string>
+    <string name="profile_appearance_title">Appearance</string>
+    <string name="profile_theme_title">Theme</string>
+    <string name="profile_theme_system">System</string>
+    <string name="profile_theme_dark">Dark</string>
+    <string name="profile_theme_light">Light</string>
+    <string name="profile_widget_image">Background image</string>
+    <string name="profile_catalog_title">Catalog</string>
+    <string name="profile_catalog_hint">Historical orators stay on. Literary and fictional voices are optional.</string>
+    <string name="profile_catalog_literary">Literary voices</string>
+    <string name="profile_catalog_fictional">Fictional voices</string>
+    <string name="profile_rotate_all_hint">Cycle the daily word through all visible orators, or only your starred favorites.</string>
+    <string name="profile_favorite_orator">Star orator for rotation</string>
+    <string name="profile_unfavorite_orator">Remove orator from favorites</string>
+    <string name="section_collapse">Collapse section</string>
+    <string name="section_expand">Expand section</string>
+
+    <string name="widget_image_none">Color</string>
+    <string name="widget_image_parchment">Parchment</string>
+    <string name="widget_image_marble">Marble</string>
+    <string name="widget_image_midnight">Midnight</string>
+    <string name="widget_image_velvet">Velvet</string>
+    <string name="widget_image_gallery">Gallery</string>
+
+    <string name="onboarding_welcome_body">Rhetorica is a daily ritual of rhetorical language drawn from history\'s great speeches. One word each day. Offline. Yours.</string>
+    <string name="onboarding_orator_title">Choose a voice</string>
+    <string name="onboarding_orator_body">Pick one orator, or rotate through the historical catalog. You can change this later in Settings.</string>
+    <string name="onboarding_habit_title">Make it a habit</string>
+    <string name="onboarding_habit_body">A daily notification and home-screen widget keep today\'s word in reach.</string>
+    <string name="onboarding_add_widget">Add Word of the Day widget</string>
+    <string name="onboarding_widget_hint">Long-press your home screen and add the Rhetorica widget.</string>
+    <string name="onboarding_next">Continue</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_done">Begin</string>
+
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_body">Rhetorica is offline-first. It does not create accounts or send your vocabulary activity to a Rhetorica server.\n\nThe app stores words, saved items, progress, and appearance settings on this device.\n\nIf Android Backup or device-to-device transfer is enabled on your phone, Google may copy that on-device data so you can restore Rhetorica after a setup or upgrade. Rhetorica does not operate its own backup service.\n\nIf you enable daily notifications, Android may show a Word of the Day reminder. You can change the time or turn this off in Settings.\n\nIf you choose a gallery image for the widget, Rhetorica reads that image only to draw the widget background.</string>
+
+    <string name="speeches_empty_title">No full speeches available yet</string>
+    <string name="speeches_empty_body">We are adding more from the orators\' famous speeches.</string>
 </resources>

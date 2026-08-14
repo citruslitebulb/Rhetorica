@@ -1,12 +1,21 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.core.model.OratorCatalogKind
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.SavedWordDao
 import com.rhetorica.app.data.local.SavedWordEntity
 import com.rhetorica.app.data.local.SavedWordSummary
+import com.rhetorica.app.data.local.SpeechDao
+import com.rhetorica.app.data.local.SpeechEntity
+import com.rhetorica.app.data.local.UserPreferencesDao
+import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
+import com.rhetorica.app.data.local.orDefault
+import java.time.LocalDate
+import java.time.ZoneId
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOf
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -15,6 +24,9 @@ class WordRepository @Inject constructor(
     private val wordDao: WordDao,
     private val savedWordDao: SavedWordDao,
     private val dictionaryDao: DictionaryDao,
+    private val userPreferencesDao: UserPreferencesDao,
+    private val speechDao: SpeechDao,
+    private val preferencesRepository: PreferencesRepository,
 ) {
     fun observeWords(): Flow<List<WordEntity>> = wordDao.observeWords()
 
@@ -34,6 +46,35 @@ class WordRepository @Inject constructor(
         }
     }
 
+    /**
+     * Feed query that stays on SQL for orator scoping instead of loading the full library
+     * whenever a single orator or a theme-limited set is selected.
+     */
+    fun observeWordsForFeed(oratorId: Long?, oratorIds: Collection<Long>?): Flow<List<WordEntity>> {
+        return when {
+            oratorId != null -> wordDao.observeWordsByOrator(oratorId)
+            !oratorIds.isNullOrEmpty() -> wordDao.observeWordsByOratorIds(oratorIds.toList())
+            oratorIds != null && oratorIds.isEmpty() -> flowOf(emptyList())
+            else -> wordDao.observeWords()
+        }
+    }
+
+    suspend fun searchWords(query: String): List<WordEntity> {
+        val trimmed = query.trim()
+        if (trimmed.length < 2) return emptyList()
+        val visible = resolveVisibleOratorIds()
+        if (visible.isEmpty()) return emptyList()
+        return wordDao.searchWordsInOrators(trimmed, visible)
+    }
+
+    suspend fun searchSpeeches(query: String): List<SpeechEntity> {
+        val trimmed = query.trim()
+        if (trimmed.length < 2) return emptyList()
+        val visible = resolveVisibleOratorIds()
+        if (visible.isEmpty()) return emptyList()
+        return speechDao.searchSpeechesInOrators(trimmed, visible)
+    }
+
     suspend fun getWordOfTheDay(): WordEntity? = getWordOfTheDayForPreferences(
         selectedOratorId = null,
         rotateThroughAll = true,
@@ -48,27 +89,119 @@ class WordRepository @Inject constructor(
 
     /**
      * Word of the Day for the user's orator preference.
-     * When a specific orator is selected (and not rotating), the word is always
-     * drawn from that orator's list — never a global word with a swapped label.
+     * Stable for the local calendar day. Skips previously shown words until the pool
+     * is exhausted, then starts a new cycle.
      */
     suspend fun getWordOfTheDayForPreferences(
         selectedOratorId: Long?,
         rotateThroughAll: Boolean,
     ): WordEntity? {
+        val preferences = userPreferencesDao.getUserPreferences().orDefault()
+        val visible = resolveVisibleOratorIds(preferences)
         val oratorId = WordOfDaySelector.resolveOratorId(
             selectedOratorId = selectedOratorId,
             rotateThroughAll = rotateThroughAll,
+            visibleOratorIds = visible,
         )
-        return if (oratorId == null) {
-            val count = wordDao.wordCount()
-            if (count == 0) return null
-            val offset = WordOfDaySelector.dayOffset(count)
-            wordDao.getWordOfTheDay(offset)
+        val favorites = if (oratorId == null) {
+            preferences.favoriteOratorIds.filter { it in visible }
         } else {
-            val count = wordDao.wordCountByOrator(oratorId)
-            if (count == 0) return null
-            val offset = WordOfDaySelector.dayOffset(count)
-            wordDao.getWordOfTheDayByOrator(oratorId, offset)
+            emptyList()
+        }
+        return ensureTodaysWord(
+            oratorId = oratorId,
+            favoriteOratorIds = favorites,
+            visibleOratorIds = visible,
+        )
+    }
+
+    suspend fun ensureTodaysWord(
+        oratorId: Long? = null,
+        favoriteOratorIds: List<Long> = emptyList(),
+        visibleOratorIds: Collection<Long>? = null,
+        today: String = LocalDate.now(ZoneId.systemDefault()).toString(),
+    ): WordEntity? {
+        val preferences = userPreferencesDao.getUserPreferences().orDefault()
+        val visible = visibleOratorIds ?: resolveVisibleOratorIds(preferences)
+        val resolvedOratorId = WordOfDaySelector.resolveOratorId(
+            selectedOratorId = oratorId ?: preferences.selectedOratorId,
+            rotateThroughAll = if (oratorId != null) false else preferences.rotateThroughAll,
+            visibleOratorIds = visible,
+        )
+        val resolvedFavorites = if (resolvedOratorId == null) {
+            favoriteOratorIds.ifEmpty { preferences.favoriteOratorIds }.filter { it in visible }
+        } else {
+            emptyList()
+        }
+        val key = WordOfDaySelector.poolKey(
+            oratorId = resolvedOratorId,
+            favoriteOratorIds = resolvedFavorites,
+            includeLiterary = preferences.includeLiteraryOrators,
+            includeFictional = preferences.includeFictionalOrators,
+        )
+
+        if (
+            preferences.todaysWotdDate == today &&
+            preferences.todaysWotdId != null &&
+            preferences.shownWotdPoolKey == key
+        ) {
+            val existing = wordDao.getWordById(preferences.todaysWotdId)
+            if (existing != null) return existing
+        }
+
+        val allWords = loadPool(resolvedOratorId, resolvedFavorites, visible)
+        val shown = if (preferences.shownWotdPoolKey == key) {
+            preferences.shownWotdIds.toSet()
+        } else {
+            emptySet()
+        }
+        val pick = WordOfDaySelector.selectUnseen(
+            allWords = allWords,
+            oratorId = resolvedOratorId,
+            shownIds = shown,
+            favoriteOratorIds = resolvedFavorites,
+            visibleOratorIds = visible,
+        )
+        val word = pick.word ?: return null
+        preferencesRepository.update { current ->
+            current.copy(
+                shownWotdIds = pick.shownIds,
+                shownWotdPoolKey = key,
+                todaysWotdId = word.id,
+                todaysWotdDate = today,
+            )
+        }
+        return word
+    }
+
+    suspend fun resolveVisibleOratorIds(): List<Long> =
+        resolveVisibleOratorIds(userPreferencesDao.getUserPreferences().orDefault())
+
+    suspend fun resolveVisibleOratorIds(preferences: UserPreferencesEntity): List<Long> {
+        return dictionaryDao.getAllDictionaries()
+            .asSequence()
+            .filter { it.isActive }
+            .filter { dictionary ->
+                OratorCatalogKind.isVisible(
+                    category = dictionary.category,
+                    includeLiterary = preferences.includeLiteraryOrators,
+                    includeFictional = preferences.includeFictionalOrators,
+                )
+            }
+            .map { it.id }
+            .toList()
+    }
+
+    private suspend fun loadPool(
+        oratorId: Long?,
+        favoriteOratorIds: List<Long>,
+        visibleOratorIds: Collection<Long>,
+    ): List<WordEntity> {
+        return when {
+            oratorId != null -> wordDao.getWordsByOrator(oratorId)
+            favoriteOratorIds.isNotEmpty() -> wordDao.getWordsByOratorIds(favoriteOratorIds)
+            visibleOratorIds.isNotEmpty() -> wordDao.getWordsByOratorIds(visibleOratorIds.toList())
+            else -> emptyList()
         }
     }
 
@@ -77,13 +210,17 @@ class WordRepository @Inject constructor(
     suspend fun getRandomWords(
         limit: Int,
         oratorId: Long?,
+        visibleOratorIds: Collection<Long>? = null,
     ): List<WordEntity> {
-        return if (oratorId == null) {
-            wordDao.getRandomWords(limit)
-        } else {
-            wordDao.getRandomWordsByOrator(oratorId, limit)
+        val visible = visibleOratorIds ?: resolveVisibleOratorIds()
+        return when {
+            oratorId != null -> wordDao.getRandomWordsByOrator(oratorId, limit)
+            visible.isNotEmpty() -> wordDao.getRandomWordsByOratorIds(visible.toList(), limit)
+            else -> emptyList()
         }
     }
+
+    suspend fun getRandomSavedWords(limit: Int): List<WordEntity> = wordDao.getRandomSavedWords(limit)
 
     /**
      * Pick a random library word suitable for letter-guessing.
@@ -99,18 +236,24 @@ class WordRepository @Inject constructor(
         excludeWordIds: Set<Long> = emptySet(),
         excludeDefinitions: Set<String> = emptySet(),
         poolSize: Int = 500,
+        savedOnly: Boolean = false,
+        visibleOratorIds: Collection<Long>? = null,
     ): WordEntity? {
         fun letterCountOk(word: WordEntity): Boolean {
             val letters = word.word.filter { it.isLetter() }
             return letters.isNotEmpty() && letters.length in minLetters..maxLetters
         }
 
+        val visible = visibleOratorIds ?: resolveVisibleOratorIds()
+
         suspend fun pool(orator: Long?): List<WordEntity> {
-            return if (orator == null) {
-                wordDao.getRandomWordsPool(poolSize)
-            } else {
-                wordDao.getRandomWordsPoolByOrator(orator, poolSize)
-            }.filter(::letterCountOk)
+            val raw = when {
+                savedOnly -> wordDao.getRandomSavedWords(poolSize)
+                orator != null -> wordDao.getRandomWordsPoolByOrator(orator, poolSize)
+                visible.isNotEmpty() -> wordDao.getRandomWordsPoolByOratorIds(visible.toList(), poolSize)
+                else -> emptyList()
+            }
+            return raw.filter(::letterCountOk)
         }
 
         fun pick(candidates: List<WordEntity>): WordEntity? {
@@ -128,13 +271,18 @@ class WordRepository @Inject constructor(
 
         pick(pool(oratorId))?.let { return it }
 
-        // Fall back to full library if the selected orator is too thin for this band.
-        if (oratorId != null) {
+        if (!savedOnly && oratorId != null) {
             pick(pool(null))?.let { return it }
         }
 
-        // Last resort: larger pool, still prefer exclusions.
-        return pick(wordDao.getRandomWordsPool(poolSize * 3).filter(::letterCountOk))
+        if (savedOnly) return null
+
+        val lastResort = if (visible.isNotEmpty()) {
+            wordDao.getRandomWordsPoolByOratorIds(visible.toList(), poolSize * 3)
+        } else {
+            emptyList()
+        }
+        return pick(lastResort.filter(::letterCountOk))
     }
 
     suspend fun saveWord(wordId: Long) {

@@ -1,5 +1,6 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
 import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.DictionaryEntity
@@ -21,6 +22,18 @@ class DictionaryRepository @Inject constructor(
     fun observeActiveOratorProfiles(): Flow<List<OratorProfile>> {
         return dictionaryDao.observeActiveDictionaries().map { entities ->
             entities.map { it.toOratorProfile() }
+        }
+    }
+
+    fun observeVisibleOratorProfiles(
+        includeLiterary: Boolean,
+        includeFictional: Boolean,
+    ): Flow<List<OratorProfile>> {
+        return observeActiveOratorProfiles().map { orators ->
+            orators.filterByCatalog(
+                includeLiterary = includeLiterary,
+                includeFictional = includeFictional,
+            )
         }
     }
 

@@ -15,8 +15,8 @@ android {
         applicationId = "com.rhetorica.app"
         minSdk = 27
         targetSdk = 35
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -24,13 +24,28 @@ android {
         }
     }
 
+    signingConfigs {
+        val storeFilePath = System.getenv("RHETORICA_STORE_FILE")
+        if (!storeFilePath.isNullOrBlank()) {
+            create("release") {
+                storeFile = file(storeFilePath)
+                storePassword = System.getenv("RHETORICA_STORE_PASSWORD").orEmpty()
+                keyAlias = System.getenv("RHETORICA_KEY_ALIAS").orEmpty()
+                keyPassword = System.getenv("RHETORICA_KEY_PASSWORD").orEmpty()
+            }
+        }
+    }
+
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
             )
+            val releaseSigning = signingConfigs.findByName("release")
+            signingConfig = releaseSigning ?: signingConfigs.getByName("debug")
         }
     }
 
@@ -45,6 +60,7 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 
     packaging {

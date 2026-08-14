@@ -34,4 +34,35 @@ interface SpeechDao {
 
     @Query("SELECT COUNT(*) FROM speeches")
     suspend fun speechCount(): Int
+
+    @Query(
+        """
+        SELECT * FROM speeches
+        WHERE title LIKE '%' || :query || '%'
+           OR description LIKE '%' || :query || '%'
+           OR fullText LIKE '%' || :query || '%'
+        ORDER BY title COLLATE NOCASE ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun searchSpeeches(query: String, limit: Int = 20): List<SpeechEntity>
+
+    @Query(
+        """
+        SELECT * FROM speeches
+        WHERE oratorId IN (:oratorIds)
+          AND (
+            title LIKE '%' || :query || '%'
+            OR description LIKE '%' || :query || '%'
+            OR fullText LIKE '%' || :query || '%'
+          )
+        ORDER BY title COLLATE NOCASE ASC
+        LIMIT :limit
+        """,
+    )
+    suspend fun searchSpeechesInOrators(
+        query: String,
+        oratorIds: List<Long>,
+        limit: Int = 20,
+    ): List<SpeechEntity>
 }

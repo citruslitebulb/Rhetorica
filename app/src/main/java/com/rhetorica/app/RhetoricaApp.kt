@@ -3,16 +3,16 @@ package com.rhetorica.app
 import android.app.Application
 import androidx.hilt.work.HiltWorkerFactory
 import androidx.work.Configuration
-import androidx.work.ExistingPeriodicWorkPolicy
-import androidx.work.PeriodicWorkRequestBuilder
-import androidx.work.WorkManager
 import com.rhetorica.app.core.tts.TtsSpeaker
+import com.rhetorica.app.core.util.AppLog
+import com.rhetorica.app.data.local.UserPreferencesDao
+import com.rhetorica.app.data.local.orDefault
+import com.rhetorica.app.data.repository.WordRepository
 import com.rhetorica.app.data.seed.SeedDataLoader
 import com.rhetorica.app.notification.NotificationChannelManager
-import com.rhetorica.app.notification.WordOfDayWorker
+import com.rhetorica.app.notification.NotificationScheduler
 import com.rhetorica.app.widget.WidgetAppearance
 import dagger.hilt.android.HiltAndroidApp
-import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -32,6 +32,12 @@ class RhetoricaApp : Application(), Configuration.Provider {
     @Inject
     lateinit var ttsSpeaker: TtsSpeaker
 
+    @Inject
+    lateinit var userPreferencesDao: UserPreferencesDao
+
+    @Inject
+    lateinit var wordRepository: WordRepository
+
     private val applicationScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
 
     override val workManagerConfiguration: Configuration
@@ -50,28 +56,29 @@ class RhetoricaApp : Application(), Configuration.Provider {
         applicationScope.launch {
             try {
                 seedDataLoader.loadSeedDataIfNeeded()
-                // Ensure any placed Word of the Day widgets get populated/updated promptly
-                // after (re)seeding completes. Critical on first run when widget may be added
-                // before or during the async seed, and on day rollover or new seed data.
+                wordRepository.ensureTodaysWord()
                 WidgetAppearance.refreshAllWidgets(this@RhetoricaApp)
             } catch (e: Exception) {
-                android.util.Log.e("RhetoricaApp", "Failed to load seed data", e)
+                AppLog.e("RhetoricaApp", "Failed to load seed data", e)
             }
         }
     }
 
     private fun scheduleWordOfDayNotification() {
-        val workRequest = PeriodicWorkRequestBuilder<WordOfDayWorker>(
-            24, TimeUnit.HOURS,
-        )
-            .setInitialDelay(1, TimeUnit.HOURS)
-            .build()
-
-        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
-            "word_of_day_notification",
-            ExistingPeriodicWorkPolicy.REPLACE,
-            workRequest,
-        )
+        applicationScope.launch {
+            val preferences = try {
+                userPreferencesDao.getUserPreferences().orDefault()
+            } catch (e: Exception) {
+                AppLog.e("RhetoricaApp", "Failed to read notification preferences", e)
+                return@launch
+            }
+            NotificationScheduler.ensureScheduled(
+                context = this@RhetoricaApp,
+                enabled = preferences.onboardingCompleted && preferences.notificationsEnabled,
+                hour = preferences.notificationHour,
+                minute = preferences.notificationMinute,
+            )
+        }
     }
 
     override fun onTerminate() {

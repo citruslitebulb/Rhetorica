@@ -77,10 +77,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 - Widget appearance settings currently support flat color presets plus translucency, persist locally, and refresh the widget reliably.
 
 ### Still Outstanding
-- Widget image backgrounds, presets/gallery selection, and related image/translucency handling.
-- Motion polish, broader accessibility pass, and performance polish.
-- Notification time picker (currently WorkManager 24h periodic with fixed initial delay).
-- Onboarding / first-run orator pick flow.
+Owner-only leftovers (hosted policy, Play Console, keystore, store assets, device/testing, optional dictionary growth) are tracked in **[Owner_Checklist.md](./Owner_Checklist.md)**.
 
 ### Recently Improved
 - Quiz: definition-match multiple choice with session score + progress persistence (scoped to selected orator when set).

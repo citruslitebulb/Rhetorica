@@ -14,12 +14,12 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.outlined.BookmarkBorder
+import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -32,11 +32,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
@@ -50,13 +48,11 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.ui.OratorPortrait
 import com.rhetorica.app.core.ui.WordListCard
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.flow.filter
-
 @Composable
 fun HomeRoute(
     onWordClick: (Long) -> Unit,
     onSettingsClick: () -> Unit,
+    onSearchClick: () -> Unit,
     viewModel: HomeViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
@@ -65,6 +61,7 @@ fun HomeRoute(
         onWordClick = onWordClick,
         onToggleSaved = viewModel::toggleSaved,
         onSettingsClick = onSettingsClick,
+        onSearchClick = onSearchClick,
     )
 }
 
@@ -75,6 +72,7 @@ private fun HomeScreen(
     onWordClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
     onSettingsClick: () -> Unit,
+    onSearchClick: () -> Unit,
 ) {
     Scaffold(
         topBar = {
@@ -86,6 +84,12 @@ private fun HomeScreen(
                     )
                 },
                 actions = {
+                    IconButton(onClick = onSearchClick) {
+                        Icon(
+                            imageVector = Icons.Outlined.Search,
+                            contentDescription = stringResource(R.string.search_title),
+                        )
+                    }
                     IconButton(onClick = onSettingsClick) {
                         Icon(
                             imageVector = Icons.Outlined.Settings,
@@ -126,7 +130,7 @@ private fun HomeScreen(
             }
 
             else -> {
-                InfiniteHomeFeed(
+                HomeFeed(
                     state = state,
                     onWordClick = onWordClick,
                     onToggleSaved = onToggleSaved,
@@ -141,15 +145,11 @@ private fun HomeScreen(
 }
 
 /**
- * Word of the Day fills the first screen. Browse vocabulary sits below the fold,
- * fades in as the user scrolls, and loops forever via modular virtualization.
- *
- * List layout:
- * - index 0: WotD hero
- * - indices 1..virtualCount: browse words (content = words[(i-1) % size])
+ * Word of the Day fills the first screen. Browse vocabulary sits below the fold
+ * and ends with an explicit "you've seen all N words" state.
  */
 @Composable
-private fun InfiniteHomeFeed(
+private fun HomeFeed(
     state: HomeUiState,
     onWordClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
@@ -157,19 +157,6 @@ private fun InfiniteHomeFeed(
 ) {
     val browseWords = state.words
     val listState = rememberLazyListState()
-    val period = browseWords.size.coerceAtLeast(1)
-    val virtualCount = if (browseWords.isEmpty()) {
-        0
-    } else {
-        (period * LOOP_PERIODS).coerceAtMost(MAX_VIRTUAL_ITEMS)
-    }
-
-    MaintainInfiniteWindow(
-        listState = listState,
-        browseSize = browseWords.size,
-        virtualCount = virtualCount,
-    )
-
     val browseReveal by remember {
         derivedStateOf {
             when {
@@ -207,6 +194,7 @@ private fun InfiniteHomeFeed(
                     WordOfTheDayHero(
                         state = wotd,
                         oratorName = state.wordOfTheDayOratorName,
+                        openedToday = state.openedTodaysWord,
                         onClick = { onWordClick(wotd.word.id) },
                         onToggleSaved = { onToggleSaved(wotd.word.id) },
                     )
@@ -221,20 +209,21 @@ private fun InfiniteHomeFeed(
         }
 
         if (browseWords.isNotEmpty()) {
+            item(key = "browse_title") {
+                Text(
+                    text = stringResource(R.string.home_browse_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    modifier = Modifier.graphicsLayer { alpha = browseAlpha },
+                )
+            }
             items(
-                count = virtualCount,
-                key = { virtualIndex -> "loop_$virtualIndex" },
-            ) { virtualIndex ->
-                val item = browseWords[virtualIndex % browseWords.size]
-                // Softer stagger for items still near the hero during the fade-in.
-                val distanceFromHero = if (listState.firstVisibleItemIndex == 0) {
-                    virtualIndex
-                } else {
-                    (virtualIndex - (listState.firstVisibleItemIndex - 1)).coerceAtLeast(0)
-                }
-                val stagger = 1f - (distanceFromHero * 0.08f).coerceIn(0f, 0.35f)
+                count = browseWords.size,
+                key = { index -> "word_${browseWords[index].word.id}" },
+            ) { index ->
+                val item = browseWords[index]
+                val stagger = 1f - (index * 0.08f).coerceIn(0f, 0.35f)
                 val itemAlpha = (browseAlpha * stagger).coerceIn(0f, 1f)
-
                 Box(
                     modifier = Modifier.graphicsLayer {
                         alpha = itemAlpha
@@ -255,43 +244,36 @@ private fun InfiniteHomeFeed(
                     )
                 }
             }
-        }
-    }
-}
-
-/**
- * When scrolling near the end of the virtual browse window, jump backward by whole
- * library periods so the list never hits a hard bottom. Upward scroll to the WotD
- * hero (list index 0) is left alone.
- */
-@Composable
-private fun MaintainInfiniteWindow(
-    listState: LazyListState,
-    browseSize: Int,
-    virtualCount: Int,
-) {
-    if (browseSize <= 0 || virtualCount <= 0) return
-    val period = browseSize
-    val highEdge = virtualCount - period * EDGE_PERIODS
-
-    LaunchedEffect(listState, browseSize, virtualCount) {
-        snapshotFlow {
-            listState.firstVisibleItemIndex to listState.firstVisibleItemScrollOffset
-        }
-            .distinctUntilChanged()
-            .filter { (first, _) -> first >= 1 }
-            .collect { (first, offset) ->
-                val browseIndex = first - 1
-                if (browseIndex > highEdge) {
-                    val mid = virtualCount / 2
-                    val aligned = mid - (mid % period) + (browseIndex % period)
-                    val targetListIndex = (aligned + 1).coerceIn(1, virtualCount)
-                    listState.scrollToItem(
-                        index = targetListIndex,
-                        scrollOffset = offset,
-                    )
+            item(key = "feed_end") {
+                Card(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .graphicsLayer { alpha = browseAlpha },
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.surfaceVariant,
+                    ),
+                ) {
+                    Column(
+                        modifier = Modifier.padding(16.dp),
+                        verticalArrangement = Arrangement.spacedBy(4.dp),
+                    ) {
+                        Text(
+                            text = stringResource(R.string.home_feed_end_title),
+                            style = MaterialTheme.typography.titleSmall,
+                            fontWeight = FontWeight.SemiBold,
+                        )
+                        Text(
+                            text = stringResource(
+                                R.string.home_feed_end_body,
+                                state.browseWordCount,
+                            ),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
                 }
             }
+        }
     }
 }
 
@@ -299,6 +281,7 @@ private fun MaintainInfiniteWindow(
 private fun WordOfTheDayHero(
     state: HomeWordCardState,
     oratorName: String?,
+    openedToday: Boolean,
     onClick: () -> Unit,
     onToggleSaved: () -> Unit,
 ) {
@@ -321,7 +304,11 @@ private fun WordOfTheDayHero(
                 verticalAlignment = Alignment.CenterVertically,
             ) {
                 Text(
-                    text = stringResource(R.string.home_wotd_badge),
+                    text = if (openedToday) {
+                        stringResource(R.string.home_wotd_opened)
+                    } else {
+                        stringResource(R.string.home_wotd_badge)
+                    },
                     style = MaterialTheme.typography.labelLarge,
                     color = MaterialTheme.colorScheme.primary,
                     fontWeight = FontWeight.SemiBold,
@@ -413,8 +400,5 @@ private fun EmptyState(
     }
 }
 
-private const val LOOP_PERIODS = 400
-private const val MAX_VIRTUAL_ITEMS = 50_000
-private const val EDGE_PERIODS = 3
 /** Scroll distance (px) over which browse vocabulary fades fully in. */
 private const val BROWSE_FADE_SCROLL_PX = 280f

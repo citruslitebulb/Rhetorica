@@ -27,7 +27,9 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -64,18 +66,28 @@ import com.rhetorica.app.widget.WidgetAppearance
 @Composable
 fun ProfileRoute(
     onBack: () -> Unit,
+    onPrivacyPolicy: () -> Unit,
     viewModel: ProfileViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     ProfileScreen(
         state = state,
         onBack = onBack,
+        onPrivacyPolicy = onPrivacyPolicy,
         onSelectOrator = viewModel::selectOrator,
+        onToggleFavorite = viewModel::toggleFavoriteOrator,
         onToggleRotateAll = viewModel::toggleRotateThroughAll,
         onToggleThemeCategory = viewModel::toggleThemeCategory,
         onClearThemeCategories = viewModel::clearThemeCategories,
         onSelectWidgetColor = viewModel::updateWidgetBackgroundColor,
         onWidgetOpacityChanged = viewModel::updateWidgetBackgroundOpacity,
+        onSelectWidgetImage = viewModel::updateWidgetImagePreset,
+        onGalleryUri = viewModel::updateWidgetGalleryUri,
+        onNotificationsEnabled = viewModel::setNotificationsEnabled,
+        onNotificationTime = viewModel::setNotificationTime,
+        onThemeMode = viewModel::setThemeMode,
+        onIncludeFictional = viewModel::setIncludeFictionalOrators,
+        onIncludeLiterary = viewModel::setIncludeLiteraryOrators,
     )
 }
 
@@ -84,16 +96,27 @@ fun ProfileRoute(
 private fun ProfileScreen(
     state: ProfileUiState,
     onBack: () -> Unit,
+    onPrivacyPolicy: () -> Unit,
     onSelectOrator: (Long?) -> Unit,
+    onToggleFavorite: (Long) -> Unit,
     onToggleRotateAll: () -> Unit,
     onToggleThemeCategory: (String) -> Unit,
     onClearThemeCategories: () -> Unit,
     onSelectWidgetColor: (Int) -> Unit,
     onWidgetOpacityChanged: (Int) -> Unit,
+    onSelectWidgetImage: (com.rhetorica.app.widget.WidgetImagePreset) -> Unit,
+    onGalleryUri: (String) -> Unit,
+    onNotificationsEnabled: (Boolean) -> Unit,
+    onNotificationTime: (Int, Int) -> Unit,
+    onThemeMode: (com.rhetorica.app.core.model.ThemeMode) -> Unit,
+    onIncludeFictional: (Boolean) -> Unit,
+    onIncludeLiterary: (Boolean) -> Unit,
 ) {
     var widgetExpanded by rememberSaveable { mutableStateOf(false) }
     var themesExpanded by rememberSaveable { mutableStateOf(false) }
     var oratorsExpanded by rememberSaveable { mutableStateOf(true) }
+    var habitExpanded by rememberSaveable { mutableStateOf(true) }
+    var appearanceExpanded by rememberSaveable { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
@@ -127,10 +150,55 @@ private fun ProfileScreen(
         }
         item {
             ProgressStatsRow(
-                viewedCount = state.viewedCount,
-                savedCount = state.savedCount,
-                quizCorrectCount = state.quizCorrectCount,
+                uniqueOpened = state.progress.uniqueWordsOpened,
+                savedCount = state.progress.savedCount,
+                quizAccuracy = state.progress.quizAccuracyPercent,
+                quizStreak = state.progress.quizStreak,
+                openedToday = state.openedTodaysWord,
             )
+        }
+
+        item {
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_habit_title),
+                expanded = habitExpanded,
+                onToggle = { habitExpanded = !habitExpanded },
+            )
+        }
+        item {
+            AnimatedVisibility(
+                visible = habitExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                NotificationsCard(
+                    enabled = state.notificationsEnabled,
+                    hour = state.notificationHour,
+                    minute = state.notificationMinute,
+                    onEnabled = onNotificationsEnabled,
+                    onTime = onNotificationTime,
+                )
+            }
+        }
+
+        item {
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_appearance_title),
+                expanded = appearanceExpanded,
+                onToggle = { appearanceExpanded = !appearanceExpanded },
+            )
+        }
+        item {
+            AnimatedVisibility(
+                visible = appearanceExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                ThemeModeCard(
+                    selected = state.themeMode,
+                    onSelect = onThemeMode,
+                )
+            }
         }
 
         item {
@@ -150,8 +218,11 @@ private fun ProfileScreen(
                 WidgetAppearanceCard(
                     selectedColor = state.widgetBackgroundColor,
                     opacityPercent = state.widgetBackgroundOpacityPercent,
+                    imagePreset = state.widgetImagePreset,
                     onSelectColor = onSelectWidgetColor,
                     onOpacityChanged = onWidgetOpacityChanged,
+                    onSelectImage = onSelectWidgetImage,
+                    onGalleryUri = onGalleryUri,
                 )
             }
         }
@@ -218,6 +289,12 @@ private fun ProfileScreen(
                 exit = shrinkVertically() + fadeOut(),
             ) {
                 Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+                    CatalogTogglesCard(
+                        includeLiterary = state.includeLiteraryOrators,
+                        includeFictional = state.includeFictionalOrators,
+                        onIncludeLiterary = onIncludeLiterary,
+                        onIncludeFictional = onIncludeFictional,
+                    )
                     Card(
                         modifier = Modifier.fillMaxWidth(),
                         colors = CardDefaults.cardColors(
@@ -237,7 +314,7 @@ private fun ProfileScreen(
                                     style = MaterialTheme.typography.bodyLarge,
                                 )
                                 Text(
-                                    text = "Cycle through all orators daily",
+                                    text = stringResource(R.string.profile_rotate_all_hint),
                                     style = MaterialTheme.typography.bodySmall,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                                 )
@@ -269,24 +346,57 @@ private fun ProfileScreen(
                             OratorCard(
                                 orator = orator,
                                 isSelected = state.selectedOratorId == orator.id && !state.rotateThroughAll,
+                                isFavorite = orator.id in state.favoriteOratorIds,
                                 onClick = { onSelectOrator(if (state.selectedOratorId == orator.id) null else orator.id) },
+                                onToggleFavorite = { onToggleFavorite(orator.id) },
                             )
                         }
                     }
                 }
             }
         }
+
+        item {
+            Text(
+                text = stringResource(R.string.privacy_title),
+                style = MaterialTheme.typography.titleMedium,
+                color = MaterialTheme.colorScheme.primary,
+                modifier = Modifier
+                    .clickable(onClick = onPrivacyPolicy)
+                    .padding(vertical = 8.dp),
+            )
+        }
     }
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun WidgetAppearanceCard(
     selectedColor: Int,
     opacityPercent: Int,
+    imagePreset: com.rhetorica.app.widget.WidgetImagePreset,
     onSelectColor: (Int) -> Unit,
     onOpacityChanged: (Int) -> Unit,
+    onSelectImage: (com.rhetorica.app.widget.WidgetImagePreset) -> Unit,
+    onGalleryUri: (String) -> Unit,
 ) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    val galleryLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        contract = androidx.activity.result.contract.ActivityResultContracts.OpenDocument(),
+    ) { uri ->
+        if (uri != null) {
+            try {
+                context.contentResolver.takePersistableUriPermission(
+                    uri,
+                    android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION,
+                )
+            } catch (_: SecurityException) {
+                // Some providers do not support persistable grants; still try the URI.
+            }
+            onGalleryUri(uri.toString())
+        }
+    }
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
@@ -313,6 +423,32 @@ private fun WidgetAppearanceCard(
                             onClick = { onSelectColor(preset.colorValue) },
                         )
                     }
+                }
+            }
+
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(
+                    text = stringResource(R.string.profile_widget_image),
+                    style = MaterialTheme.typography.bodyLarge,
+                )
+                FlowRow(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp),
+                ) {
+                    com.rhetorica.app.widget.WidgetImagePreset.entries
+                        .filter { it != com.rhetorica.app.widget.WidgetImagePreset.Gallery }
+                        .forEach { preset ->
+                            FilterChip(
+                                selected = imagePreset == preset,
+                                onClick = { onSelectImage(preset) },
+                                label = { Text(stringResource(preset.labelRes)) },
+                            )
+                        }
+                    FilterChip(
+                        selected = imagePreset == com.rhetorica.app.widget.WidgetImagePreset.Gallery,
+                        onClick = { galleryLauncher.launch(arrayOf("image/*")) },
+                        label = { Text(stringResource(R.string.widget_image_gallery)) },
+                    )
                 }
             }
 
@@ -450,7 +586,9 @@ private fun WidgetPreview(
 private fun OratorCard(
     orator: com.rhetorica.app.core.model.OratorProfile,
     isSelected: Boolean,
+    isFavorite: Boolean,
     onClick: () -> Unit,
+    onToggleFavorite: () -> Unit,
 ) {
     Card(
         modifier = Modifier
@@ -471,19 +609,10 @@ private fun OratorCard(
             horizontalArrangement = Arrangement.spacedBy(16.dp),
             verticalAlignment = Alignment.CenterVertically,
         ) {
-            androidx.compose.foundation.Image(
-                painter = androidx.compose.ui.res.painterResource(
-                    id = android.R.drawable.ic_menu_gallery,
-                ),
-                contentDescription = orator.name,
-                modifier = Modifier
-                    .size(64.dp)
-                    .clip(CircleShape)
-                    .background(
-                        androidx.compose.ui.graphics.Color(
-                            orator.colorAccent.toInt(),
-                        ),
-                    ),
+            com.rhetorica.app.core.ui.OratorPortrait(
+                oratorId = orator.id,
+                oratorName = orator.name,
+                size = 64.dp,
             )
             Column(modifier = Modifier.weight(1f)) {
                 Text(
@@ -502,6 +631,23 @@ private fun OratorCard(
                     color = MaterialTheme.colorScheme.primary,
                 )
             }
+            IconButton(onClick = onToggleFavorite) {
+                Icon(
+                    imageVector = if (isFavorite) {
+                        Icons.Filled.Bookmark
+                    } else {
+                        Icons.Outlined.BookmarkBorder
+                    },
+                    contentDescription = stringResource(
+                        if (isFavorite) R.string.profile_unfavorite_orator else R.string.profile_favorite_orator,
+                    ),
+                    tint = if (isFavorite) {
+                        MaterialTheme.colorScheme.primary
+                    } else {
+                        MaterialTheme.colorScheme.onSurfaceVariant
+                    },
+                )
+            }
             RadioButton(
                 selected = isSelected,
                 onClick = onClick,
@@ -512,29 +658,45 @@ private fun OratorCard(
 
 @Composable
 private fun ProgressStatsRow(
-    viewedCount: Int,
+    uniqueOpened: Int,
     savedCount: Int,
-    quizCorrectCount: Int,
+    quizAccuracy: Int,
+    quizStreak: Int,
+    openedToday: Boolean,
 ) {
-    Row(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        ProgressStatCard(
-            label = stringResource(R.string.profile_progress_viewed),
-            value = viewedCount.toString(),
-            modifier = Modifier.weight(1f),
-        )
-        ProgressStatCard(
-            label = stringResource(R.string.profile_progress_saved),
-            value = savedCount.toString(),
-            modifier = Modifier.weight(1f),
-        )
-        ProgressStatCard(
-            label = stringResource(R.string.profile_progress_quiz),
-            value = quizCorrectCount.toString(),
-            modifier = Modifier.weight(1f),
-        )
+    Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+        if (openedToday) {
+            Text(
+                text = stringResource(R.string.profile_today_done),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+            )
+        }
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            ProgressStatCard(
+                label = stringResource(R.string.profile_progress_viewed),
+                value = uniqueOpened.toString(),
+                modifier = Modifier.weight(1f),
+            )
+            ProgressStatCard(
+                label = stringResource(R.string.profile_progress_saved),
+                value = savedCount.toString(),
+                modifier = Modifier.weight(1f),
+            )
+            ProgressStatCard(
+                label = stringResource(R.string.profile_progress_accuracy),
+                value = stringResource(R.string.profile_progress_accuracy_value, quizAccuracy),
+                modifier = Modifier.weight(1f),
+            )
+            ProgressStatCard(
+                label = stringResource(R.string.profile_progress_streak),
+                value = quizStreak.toString(),
+                modifier = Modifier.weight(1f),
+            )
+        }
     }
 }
 
@@ -598,9 +760,203 @@ private fun CollapsibleSectionHeader(
         )
         Icon(
             imageVector = Icons.Filled.ExpandMore,
-            contentDescription = if (expanded) "Collapse section" else "Expand section",
+            contentDescription = stringResource(
+                if (expanded) R.string.section_collapse else R.string.section_expand,
+            ),
             tint = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.rotate(rotation),
         )
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun NotificationsCard(
+    enabled: Boolean,
+    hour: Int,
+    minute: Int,
+    onEnabled: (Boolean) -> Unit,
+    onTime: (Int, Int) -> Unit,
+) {
+    val context = androidx.compose.ui.platform.LocalContext.current
+    var showPicker by rememberSaveable { mutableStateOf(false) }
+    val permissionLauncher = androidx.activity.compose.rememberLauncherForActivityResult(
+        contract = androidx.activity.result.contract.ActivityResultContracts.RequestPermission(),
+    ) { granted ->
+        onEnabled(granted)
+    }
+
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
+        ) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = stringResource(R.string.profile_notifications_title),
+                        style = MaterialTheme.typography.bodyLarge,
+                    )
+                    Text(
+                        text = stringResource(R.string.profile_notifications_hint),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+                Switch(
+                    checked = enabled,
+                    onCheckedChange = { checked ->
+                        if (checked &&
+                            android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU &&
+                            androidx.core.content.ContextCompat.checkSelfPermission(
+                                context,
+                                android.Manifest.permission.POST_NOTIFICATIONS,
+                            ) != android.content.pm.PackageManager.PERMISSION_GRANTED
+                        ) {
+                            permissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+                        } else {
+                            onEnabled(checked)
+                        }
+                    },
+                )
+            }
+            androidx.compose.material3.TextButton(onClick = { showPicker = true }) {
+                Text(
+                    text = stringResource(R.string.profile_notification_time_value, hour, minute),
+                )
+            }
+            if (!enabled) {
+                androidx.compose.material3.TextButton(
+                    onClick = {
+                        val intent = android.content.Intent(
+                            android.provider.Settings.ACTION_APP_NOTIFICATION_SETTINGS,
+                        ).apply {
+                            putExtra(android.provider.Settings.EXTRA_APP_PACKAGE, context.packageName)
+                        }
+                        context.startActivity(intent)
+                    },
+                ) {
+                    Text(text = stringResource(R.string.profile_notification_system_settings))
+                }
+            }
+        }
+    }
+
+    if (showPicker) {
+        val pickerState = androidx.compose.material3.rememberTimePickerState(
+            initialHour = hour,
+            initialMinute = minute,
+            is24Hour = false,
+        )
+        androidx.compose.material3.AlertDialog(
+            onDismissRequest = { showPicker = false },
+            confirmButton = {
+                androidx.compose.material3.TextButton(
+                    onClick = {
+                        onTime(pickerState.hour, pickerState.minute)
+                        showPicker = false
+                    },
+                ) {
+                    Text(text = stringResource(R.string.onboarding_done))
+                }
+            },
+            dismissButton = {
+                androidx.compose.material3.TextButton(onClick = { showPicker = false }) {
+                    Text(text = stringResource(R.string.back))
+                }
+            },
+            text = {
+                androidx.compose.material3.TimePicker(state = pickerState)
+            },
+        )
+    }
+}
+
+@Composable
+private fun ThemeModeCard(
+    selected: com.rhetorica.app.core.model.ThemeMode,
+    onSelect: (com.rhetorica.app.core.model.ThemeMode) -> Unit,
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text(
+                text = stringResource(R.string.profile_theme_title),
+                style = MaterialTheme.typography.bodyLarge,
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                FilterChip(
+                    selected = selected == com.rhetorica.app.core.model.ThemeMode.System,
+                    onClick = { onSelect(com.rhetorica.app.core.model.ThemeMode.System) },
+                    label = { Text(stringResource(R.string.profile_theme_system)) },
+                )
+                FilterChip(
+                    selected = selected == com.rhetorica.app.core.model.ThemeMode.Dark,
+                    onClick = { onSelect(com.rhetorica.app.core.model.ThemeMode.Dark) },
+                    label = { Text(stringResource(R.string.profile_theme_dark)) },
+                )
+                FilterChip(
+                    selected = selected == com.rhetorica.app.core.model.ThemeMode.Light,
+                    onClick = { onSelect(com.rhetorica.app.core.model.ThemeMode.Light) },
+                    label = { Text(stringResource(R.string.profile_theme_light)) },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun CatalogTogglesCard(
+    includeLiterary: Boolean,
+    includeFictional: Boolean,
+    onIncludeLiterary: (Boolean) -> Unit,
+    onIncludeFictional: (Boolean) -> Unit,
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text(
+                text = stringResource(R.string.profile_catalog_title),
+                style = MaterialTheme.typography.bodyLarge,
+            )
+            Text(
+                text = stringResource(R.string.profile_catalog_hint),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(text = stringResource(R.string.profile_catalog_literary))
+                Switch(checked = includeLiterary, onCheckedChange = onIncludeLiterary)
+            }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(text = stringResource(R.string.profile_catalog_fictional))
+                Switch(checked = includeFictional, onCheckedChange = onIncludeFictional)
+            }
+        }
     }
 }

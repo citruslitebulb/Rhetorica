@@ -9,8 +9,17 @@ import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
 
 @Database(
-    entities = [WordEntity::class, SavedWordEntity::class, ProgressEntity::class, DictionaryEntity::class, UserPreferencesEntity::class, QuoteEntity::class, SpeechEntity::class],
-    version = 15,
+    entities = [
+        WordEntity::class,
+        SavedWordEntity::class,
+        ProgressEntity::class,
+        DictionaryEntity::class,
+        UserPreferencesEntity::class,
+        QuoteEntity::class,
+        SpeechEntity::class,
+        OpenedWordEntity::class,
+    ],
+    version = 16,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -22,6 +31,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun userPreferencesDao(): UserPreferencesDao
     abstract fun quoteDao(): QuoteDao
     abstract fun speechDao(): SpeechDao
+    abstract fun openedWordDao(): OpenedWordDao
 
     companion object {
         @Volatile
@@ -222,6 +232,74 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        /**
+         * Habit-loop prefs, unique word opens, quiz accuracy/streak, optional pronunciation,
+         * and widget image background keys. Existing installs skip onboarding
+         * (`onboardingCompleted` defaults to 1).
+         */
+        private val MIGRATION_15_16 = object : Migration(15, 16) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN widgetBackgroundImageKey TEXT NOT NULL DEFAULT 'none'",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN widgetGalleryUri TEXT NOT NULL DEFAULT ''",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN onboardingCompleted INTEGER NOT NULL DEFAULT 1",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN notificationsEnabled INTEGER NOT NULL DEFAULT 1",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN notificationHour INTEGER NOT NULL DEFAULT 8",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN notificationMinute INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN themeMode TEXT NOT NULL DEFAULT 'system'",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN includeFictionalOrators INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN includeLiteraryOrators INTEGER NOT NULL DEFAULT 1",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN shownWotdIds TEXT NOT NULL DEFAULT '[]'",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN shownWotdPoolKey TEXT NOT NULL DEFAULT ''",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN todaysWotdId INTEGER",
+                )
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN todaysWotdDate TEXT NOT NULL DEFAULT ''",
+                )
+                database.execSQL("ALTER TABLE words ADD COLUMN pronunciation TEXT")
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN quizAttemptCount INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN quizStreak INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN bestQuizStreak INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS opened_words (
+                        wordId INTEGER NOT NULL,
+                        firstOpenedAtEpochMillis INTEGER NOT NULL,
+                        PRIMARY KEY(wordId)
+                    )
+                    """.trimIndent(),
+                )
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -244,6 +322,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_12_13,
                         MIGRATION_13_14,
                         MIGRATION_14_15,
+                        MIGRATION_15_16,
                     )
                     .fallbackToDestructiveMigration()
                     .build()

@@ -1,7 +1,6 @@
 package com.rhetorica.app.data.seed
 
 import android.content.Context
-import android.util.Log
 import androidx.room.withTransaction
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.DictionaryEntity
@@ -13,6 +12,7 @@ import com.rhetorica.app.data.local.SpeechDao
 import com.rhetorica.app.data.local.SpeechEntity
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
+import com.rhetorica.app.core.util.AppLog
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
 import javax.inject.Singleton
@@ -51,11 +51,11 @@ class SeedDataLoader @Inject constructor(
         val wordCount = wordDao.wordCount()
 
         if (appliedVersion == SEED_VERSION && wordCount > 0) {
-            Log.i(TAG, "Seed data up to date (v$SEED_VERSION, $wordCount words). Skipping reload.")
+            AppLog.i(TAG, "Seed data up to date (v$SEED_VERSION, $wordCount words). Skipping reload.")
             return@withContext
         }
 
-        Log.i(TAG, "Loading seed data (applied=$appliedVersion, target=$SEED_VERSION, words=$wordCount)")
+        AppLog.i(TAG, "Loading seed data (applied=$appliedVersion, target=$SEED_VERSION, words=$wordCount)")
         try {
             database.withTransaction {
                 val dictionaries = loadDictionaries()
@@ -89,7 +89,7 @@ class SeedDataLoader @Inject constructor(
                         deleteChunk = quoteDao::deleteQuotesByIds,
                     )
                 } else {
-                    Log.w(TAG, "Skipping quote prune after partial quote load failure")
+                    AppLog.w(TAG, "Skipping quote prune after partial quote load failure")
                 }
                 if (speechesResult.loadedCleanly) {
                     pruneByIds(
@@ -98,17 +98,17 @@ class SeedDataLoader @Inject constructor(
                         deleteChunk = speechDao::deleteSpeechesByIds,
                     )
                 } else {
-                    Log.w(TAG, "Skipping speech prune after speech load failure")
+                    AppLog.w(TAG, "Skipping speech prune after speech load failure")
                 }
                 savedWordDao.deleteOrphanedSavedWords()
             }
             prefs.edit().putInt(KEY_SEED_VERSION, SEED_VERSION).apply()
-            Log.i(
+            AppLog.i(
                 TAG,
                 "Seed data load complete (v$SEED_VERSION, words=${wordDao.wordCount()})",
             )
         } catch (e: Exception) {
-            Log.e(TAG, "Seed data load failed; leaving seed_version=$appliedVersion", e)
+            AppLog.e(TAG, "Seed data load failed; leaving seed_version=$appliedVersion", e)
         }
     }
 
@@ -128,14 +128,14 @@ class SeedDataLoader @Inject constructor(
                 json.decodeFromString<List<DictionaryEntity>>(reader.readText())
             }
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to load dictionaries", e)
+            AppLog.e(TAG, "Failed to load dictionaries", e)
             throw SeedLoadException("Failed to load dictionaries.json", e)
         }
         if (dictionaries.isEmpty()) {
             throw SeedLoadException("dictionaries.json decoded to an empty list")
         }
         dictionaryDao.upsertDictionaries(dictionaries)
-        Log.i(TAG, "Loaded ${dictionaries.size} dictionaries")
+        AppLog.i(TAG, "Loaded ${dictionaries.size} dictionaries")
         return dictionaries
     }
 
@@ -161,7 +161,7 @@ class SeedDataLoader @Inject constructor(
                     json.decodeFromString<List<WordEntity>>(reader.readText())
                 }
             } catch (e: Exception) {
-                Log.e(TAG, "Failed to load words from $fileName", e)
+                AppLog.e(TAG, "Failed to load words from $fileName", e)
                 throw SeedLoadException("Failed to load $fileName", e)
             }
 
@@ -182,11 +182,11 @@ class SeedDataLoader @Inject constructor(
                 )
             }
             if (words.isEmpty()) {
-                Log.w(TAG, "Word file is empty: $fileName")
+                AppLog.w(TAG, "Word file is empty: $fileName")
             }
 
             allWords.addAll(words)
-            Log.i(TAG, "Loaded ${words.size} words from $fileName")
+            AppLog.i(TAG, "Loaded ${words.size} words from $fileName")
         }
 
         if (allWords.isEmpty()) {
@@ -194,7 +194,7 @@ class SeedDataLoader @Inject constructor(
         }
 
         wordDao.upsertWords(allWords)
-        Log.i(TAG, "Loaded ${allWords.size} total words")
+        AppLog.i(TAG, "Loaded ${allWords.size} total words")
         return allWords
     }
 
@@ -216,21 +216,21 @@ class SeedDataLoader @Inject constructor(
                 val validQuotes = quotes.filter { quote ->
                     val isValid = quote.oratorId in validOratorIds
                     if (!isValid) {
-                        Log.w(TAG, "Skipping quote with invalid oratorId: ${quote.oratorId}")
+                        AppLog.w(TAG, "Skipping quote with invalid oratorId: ${quote.oratorId}")
                     }
                     isValid
                 }
                 allQuotes.addAll(validQuotes)
-                Log.i(TAG, "Loaded ${validQuotes.size} quotes from $fileName")
+                AppLog.i(TAG, "Loaded ${validQuotes.size} quotes from $fileName")
             } catch (e: Exception) {
                 loadedCleanly = false
-                Log.e(TAG, "Failed to load quotes from $fileName", e)
+                AppLog.e(TAG, "Failed to load quotes from $fileName", e)
             }
         }
 
         if (allQuotes.isNotEmpty()) {
             quoteDao.upsertQuotes(allQuotes)
-            Log.i(TAG, "Loaded ${allQuotes.size} total quotes")
+            AppLog.i(TAG, "Loaded ${allQuotes.size} total quotes")
         }
         return AssetLoadResult(items = allQuotes, loadedCleanly = loadedCleanly)
     }
@@ -241,20 +241,20 @@ class SeedDataLoader @Inject constructor(
                 json.decodeFromString<List<SpeechEntity>>(reader.readText())
             }
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to load speeches", e)
+            AppLog.e(TAG, "Failed to load speeches", e)
             return AssetLoadResult(items = emptyList(), loadedCleanly = false)
         }
 
         val validSpeeches = speeches.filter { speech ->
             val isValid = speech.oratorId in validOratorIds
             if (!isValid) {
-                Log.w(TAG, "Skipping speech with invalid oratorId: ${speech.oratorId}")
+                AppLog.w(TAG, "Skipping speech with invalid oratorId: ${speech.oratorId}")
             }
             isValid
         }
         if (validSpeeches.isNotEmpty()) {
             speechDao.upsertSpeeches(validSpeeches)
-            Log.i(TAG, "Loaded ${validSpeeches.size} speeches from speeches.json")
+            AppLog.i(TAG, "Loaded ${validSpeeches.size} speeches from speeches.json")
         }
         return AssetLoadResult(items = validSpeeches, loadedCleanly = true)
     }
@@ -269,7 +269,7 @@ class SeedDataLoader @Inject constructor(
         toDelete.chunked(DELETE_CHUNK_SIZE).forEach { chunk ->
             deleteChunk(chunk)
         }
-        Log.i(TAG, "Pruned ${toDelete.size} stale rows")
+        AppLog.i(TAG, "Pruned ${toDelete.size} stale rows")
     }
 }
 

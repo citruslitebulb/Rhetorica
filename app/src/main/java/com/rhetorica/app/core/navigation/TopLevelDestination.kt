@@ -27,4 +27,9 @@ enum class TopLevelDestination(
 /** Non-tab routes used for secondary screens. */
 object AppRoutes {
     const val PROFILE = "profile"
+    const val ONBOARDING = "onboarding"
+    const val SEARCH = "search"
+    const val PRIVACY = "privacy"
+    const val WORD_DETAIL = "word/{wordId}"
+    fun wordDetail(wordId: Long) = "word/$wordId"
 }

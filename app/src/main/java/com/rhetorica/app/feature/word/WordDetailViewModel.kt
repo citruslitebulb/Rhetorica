@@ -51,7 +51,7 @@ class WordDetailViewModel @Inject constructor(
             val word = repository.observeWordById(wordId).first()
             hasResolved.value = true
             if (word == null) return@launch
-            progressRepository.recordWordViewed()
+            progressRepository.recordWordViewed(wordId)
         }
     }
 

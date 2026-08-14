@@ -5,8 +5,10 @@ import android.content.Context
 import androidx.hilt.work.HiltWorker
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.rhetorica.app.data.local.UserPreferencesDao
+import com.rhetorica.app.core.util.AppLog
+import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.WordRepository
+import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.widget.WidgetAppearance
 import dagger.assisted.Assisted
 import dagger.assisted.AssistedInject
@@ -21,10 +23,14 @@ class WordOfDayWorker @AssistedInject constructor(
 
     override suspend fun doWork(): Result {
         return try {
-            val preferences = userPreferencesDao.getUserPreferences()
+            val preferences = userPreferencesDao.getUserPreferences().orDefault()
+            if (!preferences.notificationsEnabled) {
+                return Result.success()
+            }
+
             val word = wordRepository.getWordOfTheDayForPreferences(
-                selectedOratorId = preferences?.selectedOratorId,
-                rotateThroughAll = preferences?.rotateThroughAll ?: false,
+                selectedOratorId = preferences.selectedOratorId,
+                rotateThroughAll = preferences.rotateThroughAll,
             )
 
             if (word != null) {
@@ -38,16 +44,15 @@ class WordOfDayWorker @AssistedInject constructor(
 
                 val notificationManager =
                     context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-                val notificationId = (word.id and Int.MAX_VALUE.toLong()).toInt()
-                notificationManager.notify(notificationId, notification)
+                notificationManager.notify(NotificationScheduler.NOTIFICATION_ID, notification)
 
                 WidgetAppearance.refreshAllWidgets(context)
                 Result.success()
             } else {
-                Result.failure()
+                Result.retry()
             }
         } catch (e: Exception) {
-            android.util.Log.e("WordOfDayWorker", "Failed to show word notification", e)
+            AppLog.e("WordOfDayWorker", "Failed to show word notification", e)
             Result.failure()
         }
     }

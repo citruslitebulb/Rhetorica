@@ -61,7 +61,7 @@ class WordNotificationReceiver : BroadcastReceiver() {
                             ).show()
                         }
                     } catch (e: Exception) {
-                        android.util.Log.e(TAG, "Failed to save word", e)
+                        com.rhetorica.app.core.util.AppLog.e(TAG, "Failed to save word", e)
                         withContext(Dispatchers.Main) {
                             Toast.makeText(
                                 context,
@@ -92,7 +92,7 @@ class WordNotificationReceiver : BroadcastReceiver() {
                         // Keep goAsync alive until TTS finishes (or times out).
                         ttsSpeaker.speakWordAndDefinitionAndAwait(wordText, definition)
                     } catch (e: Exception) {
-                        android.util.Log.e(TAG, "Failed to speak word", e)
+                        com.rhetorica.app.core.util.AppLog.e(TAG, "Failed to speak word", e)
                     } finally {
                         pendingResult.finish()
                     }

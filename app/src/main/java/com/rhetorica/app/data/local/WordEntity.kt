@@ -17,4 +17,5 @@ data class WordEntity(
     val source: String? = null,
     val speech: String? = null,
     val categories: List<String> = emptyList(),
+    val pronunciation: String? = null,
 )

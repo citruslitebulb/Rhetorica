@@ -6,9 +6,12 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.rhetorica.app.feature.home.HomeRoute
+import com.rhetorica.app.feature.onboarding.OnboardingRoute
+import com.rhetorica.app.feature.profile.PrivacyPolicyRoute
 import com.rhetorica.app.feature.profile.ProfileRoute
 import com.rhetorica.app.feature.quiz.QuizRoute
 import com.rhetorica.app.feature.saved.SavedRoute
+import com.rhetorica.app.feature.search.SearchRoute
 import com.rhetorica.app.feature.speech.SpeechesRoute
 import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.feature.speech.speechDetailScreen
@@ -25,11 +28,26 @@ fun RhetoricaNavHost(
         startDestination = TopLevelDestination.Home.route,
         modifier = modifier,
     ) {
+        composable(AppRoutes.ONBOARDING) {
+            OnboardingRoute(
+                onFinished = {
+                    navController.navigate(TopLevelDestination.Home.route) {
+                        popUpTo(AppRoutes.ONBOARDING) { inclusive = true }
+                        launchSingleTop = true
+                    }
+                },
+            )
+        }
         composable(TopLevelDestination.Home.route) {
             HomeRoute(
                 onWordClick = { wordId -> navController.navigateToWordDetail(wordId) },
                 onSettingsClick = {
                     navController.navigate(AppRoutes.PROFILE) {
+                        launchSingleTop = true
+                    }
+                },
+                onSearchClick = {
+                    navController.navigate(AppRoutes.SEARCH) {
                         launchSingleTop = true
                     }
                 },
@@ -45,7 +63,22 @@ fun RhetoricaNavHost(
             )
         }
         composable(AppRoutes.PROFILE) {
-            ProfileRoute(onBack = { navController.popBackStack() })
+            ProfileRoute(
+                onBack = { navController.popBackStack() },
+                onPrivacyPolicy = {
+                    navController.navigate(AppRoutes.PRIVACY) { launchSingleTop = true }
+                },
+            )
+        }
+        composable(AppRoutes.SEARCH) {
+            SearchRoute(
+                onBack = { navController.popBackStack() },
+                onWordClick = { wordId -> navController.navigateToWordDetail(wordId) },
+                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },
+            )
+        }
+        composable(AppRoutes.PRIVACY) {
+            PrivacyPolicyRoute(onBack = { navController.popBackStack() })
         }
         wordDetailScreen(
             onBack = { navController.popBackStack() },

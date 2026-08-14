@@ -3,7 +3,7 @@ package com.rhetorica.app.core.tts
 import android.content.Context
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
-import android.util.Log
+import com.rhetorica.app.core.util.AppLog
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.util.Locale
 import java.util.concurrent.atomic.AtomicBoolean
@@ -119,7 +119,7 @@ class TtsSpeaker @Inject constructor(
                     }
                     true
                 } catch (e: Exception) {
-                    Log.e(TAG, "Failed to speak", e)
+                    AppLog.e(TAG, "Failed to speak", e)
                     result.complete(false)
                     false
                 }
@@ -158,7 +158,7 @@ class TtsSpeaker @Inject constructor(
                     if (cont.isActive) cont.resume(true)
                 } else {
                     ready.set(false)
-                    Log.e(TAG, "TextToSpeech init failed with status=$status")
+                    AppLog.e(TAG, "TextToSpeech init failed with status=$status")
                     if (cont.isActive) cont.resume(false)
                 }
             }
@@ -189,7 +189,7 @@ class TtsSpeaker @Inject constructor(
         try {
             tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, utteranceId)
         } catch (e: Exception) {
-            Log.e(TAG, "Failed to speak", e)
+            AppLog.e(TAG, "Failed to speak", e)
         }
     }
 

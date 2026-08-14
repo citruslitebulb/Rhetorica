@@ -11,5 +11,8 @@ data class ProgressEntity(
     val viewedCount: Int,
     val savedCount: Int,
     val quizCorrectCount: Int,
+    val quizAttemptCount: Int = 0,
+    val quizStreak: Int = 0,
+    val bestQuizStreak: Int = 0,
     val updatedAtEpochMillis: Long,
 )

@@ -3,7 +3,7 @@
 **Status**: Draft (Post-MVP / Pre-Launch Phase)  
 **Last Updated**: 2026-07-11  
 **Owner**: TBD  
-**Related**: [App_Plan.md](./App_Plan.md), [Agents.md](./Agents.md)
+**Related**: [App_Plan.md](./App_Plan.md), [Agents.md](./Agents.md), **[Owner_Checklist.md](./Owner_Checklist.md)** (owner-only launch tasks)
 
 ## 1. Goal
 
@@ -35,14 +35,12 @@ Success means:
 ### Known Gaps & Technical Debt
 - **Build/Release**:
   - No `signingConfigs` defined anywhere.
-  - `release` build type has `isMinifyEnabled = false` (and no resource shrinking).
-  - `proguard-rules.pro` is essentially empty.
-  - `versionCode = 1`, `versionName = "0.1.0"` (placeholders).
-- **Still partial product features**:
-  - Widget image backgrounds / gallery selection (color presets + translucency work; images do not).
-  - Notification time picker (WorkManager 24h periodic with fixed initial delay).
-  - Onboarding / first-run orator pick flow.
-  - Motion polish, broader accessibility pass, performance polish.
+  - Release minify/R8 and ProGuard rules are in place. Signing uses env vars (`RHETORICA_STORE_*`) with a debug-key fallback.
+  - `versionCode = 2`, `versionName = "1.0.0"`.
+- **Still needed for the Play listing**:
+  - Hosted public Privacy Policy URL (in-app policy exists).
+  - Screenshots and feature graphic.
+  - Play Console Data Safety / Content Rating.
 - **Code Hygiene**:
   - Numerous `Log.d` / `Log.e` calls left in production paths.
   - Some `// TODO` comments remaining (non-blocking).

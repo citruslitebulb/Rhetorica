@@ -2,20 +2,29 @@ package com.rhetorica.app.feature.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.rhetorica.app.core.model.HabitProgress
+import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
+import com.rhetorica.app.core.util.AppLog
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.WordEntity
+import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.DictionaryRepository
 import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.data.repository.WordOfDaySelector
 import com.rhetorica.app.data.repository.WordRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import java.time.LocalDate
+import java.time.ZoneId
 import javax.inject.Inject
+import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 
+@OptIn(ExperimentalCoroutinesApi::class)
 @HiltViewModel
 class HomeViewModel @Inject constructor(
     private val repository: WordRepository,
@@ -23,28 +32,29 @@ class HomeViewModel @Inject constructor(
     private val dictionaryRepository: DictionaryRepository,
     private val progressRepository: ProgressRepository,
 ) : ViewModel() {
-    val uiState: StateFlow<HomeUiState> = combine(
+    private val feedQuery = combine(
         userPreferencesDao.observeUserPreferences(),
-        repository.observeWords(),
-        repository.observeSavedWordIds(),
         dictionaryRepository.observeActiveOratorProfiles(),
-    ) { preferences, words, savedWordIds, orators ->
-        val selectedOratorId = preferences?.selectedOratorId
-        val rotateThroughAll = preferences?.rotateThroughAll ?: false
-        val selectedThemes = preferences?.selectedThemeCategories ?: emptyList()
+    ) { preferences, orators ->
+        val prefs = preferences.orDefault()
+        val visibleOrators = orators.filterByCatalog(
+            includeLiterary = prefs.includeLiteraryOrators,
+            includeFictional = prefs.includeFictionalOrators,
+        )
+        val selectedOratorId = prefs.selectedOratorId?.takeIf { id ->
+            visibleOrators.any { it.id == id }
+        }
+        val rotateThroughAll = prefs.rotateThroughAll
+        val selectedThemes = prefs.selectedThemeCategories
         val activeThemeSet = selectedThemes.toSet()
-        val hasActiveFilters = selectedThemes.isNotEmpty() ||
-            (!rotateThroughAll && selectedOratorId != null)
-
         val themeMatchingOratorIds: Set<Long> = if (selectedThemes.isEmpty()) {
             emptySet()
         } else {
-            orators.filter { orator ->
+            visibleOrators.filter { orator ->
                 orator.themeCategories.any { it in activeThemeSet }
             }.map { it.id }.toSet()
         }
 
-        // Feed filter may consider themes + orator selection.
         val feedOratorId = if (rotateThroughAll) {
             null
         } else {
@@ -53,64 +63,84 @@ class HomeViewModel @Inject constructor(
             }
         }
 
-        var filteredWords = words
-
-        if (feedOratorId != null) {
-            filteredWords = filteredWords.filter { it.oratorId == feedOratorId }
-        } else if (themeMatchingOratorIds.isNotEmpty()) {
-            filteredWords = filteredWords.filter { (it.oratorId ?: 0L) in themeMatchingOratorIds }
-        }
-
-        if (activeThemeSet.isNotEmpty()) {
-            filteredWords = filteredWords.filter { word ->
-                word.categories.any { cat -> cat in activeThemeSet }
+        val scopedOratorIds: Collection<Long>? = when {
+            feedOratorId != null -> null
+            themeMatchingOratorIds.isNotEmpty() -> themeMatchingOratorIds
+            rotateThroughAll && prefs.favoriteOratorIds.isNotEmpty() -> {
+                prefs.favoriteOratorIds.filter { id -> visibleOrators.any { it.id == id } }
             }
+            else -> visibleOrators.map { it.id }
         }
 
-        // Word of the Day is owned by the selected orator (or all, if rotating).
-        // Themes never reassign the WotD to a different orator's word.
         val wotdOratorId = WordOfDaySelector.resolveOratorId(
             selectedOratorId = selectedOratorId,
             rotateThroughAll = rotateThroughAll,
+            visibleOratorIds = visibleOrators.map { it.id },
         )
-        val wordOfTheDay = WordOfDaySelector.select(
-            allWords = words,
-            oratorId = wotdOratorId,
+        FeedQuery(
+            feedOratorId = feedOratorId,
+            scopedOratorIds = scopedOratorIds,
+            activeThemeSet = activeThemeSet,
+            hasActiveFilters = selectedThemes.isNotEmpty() ||
+                (!rotateThroughAll && selectedOratorId != null),
+            wotdOratorId = wotdOratorId,
+            todaysWotdId = prefs.todaysWotdId,
+            todaysWotdDate = prefs.todaysWotdDate,
+            oratorNameById = visibleOrators.associate { it.id to it.name },
         )
+    }
 
-        val oratorNameById = orators.associate { it.id to it.name }
-        // Always show the orator who actually owns the word (which is the selected one when set).
-        val resolvedWotdOratorId = wotdOratorId ?: wordOfTheDay?.oratorId
-        val wotdOratorName = resolvedWotdOratorId?.let { oratorNameById[it] }
+    val uiState: StateFlow<HomeUiState> = feedQuery.flatMapLatest { query ->
+        combine(
+            repository.observeWordsForFeed(query.feedOratorId, query.scopedOratorIds),
+            repository.observeSavedWordIds(),
+            progressRepository.observeIsWordOpened(query.todaysWotdId ?: -1L),
+            repository.observeWordById(query.todaysWotdId ?: -1L),
+        ) { words, savedWordIds, openedTodaysWord, todaysWord ->
+            var filteredWords = words
+            if (query.activeThemeSet.isNotEmpty()) {
+                filteredWords = filteredWords.filter { word ->
+                    word.categories.any { cat -> cat in query.activeThemeSet }
+                }
+            }
 
-        // Keep the daily word out of the main list when present to avoid duplication.
-        val listWords = if (wordOfTheDay != null) {
-            filteredWords.filter { it.id != wordOfTheDay.id }
-        } else {
-            filteredWords
+            val wordOfTheDay = todaysWord
+            val resolvedWotdOratorId = query.wotdOratorId ?: wordOfTheDay?.oratorId
+            val wotdOratorName = resolvedWotdOratorId?.let { query.oratorNameById[it] }
+            val listWords = if (wordOfTheDay != null) {
+                filteredWords.filter { it.id != wordOfTheDay.id }
+            } else {
+                filteredWords
+            }
+
+            HomeUiState(
+                words = listWords.map { word ->
+                    HomeWordCardState(
+                        word = word,
+                        isSaved = word.id in savedWordIds,
+                    )
+                },
+                wordOfTheDay = wordOfTheDay?.let { wotd ->
+                    HomeWordCardState(
+                        word = wotd,
+                        isSaved = wotd.id in savedWordIds,
+                    )
+                },
+                wordOfTheDayOratorId = resolvedWotdOratorId,
+                wordOfTheDayOratorName = wotdOratorName,
+                openedTodaysWord = HabitProgress.isTodaysWordOpened(
+                    todaysWotdId = query.todaysWotdId,
+                    todaysWotdDate = query.todaysWotdDate,
+                    isOpened = openedTodaysWord,
+                ),
+                totalWordCount = words.size,
+                browseWordCount = listWords.size,
+                hasActiveFilters = query.hasActiveFilters,
+                availableCategories = words.flatMap { it.categories }.distinct().sorted(),
+                selectedCategories = query.activeThemeSet,
+                isLoading = false,
+            )
         }
-
-        HomeUiState(
-            words = listWords.map { word ->
-                HomeWordCardState(
-                    word = word,
-                    isSaved = word.id in savedWordIds,
-                )
-            },
-            wordOfTheDay = wordOfTheDay?.let { wotd ->
-                HomeWordCardState(
-                    word = wotd,
-                    isSaved = wotd.id in savedWordIds,
-                )
-            },
-            wordOfTheDayOratorId = resolvedWotdOratorId,
-            wordOfTheDayOratorName = wotdOratorName,
-            totalWordCount = words.size,
-            hasActiveFilters = hasActiveFilters,
-            availableCategories = words.flatMap { it.categories }.distinct().sorted(),
-            selectedCategories = activeThemeSet,
-            isLoading = false,
-        )
     }.stateIn(
         scope = viewModelScope,
         started = SharingStarted.WhileSubscribed(5_000),
@@ -123,7 +153,20 @@ class HomeViewModel @Inject constructor(
                 repository.fixNullOratorIds()
                 progressRepository.syncSavedCount()
             } catch (e: Exception) {
-                android.util.Log.e("HomeViewModel", "Failed during home init", e)
+                AppLog.e("HomeViewModel", "Failed during home init", e)
+            }
+        }
+        viewModelScope.launch {
+            userPreferencesDao.observeUserPreferences().collect { raw ->
+                val prefs = raw.orDefault()
+                val today = LocalDate.now(ZoneId.systemDefault()).toString()
+                if (WordOfDaySelector.needsNewPick(prefs.todaysWotdId, prefs.todaysWotdDate, today)) {
+                    try {
+                        repository.ensureTodaysWord(today = today)
+                    } catch (e: Exception) {
+                        AppLog.e("HomeViewModel", "Failed to persist Word of the Day", e)
+                    }
+                }
             }
         }
     }
@@ -136,12 +179,25 @@ class HomeViewModel @Inject constructor(
     }
 }
 
+private data class FeedQuery(
+    val feedOratorId: Long?,
+    val scopedOratorIds: Collection<Long>?,
+    val activeThemeSet: Set<String>,
+    val hasActiveFilters: Boolean,
+    val wotdOratorId: Long?,
+    val todaysWotdId: Long?,
+    val todaysWotdDate: String,
+    val oratorNameById: Map<Long, String>,
+)
+
 data class HomeUiState(
     val words: List<HomeWordCardState> = emptyList(),
     val wordOfTheDay: HomeWordCardState? = null,
     val wordOfTheDayOratorId: Long? = null,
     val wordOfTheDayOratorName: String? = null,
+    val openedTodaysWord: Boolean = false,
     val totalWordCount: Int = 0,
+    val browseWordCount: Int = 0,
     val hasActiveFilters: Boolean = false,
     val availableCategories: List<String> = emptyList(),
     val selectedCategories: Set<String> = emptySet(),

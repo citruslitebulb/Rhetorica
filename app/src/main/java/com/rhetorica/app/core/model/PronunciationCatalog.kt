@@ -1,0 +1,87 @@
+package com.rhetorica.app.core.model
+
+/**
+ * Visible pronunciation hints. Prefers a seed-provided value, then a curated
+ * catalog of rhetorical headwords. Missing entries stay hidden rather than guessed.
+ */
+object PronunciationCatalog {
+    fun hint(word: String, stored: String?): String? {
+        val fromSeed = stored?.trim().orEmpty()
+        if (fromSeed.isNotEmpty()) return fromSeed
+        return catalog[word.trim().lowercase()]
+    }
+
+    private val catalog: Map<String, String> = mapOf(
+        "perspicacity" to "/ˌpɜːrspɪˈkæsəti/",
+        "eloquence" to "/ˈeləkwəns/",
+        "magnanimity" to "/ˌmæɡnəˈnɪməti/",
+        "rhetoric" to "/ˈretərɪk/",
+        "oratory" to "/ˈɔːrətɔːri/",
+        "demagogue" to "/ˈdeməɡɑːɡ/",
+        "philippic" to "/fɪˈlɪpɪk/",
+        "peroration" to "/ˌperəˈreɪʃən/",
+        "anaphora" to "/əˈnæfərə/",
+        "epistrophe" to "/ɪˈpɪstrəfi/",
+        "chiasmus" to "/kaɪˈæzməs/",
+        "antithesis" to "/ænˈtɪθəsɪs/",
+        "pathos" to "/ˈpeɪθɒs/",
+        "ethos" to "/ˈiːθɒs/",
+        "logos" to "/ˈloʊɡɒs/",
+        "liberty" to "/ˈlɪbərti/",
+        "justice" to "/ˈdʒʌstɪs/",
+        "equality" to "/ɪˈkwɒləti/",
+        "emancipation" to "/ɪˌmænsɪˈpeɪʃən/",
+        "perseverance" to "/ˌpɜːrsəˈvɪərəns/",
+        "fortitude" to "/ˈfɔːrtɪtjuːd/",
+        "resolute" to "/ˈrezəluːt/",
+        "indomitable" to "/ɪnˈdɒmɪtəbəl/",
+        "unalienable" to "/ʌnˈeɪliənəbəl/",
+        "consecrate" to "/ˈkɒnsɪkreɪt/",
+        "hallow" to "/ˈhæloʊ/",
+        "proposition" to "/ˌprɒpəˈzɪʃən/",
+        "malice" to "/ˈmælɪs/",
+        "charity" to "/ˈtʃærəti/",
+        "tyranny" to "/ˈtɪrəni/",
+        "despotism" to "/ˈdespətɪzəm/",
+        "commonwealth" to "/ˈkɒmənwelθ/",
+        "sovereignty" to "/ˈsɒvrənti/",
+        "eloquent" to "/ˈeləkwənt/",
+        "invective" to "/ɪnˈvektɪv/",
+        "exhortation" to "/ˌeɡzɔːrˈteɪʃən/",
+        "admonition" to "/ˌædməˈnɪʃən/",
+        "clemency" to "/ˈklemənsi/",
+        "temperance" to "/ˈtempərəns/",
+        "prudence" to "/ˈpruːdəns/",
+        "sagacity" to "/səˈɡæsəti/",
+        "veracity" to "/vəˈræsəti/",
+        "integrity" to "/ɪnˈteɡrəti/",
+        "dignity" to "/ˈdɪɡnəti/",
+        "solidarity" to "/ˌsɒlɪˈdærəti/",
+        "reconciliation" to "/ˌrekənsɪliˈeɪʃən/",
+        "nonviolence" to "/nɒnˈvaɪələns/",
+        "beloved" to "/bɪˈlʌvɪd/",
+        "promissory" to "/ˈprɒmɪsəri/",
+        "defaulted" to "/dɪˈfɔːltɪd/",
+        "manacles" to "/ˈmænəkəlz/",
+        "languished" to "/ˈlæŋɡwɪʃt/",
+        "exile" to "/ˈeɡzaɪl/",
+        "invictus" to "/ɪnˈvɪktəs/",
+        "blood" to "/blʌd/",
+        "toil" to "/tɔɪl/",
+        "tears" to "/tɪərz/",
+        "sweat" to "/swet/",
+        "beaches" to "/ˈbiːtʃɪz/",
+        "finest" to "/ˈfaɪnɪst/",
+        "never" to "/ˈnevər/",
+        "surrender" to "/səˈrendər/",
+        "ask" to "/æsk/",
+        "fellow" to "/ˈfeloʊ/",
+        "citizens" to "/ˈsɪtɪzənz/",
+        "inaugural" to "/ɪˈnɔːɡjərəl/",
+        "yes" to "/jes/",
+        "hope" to "/hoʊp/",
+        "audacity" to "/ɔːˈdæsəti/",
+        "change" to "/tʃeɪndʒ/",
+        "dream" to "/driːm/",
+    )
+}

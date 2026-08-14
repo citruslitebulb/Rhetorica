@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<full-backup-content />
+<full-backup-content>
+    <include domain="database" path="rhetorica.db" />
+    <include domain="sharedpref" path="rhetorica_seed.xml" />
+    <include domain="sharedpref" path="rhetorica_notifications.xml" />
+</full-backup-content>

@@ -63,11 +63,11 @@ private fun SpeechesScreen(
             verticalArrangement = Arrangement.Center,
         ) {
             Text(
-                text = "No full speeches available yet.",
+                text = stringResource(R.string.speeches_empty_title),
                 style = MaterialTheme.typography.titleMedium,
             )
             Text(
-                text = "We are adding more from the orators' famous speeches.",
+                text = stringResource(R.string.speeches_empty_body),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )

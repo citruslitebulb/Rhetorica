@@ -25,7 +25,7 @@ Core characteristics:
 ## Tech Stack
 - **Language / UI**: Kotlin 100%, Jetpack Compose + Material 3
 - **Architecture**: Single-Activity, Navigation Compose, Hilt (DI), ViewModel + Kotlin Flow/StateFlow
-- **Persistence**: Room (entities + DAOs for words, saved words, progress, dictionaries, preferences, quotes, speeches). Current schema version: 15. Heavy use of migrations and `@TypeConverters` (JSON lists).
+- **Persistence**: Room (entities + DAOs for words, saved words, progress, dictionaries, preferences, quotes, speeches). Current schema version: 16. Heavy use of migrations and `@TypeConverters` (JSON lists).
 - **Seeding**: Kotlinx Serialization + assets in `app/src/main/assets/data/seed/`. `SeedDataLoader` version-gates reloads via `SEED_VERSION` (skips full upsert when already current). On reload it upserts then **prunes** IDs absent from assets (chunked deletes; orphaned saved words cleaned). Any `words_*.json` parse failure **or invalid `oratorId`** aborts the whole load (no prune / no version bump). Quote/speech prune is skipped if those assets failed partially. **Always bump `SeedDataLoader.SEED_VERSION` when any seed JSON changes.**
 - **Background / Widget**: WorkManager (Hilt-enabled) for daily Word of the Day notifications + `AppWidgetProvider`.
 - **Build**: Gradle Kotlin DSL + version catalog (`gradle/libs.versions.toml`), KSP for Room/Hilt.
@@ -113,12 +113,10 @@ Note: The multi-module structure described in older sections of `App_Plan.md` (s
 - Full speeches browser
 - Rich seed data (many orators + quotes + speeches)
 
-**Outstanding / partial**:
-- Quiz flow (destination exists, implementation minimal)
-- Widget image backgrounds + gallery selection
-- Real TTS (text-to-speech) beyond placeholders
-- Polish: motion, accessibility, performance, empty states
-- Some notification deep linking is stubbed
+**Outstanding / partial** (owner-only — see [Owner_Checklist.md](./Owner_Checklist.md)):
+- Growing historical dictionaries toward a full year of unique daily words (no-repeat cycle is implemented)
+- Hosted public Privacy Policy URL + Play Console listing assets
+- Release signing secrets (env-based config is in Gradle; keystore is not committed)
 
 Always check the "Current Status", "Still Outstanding", and "MVP Milestones" sections in `App_Plan.md` before planning work.
 

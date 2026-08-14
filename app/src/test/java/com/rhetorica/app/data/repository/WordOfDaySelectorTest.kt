@@ -71,4 +71,114 @@ class WordOfDaySelectorTest {
     fun `empty orator pool returns null`() {
         assertNull(WordOfDaySelector.select(library, oratorId = 999L, dayOfYear = 1))
     }
+
+    @Test
+    fun `selectUnseen skips already shown words until the pool is exhausted`() {
+        val first = WordOfDaySelector.selectUnseen(
+            allWords = library,
+            oratorId = 10L,
+            shownIds = emptySet(),
+            dayOfYear = 1,
+        )
+        assertEquals("alpha", first.word?.word)
+
+        val second = WordOfDaySelector.selectUnseen(
+            allWords = library,
+            oratorId = 10L,
+            shownIds = first.shownIds.toSet(),
+            dayOfYear = 2,
+        )
+        assertEquals("bravo", second.word?.word)
+        assertEquals(false, second.cycleReset)
+
+        val reset = WordOfDaySelector.selectUnseen(
+            allWords = library,
+            oratorId = 10L,
+            shownIds = second.shownIds.toSet(),
+            dayOfYear = 3,
+        )
+        assertEquals(true, reset.cycleReset)
+        assertEquals(1, reset.shownIds.size)
+    }
+
+    @Test
+    fun `favorites limit the global pool`() {
+        val pick = WordOfDaySelector.select(
+            allWords = library,
+            oratorId = null,
+            dayOfYear = 1,
+            favoriteOratorIds = listOf(30L),
+        )
+        assertEquals("echo", pick?.word)
+    }
+
+    @Test
+    fun `catalog visibility hides fictional orators from the pool`() {
+        val pick = WordOfDaySelector.select(
+            allWords = library,
+            oratorId = null,
+            dayOfYear = 1,
+            visibleOratorIds = listOf(10L, 20L),
+        )
+        assertEquals("alpha", pick?.word)
+        assertNull(
+            WordOfDaySelector.select(
+                allWords = library,
+                oratorId = 30L,
+                dayOfYear = 1,
+                visibleOratorIds = listOf(10L, 20L),
+            ),
+        )
+    }
+
+    @Test
+    fun `hidden selected orator falls back to the visible catalog`() {
+        assertNull(
+            WordOfDaySelector.resolveOratorId(
+                selectedOratorId = 30L,
+                rotateThroughAll = false,
+                visibleOratorIds = listOf(10L, 20L),
+            ),
+        )
+        val pick = WordOfDaySelector.select(
+            allWords = library,
+            oratorId = null,
+            dayOfYear = 1,
+            favoriteOratorIds = emptyList(),
+            visibleOratorIds = listOf(10L, 20L),
+        )
+        assertEquals("alpha", pick?.word)
+    }
+
+    @Test
+    fun `favorites outside the catalog do not leak hidden words`() {
+        assertNull(
+            WordOfDaySelector.select(
+                allWords = library,
+                oratorId = null,
+                dayOfYear = 1,
+                favoriteOratorIds = listOf(30L),
+                visibleOratorIds = listOf(10L, 20L),
+            ),
+        )
+    }
+
+    @Test
+    fun `needsNewPick when the persisted day is missing or stale`() {
+        assertEquals(true, WordOfDaySelector.needsNewPick(todaysWotdId = null, todaysWotdDate = "2026-08-13", today = "2026-08-13"))
+        assertEquals(true, WordOfDaySelector.needsNewPick(todaysWotdId = 4L, todaysWotdDate = "2026-08-12", today = "2026-08-13"))
+        assertEquals(false, WordOfDaySelector.needsNewPick(todaysWotdId = 4L, todaysWotdDate = "2026-08-13", today = "2026-08-13"))
+    }
+
+    @Test
+    fun `pool key includes catalog flags`() {
+        assertEquals(
+            "all|lit:1|fic:0",
+            WordOfDaySelector.poolKey(oratorId = null, includeLiterary = true, includeFictional = false),
+        )
+        assertEquals(
+            "orator:10|lit:0|fic:1",
+            WordOfDaySelector.poolKey(oratorId = 10L, includeLiterary = false, includeFictional = true),
+        )
+    }
 }

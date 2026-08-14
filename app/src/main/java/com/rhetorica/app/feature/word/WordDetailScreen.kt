@@ -40,6 +40,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.rhetorica.app.R
+import com.rhetorica.app.core.model.PronunciationCatalog
 import com.rhetorica.app.core.model.WordThemes
 
 const val wordDetailRoute = "word/{wordId}"
@@ -175,6 +176,13 @@ private fun WordDetailScreen(
                             style = MaterialTheme.typography.displaySmall,
                             fontWeight = FontWeight.Bold,
                         )
+                        PronunciationCatalog.hint(word.word, word.pronunciation)?.let { ipa ->
+                            Text(
+                                text = ipa,
+                                style = MaterialTheme.typography.titleMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
                         Row(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.SpaceBetween,

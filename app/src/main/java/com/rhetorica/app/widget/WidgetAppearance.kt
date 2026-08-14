@@ -5,9 +5,14 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Paint
+import android.graphics.PorterDuff
+import android.graphics.PorterDuffXfermode
 import android.graphics.RectF
+import android.net.Uri
+import com.rhetorica.app.core.util.AppLog
 import androidx.annotation.StringRes
 import androidx.compose.ui.graphics.Color
 import com.rhetorica.app.R
@@ -88,6 +93,154 @@ object WidgetAppearance {
         canvas.drawRoundRect(borderRect, borderRadius, borderRadius, borderPaint)
 
         return bitmap
+    }
+
+    fun createCardBitmap(
+        context: Context,
+        widthPx: Int,
+        heightPx: Int,
+        cornerRadiusPx: Float,
+        fillColorArgb: Int,
+        imageKey: String,
+        galleryUri: String,
+        opacityPercent: Int,
+    ): Bitmap {
+        val preset = WidgetImagePreset.fromKey(imageKey)
+        val base = when {
+            preset == WidgetImagePreset.Gallery && galleryUri.isNotBlank() -> {
+                decodeGalleryBitmap(context, galleryUri, widthPx, heightPx, cornerRadiusPx)
+                    ?: createElegantCardBitmap(widthPx, heightPx, cornerRadiusPx, fillColorArgb)
+            }
+            preset != WidgetImagePreset.None && preset != WidgetImagePreset.Gallery -> {
+                createTextureBitmap(widthPx, heightPx, cornerRadiusPx, preset, fillColorArgb)
+            }
+            else -> createElegantCardBitmap(widthPx, heightPx, cornerRadiusPx, fillColorArgb)
+        }
+        if (preset == WidgetImagePreset.None) return base
+        return applyOpacityAndBorder(base, cornerRadiusPx, opacityPercent)
+    }
+
+    private fun applyOpacityAndBorder(
+        source: Bitmap,
+        cornerRadiusPx: Float,
+        opacityPercent: Int,
+    ): Bitmap {
+        val bitmap = Bitmap.createBitmap(source.width, source.height, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+        val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            alpha = ((opacityPercent.coerceIn(20, 100) / 100f) * 255).toInt()
+        }
+        canvas.drawBitmap(source, 0f, 0f, paint)
+        val borderPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = WIDGET_GOLD
+            style = Paint.Style.STROKE
+            strokeWidth = 5f
+        }
+        val inset = 2.5f
+        canvas.drawRoundRect(
+            RectF(inset, inset, source.width - inset, source.height - inset),
+            (cornerRadiusPx - inset).coerceAtLeast(0f),
+            (cornerRadiusPx - inset).coerceAtLeast(0f),
+            borderPaint,
+        )
+        return bitmap
+    }
+
+    private fun createTextureBitmap(
+        widthPx: Int,
+        heightPx: Int,
+        cornerRadiusPx: Float,
+        preset: WidgetImagePreset,
+        fillColorArgb: Int,
+    ): Bitmap {
+        val bitmap = Bitmap.createBitmap(widthPx.coerceAtLeast(1), heightPx.coerceAtLeast(1), Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+        val fill = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = when (preset) {
+                WidgetImagePreset.Parchment -> 0xFFE8D9B8.toInt()
+                WidgetImagePreset.Marble -> 0xFFD7DDE4.toInt()
+                WidgetImagePreset.Midnight -> 0xFF101828.toInt()
+                WidgetImagePreset.Velvet -> 0xFF3B1220.toInt()
+                else -> fillColorArgb
+            }
+        }
+        canvas.drawRoundRect(
+            RectF(0f, 0f, widthPx.toFloat(), heightPx.toFloat()),
+            cornerRadiusPx,
+            cornerRadiusPx,
+            fill,
+        )
+        val accent = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            style = Paint.Style.STROKE
+            strokeWidth = 2f
+            color = when (preset) {
+                WidgetImagePreset.Parchment -> 0x66B8973A
+                WidgetImagePreset.Marble -> 0x55FFFFFF
+                WidgetImagePreset.Midnight -> 0x44D4AF37
+                else -> 0x55D4AF37
+            }
+        }
+        var y = 12f
+        while (y < heightPx) {
+            canvas.drawLine(0f, y, widthPx.toFloat(), y + 8f, accent)
+            y += 18f
+        }
+        return createElegantCardBitmap(
+            widthPx = widthPx,
+            heightPx = heightPx,
+            cornerRadiusPx = cornerRadiusPx,
+            fillColorArgb = fill.color,
+        ).also { elegant ->
+            val overlay = Canvas(elegant)
+            overlay.drawBitmap(bitmap, 0f, 0f, Paint().apply { alpha = 180 })
+        }
+    }
+
+    private fun decodeGalleryBitmap(
+        context: Context,
+        uriString: String,
+        widthPx: Int,
+        heightPx: Int,
+        cornerRadiusPx: Float,
+    ): Bitmap? {
+        return try {
+            val uri = Uri.parse(uriString)
+            val targetW = widthPx.coerceAtLeast(1)
+            val targetH = heightPx.coerceAtLeast(1)
+            val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+            context.contentResolver.openInputStream(uri)?.use { stream ->
+                BitmapFactory.decodeStream(stream, null, bounds)
+            }
+            val decodeOptions = BitmapFactory.Options().apply {
+                inSampleSize = BitmapSampling.inSampleSize(
+                    srcWidth = bounds.outWidth,
+                    srcHeight = bounds.outHeight,
+                    reqWidth = targetW,
+                    reqHeight = targetH,
+                )
+            }
+            val decoded = context.contentResolver.openInputStream(uri)?.use { stream ->
+                BitmapFactory.decodeStream(stream, null, decodeOptions)
+            } ?: return null
+            val scaled = Bitmap.createScaledBitmap(decoded, targetW, targetH, true)
+            if (scaled != decoded) decoded.recycle()
+            clipToRoundedRect(scaled, cornerRadiusPx)
+        } catch (e: Exception) {
+            AppLog.e("WidgetAppearance", "Failed to decode gallery image", e)
+            null
+        }
+    }
+
+    private fun clipToRoundedRect(source: Bitmap, cornerRadiusPx: Float): Bitmap {
+        val output = Bitmap.createBitmap(source.width, source.height, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(output)
+        val paint = Paint(Paint.ANTI_ALIAS_FLAG)
+        val rect = RectF(0f, 0f, source.width.toFloat(), source.height.toFloat())
+        canvas.drawRoundRect(rect, cornerRadiusPx, cornerRadiusPx, paint)
+        paint.xfermode = PorterDuffXfermode(PorterDuff.Mode.SRC_IN)
+        canvas.drawBitmap(source, 0f, 0f, paint)
+        if (output != source) source.recycle()
+        return output
     }
 
     // Legacy solid rounded background (kept for compatibility / old customization path)

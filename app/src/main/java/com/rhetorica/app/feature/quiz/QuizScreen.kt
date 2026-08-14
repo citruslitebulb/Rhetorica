@@ -49,6 +49,7 @@ fun QuizRoute(
     QuizScreen(
         state = state,
         onModeSelected = viewModel::setMode,
+        onPoolSelected = viewModel::setPool,
         onDifficultySelected = viewModel::setDifficulty,
         onSelectOption = viewModel::selectOption,
         onNextMultipleChoice = viewModel::nextMultipleChoice,
@@ -64,6 +65,7 @@ fun QuizRoute(
 private fun QuizScreen(
     state: QuizUiState,
     onModeSelected: (QuizMode) -> Unit,
+    onPoolSelected: (QuizPool) -> Unit,
     onDifficultySelected: (WordGuessDifficulty) -> Unit,
     onSelectOption: (Long) -> Unit,
     onNextMultipleChoice: () -> Unit,
@@ -89,6 +91,10 @@ private fun QuizScreen(
         ModeSelector(
             mode = state.mode,
             onModeSelected = onModeSelected,
+        )
+        PoolSelector(
+            pool = state.pool,
+            onPoolSelected = onPoolSelected,
         )
 
         if (state.sessionTotal > 0) {
@@ -119,10 +125,10 @@ private fun QuizScreen(
 
             state.isUnavailable -> {
                 UnavailableBlock(
-                    body = if (state.mode == QuizMode.WordGuess) {
-                        stringResource(R.string.quiz_word_guess_unavailable_body)
-                    } else {
-                        stringResource(R.string.quiz_unavailable_body)
+                    body = when {
+                        state.pool == QuizPool.Saved -> stringResource(R.string.quiz_saved_unavailable_body)
+                        state.mode == QuizMode.WordGuess -> stringResource(R.string.quiz_word_guess_unavailable_body)
+                        else -> stringResource(R.string.quiz_unavailable_body)
                     },
                     onRetry = onRetry,
                 )
@@ -168,6 +174,28 @@ private fun ModeSelector(
             selected = mode == QuizMode.WordGuess,
             onClick = { onModeSelected(QuizMode.WordGuess) },
             label = { Text(stringResource(R.string.quiz_mode_word_guess)) },
+        )
+    }
+}
+
+@Composable
+private fun PoolSelector(
+    pool: QuizPool,
+    onPoolSelected: (QuizPool) -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        FilterChip(
+            selected = pool == QuizPool.Library,
+            onClick = { onPoolSelected(QuizPool.Library) },
+            label = { Text(stringResource(R.string.quiz_pool_library)) },
+        )
+        FilterChip(
+            selected = pool == QuizPool.Saved,
+            onClick = { onPoolSelected(QuizPool.Saved) },
+            label = { Text(stringResource(R.string.quiz_pool_saved)) },
         )
     }
 }

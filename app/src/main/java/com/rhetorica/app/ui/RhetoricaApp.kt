@@ -1,8 +1,5 @@
 package com.rhetorica.app.ui
 
-import androidx.compose.foundation.layout.WindowInsets
-import androidx.compose.foundation.layout.asPaddingValues
-import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -18,7 +15,9 @@ import com.rhetorica.app.core.navigation.TopLevelDestination
 import com.rhetorica.app.core.navigation.RhetoricaNavHost
 
 @Composable
-fun RhetoricaApp(navController: NavHostController) {
+fun RhetoricaApp(
+    navController: NavHostController,
+) {
     val currentDestination = navController.currentBackStackEntryAsState().value?.destination
     val destinations = TopLevelDestination.entries
     val currentRoute = currentDestination?.route
@@ -56,9 +55,7 @@ fun RhetoricaApp(navController: NavHostController) {
     ) { innerPadding ->
         RhetoricaNavHost(
             navController = navController,
-            modifier = Modifier
-                .padding(innerPadding)
-                .padding(WindowInsets.navigationBars.asPaddingValues()),
+            modifier = Modifier.padding(innerPadding),
         )
     }
 }
