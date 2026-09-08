@@ -126,11 +126,4 @@ data class ProgressSnapshot(
     val quizAttemptCount: Int,
     val quizStreak: Int,
     val bestQuizStreak: Int,
-) {
-    val quizAccuracyPercent: Int
-        get() = if (quizAttemptCount <= 0) {
-            0
-        } else {
-            ((quizCorrectCount * 100f) / quizAttemptCount).toInt().coerceIn(0, 100)
-        }
-}
+)

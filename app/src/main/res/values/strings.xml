@@ -119,7 +119,7 @@
     <string name="profile_progress_title">Your progress</string>
     <string name="profile_progress_viewed">Opens</string>
     <string name="profile_progress_saved">Saved</string>
-    <string name="profile_progress_quiz">Quest</string>
+    <string name="profile_progress_quiz">Quizzes</string>
     <string name="profile_widget_preview_attribution">Orator · Rhetorica · Word of the Day</string>
 
     <!-- Notifications -->
@@ -144,8 +144,6 @@
     <string name="quiz_pool_saved">Saved words</string>
     <string name="quiz_saved_unavailable_body">Save at least four words to quiz yourself from your collection.</string>
 
-    <string name="profile_progress_accuracy">Accuracy</string>
-    <string name="profile_progress_accuracy_value">%1$d%%</string>
     <string name="profile_progress_streak">Streak</string>
     <string name="profile_today_done">Today\'s word is opened</string>
     <string name="profile_habit_title">Daily habit</string>

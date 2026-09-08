@@ -140,7 +140,7 @@ private fun ProfileScreen(
             ProgressStatsRow(
                 uniqueOpened = state.progress.uniqueWordsOpened,
                 savedCount = state.progress.savedCount,
-                quizAccuracy = state.progress.quizAccuracyPercent,
+                quizzesTaken = state.progress.quizAttemptCount,
                 quizStreak = state.progress.quizStreak,
                 openedToday = state.openedTodaysWord,
             )
@@ -648,7 +648,7 @@ private fun OratorCard(
 private fun ProgressStatsRow(
     uniqueOpened: Int,
     savedCount: Int,
-    quizAccuracy: Int,
+    quizzesTaken: Int,
     quizStreak: Int,
     openedToday: Boolean,
 ) {
@@ -675,8 +675,8 @@ private fun ProgressStatsRow(
                 modifier = Modifier.weight(1f),
             )
             ProgressStatCard(
-                label = stringResource(R.string.profile_progress_accuracy),
-                value = stringResource(R.string.profile_progress_accuracy_value, quizAccuracy),
+                label = stringResource(R.string.profile_progress_quiz),
+                value = quizzesTaken.toString(),
                 modifier = Modifier.weight(1f),
             )
             ProgressStatCard(
