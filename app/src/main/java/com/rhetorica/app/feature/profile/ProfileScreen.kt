@@ -459,7 +459,7 @@ private fun WidgetAppearanceCard(
                 Slider(
                     value = opacityPercent.toFloat(),
                     onValueChange = { onOpacityChanged(it.toInt()) },
-                    valueRange = 20f..100f,
+                    valueRange = 0f..100f,
                 )
             }
 

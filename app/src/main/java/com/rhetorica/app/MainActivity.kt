@@ -36,6 +36,7 @@ import com.rhetorica.app.notification.NotificationPermissionGate
 import com.rhetorica.app.notification.NotificationScheduler
 import com.rhetorica.app.notification.WordNotificationHelper
 import com.rhetorica.app.ui.RhetoricaApp
+import com.rhetorica.app.ui.theme.RhetoricaGold
 import com.rhetorica.app.ui.theme.RhetoricaTheme
 import com.rhetorica.app.widget.WordOfDayWidgetProvider
 import dagger.hilt.android.AndroidEntryPoint
@@ -81,7 +82,11 @@ class MainActivity : ComponentActivity() {
             val prefsLoad by userPreferencesDao.observeUserPreferences()
                 .map { PrefsLoad(ready = true, preferences = it) }
                 .collectAsStateWithLifecycle(initialValue = PrefsLoad(ready = false, preferences = null))
-            val themeMode = ThemeMode.fromStorage(prefsLoad.preferences?.themeMode)
+            val themeMode = if (prefsLoad.ready) {
+                ThemeMode.fromStorage(prefsLoad.preferences?.themeMode)
+            } else {
+                ThemeMode.Dark
+            }
             val needsOnboarding = OnboardingGate.needsOnboarding(prefsLoad.preferences)
 
             RhetoricaTheme(themeMode = themeMode) {
@@ -90,7 +95,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize(),
                         contentAlignment = Alignment.Center,
                     ) {
-                        CircularProgressIndicator()
+                        CircularProgressIndicator(color = RhetoricaGold)
                     }
                 } else if (needsOnboarding) {
                     OnboardingRoute(onFinished = { })

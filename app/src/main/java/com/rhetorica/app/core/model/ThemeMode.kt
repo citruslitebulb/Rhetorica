@@ -8,7 +8,7 @@ enum class ThemeMode(val storageValue: String) {
 
     companion object {
         fun fromStorage(value: String?): ThemeMode {
-            return entries.firstOrNull { it.storageValue == value } ?: System
+            return entries.firstOrNull { it.storageValue == value } ?: Dark
         }
     }
 }

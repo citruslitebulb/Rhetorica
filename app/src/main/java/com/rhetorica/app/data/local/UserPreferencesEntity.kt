@@ -22,7 +22,7 @@ data class UserPreferencesEntity(
     val notificationsEnabled: Boolean = true,
     val notificationHour: Int = 8,
     val notificationMinute: Int = 0,
-    val themeMode: String = ThemeMode.System.storageValue,
+    val themeMode: String = ThemeMode.Dark.storageValue,
     val includeFictionalOrators: Boolean = false,
     val includeLiteraryOrators: Boolean = false,
     val shownWotdIds: List<Long> = emptyList(),

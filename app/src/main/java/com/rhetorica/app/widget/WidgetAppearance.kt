@@ -42,11 +42,11 @@ object WidgetAppearance {
 
     fun composeColor(colorValue: Int, opacityPercent: Int): Color {
         val baseColor = Color(colorValue)
-        return baseColor.copy(alpha = opacityPercent.coerceIn(20, 100) / 100f)
+        return baseColor.copy(alpha = opacityPercent.coerceIn(0, 100) / 100f)
     }
 
     fun argbColorInt(colorValue: Int, opacityPercent: Int): Int {
-        val alpha = ((opacityPercent.coerceIn(20, 100) / 100f) * 255).roundToInt()
+        val alpha = ((opacityPercent.coerceIn(0, 100) / 100f) * 255).roundToInt()
         return (alpha shl 24) or (colorValue and 0x00FFFFFF)
     }
 
@@ -128,7 +128,7 @@ object WidgetAppearance {
         val bitmap = Bitmap.createBitmap(source.width, source.height, Bitmap.Config.ARGB_8888)
         val canvas = Canvas(bitmap)
         val paint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            alpha = ((opacityPercent.coerceIn(20, 100) / 100f) * 255).toInt()
+            alpha = ((opacityPercent.coerceIn(0, 100) / 100f) * 255).toInt()
         }
         canvas.drawBitmap(source, 0f, 0f, paint)
         val borderPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {

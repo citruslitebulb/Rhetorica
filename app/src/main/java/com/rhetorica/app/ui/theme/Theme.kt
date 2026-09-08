@@ -9,8 +9,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import com.rhetorica.app.core.model.ThemeMode
 
+val RhetoricaGold = Color(0xFFD4AF37)
+
 private val RhetoricaDarkScheme = darkColorScheme(
-    primary = Color(0xFFD4AF37),        // Gold
+    primary = RhetoricaGold,            // Gold
     secondary = Color(0xFF8C5A2D),      // Deep burgundy
     tertiary = Color(0xFF5C2D2D),       // Rich burgundy
     background = Color(0xFF1A1A1A),
@@ -40,7 +42,7 @@ private val RhetoricaLightScheme = lightColorScheme(
 
 @Composable
 fun RhetoricaTheme(
-    themeMode: ThemeMode = ThemeMode.System,
+    themeMode: ThemeMode = ThemeMode.Dark,
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

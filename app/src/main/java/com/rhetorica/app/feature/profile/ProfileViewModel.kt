@@ -163,7 +163,7 @@ class ProfileViewModel @Inject constructor(
     fun updateWidgetBackgroundOpacity(opacityPercent: Int) {
         viewModelScope.launch {
             preferencesRepository.update {
-                it.copy(widgetBackgroundOpacityPercent = opacityPercent.coerceIn(20, 100))
+                it.copy(widgetBackgroundOpacityPercent = opacityPercent.coerceIn(0, 100))
             }
             WidgetAppearance.refreshAllWidgets(context)
         }
@@ -261,7 +261,7 @@ data class ProfileUiState(
     val notificationsEnabled: Boolean = true,
     val notificationHour: Int = 8,
     val notificationMinute: Int = 0,
-    val themeMode: ThemeMode = ThemeMode.System,
+    val themeMode: ThemeMode = ThemeMode.Dark,
     val includeFictionalOrators: Boolean = false,
     val includeLiteraryOrators: Boolean = false,
     val openedTodaysWord: Boolean = false,
