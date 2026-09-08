@@ -200,7 +200,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
 
             if (!content.partOfSpeech.isNullOrBlank()) {
                 setTextViewText(R.id.widgetPartOfSpeech, content.partOfSpeech)
-                setTextColor(R.id.widgetPartOfSpeech, WidgetAppearance.WIDGET_GOLD_MUTED)
+                setTextColor(R.id.widgetPartOfSpeech, WidgetAppearance.WIDGET_GOLD)
                 setViewVisibility(R.id.widgetPartOfSpeech, View.VISIBLE)
             } else {
                 setViewVisibility(R.id.widgetPartOfSpeech, View.GONE)
@@ -232,7 +232,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             if (layout.showExample && !content.example.isNullOrBlank()) {
                 val exampleText = ellipsizeExample(content.example, layout.exampleMaxChars)
                 setTextViewText(R.id.widgetQuoteText, exampleText)
-                setTextColor(R.id.widgetQuoteText, WidgetAppearance.WIDGET_TEXT_SECONDARY)
+                setTextColor(R.id.widgetQuoteText, WidgetAppearance.WIDGET_TEXT_PRIMARY)
                 setInt(R.id.widgetQuoteText, "setMaxLines", layout.exampleMaxLines)
                 setViewVisibility(R.id.widgetQuoteText, View.VISIBLE)
 
@@ -481,13 +481,13 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         private const val DEFAULT_OPACITY_PERCENT = 80
 
         /** Below this: word only (compact strip). */
-        private const val HEIGHT_COMPACT_DP = 100
+        private const val HEIGHT_COMPACT_DP = 90
         /** Below this: word + definition (standard). */
-        private const val HEIGHT_STANDARD_DP = 140
+        private const val HEIGHT_STANDARD_DP = 120
         /** At/above: word + definition + usage example. */
-        private const val HEIGHT_EXPANDED_DP = 180
+        private const val HEIGHT_EXPANDED_DP = 150
         /** Taller still: longer example + speech CTA. */
-        private const val HEIGHT_TALL_DP = 220
+        private const val HEIGHT_TALL_DP = 180
 
         private val ioExecutor = Executors.newSingleThreadExecutor()
         private val mainHandler = Handler(Looper.getMainLooper())

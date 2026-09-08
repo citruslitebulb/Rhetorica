@@ -1,28 +1,21 @@
 package com.rhetorica.app.feature.home
 
-import androidx.compose.animation.core.animateFloatAsState
-import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.outlined.BookmarkBorder
 import androidx.compose.material.icons.outlined.Feedback
 import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -38,16 +31,13 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SmallFloatingActionButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -56,13 +46,11 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
-import com.rhetorica.app.core.ui.OratorPortrait
 import com.rhetorica.app.core.ui.WordListCard
 
 @Composable
 fun HomeRoute(
     onWordClick: (Long) -> Unit,
-    onSettingsClick: () -> Unit,
     onSearchClick: () -> Unit,
     viewModel: HomeViewModel = hiltViewModel(),
 ) {
@@ -71,7 +59,6 @@ fun HomeRoute(
         state = state,
         onWordClick = onWordClick,
         onToggleSaved = viewModel::toggleSaved,
-        onSettingsClick = onSettingsClick,
         onSearchClick = onSearchClick,
     )
 }
@@ -82,7 +69,6 @@ private fun HomeScreen(
     state: HomeUiState,
     onWordClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
-    onSettingsClick: () -> Unit,
     onSearchClick: () -> Unit,
 ) {
     val context = LocalContext.current
@@ -121,12 +107,6 @@ private fun HomeScreen(
                         Icon(
                             imageVector = Icons.Outlined.Search,
                             contentDescription = stringResource(R.string.search_title),
-                        )
-                    }
-                    IconButton(onClick = onSettingsClick) {
-                        Icon(
-                            imageVector = Icons.Outlined.Settings,
-                            contentDescription = stringResource(R.string.home_settings),
                         )
                     }
                 },
@@ -242,8 +222,8 @@ private fun HomeScreen(
 }
 
 /**
- * Word of the Day fills the first screen. Browse vocabulary sits below the fold
- * and ends with an explicit "you've seen all N words" state.
+ * Word of the Day sits at the top; browse vocabulary follows on the same
+ * screen so the feed matches the gold-card home mockup.
  */
 @Composable
 private fun HomeFeed(
@@ -253,55 +233,21 @@ private fun HomeFeed(
     modifier: Modifier = Modifier,
 ) {
     val browseWords = state.words
-    val listState = rememberLazyListState()
-    val browseReveal by remember {
-        derivedStateOf {
-            when {
-                browseWords.isEmpty() -> 0f
-                listState.firstVisibleItemIndex == 0 -> {
-                    (listState.firstVisibleItemScrollOffset / BROWSE_FADE_SCROLL_PX)
-                        .coerceIn(0f, 1f)
-                }
-                else -> 1f
-            }
-        }
-    }
-    val browseAlpha by animateFloatAsState(
-        targetValue = browseReveal,
-        animationSpec = tween(durationMillis = 180),
-        label = "browseAlpha",
-    )
 
     LazyColumn(
-        state = listState,
         modifier = modifier,
         contentPadding = PaddingValues(horizontal = 16.dp, vertical = 12.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
-        item(key = "word_of_the_day") {
-            Column(
-                modifier = Modifier
-                    .fillParentMaxHeight(0.92f)
-                    .fillMaxWidth()
-                    .padding(top = 4.dp),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Top,
-            ) {
-                state.wordOfTheDay?.let { wotd ->
-                    WordOfTheDayHero(
-                        state = wotd,
-                        oratorName = state.wordOfTheDayOratorName,
-                        openedToday = state.openedTodaysWord,
-                        onClick = { onWordClick(wotd.word.id) },
-                        onToggleSaved = { onToggleSaved(wotd.word.id) },
-                    )
-                    Spacer(modifier = Modifier.height(20.dp))
-                    OratorPortrait(
-                        oratorId = state.wordOfTheDayOratorId ?: wotd.word.oratorId,
-                        oratorName = state.wordOfTheDayOratorName,
-                        size = 168.dp,
-                    )
-                }
+        state.wordOfTheDay?.let { wotd ->
+            item(key = "word_of_the_day") {
+                WordOfTheDayHero(
+                    state = wotd,
+                    oratorName = state.wordOfTheDayOratorName,
+                    openedToday = state.openedTodaysWord,
+                    onClick = { onWordClick(wotd.word.id) },
+                    onToggleSaved = { onToggleSaved(wotd.word.id) },
+                )
             }
         }
 
@@ -311,7 +257,7 @@ private fun HomeFeed(
                     text = stringResource(R.string.home_browse_title),
                     style = MaterialTheme.typography.titleMedium,
                     fontWeight = FontWeight.SemiBold,
-                    modifier = Modifier.graphicsLayer { alpha = browseAlpha },
+                    modifier = Modifier.padding(top = 8.dp),
                 )
             }
             items(
@@ -319,33 +265,22 @@ private fun HomeFeed(
                 key = { index -> "word_${browseWords[index].word.id}" },
             ) { index ->
                 val item = browseWords[index]
-                val stagger = 1f - (index * 0.08f).coerceIn(0f, 0.35f)
-                val itemAlpha = (browseAlpha * stagger).coerceIn(0f, 1f)
-                Box(
-                    modifier = Modifier.graphicsLayer {
-                        alpha = itemAlpha
-                        translationY = (1f - itemAlpha) * 18f
-                    },
-                ) {
-                    WordListCard(
-                        word = item.word.word,
-                        partOfSpeech = item.word.partOfSpeech,
-                        definition = item.word.definition,
-                        example = item.word.example,
-                        isSaved = item.isSaved,
-                        onClick = { onWordClick(item.word.id) },
-                        onToggleSaved = { onToggleSaved(item.word.id) },
-                        source = item.word.source,
-                        speech = item.word.speech,
-                        categories = item.word.categories,
-                    )
-                }
+                WordListCard(
+                    word = item.word.word,
+                    partOfSpeech = item.word.partOfSpeech,
+                    definition = item.word.definition,
+                    example = item.word.example,
+                    isSaved = item.isSaved,
+                    onClick = { onWordClick(item.word.id) },
+                    onToggleSaved = { onToggleSaved(item.word.id) },
+                    source = item.word.source,
+                    speech = item.word.speech,
+                    categories = item.word.categories,
+                )
             }
             item(key = "feed_end") {
                 Card(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .graphicsLayer { alpha = browseAlpha },
+                    modifier = Modifier.fillMaxWidth(),
                     colors = CardDefaults.cardColors(
                         containerColor = MaterialTheme.colorScheme.surfaceVariant,
                     ),
@@ -389,7 +324,7 @@ private fun WordOfTheDayHero(
         colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.primaryContainer,
         ),
-        shape = RoundedCornerShape(16.dp),
+        shape = RoundedCornerShape(20.dp),
     ) {
         Column(
             modifier = Modifier.padding(16.dp),
@@ -429,27 +364,21 @@ private fun WordOfTheDayHero(
 
             Text(
                 text = word.word,
-                style = MaterialTheme.typography.headlineMedium,
+                style = MaterialTheme.typography.headlineLarge,
                 fontWeight = FontWeight.Bold,
-                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                color = MaterialTheme.colorScheme.primary,
             )
-            Row(
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                Text(
-                    text = word.partOfSpeech,
-                    style = MaterialTheme.typography.labelLarge,
-                    color = MaterialTheme.colorScheme.primary,
-                )
-                oratorName?.let { name ->
-                    Text(
-                        text = "· $name",
-                        style = MaterialTheme.typography.labelMedium,
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.75f),
-                    )
-                }
-            }
+            Text(
+                text = buildString {
+                    append(word.partOfSpeech)
+                    if (!oratorName.isNullOrBlank()) {
+                        append(" · ")
+                        append(oratorName)
+                    }
+                },
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+            )
             Text(
                 text = word.definition,
                 style = MaterialTheme.typography.bodyLarge,
@@ -462,7 +391,7 @@ private fun WordOfTheDayHero(
                     text = word.example,
                     style = MaterialTheme.typography.bodyMedium,
                     fontStyle = FontStyle.Italic,
-                    color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = 0.85f),
+                    color = MaterialTheme.colorScheme.primary.copy(alpha = 0.9f),
                     maxLines = 3,
                     overflow = TextOverflow.Ellipsis,
                 )
@@ -496,6 +425,3 @@ private fun EmptyState(
         )
     }
 }
-
-/** Scroll distance (px) over which browse vocabulary fades fully in. */
-private const val BROWSE_FADE_SCROLL_PX = 280f

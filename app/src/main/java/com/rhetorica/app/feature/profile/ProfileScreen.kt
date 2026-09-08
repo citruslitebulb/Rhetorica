@@ -26,7 +26,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material.icons.outlined.BookmarkBorder
@@ -65,14 +64,12 @@ import com.rhetorica.app.widget.WidgetAppearance
 
 @Composable
 fun ProfileRoute(
-    onBack: () -> Unit,
     onPrivacyPolicy: () -> Unit,
     viewModel: ProfileViewModel = hiltViewModel(),
 ) {
     val state by viewModel.uiState.collectAsStateWithLifecycle()
     ProfileScreen(
         state = state,
-        onBack = onBack,
         onPrivacyPolicy = onPrivacyPolicy,
         onSelectOrator = viewModel::selectOrator,
         onToggleFavorite = viewModel::toggleFavoriteOrator,
@@ -95,7 +92,6 @@ fun ProfileRoute(
 @Composable
 private fun ProfileScreen(
     state: ProfileUiState,
-    onBack: () -> Unit,
     onPrivacyPolicy: () -> Unit,
     onSelectOrator: (Long?) -> Unit,
     onToggleFavorite: (Long) -> Unit,
@@ -114,22 +110,14 @@ private fun ProfileScreen(
 ) {
     var widgetExpanded by rememberSaveable { mutableStateOf(false) }
     var themesExpanded by rememberSaveable { mutableStateOf(false) }
-    var oratorsExpanded by rememberSaveable { mutableStateOf(true) }
-    var habitExpanded by rememberSaveable { mutableStateOf(true) }
+    var oratorsExpanded by rememberSaveable { mutableStateOf(false) }
+    var habitExpanded by rememberSaveable { mutableStateOf(false) }
     var appearanceExpanded by rememberSaveable { mutableStateOf(false) }
 
     Scaffold(
         topBar = {
             CenterAlignedTopAppBar(
                 title = { Text(text = stringResource(R.string.nav_profile)) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(
-                            imageVector = Icons.AutoMirrored.Outlined.ArrowBack,
-                            contentDescription = stringResource(R.string.back),
-                        )
-                    }
-                },
             )
         },
     ) { innerPadding ->
@@ -754,8 +742,8 @@ private fun CollapsibleSectionHeader(
     ) {
         Text(
             text = title,
-            style = MaterialTheme.typography.headlineMedium,
-            fontWeight = FontWeight.Bold,
+            style = MaterialTheme.typography.titleSmall,
+            fontWeight = FontWeight.SemiBold,
             modifier = Modifier.weight(1f),
         )
         Icon(

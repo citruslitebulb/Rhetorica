@@ -41,11 +41,6 @@ fun RhetoricaNavHost(
         composable(TopLevelDestination.Home.route) {
             HomeRoute(
                 onWordClick = { wordId -> navController.navigateToWordDetail(wordId) },
-                onSettingsClick = {
-                    navController.navigate(AppRoutes.PROFILE) {
-                        launchSingleTop = true
-                    }
-                },
                 onSearchClick = {
                     navController.navigate(AppRoutes.SEARCH) {
                         launchSingleTop = true
@@ -57,17 +52,16 @@ fun RhetoricaNavHost(
             SavedRoute(onWordClick = { wordId -> navController.navigateToWordDetail(wordId) })
         }
         composable(TopLevelDestination.Quiz.route) { QuizRoute() }
-        composable(TopLevelDestination.Speeches.route) {
-            SpeechesRoute(
-                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },
-            )
-        }
-        composable(AppRoutes.PROFILE) {
+        composable(TopLevelDestination.Profile.route) {
             ProfileRoute(
-                onBack = { navController.popBackStack() },
                 onPrivacyPolicy = {
                     navController.navigate(AppRoutes.PRIVACY) { launchSingleTop = true }
                 },
+            )
+        }
+        composable(TopLevelDestination.Speeches.route) {
+            SpeechesRoute(
+                onSpeechClick = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },
             )
         }
         composable(AppRoutes.SEARCH) {

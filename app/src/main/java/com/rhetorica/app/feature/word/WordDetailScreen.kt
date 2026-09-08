@@ -1,6 +1,5 @@
 package com.rhetorica.app.feature.word
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -42,6 +41,7 @@ import androidx.navigation.navArgument
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.PronunciationCatalog
 import com.rhetorica.app.core.model.WordThemes
+import com.rhetorica.app.core.ui.ThemeChip
 
 const val wordDetailRoute = "word/{wordId}"
 
@@ -208,18 +208,7 @@ private fun WordDetailScreen(
                     if (word.categories.isNotEmpty()) {
                         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             word.categories.forEach { cat ->
-                                val label = WordThemes.displayName(cat)
-                                Text(
-                                    text = label,
-                                    style = MaterialTheme.typography.labelMedium,
-                                    color = MaterialTheme.colorScheme.primary,
-                                    modifier = Modifier
-                                        .background(
-                                            MaterialTheme.colorScheme.primary.copy(alpha = 0.12f),
-                                            RoundedCornerShape(6.dp),
-                                        )
-                                        .padding(horizontal = 8.dp, vertical = 3.dp),
-                                )
+                                ThemeChip(label = WordThemes.displayName(cat))
                             }
                         }
                     }
@@ -254,7 +243,8 @@ private fun WordDetailScreen(
                     if (word.speech != null && (word.oratorId ?: 0L) != 0L) {
                         OutlinedButton(
                             onClick = { onReadFullSpeech(word.oratorId!!, word.speech) },
-                            modifier = Modifier.padding(top = 4.dp),
+                            modifier = Modifier.padding(top = 8.dp),
+                            shape = RoundedCornerShape(percent = 50),
                         ) {
                             Text(text = stringResource(R.string.word_read_full_speech))
                         }
