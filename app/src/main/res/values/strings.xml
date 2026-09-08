@@ -187,8 +187,16 @@
     <string name="onboarding_back">Back</string>
     <string name="onboarding_done">Begin</string>
 
+    <string name="feedback_cd">Send feedback</string>
+    <string name="feedback_title">Send feedback</string>
+    <string name="feedback_message_label">Your message</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_mail_missing">No mail app is available. Your note is still here.</string>
+    <string name="feedback_destination_email" translatable="false">derrick5199@gmail.com</string>
+    <string name="feedback_subject" translatable="false">Rhetorica feedback</string>
+
     <string name="privacy_title">Privacy Policy</string>
-    <string name="privacy_body">Rhetorica is offline-first. It does not create accounts or send your vocabulary activity to a Rhetorica server.\n\nThe app stores words, saved items, progress, and appearance settings on this device.\n\nIf Android Backup or device-to-device transfer is enabled on your phone, Google may copy that on-device data so you can restore Rhetorica after a setup or upgrade. Rhetorica does not operate its own backup service.\n\nIf you enable daily notifications, Android may show a Word of the Day reminder. You can change the time or turn this off in Settings.\n\nIf you choose a gallery image for the widget, Rhetorica reads that image only to draw the widget background.</string>
+    <string name="privacy_body">Rhetorica is offline-first. It does not create accounts or send your vocabulary activity to a Rhetorica server.\n\nThe app stores words, saved items, progress, and appearance settings on this device.\n\nIf Android Backup or device-to-device transfer is enabled on your phone, Google may copy that on-device data so you can restore Rhetorica after a setup or upgrade. Rhetorica does not operate its own backup service.\n\nIf you enable daily notifications, Android may show a Word of the Day reminder. You can change the time or turn this off in Settings.\n\nIf you choose a gallery image for the widget, Rhetorica reads that image only to draw the widget background.\n\nIf you send feedback, Rhetorica opens your mail app with the note you typed. Rhetorica does not collect that message.</string>
 
     <string name="speeches_empty_title">No full speeches available yet</string>
     <string name="speeches_empty_body">We are adding more from the orators\' famous speeches.</string>

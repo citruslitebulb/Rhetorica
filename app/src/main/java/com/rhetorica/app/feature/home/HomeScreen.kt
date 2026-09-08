@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -19,8 +20,10 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.outlined.BookmarkBorder
+import androidx.compose.material.icons.outlined.Feedback
 import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material.icons.outlined.Settings
+import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CenterAlignedTopAppBar
@@ -29,12 +32,19 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SmallFloatingActionButton
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.derivedStateOf
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.graphicsLayer
@@ -48,6 +58,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.ui.OratorPortrait
 import com.rhetorica.app.core.ui.WordListCard
+
 @Composable
 fun HomeRoute(
     onWordClick: (Long) -> Unit,
@@ -74,7 +85,29 @@ private fun HomeScreen(
     onSettingsClick: () -> Unit,
     onSearchClick: () -> Unit,
 ) {
+    val context = LocalContext.current
+    var sheetOpen by rememberSaveable { mutableStateOf(false) }
+    var message by rememberSaveable { mutableStateOf("") }
+    var mailError by rememberSaveable { mutableStateOf(false) }
+    val address = stringResource(R.string.feedback_destination_email)
+    val subject = stringResource(R.string.feedback_subject)
+
     Scaffold(
+        floatingActionButton = {
+            SmallFloatingActionButton(
+                onClick = {
+                    sheetOpen = true
+                    mailError = false
+                },
+                containerColor = MaterialTheme.colorScheme.primary,
+                contentColor = MaterialTheme.colorScheme.onPrimary,
+            ) {
+                Icon(
+                    imageVector = Icons.Outlined.Feedback,
+                    contentDescription = stringResource(R.string.feedback_cd),
+                )
+            }
+        },
         topBar = {
             CenterAlignedTopAppBar(
                 title = {
@@ -139,6 +172,70 @@ private fun HomeScreen(
                         .padding(innerPadding)
                         .background(MaterialTheme.colorScheme.background),
                 )
+            }
+        }
+    }
+
+    if (sheetOpen) {
+        ModalBottomSheet(
+            onDismissRequest = {
+                sheetOpen = false
+                message = ""
+                mailError = false
+            },
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 24.dp)
+                    .padding(bottom = 32.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                Text(
+                    text = stringResource(R.string.feedback_title),
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                OutlinedTextField(
+                    value = message,
+                    onValueChange = {
+                        message = it
+                        mailError = false
+                    },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .heightIn(min = 120.dp),
+                    minLines = 4,
+                    label = { Text(stringResource(R.string.feedback_message_label)) },
+                )
+                if (mailError) {
+                    Text(
+                        text = stringResource(R.string.feedback_mail_missing),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.error,
+                    )
+                }
+                Button(
+                    onClick = {
+                        val launched = FeedbackMail.launch(
+                            context = context,
+                            address = address,
+                            subject = subject,
+                            body = message.trim(),
+                        )
+                        if (launched) {
+                            sheetOpen = false
+                            message = ""
+                            mailError = false
+                        } else {
+                            mailError = true
+                        }
+                    },
+                    enabled = FeedbackMail.hasMessage(message),
+                    modifier = Modifier.fillMaxWidth(),
+                ) {
+                    Text(text = stringResource(R.string.feedback_submit))
+                }
             }
         }
     }
