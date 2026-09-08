@@ -13,12 +13,15 @@ import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
@@ -29,6 +32,7 @@ import com.rhetorica.app.core.navigation.OnboardingGate
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.PreferencesRepository
+import com.rhetorica.app.feature.home.FeedbackOverlay
 import com.rhetorica.app.feature.onboarding.OnboardingRoute
 import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.feature.word.navigateToWordDetail
@@ -98,7 +102,15 @@ class MainActivity : ComponentActivity() {
                         CircularProgressIndicator(color = RhetoricaGold)
                     }
                 } else if (needsOnboarding) {
-                    OnboardingRoute(onFinished = { })
+                    Box(modifier = Modifier.fillMaxSize()) {
+                        OnboardingRoute(onFinished = { })
+                        FeedbackOverlay(
+                            modifier = Modifier
+                                .align(Alignment.BottomEnd)
+                                .navigationBarsPadding()
+                                .padding(end = 16.dp, bottom = 16.dp),
+                        )
+                    }
                 } else {
                     val navController = rememberNavController()
                     val launchIntent = remember { intent }

@@ -205,6 +205,7 @@
     <string name="onboarding_step">Step %1$d of %2$d</string>
 
     <string name="feedback_cd">Send feedback</string>
+    <string name="feedback_chip">Feedback</string>
     <string name="feedback_title">Send feedback</string>
     <string name="feedback_message_label">Your message</string>
     <string name="feedback_submit">Submit</string>

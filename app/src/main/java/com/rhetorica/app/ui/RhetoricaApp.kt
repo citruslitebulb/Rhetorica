@@ -1,5 +1,7 @@
 package com.rhetorica.app.ui
 
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -7,12 +9,15 @@ import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
-import com.rhetorica.app.core.navigation.TopLevelDestination
 import com.rhetorica.app.core.navigation.RhetoricaNavHost
+import com.rhetorica.app.core.navigation.TopLevelDestination
+import com.rhetorica.app.feature.home.FeedbackOverlay
 
 @Composable
 fun RhetoricaApp(
@@ -53,9 +58,17 @@ fun RhetoricaApp(
             }
         },
     ) { innerPadding ->
-        RhetoricaNavHost(
-            navController = navController,
-            modifier = Modifier.padding(innerPadding),
-        )
+        Box(modifier = Modifier.fillMaxSize()) {
+            RhetoricaNavHost(
+                navController = navController,
+                modifier = Modifier.padding(innerPadding),
+            )
+            FeedbackOverlay(
+                modifier = Modifier
+                    .align(Alignment.BottomEnd)
+                    .padding(innerPadding)
+                    .padding(end = 16.dp, bottom = 16.dp),
+            )
+        }
     }
 }
