@@ -14,6 +14,11 @@ jobs:
         with:
           distribution: temurin
           java-version: 17
+          cache: gradle
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v4
+      - name: Make Gradle wrapper executable
+        run: chmod +x gradlew
       - name: Unit tests
         run: ./gradlew testDebugUnitTest --stacktrace
       - name: Debug assemble
