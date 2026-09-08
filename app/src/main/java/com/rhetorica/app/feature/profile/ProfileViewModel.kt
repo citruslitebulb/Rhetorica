@@ -263,7 +263,7 @@ data class ProfileUiState(
     val notificationMinute: Int = 0,
     val themeMode: ThemeMode = ThemeMode.System,
     val includeFictionalOrators: Boolean = false,
-    val includeLiteraryOrators: Boolean = true,
+    val includeLiteraryOrators: Boolean = false,
     val openedTodaysWord: Boolean = false,
     val progress: ProgressSnapshot = ProgressSnapshot(0, 0, 0, 0, 0, 0),
     val isLoading: Boolean = false,

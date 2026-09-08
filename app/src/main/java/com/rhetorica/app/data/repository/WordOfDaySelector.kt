@@ -35,7 +35,7 @@ object WordOfDaySelector {
     fun poolKey(
         oratorId: Long?,
         favoriteOratorIds: List<Long> = emptyList(),
-        includeLiterary: Boolean = true,
+        includeLiterary: Boolean = false,
         includeFictional: Boolean = false,
     ): String {
         val catalog = "lit:${if (includeLiterary) 1 else 0}|fic:${if (includeFictional) 1 else 0}"

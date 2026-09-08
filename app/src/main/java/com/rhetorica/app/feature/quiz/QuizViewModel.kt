@@ -122,6 +122,7 @@ class QuizViewModel @Inject constructor(
 
             val preferences = userPreferencesDao.getUserPreferences().orDefault()
             val visible = wordRepository.resolveVisibleOratorIds(preferences)
+            val library = wordRepository.resolveLibraryOratorIds(preferences)
             val oratorId = WordOfDaySelector.resolveOratorId(
                 selectedOratorId = preferences.selectedOratorId,
                 rotateThroughAll = preferences.rotateThroughAll,
@@ -135,11 +136,15 @@ class QuizViewModel @Inject constructor(
                 wordRepository.getRandomWords(
                     limit = 16,
                     oratorId = oratorId,
-                    visibleOratorIds = visible,
+                    visibleOratorIds = library,
                 )
             }
             if (!savedOnly && pool.size < MIN_OPTIONS) {
-                pool = wordRepository.getRandomWords(limit = 16, oratorId = null)
+                pool = wordRepository.getRandomWords(
+                    limit = 16,
+                    oratorId = null,
+                    visibleOratorIds = library,
+                )
             }
 
             if (pool.size < MIN_OPTIONS) {
@@ -237,6 +242,7 @@ class QuizViewModel @Inject constructor(
 
             val preferences = userPreferencesDao.getUserPreferences().orDefault()
             val visible = wordRepository.resolveVisibleOratorIds(preferences)
+            val library = wordRepository.resolveLibraryOratorIds(preferences)
             val oratorId = WordOfDaySelector.resolveOratorId(
                 selectedOratorId = preferences.selectedOratorId,
                 rotateThroughAll = preferences.rotateThroughAll,
@@ -250,7 +256,7 @@ class QuizViewModel @Inject constructor(
                 excludeWordIds = excludeIds,
                 excludeDefinitions = excludeDefs,
                 savedOnly = previous.pool == QuizPool.Saved,
-                visibleOratorIds = visible,
+                visibleOratorIds = library,
             )
 
             ensureActive()

@@ -177,8 +177,26 @@
     <string name="widget_image_gallery">Gallery</string>
 
     <string name="onboarding_welcome_body">Rhetorica is a daily ritual of rhetorical language drawn from history\'s great speeches. One word each day. Offline. Yours.</string>
-    <string name="onboarding_orator_title">Choose a voice</string>
-    <string name="onboarding_orator_body">Pick one orator, or rotate through the historical catalog. You can change this later in Settings.</string>
+    <string name="onboarding_welcome_questions">A few questions first, so the feed is built around the voices you actually want — not every orator in the catalog.</string>
+    <string name="onboarding_voices_title">What are you looking for?</string>
+    <string name="onboarding_voices_body">Choose the voices that belong in your daily feed. Classical philosophers are selected to start. Skip or add individual orators later in Settings.</string>
+    <string name="onboarding_voices_need_one">Select at least one family to continue.</string>
+    <string name="onboarding_family_classical_title">Classical philosophers &amp; orators</string>
+    <string name="onboarding_family_classical_body">Ancient persuasion and Stoic reflection — Demosthenes, Cicero, Marcus Aurelius.</string>
+    <string name="onboarding_family_statesmen_title">Historical statesmen</string>
+    <string name="onboarding_family_statesmen_body">Civic speech that shaped nations — Lincoln, Churchill, the founding generation.</string>
+    <string name="onboarding_family_justice_title">Justice &amp; human rights</string>
+    <string name="onboarding_family_justice_body">Dignity, rights, and moral courage — Douglass, King, Mandela.</string>
+    <string name="onboarding_family_literary_title">Literary voices</string>
+    <string name="onboarding_family_literary_body">Language shaped for the page and the stage — Shakespeare, Angelou.</string>
+    <string name="onboarding_family_technology_title">Business &amp; technology</string>
+    <string name="onboarding_family_technology_body">The rhetoric of invention and product — Jobs, Gates, and Silicon Valley.</string>
+    <string name="onboarding_family_fictional_title">Fictional &amp; film</string>
+    <string name="onboarding_family_fictional_body">Invented mentors and movie speeches — Yoda, Gandalf, Rocky. Off unless you want them.</string>
+    <string name="onboarding_family_examples">Including %1$s</string>
+    <string name="onboarding_family_count">%1$d voices</string>
+    <string name="onboarding_themes_title">Narrow by theme</string>
+    <string name="onboarding_themes_body">Optional. Leave this on All themes to keep every theme from the voices you chose.</string>
     <string name="onboarding_habit_title">Make it a habit</string>
     <string name="onboarding_habit_body">A daily notification and home-screen widget keep today\'s word in reach.</string>
     <string name="onboarding_add_widget">Add Word of the Day widget</string>
@@ -186,6 +204,7 @@
     <string name="onboarding_next">Continue</string>
     <string name="onboarding_back">Back</string>
     <string name="onboarding_done">Begin</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
 
     <string name="feedback_cd">Send feedback</string>
     <string name="feedback_title">Send feedback</string>

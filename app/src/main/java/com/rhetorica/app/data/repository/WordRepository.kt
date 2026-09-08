@@ -1,5 +1,6 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.core.model.LearningPool
 import com.rhetorica.app.core.model.OratorCatalogKind
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.SavedWordDao
@@ -62,7 +63,7 @@ class WordRepository @Inject constructor(
     suspend fun searchWords(query: String): List<WordEntity> {
         val trimmed = query.trim()
         if (trimmed.length < 2) return emptyList()
-        val visible = resolveVisibleOratorIds()
+        val visible = resolveLibraryOratorIds()
         if (visible.isEmpty()) return emptyList()
         return wordDao.searchWordsInOrators(trimmed, visible)
     }
@@ -176,6 +177,22 @@ class WordRepository @Inject constructor(
 
     suspend fun resolveVisibleOratorIds(): List<Long> =
         resolveVisibleOratorIds(userPreferencesDao.getUserPreferences().orDefault())
+
+    suspend fun resolveLibraryOratorIds(): List<Long> =
+        resolveLibraryOratorIds(userPreferencesDao.getUserPreferences().orDefault())
+
+    /**
+     * Catalog-visible orators narrowed to starred favorites when the user
+     * rotates through a curated set (the first-run onboarding default).
+     */
+    suspend fun resolveLibraryOratorIds(preferences: UserPreferencesEntity): List<Long> {
+        val visible = resolveVisibleOratorIds(preferences)
+        return LearningPool.rotationOratorIds(
+            visibleOratorIds = visible,
+            rotateThroughAll = preferences.rotateThroughAll,
+            favoriteOratorIds = preferences.favoriteOratorIds,
+        )
+    }
 
     suspend fun resolveVisibleOratorIds(preferences: UserPreferencesEntity): List<Long> {
         return dictionaryDao.getAllDictionaries()

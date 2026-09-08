@@ -80,6 +80,7 @@ Build a polished Android app in Jetpack Compose that helps users learn and retai
 Owner-only leftovers (hosted policy, Play Console, keystore, store assets, device/testing, optional dictionary growth) are tracked in **[Owner_Checklist.md](./Owner_Checklist.md)**.
 
 ### Recently Improved
+- First-run onboarding: welcome, voice families with optional theme chips (classical philosophers by default — not the full catalog), then daily habit. Completing onboarding stars every orator in the chosen families and rotates through that set; literary and fictional voices stay off unless chosen. Individual orators can be skipped later in Settings.
 - Quiz: definition-match multiple choice with session score + progress persistence (scoped to selected orator when set).
 - TTS: real `TextToSpeech` via `TtsSpeaker` (word detail + notification Hear; single-engine lifecycle).
 - Deep links: widget speech CTA and notification body / “More info” open word detail.

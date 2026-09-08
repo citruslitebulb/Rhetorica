@@ -24,7 +24,7 @@ data class UserPreferencesEntity(
     val notificationMinute: Int = 0,
     val themeMode: String = ThemeMode.System.storageValue,
     val includeFictionalOrators: Boolean = false,
-    val includeLiteraryOrators: Boolean = true,
+    val includeLiteraryOrators: Boolean = false,
     val shownWotdIds: List<Long> = emptyList(),
     val shownWotdPoolKey: String = "",
     val todaysWotdId: Long? = null,

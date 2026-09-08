@@ -3,6 +3,7 @@ package com.rhetorica.app.feature.home
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.core.model.HabitProgress
+import com.rhetorica.app.core.model.LearningPool
 import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
 import com.rhetorica.app.core.util.AppLog
 import com.rhetorica.app.data.local.UserPreferencesDao
@@ -41,36 +42,17 @@ class HomeViewModel @Inject constructor(
             includeLiterary = prefs.includeLiteraryOrators,
             includeFictional = prefs.includeFictionalOrators,
         )
+        val scope = LearningPool.feedScope(
+            visibleOrators = visibleOrators,
+            selectedOratorId = prefs.selectedOratorId,
+            rotateThroughAll = prefs.rotateThroughAll,
+            favoriteOratorIds = prefs.favoriteOratorIds,
+            selectedThemes = prefs.selectedThemeCategories,
+        )
         val selectedOratorId = prefs.selectedOratorId?.takeIf { id ->
             visibleOrators.any { it.id == id }
         }
         val rotateThroughAll = prefs.rotateThroughAll
-        val selectedThemes = prefs.selectedThemeCategories
-        val activeThemeSet = selectedThemes.toSet()
-        val themeMatchingOratorIds: Set<Long> = if (selectedThemes.isEmpty()) {
-            emptySet()
-        } else {
-            visibleOrators.filter { orator ->
-                orator.themeCategories.any { it in activeThemeSet }
-            }.map { it.id }.toSet()
-        }
-
-        val feedOratorId = if (rotateThroughAll) {
-            null
-        } else {
-            selectedOratorId?.takeIf { id ->
-                themeMatchingOratorIds.isEmpty() || id in themeMatchingOratorIds
-            }
-        }
-
-        val scopedOratorIds: Collection<Long>? = when {
-            feedOratorId != null -> null
-            themeMatchingOratorIds.isNotEmpty() -> themeMatchingOratorIds
-            rotateThroughAll && prefs.favoriteOratorIds.isNotEmpty() -> {
-                prefs.favoriteOratorIds.filter { id -> visibleOrators.any { it.id == id } }
-            }
-            else -> visibleOrators.map { it.id }
-        }
 
         val wotdOratorId = WordOfDaySelector.resolveOratorId(
             selectedOratorId = selectedOratorId,
@@ -78,11 +60,10 @@ class HomeViewModel @Inject constructor(
             visibleOratorIds = visibleOrators.map { it.id },
         )
         FeedQuery(
-            feedOratorId = feedOratorId,
-            scopedOratorIds = scopedOratorIds,
-            activeThemeSet = activeThemeSet,
-            hasActiveFilters = selectedThemes.isNotEmpty() ||
-                (!rotateThroughAll && selectedOratorId != null),
+            feedOratorId = scope.feedOratorId,
+            scopedOratorIds = scope.scopedOratorIds,
+            activeThemeSet = scope.activeThemeSet,
+            hasActiveFilters = scope.hasActiveFilters,
             wotdOratorId = wotdOratorId,
             todaysWotdId = prefs.todaysWotdId,
             todaysWotdDate = prefs.todaysWotdDate,

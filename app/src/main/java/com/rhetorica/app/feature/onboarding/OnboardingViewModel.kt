@@ -9,8 +9,10 @@ import android.os.Build
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
+import com.rhetorica.app.core.model.OnboardingAnswers
 import com.rhetorica.app.core.model.OratorProfile
+import com.rhetorica.app.core.model.OratorVoiceFamily
+import com.rhetorica.app.core.model.OratorVoiceFamily.Companion.filterByFamilies
 import com.rhetorica.app.data.repository.DictionaryRepository
 import com.rhetorica.app.data.repository.PreferencesRepository
 import com.rhetorica.app.data.repository.WordRepository
@@ -20,35 +22,39 @@ import com.rhetorica.app.widget.WordOfDayWidgetProvider
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 @HiltViewModel
 class OnboardingViewModel @Inject constructor(
-    private val dictionaryRepository: DictionaryRepository,
+    dictionaryRepository: DictionaryRepository,
     private val preferencesRepository: PreferencesRepository,
     private val wordRepository: WordRepository,
     @ApplicationContext private val context: Context,
 ) : ViewModel() {
+    private val selectedFamilies = MutableStateFlow(OratorVoiceFamily.defaultSelected)
+    private val selectedThemes = MutableStateFlow<Set<String>>(emptySet())
+    private val notificationsEnabled = MutableStateFlow(true)
+
     val uiState: StateFlow<OnboardingUiState> = combine(
         dictionaryRepository.observeActiveOratorProfiles(),
-        preferencesRepository.observe(),
-    ) { orators, prefs ->
-        val visible = orators.filterByCatalog(
-            includeLiterary = prefs.includeLiteraryOrators,
-            includeFictional = false,
-        )
+        selectedFamilies,
+        selectedThemes,
+        notificationsEnabled,
+    ) { orators, families, themes, notifications ->
+        val matchingOrators = orators.filterByFamilies(families)
         OnboardingUiState(
-            orators = visible,
-            selectedOratorId = prefs.selectedOratorId,
-            rotateThroughAll = prefs.rotateThroughAll,
-            notificationsEnabled = prefs.notificationsEnabled,
-            notificationHour = prefs.notificationHour,
-            notificationMinute = prefs.notificationMinute,
+            orators = orators,
+            selectedFamilies = families,
+            selectedThemes = themes,
+            notificationsEnabled = notifications,
             canPinWidget = AppWidgetManager.getInstance(context).isRequestPinAppWidgetSupported,
+            canContinueFromVoices = families.isNotEmpty() && matchingOrators.isNotEmpty(),
         )
     }.stateIn(
         scope = viewModelScope,
@@ -56,47 +62,24 @@ class OnboardingViewModel @Inject constructor(
         initialValue = OnboardingUiState(),
     )
 
-    fun selectOrator(oratorId: Long) {
-        viewModelScope.launch {
-            preferencesRepository.update {
-                it.copy(
-                    selectedOratorId = oratorId,
-                    rotateThroughAll = false,
-                    todaysWotdDate = "",
-                    todaysWotdId = null,
-                )
-            }
+    fun toggleFamily(family: OratorVoiceFamily) {
+        selectedFamilies.update { current ->
+            if (family in current) current - family else current + family
         }
     }
 
-    fun setRotateThroughAll(enabled: Boolean) {
-        viewModelScope.launch {
-            preferencesRepository.update {
-                it.copy(
-                    rotateThroughAll = enabled,
-                    selectedOratorId = if (enabled) null else it.selectedOratorId,
-                    todaysWotdDate = "",
-                    todaysWotdId = null,
-                )
-            }
+    fun toggleTheme(theme: String) {
+        selectedThemes.update { current ->
+            if (theme in current) current - theme else current + theme
         }
+    }
+
+    fun clearThemes() {
+        selectedThemes.value = emptySet()
     }
 
     fun setNotificationsEnabled(enabled: Boolean) {
-        viewModelScope.launch {
-            preferencesRepository.update { it.copy(notificationsEnabled = enabled) }
-        }
-    }
-
-    fun setNotificationTime(hour: Int, minute: Int) {
-        viewModelScope.launch {
-            preferencesRepository.update {
-                it.copy(
-                    notificationHour = hour.coerceIn(0, 23),
-                    notificationMinute = minute.coerceIn(0, 59),
-                )
-            }
-        }
+        notificationsEnabled.value = enabled
     }
 
     fun requestPinWidget() {
@@ -108,12 +91,26 @@ class OnboardingViewModel @Inject constructor(
 
     fun completeOnboarding(onDone: () -> Unit) {
         viewModelScope.launch {
+            val state = uiState.value
             val granted = notificationPermissionGranted()
+            val patch = OnboardingAnswers.resolve(
+                orators = state.orators,
+                families = state.selectedFamilies,
+                themes = state.selectedThemes,
+                selectedOratorIds = emptySet(),
+            )
             preferencesRepository.update { current ->
                 current.copy(
                     onboardingCompleted = true,
-                    includeFictionalOrators = false,
-                    notificationsEnabled = current.notificationsEnabled && granted,
+                    favoriteOratorIds = patch.favoriteOratorIds,
+                    selectedOratorId = patch.selectedOratorId,
+                    rotateThroughAll = patch.rotateThroughAll,
+                    selectedThemeCategories = patch.selectedThemeCategories,
+                    includeLiteraryOrators = patch.includeLiteraryOrators,
+                    includeFictionalOrators = patch.includeFictionalOrators,
+                    notificationsEnabled = state.notificationsEnabled && granted,
+                    todaysWotdDate = "",
+                    todaysWotdId = null,
                 )
             }
             val prefs = preferencesRepository.get()
@@ -140,10 +137,11 @@ class OnboardingViewModel @Inject constructor(
 
 data class OnboardingUiState(
     val orators: List<OratorProfile> = emptyList(),
-    val selectedOratorId: Long? = null,
-    val rotateThroughAll: Boolean = false,
+    val selectedFamilies: Set<OratorVoiceFamily> = OratorVoiceFamily.defaultSelected,
+    val selectedThemes: Set<String> = emptySet(),
     val notificationsEnabled: Boolean = true,
     val notificationHour: Int = 8,
     val notificationMinute: Int = 0,
     val canPinWidget: Boolean = false,
+    val canContinueFromVoices: Boolean = false,
 )
