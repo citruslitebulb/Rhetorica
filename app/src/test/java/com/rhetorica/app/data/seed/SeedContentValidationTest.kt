@@ -107,6 +107,34 @@ class SeedContentValidationTest {
         }
     }
 
+    @Test
+    fun `every orator has enough words for narrow filters`() {
+        val failures = wordFiles()
+            .filter { (_, words) -> words.size < MIN_WORDS_PER_ORATOR }
+            .map { (fileName, words) -> "$fileName: only ${words.size} words (min $MIN_WORDS_PER_ORATOR)" }
+        if (failures.isNotEmpty()) {
+            fail("Orators too thin to browse single-orator:\n${failures.joinToString("\n")}")
+        }
+    }
+
+    @Test
+    fun `every theme has enough words for theme filters`() {
+        val totals = mutableMapOf<String, Int>()
+        wordFiles().forEach { (_, words) ->
+            words.forEach { word ->
+                word.categories.forEach { theme ->
+                    totals[theme] = (totals[theme] ?: 0) + 1
+                }
+            }
+        }
+        val failures = MIN_WORDS_PER_THEME
+            .filter { (theme, min) -> (totals[theme] ?: 0) < min }
+            .map { (theme, min) -> "$theme: ${totals[theme] ?: 0} attributions (min $min)" }
+        if (failures.isNotEmpty()) {
+            fail("Themes too thin to browse single-theme:\n${failures.joinToString("\n")}")
+        }
+    }
+
     private fun wordFiles(): List<Pair<String, List<WordEntity>>> {
         val files = seedDir.listFiles { _, name ->
             name.startsWith("words_") && name.endsWith(".json")
@@ -146,5 +174,20 @@ class SeedContentValidationTest {
          * 54 Elizabeth I.
          */
         private val FULLY_LINKED_ORATOR_IDS = setOf(1L, 3L, 5L, 7L, 8L, 11L, 18L, 27L, 42L, 50L, 51L, 54L)
+
+        /** Narrowest browse surface is one orator; keep every catalogue above quiz minimums. */
+        private const val MIN_WORDS_PER_ORATOR = 16
+
+        /** Per-theme floors so single-theme filters stay rich (arts/tech are small by nature). */
+        private val MIN_WORDS_PER_THEME = mapOf(
+            "inspirational" to 400,
+            "tech" to 80,
+            "humanities" to 450,
+            "arts" to 90,
+            "leadership" to 320,
+            "democracy" to 220,
+            "courage" to 360,
+            "legacy" to 360,
+        )
     }
 }

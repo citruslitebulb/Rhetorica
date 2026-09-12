@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["leadership", "humanities", "courage"]
+    "categories": ["leadership", "humanities", "courage", "inspirational", "legacy", "democracy"]
   },
   {
     "id": 27002,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Peter Parker's Reflection on Responsibility",
-    "categories": ["humanities", "leadership", "courage"]
+    "categories": ["humanities", "leadership", "courage", "legacy"]
   },
   {
     "id": 27005,
@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["leadership", "courage"]
+    "categories": ["leadership", "courage", "inspirational", "legacy"]
   },
   {
     "id": 27006,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Peter Parker's Reflection on Responsibility",
-    "categories": ["leadership", "courage", "humanities"]
+    "categories": ["leadership", "courage", "humanities", "inspirational", "legacy"]
   },
   {
     "id": 27008,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["courage", "leadership"]
+    "categories": ["courage", "leadership", "inspirational", "legacy"]
   },
   {
     "id": 27010,
@@ -117,7 +117,7 @@
     "complexity": "advanced",
     "source": "Spider-Man (2002)",
     "speech": "Peter Parker's Reflection on Responsibility",
-    "categories": ["leadership", "humanities", "courage"]
+    "categories": ["leadership", "humanities", "courage", "democracy"]
   },
   {
     "id": 27011,
@@ -129,7 +129,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson",
-    "categories": ["leadership", "humanities"]
+    "categories": ["leadership", "humanities", "legacy"]
   },
   {
     "id": 27012,
@@ -141,7 +141,7 @@
     "complexity": "intermediate",
     "source": "Spider-Man (2002)",
     "speech": "Peter Parker's Reflection on Responsibility",
-    "categories": ["leadership", "humanities"]
+    "categories": ["leadership", "humanities", "legacy"]
   },
   {
     "id": 27013,

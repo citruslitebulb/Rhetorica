@@ -12,7 +12,9 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership",
+      "democracy"
     ]
   },
   {
@@ -44,7 +46,8 @@
     "categories": [
       "courage",
       "leadership",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -76,7 +79,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -104,7 +108,8 @@
     "source": "A More Perfect Union (Race Speech)",
     "speech": "A More Perfect Union (Philadelphia)",
     "categories": [
-      "democracy"
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -118,7 +123,9 @@
     "source": "Yes We Can Speech",
     "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
     "categories": [
-      "legacy"
+      "legacy",
+      "leadership",
+      "democracy"
     ]
   },
   {
@@ -134,7 +141,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership"
     ]
   },
   {
@@ -173,14 +181,15 @@
     "id": 40293,
     "word": "enduring",
     "definition": "Continuing or long-lasting",
-    "example": "A enduring argument runs through Various: conviction without cruelty, force without panic.",
+    "example": "Obama asks what will prove enduring: 'This is our moment. This is our time.'",
     "partOfSpeech": "adjective",
     "oratorId": 15,
     "complexity": "intermediate",
     "source": "Their Finest Hour (Churchill, but used in context)",
     "speech": "Various",
     "categories": [
-      "legacy"
+      "legacy",
+      "inspirational"
     ]
   },
   {
@@ -219,16 +228,17 @@
     "id": 40296,
     "word": "perseverance",
     "definition": "Persistence in doing something despite difficulty or delay in achieving success",
-    "example": "Perseverance is the hinge of Democratic National Convention Acceptance: without it the rest is decoration.",
+    "example": "Perseverance means staying the course: America's journey 'has never been one of shortcuts or settling for less.'",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
-    "source": "2008 Democratic National Convention Acceptance Speech",
-    "speech": "Democratic National Convention Acceptance",
+    "source": "2008 Victory Speech",
+    "speech": "Election Night Victory Speech (Grant Park, Chicago)",
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership"
     ]
   },
   {
@@ -267,7 +277,7 @@
     "id": 40299,
     "word": "perfection",
     "definition": "The condition, state, or quality of being free or as free as possible from all flaws or defects",
-    "example": "Perfection is the hinge of A More Perfect Union (Philadelphia): without it the rest is decoration.",
+    "example": "Perfection is not the claim — perfecting is: 'This union may never be perfect, but generation after generation has shown that it can always be perfected.'",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
@@ -283,12 +293,12 @@
     "id": 40300,
     "word": "spirit",
     "definition": "The nonphysical part of a person which is the seat of emotions and character",
-    "example": "Spirit is the hinge of First Inaugural Address: without it the rest is decoration.",
+    "example": "Obama summons the nation's spirit: 'We are the ones we've been waiting for. We are the change that we seek.'",
     "partOfSpeech": "noun",
     "oratorId": 15,
     "complexity": "intermediate",
-    "source": "First Inaugural Address",
-    "speech": "First Inaugural Address",
+    "source": "Yes We Can Speech",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
     "categories": [
       "arts",
       "humanities",

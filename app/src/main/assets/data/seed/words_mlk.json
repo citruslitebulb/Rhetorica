@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": ["humanities", "inspirational", "legacy", "courage"]
+    "categories": ["humanities", "inspirational", "legacy", "courage", "arts"]
   },
   {
     "id": 40162,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "arts"]
   },
   {
     "id": 40171,
@@ -153,7 +153,7 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "arts"]
   },
   {
     "id": 40174,
@@ -213,7 +213,7 @@
     "complexity": "intermediate",
     "source": "I Have a Dream",
     "speech": "I Have a Dream (March on Washington)",
-    "categories": ["humanities", "inspirational", "legacy", "courage", "leadership"]
+    "categories": ["humanities", "inspirational", "legacy", "courage", "leadership", "arts"]
   },
   {
     "id": 40179,

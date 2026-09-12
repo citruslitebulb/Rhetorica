@@ -312,5 +312,21 @@
       "inspirational",
       "courage"
     ]
+  },
+  {
+    "id": 54126,
+    "word": "peroration",
+    "definition": "The concluding part of a speech, meant to inspire",
+    "example": "'You shall not crucify mankind upon a cross of gold' — the peroration that made Bryan famous overnight.",
+    "partOfSpeech": "noun",
+    "oratorId": 7,
+    "complexity": "advanced",
+    "source": "Cross of Gold Speech",
+    "speech": "Cross of Gold Speech",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   }
 ]

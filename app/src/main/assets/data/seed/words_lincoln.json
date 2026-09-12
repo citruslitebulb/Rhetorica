@@ -106,7 +106,6 @@
     "source": "House Divided Speech",
     "speech": "House Divided Speech (Illinois Republican Convention)",
     "categories": [
-      "arts",
       "humanities",
       "legacy"
     ]
@@ -380,6 +379,22 @@
       "democracy",
       "courage",
       "humanities"
+    ]
+  },
+  {
+    "id": 54127,
+    "word": "hallow",
+    "definition": "To honor as holy; to revere",
+    "example": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
+    "partOfSpeech": "verb",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
     ]
   }
 ]
