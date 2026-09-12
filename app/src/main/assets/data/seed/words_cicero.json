@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "democracy"]
   },
   {
     "id": 40026,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "On the Laws (De Legibus)",
     "speech": "De Legibus",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "leadership"]
   },
   {
     "id": 40027,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
     "speech": "Philippica II",
-    "categories": ["humanities", "democracy"]
+    "categories": ["humanities", "democracy", "legacy", "courage"]
   },
   {
     "id": 40028,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Philippic 2 (against Mark Antony)",
     "speech": "Philippica II",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "courage"]
   },
   {
     "id": 40030,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "Against Verres",
     "speech": "In Verrem",
-    "categories": ["humanities"]
+    "categories": ["humanities", "democracy"]
   },
   {
     "id": 40031,
@@ -153,7 +153,7 @@
     "complexity": "advanced",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "courage"]
   },
   {
     "id": 40034,
@@ -165,7 +165,7 @@
     "complexity": "intermediate",
     "source": "On Duties (De Officiis)",
     "speech": "De Officiis",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "courage"]
   },
   {
     "id": 40035,
@@ -177,7 +177,7 @@
     "complexity": "intermediate",
     "source": "Against Verres",
     "speech": "In Verrem",
-    "categories": ["democracy"]
+    "categories": ["democracy", "legacy"]
   },
   {
     "id": 40036,
@@ -201,7 +201,7 @@
     "complexity": "intermediate",
     "source": "First Catilinarian Oration",
     "speech": "In Catilinam I",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "arts", "leadership"]
   },
   {
     "id": 40038,

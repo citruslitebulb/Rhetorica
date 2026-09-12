@@ -10,7 +10,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage",
+      "humanities"
     ]
   },
   {
@@ -24,7 +26,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "legacy"
     ]
   },
   {
@@ -38,7 +42,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy",
+      "legacy"
     ]
   },
   {
@@ -52,21 +58,24 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy",
+      "leadership"
     ]
   },
   {
     "id": 40125,
-    "word": "plow",
-    "definition": "Turn up the earth of (an area of land) with a plow, especially before sowing",
-    "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
+    "word": "toil",
+    "definition": "To work extremely hard or incessantly",
+    "example": "The farmer who goes forth in the morning and toils all day, who begins in spring and toils all summer, is as much a business man as the man who goes upon the board of trade.",
     "partOfSpeech": "verb",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
@@ -80,7 +89,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy",
+      "courage"
     ]
   },
   {
@@ -94,21 +105,23 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage"
     ]
   },
   {
     "id": 40128,
     "word": "entreaty",
     "definition": "An earnest or humble request",
-    "example": "Entreaty is the hinge of Cross of Gold Speech: without it the rest is decoration.",
+    "example": "Bryan recalls each failed entreaty: 'We have entreated, and our entreaties have been disregarded. We beg no longer; we entreat no more.'",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "advanced",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
@@ -122,7 +135,8 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
@@ -136,21 +150,25 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
     "id": 40131,
     "word": "defiance",
     "definition": "Open resistance; bold disobedience",
-    "example": "Defiance is the hinge of Cross of Gold Speech: without it the rest is decoration.",
+    "example": "Bryan's defiance peaks in four hammer blows: 'We beg no longer; we entreat no more; we petition no more. We defy them!'",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage",
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -164,7 +182,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage",
+      "humanities"
     ]
   },
   {
@@ -178,7 +198,9 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage",
+      "humanities"
     ]
   },
   {
@@ -192,7 +214,10 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy",
+      "legacy",
+      "leadership"
     ]
   },
   {
@@ -206,7 +231,8 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
@@ -220,7 +246,10 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage",
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -234,21 +263,24 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "legacy"
+      "legacy",
+      "inspirational",
+      "democracy"
     ]
   },
   {
     "id": 40138,
-    "word": "agitator",
-    "definition": "A person who urges others to protest or rebel",
-    "example": "Agitator is the hinge of Cross of Gold Speech: without it the rest is decoration.",
+    "word": "aggressor",
+    "definition": "A person or nation that attacks or invades first",
+    "example": "We do not come as aggressors. Our war is not a war of conquest; we are fighting in the defense of our homes, our families, and posterity.",
     "partOfSpeech": "noun",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
@@ -262,21 +294,23 @@
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "democracy"
     ]
   },
   {
     "id": 40140,
-    "word": "honorable",
-    "definition": "Bringing or worthy of honor",
-    "example": "In giving freedom to the slave, we assure freedom to the free — honorable alike in what we give, and what we preserve.",
+    "word": "righteous",
+    "definition": "Morally right or justifiable; virtuous",
+    "example": "The humblest citizen in all the land, when clad in the armor of a righteous cause, is stronger than all the whole hosts of error that they can bring.",
     "partOfSpeech": "adjective",
     "oratorId": 7,
     "complexity": "intermediate",
     "source": "Cross of Gold Speech",
     "speech": "Cross of Gold Speech",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "courage"
     ]
   }
 ]

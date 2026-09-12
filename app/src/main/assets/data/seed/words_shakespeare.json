@@ -10,7 +10,8 @@
     "source": "Hamlet",
     "speech": "To be, or not to be",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -24,7 +25,9 @@
     "source": "Hamlet",
     "speech": "To be, or not to be",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "courage"
     ]
   },
   {
@@ -38,7 +41,8 @@
     "source": "Hamlet",
     "speech": "To be, or not to be",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -52,7 +56,10 @@
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "leadership",
+      "legacy"
     ]
   },
   {
@@ -66,7 +73,9 @@
     "source": "Hamlet",
     "speech": "Hamlet, Act 2 Scene 2",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "inspirational"
     ]
   },
   {
@@ -80,7 +89,9 @@
     "source": "Henry V",
     "speech": "Henry V, Act 3 Scene 1",
     "categories": [
-      "arts"
+      "arts",
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -94,7 +105,10 @@
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
     "categories": [
-      "arts"
+      "arts",
+      "courage",
+      "inspirational",
+      "legacy"
     ]
   },
   {
@@ -108,7 +122,9 @@
     "source": "Henry V",
     "speech": "Henry V, Act 4 Scene 3 (St Crispin's Day Speech)",
     "categories": [
-      "arts"
+      "arts",
+      "courage",
+      "legacy"
     ]
   },
   {
@@ -122,7 +138,9 @@
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
     "categories": [
-      "arts"
+      "arts",
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -136,7 +154,8 @@
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -150,7 +169,8 @@
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -164,7 +184,11 @@
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 3 Scene 2 (Mark Antony's Funeral Oration)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "leadership",
+      "legacy",
+      "democracy"
     ]
   },
   {
@@ -178,7 +202,9 @@
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "legacy"
     ]
   },
   {
@@ -192,7 +218,8 @@
     "source": "As You Like It",
     "speech": "As You Like It, Act 2 Scene 7 (Jaques)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -206,7 +233,8 @@
     "source": "Richard III",
     "speech": "Richard III, Act 1 Scene 1 (Opening soliloquy)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -220,7 +248,8 @@
     "source": "Richard III",
     "speech": "Richard III, Act 5 Scene 4",
     "categories": [
-      "arts"
+      "arts",
+      "leadership"
     ]
   },
   {
@@ -234,7 +263,8 @@
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -248,7 +278,8 @@
     "source": "Macbeth",
     "speech": "Macbeth, Act 5 Scene 5 (Tomorrow and tomorrow and tomorrow soliloquy)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -262,7 +293,9 @@
     "source": "Julius Caesar",
     "speech": "Julius Caesar, Act 1 Scene 2 (Cassius to Brutus)",
     "categories": [
-      "arts"
+      "arts",
+      "humanities",
+      "inspirational"
     ]
   },
   {
@@ -277,7 +310,8 @@
     "speech": "Julius Caesar, Act 2 Scene 2 (Caesar to Calpurnia)",
     "categories": [
       "courage",
-      "arts"
+      "arts",
+      "inspirational"
     ]
   },
   {
@@ -290,7 +324,8 @@
     "complexity": "advanced",
     "categories": [
       "arts",
-      "humanities"
+      "humanities",
+      "legacy"
     ],
     "source": "Hamlet",
     "speech": "To be, or not to be"

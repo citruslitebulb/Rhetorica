@@ -3,14 +3,16 @@
     "id": 40061,
     "word": "persuasion",
     "definition": "The action or fact of persuading someone or of being persuaded to do or believe something",
-    "example": "Persuasion is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
+    "example": "In the Antidosis, persuasion itself is on trial: Isocrates defends a lifetime spent teaching citizens to speak and reason well.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "arts"
     ]
   },
   {
@@ -24,7 +26,8 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   },
   {
@@ -38,21 +41,25 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "legacy"
     ]
   },
   {
     "id": 40064,
     "word": "integrity",
     "definition": "The quality of being honest and having strong moral principles",
-    "example": "Integrity is the hinge of Panathenaicus: without it the rest is decoration.",
+    "example": "The Panathenaicus praises Athens at her best — and integrity means matching today's city to that standard.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "leadership"
     ]
   },
   {
@@ -66,7 +73,8 @@
     "source": "Panathenaicus",
     "speech": "Panathenaicus",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   },
   {
@@ -80,21 +88,24 @@
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "leadership",
+      "democracy"
     ]
   },
   {
     "id": 40067,
     "word": "virtue",
     "definition": "Behavior showing high moral standards",
-    "example": "Virtue is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
+    "example": "The Antidosis argues that virtue can be taught: study, practice, and love of wisdom shape the citizen.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   },
   {
@@ -108,7 +119,8 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "leadership"
+      "leadership",
+      "humanities"
     ]
   },
   {
@@ -122,7 +134,9 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "leadership"
     ]
   },
   {
@@ -136,7 +150,8 @@
     "source": "Panegyricus",
     "speech": "Panegyricus",
     "categories": [
-      "humanities"
+      "humanities",
+      "democracy"
     ]
   },
   {
@@ -150,7 +165,8 @@
     "source": "Panegyricus",
     "speech": "Panegyricus",
     "categories": [
-      "arts"
+      "arts",
+      "humanities"
     ]
   },
   {
@@ -164,21 +180,25 @@
     "source": "Panegyricus",
     "speech": "Panegyricus",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "legacy"
     ]
   },
   {
     "id": 40073,
     "word": "paideia",
     "definition": "The rearing and education of a child; cultural upbringing",
-    "example": "Paideia is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
+    "example": "Paideia — the rearing of mind and character — is the cause Isocrates defends his whole life in the Antidosis.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "legacy"
     ]
   },
   {
@@ -192,7 +212,8 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   },
   {
@@ -206,7 +227,9 @@
     "source": "Panegyricus",
     "speech": "Panegyricus",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "leadership"
     ]
   },
   {
@@ -220,49 +243,57 @@
     "source": "Panegyricus",
     "speech": "Panegyricus",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   },
   {
     "id": 40077,
     "word": "logos",
     "definition": "A principle of order and knowledge",
-    "example": "Logos is the hinge of Antidosis (defense of his teaching): without it the rest is decoration.",
+    "example": "For Isocrates, logos is what makes us human: reason and speech, the tools of cooperation.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "legacy",
+      "arts"
     ]
   },
   {
     "id": 40078,
     "word": "self mastery",
     "definition": "Control of one's emotions, desires, or actions by one's own will",
-    "example": "Self mastery is the hinge of To Nicocles (letter of advice to a ruler): without it the rest is decoration.",
+    "example": "To Nicocles counsels self mastery first: rule your desires before you rule a city.",
     "partOfSpeech": "noun",
     "oratorId": 4,
     "complexity": "advanced",
     "source": "To Nicocles",
     "speech": "To Nicocles (letter of advice to a ruler)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities",
+      "courage",
+      "leadership"
     ]
   },
   {
     "id": 40079,
     "word": "moral",
     "definition": "Concerned with the principles of right and wrong behavior",
-    "example": "A moral argument runs through Antidosis (defense of his teaching): conviction without cruelty, force without panic.",
+    "example": "Isocrates sets moral education above empty technique: the good orator must first be a good man.",
     "partOfSpeech": "adjective",
     "oratorId": 4,
     "complexity": "intermediate",
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "humanities"
+      "humanities",
+      "legacy"
     ]
   },
   {
@@ -276,7 +307,8 @@
     "source": "Antidosis",
     "speech": "Antidosis (defense of his teaching)",
     "categories": [
-      "inspirational"
+      "inspirational",
+      "humanities"
     ]
   }
 ]

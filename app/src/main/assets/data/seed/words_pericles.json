@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities"]
   },
   {
     "id": 40042,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities"]
   },
   {
     "id": 40043,
@@ -45,7 +45,7 @@
     "complexity": "advanced",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities", "arts"]
   },
   {
     "id": 40045,
@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "inspirational"]
   },
   {
     "id": 40046,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["leadership", "democracy"]
+    "categories": ["leadership", "democracy", "inspirational", "courage"]
   },
   {
     "id": 40047,
@@ -93,7 +93,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["humanities", "democracy"]
+    "categories": ["humanities", "democracy", "inspirational"]
   },
   {
     "id": 40049,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities"]
   },
   {
     "id": 40050,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["leadership", "legacy", "democracy"]
+    "categories": ["leadership", "legacy", "democracy", "inspirational"]
   },
   {
     "id": 40051,
@@ -129,7 +129,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities"]
   },
   {
     "id": 40052,
@@ -141,7 +141,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "humanities"]
   },
   {
     "id": 40053,
@@ -177,7 +177,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["leadership", "legacy", "democracy"]
+    "categories": ["leadership", "legacy", "democracy", "inspirational"]
   },
   {
     "id": 40056,
@@ -189,7 +189,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["leadership", "courage", "democracy"]
+    "categories": ["leadership", "courage", "democracy", "inspirational"]
   },
   {
     "id": 40057,
@@ -201,7 +201,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["arts", "democracy"]
+    "categories": ["arts", "democracy", "inspirational", "humanities"]
   },
   {
     "id": 40058,
@@ -225,7 +225,7 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["democracy"]
+    "categories": ["democracy", "courage"]
   },
   {
     "id": 40060,
@@ -237,6 +237,6 @@
     "complexity": "intermediate",
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
-    "categories": ["legacy", "democracy"]
+    "categories": ["legacy", "democracy", "humanities"]
   }
 ]
