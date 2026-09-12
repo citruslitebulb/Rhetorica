@@ -10,6 +10,7 @@ import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.QuoteDao
 import com.rhetorica.app.data.local.SpeechDao
 import com.rhetorica.app.data.local.OpenedWordDao
+import com.rhetorica.app.data.local.WordProgressDao
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -49,4 +50,7 @@ object DatabaseModule {
 
     @Provides
     fun provideOpenedWordDao(database: RhetoricaDatabase): OpenedWordDao = database.openedWordDao()
+
+    @Provides
+    fun provideWordProgressDao(database: RhetoricaDatabase): WordProgressDao = database.wordProgressDao()
 }

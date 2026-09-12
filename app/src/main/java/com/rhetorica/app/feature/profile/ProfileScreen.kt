@@ -60,6 +60,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.WordThemes
+import com.rhetorica.app.data.repository.ProgressSnapshot
+import com.rhetorica.app.ui.theme.RhetoricaGold
 import com.rhetorica.app.widget.WidgetAppearance
 
 @Composable
@@ -138,10 +140,7 @@ private fun ProfileScreen(
         }
         item {
             ProgressStatsRow(
-                uniqueOpened = state.progress.uniqueWordsOpened,
-                savedCount = state.progress.savedCount,
-                quizzesTaken = state.progress.quizAttemptCount,
-                quizStreak = state.progress.quizStreak,
+                progress = state.progress,
                 openedToday = state.openedTodaysWord,
             )
         }
@@ -512,7 +511,7 @@ private fun WidgetPreview(
     opacityPercent: Int,
 ) {
     // Mirrors the live widget: gold border over the user's fill color + opacity.
-    val borderColor = Color(0xFFD4AF37)
+    val borderColor = RhetoricaGold
     val cardBg = WidgetAppearance.composeColor(colorValue, opacityPercent)
 
     Box(
@@ -646,10 +645,7 @@ private fun OratorCard(
 
 @Composable
 private fun ProgressStatsRow(
-    uniqueOpened: Int,
-    savedCount: Int,
-    quizzesTaken: Int,
-    quizStreak: Int,
+    progress: ProgressSnapshot,
     openedToday: Boolean,
 ) {
     Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -665,24 +661,46 @@ private fun ProgressStatsRow(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             ProgressStatCard(
+                label = stringResource(R.string.profile_progress_streak),
+                value = progress.dailyStreak.toString(),
+                modifier = Modifier.weight(1f),
+            )
+            ProgressStatCard(
                 label = stringResource(R.string.profile_progress_viewed),
-                value = uniqueOpened.toString(),
+                value = progress.uniqueWordsOpened.toString(),
                 modifier = Modifier.weight(1f),
             )
             ProgressStatCard(
                 label = stringResource(R.string.profile_progress_saved),
-                value = savedCount.toString(),
+                value = progress.savedCount.toString(),
                 modifier = Modifier.weight(1f),
             )
+        }
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
             ProgressStatCard(
                 label = stringResource(R.string.profile_progress_quiz),
-                value = quizzesTaken.toString(),
+                value = progress.quizAttemptCount.toString(),
                 modifier = Modifier.weight(1f),
             )
             ProgressStatCard(
-                label = stringResource(R.string.profile_progress_streak),
-                value = quizStreak.toString(),
+                label = stringResource(R.string.profile_progress_mastered),
+                value = progress.masteredCount.toString(),
                 modifier = Modifier.weight(1f),
+            )
+            ProgressStatCard(
+                label = stringResource(R.string.profile_progress_due),
+                value = progress.dueCount.toString(),
+                modifier = Modifier.weight(1f),
+            )
+        }
+        if (progress.bestDailyStreak > 1) {
+            Text(
+                text = stringResource(R.string.profile_progress_best_streak, progress.bestDailyStreak),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
         }
     }

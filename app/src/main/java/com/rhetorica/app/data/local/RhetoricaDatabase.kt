@@ -18,8 +18,9 @@ import androidx.sqlite.db.SupportSQLiteDatabase
         QuoteEntity::class,
         SpeechEntity::class,
         OpenedWordEntity::class,
+        WordProgressEntity::class,
     ],
-    version = 16,
+    version = 17,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -32,6 +33,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun quoteDao(): QuoteDao
     abstract fun speechDao(): SpeechDao
     abstract fun openedWordDao(): OpenedWordDao
+    abstract fun wordProgressDao(): WordProgressDao
 
     companion object {
         @Volatile
@@ -300,6 +302,40 @@ abstract class RhetoricaDatabase : RoomDatabase() {
             }
         }
 
+        /**
+         * Per-word Leitner state for the quiz plus a consecutive-days activity streak.
+         */
+        private val MIGRATION_16_17 = object : Migration(16, 17) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN dailyStreak INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN bestDailyStreak INTEGER NOT NULL DEFAULT 0",
+                )
+                database.execSQL(
+                    "ALTER TABLE progress ADD COLUMN lastActiveDate TEXT NOT NULL DEFAULT ''",
+                )
+                database.execSQL(
+                    """
+                    CREATE TABLE IF NOT EXISTS `word_progress` (
+                        `wordId` INTEGER NOT NULL,
+                        `box` INTEGER NOT NULL,
+                        `correctCount` INTEGER NOT NULL,
+                        `incorrectCount` INTEGER NOT NULL,
+                        `lastReviewedAtEpochMillis` INTEGER NOT NULL,
+                        `nextDueAtEpochMillis` INTEGER NOT NULL,
+                        PRIMARY KEY(`wordId`)
+                    )
+                    """.trimIndent(),
+                )
+                database.execSQL(
+                    "CREATE INDEX IF NOT EXISTS `index_word_progress_nextDueAtEpochMillis` " +
+                        "ON `word_progress` (`nextDueAtEpochMillis`)",
+                )
+            }
+        }
+
         fun getDatabase(context: Context): RhetoricaDatabase {
             return INSTANCE ?: synchronized(this) {
                 val instance = Room.databaseBuilder(
@@ -323,6 +359,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_13_14,
                         MIGRATION_14_15,
                         MIGRATION_15_16,
+                        MIGRATION_16_17,
                     )
                     // No destructive fallback: a missing migration must fail loudly in
                     // development rather than silently wiping saved words and progress.

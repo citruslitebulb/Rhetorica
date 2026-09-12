@@ -12,6 +12,7 @@ import com.rhetorica.app.data.local.SpeechDao
 import com.rhetorica.app.data.local.SpeechEntity
 import com.rhetorica.app.data.local.WordDao
 import com.rhetorica.app.data.local.WordEntity
+import com.rhetorica.app.data.local.WordProgressDao
 import com.rhetorica.app.core.util.AppLog
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -28,6 +29,7 @@ class SeedDataLoader @Inject constructor(
     private val quoteDao: QuoteDao,
     private val speechDao: SpeechDao,
     private val savedWordDao: SavedWordDao,
+    private val wordProgressDao: WordProgressDao,
     private val database: RhetoricaDatabase,
     private val json: Json,
 ) {
@@ -101,6 +103,7 @@ class SeedDataLoader @Inject constructor(
                     AppLog.w(TAG, "Skipping speech prune after speech load failure")
                 }
                 savedWordDao.deleteOrphanedSavedWords()
+                wordProgressDao.deleteOrphaned()
             }
             prefs.edit().putInt(KEY_SEED_VERSION, SEED_VERSION).apply()
             AppLog.i(

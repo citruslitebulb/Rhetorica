@@ -251,6 +251,15 @@ private fun MultipleChoiceContent(
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
 
+        if (state.isReview) {
+            Text(
+                text = stringResource(R.string.quiz_review_badge),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+                fontWeight = FontWeight.SemiBold,
+            )
+        }
+
         DefinitionCard(definition = state.promptDefinition)
 
         state.options.forEach { option ->
