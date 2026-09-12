@@ -25,18 +25,20 @@ Success means:
 - Daily Word of the Day notifications + premium gold-bordered widget (color + opacity customization).
 - Notification permission handling exists (`POST_NOTIFICATIONS` + runtime request in `MainActivity`).
 - Good theming and visual identity (gold/burgundy/cream dark-first palette).
-- **Quiz**: definition-match multiple choice with session score + progress persistence.
+- **Quiz**: definition-match multiple choice + letter-guess Quest, per-word Leitner spaced repetition with review prioritisation, part-of-speech-matched distractors.
 - **TTS**: real `TextToSpeech` via `TtsSpeaker` (word detail + notification Hear; await utterance *start* for receivers).
 - **Deep links**: widget speech CTA and notification body / “More info” open word detail via `MainActivity` (internal explicit intents).
 - **Home**: Word of the Day hero + empty / filter-empty states.
-- **Progress**: opens / saved / quiz counts on Profile.
+- **Progress**: day streak / opens / saved / quizzes / mastered / due on Profile.
+- **Background**: notification fires at the chosen local time (self-re-arming one-shot worker); widget rolls over after local midnight.
+- **Typography / assets**: bundled Playfair Display (OFL); orator portraits are 512px WebP (~1.1 MB total).
 - **Seed**: version-gated reload (`SEED_VERSION`) with orphan prune on content shrink; version only advances after successful load.
 
 ### Known Gaps & Technical Debt
 - **Build/Release**:
-  - No `signingConfigs` defined anywhere.
-  - Release minify/R8 and ProGuard rules are in place. Signing uses env vars (`RHETORICA_STORE_*`) with a debug-key fallback.
+  - Release minify/R8 and ProGuard rules are in place. `signingConfigs.release` reads env vars (`RHETORICA_STORE_*`) and falls back to the debug key when they are absent — the keystore itself is owner-only and not committed.
   - `versionCode = 2`, `versionName = "1.0.0"`.
+  - Schema is v17 with no destructive-migration fallback; every schema change must ship a `Migration`.
 - **Still needed for the Play listing**:
   - Hosted public Privacy Policy URL (in-app policy exists).
   - Screenshots and feature graphic.
@@ -44,14 +46,14 @@ Success means:
 - **Code Hygiene**:
   - Numerous `Log.d` / `Log.e` calls left in production paths.
   - Some `// TODO` comments remaining (non-blocking).
-  - Test coverage still light (seed validation + WotD selector unit tests).
+  - Test coverage is unit-level only (~20 files: seed validation, WotD selector, Leitner scheduler, streaks, quiz round builder, schedulers); no instrumentation tests.
 - **Store Assets & Policy**:
-  - No Privacy Policy document.
+  - In-app Privacy Policy exists (`assets/privacy_policy.html`); a hosted public URL is still required for the listing.
   - No screenshots, feature graphic, or store descriptions prepared.
   - Data Safety section not yet configured in Play Console.
 - **Other**:
   - Backup rules are minimal (`<full-backup-content />`).
-  - No CI/CD for release builds (no `.github/workflows`).
+  - CI (`.github/workflows/ci.yml`) runs unit tests, `assembleDebug`, and `assembleRelease` on push/PR; there is no automated Play upload.
 
 **Package**: `com.rhetorica.app` (already set, good — do not change).
 
@@ -75,12 +77,12 @@ Success means:
 - Set up Internal Testing track first (recommended), then Closed, then Open/Production.
 
 ### 4.2 Build, Signing & Release Configuration
-**Must be done in `app/build.gradle.kts`**:
+**Status in `app/build.gradle.kts`**:
 
-- Add `signingConfigs` block (use Play App Signing — upload the AAB and let Google manage the final signing key).
-- Wire the release build type to the signing config.
-- Set `isMinifyEnabled = true` and `isShrinkResources = true` for release.
-- Populate `proguard-rules.pro` with necessary keep rules for:
+- [Done] `signingConfigs.release` driven by `RHETORICA_STORE_*` env vars (use Play App Signing — upload the AAB and let Google manage the final signing key). Owner still needs to create the keystore and set the variables on the release machine/CI.
+- [Done] Release build type wired to the signing config (debug-key fallback when env vars are absent).
+- [Done] `isMinifyEnabled = true` and `isShrinkResources = true` for release.
+- [Done] `proguard-rules.pro` carries keep rules for:
   - Room entities/DAOs
   - Hilt / WorkManager
   - Kotlinx Serialization
@@ -132,12 +134,12 @@ Google requires (at minimum):
 ## 5. Specific Code & Config Tasks (Actionable)
 
 ### Build Configuration (`app/build.gradle.kts`)
-- Add `signingConfigs { release { ... } }`.
-- Update `buildTypes.release`.
-- Bump initial `versionCode` / `versionName` for first store build.
+- [Done] `signingConfigs { release { ... } }` (env-var driven).
+- [Done] `buildTypes.release` minified, shrunk, and signed.
+- [Owner] Bump `versionCode` / `versionName` for the first store build.
 
 ### ProGuard (`app/proguard-rules.pro`)
-- Add keep rules for Room, Hilt, WorkManager, kotlinx.serialization, and notification receivers.
+- [Done] Keep rules for Room, Hilt, WorkManager, kotlinx.serialization, and notification receivers.
 
 ### Hygiene
 - Audit and clean `Log` statements across the codebase.

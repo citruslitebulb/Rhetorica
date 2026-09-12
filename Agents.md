@@ -25,10 +25,11 @@ Core characteristics:
 ## Tech Stack
 - **Language / UI**: Kotlin 100%, Jetpack Compose + Material 3
 - **Architecture**: Single-Activity, Navigation Compose, Hilt (DI), ViewModel + Kotlin Flow/StateFlow
-- **Persistence**: Room (entities + DAOs for words, saved words, progress, dictionaries, preferences, quotes, speeches). Current schema version: 16. Heavy use of migrations and `@TypeConverters` (JSON lists).
+- **Persistence**: Room (entities + DAOs for words, saved words, progress, per-word `word_progress` Leitner state, opened words, dictionaries, preferences, quotes, speeches). Current schema version: 17. Heavy use of migrations and `@TypeConverters` (JSON lists). There is **no** destructive-migration fallback: a schema change without a `Migration` crashes on upgrade by design.
 - **Seeding**: Kotlinx Serialization + assets in `app/src/main/assets/data/seed/`. `SeedDataLoader` version-gates reloads via `SEED_VERSION` (skips full upsert when already current). On reload it upserts then **prunes** IDs absent from assets (chunked deletes; orphaned saved words cleaned). Any `words_*.json` parse failure **or invalid `oratorId`** aborts the whole load (no prune / no version bump). Quote/speech prune is skipped if those assets failed partially. **Always bump `SeedDataLoader.SEED_VERSION` when any seed JSON changes.**
-- **Background / Widget**: WorkManager (Hilt-enabled) for daily Word of the Day notifications + `AppWidgetProvider`.
-- **Build**: Gradle Kotlin DSL + version catalog (`gradle/libs.versions.toml`), KSP for Room/Hilt.
+- **Background / Widget**: WorkManager (Hilt-enabled). `NotificationScheduler` enqueues a one-shot `WordOfDayWorker` at the chosen local time and the worker re-arms the next day (no periodic drift). `WidgetRefreshScheduler` runs `WidgetRefreshWorker` shortly after local midnight while a widget is placed. `WordOfDayWidgetProvider` is the `AppWidgetProvider`.
+- **Typography**: Playfair Display (OFL, bundled in `res/font`, license in `assets/licenses`) for display/headline/titleLarge and the widget headword; system sans for body/label. See `ui/theme/Type.kt`.
+- **Build**: Gradle Kotlin DSL + version catalog (`gradle/libs.versions.toml`), KSP for Room/Hilt. Release build has R8 minify + env-var signing (`RHETORICA_STORE_*`, debug-key fallback). CI (`.github/workflows/ci.yml`) runs unit tests, `assembleDebug`, and `assembleRelease`.
 - **Min / Target**: API 27 / 35
 
 ## Build, Run & Common Tasks
@@ -91,7 +92,8 @@ Note: The multi-module structure described in older sections of `App_Plan.md` (s
 - **Compose**: Use Material 3 components. Follow existing patterns for cards, filtering, and detail sheets/screens. Prefer stable, minimal public APIs for composables.
 - **Theme**: Always go through `RhetoricaTheme`. Dark-first. Use the custom color scheme (gold primary `#D4AF37` in dark, cream paper background in light). Reference `MaterialTheme` tokens.
 - **Widget**: Appearance logic lives in `WidgetAppearance` (color presets, opacity helpers, bitmap generation for rounded backgrounds). Call `WidgetAppearance.refreshAllWidgets(context)` after any change that should update live widgets.
-- **Background work**: Periodic `WordOfDayWorker` via WorkManager (unique, REPLACE policy). Notification actions are handled in `MainActivity.onCreate`/`onNewIntent` (some deep-link navigation is still TODO).
+- **Background work**: One-shot `WordOfDayWorker` chain via `NotificationScheduler` (unique work; `KEEP` on launch, `REPLACE` on preference change, `APPEND_OR_REPLACE` from the worker). Midnight widget rollover via `WidgetRefreshScheduler`. Notification actions are handled in `MainActivity.onCreate`/`onNewIntent`.
+- **Learning model**: `LeitnerScheduler` (core/model) defines boxes/intervals; `ProgressRepository.recordQuizResult(wordId, correct)` updates aggregate counters, the quiz streak, the daily activity streak, and the word's box. `QuizViewModel` prefers due words and builds options through `QuizRoundBuilder` (headword-deduped, part-of-speech-matched distractors). `WordOfDaySelector.selectUnseen` dedupes by headword and serves basic/beginner words at the tail of a cycle.
 - **Seeding**: Treat the JSON assets as the source of truth. The loader always re-processes dictionaries/words/quotes/speeches on launch (REPLACE strategy). Add new orators by adding matching JSON files + entry in `dictionaries.json`.
 
 ## Terminology & Product Language (Use Consistently)
@@ -112,6 +114,8 @@ Note: The multi-module structure described in older sections of `App_Plan.md` (s
 - Daily notification scheduling
 - Full speeches browser
 - Rich seed data (many orators + quotes + speeches)
+- Quiz with per-word spaced repetition (Leitner), review prioritisation, and daily streak on Profile
+- Serif typography (Playfair Display) and WebP orator portraits
 
 **Outstanding / partial** (owner-only — see [Owner_Checklist.md](./Owner_Checklist.md)):
 - Growing historical dictionaries toward a full year of unique daily words (no-repeat cycle is implemented)
@@ -129,7 +133,7 @@ Always check the "Current Status", "Still Outstanding", and "MVP Milestones" sec
 6. Do not introduce new third-party dependencies without strong justification (current set is deliberate and minimal).
 7. Database schema changes **must** include a proper `Migration` in `RhetoricaDatabase` + version bump.
 8. Seed JSON changes affect first-run and re-seed for all users — keep them additive where possible. **Bump `SeedDataLoader.SEED_VERSION` whenever bundled seed assets change**, or returning installs will skip the reload.
-9. Update or add tests when behavior changes (currently very few tests exist; at minimum validate seed loading).
+9. Update or add tests when behavior changes. Pure logic (selectors, schedulers, streak maths, quiz round building, seed validation) is unit-tested under `app/src/test`; keep new logic in plain Kotlin objects so it stays testable without Robolectric.
 
 ## Verification Expectations
 - The app must build and install (`assembleDebug` / `installDebug`).
@@ -141,10 +145,11 @@ Always check the "Current Status", "Still Outstanding", and "MVP Milestones" sec
 ## Git & Workflow
 - This is a single branch repo (main) at the time of writing.
 - Commit messages should be clear and reference the area changed (e.g. "widget: persist image background selection").
+- when you commit, never include co-authored line. The commit message never includes co-authored lines. Follow the `commit-without-coauthor` skill.
 - Keep changes reviewable. Large refactors should be broken up.
 
 ## Additional Context
 - The `.cursor/` and `.windsurf/` directories contain tool-specific copies of some of this guidance and a reusable `review-staged-changes` skill. The canonical cross-agent instructions live here in `Agents.md` and `App_Plan.md`.
-- There is minimal test coverage today (`app/src/test/...` has only a seed validation test). Expand thoughtfully.
+- Test coverage is unit-level only (`app/src/test/...`, ~20 files: seed validation, WotD selector, Leitner scheduler, streaks, quiz round builder, schedulers, converters, preferences). There are no instrumentation tests; Room DAOs, `SeedDataLoader`, and `ensureTodaysWord` are exercised on device only.
 
 Follow these rules and the plan in `App_Plan.md`. When in doubt, ask for clarification on requirements or open decisions rather than guessing.

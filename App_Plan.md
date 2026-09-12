@@ -81,12 +81,17 @@ Owner-only leftovers (hosted policy, Play Console, keystore, store assets, devic
 
 ### Recently Improved
 - First-run onboarding: welcome, voice families with optional theme chips (classical philosophers by default — not the full catalog), then daily habit. Completing onboarding stars every orator in the chosen families and rotates through that set; literary and fictional voices stay off unless chosen. Individual orators can be skipped later in Settings.
-- Quiz: definition-match multiple choice with session score + progress persistence (scoped to selected orator when set).
+- Quiz: definition-match multiple choice + letter-guess “Quest”, scoped to library or saved words. Every answer updates a per-word Leitner box (`word_progress`, 1/3/7/14/30-day intervals); multiple choice prefers words due for review and shows a Review badge. Distractors share the correct word’s part of speech and never repeat its headword.
+- Daily streak: any word open or quiz answer counts toward a consecutive-day streak (shown on Profile with best streak, mastered count, and due-for-review count).
+- Word of the Day: no-repeat cycle now dedupes by headword across orators and serves basic/beginner words at the tail of a cycle.
+- Typography: Playfair Display (OFL) for headwords/titles and the widget; orator portraits shipped as 512px WebP (13.3 MB → 1.1 MB).
+- Background: notification fires at the chosen local time via a self-re-arming one-shot worker (the old 24h periodic request drifted); widget rolls over shortly after local midnight while placed.
+- Data safety: destructive-migration fallback removed; a missing `Migration` now fails loudly instead of wiping user data.
 - TTS: real `TextToSpeech` via `TtsSpeaker` (word detail + notification Hear; single-engine lifecycle).
 - Deep links: widget speech CTA and notification body / “More info” open word detail.
 - Home: Word of the Day hero + empty / filter-empty states.
 - Word detail: speech-matched orator quote + speak button; safe not-found state.
-- Profile: opens / saved / quiz progress stats.
+- Profile: day streak / opens / saved / quizzes / mastered / due progress stats.
 - Seed: version-gated reload with orphan prune (chunked deletes; any words_*.json parse failure or invalid oratorId aborts without prune/version bump; quote/speech prune only when those assets load cleanly).
 
 ### Store Launch Phase (New Focus)
@@ -115,8 +120,8 @@ Key remaining work for publication includes release signing + minification, prod
 
 ### Milestone 4 - Quiz + Profile Shell
 1. [Done] Basic quiz flow (definition-match multiple choice + session score).
-2. [Not started] Persist quiz outcomes to progress table.
-3. [Done/Partial] Profile/Settings scaffold with TTS placeholder and widget appearance settings controls.
+2. [Done] Persist quiz outcomes: aggregate `progress` counters plus per-word `word_progress` (Leitner) driving review prioritisation.
+3. [Done] Profile/Settings with TTS, widget appearance controls, notification time, theme mode, catalog toggles, and progress stats.
 
 ### Milestone 5 - Widget MVP
 1. [Done] Build Word of the Day widget layout (word + definition, premium typography).
