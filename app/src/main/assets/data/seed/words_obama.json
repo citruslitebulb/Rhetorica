@@ -18,7 +18,7 @@
   {
     "id": 40282,
     "word": "prosperity",
-    "definition": "The state of being prosperous; a word that gains force in public speech.",
+    "definition": "The state of being prosperous",
     "example": "Yes we can, to opportunity and prosperity. Yes we can heal this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
@@ -34,7 +34,7 @@
   {
     "id": 40283,
     "word": "audacity",
-    "definition": "A willingness to take bold risks; a word that gains force in public speech.",
+    "definition": "A willingness to take bold risks",
     "example": "The audacity of hope! In the end, that is God's greatest gift to us, the bedrock of this nation.",
     "partOfSpeech": "noun",
     "oratorId": 15,
@@ -66,7 +66,7 @@
   {
     "id": 40285,
     "word": "patchwork",
-    "definition": "A thing composed of many different elements; a word that gains force in public speech.",
+    "definition": "A thing composed of many different elements",
     "example": "Our patchwork heritage is a strength, not a weakness.",
     "partOfSpeech": "noun",
     "oratorId": 15,
@@ -96,7 +96,7 @@
   {
     "id": 40288,
     "word": "union",
-    "definition": "The action or fact of joining or being joined; a word that gains force in public speech.",
+    "definition": "The action or fact of joining or being joined",
     "example": "The cynics may say that we will never build a more perfect union. But the cynics are wrong.",
     "partOfSpeech": "noun",
     "oratorId": 15,
@@ -124,7 +124,7 @@
   {
     "id": 40290,
     "word": "moment",
-    "definition": "A very brief period of time; a word that gains force in public speech.",
+    "definition": "A very brief period of time",
     "example": "This is our moment. This is our time.",
     "partOfSpeech": "noun",
     "oratorId": 15,
@@ -156,7 +156,7 @@
   {
     "id": 40292,
     "word": "fainthearted",
-    "definition": "Lacking courage or determination; a word that gains force in public speech.",
+    "definition": "Lacking courage or determination",
     "example": "Our journey has never been one of shortcuts or settling for less. It has not been the path for the fainthearted.",
     "partOfSpeech": "adjective",
     "oratorId": 15,
@@ -172,7 +172,7 @@
   {
     "id": 40293,
     "word": "enduring",
-    "definition": "Continuing or long-lasting; a word that gains force in public speech.",
+    "definition": "Continuing or long-lasting",
     "example": "A enduring argument runs through Various: conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 15,

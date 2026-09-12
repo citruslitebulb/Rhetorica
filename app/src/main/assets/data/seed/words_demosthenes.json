@@ -2,7 +2,7 @@
   {
     "id": 40001,
     "word": "tyranny",
-    "definition": "Cruel and oppressive government or rule; a word that gains force in public speech.",
+    "definition": "Cruel and oppressive government or rule",
     "example": "Tyranny is the hinge of Philippic 1: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -18,7 +18,7 @@
   {
     "id": 40002,
     "word": "deliberation",
-    "definition": "Long and careful consideration or discussion; a word that gains force in public speech.",
+    "definition": "Long and careful consideration or discussion",
     "example": "You have no idea what is coming. You are blind to the danger that stands at your gates. The time for deliberation is past; the time for action is now.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -82,7 +82,7 @@
   {
     "id": 40006,
     "word": "resolve",
-    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "definition": "Firm determination to do something",
     "example": "Resolve is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -113,7 +113,7 @@
   {
     "id": 40008,
     "word": "eloquence",
-    "definition": "Fluent or persuasive speaking or writing; a word that gains force in public speech.",
+    "definition": "Fluent or persuasive speaking or writing",
     "example": "Eloquence is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -145,7 +145,7 @@
   {
     "id": 40011,
     "word": "orator",
-    "definition": "A person who is skilled in public speaking; a word that gains force in public speech.",
+    "definition": "A person who is skilled in public speaking",
     "example": "The orator who flatters the people prepares their ruin; the one who tells them hard truths is their true friend.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -161,7 +161,7 @@
   {
     "id": 40012,
     "word": "tyrant",
-    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
+    "definition": "A cruel and oppressive ruler",
     "example": "Tyrant is the hinge of Philippic 3: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -177,7 +177,7 @@
   {
     "id": 40013,
     "word": "unity",
-    "definition": "The state of being united or joined as a whole; a word that gains force in public speech.",
+    "definition": "The state of being united or joined as a whole",
     "example": "Unity is the hinge of On the Crown (De Corona): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -193,7 +193,7 @@
   {
     "id": 40014,
     "word": "prompt",
-    "definition": "Done without delay; immediate; a word that gains force in public speech.",
+    "definition": "Done without delay; immediate",
     "example": "Delay has been the ruin of many states; prompt and vigorous action has saved them.",
     "partOfSpeech": "adjective",
     "oratorId": 1,
@@ -209,7 +209,7 @@
   {
     "id": 40015,
     "word": "vigorous",
-    "definition": "Strong, healthy, and full of energy; a word that gains force in public speech.",
+    "definition": "Strong, healthy, and full of energy",
     "example": "Delay has been the ruin of many states; prompt and vigorous action has saved them.",
     "partOfSpeech": "adjective",
     "oratorId": 1,
@@ -257,7 +257,7 @@
   {
     "id": 40018,
     "word": "guardian",
-    "definition": "A person who protects or defends something; a word that gains force in public speech.",
+    "definition": "A person who protects or defends something",
     "example": "A man who is a slave to pleasure and luxury can never be a true friend to the people or a faithful guardian of the state.",
     "partOfSpeech": "noun",
     "oratorId": 1,
@@ -273,7 +273,7 @@
   {
     "id": 40019,
     "word": "adversity",
-    "definition": "Difficulties; misfortune; a word that gains force in public speech.",
+    "definition": "Difficulties; misfortune",
     "example": "The man who has never been tested by adversity cannot know the strength of his own soul.",
     "partOfSpeech": "noun",
     "oratorId": 1,

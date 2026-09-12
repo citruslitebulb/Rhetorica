@@ -2,7 +2,7 @@
   {
     "id": 40241,
     "word": "blind",
-    "definition": "Unable to see; sightless; a word that gains force in public speech.",
+    "definition": "Unable to see; sightless",
     "example": "An eye for an eye only ends up making the whole world blind.",
     "partOfSpeech": "adjective",
     "oratorId": 13,
@@ -18,7 +18,7 @@
   {
     "id": 40242,
     "word": "peace",
-    "definition": "Freedom from disturbance; tranquility; a word that gains force in public speech.",
+    "definition": "Freedom from disturbance; tranquility",
     "example": "There is no path to peace. Peace is the path.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -50,7 +50,7 @@
   {
     "id": 40244,
     "word": "change",
-    "definition": "Make or become different; a word that gains force in public speech.",
+    "definition": "An act or instance of making or becoming different",
     "example": "You must be the change you wish to see in the world.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -66,7 +66,7 @@
   {
     "id": 40245,
     "word": "strength",
-    "definition": "The quality or state of being physically strong; a word that gains force in public speech.",
+    "definition": "The quality or state of being physically strong",
     "example": "Strength does not come from physical capacity. It comes from an indomitable will.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -98,7 +98,7 @@
   {
     "id": 40247,
     "word": "happiness",
-    "definition": "The state of being happy; a word that gains force in public speech.",
+    "definition": "The state of being happy",
     "example": "Happiness is when what you think, what you say, and what you do are in harmony.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -162,7 +162,7 @@
   {
     "id": 40251,
     "word": "error",
-    "definition": "A mistake; a word that gains force in public speech.",
+    "definition": "A mistake",
     "example": "Error is the hinge of On swaraj (self-rule) and liberty: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -178,7 +178,7 @@
   {
     "id": 40253,
     "word": "truth",
-    "definition": "The quality or state of being true; a word that gains force in public speech.",
+    "definition": "The quality or state of being true",
     "example": "Truth is the hinge of On truth and courage: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -210,7 +210,7 @@
   {
     "id": 40255,
     "word": "darkness",
-    "definition": "The partial or total absence of light; a word that gains force in public speech.",
+    "definition": "The partial or total absence of light",
     "example": "In the midst of darkness, light persists.",
     "partOfSpeech": "noun",
     "oratorId": 13,
@@ -258,7 +258,7 @@
   {
     "id": 40258,
     "word": "conviction",
-    "definition": "A firmly held belief or opinion; a word that gains force in public speech.",
+    "definition": "A firmly held belief or opinion",
     "example": "A 'No' uttered from the deepest conviction is better than a 'Yes' merely uttered to please, or worse, to avoid trouble.",
     "partOfSpeech": "noun",
     "oratorId": 13,

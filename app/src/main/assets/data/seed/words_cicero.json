@@ -38,7 +38,7 @@
   {
     "id": 40024,
     "word": "ignorance",
-    "definition": "Lack of knowledge or information; a word that gains force in public speech.",
+    "definition": "Lack of knowledge or information",
     "example": "Ignorance is the hinge of Orator ad M. Brutum: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -50,7 +50,7 @@
   {
     "id": 40025,
     "word": "treason",
-    "definition": "The crime of betraying one's country; a word that gains force in public speech.",
+    "definition": "The crime of betraying one's country",
     "example": "A nation can survive its fools, and even the ambitious. But it cannot survive treason from within.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -98,7 +98,7 @@
   {
     "id": 40029,
     "word": "tyrant",
-    "definition": "A cruel and oppressive ruler; a word that gains force in public speech.",
+    "definition": "A cruel and oppressive ruler",
     "example": "Tyrant is the hinge of Philippica II: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -110,7 +110,7 @@
   {
     "id": 40030,
     "word": "justice",
-    "definition": "Just behavior or treatment; a word that gains force in public speech.",
+    "definition": "Just behavior or treatment",
     "example": "Justice is the hinge of In Verrem: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -122,7 +122,7 @@
   {
     "id": 40031,
     "word": "corruption",
-    "definition": "Dishonest or fraudulent conduct by those in power; a word that gains force in public speech.",
+    "definition": "Dishonest or fraudulent conduct by those in power",
     "example": "Corruption is the hinge of In Catilinam I: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -134,7 +134,7 @@
   {
     "id": 40032,
     "word": "luxury",
-    "definition": "The state of great comfort and extravagant living; a word that gains force in public speech.",
+    "definition": "The state of great comfort and extravagant living",
     "example": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -146,7 +146,7 @@
   {
     "id": 40033,
     "word": "constancy",
-    "definition": "The quality of being faithful and dependable; a word that gains force in public speech.",
+    "definition": "The quality of being faithful and dependable",
     "example": "Constancy is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -158,7 +158,7 @@
   {
     "id": 40034,
     "word": "resolute",
-    "definition": "Admirably purposeful, determined, and unwavering; a word that gains force in public speech.",
+    "definition": "Admirably purposeful, determined, and unwavering",
     "example": "It is the character of a brave and resolute man not to be ruffled by adversity and not to be elated by prosperity.",
     "partOfSpeech": "adjective",
     "oratorId": 2,
@@ -182,7 +182,7 @@
   {
     "id": 40036,
     "word": "virtue",
-    "definition": "Behavior showing high moral standards; a word that gains force in public speech.",
+    "definition": "Behavior showing high moral standards",
     "example": "Virtue is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,
@@ -218,7 +218,7 @@
   {
     "id": 40039,
     "word": "honor",
-    "definition": "High respect; great esteem; a word that gains force in public speech.",
+    "definition": "High respect; great esteem",
     "example": "Honor is the hinge of De Officiis: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 2,

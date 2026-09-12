@@ -14,7 +14,7 @@
   {
     "id": 40162,
     "word": "creed",
-    "definition": "A system of religious belief; a faith; a word that gains force in public speech.",
+    "definition": "A set of beliefs or principles guiding action; a faith",
     "example": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: 'We hold these truths to be self-evident, that all men are created equal.'",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -26,7 +26,7 @@
   {
     "id": 40163,
     "word": "injustice",
-    "definition": "Lack of fairness or justice; a word that gains force in public speech.",
+    "definition": "Lack of fairness or justice",
     "example": "Injustice anywhere is a threat to justice everywhere. We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -62,7 +62,7 @@
   {
     "id": 40166,
     "word": "urgency",
-    "definition": "Importance requiring swift action; a word that gains force in public speech.",
+    "definition": "Importance requiring swift action",
     "example": "We have also come to this hallowed spot to remind America of the fierce urgency of Now.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -110,7 +110,7 @@
   {
     "id": 40170,
     "word": "oasis",
-    "definition": "A fertile spot in a desert, where water is found; a word that gains force in public speech.",
+    "definition": "A fertile spot in a desert, where water is found",
     "example": "I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -134,7 +134,7 @@
   {
     "id": 40172,
     "word": "hate",
-    "definition": "Intense dislike; hatred; a word that gains force in public speech.",
+    "definition": "Intense dislike; hatred",
     "example": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -146,7 +146,7 @@
   {
     "id": 40173,
     "word": "stream",
-    "definition": "A small, narrow river; a word that gains force in public speech.",
+    "definition": "A small, narrow river",
     "example": "We will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -158,7 +158,7 @@
   {
     "id": 40174,
     "word": "righteousness",
-    "definition": "The quality of being morally right or justifiable; a word that gains force in public speech.",
+    "definition": "The quality of being morally right or justifiable",
     "example": "We will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -170,7 +170,7 @@
   {
     "id": 40175,
     "word": "unheard",
-    "definition": "Not heard or listened to; a word that gains force in public speech.",
+    "definition": "Not heard or listened to",
     "example": "A riot is the language of the unheard.",
     "partOfSpeech": "adjective",
     "oratorId": 9,
@@ -182,7 +182,7 @@
   {
     "id": 40176,
     "word": "terror",
-    "definition": "Extreme fear; a word that gains force in public speech.",
+    "definition": "Extreme fear",
     "example": "Terror is the hinge of I Have a Dream (March on Washington): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -194,7 +194,7 @@
   {
     "id": 40177,
     "word": "silence",
-    "definition": "The absence of sound or noise; a word that gains force in public speech.",
+    "definition": "The absence of sound or noise",
     "example": "In the end, we will remember not the words of our enemies, but the silence of our friends.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -206,7 +206,7 @@
   {
     "id": 40178,
     "word": "mountaintop",
-    "definition": "The top of a mountain; a word that gains force in public speech.",
+    "definition": "The top of a mountain",
     "example": "I have been to the mountaintop. And I don't mind. Like anybody, I would like to live a long life.",
     "partOfSpeech": "noun",
     "oratorId": 9,
@@ -218,7 +218,7 @@
   {
     "id": 40179,
     "word": "glory",
-    "definition": "High renown or honor won by notable achievements; a word that gains force in public speech.",
+    "definition": "High renown or honor won by notable achievements",
     "example": "Mine eyes have seen the glory of the coming of the Lord.",
     "partOfSpeech": "noun",
     "oratorId": 9,

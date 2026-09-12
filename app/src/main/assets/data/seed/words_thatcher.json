@@ -26,7 +26,7 @@
   {
     "id": 40263,
     "word": "individual",
-    "definition": "A single human being as distinct from a group; a word that gains force in public speech.",
+    "definition": "Relating to a single person or thing; separate and distinct",
     "example": "There is no such thing as society. There are individual men and women and there are families.",
     "partOfSpeech": "adjective",
     "oratorId": 14,
@@ -62,7 +62,7 @@
   {
     "id": 40266,
     "word": "economic",
-    "definition": "Relating to economics or the economy; a word that gains force in public speech.",
+    "definition": "Relating to economics or the economy",
     "example": "There can be no liberty unless there is economic liberty.",
     "partOfSpeech": "adjective",
     "oratorId": 14,
@@ -110,7 +110,7 @@
   {
     "id": 40270,
     "word": "conviction",
-    "definition": "A firmly held belief or opinion; a word that gains force in public speech.",
+    "definition": "A firmly held belief or opinion",
     "example": "Conviction is the hinge of Multiple addresses: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -122,7 +122,7 @@
   {
     "id": 40271,
     "word": "iron",
-    "definition": "A strong, hard magnetic silvery-grey metal; a word that gains force in public speech.",
+    "definition": "A strong, hard magnetic silvery-grey metal",
     "example": "What Britain needs is an iron lady.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -134,7 +134,7 @@
   {
     "id": 40272,
     "word": "resolve",
-    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "definition": "Firm determination to do something",
     "example": "Resolve is the hinge of Multiple: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -146,7 +146,7 @@
   {
     "id": 40273,
     "word": "prosperity",
-    "definition": "The state of being prosperous; a word that gains force in public speech.",
+    "definition": "The state of being prosperous",
     "example": "Prosperity is the hinge of Scottish Conservative Conference: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -158,7 +158,7 @@
   {
     "id": 40274,
     "word": "earned",
-    "definition": "Obtain (money) in return for labor or services; a word that gains force in public speech.",
+    "definition": "Obtain (money) in return for labor or services",
     "example": "Pennies do not come from heaven. They have to be earned here on earth.",
     "partOfSpeech": "verb",
     "oratorId": 14,
@@ -170,7 +170,7 @@
   {
     "id": 40275,
     "word": "trusteeship",
-    "definition": "The position or office of a trustee; a word that gains force in public speech.",
+    "definition": "The position or office of a trustee",
     "example": "Trusteeship is the hinge of Address to the General Assembly of the Church of Scotland: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -182,7 +182,7 @@
   {
     "id": 40276,
     "word": "wealth",
-    "definition": "An abundance of valuable possessions or money; a word that gains force in public speech.",
+    "definition": "An abundance of valuable possessions or money",
     "example": "It is not the creation of wealth that is wrong, but the love of money for its own sake.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -206,7 +206,7 @@
   {
     "id": 40278,
     "word": "evil",
-    "definition": "Profoundly immoral and wicked; a word that gains force in public speech.",
+    "definition": "Profound immorality and wickedness",
     "example": "I am in politics because of the conflict between good and evil, and I believe that in the end good will triumph.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -218,7 +218,7 @@
   {
     "id": 40279,
     "word": "triumph",
-    "definition": "A great victory or achievement; a word that gains force in public speech.",
+    "definition": "A great victory or achievement",
     "example": "I am in politics because of the conflict between good and evil, and I believe that in the end good will triumph.",
     "partOfSpeech": "noun",
     "oratorId": 14,
@@ -230,7 +230,7 @@
   {
     "id": 40280,
     "word": "defeat",
-    "definition": "An instance of being defeated; a word that gains force in public speech.",
+    "definition": "An instance of being defeated",
     "example": "Defeat? I do not recognize the meaning of the word.",
     "partOfSpeech": "noun",
     "oratorId": 14,

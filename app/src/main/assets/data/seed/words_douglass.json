@@ -2,7 +2,7 @@
   {
     "id": 40101,
     "word": "injustice",
-    "definition": "Lack of fairness or justice; a word that gains force in public speech.",
+    "definition": "Lack of fairness or justice",
     "example": "What, to the American slave, is your 4th of July? I answer: a day that reveals to him, more than all other days in the year, the gross injustice and cruelty to which he is the constant victim.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -64,7 +64,7 @@
   {
     "id": 40105,
     "word": "progress",
-    "definition": "Forward or onward movement toward a destination; a word that gains force in public speech.",
+    "definition": "Forward or onward movement toward a destination",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -78,7 +78,7 @@
   {
     "id": 40106,
     "word": "agitation",
-    "definition": "A state of anxiety or nervous excitement; a word that gains force in public speech.",
+    "definition": "Persistent public protest or urging intended to provoke change",
     "example": "If there is no struggle, there is no progress. Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -156,9 +156,9 @@
   },
   {
     "id": 40112,
-    "word": "agitation",
-    "definition": "A state of anxiety or nervous excitement; a word that gains force in public speech.",
-    "example": "Agitation is the hinge of What to the Slave Is the Fourth of July?: without it the rest is decoration.",
+    "word": "bombast",
+    "definition": "High-sounding language with little meaning; inflated, empty speech",
+    "example": "Your prayers and hymns, your sermons and thanksgivings, with all your religious parade and solemnity, are, to Him, mere bombast, fraud, deception, impiety, and hypocrisy.",
     "partOfSpeech": "noun",
     "oratorId": 6,
     "complexity": "advanced",
@@ -189,7 +189,7 @@
   {
     "id": 40114,
     "word": "doom",
-    "definition": "Death, destruction, or some other terrible fate; a word that gains force in public speech.",
+    "definition": "Death, destruction, or some other terrible fate",
     "example": "The arm of the Lord is not shortened, and the doom of slavery is certain.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -205,7 +205,7 @@
   {
     "id": 40115,
     "word": "agitate",
-    "definition": "Make (someone) troubled or nervous; a word that gains force in public speech.",
+    "definition": "To campaign or argue persistently for change; to stir up public feeling",
     "example": "The appeal was not to wait, but to agitate—West India Emancipation made delay look like surrender.",
     "partOfSpeech": "verb",
     "oratorId": 6,
@@ -221,7 +221,7 @@
   {
     "id": 40116,
     "word": "silence",
-    "definition": "The absence of sound or noise; a word that gains force in public speech.",
+    "definition": "The absence of sound or noise",
     "example": "Silence is the hinge of What to the Slave Is the Fourth of July?: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -237,7 +237,7 @@
   {
     "id": 40117,
     "word": "truth",
-    "definition": "The quality or state of being true; a word that gains force in public speech.",
+    "definition": "The quality or state of being true",
     "example": "I expose slavery in this country, because to expose it is to kill it. Slavery is one of those monsters of darkness to whom the light of truth is death.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -269,7 +269,7 @@
   {
     "id": 40119,
     "word": "literacy",
-    "definition": "The ability to read and write; a word that gains force in public speech.",
+    "definition": "The ability to read and write",
     "example": "Literacy is the hinge of Lectures on literacy and freedom: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,
@@ -285,7 +285,7 @@
   {
     "id": 40120,
     "word": "resistance",
-    "definition": "The refusal to accept or comply with something; a word that gains force in public speech.",
+    "definition": "The refusal to accept or comply with something",
     "example": "Resistance is the hinge of West India Emancipation: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 6,

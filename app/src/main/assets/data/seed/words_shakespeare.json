@@ -44,7 +44,7 @@
   {
     "id": 40344,
     "word": "eloquent",
-    "definition": "Fluent or persuasive in speaking or writing; a word that gains force in public speech.",
+    "definition": "Fluent or persuasive in speaking or writing",
     "example": "A eloquent argument runs through Hamlet, Act 2 Scene 2: conviction without cruelty, force without panic.",
     "partOfSpeech": "adjective",
     "oratorId": 18,
@@ -58,7 +58,7 @@
   {
     "id": 40345,
     "word": "infinite",
-    "definition": "Limitless or endless in space, extent, or size; a word that gains force in public speech.",
+    "definition": "Limitless or endless in space, extent, or size",
     "example": "What a piece of work is a man! How noble in reason, how infinite in faculty! In form and moving how express and admirable! In action how like an angel! In apprehension how like a god!",
     "partOfSpeech": "adjective",
     "oratorId": 18,
@@ -72,7 +72,7 @@
   {
     "id": 40346,
     "word": "breach",
-    "definition": "A gap in a wall, barrier, or defense; a word that gains force in public speech.",
+    "definition": "A gap in a wall, barrier, or defense",
     "example": "Once more unto the breach, dear friends, once more; or close the wall up with our English dead.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -100,7 +100,7 @@
   {
     "id": 40348,
     "word": "honour",
-    "definition": "High respect; great esteem; a word that gains force in public speech.",
+    "definition": "High respect; great esteem",
     "example": "Honour is the hinge of Henry V, Act 4 Scene 3 (St Crispin's Day Speech): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -114,7 +114,7 @@
   {
     "id": 40349,
     "word": "countrymen",
-    "definition": "A person from the same country as someone else; a word that gains force in public speech.",
+    "definition": "A person from the same country as someone else",
     "example": "Friends, Romans, countrymen, lend me your ears; I come to bury Caesar, not to praise him.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -128,7 +128,7 @@
   {
     "id": 40350,
     "word": "evil",
-    "definition": "Profoundly immoral and wicked; a word that gains force in public speech.",
+    "definition": "Profound immorality and wickedness",
     "example": "The evil that men do lives after them; the good is oft interred with their bones.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -142,7 +142,7 @@
   {
     "id": 40351,
     "word": "interred",
-    "definition": "Place (a corpse) in a grave or tomb; a word that gains force in public speech.",
+    "definition": "Place (a corpse) in a grave or tomb",
     "example": "The evil that men do lives after them; the good is oft interred with their bones.",
     "partOfSpeech": "verb",
     "oratorId": 18,
@@ -156,7 +156,7 @@
   {
     "id": 40352,
     "word": "orator",
-    "definition": "A person who is skilled in public speaking; a word that gains force in public speech.",
+    "definition": "A person who is skilled in public speaking",
     "example": "I am no orator, as Brutus is; but, as you know me all, a plain blunt man, that love my friend.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -184,7 +184,7 @@
   {
     "id": 40354,
     "word": "player",
-    "definition": "A person taking part in a sport or game; a word that gains force in public speech.",
+    "definition": "A theatrical performer; an actor",
     "example": "All the world's a stage, and all the men and women merely players; they have their exits and their entrances; and one man in his time plays many parts.",
     "partOfSpeech": "noun",
     "oratorId": 18,
@@ -268,7 +268,7 @@
   {
     "id": 40360,
     "word": "valiant",
-    "definition": "Possessing or showing courage or determination; a word that gains force in public speech.",
+    "definition": "Possessing or showing courage or determination",
     "example": "Cowards die many times before their deaths; the valiant never taste of death but once.",
     "partOfSpeech": "adjective",
     "oratorId": 18,
@@ -299,7 +299,7 @@
     "id": 40368,
     "oratorId": 18,
     "word": "conscience",
-    "definition": "An inner sense of right and wrong guiding action; a word that gains force in public speech.",
+    "definition": "An inner sense of right and wrong guiding action",
     "example": "Thus conscience does make cowards of us all—and turns resolution pale with thought.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",

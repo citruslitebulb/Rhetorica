@@ -18,7 +18,7 @@
   {
     "id": 40182,
     "word": "burden",
-    "definition": "A load, typically a heavy one; a word that gains force in public speech.",
+    "definition": "A load, typically a heavy one",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -34,7 +34,7 @@
   {
     "id": 40183,
     "word": "hardship",
-    "definition": "Severe suffering or privation; a word that gains force in public speech.",
+    "definition": "Severe suffering or privation",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -66,7 +66,7 @@
   {
     "id": 40185,
     "word": "inevitable",
-    "definition": "Certain to happen; unavoidable; a word that gains force in public speech.",
+    "definition": "Certain to happen; unavoidable",
     "example": "Those who make peaceful revolution impossible will make violent revolution inevitable.",
     "partOfSpeech": "adjective",
     "oratorId": 10,
@@ -82,7 +82,7 @@
   {
     "id": 40186,
     "word": "berlin",
-    "definition": "The capital of Germany; a word that gains force in public speech.",
+    "definition": "The capital of Germany",
     "example": "Ich bin ein Berliner.",
     "partOfSpeech": "proper noun",
     "oratorId": 10,
@@ -114,7 +114,7 @@
   {
     "id": 40188,
     "word": "peace",
-    "definition": "Freedom from disturbance; tranquility; a word that gains force in public speech.",
+    "definition": "Freedom from disturbance; tranquility",
     "example": "Peace is the hinge of Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -130,7 +130,7 @@
   {
     "id": 40189,
     "word": "terror",
-    "definition": "Extreme fear; a word that gains force in public speech.",
+    "definition": "Extreme fear",
     "example": "Terror is the hinge of Inaugural Address: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -194,7 +194,7 @@
   {
     "id": 40193,
     "word": "decade",
-    "definition": "A period of ten years; a word that gains force in public speech.",
+    "definition": "A period of ten years",
     "example": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -272,7 +272,7 @@
   {
     "id": 40198,
     "word": "torch",
-    "definition": "A portable means of illumination; a word that gains force in public speech.",
+    "definition": "A portable flame carried as a light or a symbol of leadership",
     "example": "The torch has been passed to a new generation of Americans.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -303,7 +303,7 @@
   {
     "id": 40200,
     "word": "survival",
-    "definition": "The state or fact of continuing to live or exist; a word that gains force in public speech.",
+    "definition": "The state or fact of continuing to live or exist",
     "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
@@ -319,7 +319,7 @@
   {
     "id": 40370,
     "word": "bear",
-    "definition": "Carry the weight of; support; endure; a word that gains force in public speech.",
+    "definition": "Carry the weight of; support; endure",
     "example": "The appeal was not to wait, but to bear—Inaugural Address made delay look like surrender.",
     "partOfSpeech": "verb",
     "oratorId": 10,

@@ -18,7 +18,7 @@
   {
     "id": 40202,
     "word": "terror",
-    "definition": "Extreme fear; a word that gains force in public speech.",
+    "definition": "Extreme fear",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -50,7 +50,7 @@
   {
     "id": 40204,
     "word": "retreat",
-    "definition": "An act of moving back or withdrawing; a word that gains force in public speech.",
+    "definition": "An act of moving back or withdrawing",
     "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -82,7 +82,7 @@
   {
     "id": 40206,
     "word": "abundance",
-    "definition": "A very large quantity of something; a word that gains force in public speech.",
+    "definition": "A very large quantity of something",
     "example": "The test of our progress is not whether we add more to the abundance of those who have much; it is whether we provide enough for those who have too little.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -129,7 +129,7 @@
   {
     "id": 40209,
     "word": "arsenal",
-    "definition": "A collection of weapons and military equipment; a word that gains force in public speech.",
+    "definition": "A collection of weapons and military equipment",
     "example": "We must be the great arsenal of democracy.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -175,7 +175,7 @@
   {
     "id": 40212,
     "word": "ruthlessness",
-    "definition": "The quality of being cruel or having no pity; a word that gains force in public speech.",
+    "definition": "The quality of being cruel or having no pity",
     "example": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -191,7 +191,7 @@
   {
     "id": 40213,
     "word": "doubt",
-    "definition": "A feeling of uncertainty or lack of conviction; a word that gains force in public speech.",
+    "definition": "A feeling of uncertainty or lack of conviction",
     "example": "The only limit to our realization of tomorrow will be our doubts of today.",
     "partOfSpeech": "noun",
     "oratorId": 11,
@@ -223,7 +223,7 @@
   {
     "id": 40215,
     "word": "happiness",
-    "definition": "The state of being happy; a word that gains force in public speech.",
+    "definition": "The state of being happy",
     "example": "Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
     "partOfSpeech": "noun",
     "oratorId": 11,

@@ -50,7 +50,7 @@
   {
     "id": 40045,
     "word": "honor",
-    "definition": "High respect; great esteem; a word that gains force in public speech.",
+    "definition": "High respect; great esteem",
     "example": "It is only the love of honor that never grows old; and honor it is, not gain, as some would have it, that rejoices the heart of age and helplessness.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -74,7 +74,7 @@
   {
     "id": 40047,
     "word": "legacy",
-    "definition": "Something handed down by a predecessor; a word that gains force in public speech.",
+    "definition": "Something handed down by a predecessor",
     "example": "Legacy is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -98,7 +98,7 @@
   {
     "id": 40049,
     "word": "happiness",
-    "definition": "The state of being happy; a word that gains force in public speech.",
+    "definition": "The state of being happy",
     "example": "Make up your minds that happiness depends on being free, and freedom depends on being courageous.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -110,7 +110,7 @@
   {
     "id": 40050,
     "word": "glory",
-    "definition": "High renown or honor won by notable achievements; a word that gains force in public speech.",
+    "definition": "High renown or honor won by notable achievements",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -134,7 +134,7 @@
   {
     "id": 40052,
     "word": "openness",
-    "definition": "Lack of restriction; accessibility; a word that gains force in public speech.",
+    "definition": "Lack of restriction; accessibility",
     "example": "Openness is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -158,7 +158,7 @@
   {
     "id": 40054,
     "word": "prosperity",
-    "definition": "The state of being prosperous; a word that gains force in public speech.",
+    "definition": "The state of being prosperous",
     "example": "Prosperity is the hinge of Pericles' Funeral Oration (Thucydides): without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -182,7 +182,7 @@
   {
     "id": 40056,
     "word": "resolve",
-    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "definition": "Firm determination to do something",
     "example": "Such is the Athens for which these men, in the assertion of their resolve not to lose her, nobly fought and died.",
     "partOfSpeech": "noun",
     "oratorId": 3,
@@ -218,7 +218,7 @@
   {
     "id": 40059,
     "word": "danger",
-    "definition": "The possibility of suffering harm or injury; a word that gains force in public speech.",
+    "definition": "The possibility of suffering harm or injury",
     "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding, go out to meet it.",
     "partOfSpeech": "noun",
     "oratorId": 3,

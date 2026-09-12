@@ -18,7 +18,7 @@
   {
     "id": 40222,
     "word": "ideal",
-    "definition": "A person or thing regarded as perfect; a word that gains force in public speech.",
+    "definition": "A standard of perfection; a cherished principle or goal",
     "example": "I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities.",
     "partOfSpeech": "noun",
     "oratorId": 12,
@@ -82,7 +82,7 @@
   {
     "id": 40226,
     "word": "impossible",
-    "definition": "Not able to occur, exist, or be done; a word that gains force in public speech.",
+    "definition": "Not able to occur, exist, or be done",
     "example": "It always seems impossible until it's done.",
     "partOfSpeech": "adjective",
     "oratorId": 12,
@@ -239,7 +239,7 @@
   {
     "id": 40237,
     "word": "reign",
-    "definition": "Rule as a monarch; a word that gains force in public speech.",
+    "definition": "Rule as a monarch",
     "example": "Let freedom reign. The sun never set on so glorious a human achievement.",
     "partOfSpeech": "verb",
     "oratorId": 12,
@@ -255,7 +255,7 @@
   {
     "id": 40238,
     "word": "glorious",
-    "definition": "Having, bringing, or worthy of fame or admiration; a word that gains force in public speech.",
+    "definition": "Having, bringing, or worthy of fame or admiration",
     "example": "Let freedom reign. The sun never set on so glorious a human achievement.",
     "partOfSpeech": "adjective",
     "oratorId": 12,

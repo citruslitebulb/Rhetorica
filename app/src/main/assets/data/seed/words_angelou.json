@@ -2,7 +2,7 @@
   {
     "id": 40301,
     "word": "history",
-    "definition": "The study of past events; a word that gains force in public speech.",
+    "definition": "The study of past events",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "noun",
     "oratorId": 16,
@@ -16,7 +16,7 @@
   {
     "id": 40302,
     "word": "bitter",
-    "definition": "Having a sharp, pungent taste or smell; not sweet; a word that gains force in public speech.",
+    "definition": "Having a sharp, pungent taste or smell; not sweet",
     "example": "You may write me down in history with your bitter, twisted lies, you may trod me in the very dirt but still, like dust, I'll rise.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
@@ -80,7 +80,7 @@
   {
     "id": 40306,
     "word": "feel",
-    "definition": "Experience (an emotion or sensation); a word that gains force in public speech.",
+    "definition": "Experience (an emotion or sensation)",
     "example": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     "partOfSpeech": "verb",
     "oratorId": 16,
@@ -128,7 +128,7 @@
   {
     "id": 40310,
     "word": "passion",
-    "definition": "Strong and barely controllable emotion; a word that gains force in public speech.",
+    "definition": "Strong and barely controllable emotion",
     "example": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "partOfSpeech": "noun",
     "oratorId": 16,
@@ -160,7 +160,7 @@
   {
     "id": 40312,
     "word": "wrenching",
-    "definition": "Causing great physical or mental pain; a word that gains force in public speech.",
+    "definition": "Causing great physical or mental pain",
     "example": "History, despite its wrenching pain, cannot be unlived, but if faced with courage, need not be lived again.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
@@ -192,7 +192,7 @@
   {
     "id": 40314,
     "word": "grace",
-    "definition": "Simple elegance or refinement of movement; a word that gains force in public speech.",
+    "definition": "Simple elegance or refinement of movement",
     "example": "Grace is the hinge of Inaugural Poem for President Bill Clinton: without it the rest is decoration.",
     "partOfSpeech": "noun",
     "oratorId": 16,
@@ -208,7 +208,7 @@
   {
     "id": 40315,
     "word": "better",
-    "definition": "Of a more excellent or effective type or quality; a word that gains force in public speech.",
+    "definition": "Of a more excellent or effective type or quality",
     "example": "Do the best you can until you know better. Then when you know better, do better.",
     "partOfSpeech": "adjective",
     "oratorId": 16,
@@ -256,7 +256,7 @@
   {
     "id": 40319,
     "word": "sum",
-    "definition": "A particular amount of money; a word that gains force in public speech.",
+    "definition": "A particular amount of money",
     "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
     "partOfSpeech": "noun",
     "oratorId": 16,
@@ -272,7 +272,7 @@
   {
     "id": 40320,
     "word": "total",
-    "definition": "Comprising the whole number or amount; a word that gains force in public speech.",
+    "definition": "Comprising the whole number or amount",
     "example": "You are the sum total of everything you've ever seen, heard, eaten, smelled, been told, forgot.",
     "partOfSpeech": "adjective",
     "oratorId": 16,

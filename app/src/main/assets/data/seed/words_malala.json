@@ -2,7 +2,7 @@
   {
     "id": 40321,
     "word": "pen",
-    "definition": "An instrument for writing or drawing with ink; a word that gains force in public speech.",
+    "definition": "An instrument for writing or drawing with ink",
     "example": "One child, one teacher, one book, one pen can change the world.",
     "partOfSpeech": "noun",
     "oratorId": 17,
@@ -18,7 +18,7 @@
   {
     "id": 40322,
     "word": "bullet",
-    "definition": "A projectile fired from a gun; a word that gains force in public speech.",
+    "definition": "A projectile fired from a gun",
     "example": "They thought that the bullets would silence us, but they failed.",
     "partOfSpeech": "noun",
     "oratorId": 17,
@@ -34,7 +34,7 @@
   {
     "id": 40323,
     "word": "silence",
-    "definition": "The absence of sound or noise; a word that gains force in public speech.",
+    "definition": "The absence of sound or noise",
     "example": "They thought that the bullets would silence us, but they failed. And out of that silence came thousands of voices.",
     "partOfSpeech": "noun",
     "oratorId": 17,
@@ -174,7 +174,7 @@
   {
     "id": 40333,
     "word": "hate",
-    "definition": "Intense or passionate dislike; a word that gains force in public speech.",
+    "definition": "Intense or passionate dislike",
     "example": "I do not even hate the Talib who shot me. Even if there is a gun in my hand and he stands in front of me, I would not shoot him.",
     "partOfSpeech": "noun",
     "oratorId": 17,
