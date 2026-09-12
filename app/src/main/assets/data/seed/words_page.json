@@ -9,7 +9,7 @@
     "complexity": "advanced",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["tech", "inspirational"]
+    "categories": ["tech", "inspirational", "legacy", "humanities", "courage"]
   },
   {
     "id": 24002,
@@ -33,7 +33,7 @@
     "complexity": "advanced",
     "source": "Talks on additionality and 10x ideas",
     "speech": "Moonshots and Additionality",
-    "categories": ["tech", "inspirational"]
+    "categories": ["tech", "inspirational", "legacy"]
   },
   {
     "id": 24004,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["tech", "leadership", "inspirational"]
+    "categories": ["tech", "leadership", "inspirational", "courage"]
   },
   {
     "id": 24005,
@@ -81,7 +81,7 @@
     "complexity": "advanced",
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["tech", "inspirational"]
+    "categories": ["tech", "inspirational", "legacy", "courage"]
   },
   {
     "id": 24008,
@@ -93,7 +93,7 @@
     "complexity": "advanced",
     "source": "Talks on long-term technology",
     "speech": "Moonshots and the Future",
-    "categories": ["tech", "inspirational"]
+    "categories": ["tech", "inspirational", "legacy"]
   },
   {
     "id": 24009,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Moonshot culture",
     "speech": "Google I/O Keynote on Moonshots",
-    "categories": ["tech", "leadership"]
+    "categories": ["tech", "leadership", "courage"]
   },
   {
     "id": 24010,
@@ -117,7 +117,7 @@
     "complexity": "basic",
     "source": "Vision talks",
     "speech": "Vision talks",
-    "categories": ["inspirational", "tech"]
+    "categories": ["inspirational", "tech", "legacy", "humanities"]
   },
   {
     "id": 24011,
@@ -165,7 +165,7 @@
     "complexity": "intermediate",
     "source": "Culture remarks",
     "speech": "Culture talks",
-    "categories": ["leadership", "inspirational"]
+    "categories": ["leadership", "inspirational", "humanities"]
   },
   {
     "id": 24015,

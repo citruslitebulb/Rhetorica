@@ -9,7 +9,7 @@
     "complexity": "advanced",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["tech", "inspirational", "leadership"]
+    "categories": ["tech", "inspirational", "leadership", "courage"]
   },
   {
     "id": 19002,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "Stanford University Commencement Address",
     "speech": "Stanford Commencement Address",
-    "categories": ["inspirational", "humanities", "leadership"]
+    "categories": ["inspirational", "humanities", "leadership", "courage"]
   },
   {
     "id": 19003,
@@ -124,12 +124,12 @@
     "oratorId": 19,
     "word": "death",
     "definition": "The end of life; used metaphorically as the ultimate constraint that clarifies priorities.",
-    "example": "Death is the hinge of Stanford Commencement Address: without it the rest is decoration.",
+    "example": "Jobs calls death the great clarifier: 'Remembering that you are going to die is the best way I know to avoid the trap of thinking you have something to lose.'",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
     "source": "Stanford Commencement",
     "speech": "Stanford Commencement Address",
-    "categories": ["humanities", "inspirational", "legacy"]
+    "categories": ["humanities", "inspirational", "legacy", "courage"]
   },
   {
     "id": 19012,
@@ -141,7 +141,7 @@
     "complexity": "basic",
     "source": "Stanford Commencement",
     "speech": "Stanford Commencement Address",
-    "categories": ["inspirational", "leadership"]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 19013,
@@ -160,7 +160,7 @@
     "oratorId": 19,
     "word": "humanity",
     "definition": "Human beings collectively; the quality of being humane.",
-    "example": "Humanity is the hinge of iPad introduction: without it the rest is decoration.",
+    "example": "Jobs dedicated Apple to humanity through the liberal arts: 'technology married with liberal arts, married with the humanities, that yields us the results that make our heart sing.'",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
     "source": "iPad introduction",
@@ -177,7 +177,7 @@
     "complexity": "intermediate",
     "source": "Think Different",
     "speech": "Think Different",
-    "categories": ["inspirational", "leadership", "legacy"]
+    "categories": ["inspirational", "leadership", "legacy", "courage"]
   },
   {
     "id": 19016,

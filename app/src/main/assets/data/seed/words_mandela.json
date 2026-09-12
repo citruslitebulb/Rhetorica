@@ -92,7 +92,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -107,14 +108,15 @@
     "speech": "Various post-release addresses",
     "categories": [
       "humanities",
-      "democracy"
+      "democracy",
+      "courage"
     ]
   },
   {
     "id": 40229,
     "word": "forgiveness",
     "definition": "The action or process of forgiving or being forgiven",
-    "example": "Forgiveness is the hinge of Various reconciliation addresses: without it the rest is decoration.",
+    "example": "Mandela's forgiveness meant leaving prison behind him: 'As I walked out the door toward the gate that would lead to my freedom, I knew if I didn't leave my bitterness and hatred behind, I'd still be in prison.'",
     "partOfSpeech": "noun",
     "oratorId": 12,
     "complexity": "intermediate",
@@ -153,7 +155,6 @@
     "source": "Long Walk to Freedom / post-presidency interviews",
     "speech": "Various",
     "categories": [
-      "arts",
       "humanities",
       "legacy"
     ]
@@ -187,7 +188,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -217,7 +219,9 @@
     "source": "Inaugural Address as President",
     "speech": "Inaugural Address",
     "categories": [
-      "leadership"
+      "leadership",
+      "legacy",
+      "courage"
     ]
   },
   {

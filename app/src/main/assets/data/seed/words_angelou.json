@@ -10,7 +10,10 @@
     "source": "Still I Rise (poem, frequently performed in speeches)",
     "speech": "Inaugural and public readings / addresses",
     "categories": [
-      "legacy"
+      "legacy",
+      "democracy",
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -26,7 +29,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -42,14 +46,15 @@
     "categories": [
       "arts",
       "humanities",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
     "id": 40304,
     "word": "resilience",
     "definition": "The capacity to recover quickly from difficulties; toughness",
-    "example": "Resilience is the hinge of Various readings: without it the rest is decoration.",
+    "example": "Angelou's resilience answers every defeat: 'You may encounter many defeats, but you must not be defeated.'",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
@@ -58,7 +63,10 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage",
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -74,7 +82,10 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "democracy",
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -106,7 +117,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -168,9 +180,9 @@
     "source": "On the Pulse of Morning (Inaugural Poem)",
     "speech": "Inaugural Poem for President Bill Clinton",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -186,23 +198,24 @@
     "categories": [
       "inspirational",
       "leadership",
-      "courage"
+      "courage",
+      "democracy"
     ]
   },
   {
     "id": 40314,
     "word": "grace",
     "definition": "Simple elegance or refinement of movement",
-    "example": "Grace is the hinge of Inaugural Poem for President Bill Clinton: without it the rest is decoration.",
+    "example": "Angelou meets history's wrenching pain with grace: 'Still, like dust, I'll rise.'",
     "partOfSpeech": "noun",
     "oratorId": 16,
     "complexity": "intermediate",
-    "source": "On the Pulse of Morning (Inaugural Poem)",
-    "speech": "Inaugural Poem for President Bill Clinton",
+    "source": "Still I Rise",
+    "speech": "On Courage and Rising",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -232,9 +245,8 @@
     "source": "Various writings and speeches",
     "speech": "Multiple",
     "categories": [
-      "democracy",
       "humanities",
-      "courage"
+      "arts"
     ]
   },
   {
@@ -248,9 +260,8 @@
     "source": "Various writings and speeches",
     "speech": "Multiple",
     "categories": [
-      "democracy",
       "humanities",
-      "courage"
+      "arts"
     ]
   },
   {

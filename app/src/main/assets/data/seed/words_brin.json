@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Talks on mission and ambition",
     "speech": "Big Problems Philosophy",
-    "categories": ["tech", "democracy"]
+    "categories": ["tech", "democracy", "courage"]
   },
   {
     "id": 25002,
@@ -33,7 +33,7 @@
     "complexity": "intermediate",
     "source": "Early Google vision / IPO letter era",
     "speech": "On Organizing the World's Information",
-    "categories": ["tech", "democracy", "inspirational"]
+    "categories": ["tech", "democracy", "inspirational", "courage", "legacy"]
   },
   {
     "id": 25004,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Google company values and talks",
     "speech": "Don't Be Evil / Do the Right Thing",
-    "categories": ["democracy", "leadership", "humanities"]
+    "categories": ["democracy", "leadership", "humanities", "courage"]
   },
   {
     "id": 25005,
@@ -93,7 +93,7 @@
     "complexity": "intermediate",
     "source": "Talks on corporate responsibility",
     "speech": "Don't Be Evil / Do the Right Thing",
-    "categories": ["democracy", "leadership", "inspirational"]
+    "categories": ["democracy", "leadership", "inspirational", "courage", "legacy"]
   },
   {
     "id": 25009,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Google mission",
     "speech": "On Organizing the World's Information",
-    "categories": ["tech", "inspirational"]
+    "categories": ["tech", "inspirational", "legacy"]
   },
   {
     "id": 25010,
@@ -141,7 +141,7 @@
     "complexity": "intermediate",
     "source": "Mission talks",
     "speech": "Mission talks",
-    "categories": ["democracy", "tech", "humanities"]
+    "categories": ["democracy", "tech", "humanities", "legacy"]
   },
   {
     "id": 25013,

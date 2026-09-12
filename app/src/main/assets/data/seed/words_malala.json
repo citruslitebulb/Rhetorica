@@ -12,7 +12,10 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "arts",
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -28,7 +31,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -44,7 +48,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -74,9 +79,10 @@
     "source": "United Nations Speech",
     "speech": "Education for All (UN themes)",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts",
+      "leadership"
     ]
   },
   {
@@ -90,7 +96,8 @@
     "source": "United Nations Speech",
     "speech": "Education for All (UN themes)",
     "categories": [
-      "humanities"
+      "humanities",
+      "democracy", "inspirational"
     ]
   },
   {
@@ -104,7 +111,8 @@
     "source": "United Nations Speech",
     "speech": "Education for All (UN themes)",
     "categories": [
-      "humanities"
+      "humanities",
+      "democracy", "inspirational"
     ]
   },
   {
@@ -152,7 +160,9 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "democracy",
+      "leadership"
     ]
   },
   {
@@ -184,7 +194,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -200,7 +211,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -230,9 +242,9 @@
     "source": "United Nations Speech",
     "speech": "Education for All (UN themes)",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -248,7 +260,9 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -262,7 +276,9 @@
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
     "categories": [
-      "courage"
+      "courage",
+      "inspirational",
+      "legacy"
     ]
   },
   {
@@ -276,9 +292,9 @@
     "source": "Nobel Peace Prize Lecture",
     "speech": "Nobel Lecture",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "courage"
     ]
   }
 ]

@@ -9,7 +9,7 @@
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["legacy", "leadership"]
+    "categories": ["legacy", "leadership", "courage", "democracy"]
   },
   {
     "id": 20002,
@@ -21,7 +21,7 @@
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["legacy"]
+    "categories": ["legacy", "democracy"]
   },
   {
     "id": 20003,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Various talks on global progress",
     "speech": "Optimism and Progress",
-    "categories": ["legacy", "leadership", "inspirational"]
+    "categories": ["legacy", "leadership", "inspirational", "courage"]
   },
   {
     "id": 20008,
@@ -93,7 +93,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["legacy", "humanities"]
+    "categories": ["legacy", "humanities", "democracy"]
   },
   {
     "id": 20009,
@@ -105,7 +105,7 @@
     "complexity": "advanced",
     "source": "Gates Foundation talks",
     "speech": "Global health addresses",
-    "categories": ["legacy", "humanities", "inspirational"]
+    "categories": ["legacy", "humanities", "inspirational", "democracy"]
   },
   {
     "id": 20010,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "Harvard Commencement",
     "speech": "Harvard Commencement Address",
-    "categories": ["tech", "inspirational", "legacy"]
+    "categories": ["tech", "inspirational", "legacy", "courage"]
   },
   {
     "id": 20011,
@@ -165,7 +165,7 @@
     "complexity": "intermediate",
     "source": "Tech and philanthropy",
     "speech": "Various",
-    "categories": ["tech", "leadership"]
+    "categories": ["tech", "leadership", "courage"]
   },
   {
     "id": 20015,

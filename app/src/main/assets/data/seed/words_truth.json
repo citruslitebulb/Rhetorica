@@ -12,7 +12,9 @@
     "categories": [
       "democracy",
       "courage",
-      "legacy"
+      "legacy",
+      "leadership",
+      "inspirational"
     ]
   },
   {
@@ -179,7 +181,8 @@
     "speech": "Ain't I a Woman?",
     "categories": [
       "democracy",
-      "courage"
+      "courage",
+      "leadership"
     ]
   },
   {
@@ -209,7 +212,7 @@
     "speech": "On taking rights",
     "categories": [
       "democracy",
-      "courage"
+      "courage", "inspirational"
     ]
   },
   {
@@ -225,7 +228,8 @@
     "categories": [
       "inspirational",
       "legacy",
-      "humanities"
+      "humanities",
+      "leadership"
     ]
   },
   {
@@ -240,8 +244,8 @@
     "speech": "On her mission",
     "categories": [
       "courage",
-      "humanities",
-      "inspirational"
+      "humanities", "inspirational",
+      "leadership"
     ]
   }
 ]

@@ -11,8 +11,8 @@
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
     "categories": [
       "tech",
-      "leadership",
-      "inspirational"
+      "leadership", "inspirational",
+      "humanities"
     ]
   },
   {
@@ -42,9 +42,11 @@
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
     "categories": [
-      "tech",
-      "inspirational",
-      "leadership"
+      "tech", "inspirational",
+      "leadership",
+      "courage",
+      "legacy",
+      "humanities"
     ]
   },
   {
@@ -58,8 +60,9 @@
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "courage",
+      "legacy"
     ]
   },
   {
@@ -73,8 +76,9 @@
     "source": "Princeton Baccalaureate Address - 'We Are What We Choose'",
     "speech": "We Are What We Choose (Princeton Baccalaureate)",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "courage",
+      "legacy"
     ]
   },
   {
@@ -103,7 +107,8 @@
     "speech": "Leadership Principles",
     "categories": [
       "leadership",
-      "tech"
+      "tech",
+      "legacy"
     ]
   },
   {
@@ -179,8 +184,8 @@
     "speech": "Day 1 Philosophy",
     "categories": [
       "tech",
-      "leadership",
-      "inspirational"
+      "leadership", "inspirational",
+      "legacy"
     ]
   },
   {
@@ -209,8 +214,8 @@
     "source": "Shareholder letters",
     "speech": "Long-Term Thinking",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "courage"
     ]
   },
   {

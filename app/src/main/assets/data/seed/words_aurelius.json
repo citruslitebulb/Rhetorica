@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book V",
-    "categories": ["humanities", "courage"]
+    "categories": ["humanities", "courage", "inspirational"]
   },
   {
     "id": 28002,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VIII",
-    "categories": ["humanities", "courage"]
+    "categories": ["humanities", "courage", "inspirational", "legacy"]
   },
   {
     "id": 28003,
@@ -33,7 +33,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book X",
-    "categories": ["humanities"]
+    "categories": ["humanities", "inspirational", "legacy"]
   },
   {
     "id": 28004,
@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["humanities"]
+    "categories": ["humanities", "inspirational"]
   },
   {
     "id": 28006,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book IV",
-    "categories": ["courage", "humanities"]
+    "categories": ["courage", "humanities", "inspirational"]
   },
   {
     "id": 28007,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["humanities"]
+    "categories": ["humanities", "inspirational"]
   },
   {
     "id": 28010,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book XII",
-    "categories": ["humanities", "courage"]
+    "categories": ["humanities", "courage", "inspirational", "legacy"]
   },
   {
     "id": 28011,
@@ -129,7 +129,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book VI",
-    "categories": ["humanities"]
+    "categories": ["humanities", "inspirational"]
   },
   {
     "id": 28012,
@@ -141,7 +141,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Book IV",
-    "categories": ["humanities", "courage"]
+    "categories": ["humanities", "courage", "inspirational"]
   },
   {
     "id": 28013,
@@ -153,7 +153,7 @@
     "complexity": "advanced",
     "source": "Meditations",
     "speech": "Meditations",
-    "categories": ["humanities", "leadership"]
+    "categories": ["humanities", "leadership", "legacy"]
   },
   {
     "id": 28014,
@@ -165,7 +165,7 @@
     "complexity": "intermediate",
     "source": "Meditations",
     "speech": "Meditations",
-    "categories": ["leadership", "humanities", "courage"]
+    "categories": ["leadership", "humanities", "courage", "inspirational"]
   },
   {
     "id": 28015,
@@ -177,7 +177,7 @@
     "complexity": "advanced",
     "source": "Meditations",
     "speech": "Meditations",
-    "categories": ["humanities", "legacy"]
+    "categories": ["humanities", "legacy", "inspirational"]
   },
   {
     "id": 28016,
@@ -189,6 +189,6 @@
     "complexity": "advanced",
     "source": "Meditations",
     "speech": "Meditations",
-    "categories": ["humanities", "courage", "leadership"]
+    "categories": ["humanities", "courage", "leadership", "inspirational"]
   }
 ]

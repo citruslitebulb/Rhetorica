@@ -28,7 +28,7 @@
     "categories": [
       "courage",
       "leadership",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -59,7 +59,7 @@
     "categories": [
       "leadership",
       "courage",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -91,7 +91,7 @@
     "categories": [
       "courage",
       "leadership",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -121,7 +121,7 @@
     "speech": "Tilbury",
     "categories": [
       "leadership",
-      "humanities"
+      "humanities", "inspirational"
     ]
   },
   {
@@ -167,7 +167,7 @@
     "speech": "Tilbury",
     "categories": [
       "leadership",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -243,7 +243,7 @@
     "categories": [
       "courage",
       "leadership",
-      "humanities"
+      "humanities", "inspirational"
     ]
   }
 ]

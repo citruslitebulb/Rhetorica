@@ -10,9 +10,9 @@
     "source": "Various addresses",
     "speech": "On freedom's inheritance",
     "categories": [
-      "democracy",
-      "inspirational",
-      "legacy"
+      "democracy", "inspirational",
+      "legacy",
+      "humanities"
     ]
   },
   {
@@ -136,7 +136,8 @@
     "categories": [
       "inspirational",
       "democracy",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -150,9 +151,10 @@
     "source": "Farewell Address",
     "speech": "Farewell Address to the Nation",
     "categories": [
-      "democracy",
-      "inspirational",
-      "legacy"
+      "democracy", "inspirational",
+      "legacy",
+      "humanities",
+      "arts"
     ]
   },
   {
@@ -244,8 +246,8 @@
     "speech": "On peace and liberty",
     "categories": [
       "leadership",
-      "democracy",
-      "inspirational"
+      "democracy", "inspirational",
+      "humanities"
     ]
   }
 ]

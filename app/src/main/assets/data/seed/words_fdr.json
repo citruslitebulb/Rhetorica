@@ -42,7 +42,6 @@
     "source": "First Inaugural Address",
     "speech": "First Inaugural Address",
     "categories": [
-      "arts",
       "humanities",
       "legacy"
     ]
@@ -74,7 +73,6 @@
     "source": "Speech accepting the Democratic nomination",
     "speech": "Democratic National Convention acceptance",
     "categories": [
-      "arts",
       "humanities",
       "legacy"
     ]
@@ -106,9 +104,9 @@
     "source": "Day of Infamy Speech",
     "speech": "Address to Congress requesting declaration of war",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -167,9 +165,9 @@
     "source": "Arsenal of Democracy Fireside Chat",
     "speech": "Arsenal of Democracy Fireside Chat",
     "categories": [
-      "humanities",
-      "inspirational",
-      "legacy"
+      "humanities", "inspirational",
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -256,7 +254,7 @@
     "id": 40217,
     "word": "interdependence",
     "definition": "The dependence of two or more people or things on each other",
-    "example": "Interdependence is the hinge of Fourth Inaugural Address: without it the rest is decoration.",
+    "example": "FDR's Fourth Inaugural preaches interdependence: 'we cannot live alone, at peace.'",
     "partOfSpeech": "noun",
     "oratorId": 11,
     "complexity": "advanced",

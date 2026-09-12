@@ -57,7 +57,7 @@
     "complexity": "intermediate",
     "source": "Oracle OpenWorld Keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["tech", "leadership"]
+    "categories": ["tech", "leadership", "humanities"]
   },
   {
     "id": 26006,
@@ -69,7 +69,7 @@
     "complexity": "intermediate",
     "source": "Business philosophy and keynotes",
     "speech": "Adaptation and Speed",
-    "categories": ["tech"]
+    "categories": ["tech", "humanities"]
   },
   {
     "id": 26007,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision",
-    "categories": ["tech", "leadership"]
+    "categories": ["tech", "leadership", "legacy"]
   },
   {
     "id": 26010,
@@ -117,7 +117,7 @@
     "complexity": "intermediate",
     "source": "Competitive strategy",
     "speech": "Industry talks",
-    "categories": ["tech", "leadership", "courage"]
+    "categories": ["tech", "leadership", "courage", "humanities"]
   },
   {
     "id": 26011,
@@ -165,7 +165,7 @@
     "complexity": "advanced",
     "source": "Engineering strategy",
     "speech": "Engineering keynotes",
-    "categories": ["tech", "leadership"]
+    "categories": ["tech", "leadership", "legacy"]
   },
   {
     "id": 26015,
@@ -187,7 +187,7 @@
     "example": "Ellison's conviction for innovators: 'be prepared for everyone telling you you're nuts.'",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
-    "categories": ["leadership", "courage"],
+    "categories": ["leadership", "courage", "inspirational"],
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision"
   }

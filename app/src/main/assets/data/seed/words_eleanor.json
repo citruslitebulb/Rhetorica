@@ -73,8 +73,8 @@
     "source": "Essays and lectures",
     "speech": "On education and curiosity",
     "categories": [
-      "humanities",
-      "inspirational"
+      "humanities", "inspirational",
+      "arts"
     ]
   },
   {
@@ -152,7 +152,8 @@
     "speech": "On dreams and the future",
     "categories": [
       "inspirational",
-      "legacy"
+      "legacy",
+      "arts"
     ]
   },
   {
@@ -214,7 +215,8 @@
     "speech": "On light and action",
     "categories": [
       "inspirational",
-      "humanities"
+      "humanities",
+      "arts"
     ]
   },
   {

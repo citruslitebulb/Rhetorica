@@ -12,14 +12,15 @@
     "categories": [
       "democracy",
       "humanities",
-      "courage"
+      "courage",
+      "leadership"
     ]
   },
   {
     "id": 40182,
     "word": "burden",
     "definition": "A load, typically a heavy one",
-    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
+    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
@@ -35,7 +36,7 @@
     "id": 40183,
     "word": "hardship",
     "definition": "Severe suffering or privation",
-    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
+    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
@@ -108,30 +109,31 @@
     "categories": [
       "democracy",
       "humanities",
-      "courage"
+      "courage",
+      "leadership"
     ]
   },
   {
     "id": 40188,
     "word": "peace",
     "definition": "Freedom from disturbance; tranquility",
-    "example": "Peace is the hinge of Inaugural Address: without it the rest is decoration.",
+    "example": "What kind of peace do we seek? Not a Pax Americana enforced on the world by American weapons of war.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
-    "source": "Inaugural Address",
-    "speech": "Inaugural Address",
+    "source": "American University Commencement",
+    "speech": "American University Commencement",
     "categories": [
       "democracy",
       "humanities",
-      "courage"
+      "courage", "inspirational"
     ]
   },
   {
     "id": 40189,
     "word": "terror",
     "definition": "Extreme fear",
-    "example": "Terror is the hinge of Inaugural Address: without it the rest is decoration.",
+    "example": "Let both sides seek to invoke the wonders of science instead of its terrors.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
@@ -172,7 +174,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership"
     ]
   },
   {
@@ -188,7 +191,8 @@
     "categories": [
       "democracy",
       "humanities",
-      "courage"
+      "courage",
+      "arts"
     ]
   },
   {
@@ -204,7 +208,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership"
     ]
   },
   {
@@ -282,29 +287,31 @@
     "categories": [
       "democracy",
       "humanities",
-      "courage"
+      "courage",
+      "leadership"
     ]
   },
   {
     "id": 40199,
     "word": "freedom",
     "definition": "The power or right to act, speak, or think as one wants",
-    "example": "Freedom is the hinge of Inaugural Address: without it the rest is decoration.",
+    "example": "Today, in the world of freedom, the proudest boast is 'Ich bin ein Berliner.'",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
-    "source": "Inaugural Address",
-    "speech": "Inaugural Address",
+    "source": "Ich bin ein Berliner",
+    "speech": "Ich bin ein Berliner",
     "categories": [
       "humanities",
-      "democracy"
+      "democracy", "inspirational",
+      "courage"
     ]
   },
   {
     "id": 40200,
     "word": "survival",
     "definition": "The state or fact of continuing to live or exist",
-    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe to assure the survival and the success of liberty.",
+    "example": "Let every nation know, whether it wishes us well or ill, that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty.",
     "partOfSpeech": "noun",
     "oratorId": 10,
     "complexity": "intermediate",
@@ -320,7 +327,7 @@
     "id": 40370,
     "word": "bear",
     "definition": "Carry the weight of; support; endure",
-    "example": "The appeal was not to wait, but to bear—Inaugural Address made delay look like surrender.",
+    "example": "Let every nation know that we shall pay any price, bear any burden, meet any hardship, support any friend, oppose any foe.",
     "partOfSpeech": "verb",
     "oratorId": 10,
     "complexity": "intermediate",
@@ -329,7 +336,8 @@
     "categories": [
       "humanities",
       "inspirational",
-      "legacy"
+      "legacy",
+      "leadership"
     ]
   }
 ]

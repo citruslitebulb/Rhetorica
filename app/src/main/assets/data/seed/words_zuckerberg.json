@@ -9,7 +9,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["democracy", "inspirational", "leadership"]
+    "categories": ["democracy", "inspirational", "leadership", "legacy", "humanities"]
   },
   {
     "id": 23002,
@@ -21,7 +21,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["democracy", "inspirational", "leadership"]
+    "categories": ["democracy", "inspirational", "leadership", "legacy", "humanities"]
   },
   {
     "id": 23003,
@@ -33,7 +33,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["democracy", "inspirational"]
+    "categories": ["democracy", "inspirational", "courage"]
   },
   {
     "id": 23004,
@@ -45,7 +45,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["democracy", "inspirational", "tech"]
+    "categories": ["democracy", "inspirational", "tech", "legacy", "humanities"]
   },
   {
     "id": 23005,
@@ -57,7 +57,7 @@
     "complexity": "advanced",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["democracy", "leadership", "inspirational"]
+    "categories": ["democracy", "leadership", "inspirational", "humanities"]
   },
   {
     "id": 23006,
@@ -81,7 +81,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["inspirational", "leadership"]
+    "categories": ["inspirational", "leadership", "courage"]
   },
   {
     "id": 23008,
@@ -93,7 +93,7 @@
     "complexity": "intermediate",
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address",
-    "categories": ["inspirational", "democracy"]
+    "categories": ["inspirational", "democracy", "courage"]
   },
   {
     "id": 23009,
@@ -105,7 +105,7 @@
     "complexity": "intermediate",
     "source": "Harvard Commencement",
     "speech": "Harvard Commencement Address",
-    "categories": ["tech", "democracy", "inspirational"]
+    "categories": ["tech", "democracy", "inspirational", "legacy"]
   },
   {
     "id": 23010,
@@ -129,7 +129,7 @@
     "complexity": "intermediate",
     "source": "Public testimony and talks",
     "speech": "Public addresses",
-    "categories": ["leadership", "democracy", "tech"]
+    "categories": ["leadership", "democracy", "tech", "courage"]
   },
   {
     "id": 23012,
@@ -141,7 +141,7 @@
     "complexity": "intermediate",
     "source": "Company culture",
     "speech": "Internal and public talks",
-    "categories": ["leadership", "tech"]
+    "categories": ["leadership", "tech", "courage", "legacy"]
   },
   {
     "id": 23013,

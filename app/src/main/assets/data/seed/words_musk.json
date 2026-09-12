@@ -25,8 +25,9 @@
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -41,7 +42,8 @@
     "speech": "First Principles Thinking",
     "categories": [
       "tech",
-      "leadership"
+      "leadership",
+      "humanities"
     ]
   },
   {
@@ -55,9 +57,9 @@
     "source": "Talks on first principles",
     "speech": "First Principles Thinking",
     "categories": [
-      "tech",
-      "inspirational",
-      "leadership"
+      "tech", "inspirational",
+      "leadership",
+      "humanities"
     ]
   },
   {
@@ -71,8 +73,9 @@
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "legacy",
+      "courage"
     ]
   },
   {
@@ -101,8 +104,8 @@
     "speech": "Personal Philosophy",
     "categories": [
       "tech",
-      "leadership",
-      "inspirational"
+      "leadership", "inspirational",
+      "courage"
     ]
   },
   {
@@ -118,7 +121,8 @@
     "categories": [
       "inspirational",
       "leadership",
-      "tech"
+      "tech",
+      "legacy"
     ]
   },
   {
@@ -132,7 +136,8 @@
     "source": "STVP Future Fest talk",
     "speech": "Future of Humanity",
     "categories": [
-      "tech"
+      "tech",
+      "legacy"
     ]
   },
   {
@@ -146,8 +151,8 @@
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary",
     "categories": [
-      "tech",
-      "inspirational"
+      "tech", "inspirational",
+      "legacy"
     ]
   },
   {
@@ -162,7 +167,8 @@
     "speech": "First Principles Thinking",
     "categories": [
       "tech",
-      "leadership"
+      "leadership",
+      "humanities"
     ]
   },
   {

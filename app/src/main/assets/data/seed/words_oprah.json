@@ -12,7 +12,10 @@
     "categories": [
       "courage",
       "inspirational",
-      "leadership"
+      "leadership",
+      "arts",
+      "democracy",
+      "legacy"
     ]
   },
   {
@@ -132,8 +135,8 @@
     "speech": "On story",
     "categories": [
       "arts",
-      "humanities",
-      "inspirational"
+      "humanities", "inspirational",
+      "legacy"
     ]
   },
   {
@@ -181,7 +184,8 @@
     "categories": [
       "courage",
       "legacy",
-      "leadership"
+      "leadership",
+      "democracy"
     ]
   },
   {
@@ -212,7 +216,8 @@
     "categories": [
       "leadership",
       "inspirational",
-      "courage"
+      "courage",
+      "democracy"
     ]
   },
   {
@@ -243,7 +248,9 @@
     "categories": [
       "inspirational",
       "courage",
-      "leadership"
+      "leadership",
+      "democracy",
+      "legacy"
     ]
   }
 ]

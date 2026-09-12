@@ -42,7 +42,8 @@
     "speech": "On Women's Right to Vote",
     "categories": [
       "democracy",
-      "leadership"
+      "leadership",
+      "inspirational"
     ]
   },
   {
@@ -72,7 +73,7 @@
     "speech": "On Women's Right to Vote",
     "categories": [
       "democracy",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -134,7 +135,7 @@
     "categories": [
       "democracy",
       "leadership",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -164,7 +165,7 @@
     "speech": "On reformers",
     "categories": [
       "courage",
-      "leadership"
+      "leadership", "inspirational"
     ]
   },
   {
@@ -179,7 +180,7 @@
     "speech": "On reformers",
     "categories": [
       "democracy",
-      "leadership"
+      "leadership", "inspirational"
     ]
   },
   {
@@ -194,7 +195,7 @@
     "speech": "On women's power",
     "categories": [
       "leadership",
-      "democracy"
+      "democracy", "inspirational"
     ]
   },
   {
@@ -210,7 +211,7 @@
     "categories": [
       "courage",
       "democracy",
-      "legacy"
+      "legacy", "inspirational"
     ]
   },
   {
@@ -225,7 +226,7 @@
     "speech": "On Women's Right to Vote",
     "categories": [
       "courage",
-      "democracy"
+      "democracy", "inspirational"
     ]
   },
   {
@@ -241,7 +242,7 @@
     "categories": [
       "courage",
       "democracy",
-      "legacy"
+      "legacy", "inspirational"
     ]
   }
 ]
