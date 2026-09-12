@@ -324,7 +324,8 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_14_15,
                         MIGRATION_15_16,
                     )
-                    .fallbackToDestructiveMigration()
+                    // No destructive fallback: a missing migration must fail loudly in
+                    // development rather than silently wiping saved words and progress.
                     .build()
                 INSTANCE = instance
                 instance

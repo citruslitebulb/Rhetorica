@@ -29,8 +29,6 @@ class WordRepository @Inject constructor(
     private val speechDao: SpeechDao,
     private val preferencesRepository: PreferencesRepository,
 ) {
-    fun observeWords(): Flow<List<WordEntity>> = wordDao.observeWords()
-
     fun observeWordById(wordId: Long): Flow<WordEntity?> = wordDao.observeWordById(wordId)
 
     fun observeSavedWordIds(): Flow<List<Long>> = savedWordDao.observeSavedWordIds()
@@ -38,14 +36,6 @@ class WordRepository @Inject constructor(
     fun observeSavedWordSummaries(): Flow<List<SavedWordSummary>> = savedWordDao.observeSavedWordSummaries()
 
     fun observeIsWordSaved(wordId: Long): Flow<Boolean> = savedWordDao.observeIsWordSaved(wordId)
-
-    fun observeWordsByOrator(oratorId: Long?): Flow<List<WordEntity>> {
-        return if (oratorId == null) {
-            wordDao.observeWords()
-        } else {
-            wordDao.observeWordsByOrator(oratorId)
-        }
-    }
 
     /**
      * Feed query that stays on SQL for orator scoping instead of loading the full library
@@ -74,18 +64,6 @@ class WordRepository @Inject constructor(
         val visible = resolveVisibleOratorIds()
         if (visible.isEmpty()) return emptyList()
         return speechDao.searchSpeechesInOrators(trimmed, visible)
-    }
-
-    suspend fun getWordOfTheDay(): WordEntity? = getWordOfTheDayForPreferences(
-        selectedOratorId = null,
-        rotateThroughAll = true,
-    )
-
-    suspend fun getWordOfTheDayByOrator(oratorId: Long?): WordEntity? {
-        return getWordOfTheDayForPreferences(
-            selectedOratorId = oratorId,
-            rotateThroughAll = oratorId == null,
-        )
     }
 
     /**
@@ -222,8 +200,6 @@ class WordRepository @Inject constructor(
         }
     }
 
-    suspend fun getRandomWords(limit: Int): List<WordEntity> = wordDao.getRandomWords(limit)
-
     suspend fun getRandomWords(
         limit: Int,
         oratorId: Long?,
@@ -323,18 +299,4 @@ class WordRepository @Inject constructor(
         }
     }
 
-    suspend fun seedWordsIfEmpty() {
-        // Redundant seeding removed. Seeding is handled by SeedDataLoader in RhetoricaApp.
-    }
-
-    suspend fun fixNullOratorIds() {
-        val dictionaries = dictionaryDao.getAllDictionaries()
-        val defaultOratorId = dictionaries.firstOrNull()?.id ?: 18L
-
-        val wordsWithNullOrator = wordDao.getWordsWithNullOratorId()
-        if (wordsWithNullOrator.isNotEmpty()) {
-            val updatedWords = wordsWithNullOrator.map { it.copy(oratorId = defaultOratorId) }
-            wordDao.upsertWords(updatedWords)
-        }
-    }
 }
