@@ -22,12 +22,17 @@ class WordOfDayWorker @AssistedInject constructor(
 ) : CoroutineWorker(context, workerParams) {
 
     override suspend fun doWork(): Result {
-        return try {
-            val preferences = userPreferencesDao.getUserPreferences().orDefault()
-            if (!preferences.notificationsEnabled) {
-                return Result.success()
-            }
+        val preferences = try {
+            userPreferencesDao.getUserPreferences().orDefault()
+        } catch (e: Exception) {
+            AppLog.e(TAG, "Failed to read preferences", e)
+            return Result.failure()
+        }
+        if (!preferences.notificationsEnabled) {
+            return Result.success()
+        }
 
+        try {
             val word = wordRepository.getWordOfTheDayForPreferences(
                 selectedOratorId = preferences.selectedOratorId,
                 rotateThroughAll = preferences.rotateThroughAll,
@@ -41,19 +46,28 @@ class WordOfDayWorker @AssistedInject constructor(
                     example = word.example,
                     wordId = word.id,
                 )
-
                 val notificationManager =
                     context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
                 notificationManager.notify(NotificationScheduler.NOTIFICATION_ID, notification)
-
                 WidgetAppearance.refreshAllWidgets(context)
-                Result.success()
             } else {
-                Result.retry()
+                AppLog.w(TAG, "No Word of the Day available; skipping today's notification")
             }
         } catch (e: Exception) {
-            AppLog.e("WordOfDayWorker", "Failed to show word notification", e)
-            Result.failure()
+            AppLog.e(TAG, "Failed to show word notification", e)
         }
+
+        // Always line up tomorrow, even after a bad day, so one failure does not
+        // silently end the daily habit.
+        NotificationScheduler.scheduleNextFromWorker(
+            context = context,
+            hour = preferences.notificationHour,
+            minute = preferences.notificationMinute,
+        )
+        return Result.success()
+    }
+
+    private companion object {
+        const val TAG = "WordOfDayWorker"
     }
 }

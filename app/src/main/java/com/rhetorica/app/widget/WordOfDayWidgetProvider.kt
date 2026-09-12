@@ -49,6 +49,16 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         updateWidgets(context, appWidgetManager, appWidgetIds, showLoadingFirst = true)
     }
 
+    override fun onEnabled(context: Context) {
+        super.onEnabled(context)
+        WidgetRefreshScheduler.ensureScheduled(context)
+    }
+
+    override fun onDisabled(context: Context) {
+        super.onDisabled(context)
+        WidgetRefreshScheduler.cancel(context)
+    }
+
     /**
      * Fired when the user resizes the widget. Re-render so definition / example
      * visibility scales with the new size immediately.

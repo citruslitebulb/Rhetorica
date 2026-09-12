@@ -1,8 +1,8 @@
 package com.rhetorica.app.notification
 
 import android.content.Context
-import androidx.work.ExistingPeriodicWorkPolicy
-import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.ExistingWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.rhetorica.app.core.util.AppLog
 import java.time.Duration
@@ -12,8 +12,13 @@ import java.util.concurrent.TimeUnit
 /**
  * Daily Word of the Day notification at a user-chosen local time.
  *
- * App launch uses [ExistingPeriodicWorkPolicy.KEEP] so opening the app does not
- * push the next fire. Preference changes call [reschedule].
+ * Each run is a one-shot request delayed to the next occurrence of the chosen
+ * clock time; [WordOfDayWorker] enqueues the following day when it finishes.
+ * (A 24h `PeriodicWorkRequest` drifts later every day because each run is
+ * scheduled relative to when the previous one actually executed.)
+ *
+ * App launch uses [ExistingWorkPolicy.KEEP] so opening the app does not push
+ * the pending fire. Preference changes call [reschedule].
  */
 object NotificationScheduler {
     const val UNIQUE_WORK_NAME = "word_of_day_notification"
@@ -36,8 +41,12 @@ object NotificationScheduler {
         return Duration.between(now, next).toMillis().coerceAtLeast(1L)
     }
 
+    /**
+     * Identifies the current schedule. The `v2` prefix distinguishes the one-shot
+     * chain from the old periodic request so upgrades replace it instead of keeping it.
+     */
     fun scheduleSignature(enabled: Boolean, hour: Int, minute: Int): String {
-        return "$enabled:${hour.coerceIn(0, 23)}:${minute.coerceIn(0, 59)}"
+        return "v2:$enabled:${hour.coerceIn(0, 23)}:${minute.coerceIn(0, 59)}"
     }
 
     fun ensureScheduled(
@@ -56,6 +65,19 @@ object NotificationScheduler {
         minute: Int,
     ) {
         applySchedule(context, enabled, hour, minute, force = true)
+    }
+
+    /**
+     * Called by [WordOfDayWorker] after a run to line up tomorrow. Appends behind the
+     * finishing request instead of replacing it, so the running worker is not cancelled.
+     */
+    fun scheduleNextFromWorker(context: Context, hour: Int, minute: Int) {
+        WorkManager.getInstance(context.applicationContext).enqueueUniqueWork(
+            UNIQUE_WORK_NAME,
+            ExistingWorkPolicy.APPEND_OR_REPLACE,
+            buildRequest(hour, minute),
+        )
+        AppLog.i(TAG, "Queued next daily notification (${scheduleSignature(true, hour, minute)})")
     }
 
     private fun applySchedule(
@@ -78,18 +100,20 @@ object NotificationScheduler {
         }
 
         if (!force && stored == signature) {
-            workManager.enqueueUniquePeriodicWork(
+            // KEEP only retains a request that is still pending; if the chain was lost
+            // (e.g. app data restore), this quietly re-arms it.
+            workManager.enqueueUniqueWork(
                 UNIQUE_WORK_NAME,
-                ExistingPeriodicWorkPolicy.KEEP,
+                ExistingWorkPolicy.KEEP,
                 buildRequest(hour, minute),
             )
             AppLog.i(TAG, "Keeping existing notification schedule ($signature)")
             return
         }
 
-        workManager.enqueueUniquePeriodicWork(
+        workManager.enqueueUniqueWork(
             UNIQUE_WORK_NAME,
-            ExistingPeriodicWorkPolicy.UPDATE,
+            ExistingWorkPolicy.REPLACE,
             buildRequest(hour, minute),
         )
         prefs.edit().putString(KEY_SIGNATURE, signature).apply()
@@ -97,7 +121,7 @@ object NotificationScheduler {
     }
 
     private fun buildRequest(hour: Int, minute: Int) =
-        PeriodicWorkRequestBuilder<WordOfDayWorker>(24, TimeUnit.HOURS)
+        OneTimeWorkRequestBuilder<WordOfDayWorker>()
             .setInitialDelay(millisUntilNext(hour, minute), TimeUnit.MILLISECONDS)
             .build()
 
