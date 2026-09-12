@@ -27,6 +27,7 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.OratorPortraits
+import com.rhetorica.app.ui.theme.RhetoricaGold
 
 /**
  * Circular orator portrait from the local image library, with monogram fallback.
@@ -40,7 +41,7 @@ fun OratorPortrait(
 ) {
     val context = LocalContext.current
     val resId = remember(oratorId) { OratorPortraits.drawableRes(context, oratorId) }
-    val gold = Color(0xFFD4AF37)
+    val gold = RhetoricaGold
     val goldMuted = Color(0xFFB8973A)
     val ink = Color(0xFF1C2433)
 
