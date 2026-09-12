@@ -8,7 +8,7 @@
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Hamlet",
-    "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
+    "speech": "To be, or not to be",
     "categories": [
       "arts"
     ]
@@ -22,7 +22,7 @@
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Hamlet",
-    "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
+    "speech": "To be, or not to be",
     "categories": [
       "arts"
     ]
@@ -36,7 +36,7 @@
     "oratorId": 18,
     "complexity": "intermediate",
     "source": "Hamlet",
-    "speech": "Hamlet, Act 3 Scene 1 (Soliloquy)",
+    "speech": "To be, or not to be",
     "categories": [
       "arts"
     ]
@@ -45,7 +45,7 @@
     "id": 40344,
     "word": "eloquent",
     "definition": "Fluent or persuasive in speaking or writing",
-    "example": "A eloquent argument runs through Hamlet, Act 2 Scene 2: conviction without cruelty, force without panic.",
+    "example": "Hamlet at his most eloquent: 'What a piece of work is a man! How noble in reason, how infinite in faculty!'",
     "partOfSpeech": "adjective",
     "oratorId": 18,
     "complexity": "intermediate",
@@ -101,7 +101,7 @@
     "id": 40348,
     "word": "honour",
     "definition": "High respect; great esteem",
-    "example": "Honour is the hinge of Henry V, Act 4 Scene 3 (St Crispin's Day Speech): without it the rest is decoration.",
+    "example": "But if it be a sin to covet honour, I am the most offending soul alive.",
     "partOfSpeech": "noun",
     "oratorId": 18,
     "complexity": "intermediate",
@@ -300,7 +300,7 @@
     "oratorId": 18,
     "word": "conscience",
     "definition": "An inner sense of right and wrong guiding action",
-    "example": "Thus conscience does make cowards of us all—and turns resolution pale with thought.",
+    "example": "Thus conscience does make cowards of us all.",
     "partOfSpeech": "noun",
     "complexity": "intermediate",
     "categories": [
