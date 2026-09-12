@@ -78,7 +78,6 @@ private fun QuizScreen(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .verticalScroll(rememberScrollState())
             .padding(16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
@@ -115,6 +114,7 @@ private fun QuizScreen(
             state.isLoading -> {
                 Box(
                     modifier = Modifier
+                        .weight(1f)
                         .fillMaxWidth()
                         .padding(48.dp),
                     contentAlignment = Alignment.Center,
@@ -125,6 +125,7 @@ private fun QuizScreen(
 
             state.isUnavailable -> {
                 UnavailableBlock(
+                    modifier = Modifier.weight(1f),
                     body = when {
                         state.pool == QuizPool.Saved -> stringResource(R.string.quiz_saved_unavailable_body)
                         state.mode == QuizMode.WordGuess -> stringResource(R.string.quiz_word_guess_unavailable_body)
@@ -136,6 +137,7 @@ private fun QuizScreen(
 
             state.mode == QuizMode.MultipleChoice -> {
                 MultipleChoiceContent(
+                    modifier = Modifier.weight(1f),
                     state = state,
                     onSelectOption = onSelectOption,
                     onNext = onNextMultipleChoice,
@@ -144,6 +146,7 @@ private fun QuizScreen(
 
             else -> {
                 WordGuessContent(
+                    modifier = Modifier.weight(1f),
                     state = state,
                     onDifficultySelected = onDifficultySelected,
                     onKeyPress = onKeyPress,
@@ -204,9 +207,10 @@ private fun PoolSelector(
 private fun UnavailableBlock(
     body: String,
     onRetry: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
     Column(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .padding(vertical = 24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -233,8 +237,14 @@ private fun MultipleChoiceContent(
     state: QuizUiState,
     onSelectOption: (Long) -> Unit,
     onNext: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .verticalScroll(rememberScrollState()),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
         Text(
             text = stringResource(R.string.quiz_subtitle),
             style = MaterialTheme.typography.bodyMedium,
@@ -320,88 +330,100 @@ private fun WordGuessContent(
     onBackspace: () -> Unit,
     onSubmitGuess: () -> Unit,
     onNext: () -> Unit,
+    modifier: Modifier = Modifier,
 ) {
-    Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text(
-            text = stringResource(R.string.quiz_word_guess_subtitle, state.maxAttempts),
-            style = MaterialTheme.typography.bodyMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-        )
-
-        Text(
-            text = stringResource(R.string.quiz_difficulty_label),
-            style = MaterialTheme.typography.labelLarge,
-            color = MaterialTheme.colorScheme.primary,
-        )
-        FlowRow(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.spacedBy(8.dp),
-            verticalArrangement = Arrangement.spacedBy(6.dp),
+    Column(
+        modifier = modifier.fillMaxWidth(),
+        verticalArrangement = Arrangement.spacedBy(12.dp),
+    ) {
+        Column(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxWidth()
+                .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
-            DifficultyChip(
-                label = stringResource(R.string.quiz_difficulty_easy),
-                selected = state.difficulty == WordGuessDifficulty.Easy,
-                onClick = { onDifficultySelected(WordGuessDifficulty.Easy) },
-            )
-            DifficultyChip(
-                label = stringResource(R.string.quiz_difficulty_medium),
-                selected = state.difficulty == WordGuessDifficulty.Medium,
-                onClick = { onDifficultySelected(WordGuessDifficulty.Medium) },
-            )
-            DifficultyChip(
-                label = stringResource(R.string.quiz_difficulty_hard),
-                selected = state.difficulty == WordGuessDifficulty.Hard,
-                onClick = { onDifficultySelected(WordGuessDifficulty.Hard) },
-            )
-            DifficultyChip(
-                label = stringResource(R.string.quiz_difficulty_hardcore),
-                selected = state.difficulty == WordGuessDifficulty.Hardcore,
-                onClick = { onDifficultySelected(WordGuessDifficulty.Hardcore) },
-            )
-        }
-
-        DefinitionCard(definition = state.promptDefinition)
-
-        GuessBoard(state = state)
-
-        state.message?.let { msg ->
-            val text = when (msg) {
-                is GuessMessage.NeedExactLength ->
-                    stringResource(R.string.quiz_guess_need_length, msg.length)
-                is GuessMessage.NeedMinLength ->
-                    stringResource(R.string.quiz_guess_need_min, msg.length)
-            }
             Text(
-                text = text,
+                text = stringResource(R.string.quiz_word_guess_subtitle, state.maxAttempts),
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.error,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
-        }
 
-        when (state.wordGuessStatus) {
-            WordGuessStatus.Won -> {
-                Text(
-                    text = stringResource(R.string.quiz_guess_won, state.guessTargetDisplay),
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.primary,
-                    fontWeight = FontWeight.SemiBold,
+            Text(
+                text = stringResource(R.string.quiz_difficulty_label),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+            )
+            FlowRow(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(6.dp),
+            ) {
+                DifficultyChip(
+                    label = stringResource(R.string.quiz_difficulty_easy),
+                    selected = state.difficulty == WordGuessDifficulty.Easy,
+                    onClick = { onDifficultySelected(WordGuessDifficulty.Easy) },
                 )
-                Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
-                    Text(text = stringResource(R.string.quiz_guess_next))
-                }
+                DifficultyChip(
+                    label = stringResource(R.string.quiz_difficulty_medium),
+                    selected = state.difficulty == WordGuessDifficulty.Medium,
+                    onClick = { onDifficultySelected(WordGuessDifficulty.Medium) },
+                )
+                DifficultyChip(
+                    label = stringResource(R.string.quiz_difficulty_hard),
+                    selected = state.difficulty == WordGuessDifficulty.Hard,
+                    onClick = { onDifficultySelected(WordGuessDifficulty.Hard) },
+                )
+                DifficultyChip(
+                    label = stringResource(R.string.quiz_difficulty_hardcore),
+                    selected = state.difficulty == WordGuessDifficulty.Hardcore,
+                    onClick = { onDifficultySelected(WordGuessDifficulty.Hardcore) },
+                )
             }
-            WordGuessStatus.Lost -> {
+
+            DefinitionCard(definition = state.promptDefinition)
+
+            GuessBoard(state = state)
+
+            state.message?.let { msg ->
+                val text = when (msg) {
+                    is GuessMessage.NeedExactLength ->
+                        stringResource(R.string.quiz_guess_need_length, msg.length)
+                    is GuessMessage.NeedMinLength ->
+                        stringResource(R.string.quiz_guess_need_min, msg.length)
+                }
                 Text(
-                    text = stringResource(R.string.quiz_guess_lost, state.guessTargetDisplay),
-                    style = MaterialTheme.typography.bodyLarge,
+                    text = text,
+                    style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.error,
-                    fontWeight = FontWeight.SemiBold,
                 )
-                Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
-                    Text(text = stringResource(R.string.quiz_guess_next))
-                }
             }
-            WordGuessStatus.Playing -> Unit
+
+            when (state.wordGuessStatus) {
+                WordGuessStatus.Won -> {
+                    Text(
+                        text = stringResource(R.string.quiz_guess_won, state.guessTargetDisplay),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                        fontWeight = FontWeight.SemiBold,
+                    )
+                    Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
+                        Text(text = stringResource(R.string.quiz_guess_next))
+                    }
+                }
+                WordGuessStatus.Lost -> {
+                    Text(
+                        text = stringResource(R.string.quiz_guess_lost, state.guessTargetDisplay),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.error,
+                        fontWeight = FontWeight.SemiBold,
+                    )
+                    Button(onClick = onNext, modifier = Modifier.fillMaxWidth()) {
+                        Text(text = stringResource(R.string.quiz_guess_next))
+                    }
+                }
+                WordGuessStatus.Playing -> Unit
+            }
         }
 
         VirtualKeyboard(

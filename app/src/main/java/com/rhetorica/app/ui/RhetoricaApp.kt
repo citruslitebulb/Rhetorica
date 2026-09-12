@@ -63,11 +63,18 @@ fun RhetoricaApp(
                 navController = navController,
                 modifier = Modifier.padding(innerPadding),
             )
+            // Letter-guess uses a pinned keyboard along the bottom; keep the chip
+            // off those keys by parking it next to the Quest title instead.
+            val onQuiz = currentRoute == TopLevelDestination.Quiz.route
             FeedbackOverlay(
                 modifier = Modifier
-                    .align(Alignment.BottomEnd)
+                    .align(if (onQuiz) Alignment.TopEnd else Alignment.BottomEnd)
                     .padding(innerPadding)
-                    .padding(end = 16.dp, bottom = 16.dp),
+                    .padding(
+                        end = 16.dp,
+                        top = if (onQuiz) 16.dp else 0.dp,
+                        bottom = if (onQuiz) 0.dp else 16.dp,
+                    ),
             )
         }
     }
