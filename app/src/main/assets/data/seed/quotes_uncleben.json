@@ -38,73 +38,64 @@
   {
     "id": 27005,
     "oratorId": 27,
-    "text": "It's not who I am underneath, but what I do that defines me.",
-    "source": "Batman Begins (2005)",
-    "speech": "Bruce Wayne's Training and Resolve",
-    "year": 2005,
-    "context": "Batman’s mentor Ra's al Ghul and Bruce's own realization about actions defining character and responsibility."
+    "text": "These are the years when a man changes into the man he's going to become the rest of his life. Just be careful who you change into.",
+    "source": "Spider-Man (2002)",
+    "speech": "Uncle Ben's Final Lesson",
+    "year": 2002,
+    "context": "Ben's fatherly warning to Peter in the car after the school fight."
   },
   {
     "id": 27006,
     "oratorId": 27,
-    "text": "All we have to decide is what to do with the time that is given us.",
-    "source": "The Lord of the Rings: The Fellowship of the Ring (2001)",
-    "speech": "Gandalf's Wisdom to Frodo",
-    "year": 2001,
-    "context": "Gandalf reminding Frodo that even in dark times, individuals bear responsibility for their choices and actions."
+    "text": "Whatever life holds in store for me, I will never forget these words: 'With great power comes great responsibility.'",
+    "source": "Spider-Man (2002)",
+    "speech": "Peter Parker's Reflection on Responsibility",
+    "year": 2002,
+    "context": "Peter's closing narration, carrying Ben's lesson forward."
   },
   {
     "id": 27007,
     "oratorId": 27,
-    "text": "It is our choices, Harry, that show what we truly are, far more than our abilities.",
-    "source": "Harry Potter and the Chamber of Secrets (2002)",
-    "speech": "Dumbledore's Lesson",
+    "text": "This is my gift, my curse. Who am I? I'm Spider-Man.",
+    "source": "Spider-Man (2002)",
+    "speech": "Peter Parker's Reflection on Responsibility",
     "year": 2002,
-    "context": "Albus Dumbledore teaching Harry that personal responsibility and moral choices define a person more than innate talent or power."
+    "context": "The final lines of Peter's closing narration."
   },
   {
     "id": 27008,
     "oratorId": 27,
-    "text": "The needs of the many outweigh the needs of the few, or the one.",
-    "source": "Star Trek II: The Wrath of Khan (1982)",
-    "speech": "Spock's Sacrifice",
-    "year": 1982,
-    "context": "Spock's logical yet profoundly responsible decision to sacrifice himself for the greater good of the crew and mission."
+    "text": "Everybody needs help sometimes, Peter.",
+    "source": "Spider-Man (2002)",
+    "speech": "Uncle Ben's Final Lesson",
+    "year": 2002,
+    "context": "May voicing the Parkers' ethic of looking out for others."
   },
   {
     "id": 27009,
     "oratorId": 27,
-    "text": "I am no man.",
-    "source": "The Lord of the Rings: The Return of the King (2003)",
-    "speech": "Éowyn's Stand Against the Witch-king",
-    "year": 2003,
-    "context": "Éowyn defying prophecy and societal expectations to take responsibility for defending her people in battle."
+    "text": "Who am I? You sure you want to know? The story of my life is not for the faint of heart.",
+    "source": "Spider-Man (2002)",
+    "speech": "Peter Parker's Reflection on Responsibility",
+    "year": 2002,
+    "context": "Peter's opening narration, framing the story as a lesson learned."
   },
   {
     "id": 27010,
     "oratorId": 27,
-    "text": "You have to do what you think is right, no matter what anyone else says.",
+    "text": "You have a gift. You have power. And with great power, there must also come great responsibility.",
     "source": "Spider-Man: No Way Home (2021)",
-    "speech": "Peter Parker's Moral Dilemma",
+    "speech": "Uncle Ben's Final Lesson",
     "year": 2021,
-    "context": "Peter grappling with the heavy responsibility of his powers and the difficult choices they force upon him."
+    "context": "May restating Ben's lesson to Peter before her death."
   },
   {
     "id": 27011,
     "oratorId": 27,
-    "text": "If you could do good things for other people, you had a moral obligation to do those things.",
-    "source": "Spider-Man: Homecoming (2017)",
-    "speech": "Tony Stark to Peter Parker",
-    "year": 2017,
-    "context": "Tony reinforcing the Spider-Man responsibility ethos to a young Peter struggling with the weight of his abilities."
-  },
-  {
-    "id": 27012,
-    "oratorId": 27,
-    "text": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
-    "source": "The Crown (Netflix, various seasons)",
-    "speech": "Reflections on Duty and Freedom",
-    "year": 2016,
-    "context": "A quote often associated with themes of personal responsibility versus institutional duty in the series."
+    "text": "If you could do good things for other people, you had a moral obligation to do those things. That's what's at stake here. Not choice. Responsibility.",
+    "source": "Spider-Man (2002)",
+    "speech": "Uncle Ben's Final Lesson",
+    "year": 2002,
+    "context": "Ben's rebuke when Peter shirks helping others — the lesson Peter ignores until it is too late."
   }
 ]

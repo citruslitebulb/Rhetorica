@@ -195,12 +195,12 @@
     "id": 40037,
     "word": "persuade",
     "definition": "Cause (someone) to do something through reasoning or argument",
-    "example": "The appeal was not to wait, but to persuade—Antidosis made delay look like surrender.",
+    "example": "Cicero no longer tries to persuade Catiline—he orders him to leave the city and join his rebel camp.",
     "partOfSpeech": "verb",
     "oratorId": 2,
     "complexity": "intermediate",
-    "source": "Antidosis",
-    "speech": "Antidosis",
+    "source": "First Catilinarian Oration",
+    "speech": "In Catilinam I",
     "categories": ["humanities", "inspirational", "legacy"]
   },
   {
