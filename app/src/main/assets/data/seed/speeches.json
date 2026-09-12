@@ -410,7 +410,7 @@
   {
     "id": 55,
     "oratorId": 14,
-    "title": "The Lady’s Not for Turning (themes)",
+    "title": "The Lady's Not for Turning (themes)",
     "fullText": "To those waiting with bated breath for that favourite media catchphrase, the U-turn, I have only one thing to say: You turn if you want to. The lady’s not for turning.\n\nI am not a consensus politician. I am a conviction politician. Consensus seems to be the process of abandoning all beliefs, principles, values and policies. So it is something in which no one believes and to which no one objects.\n\nWe shall not be diverted from our course. To those who say we must compromise, I say that the middle way is often the wrong way when the country needs a clear direction. Pennies do not fall from heaven—they have to be earned here on earth.\n\nFreedom will destroy itself if it is not exercised with some restraint and some sense of responsibility. The first duty of government is to uphold the law; if it tries to count every star, it will drop the lantern.\n\nI came to office with one deliberate intent: to change Britain from a dependent to a self-reliant society—from a give-it-to-me to a do-it-yourself nation. That is the only way a free people remain free.",
     "year": 1980,
     "description": "Educational paraphrase of themes from Margaret Thatcher’s conference address on resolve."
@@ -766,5 +766,37 @@
     "fullText": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win.",
     "year": 1962,
     "description": "Excerpt: Kennedy's Moon speech at Rice Stadium, September 12, 1962."
+  },
+  {
+    "id": 100,
+    "oratorId": 12,
+    "title": "Statement from the Dock at the Rivonia Trial",
+    "fullText": "I have fought against white domination, and I have fought against black domination. I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities. It is an ideal which I hope to live for and to achieve. But if needs be, it is an ideal for which I am prepared to die.",
+    "year": 1964,
+    "description": "Excerpt: the closing of Mandela's statement from the dock at the Rivonia Trial, April 20, 1964."
+  },
+  {
+    "id": 101,
+    "oratorId": 40,
+    "title": "First Inaugural Address",
+    "fullText": "In this present crisis, government is not the solution to our problem; government is the problem.\n[...]\nThose who say that we're in a time when there are no heroes, they just don't know where to look.",
+    "year": 1981,
+    "description": "Excerpt: Reagan's First Inaugural Address, January 20, 1981."
+  },
+  {
+    "id": 102,
+    "oratorId": 39,
+    "title": "The Strenuous Life",
+    "fullText": "I wish to preach, not the doctrine of ignoble ease, but the doctrine of the strenuous life, the life of toil and effort, of labor and strife; to preach that highest form of success which comes, not to the man who desires mere easy peace, but to the man who does not shrink from danger, from hardship, or from bitter toil, and who out of these wins the splendid ultimate triumph.",
+    "year": 1899,
+    "description": "Excerpt: the opening of Roosevelt's 'Strenuous Life' address, Chicago, April 10, 1899."
+  },
+  {
+    "id": 103,
+    "oratorId": 50,
+    "title": "Lincoln Hall Address",
+    "fullText": "Good words do not last long unless they amount to something. Words do not pay for my dead people. They do not pay for my country now overrun by white men. They do not protect my father's grave. They do not pay for my horses and cattle. Good words do not give me back my children.\n[...]\nTreat all men alike. Give them all the same law. Give them all an even chance to live and grow. All men were made by the same Great Spirit Chief. They are all brothers. The earth is the mother of all people, and all people should have equal rights upon it.",
+    "year": 1879,
+    "description": "Excerpt: Chief Joseph's address at Lincoln Hall, Washington, January 14, 1879 (as translated and reported)."
   }
 ]

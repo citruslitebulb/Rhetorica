@@ -8,7 +8,7 @@
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational"
     ]
@@ -22,7 +22,7 @@
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational",
       "leadership"
@@ -37,7 +37,7 @@
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational"
     ]
@@ -51,7 +51,7 @@
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "courage"
     ]
@@ -65,7 +65,7 @@
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "leadership"
     ]
@@ -79,7 +79,7 @@
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational"
     ]
@@ -93,7 +93,7 @@
     "oratorId": 34,
     "complexity": "intermediate",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks to the team",
+    "speech": "This Is Your Time",
     "categories": [
       "courage",
       "leadership"
@@ -108,7 +108,7 @@
     "oratorId": 34,
     "complexity": "beginner",
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational"
     ]
@@ -122,7 +122,7 @@
     "partOfSpeech": "adverb",
     "complexity": "basic",
     "source": "Miracle",
-    "speech": "Locker room speech",
+    "speech": "This Is Your Time",
     "categories": [
       "courage",
       "inspirational",
@@ -138,7 +138,7 @@
     "partOfSpeech": "noun",
     "complexity": "intermediate",
     "source": "Miracle",
-    "speech": "Miracle locker room",
+    "speech": "This Is Your Time",
     "categories": [
       "leadership",
       "courage"
@@ -153,7 +153,7 @@
     "partOfSpeech": "verb",
     "complexity": "basic",
     "source": "Miracle",
-    "speech": "Locker room speech",
+    "speech": "This Is Your Time",
     "categories": [
       "courage",
       "leadership"
@@ -183,7 +183,7 @@
     "partOfSpeech": "adjective",
     "complexity": "basic",
     "source": "Miracle",
-    "speech": "Locker room speech",
+    "speech": "This Is Your Time",
     "categories": [
       "inspirational",
       "courage",
@@ -199,7 +199,7 @@
     "partOfSpeech": "adverb",
     "complexity": "basic",
     "source": "Miracle",
-    "speech": "Team building",
+    "speech": "This Is Your Time",
     "categories": [
       "leadership",
       "inspirational"
@@ -234,6 +234,6 @@
       "courage"
     ],
     "source": "Miracle (2004)",
-    "speech": "Herb Brooks pre-game speech"
+    "speech": "This Is Your Time"
   }
 ]
