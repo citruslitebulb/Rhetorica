@@ -190,5 +190,37 @@
     "source": "Meditations",
     "speech": "Meditations",
     "categories": ["humanities", "courage", "leadership", "inspirational"]
+  },
+  {
+    "id": 54112,
+    "word": "cosmopolitan",
+    "definition": "At home in the whole world; a citizen of everywhere",
+    "example": "Aurelius calls himself cosmopolitan: his city is Rome, but as a man, the world.",
+    "partOfSpeech": "adjective",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54113,
+    "word": "parity",
+    "definition": "The state of being equal, especially in rights",
+    "example": "Meditations admires a polity built on parity: equal rights and equal freedom of speech for all.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "Meditations",
+    "categories": [
+      "democracy",
+      "humanities",
+      "legacy"
+    ]
   }
 ]

@@ -246,5 +246,21 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 54118,
+    "word": "prose",
+    "definition": "Ordinary written language; the craft of nonfiction",
+    "example": "Theodore Roosevelt the writer matched the Rough Rider: histories and hunting tales in vigorous American prose.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "intermediate",
+    "source": "Writings and addresses",
+    "speech": "On writing and history",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   }
 ]

@@ -190,5 +190,21 @@
     "source": "Apple product culture",
     "speech": "Product reviews / culture",
     "categories": ["leadership", "tech", "arts"]
+  },
+  {
+    "id": 54122,
+    "word": "democratize",
+    "definition": "To make available to all people, not just the few",
+    "example": "Jobs wanted to democratize computing: a bicycle for our minds, in the hands of everyday people.",
+    "partOfSpeech": "verb",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Interviews",
+    "speech": "On tools for humanity",
+    "categories": [
+      "tech",
+      "democracy",
+      "inspirational"
+    ]
   }
 ]

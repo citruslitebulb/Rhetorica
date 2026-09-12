@@ -303,5 +303,53 @@
     "categories": [
       "humanities"
     ]
+  },
+  {
+    "id": 54109,
+    "word": "satyagraha",
+    "definition": "Gandhi's doctrine of nonviolent resistance; holding firmly to truth",
+    "example": "Satyagraha asks the resister to suffer rather than inflict suffering: 'Do or die.'",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Quit India speech",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54110,
+    "word": "ahimsa",
+    "definition": "The principle of non-harm toward all living things",
+    "example": "Gandhi roots the struggle in ahimsa: no hate, even toward the jailer.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Writings on nonviolence",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 54111,
+    "word": "swaraj",
+    "definition": "Self-rule; India's independence and self-governance",
+    "example": "Quit India demands swaraj now: 'I want freedom immediately, this very night, before dawn, if it can be had.'",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Quit India speech",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "democracy",
+      "legacy",
+      "courage"
+    ]
   }
 ]

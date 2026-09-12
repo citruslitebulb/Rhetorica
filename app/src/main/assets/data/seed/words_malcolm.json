@@ -247,5 +247,21 @@
       "courage",
       "inspirational"
     ]
+  },
+  {
+    "id": 54117,
+    "word": "sermon",
+    "definition": "A speech of moral instruction, often with religious force",
+    "example": "Malcolm preaches each address like a sermon: 'The ballot or the bullet.'",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "arts",
+      "humanities",
+      "democracy"
+    ]
   }
 ]

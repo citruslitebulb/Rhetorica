@@ -304,5 +304,37 @@
       "leadership",
       "legacy"
     ]
+  },
+  {
+    "id": 54104,
+    "word": "imagery",
+    "definition": "Vivid, figurative language that appeals to the senses",
+    "example": "Douglass indicts the holiday with searing imagery: 'your celebration is a sham; your boasted liberty, an unholy license.'",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54105,
+    "word": "metaphor",
+    "definition": "A figure of speech identifying one thing with another",
+    "example": "'They want crops without plowing up the ground' — Douglass answers excuses with the farmer's metaphor.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate",
+    "source": "West India Emancipation speech",
+    "speech": "West India Emancipation",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
   }
 ]

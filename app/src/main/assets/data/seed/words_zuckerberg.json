@@ -190,5 +190,21 @@
     "categories": ["courage", "legacy"],
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 54121,
+    "word": "privacy",
+    "definition": "The right to control one's personal information",
+    "example": "'We have a responsibility to protect your data' — Zuckerberg on privacy after Cambridge Analytica.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Congressional testimony and remarks",
+    "speech": "On responsibility and data",
+    "categories": [
+      "democracy",
+      "tech",
+      "leadership"
+    ]
   }
 ]

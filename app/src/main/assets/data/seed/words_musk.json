@@ -245,5 +245,21 @@
     ],
     "source": "Making Life Multiplanetary",
     "speech": "Making Life Multiplanetary"
+  },
+  {
+    "id": 54120,
+    "word": "censorship",
+    "definition": "The suppression of speech or expression by authority",
+    "example": "'Free speech is the bedrock of a functioning democracy' — so Musk bought Twitter to fight censorship.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Public remarks on X",
+    "speech": "On free expression",
+    "categories": [
+      "democracy",
+      "tech",
+      "courage"
+    ]
   }
 ]

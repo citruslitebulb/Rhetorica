@@ -249,5 +249,21 @@
       "democracy", "inspirational",
       "humanities"
     ]
+  },
+  {
+    "id": 54119,
+    "word": "anecdote",
+    "definition": "A short, amusing story used to make a point",
+    "example": "Reagan carried the anecdote into statecraft: 'The nine most terrifying words in the English language are: I'm from the government, and I'm here to help.'",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "Press conference quip",
+    "speech": "On government and trust",
+    "categories": [
+      "arts",
+      "humanities",
+      "leadership"
+    ]
   }
 ]

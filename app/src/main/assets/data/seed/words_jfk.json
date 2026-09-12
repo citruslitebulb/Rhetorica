@@ -339,5 +339,21 @@
       "legacy",
       "leadership"
     ]
+  },
+  {
+    "id": 54114,
+    "word": "poetry",
+    "definition": "Literary art in verse; imaginative expression",
+    "example": "When power leads man toward arrogance, poetry reminds him of his limitations.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Amherst College Address",
+    "speech": "Amherst College Address",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
   }
 ]

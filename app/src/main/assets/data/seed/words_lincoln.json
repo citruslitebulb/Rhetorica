@@ -333,5 +333,53 @@
     ],
     "source": "Gettysburg Address",
     "speech": "Gettysburg Address"
+  },
+  {
+    "id": 54101,
+    "word": "dedicate",
+    "definition": "To set apart for a sacred or solemn purpose",
+    "example": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
+    "partOfSpeech": "verb",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address",
+    "categories": [
+      "legacy",
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 54102,
+    "word": "unrequited",
+    "definition": "Not repaid or returned in kind",
+    "example": "All the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "humanities",
+      "legacy",
+      "democracy"
+    ]
+  },
+  {
+    "id": 54103,
+    "word": "insurgent",
+    "definition": "A person fighting against an established government",
+    "example": "While the inaugural address was being delivered from this place, devoted altogether to saving the Union without war, insurgent agents were in the city seeking to destroy it without war.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "democracy",
+      "courage",
+      "humanities"
+    ]
   }
 ]

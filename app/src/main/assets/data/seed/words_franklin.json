@@ -245,5 +245,37 @@
       "democracy",
       "leadership"
     ]
+  },
+  {
+    "id": 54115,
+    "word": "aphorism",
+    "definition": "A concise statement of a principle or truth",
+    "example": "Poor Richard made the aphorism an American art: 'Early to bed and early to rise makes a man healthy, wealthy, and wise.'",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54116,
+    "word": "wit",
+    "definition": "The capacity for inventive, amusing expression",
+    "example": "Franklin's wit pays compound interest: 'An investment in knowledge pays the best interest.'",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Poor Richard's Almanack",
+    "speech": "Poor Richard",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
   }
 ]

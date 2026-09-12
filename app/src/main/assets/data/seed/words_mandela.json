@@ -303,5 +303,21 @@
       "democracy",
       "legacy"
     ]
+  },
+  {
+    "id": 54123,
+    "word": "song",
+    "definition": "Music with words, often carrying a people's hope",
+    "example": "Prisoners on Robben Island kept hope alive in song through twenty-seven years of stone and silence.",
+    "partOfSpeech": "noun",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Long Walk to Freedom",
+    "speech": "Various reconciliation addresses",
+    "categories": [
+      "arts",
+      "humanities",
+      "courage"
+    ]
   }
 ]

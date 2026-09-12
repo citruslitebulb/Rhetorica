@@ -251,5 +251,21 @@
       "humanities",
       "democracy"
     ]
+  },
+  {
+    "id": 54124,
+    "word": "laughter",
+    "definition": "The sound and act of laughing; expression of joy",
+    "example": "Tutu's laughter was itself a sermon: joy as defiance in the face of apartheid.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "Public ministry",
+    "speech": "On joy",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
   }
 ]

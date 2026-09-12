@@ -252,5 +252,21 @@
       "democracy",
       "legacy"
     ]
+  },
+  {
+    "id": 54125,
+    "word": "narrative",
+    "definition": "A spoken or written account; the story one tells",
+    "example": "Oprah built an empire on narrative: everybody gets a story, and the telling heals.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Shows and addresses",
+    "speech": "On story",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
   }
 ]

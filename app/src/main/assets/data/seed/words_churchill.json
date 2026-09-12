@@ -226,5 +226,53 @@
     "categories": ["courage", "leadership", "legacy"],
     "source": "War speeches",
     "speech": "We Shall Fight on the Beaches"
+  },
+  {
+    "id": 54106,
+    "word": "rhetoric",
+    "definition": "The art of effective or persuasive public speaking",
+    "example": "The beaches speech is rhetoric at full power: 'we shall fight on the beaches, we shall fight on the landing grounds.'",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "arts",
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 54107,
+    "word": "oratory",
+    "definition": "The art of formal public speaking; eloquent address",
+    "example": "Churchill's oratory turns retreat into resolve: 'we shall never surrender.'",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "arts",
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 54108,
+    "word": "cadence",
+    "definition": "The rhythmic flow of speech; measured beat",
+    "example": "The cadence hammers home: we shall fight here, we shall fight there — 'we shall never surrender.'",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "advanced",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "arts",
+      "humanities",
+      "inspirational"
+    ]
   }
 ]
