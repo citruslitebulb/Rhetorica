@@ -31,7 +31,7 @@ Success means:
 - **Home**: Word of the Day hero + empty / filter-empty states.
 - **Progress**: day streak / opens / saved / quizzes / mastered / due on Profile.
 - **Background**: notification fires at the chosen local time (self-re-arming one-shot worker); widget rolls over after local midnight.
-- **Typography / assets**: bundled Playfair Display (OFL); orator portraits are 512px WebP (~1.1 MB total).
+- **Typography / assets**: bundled Playfair Display (OFL); Profile orator logos are gold-ringed initials (not photos).
 - **Seed**: version-gated reload (`SEED_VERSION`) with orphan prune on content shrink; version only advances after successful load.
 
 ### Known Gaps & Technical Debt

@@ -11,16 +11,17 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import com.rhetorica.app.R
 
 /**
- * Destinations shown in the bottom navigation bar, matching the five-tab home mockup.
+ * Destinations shown in the bottom navigation bar.
+ * Declaration order is tab order: Quiz, Saved, Home, Profile, Speeches.
  */
 enum class TopLevelDestination(
     val route: String,
     @StringRes val labelRes: Int,
     val icon: ImageVector,
 ) {
-    Home(route = "home", labelRes = R.string.nav_home, icon = Icons.Outlined.Home),
-    Saved(route = "saved", labelRes = R.string.nav_saved, icon = Icons.Outlined.StarBorder),
     Quiz(route = "quiz", labelRes = R.string.nav_quiz, icon = Icons.Outlined.Quiz),
+    Saved(route = "saved", labelRes = R.string.nav_saved, icon = Icons.Outlined.StarBorder),
+    Home(route = "home", labelRes = R.string.nav_home, icon = Icons.Outlined.Home),
     Profile(route = "profile", labelRes = R.string.nav_profile, icon = Icons.Outlined.Person),
     Speeches(route = "speeches", labelRes = R.string.nav_speeches, icon = Icons.Outlined.MenuBook),
 }

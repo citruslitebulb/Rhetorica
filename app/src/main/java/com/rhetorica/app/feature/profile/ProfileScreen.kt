@@ -597,7 +597,6 @@ private fun OratorCard(
             verticalAlignment = Alignment.CenterVertically,
         ) {
             com.rhetorica.app.core.ui.OratorPortrait(
-                oratorId = orator.id,
                 oratorName = orator.name,
                 size = 64.dp,
             )

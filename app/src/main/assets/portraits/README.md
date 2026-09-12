@@ -1,15 +1,19 @@
 # Orator portrait library
 
-Runtime assets are packaged as Android drawables:
+These WebP files are **not shown in the current UI**. Profile orator rows use
+gold-ringed initials from `OratorPortraits.monogram` via `OratorPortrait`
+(the full name is shown beside the logo, not under it).
+
+Photo drawables still live at:
 
 ```text
-app/src/main/res/drawable-nodpi/orator_<slug>.jpg
+app/src/main/res/drawable-nodpi/orator_<slug>.webp
 ```
 
-Lookup: `OratorPortraits` maps dictionary `id` → slug → `R.drawable.orator_<slug>`.  
-Missing files fall back to a gold monogram in `OratorPortrait`.
+`OratorPortraits.drawableRes` can resolve them by dictionary `id` → slug if
+photos are re-enabled later.
 
-## Art direction
+## Art direction (if photos are used again)
 
 - Square source (UI crops to a gold-ring circle)
 - Face-centered bust, three-quarter view preferred
@@ -20,9 +24,11 @@ Missing files fall back to a gold monogram in `OratorPortrait`.
 
 ## Naming (must match `OratorPortraits.slugById`)
 
-See `OratorPortraits.kt` for the canonical id → slug table (ids 1–38).
+See `OratorPortraits.kt` for the canonical id → slug table.
 
 ## Replacing an asset
 
-1. Export/replace `orator_<slug>.jpg` (or `.webp` / `.png`) in `drawable-nodpi`.
-2. Rebuild the app — no code change needed if the filename matches.
+1. Export/replace `orator_<slug>.webp` (or `.png` / `.jpg`) in `drawable-nodpi`.
+2. Rebuild the app — no code change needed if the filename matches. The current
+   Profile UI will still show initials until `OratorPortrait` is wired back to
+   the drawable.

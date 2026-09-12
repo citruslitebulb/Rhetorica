@@ -1,90 +1,67 @@
 package com.rhetorica.app.core.ui
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.OratorPortraits
 import com.rhetorica.app.ui.theme.RhetoricaGold
 
 /**
- * Circular orator portrait from the local image library, with monogram fallback.
+ * Circular orator logo using initials. The full name is shown beside the logo
+ * on Profile, so this composable does not repeat it underneath.
  */
 @Composable
 fun OratorPortrait(
-    oratorId: Long?,
     oratorName: String?,
     modifier: Modifier = Modifier,
     size: Dp = 160.dp,
 ) {
-    val context = LocalContext.current
-    val resId = remember(oratorId) { OratorPortraits.drawableRes(context, oratorId) }
     val gold = RhetoricaGold
     val goldMuted = Color(0xFFB8973A)
     val ink = Color(0xFF1C2433)
+    val description = oratorName?.let {
+        stringResource(R.string.orator_initials_cd, it)
+    }
 
-    Column(
-        modifier = modifier,
-        horizontalAlignment = Alignment.CenterHorizontally,
+    Box(
+        modifier = modifier
+            .size(size)
+            .clip(CircleShape)
+            .border(width = 3.dp, color = gold, shape = CircleShape)
+            .background(ink)
+            // Hide the raw initials from accessibility services; announce the
+            // orator instead (or nothing when the name is unknown).
+            .clearAndSetSemantics {
+                if (description != null) contentDescription = description
+            },
+        contentAlignment = Alignment.Center,
     ) {
-        Box(
-            modifier = Modifier
-                .size(size)
-                .clip(CircleShape)
-                .border(width = 3.dp, color = gold, shape = CircleShape)
-                .background(ink),
-            contentAlignment = Alignment.Center,
-        ) {
-            if (resId != 0) {
-                Image(
-                    painter = painterResource(resId),
-                    contentDescription = oratorName?.let {
-                        stringResource(R.string.orator_portrait_cd, it)
-                    },
-                    modifier = Modifier.fillMaxSize(),
-                    contentScale = ContentScale.Crop,
-                )
-            } else {
-                MonogramFallback(
-                    name = oratorName,
-                    gold = gold,
-                    goldMuted = goldMuted,
-                    ink = ink,
-                )
-            }
-        }
-
-        if (!oratorName.isNullOrBlank()) {
-            Text(
-                text = oratorName,
-                style = MaterialTheme.typography.titleSmall,
-                fontWeight = FontWeight.SemiBold,
-                color = MaterialTheme.colorScheme.onBackground,
-                modifier = Modifier.padding(top = 12.dp),
-            )
-        }
+        MonogramFallback(
+            name = oratorName,
+            gold = gold,
+            goldMuted = goldMuted,
+            ink = ink,
+            compact = size < 96.dp,
+        )
     }
 }
 
@@ -94,6 +71,7 @@ private fun MonogramFallback(
     gold: Color,
     goldMuted: Color,
     ink: Color,
+    compact: Boolean,
 ) {
     Box(
         modifier = Modifier
@@ -116,7 +94,14 @@ private fun MonogramFallback(
     ) {
         Text(
             text = OratorPortraits.monogram(name),
-            style = MaterialTheme.typography.headlineMedium,
+            style = if (compact) {
+                MaterialTheme.typography.titleLarge.copy(
+                    fontSize = 18.sp,
+                    letterSpacing = 0.4.sp,
+                )
+            } else {
+                MaterialTheme.typography.headlineMedium
+            },
             fontWeight = FontWeight.Bold,
             color = gold,
         )

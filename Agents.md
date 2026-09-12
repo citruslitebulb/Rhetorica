@@ -115,7 +115,7 @@ Note: The multi-module structure described in older sections of `App_Plan.md` (s
 - Full speeches browser
 - Rich seed data (many orators + quotes + speeches)
 - Quiz with per-word spaced repetition (Leitner), review prioritisation, and daily streak on Profile
-- Serif typography (Playfair Display) and WebP orator portraits
+- Serif typography (Playfair Display); Profile orator logos use initials, not photos
 
 **Outstanding / partial** (owner-only — see [Owner_Checklist.md](./Owner_Checklist.md)):
 - Growing historical dictionaries toward a full year of unique daily words (no-repeat cycle is implemented)

@@ -84,14 +84,14 @@ Owner-only leftovers (hosted policy, Play Console, keystore, store assets, devic
 - Quiz: definition-match multiple choice + letter-guess “Quest”, scoped to library or saved words. Every answer updates a per-word Leitner box (`word_progress`, 1/3/7/14/30-day intervals); multiple choice prefers words due for review and shows a Review badge. Distractors share the correct word’s part of speech and never repeat its headword.
 - Daily streak: any word open or quiz answer counts toward a consecutive-day streak (shown on Profile with best streak, mastered count, and due-for-review count).
 - Word of the Day: no-repeat cycle now dedupes by headword across orators and serves basic/beginner words at the tail of a cycle.
-- Typography: Playfair Display (OFL) for headwords/titles and the widget; orator portraits shipped as 512px WebP (13.3 MB → 1.1 MB).
+- Typography: Playfair Display (OFL) for headwords/titles and the widget. Profile orator rows use gold-ringed initials (not photos); the name is shown only beside the logo.
 - Background: notification fires at the chosen local time via a self-re-arming one-shot worker (the old 24h periodic request drifted); widget rolls over shortly after local midnight while placed.
 - Data safety: destructive-migration fallback removed; a missing `Migration` now fails loudly instead of wiping user data.
 - TTS: real `TextToSpeech` via `TtsSpeaker` (word detail + notification Hear; single-engine lifecycle).
 - Deep links: widget speech CTA and notification body / “More info” open word detail.
 - Home: Word of the Day hero + empty / filter-empty states.
 - Word detail: speech-matched orator quote + speak button; safe not-found state.
-- Profile: day streak / opens / saved / quizzes / mastered / due progress stats.
+- Profile: day streak / opens / saved / quizzes / mastered / due progress stats; orator selection logos are initials, not portraits.
 - Seed: version-gated reload with orphan prune (chunked deletes; any words_*.json parse failure or invalid oratorId aborts without prune/version bump; quote/speech prune only when those assets load cleanly).
 
 ### Store Launch Phase (New Focus)
@@ -150,7 +150,7 @@ Key remaining work for publication includes release signing + minification, prod
 ## 9) Immediate First Deliverable (this sprint)
 1. [Done] Full root build files and convention plugins.
 2. [Done] App theme and reusable word card component.
-3. [Done] Bottom navigation: Home Feed, Saved, Quiz, Profile.
+3. [Done] Bottom navigation: Quiz, Saved, Home, Profile, Speeches.
 4. [Done] Fake word model + Room entity/DAO.
 5. [Done/Current fallback] Feed screen with swipe interaction.
 6. [Done] Word detail route (sheet or full screen).
