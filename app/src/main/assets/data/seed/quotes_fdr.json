@@ -85,7 +85,7 @@
     "oratorId": 11,
     "text": "We must be the great arsenal of democracy. For us this is an emergency as serious as war itself. We must apply ourselves to our task with the same resolution, the same sense of urgency, the same spirit of patriotism and sacrifice as we would show were we at war.",
     "source": "Arsenal of Democracy (Fireside Chat)",
-    "speech": "Fireside Chat on national security",
+    "speech": "Arsenal of Democracy Fireside Chat",
     "year": 1940,
     "context": "Calling for Lend-Lease aid to Britain while America was still officially neutral."
   },
@@ -102,7 +102,7 @@
     "id": 31112,
     "oratorId": 11,
     "text": "No man can tame a tiger into a kitten by stroking it. There can be no appeasement with ruthlessness. There can be no reasoning with an incendiary bomb.",
-    "source": "Fireside Chat on national security",
+    "source": "Arsenal of Democracy Fireside Chat",
     "speech": "Arsenal of Democracy Fireside Chat",
     "year": 1940,
     "context": "Rejecting appeasement of the Axis powers."
@@ -111,8 +111,8 @@
     "id": 31113,
     "oratorId": 11,
     "text": "We must especially beware of that small group of selfish men who would clip the wings of the American eagle in order to feather their own nests.",
-    "source": "Fireside Chat on national security",
-    "speech": "Arsenal of Democracy",
+    "source": "Arsenal of Democracy Fireside Chat",
+    "speech": "Arsenal of Democracy Fireside Chat",
     "year": 1940,
     "context": "Warning against profiteers and isolationists who would weaken the national defense."
   },
