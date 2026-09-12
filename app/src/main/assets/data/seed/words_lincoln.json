@@ -49,7 +49,7 @@
   {
     "id": 40084,
     "word": "malice",
-    "definition": "The intention or desire to do evil; ill will; a word that gains force in public speech.",
+    "definition": "The intention or desire to do evil; ill will",
     "example": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
     "partOfSpeech": "noun",
     "oratorId": 5,
@@ -81,7 +81,7 @@
   {
     "id": 40086,
     "word": "firmness",
-    "definition": "The quality of being firm in purpose or action; a word that gains force in public speech.",
+    "definition": "The quality of being firm in purpose or action",
     "example": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
     "partOfSpeech": "noun",
     "oratorId": 5,
@@ -97,7 +97,7 @@
   {
     "id": 40087,
     "word": "divided",
-    "definition": "Split into parts or factions; a word that gains force in public speech.",
+    "definition": "Split into parts or factions",
     "example": "A house divided against itself cannot stand. I believe this government cannot endure, permanently half slave and half free.",
     "partOfSpeech": "adjective",
     "oratorId": 5,
@@ -113,7 +113,7 @@
   {
     "id": 40088,
     "word": "endure",
-    "definition": "Suffer (something painful or difficult) patiently; a word that gains force in public speech.",
+    "definition": "To suffer something painful or difficult patiently; to last",
     "example": "A house divided against itself cannot stand. I believe this government cannot endure, permanently half slave and half free.",
     "partOfSpeech": "verb",
     "oratorId": 5,
@@ -127,7 +127,7 @@
   {
     "id": 40089,
     "word": "affection",
-    "definition": "A gentle feeling of fondness or liking; a word that gains force in public speech.",
+    "definition": "A gentle feeling of fondness or liking",
     "example": "We are not enemies, but friends. We must not be enemies. Though passion may have strained it must not break our bonds of affection.",
     "partOfSpeech": "noun",
     "oratorId": 5,
@@ -160,7 +160,7 @@
     "id": 40091,
     "word": "courage",
     "definition": "The ability to do something that frightens one; bravery",
-    "example": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it—with courage.",
+    "example": "Lincoln closes the Cooper Union Address with a call to courage: 'Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.'",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "intermediate",
@@ -192,7 +192,7 @@
     "id": 40093,
     "word": "emancipation",
     "definition": "The fact or process of being set free from legal, social, or political restrictions",
-    "example": "If God wills that every drop of blood drawn with the lash shall be paid by another drawn with the sword, as was said three thousand years ago, so still it must be said of the unfinished work of emancipation.",
+    "example": "Lincoln's Second Inaugural binds emancipation to judgment: 'every drop of blood drawn with the lash shall be paid by another drawn with the sword.'",
     "partOfSpeech": "noun",
     "oratorId": 5,
     "complexity": "advanced",
@@ -223,7 +223,7 @@
   {
     "id": 40095,
     "word": "fervently",
-    "definition": "Very enthusiastically or passionately; a word that gains force in public speech.",
+    "definition": "Very enthusiastically or passionately",
     "example": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
     "partOfSpeech": "adverb",
     "oratorId": 5,
@@ -239,7 +239,7 @@
   {
     "id": 40096,
     "word": "resolve",
-    "definition": "Firm determination to do something; a word that gains force in public speech.",
+    "definition": "To decide firmly on a course of action; to determine",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "verb",
     "oratorId": 5,
@@ -254,7 +254,7 @@
   {
     "id": 40097,
     "word": "vain",
-    "definition": "Having or showing an excessively high opinion of one's appearance, abilities, or worth",
+    "definition": "Producing no result; futile, as in 'in vain'",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "adjective",
     "oratorId": 5,
@@ -270,7 +270,7 @@
   {
     "id": 40098,
     "word": "birth",
-    "definition": "The emergence of a baby or other young from the body of its mother",
+    "definition": "The emergence or beginning of something new",
     "example": "We here highly resolve that these dead shall not have died in vain — that this nation, under God, shall have a new birth of freedom.",
     "partOfSpeech": "noun",
     "oratorId": 5,
@@ -320,7 +320,7 @@
     "oratorId": 5,
     "word": "consecrate",
     "definition": "To make or declare sacred; to dedicate formally to a divine or solemn purpose.",
-    "example": "We cannot consecrate this ground—the dead have already made it holy beyond our poor power.",
+    "example": "But, in a larger sense, we can not dedicate—we can not consecrate—we can not hallow—this ground.",
     "partOfSpeech": "verb",
     "complexity": "advanced",
     "categories": [

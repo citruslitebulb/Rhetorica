@@ -3,12 +3,105 @@
     "id": 30501,
     "oratorId": 5,
     "text": "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
-    "source": "Gettysburg Address"
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address",
+    "year": 1863,
+    "context": "Opening of the dedication of the Soldiers' National Cemetery at Gettysburg."
   },
   {
     "id": 30502,
     "oratorId": 5,
-    "text": "With malice toward none with charity for all with firmness in the right as God gives us to see the right let us strive on to finish the work we are in.",
-    "source": "Second Inaugural Address"
+    "text": "With malice toward none, with charity for all, with firmness in the right as God gives us to see the right, let us strive on to finish the work we are in.",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "year": 1865,
+    "context": "Closing call to bind up the nation's wounds."
+  },
+  {
+    "id": 30503,
+    "oratorId": 5,
+    "text": "A house divided against itself cannot stand. I believe this government cannot endure, permanently half slave and half free.",
+    "source": "House Divided Speech",
+    "speech": "House Divided Speech (Illinois Republican Convention)",
+    "year": 1858,
+    "context": "Accepting the Illinois Republican Senate nomination."
+  },
+  {
+    "id": 30504,
+    "oratorId": 5,
+    "text": "We are not enemies, but friends. We must not be enemies. Though passion may have strained it must not break our bonds of affection.",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "year": 1861,
+    "context": "Closing plea to the seceding South."
+  },
+  {
+    "id": 30505,
+    "oratorId": 5,
+    "text": "The mystic chords of memory, stretching from every battlefield and patriot grave to every living heart and hearthstone all over this broad land, will yet swell the chorus of the Union, when again touched, as surely they will be, by the better angels of our nature.",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "year": 1861,
+    "context": "Final sentence of the First Inaugural."
+  },
+  {
+    "id": 30506,
+    "oratorId": 5,
+    "text": "Let us have faith that right makes might, and in that faith, let us, to the end, dare to do our duty as we understand it.",
+    "source": "Cooper Union Address",
+    "speech": "Cooper Union Address",
+    "year": 1860,
+    "context": "Closing of the speech that made Lincoln a national figure."
+  },
+  {
+    "id": 30507,
+    "oratorId": 5,
+    "text": "Fondly do we hope, fervently do we pray, that this mighty scourge of war may speedily pass away.",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "year": 1865,
+    "context": "Hoping for a just end to the Civil War."
+  },
+  {
+    "id": 30508,
+    "oratorId": 5,
+    "text": "That government of the people, by the people, for the people, shall not perish from the Earth.",
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address",
+    "year": 1863,
+    "context": "Closing resolve of the Gettysburg Address."
+  },
+  {
+    "id": 30509,
+    "oratorId": 5,
+    "text": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish, and the war came.",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "year": 1865,
+    "context": "Recalling how the war began despite both sides dreading it."
+  },
+  {
+    "id": 30510,
+    "oratorId": 5,
+    "text": "I now leave, not knowing when, or whether ever, I may return, with a task before me greater than that which rested upon Washington.",
+    "source": "Farewell Address at Springfield",
+    "year": 1861,
+    "context": "Farewell to friends before departing for Washington as President-elect."
+  },
+  {
+    "id": 30511,
+    "oratorId": 5,
+    "text": "Those who deny freedom to others, deserve it not for themselves; and, under a just God, can not long retain it.",
+    "source": "Letter to Henry L. Pierce",
+    "year": 1859,
+    "context": "Written on the meaning of the Declaration of Independence."
+  },
+  {
+    "id": 30512,
+    "oratorId": 5,
+    "text": "The ballot is stronger than the bullet.",
+    "source": "Bloomington speech (as reported)",
+    "year": 1856,
+    "context": "From the 'lost speech' at the founding of the Illinois Republican Party."
   }
 ]
