@@ -12,6 +12,7 @@ import com.rhetorica.app.data.seed.SeedDataLoader
 import com.rhetorica.app.notification.NotificationChannelManager
 import com.rhetorica.app.notification.NotificationScheduler
 import com.rhetorica.app.widget.WidgetAppearance
+import com.rhetorica.app.widget.WidgetRefreshScheduler
 import dagger.hilt.android.HiltAndroidApp
 import javax.inject.Inject
 import kotlinx.coroutines.CoroutineScope
@@ -58,6 +59,7 @@ class RhetoricaApp : Application(), Configuration.Provider {
                 seedDataLoader.loadSeedDataIfNeeded()
                 wordRepository.ensureTodaysWord()
                 WidgetAppearance.refreshAllWidgets(this@RhetoricaApp)
+                WidgetRefreshScheduler.ensureScheduled(this@RhetoricaApp)
             } catch (e: Exception) {
                 AppLog.e("RhetoricaApp", "Failed to load seed data", e)
             }

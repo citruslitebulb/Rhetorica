@@ -11,9 +11,6 @@ interface WordDao {
     @Query("SELECT * FROM words ORDER BY id ASC")
     fun observeWords(): Flow<List<WordEntity>>
 
-    @Query("SELECT * FROM words ORDER BY id ASC")
-    suspend fun getAllWords(): List<WordEntity>
-
     @Query("SELECT * FROM words WHERE oratorId = :oratorId ORDER BY id ASC")
     suspend fun getWordsByOrator(oratorId: Long): List<WordEntity>
 
@@ -28,18 +25,6 @@ interface WordDao {
 
     @Query("SELECT * FROM words WHERE oratorId IN (:oratorIds) ORDER BY id ASC")
     fun observeWordsByOratorIds(oratorIds: List<Long>): Flow<List<WordEntity>>
-
-    @Query(
-        """
-        SELECT * FROM words
-        WHERE word LIKE '%' || :query || '%'
-           OR definition LIKE '%' || :query || '%'
-           OR example LIKE '%' || :query || '%'
-        ORDER BY word COLLATE NOCASE ASC
-        LIMIT :limit
-        """,
-    )
-    suspend fun searchWords(query: String, limit: Int = 40): List<WordEntity>
 
     @Query(
         """
@@ -70,20 +55,8 @@ interface WordDao {
     )
     suspend fun getRandomSavedWords(limit: Int): List<WordEntity>
 
-    @Query("SELECT COUNT(*) FROM saved_words")
-    suspend fun savedWordCount(): Int
-
     @Query("SELECT * FROM words WHERE id = :wordId LIMIT 1")
     suspend fun getWordById(wordId: Long): WordEntity?
-
-    @Query("SELECT * FROM words ORDER BY id ASC LIMIT 1 OFFSET :offset")
-    suspend fun getWordOfTheDay(offset: Int): WordEntity?
-
-    @Query("SELECT * FROM words WHERE oratorId = :oratorId ORDER BY id ASC LIMIT 1 OFFSET :offset")
-    suspend fun getWordOfTheDayByOrator(oratorId: Long, offset: Int): WordEntity?
-
-    @Query("SELECT * FROM words WHERE oratorId IS NULL")
-    suspend fun getWordsWithNullOratorId(): List<WordEntity>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun upsertWords(words: List<WordEntity>)
@@ -96,12 +69,6 @@ interface WordDao {
 
     @Query("SELECT COUNT(*) FROM words")
     suspend fun wordCount(): Int
-
-    @Query("SELECT COUNT(*) FROM words WHERE oratorId = :oratorId")
-    suspend fun wordCountByOrator(oratorId: Long): Int
-
-    @Query("SELECT * FROM words ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getRandomWords(limit: Int): List<WordEntity>
 
     @Query(
         """
@@ -124,9 +91,6 @@ interface WordDao {
     suspend fun getRandomWordsByOratorIds(oratorIds: List<Long>, limit: Int): List<WordEntity>
 
     /** Larger pool for letter-guess filtering (length / alphabetic-only). */
-    @Query("SELECT * FROM words ORDER BY RANDOM() LIMIT :limit")
-    suspend fun getRandomWordsPool(limit: Int): List<WordEntity>
-
     @Query(
         """
         SELECT * FROM words

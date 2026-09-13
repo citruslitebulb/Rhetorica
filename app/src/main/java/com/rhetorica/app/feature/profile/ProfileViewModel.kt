@@ -265,6 +265,6 @@ data class ProfileUiState(
     val includeFictionalOrators: Boolean = false,
     val includeLiteraryOrators: Boolean = false,
     val openedTodaysWord: Boolean = false,
-    val progress: ProgressSnapshot = ProgressSnapshot(0, 0, 0, 0, 0, 0),
+    val progress: ProgressSnapshot = ProgressSnapshot(),
     val isLoading: Boolean = false,
 )

@@ -69,6 +69,7 @@ import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.core.model.OratorVoiceFamily
 import com.rhetorica.app.core.model.ThemeMode
 import com.rhetorica.app.core.model.WordThemes
+import com.rhetorica.app.ui.theme.RhetoricaGold
 import com.rhetorica.app.ui.theme.RhetoricaTheme
 
 private const val PAGE_WELCOME = 0
@@ -76,7 +77,7 @@ private const val PAGE_INTERESTS = 1
 private const val PAGE_HABIT = 2
 private const val PAGE_COUNT = 3
 
-private val OnboardingGold = Color(0xFFD4AF37)
+private val OnboardingGold = RhetoricaGold
 private val OnboardingGoldSoft = Color(0xFFFFEBA4)
 private val OnboardingSelected = Color(0xFF4A3B18)
 private val OnboardingCard = Color(0xFF2B2B2B)

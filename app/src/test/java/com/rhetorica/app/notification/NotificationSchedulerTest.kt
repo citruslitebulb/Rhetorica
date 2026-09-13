@@ -26,8 +26,8 @@ class NotificationSchedulerTest {
 
     @Test
     fun `schedule signature includes enabled flag and clock time`() {
-        assertEquals("true:8:30", NotificationScheduler.scheduleSignature(true, 8, 30))
-        assertEquals("false:8:30", NotificationScheduler.scheduleSignature(false, 8, 30))
+        assertEquals("v2:true:8:30", NotificationScheduler.scheduleSignature(true, 8, 30))
+        assertEquals("v2:false:8:30", NotificationScheduler.scheduleSignature(false, 8, 30))
         assertTrue(
             NotificationScheduler.scheduleSignature(true, 8, 0) !=
                 NotificationScheduler.scheduleSignature(true, 9, 0),

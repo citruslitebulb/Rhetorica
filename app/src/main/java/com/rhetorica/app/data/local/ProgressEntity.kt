@@ -14,5 +14,10 @@ data class ProgressEntity(
     val quizAttemptCount: Int = 0,
     val quizStreak: Int = 0,
     val bestQuizStreak: Int = 0,
+    /** Consecutive local days with any learning activity (open or quiz). */
+    val dailyStreak: Int = 0,
+    val bestDailyStreak: Int = 0,
+    /** ISO local date of the most recent activity, or "" if none. */
+    val lastActiveDate: String = "",
     val updatedAtEpochMillis: Long,
 )

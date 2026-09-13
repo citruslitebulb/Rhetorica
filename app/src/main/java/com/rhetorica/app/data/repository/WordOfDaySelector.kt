@@ -109,9 +109,20 @@ object WordOfDaySelector {
         }
     }
 
+    /** Seed complexity tiers that are everyday words rather than vocabulary to learn. */
+    private val foundationalComplexities = setOf("basic", "beginner")
+
+    fun normalizeHeadword(word: String): String = word.trim().lowercase()
+
     /**
      * Prefer words that have not yet been shown in the current cycle.
      * When every word in the pool has been shown, restart the cycle.
+     *
+     * "Shown" is judged by headword as well as row id: several orators share
+     * headwords like *conviction*, and a user should not meet the same word twice
+     * in one cycle just because two speeches used it. Within the unseen set,
+     * intermediate/advanced words are served before basic ones so the everyday
+     * entries land at the tail of a cycle instead of interleaving with it.
      */
     fun selectUnseen(
         allWords: List<WordEntity>,
@@ -124,9 +135,19 @@ object WordOfDaySelector {
         val candidates = pool(allWords, oratorId, favoriteOratorIds, visibleOratorIds)
         if (candidates.isEmpty()) return WotdPick(word = null, shownIds = emptyList(), cycleReset = false)
 
-        val unseen = candidates.filter { it.id !in shownIds }
+        val shownHeadwords = candidates
+            .filter { it.id in shownIds }
+            .map { normalizeHeadword(it.word) }
+            .toSet()
+        val unseen = candidates.filter {
+            it.id !in shownIds && normalizeHeadword(it.word) !in shownHeadwords
+        }
         val cycleReset = unseen.isEmpty()
-        val working = if (cycleReset) candidates else unseen
+        val working = if (cycleReset) {
+            candidates
+        } else {
+            unseen.filter { it.complexity !in foundationalComplexities }.ifEmpty { unseen }
+        }
         val sorted = working.sortedBy { it.id }
         val word = sorted[dayOffset(sorted.size, dayOfYear)]
         val nextShown = if (cycleReset) {

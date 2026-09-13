@@ -42,6 +42,7 @@
                     android:id="@+id/widgetWordText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/playfair_display"
                     android:text="@string/widget_default_word"
                     android:textColor="@color/widget_gold"
                     android:textSize="26sp"
@@ -137,11 +138,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:ellipsize="end"
+            android:fontFamily="@font/playfair_display_italic"
             android:lineSpacingExtra="1dp"
             android:maxLines="4"
             android:textColor="@color/widget_text_secondary"
-            android:textSize="12sp"
-            android:textStyle="italic"
+            android:textSize="13sp"
             android:visibility="gone" />
 
         <TextView

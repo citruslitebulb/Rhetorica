@@ -105,6 +105,7 @@ class QuizViewModel @Inject constructor(
                     mode = QuizMode.MultipleChoice,
                     isLoading = true,
                     isUnavailable = false,
+                    isReview = false,
                     selectedOptionId = null,
                     isAnswered = false,
                     options = emptyList(),
@@ -130,18 +131,19 @@ class QuizViewModel @Inject constructor(
             )
 
             val savedOnly = _uiState.value.pool == QuizPool.Saved
+            val scopeOratorIds = if (oratorId != null) listOf(oratorId) else library
             var pool = if (savedOnly) {
-                wordRepository.getRandomSavedWords(limit = 16)
+                wordRepository.getRandomSavedWords(limit = POOL_SIZE)
             } else {
                 wordRepository.getRandomWords(
-                    limit = 16,
+                    limit = POOL_SIZE,
                     oratorId = oratorId,
                     visibleOratorIds = library,
                 )
             }
             if (!savedOnly && pool.size < MIN_OPTIONS) {
                 pool = wordRepository.getRandomWords(
-                    limit = 16,
+                    limit = POOL_SIZE,
                     oratorId = null,
                     visibleOratorIds = library,
                 )
@@ -154,17 +156,29 @@ class QuizViewModel @Inject constructor(
                 return@launch
             }
 
-            val correct = pool.random()
-            val distractors = pool
-                .filter { it.id != correct.id }
-                .shuffled()
-                .take(MIN_OPTIONS - 1)
-            val options = (distractors + correct).shuffled()
+            // Spaced repetition: words whose review is due take priority over fresh picks.
+            val previousCorrectId = _uiState.value.correctWordId
+            val due = progressRepository
+                .getDueQuizWords(oratorIds = scopeOratorIds, savedOnly = savedOnly, limit = 8)
+                .filter { it.id != previousCorrectId }
+            val correct = due.randomOrNull() ?: pool.filter { it.id != previousCorrectId }.ifEmpty { pool }.random()
+            val options = QuizRoundBuilder.buildOptions(
+                correct = correct,
+                candidates = pool,
+                optionCount = MIN_OPTIONS,
+            )
+            if (options.size < MIN_OPTIONS) {
+                _uiState.update {
+                    it.copy(isLoading = false, isUnavailable = true)
+                }
+                return@launch
+            }
 
             _uiState.update {
                 it.copy(
                     isLoading = false,
                     isUnavailable = false,
+                    isReview = due.any { w -> w.id == correct.id },
                     promptDefinition = correct.definition,
                     correctWordId = correct.id,
                     options = options.map { w ->
@@ -183,7 +197,7 @@ class QuizViewModel @Inject constructor(
 
         val isCorrect = optionId == state.correctWordId
         viewModelScope.launch {
-            progressRepository.recordQuizResult(correct = isCorrect)
+            progressRepository.recordQuizResult(wordId = state.correctWordId, correct = isCorrect)
         }
 
         _uiState.update {
@@ -225,6 +239,7 @@ class QuizViewModel @Inject constructor(
                     mode = QuizMode.WordGuess,
                     isLoading = true,
                     isUnavailable = false,
+                    isReview = false,
                     promptDefinition = "",
                     correctWordId = -1L,
                     guessTarget = "",
@@ -380,7 +395,9 @@ class QuizViewModel @Inject constructor(
         val lost = !won && submitted.size >= state.maxAttempts
 
         if (won || lost) {
-            viewModelScope.launch { progressRepository.recordQuizResult(correct = won) }
+            viewModelScope.launch {
+                progressRepository.recordQuizResult(wordId = state.correctWordId, correct = won)
+            }
         }
 
         _uiState.update {
@@ -408,6 +425,8 @@ class QuizViewModel @Inject constructor(
 
     companion object {
         private const val MIN_OPTIONS = 4
+        /** Random candidates per round; large enough to find same-part-of-speech distractors. */
+        private const val POOL_SIZE = 24
         private const val MAX_UNKNOWN_INPUT_LENGTH = 14
         private const val MIN_UNKNOWN_GUESS_LENGTH = 3
     }
@@ -419,6 +438,8 @@ data class QuizUiState(
     val difficulty: WordGuessDifficulty = WordGuessDifficulty.Easy,
     val isLoading: Boolean = false,
     val isUnavailable: Boolean = false,
+    /** True when the current multiple-choice prompt is a spaced-repetition review. */
+    val isReview: Boolean = false,
     // Shared session stats
     val sessionCorrect: Int = 0,
     val sessionTotal: Int = 0,

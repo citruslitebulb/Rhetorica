@@ -1,0 +1,12 @@
+---
+description: Never put Co-authored-by lines on git commits
+alwaysApply: true
+---
+
+# No co-authored commit trailers
+
+when you commit, never include co-authored line
+
+The commit message never includes co-authored lines.
+
+After `git commit`, check `git log -1 --format=%B`. If a `Co-authored-by` trailer is present, strip it before push using the `commit-without-coauthor` skill.

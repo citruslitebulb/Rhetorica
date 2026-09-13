@@ -131,7 +131,6 @@ class HomeViewModel @Inject constructor(
     init {
         viewModelScope.launch {
             try {
-                repository.fixNullOratorIds()
                 progressRepository.syncSavedCount()
             } catch (e: Exception) {
                 AppLog.e("HomeViewModel", "Failed during home init", e)

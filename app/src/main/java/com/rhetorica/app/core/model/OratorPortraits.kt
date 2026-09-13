@@ -4,11 +4,10 @@ import android.content.Context
 import androidx.annotation.DrawableRes
 
 /**
- * Local orator portrait library.
+ * Orator logo helpers.
  *
- * Drop assets at `res/drawable-nodpi/orator_<slug>.webp` (or .png).
- * Lookup is by orator id → slug → drawable resource name `orator_<slug>`.
- * Missing files fall back to a monogram in the UI.
+ * Profile uses [monogram] initials (not photos). Drawable lookup remains for
+ * unused `res/drawable-nodpi/orator_<slug>.webp` assets if photos are re-enabled.
  */
 object OratorPortraits {
 
