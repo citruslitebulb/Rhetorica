@@ -25,7 +25,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.rhetorica.app.R
-import com.rhetorica.app.core.model.WordThemes
 
 @Composable
 fun WordListCard(
@@ -96,16 +95,10 @@ fun WordListCard(
                 }
             }
 
-            if (categories.isNotEmpty()) {
-                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                    categories.forEach { cat ->
-                        ThemeChip(
-                            label = WordThemes.displayName(cat),
-                            compact = true,
-                        )
-                    }
-                }
-            }
+            ThemeChipRow(
+                categories = categories,
+                compact = true,
+            )
 
             Text(
                 text = definition,

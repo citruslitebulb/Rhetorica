@@ -40,8 +40,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.PronunciationCatalog
-import com.rhetorica.app.core.model.WordThemes
-import com.rhetorica.app.core.ui.ThemeChip
+import com.rhetorica.app.core.ui.ThemeChipRow
 
 const val wordDetailRoute = "word/{wordId}"
 
@@ -205,13 +204,7 @@ private fun WordDetailScreen(
                         }
                     }
 
-                    if (word.categories.isNotEmpty()) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                            word.categories.forEach { cat ->
-                                ThemeChip(label = WordThemes.displayName(cat))
-                            }
-                        }
-                    }
+                    ThemeChipRow(categories = word.categories)
 
                     DetailBlock(
                         title = stringResource(R.string.word_definition_title),
