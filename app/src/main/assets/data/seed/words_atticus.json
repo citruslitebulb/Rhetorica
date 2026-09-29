@@ -245,5 +245,185 @@
       "leadership",
       "legacy"
     ]
+  },
+  {
+    "id": 61101,
+    "word": "defendant",
+    "definition": "The person accused in a court of law.",
+    "example": "I am confident that you gentlemen will review without passion the evidence you have heard, come to a decision, and restore this defendant to his family.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 61102,
+    "word": "institution",
+    "definition": "An established practice or body, here the court, that is supposed to treat people as equals.",
+    "example": "There is one human institution that makes a pauper the equal of a Rockefeller, the stupid man the equal of an Einstein, and the ignorant man the equal of any college president.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61103,
+    "word": "resentment",
+    "definition": "Bitter indignation at having been wronged, carried where it does not belong.",
+    "example": "People have a way of carrying their resentments right into a jury box.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 61104,
+    "word": "caliber",
+    "definition": "The degree of quality or character.",
+    "example": "The caliber of a court is whether a man gets a square deal be he any color of the rainbow.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 61105,
+    "word": "adjudicate",
+    "definition": "To judge a case formally.",
+    "example": "You are here to adjudicate on evidence, not on the town's temper.",
+    "partOfSpeech": "verb",
+    "oratorId": 51,
+    "complexity": "advanced",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61106,
+    "word": "presumption",
+    "definition": "An assumption the law requires until it is disproved.",
+    "example": "The presumption of innocence is the whole point of putting a man in front of twelve neighbors.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "advanced",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61107,
+    "word": "acquit",
+    "definition": "To declare a defendant not guilty.",
+    "example": "If the evidence does not hold, you acquit — that is the job, and it is not a favor.",
+    "partOfSpeech": "verb",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 61108,
+    "word": "empathy",
+    "definition": "The effort to understand another person's experience from the inside.",
+    "example": "Empathy is the climb into another person's skin, and the walk around in it.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61109,
+    "word": "humility",
+    "definition": "Modesty about one's own rightness.",
+    "example": "Humility in a lawyer is knowing the courtroom is not a stage for his goodness.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61110,
+    "word": "prejudice",
+    "definition": "A preconceived bias, especially racial, brought in place of evidence.",
+    "example": "Prejudice carried into a jury box is how a town loses the one institution that levels it.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 61111,
+    "word": "composure",
+    "definition": "Calm self-possession.",
+    "example": "Composure on the witness stand is not coldness. It is respect for the oath.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61112,
+    "word": "verdict",
+    "definition": "The decision of a jury.",
+    "example": "The verdict is the town speaking in the only voice the law allows.",
+    "partOfSpeech": "noun",
+    "oratorId": 51,
+    "complexity": "intermediate",
+    "source": "Courtroom Address",
+    "speech": "Courtroom Address (Educational Composite)",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
   }
 ]

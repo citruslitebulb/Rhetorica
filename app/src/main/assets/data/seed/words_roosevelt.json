@@ -262,5 +262,155 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 59901,
+    "word": "self-restraint",
+    "definition": "The discipline of not interfering where others should act.",
+    "example": "The best executive is the one who has sense enough to pick good men to do what he wants done, and self-restraint enough to keep from meddling with them while they do it.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "On executive leadership",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59902,
+    "word": "doctrine",
+    "definition": "A taught principle or body of teaching.",
+    "example": "I wish to preach, not the doctrine of ignoble ease, but the doctrine of the strenuous life.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "intermediate",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59903,
+    "word": "shortcoming",
+    "definition": "A failure or deficiency in an effort.",
+    "example": "There is no effort without error and shortcoming.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "intermediate",
+    "source": "The Man in the Arena",
+    "speech": "Citizenship in a Republic (The Man in the Arena)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59904,
+    "word": "valiantly",
+    "definition": "With courage.",
+    "example": "The credit belongs to the man who is actually in the arena, who strives valiantly, who errs, who comes short again and again.",
+    "partOfSpeech": "adverb",
+    "oratorId": 39,
+    "complexity": "intermediate",
+    "source": "The Man in the Arena",
+    "speech": "Citizenship in a Republic (The Man in the Arena)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59905,
+    "word": "muckrake",
+    "definition": "To rake up and expose misconduct in public life.",
+    "example": "He would muckrake a corrupt office and then demand that the man in the arena do better than the exposé.",
+    "partOfSpeech": "verb",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59906,
+    "word": "mollycoddle",
+    "definition": "To pamper so much that courage is trained out of a person.",
+    "example": "He had no patience for a politics that would mollycoddle citizens out of their nerve.",
+    "partOfSpeech": "verb",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59907,
+    "word": "bellicose",
+    "definition": "Eager for a fight.",
+    "example": "Bellicose talk without preparation, he held, is cowardice in a loud coat.",
+    "partOfSpeech": "adjective",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59908,
+    "word": "corollary",
+    "definition": "A result that follows from a principle.",
+    "example": "The corollary of a strenuous life is a strenuous duty to the republic that makes it possible.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "The Strenuous Life",
+    "speech": "The Strenuous Life",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59909,
+    "word": "dauntless",
+    "definition": "Not capable of being intimidated.",
+    "example": "Dauntless does not mean unhurt. It means still in the arena.",
+    "partOfSpeech": "adjective",
+    "oratorId": 39,
+    "complexity": "advanced",
+    "source": "The Man in the Arena",
+    "speech": "Citizenship in a Republic (The Man in the Arena)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59910,
+    "word": "prestige",
+    "definition": "Respect and standing in the eyes of others.",
+    "example": "Prestige follows the person who spends himself, not the critic who keeps his clothes clean.",
+    "partOfSpeech": "noun",
+    "oratorId": 39,
+    "complexity": "intermediate",
+    "source": "The Man in the Arena",
+    "speech": "Citizenship in a Republic (The Man in the Arena)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
   }
 ]

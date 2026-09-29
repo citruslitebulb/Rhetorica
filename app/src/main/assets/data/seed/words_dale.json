@@ -236,5 +236,200 @@
     ],
     "source": "Hoosiers (1986)",
     "speech": "Practice"
+  },
+  {
+    "id": 59601,
+    "word": "concentration",
+    "definition": "The directing of all one's attention.",
+    "example": "If you put your effort and concentration into playing to your potential, I don't care what the scoreboard says at the end of the game.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59602,
+    "word": "pedagogy",
+    "definition": "The method and practice of teaching.",
+    "example": "His pedagogy was plain and relentless: the basket is still ten feet, so shoot until it is yours.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "advanced",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59603,
+    "word": "regimen",
+    "definition": "A fixed program of training.",
+    "example": "The regimen did not care that the town was small.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59604,
+    "word": "intangible",
+    "definition": "Real but not physical; unable to be touched.",
+    "example": "The intangible was belief, and he drilled it like a layup.",
+    "partOfSpeech": "adjective",
+    "oratorId": 36,
+    "complexity": "advanced",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59605,
+    "word": "tempo",
+    "definition": "The speed at which a game is played.",
+    "example": "Control the tempo, and a taller team has to play your minute.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59606,
+    "word": "execution",
+    "definition": "The carrying out of a plan.",
+    "example": "Execution beats a speech. The play is worth what you do with it.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59607,
+    "word": "precision",
+    "definition": "Exactness.",
+    "example": "Precision in the pass is how a small gym grows a big team.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59608,
+    "word": "pivot",
+    "definition": "The player or the point on which a play turns.",
+    "example": "The pivot is not the loudest player. It is the one the play turns on.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59609,
+    "word": "drill",
+    "definition": "A repeated exercise that builds a skill.",
+    "example": "A drill you resent on Tuesday is the shot you make on Friday.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59610,
+    "word": "conditioning",
+    "definition": "Physical training that prepares the body to last.",
+    "example": "Conditioning is the only fairness he offered: everyone runs.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "intermediate",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59611,
+    "word": "exacting",
+    "definition": "Making severe demands of precision and effort.",
+    "example": "His standard was exacting because the basket does not grade on a curve.",
+    "partOfSpeech": "adjective",
+    "oratorId": 36,
+    "complexity": "advanced",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59612,
+    "word": "methodology",
+    "definition": "A systematic way of teaching and training.",
+    "example": "The methodology was boring on purpose: repeat the right thing until it is the only thing.",
+    "partOfSpeech": "noun",
+    "oratorId": 36,
+    "complexity": "advanced",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59613,
+    "word": "assiduous",
+    "definition": "Showing persistent, careful effort.",
+    "example": "Assiduous practice was the only talent he was willing to praise.",
+    "partOfSpeech": "adjective",
+    "oratorId": 36,
+    "complexity": "advanced",
+    "source": "The Basket Is Still Ten Feet",
+    "speech": "The Basket Is Still Ten Feet",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   }
 ]

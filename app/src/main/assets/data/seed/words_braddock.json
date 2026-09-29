@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "Cinderella Man (2005)",
     "speech": "Braddock's personal credo"
+  },
+  {
+    "id": 59701,
+    "word": "scaffold",
+    "definition": "A raised framework workers stand on; here, dangerous daily labor.",
+    "example": "Working triple shifts and at night on a scaffold is just as likely to get a man killed.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59702,
+    "word": "optimism",
+    "definition": "Confidence that effort can still change the outcome.",
+    "example": "That is not optimism as decoration — that is optimism as a work order.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59703,
+    "word": "financially",
+    "definition": "In matters of money.",
+    "example": "I believe we live in a great country, a country that's great enough to help a man financially when he's in trouble.",
+    "partOfSpeech": "adverb",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59704,
+    "word": "destitution",
+    "definition": "Poverty so extreme that the necessities are gone.",
+    "example": "Destitution did not make him noble. It made him show up.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59705,
+    "word": "privation",
+    "definition": "Lack of the basic things needed to live.",
+    "example": "Privation in the relief line was the training camp nobody filmed.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59706,
+    "word": "subsistence",
+    "definition": "The bare minimum required to stay alive.",
+    "example": "He fought first for subsistence: milk, coal, and a roof.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59707,
+    "word": "breadline",
+    "definition": "A queue of people waiting for free food in hard times.",
+    "example": "The breadline and the ring were the same problem seen from two doors.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59708,
+    "word": "pugilist",
+    "definition": "A boxer.",
+    "example": "The pugilist the papers wanted was a story. The man needed a paycheck.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59709,
+    "word": "impoverished",
+    "definition": "Made poor.",
+    "example": "An impoverished man who keeps his word is already richer than the bet against him.",
+    "partOfSpeech": "adjective",
+    "oratorId": 37,
+    "complexity": "advanced",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59710,
+    "word": "layoff",
+    "definition": "A period without work.",
+    "example": "A layoff can take your job. It does not have to take the next round.",
+    "partOfSpeech": "noun",
+    "oratorId": 37,
+    "complexity": "intermediate",
+    "source": "I Have to Believe",
+    "speech": "I Have to Believe",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

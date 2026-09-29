@@ -248,5 +248,170 @@
       "leadership",
       "humanities", "inspirational"
     ]
+  },
+  {
+    "id": 61401,
+    "word": "chiefest",
+    "definition": "Greatest; the most important. An archaic superlative.",
+    "example": "I have placed my chiefest strength and safeguard in the loyal hearts and good-will of my subjects.",
+    "partOfSpeech": "adjective",
+    "oratorId": 54,
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 61402,
+    "word": "forwardness",
+    "definition": "Eager readiness to act. An older sense of the word.",
+    "example": "I know already, for your forwardness you have deserved rewards and crowns.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61403,
+    "word": "treachery",
+    "definition": "Betrayal, especially of a sovereign by those close at hand.",
+    "example": "We have been persuaded to take heed how we commit ourselves to armed multitudes, for fear of treachery.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "advanced",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61404,
+    "word": "dishonour",
+    "definition": "Disgrace; loss of honor. The spelling of the Tilbury speech.",
+    "example": "To which rather than any dishonour shall grow by me, I myself will take up arms.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61405,
+    "word": "lieutenant",
+    "definition": "A deputy who commands in the sovereign's place.",
+    "example": "In the mean time, my lieutenant general shall be in my stead, than whom never prince commanded a more noble or worthy subject.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 61406,
+    "word": "multitudes",
+    "definition": "Great crowds of people, here the armed camp.",
+    "example": "We have been persuaded to take heed how we commit ourselves to armed multitudes, for fear of treachery.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 61407,
+    "word": "distrust",
+    "definition": "Lack of trust.",
+    "example": "I do not desire to live to distrust my faithful and loving people.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61408,
+    "word": "obedience",
+    "definition": "Submission to rightful command.",
+    "example": "Not doubting but by your obedience to my general, by your concord in the camp, and your valour in the field, we shall shortly have a famous victory.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 61409,
+    "word": "resolved",
+    "definition": "Firmly determined.",
+    "example": "I am come amongst you not for my recreation and disport, but being resolved, in the midst and heat of the battle, to live and die amongst you all.",
+    "partOfSpeech": "adjective",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61410,
+    "word": "concord",
+    "definition": "Agreement and harmony among people.",
+    "example": "By your obedience to my general, by your concord in the camp, and your valour in the field, we shall shortly have a famous victory.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61411,
+    "word": "valour",
+    "definition": "Great courage in battle. The spelling of the Tilbury speech.",
+    "example": "By your concord in the camp, and your valour in the field, we shall shortly have a famous victory over those enemies of my God, of my kingdom, and of my people.",
+    "partOfSpeech": "noun",
+    "oratorId": 54,
+    "complexity": "intermediate",
+    "source": "Speech to the Troops at Tilbury",
+    "speech": "Speech to the Troops at Tilbury",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
   }
 ]

@@ -296,5 +296,155 @@
       "legacy",
       "courage"
     ]
+  },
+  {
+    "id": 57701,
+    "word": "brutality",
+    "definition": "Savage cruelty, especially physical violence.",
+    "example": "We call upon all governments to fight against terrorism and violence, to protect children from brutality and harm.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57702,
+    "word": "compulsory",
+    "definition": "Required by law or by a rule that does not ask permission.",
+    "example": "We call upon all governments to ensure free compulsory education all over the world for every child.",
+    "partOfSpeech": "adjective",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57703,
+    "word": "deprived",
+    "definition": "Kept from something necessary, especially a right.",
+    "example": "I am those 66 million girls who are deprived of education.",
+    "partOfSpeech": "adjective",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57704,
+    "word": "hopelessness",
+    "definition": "The condition of expecting no good outcome.",
+    "example": "The terrorists thought they would stop our ambitions, but nothing changed except this: weakness, fear and hopelessness died.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57705,
+    "word": "patriarchy",
+    "definition": "A social order in which men hold primary power and girls are told to wait.",
+    "example": "Patriarchy, she argued, is what tells a girl that a book is more dangerous than a bullet.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "advanced",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57706,
+    "word": "obscurantism",
+    "definition": "The deliberate withholding of knowledge.",
+    "example": "Obscurantism fears a girl with a pen more than it fears an argument it might lose.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "advanced",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 57707,
+    "word": "advocacy",
+    "definition": "Public support for a cause or a policy.",
+    "example": "Advocacy for education, she said, is not charity; it is a demand that governments keep their word.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57708,
+    "word": "martyrdom",
+    "definition": "Death or great suffering endured for a belief, sometimes sought by those who would silence it.",
+    "example": "They wanted martyrdom to silence her; she answered by sending more girls to school.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "advanced",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57709,
+    "word": "illiteracy",
+    "definition": "Inability to read and write.",
+    "example": "Illiteracy is a weapon, she told the United Nations, aimed first at girls.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "intermediate",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57710,
+    "word": "mobilization",
+    "definition": "The organizing of people and resources for a shared purpose.",
+    "example": "Mobilization of fathers and brothers, not only of girls, was how she said a village changes.",
+    "partOfSpeech": "noun",
+    "oratorId": 17,
+    "complexity": "advanced",
+    "source": "Education for All",
+    "speech": "Education for All (UN themes)",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   }
 ]

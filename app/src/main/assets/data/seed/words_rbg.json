@@ -251,5 +251,155 @@
       "inspirational",
       "leadership"
     ]
+  },
+  {
+    "id": 60301,
+    "word": "disagreeable",
+    "definition": "Unpleasant to deal with; causing friction.",
+    "example": "You can disagree without being disagreeable.",
+    "partOfSpeech": "adjective",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60302,
+    "word": "dominant",
+    "definition": "Having the greatest influence.",
+    "example": "The greatest dissents do become court opinions, and gradually over time their views become the dominant view.",
+    "partOfSpeech": "adjective",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60303,
+    "word": "jurisprudence",
+    "definition": "The theory and philosophy of law.",
+    "example": "Her jurisprudence treated equality as a constitutional command, not a courtesy.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "advanced",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60304,
+    "word": "precedent",
+    "definition": "An earlier decision treated as a guide for later ones.",
+    "example": "A dissent today can be the precedent that a later court is finally ready to follow.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60305,
+    "word": "stereotype",
+    "definition": "A fixed, oversimplified picture of a group.",
+    "example": "A stereotype written into law is still a stereotype, however politely it is drafted.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60306,
+    "word": "vindicate",
+    "definition": "To show to have been right, or to clear from blame.",
+    "example": "She wrote to vindicate the Constitution's promise for people the majority had overlooked.",
+    "partOfSpeech": "verb",
+    "oratorId": 43,
+    "complexity": "advanced",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60307,
+    "word": "scrutiny",
+    "definition": "Close, critical examination.",
+    "example": "Laws that sort people by sex, she argued, must face real scrutiny, not a shrug.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60308,
+    "word": "classification",
+    "definition": "A legal sorting of people into groups that the law then treats differently.",
+    "example": "Sex-based classification, she insisted, is not a favor. It is a limit dressed as protection.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "advanced",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60309,
+    "word": "constitutional",
+    "definition": "Belonging to, or allowed by, a constitution.",
+    "example": "A constitutional principle that arrives late is still the law, and she was willing to wait it into view.",
+    "partOfSpeech": "adjective",
+    "oratorId": 43,
+    "complexity": "intermediate",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60310,
+    "word": "amicus",
+    "definition": "A friend of the court who advises the judges without being a party to the case.",
+    "example": "An amicus brief, in her career, was often how an outsider's life entered the record.",
+    "partOfSpeech": "noun",
+    "oratorId": 43,
+    "complexity": "advanced",
+    "source": "On Dissent, Equality, and Enduring Change",
+    "speech": "On Dissent, Equality, and Enduring Change",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
   }
 ]

@@ -206,5 +206,155 @@
       "tech",
       "leadership"
     ]
+  },
+  {
+    "id": 58301,
+    "word": "automation",
+    "definition": "The use of machines and software to do work with little human labor.",
+    "example": "Today, technology and automation are eliminating many jobs.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58302,
+    "word": "algorithmic",
+    "definition": "Produced or governed by an algorithm.",
+    "example": "Algorithmic ranking can amplify a rumor as easily as a birthday, and the designer owns that mechanic.",
+    "partOfSpeech": "adjective",
+    "oratorId": 23,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58303,
+    "word": "transparency",
+    "definition": "Openness about how a system works and what it does with data.",
+    "example": "Transparency about how data is used is part of the contract with the people who trusted you with it.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58304,
+    "word": "governance",
+    "definition": "The rules and practices by which a community or a platform is directed.",
+    "example": "Platform governance, he has had to argue, is now a civic problem, not only a product problem.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58305,
+    "word": "inadvertent",
+    "definition": "Unintentional.",
+    "example": "Inadvertent amplification of a lie can do damage no one in the room meant to cause.",
+    "partOfSpeech": "adjective",
+    "oratorId": 23,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 58306,
+    "word": "virality",
+    "definition": "The tendency of content to spread rapidly from person to person.",
+    "example": "Virality is not a moral category; it is a mechanic, and mechanics can be redesigned.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58307,
+    "word": "infrastructure",
+    "definition": "The basic systems a network or a community needs in order to function.",
+    "example": "Social infrastructure, he said, has to be built with the same seriousness as roads.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58308,
+    "word": "sovereignty",
+    "definition": "Supreme authority; here, control over one's own data and community.",
+    "example": "Data sovereignty — who holds the record of a life — sits underneath the product arguments.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58309,
+    "word": "moderation",
+    "definition": "The review and limiting of content; also, the avoidance of extremes.",
+    "example": "Content moderation at global scale forces choices that no single culture will call neutral.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58310,
+    "word": "connectivity",
+    "definition": "The state of being linked, and the responsibility that follows from it.",
+    "example": "Connectivity, he has long claimed, is a good in itself, and also a duty.",
+    "partOfSpeech": "noun",
+    "oratorId": 23,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
   }
 ]

@@ -336,5 +336,155 @@
       "humanities",
       "inspirational"
     ]
+  },
+  {
+    "id": 56601,
+    "word": "depreciate",
+    "definition": "To belittle, or to represent something as of little worth.",
+    "example": "Those who profess to favor freedom, and yet depreciate agitation, are men who want crops without plowing up the ground.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "West India Emancipation",
+    "speech": "West India Emancipation",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56602,
+    "word": "prescribe",
+    "definition": "To lay down a rule or a limit as binding.",
+    "example": "The limits of tyrants are prescribed by the endurance of those whom they oppress.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "West India Emancipation",
+    "speech": "West India Emancipation",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56603,
+    "word": "patriotism",
+    "definition": "Devotion to one's country.",
+    "example": "I have no love for America, as such; I have no patriotism.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56604,
+    "word": "manumission",
+    "definition": "The formal freeing of an enslaved person.",
+    "example": "Manumission on paper, Douglass argued, is not freedom while the law still hunts the fugitive.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56605,
+    "word": "chattel",
+    "definition": "Moveable property; in slave law, a human being treated as a thing owned.",
+    "example": "The slave code made a person chattel, and then asked the church to bless the bargain.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56606,
+    "word": "impunity",
+    "definition": "Freedom from punishment or consequence.",
+    "example": "The slaveholder's impunity, he said, was written into the very holiday the nation was celebrating.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 56607,
+    "word": "jeremiad",
+    "definition": "A long, bitter lament against moral failure.",
+    "example": "What the holiday called a celebration, he answered with a jeremiad against a nation that praised liberty and sold men.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 56608,
+    "word": "excoriate",
+    "definition": "To criticize in a severe, stripping way.",
+    "example": "He rose to excoriate a church that sang of freedom while the auction block stood outside.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56609,
+    "word": "complicity",
+    "definition": "Partnership in a wrong, including by convenient silence.",
+    "example": "Complicity, he told the North, did not require a whip in one's own hand.",
+    "partOfSpeech": "noun",
+    "oratorId": 6,
+    "complexity": "intermediate",
+    "source": "What to the Slave Is the Fourth of July?",
+    "speech": "What to the Slave Is the Fourth of July?",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 56610,
+    "word": "fulminate",
+    "definition": "To denounce with thunderous force.",
+    "example": "Douglass would fulminate against any peace that asked the enslaved to wait.",
+    "partOfSpeech": "verb",
+    "oratorId": 6,
+    "complexity": "advanced",
+    "source": "West India Emancipation",
+    "speech": "West India Emancipation",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   }
 ]

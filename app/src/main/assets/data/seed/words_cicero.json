@@ -250,5 +250,155 @@
     "categories": ["arts", "humanities", "leadership"],
     "source": "Orations",
     "speech": "In Catilinam I"
+  },
+  {
+    "id": 56201,
+    "word": "criminality",
+    "definition": "The quality of criminal conduct; guilt that has become a habit of the state.",
+    "example": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56202,
+    "word": "venerable",
+    "definition": "Worthy of deep respect because of dignity, age, or character.",
+    "example": "Nothing is more noble, nothing more venerable than fidelity.",
+    "partOfSpeech": "adjective",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56203,
+    "word": "folly",
+    "definition": "Lack of good sense; foolishness with public consequences.",
+    "example": "The enemy is within the gates; it is with our own luxury, our own folly, our own criminality that we have to contend.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "intermediate",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56204,
+    "word": "profligacy",
+    "definition": "Reckless, shameless waste.",
+    "example": "The profligacy of the conspirators, Cicero told the Senate, had already spent the republic's patience.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56205,
+    "word": "venality",
+    "definition": "Openness to bribery; the condition of being for sale.",
+    "example": "Venality in the courts, he warned, turns justice into a market and the republic into a bidder.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56206,
+    "word": "ignominy",
+    "definition": "Public shame and deep disgrace.",
+    "example": "To let Catiline remain in the city was to invite ignominy upon the Senate itself.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56207,
+    "word": "rectitude",
+    "definition": "Morally correct behavior; uprightness in office.",
+    "example": "Rectitude in public office, not ornament of speech, was the standard he set for a consul.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56208,
+    "word": "gravitas",
+    "definition": "Seriousness and weight of manner that steadies others.",
+    "example": "A consul without gravitas, he implied, cannot hold a frightened city together.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "intermediate",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "arts"
+    ]
+  },
+  {
+    "id": 56209,
+    "word": "sedition",
+    "definition": "Speech or conduct that incites rebellion against lawful authority.",
+    "example": "Sedition, he said, was no longer a rumor at the gates but a plot seated where the Senate could hear it.",
+    "partOfSpeech": "noun",
+    "oratorId": 2,
+    "complexity": "intermediate",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56210,
+    "word": "perfidious",
+    "definition": "Deceitful and unworthy of trust.",
+    "example": "A perfidious citizen who arms against the republic has already left the company of Romans.",
+    "partOfSpeech": "adjective",
+    "oratorId": 2,
+    "complexity": "advanced",
+    "source": "In Catilinam I",
+    "speech": "In Catilinam I",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   }
 ]

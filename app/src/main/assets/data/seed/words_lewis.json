@@ -253,5 +253,155 @@
       "leadership",
       "democracy"
     ]
+  },
+  {
+    "id": 60401,
+    "word": "enticement",
+    "definition": "Something that tempts a person toward a harmful course.",
+    "example": "Release the need to hate, to harbor division, and the enticement of revenge.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "advanced",
+    "source": "On justice and grace",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60402,
+    "word": "disciplined",
+    "definition": "Held to a strict practice.",
+    "example": "Nonviolence is not a tactic for the soft; it is a disciplined force that can redeem the soul of America.",
+    "partOfSpeech": "adjective",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60403,
+    "word": "extraordinary",
+    "definition": "Far beyond the ordinary.",
+    "example": "Ordinary people with extraordinary vision can redeem the soul of America when they refuse to get used to injustice.",
+    "partOfSpeech": "adjective",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 60404,
+    "word": "nonviolent",
+    "definition": "Using protest without physical violence.",
+    "example": "The vote is the most powerful nonviolent tool we have in a democratic society.",
+    "partOfSpeech": "adjective",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60405,
+    "word": "segregation",
+    "definition": "The enforced separation of people by race.",
+    "example": "Segregation was the law he walked into, and good trouble was how he walked through it.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60406,
+    "word": "suffrage",
+    "definition": "The right to vote.",
+    "example": "Suffrage, he taught, is sacred, and it is not self-maintaining.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60407,
+    "word": "unbowed",
+    "definition": "Not defeated or made to yield.",
+    "example": "Unbowed on the bridge, and unbowed after the beating, he kept the same demand.",
+    "partOfSpeech": "adjective",
+    "oratorId": 44,
+    "complexity": "advanced",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60408,
+    "word": "agitation",
+    "definition": "Public stirring that refuses to let an injustice settle into quiet.",
+    "example": "Peaceful agitation is not a disturbance of democracy. It is democracy insisting on itself.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60409,
+    "word": "protest",
+    "definition": "A public act that objects to a wrong.",
+    "example": "A protest that stays nonviolent can outlast the men who ordered the dogs.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60410,
+    "word": "solidarity",
+    "definition": "Unity of purpose among people who share a struggle.",
+    "example": "Solidarity across the bridge was the whole strategy: walk together, or the march is only a crowd.",
+    "partOfSpeech": "noun",
+    "oratorId": 44,
+    "complexity": "intermediate",
+    "source": "Good Trouble, Necessary Trouble",
+    "speech": "Good Trouble, Necessary Trouble",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   }
 ]

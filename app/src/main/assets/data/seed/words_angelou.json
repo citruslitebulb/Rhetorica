@@ -295,5 +295,155 @@
       "inspirational",
       "legacy"
     ]
+  },
+  {
+    "id": 57601,
+    "word": "erratically",
+    "definition": "In an irregular, inconsistent way.",
+    "example": "You can practice any virtue erratically, but nothing consistently without courage.",
+    "partOfSpeech": "adverb",
+    "oratorId": 16,
+    "complexity": "advanced",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57602,
+    "word": "hatefulness",
+    "definition": "The quality of being full of hate.",
+    "example": "You may kill me with your hatefulness, but still, like air, I'll rise.",
+    "partOfSpeech": "noun",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "Still I Rise",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "courage",
+      "arts"
+    ]
+  },
+  {
+    "id": 57603,
+    "word": "momentum",
+    "definition": "Force gained by movement; the impetus that keeps a people going.",
+    "example": "That is how a people turns memory into momentum.",
+    "partOfSpeech": "noun",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57604,
+    "word": "phenomenal",
+    "definition": "Extraordinary; remarkable beyond the ordinary case.",
+    "example": "Phenomenal women, she taught, are not exceptions to be doubted but evidence of what courage makes possible.",
+    "partOfSpeech": "adjective",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "inspirational",
+      "arts"
+    ]
+  },
+  {
+    "id": 57605,
+    "word": "inimitable",
+    "definition": "Impossible to copy; uniquely one's own.",
+    "example": "An inimitable voice, she said, is what remains when a person stops performing someone else's courage.",
+    "partOfSpeech": "adjective",
+    "oratorId": 16,
+    "complexity": "advanced",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "arts",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57606,
+    "word": "intrepid",
+    "definition": "Fearless in the face of risk.",
+    "example": "Intrepid is not the absence of shaking; it is speaking while the shaking continues.",
+    "partOfSpeech": "adjective",
+    "oratorId": 16,
+    "complexity": "advanced",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57607,
+    "word": "lyrical",
+    "definition": "Expressive in a musical, emotionally charged way.",
+    "example": "Her lyrical line could hold rage and tenderness in the same breath.",
+    "partOfSpeech": "adjective",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57608,
+    "word": "exult",
+    "definition": "To rejoice in a triumphant way.",
+    "example": "Still she would exult, rising like air after every attempt to keep her down.",
+    "partOfSpeech": "verb",
+    "oratorId": 16,
+    "complexity": "advanced",
+    "source": "Still I Rise",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 57609,
+    "word": "mettle",
+    "definition": "Spirit and resilience tested by difficulty.",
+    "example": "Courage is the mettle that lets a person practice virtue more than once.",
+    "partOfSpeech": "noun",
+    "oratorId": 16,
+    "complexity": "intermediate",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57610,
+    "word": "diaspora",
+    "definition": "A people scattered from a homeland, and the culture they carry.",
+    "example": "The diaspora, she reminded readers, carries history in the body, not only in books.",
+    "partOfSpeech": "noun",
+    "oratorId": 16,
+    "complexity": "advanced",
+    "source": "On Courage and Rising",
+    "speech": "On Courage and Rising",
+    "categories": [
+      "legacy",
+      "humanities"
+    ]
   }
 ]

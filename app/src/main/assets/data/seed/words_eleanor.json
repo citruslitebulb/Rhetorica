@@ -250,5 +250,200 @@
       "inspirational",
       "leadership"
     ]
+  },
+  {
+    "id": 60101,
+    "word": "conscience",
+    "definition": "The inner sense of right and wrong that demands action.",
+    "example": "When will our consciences grow so tender that we will act to prevent human misery rather than avenge it?",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "On conscience",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 60102,
+    "word": "inferior",
+    "definition": "Lower in worth or status — a judgment she refused to accept from others.",
+    "example": "No one can make you feel inferior without your consent.",
+    "partOfSpeech": "adjective",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "On self-respect",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60103,
+    "word": "ratification",
+    "definition": "Formal approval that makes a declaration or treaty binding.",
+    "example": "Ratification of a declaration is only the beginning; the work is what a kitchen and a legislature do next.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "advanced",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60104,
+    "word": "proclamation",
+    "definition": "An official public announcement.",
+    "example": "A proclamation of rights that never reaches a neighborhood is only paper.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60105,
+    "word": "charter",
+    "definition": "A document that sets out rights for a people.",
+    "example": "The Universal Declaration was a charter for people who had been told they did not count.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60106,
+    "word": "impartial",
+    "definition": "Fair to all sides; not tilting toward the powerful.",
+    "example": "Human rights, she argued, must be impartial or they are only a privilege with better manners.",
+    "partOfSpeech": "adjective",
+    "oratorId": 41,
+    "complexity": "advanced",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60107,
+    "word": "delegate",
+    "definition": "A person sent to represent others.",
+    "example": "Every delegate who signed was borrowing courage from someone who could not be in the room.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60108,
+    "word": "inherent",
+    "definition": "Existing in something as an essential quality, not as a gift.",
+    "example": "Dignity is inherent. The law's job is to stop pretending it is a favor.",
+    "partOfSpeech": "adjective",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60109,
+    "word": "concerted",
+    "definition": "Planned and carried out together.",
+    "example": "Concerted action by ordinary citizens is how a paper right becomes a habit.",
+    "partOfSpeech": "adjective",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60110,
+    "word": "courageously",
+    "definition": "In a brave manner.",
+    "example": "She asked people to live courageously in small rooms, not only on public platforms.",
+    "partOfSpeech": "adverb",
+    "oratorId": 41,
+    "complexity": "intermediate",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60111,
+    "word": "inalienable",
+    "definition": "Unable to be taken away or given up.",
+    "example": "Rights, she argued, are inalienable, which means no government gets to hand them out as favors.",
+    "partOfSpeech": "adjective",
+    "oratorId": 41,
+    "complexity": "advanced",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60112,
+    "word": "universality",
+    "definition": "The quality of applying to all people, not to a favored few.",
+    "example": "The universality of the claim is the point: not the rights of one nation, but human rights.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "advanced",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60113,
+    "word": "preamble",
+    "definition": "An introductory statement that declares why a document exists.",
+    "example": "The preamble names dignity; the articles still have to survive an ordinary argument at home.",
+    "partOfSpeech": "noun",
+    "oratorId": 41,
+    "complexity": "advanced",
+    "source": "The Great Question",
+    "speech": "The Great Question (Human Rights Begin at Home)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
   }
 ]

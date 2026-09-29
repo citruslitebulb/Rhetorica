@@ -245,5 +245,215 @@
       "inspirational",
       "courage"
     ]
+  },
+  {
+    "id": 61201,
+    "word": "inexhaustible",
+    "definition": "Impossible to use up.",
+    "example": "Words are, in my not-so-humble opinion, our most inexhaustible source of magic — capable of both inflicting injury and remedying it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 52,
+    "complexity": "advanced",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61202,
+    "word": "remedy",
+    "definition": "To set a harm right.",
+    "example": "Words are capable of both inflicting injury and remedying it.",
+    "partOfSpeech": "verb",
+    "oratorId": 52,
+    "complexity": "advanced",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61203,
+    "word": "inflict",
+    "definition": "To cause someone to suffer something harmful.",
+    "example": "Words are capable of both inflicting injury and remedying it.",
+    "partOfSpeech": "verb",
+    "oratorId": 52,
+    "complexity": "advanced",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61204,
+    "word": "remorse",
+    "definition": "Deep regret for a wrong.",
+    "example": "Remorse is not a weakness of magic. It is how a wizard stays a human being.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61205,
+    "word": "prophecy",
+    "definition": "A foretelling that tempts people to stop choosing.",
+    "example": "A prophecy is a temptation to stop choosing, and choice is the only magic that matters.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61206,
+    "word": "shroud",
+    "definition": "A covering that hides, like a cloth drawn over the dead.",
+    "example": "Fear is a shroud. It makes a small danger look like the end of the story.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61207,
+    "word": "extraordinary",
+    "definition": "Far beyond what is ordinary.",
+    "example": "It takes extraordinary nerve to choose the harder right when the dark mark is already in the sky.",
+    "partOfSpeech": "adjective",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61208,
+    "word": "phoenix",
+    "definition": "A bird of myth that burns and is born again from the ash.",
+    "example": "A phoenix rises because the fire finished its work, not because the fire was kind.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61209,
+    "word": "obscure",
+    "definition": "Not clear or well known.",
+    "example": "The right path is often the obscure one, and it rarely announces itself.",
+    "partOfSpeech": "adjective",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61210,
+    "word": "mercy",
+    "definition": "Compassion toward someone in one's power.",
+    "example": "Mercy toward an enemy is not naivete. It is a decision about who you are willing to become.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61211,
+    "word": "indifference",
+    "definition": "Lack of concern that lets harm pass.",
+    "example": "Indifference is the shadow that lets cruelty walk through a castle unchallenged.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61212,
+    "word": "inevitable",
+    "definition": "Certain to happen; unable to be avoided.",
+    "example": "Death is inevitable. A wasted life is not.",
+    "partOfSpeech": "adjective",
+    "oratorId": 52,
+    "complexity": "intermediate",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61213,
+    "word": "malevolent",
+    "definition": "Having or showing a wish to do evil.",
+    "example": "A malevolent spell is still a choice someone made with words.",
+    "partOfSpeech": "adjective",
+    "oratorId": 52,
+    "complexity": "advanced",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61214,
+    "word": "folly",
+    "definition": "Foolishness, especially the pursuit of power for its own sake.",
+    "example": "The folly of wanting power for its own sake is older than the castle.",
+    "partOfSpeech": "noun",
+    "oratorId": 52,
+    "complexity": "advanced",
+    "source": "After the Dark Mark",
+    "speech": "After the Dark Mark (Educational Composite)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
   }
 ]

@@ -190,5 +190,155 @@
     "categories": ["leadership", "courage", "inspirational"],
     "source": "Oracle keynotes",
     "speech": "Oracle OpenWorld Keynote Vision"
+  },
+  {
+    "id": 58601,
+    "word": "incumbent",
+    "definition": "The company or officeholder that currently holds the advantage.",
+    "example": "The incumbent, he likes to say, is the one with the most to lose when the architecture changes.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58602,
+    "word": "throughput",
+    "definition": "The amount of work a system completes in a given time.",
+    "example": "Throughput is not a number for a slide; it is whether the system still answers on a Monday morning.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58603,
+    "word": "monolithic",
+    "definition": "Built as one rigid mass, hard to change in part.",
+    "example": "A monolithic stack that cannot change is not strength; it is a future outage.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58604,
+    "word": "acquisitive",
+    "definition": "Eager to acquire and absorb.",
+    "example": "An acquisitive strategy still has to become one product, or it is only a pile of logos.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58605,
+    "word": "consolidation",
+    "definition": "The combining of separate parts into one stronger system.",
+    "example": "Consolidation of the data center, he argued, is how computing stops wasting itself.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58606,
+    "word": "disruptive",
+    "definition": "Radically unsettling an existing way of doing business.",
+    "example": "Disruptive is a word he saves for work that makes the previous generation look slow.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58607,
+    "word": "accountability",
+    "definition": "The duty to answer for results.",
+    "example": "Accountability is what remains when the excuse of complexity is taken away.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58608,
+    "word": "hesitation",
+    "definition": "A pause caused by uncertainty, costly in a platform shift.",
+    "example": "Hesitation in a platform shift is how a leader becomes a case study.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58609,
+    "word": "relational",
+    "definition": "Organized by relations among data, as in a relational database.",
+    "example": "The relational model was his weapon, and he has spent decades daring anyone to bury it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 26,
+    "complexity": "intermediate",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58610,
+    "word": "hegemony",
+    "definition": "Dominance of one firm over a market.",
+    "example": "Market hegemony, in his telling, is earned by execution and lost by arrogance.",
+    "partOfSpeech": "noun",
+    "oratorId": 26,
+    "complexity": "advanced",
+    "source": "Oracle OpenWorld Keynote Vision",
+    "speech": "Oracle OpenWorld Keynote Vision",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

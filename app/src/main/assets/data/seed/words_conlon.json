@@ -190,5 +190,155 @@
     "source": "Warrior",
     "speech": "Climax",
     "categories": ["humanities", "legacy", "inspirational"]
+  },
+  {
+    "id": 59801,
+    "word": "underdogs",
+    "definition": "Those expected to lose.",
+    "example": "You want to talk about underdogs?",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59802,
+    "word": "estrangement",
+    "definition": "The state of being cut off from someone who was close.",
+    "example": "Estrangement in that family was a fight they kept scheduling and never finished.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "advanced",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59803,
+    "word": "sobriety",
+    "definition": "The state of not being drunk; a clear, serious mind.",
+    "example": "Sobriety was the first bout, and it had no crowd.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59804,
+    "word": "catharsis",
+    "definition": "A release of pent-up emotion that brings relief.",
+    "example": "The bout was catharsis only if he told the truth in the gym first.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "advanced",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59805,
+    "word": "absolution",
+    "definition": "Release from guilt.",
+    "example": "He wanted absolution from his brother, and the gym was the only church he trusted.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "advanced",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59806,
+    "word": "grudge",
+    "definition": "A lasting resentment.",
+    "example": "A grudge is a weight class you carry into every round.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59807,
+    "word": "atonement",
+    "definition": "Making amends for a wrong.",
+    "example": "Atonement, in his case, looked like roadwork before dawn.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "advanced",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59808,
+    "word": "sparring",
+    "definition": "Practice fighting.",
+    "example": "Sparring is where excuses go to get hit.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59809,
+    "word": "penance",
+    "definition": "An act of reparation accepted as the cost of a wrong.",
+    "example": "Penance was not a speech to his brother. It was another day he did not drink.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59810,
+    "word": "relapse",
+    "definition": "A slide back into a former harmful state.",
+    "example": "Relapse was the opponent who did not need a ticket.",
+    "partOfSpeech": "noun",
+    "oratorId": 38,
+    "complexity": "intermediate",
+    "source": "We Train. That's It.",
+    "speech": "We Train. That’s It.",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

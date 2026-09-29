@@ -246,5 +246,155 @@
     "categories": [
       "leadership"
     ]
+  },
+  {
+    "id": 58101,
+    "word": "excruciating",
+    "definition": "Intensely painful.",
+    "example": "Day 2 is stasis, followed by irrelevance, followed by excruciating, painful decline.",
+    "partOfSpeech": "adjective",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58102,
+    "word": "irrelevance",
+    "definition": "The state of no longer mattering.",
+    "example": "Day 2 is stasis, followed by irrelevance, followed by excruciating, painful decline.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58103,
+    "word": "high-velocity",
+    "definition": "Extremely fast, especially of decisions that can be reversed.",
+    "example": "Day 1 companies embrace external trends and high-velocity decision making.",
+    "partOfSpeech": "adjective",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58104,
+    "word": "detriment",
+    "definition": "Harm or damage, especially to one's choices.",
+    "example": "You can seduce yourself with your gifts if you're not careful, and if you do, it'll probably be to the detriment of your choices.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "intermediate",
+    "source": "Princeton Baccalaureate",
+    "speech": "We Are What We Choose (Princeton Baccalaureate)",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 58105,
+    "word": "flywheel",
+    "definition": "A self-reinforcing loop in which each turn makes the next turn easier.",
+    "example": "The flywheel he describes is a loop of lower prices, more customers, and more selection, and it moves only if you push it for years.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58106,
+    "word": "irreversible",
+    "definition": "Impossible to undo.",
+    "example": "Some decisions are irreversible doors, and those deserve slow thought; most doors, he says, open both ways.",
+    "partOfSpeech": "adjective",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58107,
+    "word": "recalcitrant",
+    "definition": "Stubbornly resistant to change.",
+    "example": "A recalcitrant process that exists only because it existed yesterday is Day 2 thinking.",
+    "partOfSpeech": "adjective",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58108,
+    "word": "dissonance",
+    "definition": "A clash between what one believes and what the room believes.",
+    "example": "He welcomed the dissonance of being misunderstood, because invention rarely arrives already agreed upon.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58109,
+    "word": "inertia",
+    "definition": "Resistance to a change in motion or habit.",
+    "example": "Inertia is the silent partner of every company that wakes up and finds it is Day 2.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58110,
+    "word": "obliquity",
+    "definition": "Indirectness; aiming at a goal by a slanted path that misses it.",
+    "example": "Obliquity in a goal, he warned, is how a proxy metric quietly replaces the customer.",
+    "partOfSpeech": "noun",
+    "oratorId": 21,
+    "complexity": "advanced",
+    "source": "Day 1 Philosophy",
+    "speech": "Day 1 Philosophy",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

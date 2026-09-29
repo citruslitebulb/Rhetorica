@@ -190,5 +190,155 @@
     "categories": ["leadership", "courage"],
     "source": "The Karate Kid (1984)",
     "speech": "After the tournament"
+  },
+  {
+    "id": 59201,
+    "word": "equilibrium",
+    "definition": "A state of balance between opposing forces.",
+    "example": "Wax on, wax off is not a chore. It is equilibrium taught to the hands.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "advanced",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59202,
+    "word": "deference",
+    "definition": "Respectful yielding to a teacher's judgment.",
+    "example": "Deference to a teacher is how a student borrows a lifetime of mistakes.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "advanced",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59203,
+    "word": "proverb",
+    "definition": "A short saying that carries a lesson.",
+    "example": "A proverb is a lesson small enough to carry into a fight.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59204,
+    "word": "apprenticeship",
+    "definition": "A long training under a master, often disguised as ordinary work.",
+    "example": "Apprenticeship looks like chores until the day the skill appears.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "advanced",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59205,
+    "word": "humility",
+    "definition": "A modest estimate of oneself that leaves room to learn.",
+    "example": "Humility is the first stance. Without it, the lesson bounces off.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59206,
+    "word": "martial",
+    "definition": "Having to do with combat or the training for it.",
+    "example": "Martial skill without mercy is just a faster way to be cruel.",
+    "partOfSpeech": "adjective",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 59207,
+    "word": "serene",
+    "definition": "Calm and untroubled.",
+    "example": "A serene face in a storm is not an act. It is practice.",
+    "partOfSpeech": "adjective",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59208,
+    "word": "kata",
+    "definition": "A set sequence of martial movements practiced until it is in the body.",
+    "example": "The kata is a conversation with an opponent who is not in the room yet.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "advanced",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59209,
+    "word": "dojo",
+    "definition": "A place of training in a martial art.",
+    "example": "The dojo is anywhere you are willing to repeat the lesson.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59210,
+    "word": "poise",
+    "definition": "Composed balance of body and mind.",
+    "example": "Poise is balance you can still find when someone is trying to take it.",
+    "partOfSpeech": "noun",
+    "oratorId": 32,
+    "complexity": "intermediate",
+    "source": "Wax On, Wax Off",
+    "speech": "Wax On, Wax Off",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
   }
 ]

@@ -319,5 +319,155 @@
       "humanities",
       "courage"
     ]
+  },
+  {
+    "id": 57201,
+    "word": "covenant",
+    "definition": "A solemn mutual promise that binds a people.",
+    "example": "We enter into a covenant that we shall build the society in which all South Africans, both black and white, will be able to walk tall.",
+    "partOfSpeech": "noun",
+    "oratorId": 12,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "democracy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57202,
+    "word": "inalienable",
+    "definition": "Impossible to take away or surrender.",
+    "example": "We shall build a society assured of the inalienable right to human dignity — a rainbow nation at peace with itself.",
+    "partOfSpeech": "adjective",
+    "oratorId": 12,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57203,
+    "word": "reconciliation",
+    "definition": "The restoring of a broken relationship between peoples.",
+    "example": "We must therefore act together as a united people, for national reconciliation, for nation building, for the birth of a new world.",
+    "partOfSpeech": "noun",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "inspirational",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57204,
+    "word": "cherish",
+    "definition": "To hold dear and protect.",
+    "example": "I have cherished the ideal of a democratic and free society in which all persons live together in harmony and with equal opportunities.",
+    "partOfSpeech": "verb",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Rivonia Trial",
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57205,
+    "word": "formidable",
+    "definition": "Inspiring respect because of strength or difficulty.",
+    "example": "A good head and a good heart are always a formidable combination.",
+    "partOfSpeech": "adjective",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Public remarks",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57206,
+    "word": "amnesty",
+    "definition": "An official pardon extended for political offenses.",
+    "example": "Amnesty, he argued, was not forgetfulness; it was the price of a nation that meant to live together.",
+    "partOfSpeech": "noun",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 57207,
+    "word": "indelible",
+    "definition": "Impossible to erase or forget.",
+    "example": "The years in prison left an indelible mark, and still he walked out speaking of reconciliation rather than revenge.",
+    "partOfSpeech": "adjective",
+    "oratorId": 12,
+    "complexity": "advanced",
+    "source": "Rivonia Trial",
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": [
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 57208,
+    "word": "incarcerate",
+    "definition": "To imprison.",
+    "example": "They could incarcerate the man, he said from the dock, but not the ideal he refused to abandon.",
+    "partOfSpeech": "verb",
+    "oratorId": 12,
+    "complexity": "advanced",
+    "source": "Rivonia Trial",
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57209,
+    "word": "renounce",
+    "definition": "To give up formally a claim, a course, or a belief.",
+    "example": "He would not renounce the ideal of a free society, even if the court sent him to prison for life.",
+    "partOfSpeech": "verb",
+    "oratorId": 12,
+    "complexity": "intermediate",
+    "source": "Rivonia Trial",
+    "speech": "Statement from the Dock at the Rivonia Trial",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57210,
+    "word": "fundamentally",
+    "definition": "At the root; in an essential way.",
+    "example": "I am fundamentally an optimist.",
+    "partOfSpeech": "adverb",
+    "oratorId": 12,
+    "complexity": "advanced",
+    "source": "Later speeches",
+    "speech": "Inaugural Address (excerpt)",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
   }
 ]

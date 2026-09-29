@@ -328,5 +328,155 @@
     ],
     "source": "Philippics",
     "speech": "Philippic 1"
+  },
+  {
+    "id": 56101,
+    "word": "multitude",
+    "definition": "A great number of people; the populace assembled or addressed as one.",
+    "example": "He who has truth on his side need not fear the multitude.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56102,
+    "word": "reputation",
+    "definition": "The beliefs generally held about a person's character.",
+    "example": "It is the duty of a good citizen to prefer the safety of his country to his own ease and reputation.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56103,
+    "word": "readiness",
+    "definition": "The state of being fully prepared to act.",
+    "example": "Freedom is not preserved by words alone, but by the readiness to fight and suffer for it.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56104,
+    "word": "statesman",
+    "definition": "A skilled and principled political leader.",
+    "example": "The memory of great deeds is the immortality of the statesman.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "On the Crown",
+    "speech": "On the Crown (De Corona)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56105,
+    "word": "ancestors",
+    "definition": "Those from whom a people descends, remembered as founders and fighters.",
+    "example": "We must arm ourselves with courage as our ancestors armed themselves with spears.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56106,
+    "word": "dishonor",
+    "definition": "Loss of honor or respect; disgrace.",
+    "example": "It is better to die a thousand times than to live in slavery and dishonor under a foreign master.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "intermediate",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56107,
+    "word": "prevarication",
+    "definition": "Deliberate evasion that talks around the truth instead of facing it.",
+    "example": "Prevarication in the assembly, Demosthenes charged, handed Philip the months he needed to march.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "advanced",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56108,
+    "word": "perfidy",
+    "definition": "Deliberate betrayal of trust.",
+    "example": "Philip's perfidy, he argued, was proved each time a sworn peace was broken and another city fell.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "advanced",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56109,
+    "word": "hegemony",
+    "definition": "Dominance of one power over the others.",
+    "example": "Macedonian hegemony, the Third Philippic warned, would leave the Greek cities the name of freedom and none of its substance.",
+    "partOfSpeech": "noun",
+    "oratorId": 1,
+    "complexity": "advanced",
+    "source": "Third Philippic",
+    "speech": "Philippic 3",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56110,
+    "word": "obsequious",
+    "definition": "Excessively eager to please someone more powerful.",
+    "example": "Obsequious envoys, he said, returned from Pella with compliments and no security for Athens.",
+    "partOfSpeech": "adjective",
+    "oratorId": 1,
+    "complexity": "advanced",
+    "source": "First Philippic",
+    "speech": "Philippic 1",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
   }
 ]

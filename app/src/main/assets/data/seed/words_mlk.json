@@ -262,5 +262,155 @@
     "categories": ["arts", "inspirational", "democracy"],
     "source": "I Have a Dream",
     "speech": "I Have a Dream"
+  },
+  {
+    "id": 56901,
+    "word": "self-evident",
+    "definition": "Plainly true, without need of further proof.",
+    "example": "I have a dream that one day this nation will rise up and live out the true meaning of its creed: We hold these truths to be self-evident, that all men are created equal.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "democracy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56902,
+    "word": "tranquilizing",
+    "definition": "Calming in a way that dulls urgency rather than heals.",
+    "example": "This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56903,
+    "word": "inescapable",
+    "definition": "Impossible to avoid or deny.",
+    "example": "We are caught in an inescapable network of mutuality, tied in a single garment of destiny.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "intermediate",
+    "source": "Letter from Birmingham Jail",
+    "speech": "Letter from Birmingham Jail (written during imprisonment)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56904,
+    "word": "sweltering",
+    "definition": "Oppressively hot; here, thick with injustice.",
+    "example": "I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, will be transformed into an oasis of freedom and justice.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "intermediate",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56905,
+    "word": "interposition",
+    "definition": "An intervention that blocks; in Jim Crow politics, a state's claim to nullify federal rights.",
+    "example": "One day, down in Alabama, with its governor having his lips dripping with the words of interposition and nullification, little black boys and black girls will be able to join hands.",
+    "partOfSpeech": "noun",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 56906,
+    "word": "promissory",
+    "definition": "Conveying a binding promise, as a note that pledges payment.",
+    "example": "America has given the Negro people a bad check, a promissory note that has come back marked insufficient funds.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56907,
+    "word": "manacle",
+    "definition": "A shackle for the wrist; a restraint that still holds.",
+    "example": "One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination.",
+    "partOfSpeech": "noun",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 56908,
+    "word": "languish",
+    "definition": "To suffer and weaken while waiting, neglected.",
+    "example": "Justice must not languish, he said, while the nation asks the injured to wait.",
+    "partOfSpeech": "verb",
+    "oratorId": 9,
+    "complexity": "intermediate",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56909,
+    "word": "redemptive",
+    "definition": "Having the power to redeem; turning suffering toward moral repair.",
+    "example": "Unearned suffering is redemptive, he taught, when it is met with the discipline of nonviolence.",
+    "partOfSpeech": "adjective",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "Sermons",
+    "speech": "Various sermons compiled in Strength to Love",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56910,
+    "word": "militancy",
+    "definition": "Confrontational urgency in a cause, here held inside nonviolence.",
+    "example": "The militancy of the movement, he insisted, must stay nonviolent or it would betray the dream.",
+    "partOfSpeech": "noun",
+    "oratorId": 9,
+    "complexity": "advanced",
+    "source": "I Have a Dream",
+    "speech": "I Have a Dream",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   }
 ]

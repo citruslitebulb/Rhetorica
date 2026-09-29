@@ -190,5 +190,155 @@
     "categories": ["leadership", "courage", "humanities"],
     "source": "Rocky Balboa (2006)",
     "speech": "Rocky to his son Rocky Jr."
+  },
+  {
+    "id": 59101,
+    "word": "atrophy",
+    "definition": "To waste away through disuse.",
+    "example": "You stop moving, and the muscle will atrophy — and the will does the same if you let it.",
+    "partOfSpeech": "verb",
+    "oratorId": 31,
+    "complexity": "advanced",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59102,
+    "word": "attrition",
+    "definition": "The gradual wearing down of an opponent by staying in the fight.",
+    "example": "Winning on attrition means you are still there when the other man has spent his story.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "advanced",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59103,
+    "word": "stamina",
+    "definition": "The strength to keep going for a long time.",
+    "example": "Stamina is the only talent that shows up in the late rounds.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59104,
+    "word": "pugilism",
+    "definition": "The practice of boxing.",
+    "example": "Pugilism, the way he tells it, is just a loud way to practice not quitting.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "advanced",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59105,
+    "word": "gauntlet",
+    "definition": "A severe trial one has to pass through.",
+    "example": "Life throws a gauntlet, and the only answer he trusts is one more round.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59106,
+    "word": "relentless",
+    "definition": "Never letting up.",
+    "example": "Be relentless in the one direction that still has a door.",
+    "partOfSpeech": "adjective",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59107,
+    "word": "clinch",
+    "definition": "A hold in boxing that ties up both fighters.",
+    "example": "In the clinch you breathe, you think, and you do not stay there.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59108,
+    "word": "heartbreak",
+    "definition": "Overwhelming disappointment or grief.",
+    "example": "Heartbreak is not the end of the fight. It is the round you did not plan.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59109,
+    "word": "valor",
+    "definition": "Courage in the face of being beaten.",
+    "example": "Valor is getting up when the crowd has already decided you are done.",
+    "partOfSpeech": "noun",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59110,
+    "word": "tenacious",
+    "definition": "Holding on; not easily stopped.",
+    "example": "Tenacious is not pretty. It is still standing when the round ends.",
+    "partOfSpeech": "adjective",
+    "oratorId": 31,
+    "complexity": "intermediate",
+    "source": "Keep Moving Forward",
+    "speech": "Keep Moving Forward",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

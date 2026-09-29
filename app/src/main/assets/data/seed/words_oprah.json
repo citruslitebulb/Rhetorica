@@ -268,5 +268,155 @@
       "humanities",
       "inspirational"
     ]
+  },
+  {
+    "id": 61301,
+    "word": "magnificent",
+    "definition": "Extremely impressive; splendid in courage or presence.",
+    "example": "When that new day finally dawns, it will be because of a lot of magnificent women.",
+    "partOfSpeech": "adjective",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61302,
+    "word": "vulnerability",
+    "definition": "Openness to being hurt, which makes a true account possible.",
+    "example": "Vulnerability is not weakness. It is the moment a true story starts.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "advanced",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61303,
+    "word": "transformative",
+    "definition": "Causing a deep change in a person or a culture.",
+    "example": "A transformative conversation is one where someone leaves believing her life is evidence, not an exception.",
+    "partOfSpeech": "adjective",
+    "oratorId": 53,
+    "complexity": "advanced",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61304,
+    "word": "catalyst",
+    "definition": "A person or event that starts a change.",
+    "example": "She treats a story as a catalyst: one honest hour that moves a million private decisions.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61305,
+    "word": "intimacy",
+    "definition": "Close, personal knowledge shared between people.",
+    "example": "Intimacy on a public stage is a craft: the specific detail that makes a stranger feel known.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "advanced",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 61306,
+    "word": "testimony",
+    "definition": "A personal account offered as evidence of what happened.",
+    "example": "Testimony is a woman saying what happened, in her own words, without asking permission to be believed.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61307,
+    "word": "perseverance",
+    "definition": "Steady persistence despite difficulty.",
+    "example": "Perseverance is glamorous only in retrospect. Up close it looks like another morning.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 61308,
+    "word": "audience",
+    "definition": "The people gathered to listen.",
+    "example": "An audience is not a crowd to be worked. It is a room of people who might tell the truth after they leave.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61309,
+    "word": "affirmation",
+    "definition": "A statement that supports a person's worth or a hard truth.",
+    "example": "Affirmation is not flattery. It is the sentence that lets someone try again.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 61310,
+    "word": "spotlight",
+    "definition": "A concentrated beam of public attention.",
+    "example": "The spotlight is only useful if you turn it toward someone the room has ignored.",
+    "partOfSpeech": "noun",
+    "oratorId": 53,
+    "complexity": "intermediate",
+    "source": "Golden Globes Address",
+    "speech": "Golden Globes Address (Educational Excerpt)",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
   }
 ]

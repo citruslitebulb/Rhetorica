@@ -233,5 +233,155 @@
     ],
     "source": "Rudy (1993)",
     "speech": "Rudy's mantra"
+  },
+  {
+    "id": 59301,
+    "word": "tolerable",
+    "definition": "Able to be endured.",
+    "example": "Having dreams is what makes life tolerable.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59302,
+    "word": "stature",
+    "definition": "Standing gained by what one does, not by size.",
+    "example": "Stature on that campus was measured in height and scholarship, and he brought a third measure: he would not leave.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59303,
+    "word": "quintessential",
+    "definition": "The most typical and perfect example of a quality.",
+    "example": "He became the quintessential walk-on: too small on paper, and still on the field.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "advanced",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59304,
+    "word": "unheralded",
+    "definition": "Not announced or celebrated in advance.",
+    "example": "Unheralded is just a word for someone the program has not noticed yet.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "advanced",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59305,
+    "word": "dogged",
+    "definition": "Stubbornly persistent.",
+    "example": "Dogged practice, not a speech, is what put him in the stadium.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59306,
+    "word": "diminutive",
+    "definition": "Unusually small.",
+    "example": "Diminutive beside the linemen, he still asked for one play.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "advanced",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59307,
+    "word": "roster",
+    "definition": "The official list of a team's members.",
+    "example": "The roster did not have his name. He treated that as unfinished business.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59308,
+    "word": "aspiration",
+    "definition": "A strong hope of achieving something.",
+    "example": "Aspiration without a practice schedule is just a poster.",
+    "partOfSpeech": "noun",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59309,
+    "word": "improbable",
+    "definition": "Not likely, and therefore easy to dismiss.",
+    "example": "An improbable dream is still a schedule: show up, get hit, show up again.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 59310,
+    "word": "elusive",
+    "definition": "Hard to catch or to obtain.",
+    "example": "The scholarship was elusive. The work was not.",
+    "partOfSpeech": "adjective",
+    "oratorId": 33,
+    "complexity": "intermediate",
+    "source": "I Came to Play for the Irish",
+    "speech": "I Came to Play for the Irish",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

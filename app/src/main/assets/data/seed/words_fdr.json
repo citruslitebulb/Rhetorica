@@ -313,5 +313,155 @@
       "democracy",
       "legacy"
     ]
+  },
+  {
+    "id": 57101,
+    "word": "unreasoning",
+    "definition": "Not guided by reason; irrational.",
+    "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "advanced",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57102,
+    "word": "nameless",
+    "definition": "Without a name; vague and therefore more frightening.",
+    "example": "The only thing we have to fear is fear itself — nameless, unreasoning, unjustified terror which paralyzes needed efforts to convert retreat into advance.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57103,
+    "word": "treachery",
+    "definition": "Betrayal of trust by deceit.",
+    "example": "We will not only defend ourselves to the uttermost, but will make very certain that this form of treachery shall never endanger us again.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced",
+    "source": "Address to Congress requesting a declaration of war",
+    "speech": "Address to Congress requesting declaration of war",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57104,
+    "word": "candor",
+    "definition": "Frank honesty, without softening the facts.",
+    "example": "My fellow Americans expect that on my induction into the Presidency I will address them with a candor and a decision which the present situation of our nation impels.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57105,
+    "word": "abdicate",
+    "definition": "To give up a power or a responsibility one holds.",
+    "example": "The rulers of the exchange of mankind's goods have admitted their failure, and abdicated.",
+    "partOfSpeech": "verb",
+    "oratorId": 11,
+    "complexity": "advanced",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57106,
+    "word": "equivocation",
+    "definition": "Ambiguous language used to hide a decision.",
+    "example": "There will be no bottlenecks in our determination to aid Great Britain; no equivocation, no talk of alternatives.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "advanced",
+    "source": "Arsenal of Democracy",
+    "speech": "Arsenal of Democracy Fireside Chat",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 57107,
+    "word": "curtailment",
+    "definition": "The act of cutting back or restricting.",
+    "example": "Government of all kinds is faced by serious curtailment of income; the means of exchange are frozen in the currents of trade.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57108,
+    "word": "allegiance",
+    "definition": "Loyalty owed to a people or a nation.",
+    "example": "We can be citizens of the world, members of the human community, without giving our allegiance as a nation to any master but the people of the United States.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate",
+    "source": "Fourth Inaugural Address",
+    "speech": "Fourth Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57109,
+    "word": "unprecedented",
+    "definition": "Never done or known before.",
+    "example": "He asked the country for an unprecedented scale of production, an arsenal large enough to arm those still fighting.",
+    "partOfSpeech": "adjective",
+    "oratorId": 11,
+    "complexity": "intermediate",
+    "source": "Arsenal of Democracy",
+    "speech": "Arsenal of Democracy Fireside Chat",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 57110,
+    "word": "expedient",
+    "definition": "A convenient means to an end, often at the expense of principle.",
+    "example": "He rejected any expedient that would purchase quiet by abandoning nations already under attack.",
+    "partOfSpeech": "noun",
+    "oratorId": 11,
+    "complexity": "intermediate",
+    "source": "Arsenal of Democracy",
+    "speech": "Arsenal of Democracy Fireside Chat",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
   }
 ]

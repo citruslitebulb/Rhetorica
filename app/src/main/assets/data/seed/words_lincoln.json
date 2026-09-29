@@ -396,5 +396,155 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 56501,
+    "word": "bondsman",
+    "definition": "A person held in bondage; an enslaved laborer.",
+    "example": "Yet if God wills that it continue until all the wealth piled by the bondsman's two hundred and fifty years of unrequited toil shall be sunk.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "legacy",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56502,
+    "word": "detract",
+    "definition": "To diminish the worth or credit of something.",
+    "example": "The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract.",
+    "partOfSpeech": "verb",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Gettysburg Address",
+    "speech": "Gettysburg Address",
+    "categories": [
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 56503,
+    "word": "providence",
+    "definition": "Divine guidance or care governing events.",
+    "example": "If we shall suppose that American slavery is one of those offenses which, in the providence of God, must needs come.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56504,
+    "word": "deprecate",
+    "definition": "To express earnest disapproval of.",
+    "example": "Both parties deprecated war, but one of them would make war rather than let the nation survive, and the other would accept war rather than let it perish.",
+    "partOfSpeech": "verb",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56505,
+    "word": "anarchy",
+    "definition": "Disorder that follows when lawful authority is rejected.",
+    "example": "Plainly, the central idea of secession is the essence of anarchy.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56506,
+    "word": "mystic",
+    "definition": "Suggesting a hidden, almost spiritual meaning.",
+    "example": "The mystic chords of memory, stretching from every battlefield and patriot grave, will yet swell the chorus of the Union.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5,
+    "complexity": "advanced",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56507,
+    "word": "astounding",
+    "definition": "Causing astonishment by its scale or strangeness.",
+    "example": "Each looked for an easier triumph, and a result less fundamental and astounding.",
+    "partOfSpeech": "adjective",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56508,
+    "word": "menace",
+    "definition": "A threat, or something likely to cause harm.",
+    "example": "Neither let us be slandered from our duty by false accusations against us, nor frightened from it by menaces of destruction to the Government.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "Cooper Union Address",
+    "speech": "Cooper Union Address",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56509,
+    "word": "magnitude",
+    "definition": "Great size, extent, or importance.",
+    "example": "Neither party expected for the war the magnitude or the duration which it has already attained.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "Second Inaugural Address",
+    "speech": "Second Inaugural Address",
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56510,
+    "word": "secession",
+    "definition": "Formal withdrawal of a state from a political union.",
+    "example": "Plainly, the central idea of secession is the essence of anarchy.",
+    "partOfSpeech": "noun",
+    "oratorId": 5,
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
   }
 ]

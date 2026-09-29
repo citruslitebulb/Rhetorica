@@ -345,5 +345,185 @@
     ],
     "source": "Hamlet",
     "speech": "To be, or not to be"
+  },
+  {
+    "id": 57801,
+    "word": "consummation",
+    "definition": "A completion or fulfillment; here, the end Hamlet imagines in death.",
+    "example": "'Tis a consummation devoutly to be wish'd.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57802,
+    "word": "contumely",
+    "definition": "Scornful, insulting treatment.",
+    "example": "For who would bear the whips and scorns of time, the oppressor's wrong, the proud man's contumely.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57803,
+    "word": "fardels",
+    "definition": "Burdens; packs of trouble one carries through life.",
+    "example": "Who would fardels bear, to grunt and sweat under a weary life.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57804,
+    "word": "quietus",
+    "definition": "A final discharge from life; a settling of the account.",
+    "example": "When he himself might his quietus make with a bare bodkin.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57805,
+    "word": "bourn",
+    "definition": "A boundary, especially the limit between life and what lies past it.",
+    "example": "The undiscover'd country, from whose bourn no traveller returns.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57806,
+    "word": "pith",
+    "definition": "The essential substance or vigor of a thing.",
+    "example": "And enterprises of great pith and moment, with this regard their currents turn awry.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57807,
+    "word": "quintessence",
+    "definition": "The purest essence of a thing.",
+    "example": "And yet, to me, what is this quintessence of dust?",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "Hamlet, Act 2 Scene 2",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57808,
+    "word": "apprehension",
+    "definition": "The faculty of understanding; intellectual grasp.",
+    "example": "In apprehension how like a god!",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "Hamlet, Act 2 Scene 2",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57809,
+    "word": "calamity",
+    "definition": "Disaster, or a long life felt as one.",
+    "example": "There's the respect that makes calamity of so long life.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "intermediate",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57810,
+    "word": "outrageous",
+    "definition": "Shockingly cruel or excessive.",
+    "example": "Whether 'tis nobler in the mind to suffer the slings and arrows of outrageous fortune.",
+    "partOfSpeech": "adjective",
+    "oratorId": 18,
+    "complexity": "intermediate",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57811,
+    "word": "underlings",
+    "definition": "Subordinates who let others master their fate.",
+    "example": "The fault, dear Brutus, is not in our stars, but in ourselves, that we are underlings.",
+    "partOfSpeech": "noun",
+    "oratorId": 18,
+    "complexity": "intermediate",
+    "source": "Julius Caesar",
+    "speech": "Julius Caesar, Act 1 Scene 2 (Cassius to Brutus)",
+    "categories": [
+      "arts",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57812,
+    "word": "devoutly",
+    "definition": "With deep earnestness.",
+    "example": "'Tis a consummation devoutly to be wish'd.",
+    "partOfSpeech": "adverb",
+    "oratorId": 18,
+    "complexity": "advanced",
+    "source": "Hamlet",
+    "speech": "To be, or not to be",
+    "categories": [
+      "arts",
+      "humanities"
+    ]
   }
 ]

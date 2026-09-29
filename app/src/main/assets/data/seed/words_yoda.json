@@ -190,5 +190,155 @@
     "source": "The Last Jedi",
     "speech": "Yoda's Lesson to Luke",
     "categories": ["humanities", "leadership", "legacy"]
+  },
+  {
+    "id": 59001,
+    "word": "prescience",
+    "definition": "Knowledge of events before they happen.",
+    "example": "Prescience without humility, a trap it is.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59002,
+    "word": "hubris",
+    "definition": "Dangerous pride that ignores one's limits.",
+    "example": "Hubris, the Jedi's oldest fall, it remains.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59003,
+    "word": "composure",
+    "definition": "Calm control of oneself.",
+    "example": "Composure you must keep, when fear the path becomes.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59004,
+    "word": "turmoil",
+    "definition": "A state of great confusion and disturbance.",
+    "example": "Turmoil outside, control it you cannot. Turmoil inside, yours it is.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59005,
+    "word": "clairvoyance",
+    "definition": "Seeing beyond ordinary sight.",
+    "example": "Clairvoyance, a burden it is, if attachment the vision feeds.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59006,
+    "word": "vexation",
+    "definition": "A state of irritation that clouds judgment.",
+    "example": "Vexation leads to anger. Anger, to the dark side it leads.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59007,
+    "word": "ascetic",
+    "definition": "Given to severe self-discipline.",
+    "example": "An ascetic life, the old master keeps, so the Force a possession does not become.",
+    "partOfSpeech": "adjective",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59008,
+    "word": "axiom",
+    "definition": "A principle taken as a starting truth.",
+    "example": "Do or do not: an axiom, not a suggestion, it is.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59009,
+    "word": "unlearn",
+    "definition": "To let go of something learned that now gets in the way.",
+    "example": "You must unlearn what you have learned.",
+    "partOfSpeech": "verb",
+    "oratorId": 30,
+    "complexity": "intermediate",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 59010,
+    "word": "stoicism",
+    "definition": "Endurance of pain and fear without being ruled by them.",
+    "example": "Stoicism he does not name, but release the fear — the same hard practice it is.",
+    "partOfSpeech": "noun",
+    "oratorId": 30,
+    "complexity": "advanced",
+    "source": "Do or Do Not",
+    "speech": "Do or Do Not",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
   }
 ]

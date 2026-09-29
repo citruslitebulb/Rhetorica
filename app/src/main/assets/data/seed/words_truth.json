@@ -247,5 +247,155 @@
       "humanities", "inspirational",
       "leadership"
     ]
+  },
+  {
+    "id": 60501,
+    "word": "prevail",
+    "definition": "To prove stronger; to win out in the end.",
+    "example": "Truth is powerful and it prevails.",
+    "partOfSpeech": "verb",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "On truth",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 60502,
+    "word": "abolition",
+    "definition": "The ending of slavery as a legal system.",
+    "example": "Abolition, she argued, was not finished while a woman still had no rights a meeting would hear.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60503,
+    "word": "servitude",
+    "definition": "The condition of being enslaved or wholly subjected.",
+    "example": "She had come out of servitude and would not let the platform pretend she was still property.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "advanced",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60504,
+    "word": "vehemence",
+    "definition": "Forceful, passionate intensity of expression.",
+    "example": "The vehemence of the question — ain't I a woman? — was the argument.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "advanced",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60505,
+    "word": "repentance",
+    "definition": "Sorrow for a wrong joined to a turning away from it.",
+    "example": "She called for repentance from a nation that could quote scripture and sell a mother's child.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60506,
+    "word": "emancipation",
+    "definition": "The act of setting free from slavery or from legal bondage.",
+    "example": "Emancipation on a proclamation still had to reach a woman's hands.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60507,
+    "word": "homily",
+    "definition": "A sermon or moral talk.",
+    "example": "A homily that could not imagine her as a full human being was not the gospel she had come to hear.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "advanced",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 60508,
+    "word": "congregation",
+    "definition": "A body of people gathered for worship.",
+    "example": "She would speak to a congregation until the pews had to answer her.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60509,
+    "word": "preach",
+    "definition": "To proclaim a religious or moral message in public.",
+    "example": "If the men would not preach her freedom, she would preach it herself.",
+    "partOfSpeech": "verb",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60510,
+    "word": "suffrage",
+    "definition": "The right to vote in political elections.",
+    "example": "Suffrage without her voice in it, she implied, was only half a freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 45,
+    "complexity": "intermediate",
+    "source": "Ain't I a Woman?",
+    "speech": "Ain't I a Woman?",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
   }
 ]

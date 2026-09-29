@@ -238,5 +238,155 @@
     "source": "Various (frequently quoted during the Falklands conflict)",
     "speech": "Falklands War addresses",
     "categories": ["humanities", "inspirational", "legacy", "courage", "leadership"]
+  },
+  {
+    "id": 57401,
+    "word": "consensus",
+    "definition": "General agreement, especially a political middle everyone is pressed to share.",
+    "example": "I am not a consensus politician.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "intermediate",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57402,
+    "word": "self-reliant",
+    "definition": "Depending on one's own effort rather than on others.",
+    "example": "I came to office with one deliberate intent: to change Britain from a dependent to a self-reliant society.",
+    "partOfSpeech": "adjective",
+    "oratorId": 14,
+    "complexity": "intermediate",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57403,
+    "word": "restraint",
+    "definition": "Self-control that keeps freedom from destroying itself.",
+    "example": "Freedom will destroy itself if it is not exercised with some restraint and some sense of responsibility.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "intermediate",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57404,
+    "word": "extraordinarily",
+    "definition": "To a very unusual degree.",
+    "example": "I am extraordinarily patient, provided I get my own way in the end.",
+    "partOfSpeech": "adverb",
+    "oratorId": 14,
+    "complexity": "advanced",
+    "source": "Multiple addresses",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 57405,
+    "word": "monetarism",
+    "definition": "The doctrine that control of the money supply is the chief tool of economic stability.",
+    "example": "Monetarism, she argued, was not cruelty; it was the refusal to print an illusion of prosperity.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "advanced",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57406,
+    "word": "prerogative",
+    "definition": "An exclusive right or privilege belonging to a person or to the state.",
+    "example": "She treated the prerogative of the state as something to be narrowed, not worshipped.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "advanced",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57407,
+    "word": "collectivism",
+    "definition": "A system that puts the group or the state ahead of the individual.",
+    "example": "Collectivism, she said, had made too many people look to government before they looked to themselves.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "advanced",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57408,
+    "word": "untenable",
+    "definition": "Not able to be defended or maintained.",
+    "example": "The idea that the state can spend a nation into character, she held, is untenable.",
+    "partOfSpeech": "adjective",
+    "oratorId": 14,
+    "complexity": "advanced",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57409,
+    "word": "staunch",
+    "definition": "Loyal and firm in a conviction.",
+    "example": "A staunch defense of liberty, she insisted, does not apologize for expecting people to stand on their own.",
+    "partOfSpeech": "adjective",
+    "oratorId": 14,
+    "complexity": "intermediate",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57410,
+    "word": "subsidy",
+    "definition": "Public money granted to support a person, firm, or industry.",
+    "example": "A subsidy that never ends, she warned, teaches dependence and calls it compassion.",
+    "partOfSpeech": "noun",
+    "oratorId": 14,
+    "complexity": "intermediate",
+    "source": "The Lady's Not for Turning",
+    "speech": "The Lady's Not for Turning (themes)",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
   }
 ]

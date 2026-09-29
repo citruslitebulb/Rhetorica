@@ -245,5 +245,200 @@
       "legacy",
       "inspirational"
     ]
+  },
+  {
+    "id": 61001,
+    "word": "overrun",
+    "definition": "To spread over and seize, leaving the original people displaced.",
+    "example": "They do not pay for my country now overrun by white men.",
+    "partOfSpeech": "verb",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 61002,
+    "word": "banishment",
+    "definition": "Expulsion from one's home country or valley.",
+    "example": "Banishment from the valley of our fathers is not a peace he could call just.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "advanced",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61003,
+    "word": "exile",
+    "definition": "Forced absence from one's own land.",
+    "example": "Exile on a reservation is still exile, whatever softer word the papers use.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61004,
+    "word": "grievance",
+    "definition": "A wrong one has a right to name.",
+    "example": "His grievance was simple: good words do not give me back my children.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61005,
+    "word": "remnant",
+    "definition": "A small part that remains after destruction.",
+    "example": "We are a remnant, he told the hall, and a remnant still has a right to the same law.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "advanced",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 61006,
+    "word": "solemn",
+    "definition": "Grave, formal, and meant to be final.",
+    "example": "The surrender he offered was solemn: from where the sun now stands, he would fight no more forever.",
+    "partOfSpeech": "adjective",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "I Will Fight No More Forever",
+    "speech": "I Will Fight No More Forever",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61007,
+    "word": "dispossess",
+    "definition": "To deprive a people of land and home.",
+    "example": "You can dispossess a people of horses and valleys, he said, and still owe them the truth.",
+    "partOfSpeech": "verb",
+    "oratorId": 50,
+    "complexity": "advanced",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61008,
+    "word": "pledge",
+    "definition": "A solemn promise.",
+    "example": "A pledge that is not kept is only a good word, and good words do not pay for the dead.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61009,
+    "word": "hospitality",
+    "definition": "Generous reception of strangers.",
+    "example": "They had offered hospitality, and the country that received it was left overrun.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61010,
+    "word": "injustice",
+    "definition": "Unfair treatment that violates a right.",
+    "example": "Injustice that wears the face of a broken promise is still injustice.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 61011,
+    "word": "wander",
+    "definition": "To move without a home or a sure path.",
+    "example": "He spoke of people left to wander the hills, freezing, with no food and no blankets.",
+    "partOfSpeech": "verb",
+    "oratorId": 50,
+    "complexity": "intermediate",
+    "source": "I Will Fight No More Forever",
+    "speech": "I Will Fight No More Forever",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 61012,
+    "word": "solemnity",
+    "definition": "Grave, formal seriousness.",
+    "example": "There was solemnity in the surrender because he meant it to be the last fight.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "advanced",
+    "source": "Surrender speech",
+    "speech": "I Will Fight No More Forever",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 61013,
+    "word": "dispossession",
+    "definition": "The act of depriving a people of their land and home.",
+    "example": "Dispossession does not end when the fighting stops. It is the condition the fighting was about.",
+    "partOfSpeech": "noun",
+    "oratorId": 50,
+    "complexity": "advanced",
+    "source": "Lincoln Hall Address",
+    "speech": "Lincoln Hall Address",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
   }
 ]

@@ -237,5 +237,155 @@
     ],
     "source": "Remember the Titans (2000)",
     "speech": "Camp speech on perfection"
+  },
+  {
+    "id": 59501,
+    "word": "mythology",
+    "definition": "A body of stories about origins, giants, and what a people tells itself it is.",
+    "example": "According to Greek mythology, the Titans were greater even than the gods.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59502,
+    "word": "integration",
+    "definition": "The bringing of separated people into one body.",
+    "example": "Integration on this team is not a speech. It is one ball, one direction.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59503,
+    "word": "cohesion",
+    "definition": "The state of holding together as a single unit.",
+    "example": "Cohesion is what you have when a hit on the left side is answered by the right.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "advanced",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59504,
+    "word": "reverence",
+    "definition": "Deep respect.",
+    "example": "He asked for reverence for the ground they stood on, and for the man beside them.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59505,
+    "word": "dictum",
+    "definition": "A short, authoritative pronouncement.",
+    "example": "His dictum was simple enough to survive a locker room: you play for the name on the front.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "advanced",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59506,
+    "word": "prejudice",
+    "definition": "A judgment made before the evidence, especially against a group.",
+    "example": "Prejudice on a football field is a missed block with a long excuse.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59507,
+    "word": "absolute",
+    "definition": "Complete and unlimited.",
+    "example": "They ruled their universe with absolute power.",
+    "partOfSpeech": "adjective",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59508,
+    "word": "formation",
+    "definition": "An arranged order of players who depend on one another.",
+    "example": "A formation only works if every man accepts the job inside it.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59509,
+    "word": "disdain",
+    "definition": "The feeling that someone is beneath respect.",
+    "example": "Disdain for a teammate is how you lose before the snap.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "advanced",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 59510,
+    "word": "unison",
+    "definition": "Action at the same time, as one.",
+    "example": "You move in unison, or you are eleven strangers wearing the same shirt.",
+    "partOfSpeech": "noun",
+    "oratorId": 35,
+    "complexity": "intermediate",
+    "source": "Gettysburg and One Team",
+    "speech": "Gettysburg and One Team",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
   }
 ]

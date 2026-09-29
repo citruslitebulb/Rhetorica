@@ -274,5 +274,155 @@
       "humanities",
       "inspirational"
     ]
+  },
+  {
+    "id": 56801,
+    "word": "subjugate",
+    "definition": "To bring a people or a place under domination by force.",
+    "example": "If this Island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle.",
+    "partOfSpeech": "verb",
+    "oratorId": 8,
+    "complexity": "advanced",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56802,
+    "word": "liberation",
+    "definition": "The act of setting a people free.",
+    "example": "Until, in God's good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56803,
+    "word": "grievous",
+    "definition": "Causing great suffering; extremely serious.",
+    "example": "He told the House the ordeal would be grievous, and that Britain would fight on the beaches all the same.",
+    "partOfSpeech": "adjective",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56804,
+    "word": "commonwealth",
+    "definition": "A political community bound by shared law; here, the nations of the British Commonwealth.",
+    "example": "Even if the home island were lost for a time, the Commonwealth beyond the seas would carry the war forward.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56805,
+    "word": "inexorable",
+    "definition": "Impossible to stop or persuade; relentless.",
+    "example": "The inexorable advance across Europe, he warned, would be met on the beaches if it reached the Channel.",
+    "partOfSpeech": "adjective",
+    "oratorId": 8,
+    "complexity": "advanced",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56806,
+    "word": "tenacity",
+    "definition": "Firm persistence; the refusal to let go.",
+    "example": "Tenacity, not comfort, was the quality he asked of an island that might have to fight alone.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56807,
+    "word": "flotilla",
+    "definition": "A fleet of ships or boats operating together.",
+    "example": "Every flotilla that could cross the Channel, he said, would be answered from the shores and the streets.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56808,
+    "word": "beleaguer",
+    "definition": "To surround with hostile force; to beset on every side.",
+    "example": "Should the enemy beleaguer the island, the fight would move from the beaches to the landing grounds and the hills.",
+    "partOfSpeech": "verb",
+    "oratorId": 8,
+    "complexity": "advanced",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 56809,
+    "word": "predicament",
+    "definition": "A difficult, unpleasant situation from which escape is not obvious.",
+    "example": "He did not hide the predicament: invasion was possible, and surrender was not.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "intermediate",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56810,
+    "word": "buoyancy",
+    "definition": "Cheerful resilience; the capacity to stay afloat in spirit.",
+    "example": "A stern buoyancy ran under the promise that Britain would never surrender.",
+    "partOfSpeech": "noun",
+    "oratorId": 8,
+    "complexity": "advanced",
+    "source": "We Shall Fight on the Beaches",
+    "speech": "We Shall Fight on the Beaches",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
   }
 ]
