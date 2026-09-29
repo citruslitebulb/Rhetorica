@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "Google I/O Keynote on Moonshots",
     "speech": "Google I/O Keynote on Moonshots"
+  },
+  {
+    "id": 58401,
+    "word": "negativity",
+    "definition": "A habit of dismissing hard ideas before they are tried.",
+    "example": "Negativity, he told the room, is why so many people stop at the improvement that looks reasonable.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58402,
+    "word": "asymptotic",
+    "definition": "Approaching a limit more and more closely without a change of kind.",
+    "example": "Incremental gains go asymptotic; a moonshot is an attempt to change the curve itself.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58403,
+    "word": "combinatorial",
+    "definition": "Having to do with the vast number of ways elements can combine.",
+    "example": "Search is a combinatorial problem: the useful answer is one arrangement among an enormous number.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58404,
+    "word": "latency",
+    "definition": "The delay before a system responds.",
+    "example": "Latency is not a detail; it is the difference between a tool people live in and a tool they tolerate.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58405,
+    "word": "orthogonal",
+    "definition": "Independent of the current approach; not a variation on it.",
+    "example": "He looks for ideas that are orthogonal to the current product, not decorations on it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58406,
+    "word": "heuristic",
+    "definition": "A practical rule of thumb that finds a good answer without guaranteeing the best one.",
+    "example": "A heuristic that ranks the useful page above the merely popular one is the whole game.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58407,
+    "word": "prototype",
+    "definition": "An early working model built so an idea can fail in private.",
+    "example": "A prototype that embarrasses you is more honest than a slide that cannot fail.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58408,
+    "word": "scalable",
+    "definition": "Able to grow in reach without breaking.",
+    "example": "An idea is not finished until it is scalable past the team that invented it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58409,
+    "word": "iteration",
+    "definition": "One cycle of a repeated process of building and correcting.",
+    "example": "Iteration on a ten percent improvement will not get you a moonshot.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "intermediate",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58410,
+    "word": "corpus",
+    "definition": "A large body of texts or data gathered for study.",
+    "example": "The web is a corpus, and the work is to make that corpus answer a human question.",
+    "partOfSpeech": "noun",
+    "oratorId": 24,
+    "complexity": "advanced",
+    "source": "Google I/O Keynote on Moonshots",
+    "speech": "Google I/O Keynote on Moonshots",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

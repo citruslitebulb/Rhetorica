@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "The Lord of the Rings: The Fellowship of the Ring",
     "speech": "The Shadow of the Past"
+  },
+  {
+    "id": 58901,
+    "word": "counsel",
+    "definition": "Serious advice given at a hard moment.",
+    "example": "His counsel was never that the dark was small, only that we must still decide what to do with the time given.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58902,
+    "word": "perilous",
+    "definition": "Full of danger.",
+    "example": "The road is perilous, and that does not make the choosing of it less yours.",
+    "partOfSpeech": "adjective",
+    "oratorId": 29,
+    "complexity": "advanced",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58903,
+    "word": "dominion",
+    "definition": "Rule or mastery, especially power that seeks to own its bearer.",
+    "example": "He refused the dominion the Ring offered, because power that owns its bearer is already lost.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "advanced",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58904,
+    "word": "muster",
+    "definition": "To gather up, as courage or a company.",
+    "example": "Muster what courage you have left, he tells the small, and spend it on the next step.",
+    "partOfSpeech": "verb",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 58905,
+    "word": "plight",
+    "definition": "A serious and difficult situation.",
+    "example": "He does not mock the plight of the weak; he asks them not to abandon one another inside it.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58906,
+    "word": "wrath",
+    "definition": "Fierce anger.",
+    "example": "Wrath is a fire he has seen consume wiser beings than hobbits.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58907,
+    "word": "foresight",
+    "definition": "The ability to see what a present choice will cost later.",
+    "example": "Foresight showed him the shadow, and still he bet on mercy.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58908,
+    "word": "errand",
+    "definition": "A mission, often small in appearance and large in consequence.",
+    "example": "The errand is not glorious. It is necessary, and that is enough.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 58909,
+    "word": "baleful",
+    "definition": "Menacing; threatening harm.",
+    "example": "A baleful eye is not an argument you have to win. You have to keep walking.",
+    "partOfSpeech": "adjective",
+    "oratorId": 29,
+    "complexity": "advanced",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58910,
+    "word": "valor",
+    "definition": "Courage shown in danger.",
+    "example": "Valor, in his mouth, is not a noise. It is a small person who does not turn around.",
+    "partOfSpeech": "noun",
+    "oratorId": 29,
+    "complexity": "intermediate",
+    "source": "All We Have to Decide",
+    "speech": "All We Have to Decide",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

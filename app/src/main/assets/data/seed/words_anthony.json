@@ -244,5 +244,155 @@
       "democracy",
       "legacy", "inspirational"
     ]
+  },
+  {
+    "id": 60601,
+    "word": "preamble",
+    "definition": "The opening statement of a constitution that declares its purpose.",
+    "example": "The preamble of the Federal Constitution says: We, the people of the United States, in order to form a more perfect union.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60602,
+    "word": "tranquillity",
+    "definition": "Calm and public peace — the Constitution's own spelling of the aim.",
+    "example": "We, the people of the United States, in order to form a more perfect union, establish justice, insure domestic tranquillity.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60603,
+    "word": "indictment",
+    "definition": "A formal accusation of a crime.",
+    "example": "I stand before you tonight under indictment for the alleged crime of having voted at the last presidential election.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60604,
+    "word": "posterity",
+    "definition": "All future generations.",
+    "example": "The preamble secures the blessings of liberty to ourselves and our posterity — and she asked who was missing from that we.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60605,
+    "word": "enfranchise",
+    "definition": "To admit to the rights of citizenship, especially the vote.",
+    "example": "To enfranchise women, she argued, was not a favor. It was what We, the people already required.",
+    "partOfSpeech": "verb",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60606,
+    "word": "unconstitutional",
+    "definition": "Contrary to the constitution.",
+    "example": "A republic that taxes a woman and bars her vote is, by its own preamble, unconstitutional in spirit.",
+    "partOfSpeech": "adjective",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60607,
+    "word": "electorate",
+    "definition": "The body of people entitled to vote.",
+    "example": "The electorate she demanded was the people, not the male half of the people.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60608,
+    "word": "disenfranchise",
+    "definition": "To take away the right to vote.",
+    "example": "Laws that disenfranchise half the nation cannot claim the name of a republic.",
+    "partOfSpeech": "verb",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60609,
+    "word": "naturalization",
+    "definition": "The legal process of becoming a citizen.",
+    "example": "She asked whether naturalization and citizenship were real if the vote that defines them was closed to her.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "advanced",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60610,
+    "word": "rebellion",
+    "definition": "Open resistance to a government.",
+    "example": "Resistance to tyranny is obedience to God, she reminded them, and their fathers had once called that rebellion.",
+    "partOfSpeech": "noun",
+    "oratorId": 46,
+    "complexity": "intermediate",
+    "source": "On Women's Right to Vote",
+    "speech": "On Women's Right to Vote",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
   }
 ]

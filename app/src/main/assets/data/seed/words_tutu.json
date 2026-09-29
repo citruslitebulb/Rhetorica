@@ -267,5 +267,155 @@
       "humanities",
       "inspirational"
     ]
+  },
+  {
+    "id": 60901,
+    "word": "condone",
+    "definition": "To accept or overlook a wrong.",
+    "example": "Forgiveness does not mean you condone what has been done.",
+    "partOfSpeech": "verb",
+    "oratorId": 49,
+    "complexity": "advanced",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 60902,
+    "word": "alienate",
+    "definition": "To make someone feel cut off and no longer belonging.",
+    "example": "Differences are not intended to separate, to alienate.",
+    "partOfSpeech": "verb",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "Ubuntu",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 60903,
+    "word": "bystander",
+    "definition": "A person present at a wrong who does not act.",
+    "example": "The hot sun beats on the victim and on the bystander alike, but only one is on the crossroads of choice.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "On Ubuntu, Neutrality, and Hope",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60904,
+    "word": "restorative",
+    "definition": "Aimed at repairing harm rather than only punishing it.",
+    "example": "A restorative justice still tells the truth about the wound.",
+    "partOfSpeech": "adjective",
+    "oratorId": 49,
+    "complexity": "advanced",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60905,
+    "word": "perpetrator",
+    "definition": "A person who carries out a harmful act.",
+    "example": "The perpetrator and the wounded have to inhabit the same country the morning after the hearing.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 60906,
+    "word": "apartheid",
+    "definition": "The system of legal racial segregation enforced in South Africa.",
+    "example": "Apartheid was a lie about who counts as human, and ubuntu is the answer to that lie.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "On Ubuntu, Neutrality, and Hope",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60907,
+    "word": "impunity",
+    "definition": "Exemption from punishment.",
+    "example": "Impunity for the powerful is how a nation teaches the next cruelty.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "advanced",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60908,
+    "word": "transcend",
+    "definition": "To rise above a limit.",
+    "example": "We have to transcend the categories that told us the other was not our business.",
+    "partOfSpeech": "verb",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "On Ubuntu, Neutrality, and Hope",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60909,
+    "word": "minimize",
+    "definition": "To make something seem smaller or less serious than it is.",
+    "example": "Forgiveness means taking what happened seriously; it does not minimize the wound.",
+    "partOfSpeech": "verb",
+    "oratorId": 49,
+    "complexity": "intermediate",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 60910,
+    "word": "contrition",
+    "definition": "Sincere remorse for a wrong one has done.",
+    "example": "Contrition is not a press statement. It is a changed way of standing next to the person you harmed.",
+    "partOfSpeech": "noun",
+    "oratorId": 49,
+    "complexity": "advanced",
+    "source": "Truth and reconciliation",
+    "speech": "On Ubuntu, Neutrality, and Hope",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
   }
 ]

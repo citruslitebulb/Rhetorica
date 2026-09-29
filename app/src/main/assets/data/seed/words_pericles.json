@@ -238,5 +238,155 @@
     "source": "Funeral Oration",
     "speech": "Pericles' Funeral Oration (Thucydides)",
     "categories": ["legacy", "democracy", "humanities"]
+  },
+  {
+    "id": 56301,
+    "word": "extravagance",
+    "definition": "Lack of restraint in luxury or display.",
+    "example": "Our love of what is beautiful does not lead to extravagance; our love of the things of the mind does not make us soft.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56302,
+    "word": "imperishable",
+    "definition": "Enduring beyond decay; not subject to being forgotten.",
+    "example": "We have left behind us imperishable monuments of our power.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3,
+    "complexity": "advanced",
+    "source": "Funeral Oration",
+    "speech": "Pericles' Funeral Oration (Thucydides)",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56303,
+    "word": "notwithstanding",
+    "definition": "In spite of that; nevertheless.",
+    "example": "The bravest are surely those who have the clearest vision of what is before them, glory and danger alike, and yet notwithstanding go out to meet it.",
+    "partOfSpeech": "adverb",
+    "oratorId": 3,
+    "complexity": "advanced",
+    "source": "Funeral Oration",
+    "speech": "Pericles' Funeral Oration (Thucydides)",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56304,
+    "word": "sepulchre",
+    "definition": "A tomb; a place of burial and remembrance.",
+    "example": "For the whole earth is the sepulchre of famous men.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "advanced",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "legacy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56305,
+    "word": "epitaph",
+    "definition": "Words composed in memory of the dead.",
+    "example": "Their epitaphs are to be found not only in their own land but in foreign countries, not graven on stone but living in the hearts and minds of men.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Pericles' Funeral Oration (Thucydides)",
+    "categories": [
+      "legacy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56306,
+    "word": "illustrious",
+    "definition": "Widely known and deeply respected.",
+    "example": "The whole world is the sepulchre of illustrious men.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Pericles' Funeral Oration (Thucydides)",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56307,
+    "word": "obedience",
+    "definition": "Willing compliance with law and with authority the citizens themselves have set.",
+    "example": "We give our obedience to those whom we put in positions of authority, and we obey the laws themselves, especially those which are for the protection of the oppressed.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56308,
+    "word": "unwritten",
+    "definition": "Not set down in a code, yet binding as shared shame and custom.",
+    "example": "We obey the laws themselves, especially those which are for the protection of the oppressed, and those unwritten laws which it is an acknowledged shame to break.",
+    "partOfSpeech": "adjective",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56309,
+    "word": "goodwill",
+    "definition": "Friendly, reliable feeling toward others, shown in continued action.",
+    "example": "We want to keep alive the gratitude of those who are in our debt by showing continued goodwill to them.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "intermediate",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 56310,
+    "word": "forbearance",
+    "definition": "Patient self-control; restraint when one could strike.",
+    "example": "Forbearance toward rivals, Pericles argued, is a strength of a free city, not a softness in it.",
+    "partOfSpeech": "noun",
+    "oratorId": 3,
+    "complexity": "advanced",
+    "source": "Funeral Oration",
+    "speech": "Funeral Oration",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
   }
 ]

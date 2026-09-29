@@ -304,5 +304,155 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 57501,
+    "word": "cynicism",
+    "definition": "A distrust that assumes people act only from selfish motives.",
+    "example": "Where we are met with cynicism and doubt, and those who tell us that we can't, we will respond with that timeless creed that sums up the spirit of a people: Yes we can.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "advanced",
+    "source": "Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": [
+      "inspirational",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57502,
+    "word": "grievance",
+    "definition": "A real cause for complaint, held by a person or a group.",
+    "example": "It also means binding our particular grievances to the larger aspirations of all Americans.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "A More Perfect Union",
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 57503,
+    "word": "indifference",
+    "definition": "Absence of concern, especially toward suffering one could answer.",
+    "example": "We can no longer afford indifference to suffering outside our borders, nor can we consume the world's resources without regard to effect.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57504,
+    "word": "charter",
+    "definition": "A founding document that grants rights and limits power.",
+    "example": "Our Founding Fathers drafted a charter to assure the rule of law and the rights of man, a charter expanded by the blood of generations.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "First Inaugural Address",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57505,
+    "word": "beacon",
+    "definition": "A guiding light; a nation or idea that orients others.",
+    "example": "America stood as a beacon of freedom and opportunity to so many who had come before.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "Democratic National Convention Keynote",
+    "speech": "Democratic National Convention Keynote Address",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57506,
+    "word": "abolition",
+    "definition": "The official ending of a system, especially slavery.",
+    "example": "The long work of abolition was carried by people who whispered yes we can through the darkest nights.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "Yes We Can",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 57507,
+    "word": "disobedience",
+    "definition": "Refusal to obey, used as a tool of democratic pressure.",
+    "example": "What would be needed were Americans willing to do their part — through protests and struggle, through a civil war and civil disobedience, and always at great risk.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "A More Perfect Union",
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 57508,
+    "word": "galvanize",
+    "definition": "To shock or stir people into action.",
+    "example": "He tried to galvanize a country that had been told, year after year, that nothing could change.",
+    "partOfSpeech": "verb",
+    "oratorId": 15,
+    "complexity": "advanced",
+    "source": "Yes We Can",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57509,
+    "word": "plurality",
+    "definition": "The condition of many groups sharing one political community; also the largest share short of a majority.",
+    "example": "A plurality of Americans, not a single tribe, was the country he asked to finish the unfinished work.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "advanced",
+    "source": "A More Perfect Union",
+    "speech": "A More Perfect Union (Philadelphia)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57510,
+    "word": "affirmation",
+    "definition": "A public declaration that something is true and worth holding.",
+    "example": "Yes we can was an affirmation for people who had been told, often enough, that they could not.",
+    "partOfSpeech": "noun",
+    "oratorId": 15,
+    "complexity": "intermediate",
+    "source": "Yes We Can",
+    "speech": "New Hampshire Primary Concession / 'Yes We Can' speech",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
   }
 ]

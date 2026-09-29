@@ -247,5 +247,155 @@
       "democracy",
       "legacy"
     ]
+  },
+  {
+    "id": 60201,
+    "word": "interposition",
+    "definition": "An intervening appeal, here to the crown to stop its own ministers.",
+    "example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament.",
+    "partOfSpeech": "noun",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60202,
+    "word": "remonstrate",
+    "definition": "To protest earnestly; to argue against a wrong.",
+    "example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament.",
+    "partOfSpeech": "verb",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60203,
+    "word": "prostrate",
+    "definition": "To cast oneself down in submission.",
+    "example": "We have petitioned; we have remonstrated; we have supplicated; we have prostrated ourselves before the throne, and have implored its interposition to arrest the tyrannical hands of the ministry and Parliament.",
+    "partOfSpeech": "verb",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60204,
+    "word": "tyrannical",
+    "definition": "Exercising power in a cruel, oppressive way.",
+    "example": "We have implored its interposition to arrest the tyrannical hands of the ministry and Parliament.",
+    "partOfSpeech": "adjective",
+    "oratorId": 42,
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60205,
+    "word": "remonstrance",
+    "definition": "A formal protest.",
+    "example": "Our petitions have been slighted; our remonstrances have produced additional violence and insult; our supplications have been disregarded.",
+    "partOfSpeech": "noun",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60206,
+    "word": "disregard",
+    "definition": "To ignore deliberately.",
+    "example": "Our petitions have been slighted; our remonstrances have produced additional violence and insult; our supplications have been disregarded.",
+    "partOfSpeech": "verb",
+    "oratorId": 42,
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60207,
+    "word": "reconciliation",
+    "definition": "The restoring of friendly relations.",
+    "example": "Are fleets and armies necessary to a work of love and reconciliation?",
+    "partOfSpeech": "noun",
+    "oratorId": 42,
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60208,
+    "word": "insidious",
+    "definition": "Spreading harm in a subtle, gradual way.",
+    "example": "He warned that the ministry's insidious smile was more dangerous than an open threat of chains.",
+    "partOfSpeech": "adjective",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60209,
+    "word": "formidable",
+    "definition": "Inspiring fear by its power.",
+    "example": "A formidable fleet, he said, is not sent to reconcile with a free people.",
+    "partOfSpeech": "adjective",
+    "oratorId": 42,
+    "complexity": "intermediate",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60210,
+    "word": "delusive",
+    "definition": "Tending to deceive; based on a false hope.",
+    "example": "Hope that fleets are sent in love is a delusive hope.",
+    "partOfSpeech": "adjective",
+    "oratorId": 42,
+    "complexity": "advanced",
+    "source": "Give Me Liberty or Give Me Death",
+    "speech": "Give Me Liberty or Give Me Death",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
   }
 ]

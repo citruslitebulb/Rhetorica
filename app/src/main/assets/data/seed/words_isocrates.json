@@ -311,5 +311,155 @@
       "inspirational",
       "humanities"
     ]
+  },
+  {
+    "id": 56401,
+    "word": "compensate",
+    "definition": "To make up for a lack or a loss.",
+    "example": "A good orator must first be a good man; no amount of technical skill can compensate for a corrupt character.",
+    "partOfSpeech": "verb",
+    "oratorId": 4,
+    "complexity": "intermediate",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56402,
+    "word": "counsel",
+    "definition": "Serious advice offered for the good of another or of the city.",
+    "example": "Wise counsel, Isocrates taught, honors a city more than a string of victories.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "intermediate",
+    "source": "To Nicocles",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 56403,
+    "word": "distinction",
+    "definition": "A difference that marks one thing as separate or superior.",
+    "example": "The power of speech is the chief distinction between humans and animals, and the most successful means of achieving human cooperation.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "intermediate",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56404,
+    "word": "overbearing",
+    "definition": "Arrogant and domineering.",
+    "example": "We should not call those men happy who are proud and overbearing, but those who, while possessing the greatest goods, think modestly of themselves.",
+    "partOfSpeech": "adjective",
+    "oratorId": 4,
+    "complexity": "intermediate",
+    "source": "Panegyricus",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56405,
+    "word": "erudition",
+    "definition": "Deep, wide learning.",
+    "example": "Erudition without character, he warned his students, is only a sharper tool for fraud.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "advanced",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56406,
+    "word": "precept",
+    "definition": "A general rule meant to guide conduct.",
+    "example": "A precept of his school was that the orator must first be a good man.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "intermediate",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56407,
+    "word": "exhortation",
+    "definition": "A speech that urges people toward a moral action.",
+    "example": "Moral exhortation, not the tricks of sophists, was the work he claimed for rhetoric.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "advanced",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56408,
+    "word": "probity",
+    "definition": "Complete honesty and uprightness.",
+    "example": "Probity, Isocrates held, is the only foundation on which persuasion deserves to stand.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "advanced",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 56409,
+    "word": "casuistry",
+    "definition": "Clever reasoning about right and wrong that hides a false conclusion.",
+    "example": "He dismissed casuistry that could make any crime sound like a public service.",
+    "partOfSpeech": "noun",
+    "oratorId": 4,
+    "complexity": "advanced",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 56410,
+    "word": "specious",
+    "definition": "Seeming plausible while actually wrong.",
+    "example": "A specious argument may win a hearing, he said, and still betray the city that believes it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 4,
+    "complexity": "advanced",
+    "source": "Antidosis",
+    "speech": "Antidosis (defense of his teaching)",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
   }
 ]

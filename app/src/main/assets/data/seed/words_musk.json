@@ -261,5 +261,155 @@
       "tech",
       "courage"
     ]
+  },
+  {
+    "id": 58201,
+    "word": "propellant",
+    "definition": "The substance burned to drive a rocket.",
+    "example": "You need to be able to produce propellant on the surface of Mars.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58202,
+    "word": "probability",
+    "definition": "The likelihood that a possible thing will actually happen.",
+    "example": "The first step is to establish that something is possible; then probability will occur.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58203,
+    "word": "sustainable",
+    "definition": "Able to continue without exhausting the resources it depends on.",
+    "example": "The goal is to accelerate the world's transition to sustainable energy.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Tesla Energy and the Future",
+    "speech": "Tesla Energy and the Future",
+    "categories": [
+      "tech",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58204,
+    "word": "self-sustaining",
+    "definition": "Able to continue by its own resources, without resupply.",
+    "example": "The thing that makes a city on Mars possible is that it is self-sustaining.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58205,
+    "word": "existential",
+    "definition": "Concerning existence itself; threatening survival.",
+    "example": "He frames extinction risk as existential, not as a branding exercise.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58206,
+    "word": "thermodynamics",
+    "definition": "The physics of heat, energy, and work, which sets hard limits on machines.",
+    "example": "Thermodynamics, not a press release, sets the limit on what a rocket or a battery can do.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58207,
+    "word": "redundancy",
+    "definition": "Extra components included so a system survives a single failure.",
+    "example": "Redundancy in life support is not waste; it is how a crew survives when one part fails.",
+    "partOfSpeech": "noun",
+    "oratorId": 22,
+    "complexity": "intermediate",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58208,
+    "word": "exponential",
+    "definition": "Growing at a rate that accelerates with its own size.",
+    "example": "An exponential drop in launch cost, he argues, is what makes a multiplanetary species more than a slogan.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58209,
+    "word": "anthropogenic",
+    "definition": "Caused by human activity.",
+    "example": "Anthropogenic warming, he has argued, will not be solved by slower speeches but by faster energy technology.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Tesla Energy and the Future",
+    "speech": "Tesla Energy and the Future",
+    "categories": [
+      "tech",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58210,
+    "word": "infeasible",
+    "definition": "Not possible to carry out.",
+    "example": "A plan that violates physics is infeasible, however inspiring the rendering.",
+    "partOfSpeech": "adjective",
+    "oratorId": 22,
+    "complexity": "advanced",
+    "source": "Making Life Multiplanetary",
+    "speech": "Making Life Multiplanetary",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

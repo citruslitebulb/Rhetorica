@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "Spider-Man (2002)",
     "speech": "Uncle Ben's Final Lesson"
+  },
+  {
+    "id": 58701,
+    "word": "obligation",
+    "definition": "A moral duty one is bound to meet.",
+    "example": "If you could do good things for other people, you had a moral obligation to do those things.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "intermediate",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58702,
+    "word": "stewardship",
+    "definition": "The careful charge of something entrusted to you for others.",
+    "example": "Stewardship is what power becomes when you remember it was never only yours.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58703,
+    "word": "fiduciary",
+    "definition": "Held in trust, with a duty to act for someone else's good.",
+    "example": "Power is a fiduciary duty: you hold it for people who will live with your choices.",
+    "partOfSpeech": "adjective",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58704,
+    "word": "commensurate",
+    "definition": "Corresponding in degree; equal in measure to something else.",
+    "example": "The weight of the duty is commensurate with the power, not with your comfort.",
+    "partOfSpeech": "adjective",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 58705,
+    "word": "onus",
+    "definition": "A burden of responsibility that rests on a particular person.",
+    "example": "The onus does not leave because the choice is hard; that is when it arrives.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 58706,
+    "word": "prudence",
+    "definition": "Practical wisdom that looks ahead to who might be hurt.",
+    "example": "Prudence is not hiding; it is thinking about who gets hurt if you are wrong.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "intermediate",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58707,
+    "word": "irrevocable",
+    "definition": "Impossible to take back.",
+    "example": "Some choices are irrevocable, and those are the ones that reveal what you are for.",
+    "partOfSpeech": "adjective",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58708,
+    "word": "admonition",
+    "definition": "A firm warning meant to correct a course.",
+    "example": "His admonition was short because the boy did not need a speech; he needed a standard.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 58709,
+    "word": "custodial",
+    "definition": "Relating to guardianship; holding something for its true owner.",
+    "example": "Great power is custodial. You keep it so other people can live.",
+    "partOfSpeech": "adjective",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58710,
+    "word": "corollary",
+    "definition": "A consequence that follows directly from a principle already accepted.",
+    "example": "The corollary of great power is not glory. It is the obligation to use it carefully.",
+    "partOfSpeech": "noun",
+    "oratorId": 27,
+    "complexity": "advanced",
+    "source": "Uncle Ben's Final Lesson",
+    "speech": "Uncle Ben's Final Lesson",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
   }
 ]

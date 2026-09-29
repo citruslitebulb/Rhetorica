@@ -355,5 +355,155 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 57001,
+    "word": "beachhead",
+    "definition": "A foothold won in hostile ground, from which a larger effort can advance.",
+    "example": "If a beachhead of cooperation may push back the jungle of suspicion, let both sides join in creating a new endeavor.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57002,
+    "word": "eradicate",
+    "definition": "To destroy completely; to root out.",
+    "example": "Together let us explore the stars, conquer the deserts, eradicate disease, tap the ocean depths, and encourage the arts and commerce.",
+    "partOfSpeech": "verb",
+    "oratorId": 10,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57003,
+    "word": "forebears",
+    "definition": "Ancestors; those who came before and laid a charge on the living.",
+    "example": "I have sworn before you and Almighty God the same solemn oath our forebears prescribed nearly a century and three-quarters ago.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57004,
+    "word": "invective",
+    "definition": "Harsh, abusive language used as a weapon.",
+    "example": "We renew our pledge of support — to prevent it from becoming merely a forum for invective.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "advanced",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57005,
+    "word": "hemisphere",
+    "definition": "Half of the globe; here, the Americas as a political home.",
+    "example": "Let every other power know that this hemisphere intends to remain the master of its own house.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57006,
+    "word": "endeavor",
+    "definition": "A serious, determined effort.",
+    "example": "The energy, the faith, the devotion which we bring to this endeavor will light our country and all who serve it.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57007,
+    "word": "adversary",
+    "definition": "An opponent in a conflict.",
+    "example": "To those nations who would make themselves our adversary, we offer not a pledge but a request: that both sides begin anew the quest for peace.",
+    "partOfSpeech": "noun",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57008,
+    "word": "sovereign",
+    "definition": "Possessing supreme, independent authority.",
+    "example": "To that world assembly of sovereign states, the United Nations, our last best hope in an age where the instruments of war have far outpaced the instruments of peace.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57009,
+    "word": "solemn",
+    "definition": "Formal, grave, and binding.",
+    "example": "I have sworn before you and Almighty God the same solemn oath our forebears prescribed nearly a century and three-quarters ago.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "legacy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57010,
+    "word": "disciplined",
+    "definition": "Trained to a hard standard; under control.",
+    "example": "Let the word go forth that the torch has been passed to a new generation of Americans — tempered by war, disciplined by a hard and bitter peace.",
+    "partOfSpeech": "adjective",
+    "oratorId": 10,
+    "complexity": "intermediate",
+    "source": "Inaugural Address",
+    "speech": "Inaugural Address",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
   }
 ]

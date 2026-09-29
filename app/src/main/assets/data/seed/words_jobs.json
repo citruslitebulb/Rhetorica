@@ -206,5 +206,155 @@
       "democracy",
       "inspirational"
     ]
+  },
+  {
+    "id": 57901,
+    "word": "calligraphy",
+    "definition": "The art of beautiful handwriting.",
+    "example": "Reed College at that time offered perhaps the best calligraphy instruction in the country.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57902,
+    "word": "typography",
+    "definition": "The art and technique of arranging type.",
+    "example": "I learned about serif and sans serif typefaces, about varying the space between letters, about what makes great typography great.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57903,
+    "word": "priceless",
+    "definition": "So valuable that no price can measure it.",
+    "example": "Much of what I stumbled into by following my curiosity and intuition turned out to be priceless later on.",
+    "partOfSpeech": "adjective",
+    "oratorId": 19,
+    "complexity": "intermediate",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57904,
+    "word": "disparate",
+    "definition": "Essentially different; not obviously connected.",
+    "example": "He told the graduates to trust the disparate dots of a life, because they connect only in looking back.",
+    "partOfSpeech": "adjective",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57905,
+    "word": "visceral",
+    "definition": "Felt in the body before it can be explained.",
+    "example": "A great product, he said, has to be visceral — you feel the rightness before you can argue for it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57906,
+    "word": "posthumous",
+    "definition": "Coming after death.",
+    "example": "Stay hungry, stay foolish reached him as posthumous counsel from the Whole Earth Catalog, and he passed it on.",
+    "partOfSpeech": "adjective",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57907,
+    "word": "paradigm",
+    "definition": "A dominant model of how something is supposed to work.",
+    "example": "He wanted to break the paradigm that computers belonged to institutions and not to people.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57908,
+    "word": "synthesis",
+    "definition": "The combining of separate things into a working whole.",
+    "example": "Technology alone was not enough; the synthesis of technology and the liberal arts was what made the work human.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57909,
+    "word": "iterative",
+    "definition": "Done by repeated cycles of trial and refinement.",
+    "example": "Design, he insisted, is iterative: you polish until the thing feels inevitable.",
+    "partOfSpeech": "adjective",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57910,
+    "word": "zeitgeist",
+    "definition": "The defining spirit of a particular time.",
+    "example": "He had a feel for the zeitgeist, and a harder talent for arriving before it had a name.",
+    "partOfSpeech": "noun",
+    "oratorId": 19,
+    "complexity": "advanced",
+    "source": "Stanford Commencement Address",
+    "speech": "Stanford Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

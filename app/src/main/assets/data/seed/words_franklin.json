@@ -277,5 +277,155 @@
       "humanities",
       "inspirational"
     ]
+  },
+  {
+    "id": 60701,
+    "word": "despotism",
+    "definition": "Absolute power used without the consent of the governed.",
+    "example": "This government can only end in despotism, as other forms have done before it, when the people shall become so corrupted as to need despotic government.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "advanced",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60702,
+    "word": "despotic",
+    "definition": "Characteristic of a despot; tyrannical.",
+    "example": "It can only end in despotism when the people shall become so corrupted as to need despotic government, being incapable of any other.",
+    "partOfSpeech": "adjective",
+    "oratorId": 47,
+    "complexity": "advanced",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60703,
+    "word": "unanimity",
+    "definition": "Complete agreement.",
+    "example": "Doubt a little of your own infallibility, and to make manifest our unanimity, put your name to this instrument.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "advanced",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60704,
+    "word": "prejudice",
+    "definition": "A preconceived opinion, often stubborn and local.",
+    "example": "When you assemble a number of men to have the advantage of their joint wisdom, you inevitably assemble with those men all their prejudices.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60705,
+    "word": "inevitably",
+    "definition": "As a thing that cannot be avoided.",
+    "example": "You inevitably assemble with those men all their prejudices, their passions, their errors of opinion, their local interests, and their selfish views.",
+    "partOfSpeech": "adverb",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60706,
+    "word": "prudence",
+    "definition": "Careful good sense about what one can actually know.",
+    "example": "He asked the Convention for a little prudence about its own infallibility.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60707,
+    "word": "maxim",
+    "definition": "A short statement of a general truth.",
+    "example": "A maxim is useful only if you are willing to live inside it on an ordinary Tuesday.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Poor Richard",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60708,
+    "word": "temperance",
+    "definition": "Moderation in appetite and conduct.",
+    "example": "Temperance was one of the virtues he charted for himself, and one he kept having to begin again.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Poor Richard",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60709,
+    "word": "ingenuity",
+    "definition": "Clever inventiveness.",
+    "example": "Ingenuity in a constitution, he suggested, matters less than a people willing to keep it.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "intermediate",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60710,
+    "word": "dissension",
+    "definition": "Disagreement that threatens to pull a body apart.",
+    "example": "Dissension in the Convention was not a failure. It was the evidence that free men were in the room.",
+    "partOfSpeech": "noun",
+    "oratorId": 47,
+    "complexity": "advanced",
+    "source": "Closing Speech at the Constitutional Convention",
+    "speech": "Closing Speech at the Constitutional Convention",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
   }
 ]

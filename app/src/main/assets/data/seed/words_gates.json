@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "Harvard University Commencement Address",
     "speech": "Harvard Commencement Address"
+  },
+  {
+    "id": 58001,
+    "word": "inequities",
+    "definition": "Unfair differences in health, wealth, or opportunity.",
+    "example": "I left Harvard with no real awareness of the awful inequities in the world — the appalling disparities of health, and wealth, and opportunity.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58002,
+    "word": "appalling",
+    "definition": "Causing shock and dismay.",
+    "example": "The appalling disparities of health, and wealth, and opportunity condemn millions of people to lives of despair.",
+    "partOfSpeech": "adjective",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58003,
+    "word": "pessimism",
+    "definition": "The habit of expecting failure, treated here as a moral fault.",
+    "example": "He told the graduates that pessimism about disease and poverty is a moral failure we can no longer afford.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58004,
+    "word": "preventable",
+    "definition": "Able to be stopped before it happens.",
+    "example": "These innovations give us a chance we've never had before to end extreme poverty and end death from preventable disease.",
+    "partOfSpeech": "adjective",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58005,
+    "word": "revolting",
+    "definition": "Causing intense moral disgust.",
+    "example": "If you believe that every life has equal value, it's revolting to learn that some lives are seen as worth saving and others are not.",
+    "partOfSpeech": "adjective",
+    "oratorId": 20,
+    "complexity": "intermediate",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58006,
+    "word": "eradication",
+    "definition": "Complete elimination, especially of a disease.",
+    "example": "Eradication of a disease, he argued, is a moral project as much as a scientific one.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58007,
+    "word": "morbidity",
+    "definition": "The presence or rate of disease in a population.",
+    "example": "Cutting morbidity, not only counting deaths, was how he asked the world to measure progress.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58008,
+    "word": "efficacy",
+    "definition": "The power to produce the result that was intended.",
+    "example": "A vaccine's efficacy means nothing, he said, if it never reaches the child.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58009,
+    "word": "catalytic",
+    "definition": "Causing or speeding a change that would not otherwise start.",
+    "example": "Philanthropy should be catalytic: it takes risks that markets and governments will not.",
+    "partOfSpeech": "adjective",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 58010,
+    "word": "empiricism",
+    "definition": "Reliance on observed evidence rather than on hope alone.",
+    "example": "Empiricism, not hope alone, had to guide where the next dollar against disease would go.",
+    "partOfSpeech": "noun",
+    "oratorId": 20,
+    "complexity": "advanced",
+    "source": "Harvard Commencement Address",
+    "speech": "Harvard Commencement Address",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
   }
 ]

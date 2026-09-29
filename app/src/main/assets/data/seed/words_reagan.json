@@ -265,5 +265,155 @@
       "humanities",
       "leadership"
     ]
+  },
+  {
+    "id": 60001,
+    "word": "embodiment",
+    "definition": "A concrete expression of an idea or quality.",
+    "example": "As I looked out a moment ago from the Reichstag, that embodiment of German unity, I noticed words crudely spray-painted upon the wall.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "advanced",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60002,
+    "word": "withstand",
+    "definition": "To resist successfully.",
+    "example": "For it cannot withstand faith; it cannot withstand truth.",
+    "partOfSpeech": "verb",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60003,
+    "word": "bloodstream",
+    "definition": "The blood circulating through the body; figuratively, an automatic inheritance.",
+    "example": "Freedom is never more than one generation away from extinction. We didn't pass it to our children in the bloodstream.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "On freedom's inheritance",
+    "speech": "First Inaugural Address",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
+  },
+  {
+    "id": 60004,
+    "word": "temptation",
+    "definition": "A pull toward the easier, worse choice.",
+    "example": "The temptation to buy peace with silence, he said at the wall, is how a free city becomes a memory.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60005,
+    "word": "proliferation",
+    "definition": "Rapid spread, especially of weapons.",
+    "example": "He treated nuclear proliferation as a reason to negotiate from strength, not as a reason to pretend.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "advanced",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60006,
+    "word": "bastion",
+    "definition": "A stronghold that defends a position.",
+    "example": "The wall was not a bastion of peace. It was a confession.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "advanced",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60007,
+    "word": "impulses",
+    "definition": "Sudden drives that push action before judgment.",
+    "example": "The impulses of a state that walls its own people in cannot be trusted with the last word.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60008,
+    "word": "infirm",
+    "definition": "Weak; not firm.",
+    "example": "An infirm resolve in the face of a wall only teaches the wall that it will last.",
+    "partOfSpeech": "adjective",
+    "oratorId": 40,
+    "complexity": "advanced",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60009,
+    "word": "resolute",
+    "definition": "Admirably firm in purpose.",
+    "example": "Be resolute: the wall cannot withstand truth if the people on this side refuse to look away.",
+    "partOfSpeech": "adjective",
+    "oratorId": 40,
+    "complexity": "intermediate",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60010,
+    "word": "brinkmanship",
+    "definition": "The practice of pushing a dangerous dispute to the edge.",
+    "example": "Brinkmanship without a moral aim, he believed, is just a dare with worse odds.",
+    "partOfSpeech": "noun",
+    "oratorId": 40,
+    "complexity": "advanced",
+    "source": "Tear Down This Wall",
+    "speech": "Tear Down This Wall",
+    "categories": [
+      "leadership",
+      "democracy"
+    ]
   }
 ]

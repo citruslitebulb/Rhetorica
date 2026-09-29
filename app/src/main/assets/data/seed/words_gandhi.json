@@ -354,5 +354,155 @@
       "courage",
       "leadership"
     ]
+  },
+  {
+    "id": 57301,
+    "word": "perpetuation",
+    "definition": "The act of making something continue, especially something that should end.",
+    "example": "We shall either free India or die in the attempt; we shall not live to see the perpetuation of our slavery.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
+  },
+  {
+    "id": 57302,
+    "word": "cowardice",
+    "definition": "Lack of courage; a shrinking from necessary risk.",
+    "example": "Non-violence is not a cover for cowardice, but it is the supreme virtue of the brave.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "intermediate",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57303,
+    "word": "non-violence",
+    "definition": "The disciplined refusal to harm, used as a means of resistance.",
+    "example": "Non-violence is not a cover for cowardice, but it is the supreme virtue of the brave.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "intermediate",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57304,
+    "word": "indomitable",
+    "definition": "Impossible to subdue or defeat.",
+    "example": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "partOfSpeech": "adjective",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "On satyagraha",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 57305,
+    "word": "disobedience",
+    "definition": "Refusal to obey an unjust command, offered as a civic duty.",
+    "example": "Civil disobedience, he taught, is the duty of a people asked to cooperate with their own subjection.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "intermediate",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 57306,
+    "word": "renunciation",
+    "definition": "The deliberate giving up of a claim, a comfort, or a method.",
+    "example": "Renunciation of violence, not of courage, was the discipline he asked of India.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "legacy"
+    ]
+  },
+  {
+    "id": 57307,
+    "word": "steadfast",
+    "definition": "Firm and unwavering.",
+    "example": "Be steadfast, he told the movement: do or die, and do not live to see slavery prolonged.",
+    "partOfSpeech": "adjective",
+    "oratorId": 13,
+    "complexity": "intermediate",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57308,
+    "word": "ascetic",
+    "definition": "Practicing severe self-discipline and abstinence.",
+    "example": "The ascetic life he chose was not an escape from politics but a training for it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "On satyagraha",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 57309,
+    "word": "redress",
+    "definition": "A remedy that sets a wrong right.",
+    "example": "Quit India was a demand for redress, not a plea for favor.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "advanced",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 57310,
+    "word": "boycott",
+    "definition": "A collective refusal to buy, use, or deal, offered as protest.",
+    "example": "A boycott of foreign cloth, he argued, was a moral act as well as an economic one.",
+    "partOfSpeech": "noun",
+    "oratorId": 13,
+    "complexity": "intermediate",
+    "source": "Quit India",
+    "speech": "Quit India (excerpt themes)",
+    "categories": [
+      "democracy",
+      "legacy"
+    ]
   }
 ]

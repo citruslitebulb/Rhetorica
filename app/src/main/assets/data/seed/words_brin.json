@@ -190,5 +190,155 @@
     "categories": ["leadership", "humanities"],
     "source": "Talks on mission and ambition",
     "speech": "Big Problems Philosophy"
+  },
+  {
+    "id": 58501,
+    "word": "accessible",
+    "definition": "Able to be reached and used.",
+    "example": "We are focused on making the world's information accessible and useful.",
+    "partOfSpeech": "adjective",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58502,
+    "word": "searchable",
+    "definition": "Organized so that it can be searched.",
+    "example": "That means organizing it, making it searchable, and making sure anyone, anywhere can get to it instantly.",
+    "partOfSpeech": "adjective",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58503,
+    "word": "algorithm",
+    "definition": "A precise procedure for solving a problem or ranking results.",
+    "example": "An algorithm that cannot explain its bias is not a neutral window on the world.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58504,
+    "word": "provenance",
+    "definition": "The origin and history of a source.",
+    "example": "Provenance of a source matters as much as the speed of the result.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58505,
+    "word": "ubiquitous",
+    "definition": "Present everywhere.",
+    "example": "Information can be ubiquitous, and the work is to make that true without making it shallow.",
+    "partOfSpeech": "adjective",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58506,
+    "word": "relevance",
+    "definition": "The quality of bearing directly on what was asked.",
+    "example": "Relevance is the quiet promise: the first result should be the one you actually needed.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58507,
+    "word": "repository",
+    "definition": "A place where a great store of things is kept and can be found.",
+    "example": "The web is a repository no single library could have built, and it still needs a key.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "intermediate",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58508,
+    "word": "anomaly",
+    "definition": "Something that departs from the expected pattern.",
+    "example": "An anomaly in the data is often the beginning of a better question.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58509,
+    "word": "redistribution",
+    "definition": "A new distribution of something that had been concentrated.",
+    "example": "Technology that only concentrates knowledge will force a harsher redistribution later.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
+  },
+  {
+    "id": 58510,
+    "word": "inference",
+    "definition": "A conclusion drawn from evidence rather than stated outright.",
+    "example": "Search is an inference about what a person meant, not a photocopy of the web.",
+    "partOfSpeech": "noun",
+    "oratorId": 25,
+    "complexity": "advanced",
+    "source": "On Organizing the World's Information",
+    "speech": "On Organizing the World's Information",
+    "categories": [
+      "tech",
+      "democracy"
+    ]
   }
 ]

@@ -222,5 +222,155 @@
       "humanities",
       "legacy"
     ]
+  },
+  {
+    "id": 58801,
+    "word": "ataraxia",
+    "definition": "A settled calm; freedom from being thrown about by events.",
+    "example": "Ataraxia is not numbness; it is a mind that has stopped arguing with what it cannot command.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58802,
+    "word": "apatheia",
+    "definition": "In Stoic teaching, freedom from passions that overthrow reason.",
+    "example": "Apatheia does not mean you feel nothing. It means feeling is no longer your master.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58803,
+    "word": "prohairesis",
+    "definition": "The Stoic faculty of moral choice, the will that judges what appears.",
+    "example": "Prohairesis — the choice that is yours — is the only kingdom he tells you to govern.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58804,
+    "word": "assent",
+    "definition": "The mind's agreement to an impression, which makes it yours.",
+    "example": "Do not give assent to the first story your anger tells you.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58805,
+    "word": "dichotomy",
+    "definition": "A division into two opposed kinds; here, what is up to you and what is not.",
+    "example": "The dichotomy is simple and severe: some things are up to you, and the rest are not.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58806,
+    "word": "externals",
+    "definition": "Things outside one's moral control, such as reputation, health, and the acts of others.",
+    "example": "Externals can be taken. Your response to them cannot, unless you hand it over.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58807,
+    "word": "perception",
+    "definition": "The way the mind takes an event, which is where freedom begins.",
+    "example": "Change the perception, he writes, and you have changed the only thing you can actually change.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "intermediate",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58808,
+    "word": "disquiet",
+    "definition": "Inner unease that signals a judgment still unexamined.",
+    "example": "Disquiet is a signal to examine a judgment, not an order to obey it.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 58809,
+    "word": "impression",
+    "definition": "An appearance presented to the mind before one has judged it.",
+    "example": "An impression is not yet a fact. Wait, and see what it is before you suffer it.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "intermediate",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 58810,
+    "word": "providence",
+    "definition": "A rational or divine order within which one still must do one's duty.",
+    "example": "To accept providence is not to call every loss good. It is to do your part inside what arrives.",
+    "partOfSpeech": "noun",
+    "oratorId": 28,
+    "complexity": "advanced",
+    "source": "Meditations",
+    "speech": "You Have Power Over Your Mind",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
   }
 ]

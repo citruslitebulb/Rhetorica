@@ -237,5 +237,200 @@
     ],
     "source": "Miracle (2004)",
     "speech": "This Is Your Time"
+  },
+  {
+    "id": 59401,
+    "word": "sophisticated",
+    "definition": "Worldly and clever — here, too clever to admit a dream.",
+    "example": "We grew up as kids having dreams, but now we're too sophisticated as adults.",
+    "partOfSpeech": "adjective",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59402,
+    "word": "crucible",
+    "definition": "A severe test that changes the people who pass through it.",
+    "example": "Tonight is a crucible. You do not get a quieter one later.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "advanced",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59403,
+    "word": "pedigree",
+    "definition": "A distinguished background that is supposed to predict the result.",
+    "example": "Pedigree did not skate onto this ice. You did.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59404,
+    "word": "exhort",
+    "definition": "To urge strongly.",
+    "example": "He would exhort them once, and then the game had to do the talking.",
+    "partOfSpeech": "verb",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59405,
+    "word": "dynasty",
+    "definition": "A line of dominance; a team expected to keep winning.",
+    "example": "The dynasty on the other bench had never been told it could lose.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59406,
+    "word": "tactical",
+    "definition": "Concerned with the planned means of winning.",
+    "example": "Tactical discipline was the whole sermon: play our game, not theirs.",
+    "partOfSpeech": "adjective",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 59407,
+    "word": "collective",
+    "definition": "A group acting as one body.",
+    "example": "The collective, not the star, was the only advantage he claimed.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59408,
+    "word": "improbable",
+    "definition": "Unlikely enough that experts have already counted it out.",
+    "example": "An improbable win still has to be skated, shift by shift.",
+    "partOfSpeech": "adjective",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 59409,
+    "word": "ferocity",
+    "definition": "Fierce intensity.",
+    "example": "Ferocity without a system is just noise. He wanted both.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59410,
+    "word": "intimidate",
+    "definition": "To frighten someone into shrinking.",
+    "example": "Do not let their reputation intimidate you. Reputation does not play the third period.",
+    "partOfSpeech": "verb",
+    "oratorId": 34,
+    "complexity": "intermediate",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59411,
+    "word": "insurmountable",
+    "definition": "Impossible to overcome.",
+    "example": "He would not call the other bench insurmountable. He called them tonight's opponent.",
+    "partOfSpeech": "adjective",
+    "oratorId": 34,
+    "complexity": "advanced",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59412,
+    "word": "onslaught",
+    "definition": "A fierce, overwhelming attack.",
+    "example": "The onslaught of their top line was the test, not an excuse to abandon the system.",
+    "partOfSpeech": "noun",
+    "oratorId": 34,
+    "complexity": "advanced",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 59413,
+    "word": "unflinching",
+    "definition": "Not shrinking or hesitating under pressure.",
+    "example": "Unflinching shifts, not speeches, were what he trusted when the third period arrived.",
+    "partOfSpeech": "adjective",
+    "oratorId": 34,
+    "complexity": "advanced",
+    "source": "This Is Your Time",
+    "speech": "This Is Your Time",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
   }
 ]

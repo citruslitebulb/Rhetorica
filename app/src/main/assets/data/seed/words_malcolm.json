@@ -263,5 +263,155 @@
       "humanities",
       "democracy"
     ]
+  },
+  {
+    "id": 60801,
+    "word": "demagogue",
+    "definition": "A leader who wins power by inflaming prejudice and desire.",
+    "example": "He warned that a demagogue with a ballot still has to be answered, not worshipped.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60802,
+    "word": "grassroots",
+    "definition": "Coming from ordinary people rather than from officials.",
+    "example": "Grassroots organizing, he said, is how a community stops waiting to be saved.",
+    "partOfSpeech": "adjective",
+    "oratorId": 48,
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60803,
+    "word": "coalition",
+    "definition": "An alliance of groups for a shared political aim.",
+    "example": "A coalition that cannot agree on the ballot will be handed a worse choice by someone else.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60804,
+    "word": "self-determination",
+    "definition": "The right of a people to decide its own political future.",
+    "example": "Self-determination was the demand underneath every argument about the ballot.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60805,
+    "word": "polarity",
+    "definition": "The condition of two sharply opposed poles.",
+    "example": "The polarity he named was blunt: the ballot or the bullet.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "courage"
+    ]
+  },
+  {
+    "id": 60806,
+    "word": "militancy",
+    "definition": "A confrontational insistence on rights already owed.",
+    "example": "Militancy, in his mouth, meant refusing to beg for what the country already claimed to believe.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60807,
+    "word": "separation",
+    "definition": "The state of being divided from others, politically or socially.",
+    "example": "He forced the room to hear separation and integration as choices with consequences, not as slogans.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "humanities"
+    ]
+  },
+  {
+    "id": 60808,
+    "word": "recognition",
+    "definition": "Acknowledgment that a person or a people fully counts.",
+    "example": "Recognition of black humanity was not a courtesy. It was the minimum.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "intermediate",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 60809,
+    "word": "enfranchisement",
+    "definition": "Admission to the vote and to the power the vote is supposed to carry.",
+    "example": "Enfranchisement without power, he argued, is a ritual that leaves the condition unchanged.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "democracy",
+      "leadership"
+    ]
+  },
+  {
+    "id": 60810,
+    "word": "ultimatum",
+    "definition": "A final demand, backed by a consequence if it is refused.",
+    "example": "The speech was an ultimatum to a country that had delayed justice past patience.",
+    "partOfSpeech": "noun",
+    "oratorId": 48,
+    "complexity": "advanced",
+    "source": "The Ballot or the Bullet",
+    "speech": "The Ballot or the Bullet (Excerpt)",
+    "categories": [
+      "courage",
+      "democracy"
+    ]
   }
 ]
