@@ -1552,5 +1552,114 @@
       "inspirational"
     ],
     "isActive": true
+  },
+  {
+    "id": 56,
+    "name": "Charlie Munger",
+    "description": "Berkshire vice chairman who taught worldly wisdom, incentives, and the habit of inverting hard problems",
+    "oratorName": "Charlie Munger",
+    "wordCount": 22,
+    "category": "Modern / Contemporary",
+    "era": "20th–21st Century (1924–2023)",
+    "bio": "Charlie Munger was vice chairman of Berkshire Hathaway and Warren Buffett's partner for decades. A lawyer by training, he argued for worldly wisdom: a latticework of models from many disciplines, respect for incentives, and the habit of turning hard problems around. The public record is his 1994 USC Business School talk and his May 13, 2007 commencement at the USC Gould School of Law, both collected in Poor Charlie's Almanack.",
+    "portraitUrl": "",
+    "primaryStyle": "Worldly wisdom and inversion",
+    "voiceStyle": "Blunt, witty, multidisciplinary",
+    "colorAccent": 4021322,
+    "sampleSpeech": "The safest way to try to get what you want is to try to deserve what you want.",
+    "tags": [
+      "Investing",
+      "Incentives",
+      "Mental Models",
+      "Wisdom"
+    ],
+    "themeCategories": [
+      "tech",
+      "leadership",
+      "humanities"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 57,
+    "name": "Warren Buffett",
+    "description": "Berkshire chairman whose shareholder letters teach fair prices, patience, and the cost of a lost reputation",
+    "oratorName": "Warren Buffett",
+    "wordCount": 22,
+    "category": "Modern / Contemporary",
+    "era": "20th–21st Century (born 1930)",
+    "bio": "Warren Buffett is the chairman of Berkshire Hathaway. His annual letters to shareholders, written in plain language since the 1960s, argue for buying wonderful businesses at fair prices, staying inside a circle of competence, and treating reputation as something the firm cannot afford to lose. The moat, the patient holding period, and the fear-and-greed rule all come from those letters.",
+    "portraitUrl": "",
+    "primaryStyle": "Plainspoken value investing",
+    "voiceStyle": "Folksy, concrete, patient",
+    "colorAccent": 9117247,
+    "sampleSpeech": "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+    "tags": [
+      "Investing",
+      "Value",
+      "Reputation",
+      "Patience"
+    ],
+    "themeCategories": [
+      "tech",
+      "leadership",
+      "legacy"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 58,
+    "name": "Gary Vaynerchuk",
+    "description": "Marketer and author who argues that attention is earned by stories, manners, and sweat",
+    "oratorName": "Gary Vaynerchuk",
+    "wordCount": 22,
+    "category": "Modern / Contemporary",
+    "era": "21st Century (born 1975)",
+    "bio": "Gary Vaynerchuk grew a New Jersey wine shop into Wine Library, then founded VaynerMedia. Crush It! (2009), The Thank You Economy (2011), and Jab, Jab, Jab, Right Hook (2013) argue that attention is earned before it is spent: give people stories they want, mind old-fashioned manners, and put in enough sweat that a personal brand can compete with a large ad budget.",
+    "portraitUrl": "",
+    "primaryStyle": "Hustle and native storytelling",
+    "voiceStyle": "Urgent, colloquial, generous",
+    "colorAccent": 14747136,
+    "sampleSpeech": "Content is king, but context is God.",
+    "tags": [
+      "Marketing",
+      "Content",
+      "Hustle",
+      "Gratitude"
+    ],
+    "themeCategories": [
+      "tech",
+      "leadership",
+      "inspirational"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 59,
+    "name": "Ryan Holiday",
+    "description": "Modern Stoic author who turns obstacles, ego, and noise into a discipline of attention",
+    "oratorName": "Ryan Holiday",
+    "wordCount": 22,
+    "category": "Modern / Philosophical",
+    "era": "21st Century (born 1987)",
+    "bio": "Ryan Holiday is an author and former marketing director who recast Stoic practice for modern work. The Obstacle Is the Way (2014), Ego Is the Enemy (2016), and Stillness Is the Key (2019) argue that difficulty can become the path, that self-importance wrecks both ambition and success, and that a steady mind is a practical skill rather than a monk's luxury.",
+    "portraitUrl": "",
+    "primaryStyle": "Practical Stoicism",
+    "voiceStyle": "Calm, aphoristic, modern",
+    "colorAccent": 6050630,
+    "sampleSpeech": "The obstacle in the path becomes the path.",
+    "tags": [
+      "Stoicism",
+      "Discipline",
+      "Humility",
+      "Stillness"
+    ],
+    "themeCategories": [
+      "humanities",
+      "courage",
+      "leadership",
+      "inspirational"
+    ],
+    "isActive": true
   }
 ]

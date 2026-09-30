@@ -1,0 +1,332 @@
+[
+  {
+    "id": 62001,
+    "word": "latticework",
+    "definition": "A framework of connected ideas on which separate facts can hang and be used.",
+    "example": "If the facts don't hang together on a latticework of theory, you don't have them in a usable form.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "Latticework of Models",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62002,
+    "word": "worldly",
+    "definition": "Wise about how life and business actually work, not only about one school subject.",
+    "example": "The art of stock picking is a subdivision of the art of worldly wisdom.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "Latticework of Models",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62003,
+    "word": "vicarious",
+    "definition": "Gained through someone else's experience rather than your own.",
+    "example": "You've got to array your experience — both vicarious and direct — on this latticework of models.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "Latticework of Models",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62004,
+    "word": "multidisciplinary",
+    "definition": "Drawing on many fields of knowledge instead of one department.",
+    "example": "He went through life constantly practicing a multidisciplinary approach.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Many Disciplines",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62005,
+    "word": "incentive",
+    "definition": "A reward or penalty that steers what people actually do.",
+    "example": "Getting the incentives right is a very, very important lesson.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "The Power of Incentives",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62006,
+    "word": "mispriced",
+    "definition": "Offered at a price that does not match the real odds or value.",
+    "example": "Look and sift the world for a mispriced bet, and you can occasionally find one.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "The Art of Stock Picking",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62007,
+    "word": "bureaucracy",
+    "definition": "A large organization in which procedure replaces the result the customer was promised.",
+    "example": "The constant curse of scale is that it leads to big, dumb bureaucracy.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "The Curse of Scale",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62008,
+    "word": "inversion",
+    "definition": "Solving a problem by turning it around and asking how to cause the failure you want to avoid.",
+    "example": "In life, just as in algebra, inversion will help you solve problems you can't otherwise handle.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Inversion",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62009,
+    "word": "ideology",
+    "definition": "A rigid set of beliefs clung to so hard that the mind stops checking them.",
+    "example": "You want to be very careful with intense ideology. It presents a big danger for the only mind you're ever going to have.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "The Iron Prescription",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 62010,
+    "word": "assiduity",
+    "definition": "Persistent, sit-down effort that continues until the work is done.",
+    "example": "Another thing you have to do is have a lot of assiduity.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Assiduity",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62011,
+    "word": "deserve",
+    "definition": "To be worthy of a result because you have delivered what you would want on the other side.",
+    "example": "The safest way to try to get what you want is to try to deserve what you want.",
+    "partOfSpeech": "verb",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Deserve What You Want",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62012,
+    "word": "unreliability",
+    "definition": "The habit of failing to do what you have engaged to do.",
+    "example": "Sloth and unreliability will fail, whatever your other virtues.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "What Will Fail",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62013,
+    "word": "objectivity",
+    "definition": "Judgment that is not bent by what you already wish were true.",
+    "example": "Engaging in routines that allow you to maintain objectivity are very helpful to cognition.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Checklist Routines",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62014,
+    "word": "checklist",
+    "definition": "A fixed list you run through so that elementary wisdom is actually used.",
+    "example": "You should possess wide-ranging elementary wisdom and also go through mental checklist routines.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Checklist Routines",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62015,
+    "word": "envy",
+    "definition": "Resentful wanting of what someone else has; he calls it a disastrous mode of thought.",
+    "example": "Envy, resentment, revenge, and self-pity are disastrous modes of thought.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Disastrous Modes",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62016,
+    "word": "resentment",
+    "definition": "Bitter anger at an injury or advantage, kept alive until it warps judgment.",
+    "example": "Envy, resentment, revenge, and self-pity are disastrous modes of thought.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Disastrous Modes",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62017,
+    "word": "elementary",
+    "definition": "Basic and foundational, the ideas that carry most of the freight.",
+    "example": "What is elementary, worldly wisdom? The first rule is that isolated facts are not enough.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "Latticework of Models",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62018,
+    "word": "perverse",
+    "definition": "Turned against good sense, as when a reward pushes people to behave more foolishly.",
+    "example": "Another thing to avoid is being subjected to perverse incentives.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Perverse Incentives",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62019,
+    "word": "commodity",
+    "definition": "A product so alike its rivals that competition can wipe out the profit.",
+    "example": "If it's a pure commodity like airline seats, you can understand why no one makes any money.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "advanced",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "Competition",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62020,
+    "word": "diligent",
+    "definition": "Steady and careful in work; he notes that the diligent are not always the ones who rise.",
+    "example": "I constantly see people rise in life who are not the smartest, sometimes not even the most diligent.",
+    "partOfSpeech": "adjective",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "Learning Machines",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62021,
+    "word": "opinion",
+    "definition": "A view you are entitled to only after you can state the case against it.",
+    "example": "I'm not entitled to have an opinion unless I can state the arguments against my position better than the people in opposition.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "USC Gould School of Law Commencement",
+    "speech": "The Iron Prescription",
+    "categories": [
+      "humanities",
+      "democracy"
+    ]
+  },
+  {
+    "id": 62022,
+    "word": "scale",
+    "definition": "Growth in size, which cuts costs and then curses the firm with bureaucracy.",
+    "example": "The constant curse of scale is that it leads to big, dumb bureaucracy.",
+    "partOfSpeech": "noun",
+    "oratorId": 56,
+    "complexity": "intermediate",
+    "source": "A Lesson on Elementary, Worldly Wisdom",
+    "speech": "The Curse of Scale",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  }
+]

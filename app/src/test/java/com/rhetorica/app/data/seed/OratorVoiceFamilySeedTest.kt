@@ -31,7 +31,14 @@ class OratorVoiceFamilySeedTest {
         assertEquals(orators.size, byFamily.values.sumOf { it.size })
 
         assertEquals(
-            setOf("Demosthenes", "Cicero", "Pericles", "Isocrates", "Marcus Aurelius"),
+            setOf(
+                "Demosthenes",
+                "Cicero",
+                "Pericles",
+                "Isocrates",
+                "Marcus Aurelius",
+                "Ryan Holiday",
+            ),
             byFamily[OratorVoiceFamily.Classical].orEmpty(),
         )
         assertEquals(
@@ -49,6 +56,9 @@ class OratorVoiceFamilySeedTest {
                 "Sergey Brin",
                 "Larry Ellison",
                 "Alex Hormozi",
+                "Charlie Munger",
+                "Warren Buffett",
+                "Gary Vaynerchuk",
             ),
             byFamily[OratorVoiceFamily.Technology].orEmpty(),
         )
@@ -119,7 +129,14 @@ class OratorVoiceFamilySeedTest {
         val names = orators.filter { it.id in patch.favoriteOratorIds.toSet() }.map { it.name }.toSet()
 
         assertEquals(
-            setOf("Demosthenes", "Cicero", "Pericles", "Isocrates", "Marcus Aurelius"),
+            setOf(
+                "Demosthenes",
+                "Cicero",
+                "Pericles",
+                "Isocrates",
+                "Marcus Aurelius",
+                "Ryan Holiday",
+            ),
             names,
         )
         assertTrue(patch.rotateThroughAll)
