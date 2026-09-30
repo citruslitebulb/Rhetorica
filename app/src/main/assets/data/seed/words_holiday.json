@@ -1,0 +1,333 @@
+[
+  {
+    "id": 62301,
+    "word": "ego",
+    "definition": "An unhealthy belief in your own importance, which he calls the enemy inside the work.",
+    "example": "Wherever you are, your worst enemy already lives inside you: your ego.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Your Worst Enemy",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62302,
+    "word": "humility",
+    "definition": "A grounded estimate of yourself. He wants it rock-hard, not soft or performed.",
+    "example": "What replaces ego is humility, yes — but rock-hard humility and confidence.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Rock-Hard Humility",
+    "categories": [
+      "humanities",
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62303,
+    "word": "confidence",
+    "definition": "Earned trust in your ability, which he separates from swagger that was only borrowed.",
+    "example": "Whereas ego is artificial, this type of confidence can hold weight.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Rock-Hard Humility",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62304,
+    "word": "artificial",
+    "definition": "Made up rather than earned. His word for the confidence ego pretends to have.",
+    "example": "Whereas ego is artificial, this type of confidence can hold weight.",
+    "partOfSpeech": "adjective",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Rock-Hard Humility",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62305,
+    "word": "impressive",
+    "definition": "Genuinely worthy of respect, as distinct from merely looking successful.",
+    "example": "Impressing people is utterly different from being truly impressive.",
+    "partOfSpeech": "adjective",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Appearances",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62306,
+    "word": "authority",
+    "definition": "Real command of a subject, which a title can imitate without possessing.",
+    "example": "Having authority is not the same as being an authority.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Appearances",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62307,
+    "word": "canvas",
+    "definition": "Work you clear so someone else can do their best, which later opens a path for you.",
+    "example": "Find canvases for other people to paint on.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "The Canvas Strategy",
+    "categories": [
+      "leadership",
+      "arts"
+    ]
+  },
+  {
+    "id": 62308,
+    "word": "passion",
+    "definition": "Heated wanting that, in his warning, often covers a lack of discipline.",
+    "example": "Passion typically masks a weakness.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Don't Be Passionate",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62309,
+    "word": "weakness",
+    "definition": "A soft spot that loud passion can hide from the person who has it.",
+    "example": "Passion typically masks a weakness.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Don't Be Passionate",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62310,
+    "word": "discipline",
+    "definition": "Trained self-command, the replacement he offers for the temptations of ego.",
+    "example": "Replace the temptations of ego with humility and discipline when you experience success.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Aspire, Success, Failure",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62311,
+    "word": "stillness",
+    "definition": "A steady inner quiet that lets you act without frenzy while the world spins.",
+    "example": "Stillness is what aims the archer's arrow. It inspires new ideas.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Stillness Is the Key",
+    "speech": "The Key",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62312,
+    "word": "frenzy",
+    "definition": "Wild, hurried agitation. Stillness, in his definition, is acting without it.",
+    "example": "To be steady while the world spins around you. To act without frenzy.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Stillness Is the Key",
+    "speech": "What Stillness Is",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62313,
+    "word": "quietude",
+    "definition": "A state of quiet, outside and in, that can be called up on purpose.",
+    "example": "To possess quietude — exterior and interior — on command.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Stillness Is the Key",
+    "speech": "What Stillness Is",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62314,
+    "word": "imperturbability",
+    "definition": "The ability to stay unshaken. One of the old names he gathers under stillness.",
+    "example": "You would have heard equally emphatic calls for this imperturbability, unruffledness, and tranquility.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Stillness Is the Key",
+    "speech": "What Stillness Is",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62315,
+    "word": "tranquility",
+    "definition": "Settled calm, the condition the old schools treated as a high good.",
+    "example": "You would have heard equally emphatic calls for this imperturbability, unruffledness, and tranquility.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Stillness Is the Key",
+    "speech": "What Stillness Is",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62316,
+    "word": "unruffledness",
+    "definition": "The state of not being thrown off by noise, threat, or praise.",
+    "example": "You would have heard equally emphatic calls for this imperturbability, unruffledness, and tranquility.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Stillness Is the Key",
+    "speech": "What Stillness Is",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62317,
+    "word": "obstacle",
+    "definition": "What blocks the path, and in his thesis becomes the path.",
+    "example": "The obstacle in the path becomes the path.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "The Obstacle Is the Way",
+    "speech": "The Obstacle in the Path",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62318,
+    "word": "opportunity",
+    "definition": "A chance to improve your condition that sits inside the difficulty.",
+    "example": "Within every obstacle is an opportunity to improve our condition.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "The Obstacle Is the Way",
+    "speech": "The Obstacle in the Path",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 62319,
+    "word": "fortitude",
+    "definition": "Strength of mind that keeps a failure from wrecking you.",
+    "example": "Cultivate strength and fortitude so that when fate turns against you, you're not wrecked by failure.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Ego Is the Enemy",
+    "speech": "Aspire, Success, Failure",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62320,
+    "word": "resilient",
+    "definition": "Able to recover. The stance he wants once failure arrives.",
+    "example": "The aim is to be humble in aspiration, gracious in success, and resilient in failure.",
+    "partOfSpeech": "adjective",
+    "oratorId": 59,
+    "complexity": "advanced",
+    "source": "Ego Is the Enemy",
+    "speech": "Aspire, Success, Failure",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62321,
+    "word": "arrogance",
+    "definition": "An inflated sense of superiority, the everyday face of the ego he warns against.",
+    "example": "Arrogance and self-centered ambition are the casual definition of ego he uses.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "What Ego Means",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62322,
+    "word": "diligence",
+    "definition": "Careful, sustained effort. One of the traits he says actually gets people there.",
+    "example": "What separated them was not talent or confidence, but humility, diligence, and self-awareness.",
+    "partOfSpeech": "noun",
+    "oratorId": 59,
+    "complexity": "intermediate",
+    "source": "Ego Is the Enemy",
+    "speech": "Become a Student",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  }
+]

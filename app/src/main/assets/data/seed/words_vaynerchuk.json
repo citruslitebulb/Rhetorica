@@ -1,0 +1,332 @@
+[
+  {
+    "id": 62201,
+    "word": "passion",
+    "definition": "A strong love of the work itself, which he ranks above connections or wealth.",
+    "example": "You may not have connections, or an education, or wealth, but with enough passion and sweat, you can make anything happen.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Crush It!",
+    "speech": "Passion and Sweat",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62202,
+    "word": "sweat",
+    "definition": "Hard effort spent in place of money, the cost he says a personal brand actually requires.",
+    "example": "With enough passion and sweat, you can make anything happen.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Crush It!",
+    "speech": "Passion and Sweat",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 62203,
+    "word": "context",
+    "definition": "The platform and moment in which a message is seen, which he ranks above the message itself.",
+    "example": "Content is king, but context is God.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Context Is God",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62204,
+    "word": "content",
+    "definition": "The stories, jokes, and useful pieces you give an audience before you ask for anything.",
+    "example": "Content is king, but context is God.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Context Is God",
+    "categories": [
+      "tech",
+      "arts"
+    ]
+  },
+  {
+    "id": 62205,
+    "word": "story",
+    "definition": "The setup that makes a later ask feel earned rather than sudden.",
+    "example": "There is no sale without the story; no knockout without the setup.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Jabs and Right Hooks",
+    "categories": [
+      "arts",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62206,
+    "word": "knockout",
+    "definition": "The finishing ask or sale, which has no power without the jabs that came first.",
+    "example": "There is no sale without the story; no knockout without the setup.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Jabs and Right Hooks",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62207,
+    "word": "engagement",
+    "definition": "Real back-and-forth with an audience, as distinct from talking at them.",
+    "example": "There's a lot of talking and selling on Twitter, but not enough engagement.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Listen First",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62208,
+    "word": "travesty",
+    "definition": "A distorted, almost absurd misuse of something — here, using a listening medium only to sell.",
+    "example": "Not enough engagement, and that's a travesty, because Twitter is the cocktail party of the Internet.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "advanced",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Listen First",
+    "categories": [
+      "tech",
+      "arts"
+    ]
+  },
+  {
+    "id": 62209,
+    "word": "authentically",
+    "definition": "In a way that is genuinely meant, not performed for the feed.",
+    "example": "Only the companies that mind their manners in an old-fashioned way — and do it authentically — are going to have a prayer of competing.",
+    "partOfSpeech": "adverb",
+    "oratorId": 58,
+    "complexity": "advanced",
+    "source": "The Thank You Economy",
+    "speech": "Old-Fashioned Manners",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62210,
+    "word": "manners",
+    "definition": "The old habits of courtesy that he says decide who can compete once every customer has a voice.",
+    "example": "Only the companies that can figure out how to mind their manners in a very old-fashioned way are going to compete.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "Old-Fashioned Manners",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62211,
+    "word": "currency",
+    "definition": "What a community treats as valuable. Here, caring is the coin of a small town.",
+    "example": "Vibrant towns were dominated by the strength of relationships, the currency of caring, and the power of word of mouth.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "One Great Big Small Town",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62212,
+    "word": "caring",
+    "definition": "Taking each customer's stake personally, which he treats as a business advantage.",
+    "example": "The currency of caring, and the power of word of mouth, still run a small town.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "One Great Big Small Town",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62213,
+    "word": "relationship",
+    "definition": "An ongoing tie with a person, stronger in his account than a one-time pitch.",
+    "example": "Social media made one great big small town, dominated by the strength of relationships.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "One Great Big Small Town",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62214,
+    "word": "cornerstone",
+    "definition": "The piece a structure rests on. He wants caring installed there, not added later.",
+    "example": "Install caring as your business's cornerstone, or be willing to embark on a cultural overhaul.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "advanced",
+    "source": "The Thank You Economy",
+    "speech": "Caring as Cornerstone",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62215,
+    "word": "overhaul",
+    "definition": "A thorough rebuilding, here of a culture that does not yet know how to care in public.",
+    "example": "If caring is not the cornerstone, you have to be willing to embark on a cultural overhaul.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "advanced",
+    "source": "The Thank You Economy",
+    "speech": "Caring as Cornerstone",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62216,
+    "word": "circulate",
+    "definition": "To pass from person to person, as talk about a company does.",
+    "example": "Companies have to shape the word of mouth that circulates about them.",
+    "partOfSpeech": "verb",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "The Most Important Customer",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62217,
+    "word": "vibrant",
+    "definition": "Full of life and exchange, the kind of town where word of mouth decided reputations.",
+    "example": "Social media turned the world into one great big small town, dominated as all vibrant towns used to be.",
+    "partOfSpeech": "adjective",
+    "oratorId": 58,
+    "complexity": "advanced",
+    "source": "The Thank You Economy",
+    "speech": "One Great Big Small Town",
+    "categories": [
+      "arts",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62218,
+    "word": "customer",
+    "definition": "The person who might buy, and whom he says must be treated as the most important one.",
+    "example": "Treat each customer as though he or she were the most important customer in the world.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "The Thank You Economy",
+    "speech": "The Most Important Customer",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62219,
+    "word": "jab",
+    "definition": "A light piece of content that gives the audience something before any sales punch.",
+    "example": "Jabs are the lightweight pieces of content that benefit your customers by making them laugh or feel appreciated.",
+    "partOfSpeech": "noun",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Jabs and Right Hooks",
+    "categories": [
+      "tech",
+      "arts"
+    ]
+  },
+  {
+    "id": 62220,
+    "word": "appreciate",
+    "definition": "To feel that one's attention was valued, which a jab is meant to produce.",
+    "example": "Jabs benefit your customers by making them laugh, snicker, feel appreciated, or escape.",
+    "partOfSpeech": "verb",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Jabs and Right Hooks",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62221,
+    "word": "tremendous",
+    "definition": "Very great in effect. He uses it for the payoff of listening before you sell.",
+    "example": "Twitter is a place where listening well has tremendous benefits.",
+    "partOfSpeech": "adjective",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "Listen First",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62222,
+    "word": "inspire",
+    "definition": "To move someone to act, not merely to notice.",
+    "example": "Your story isn't powerful enough if it only leads the horse to water; it has to inspire the horse to drink, too.",
+    "partOfSpeech": "verb",
+    "oratorId": 58,
+    "complexity": "intermediate",
+    "source": "Jab, Jab, Jab, Right Hook",
+    "speech": "The Story",
+    "categories": [
+      "inspirational",
+      "leadership"
+    ]
+  }
+]

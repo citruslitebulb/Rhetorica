@@ -1,0 +1,334 @@
+[
+  {
+    "id": 62101,
+    "word": "moat",
+    "definition": "A lasting advantage that protects a business the way water protects a castle.",
+    "example": "The difference between GEICO's costs and those of its competitors is a kind of moat that protects a valuable business castle.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "The Business Castle",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62102,
+    "word": "competence",
+    "definition": "The range of businesses you can evaluate honestly, and whose edge you can see.",
+    "example": "You only have to be able to evaluate companies within your circle of competence.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Circle of Competence",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62103,
+    "word": "boundary",
+    "definition": "The edge of what you understand. Knowing it matters more than widening it.",
+    "example": "The size of that circle is not very important; knowing the boundary, however, is vital.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Circle of Competence",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62104,
+    "word": "intrinsic",
+    "definition": "Belonging to the business itself, as distinct from the price the market is quoting.",
+    "example": "When companies with good economics sell well below intrinsic business value, stocks sometimes provide grand-slam home runs.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Fear and Greed",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62105,
+    "word": "reputation",
+    "definition": "The trust a firm has earned, which he says cannot be traded away for a profit.",
+    "example": "We can afford to lose money, but we can't afford to lose reputation — even a shred of reputation.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Memo to Berkshire Hathaway Managers",
+    "speech": "Reputation",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62106,
+    "word": "mediocre",
+    "definition": "Only average, and therefore hurt rather than helped by the passing of time.",
+    "example": "Time is the friend of the wonderful business, the enemy of the mediocre.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Wonderful Companies",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62107,
+    "word": "franchise",
+    "definition": "A business position so strong that customers and economics stay with it.",
+    "example": "Widening the moat by driving down costs defends and strengthens the economic franchise.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "The Business Castle",
+    "categories": [
+      "tech",
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62108,
+    "word": "aberration",
+    "definition": "A departure from the usual, here a market price swung by fear or greed.",
+    "example": "The market aberrations produced by fear and greed are unpredictable, both as to duration and degree.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Fear and Greed",
+    "categories": [
+      "tech",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62109,
+    "word": "euphoria",
+    "definition": "A rush of confidence that lifts prices free of the businesses underneath them.",
+    "example": "Little fear is visible in Wall Street. Instead, euphoria prevails.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Fear and Greed",
+    "categories": [
+      "tech",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62110,
+    "word": "integrity",
+    "definition": "Honesty and soundness of character, the trait he wants in the managers he keeps.",
+    "example": "They love their businesses, they think like owners, and they exude integrity and ability.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Holding Period",
+    "categories": [
+      "leadership",
+      "legacy",
+      "courage"
+    ]
+  },
+  {
+    "id": 62111,
+    "word": "tenaciously",
+    "definition": "With a grip that will not let go, even when the thing held is disappointing.",
+    "example": "We are the opposite of those who tenaciously hang on to businesses that disappoint.",
+    "partOfSpeech": "adverb",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Holding Period",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62112,
+    "word": "rational",
+    "definition": "Sensible in light of the value, not merely exciting.",
+    "example": "Your goal should be to purchase, at a rational price, a part interest in an easily understandable business.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Ten Years",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62113,
+    "word": "economics",
+    "definition": "The underlying way a business makes or fails to make money.",
+    "example": "When a brilliant management tackles a business with a reputation for bad economics, it is the reputation of the business that remains intact.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Good Jockeys, Bad Horses",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62114,
+    "word": "brilliance",
+    "definition": "Exceptional cleverness, which he says still loses to a bad business.",
+    "example": "A management with a reputation for brilliance cannot outrun a business with bad economics.",
+    "partOfSpeech": "noun",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Good Jockeys, Bad Horses",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62115,
+    "word": "ruthless",
+    "definition": "Without mercy. The stance he takes toward a loss of reputation, not toward a loss of money.",
+    "example": "Lose a shred of reputation for the firm, and I will be ruthless.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Letter to Salomon Inc. Employees",
+    "speech": "Salomon",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62116,
+    "word": "patient",
+    "definition": "Willing to wait. In his image, the party who receives money from the restless.",
+    "example": "The stock market serves as a relocation center at which money is moved from the active to the patient.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "The Patient",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62117,
+    "word": "greedy",
+    "definition": "Grasping for more when prices and moods are already high.",
+    "example": "We simply attempt to be fearful when others are greedy and to be greedy only when others are fearful.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Fear and Greed",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62118,
+    "word": "concentrate",
+    "definition": "To put a large stake into a few things you understand, rather than a little into many.",
+    "example": "We continue to concentrate our investments in a very few companies that we try to understand well.",
+    "partOfSpeech": "verb",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Holding Period",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62119,
+    "word": "eroded",
+    "definition": "Worn away. A bargain's early edge disappears when the business earns little.",
+    "example": "Any initial advantage you secure will be quickly eroded by the low return that the business earns.",
+    "partOfSpeech": "verb",
+    "oratorId": 57,
+    "complexity": "advanced",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Cigar Butts",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62120,
+    "word": "contagious",
+    "definition": "Spreading quickly from person to person, as he says fear and greed do.",
+    "example": "Occasional outbreaks of those two super-contagious diseases, fear and greed, will forever occur in the investment community.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Fear and Greed",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62121,
+    "word": "outstanding",
+    "definition": "Clearly above the ordinary, the sort of business he wants to hold without a sale date.",
+    "example": "When we own portions of outstanding businesses with outstanding managements, our favorite holding period is forever.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Holding Period",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62122,
+    "word": "understandable",
+    "definition": "Clear enough that you can explain how the business will earn money years from now.",
+    "example": "Purchase a part interest in an easily-understandable business whose earnings are virtually certain to be higher years from now.",
+    "partOfSpeech": "adjective",
+    "oratorId": 57,
+    "complexity": "intermediate",
+    "source": "Berkshire Hathaway Chairman's Letter",
+    "speech": "Ten Years",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  }
+]

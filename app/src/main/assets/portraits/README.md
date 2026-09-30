@@ -13,9 +13,12 @@ app/src/main/res/drawable-nodpi/orator_<slug>.webp
 `OratorPortraits.drawableRes` can resolve them by dictionary `id` → slug if
 photos are re-enabled later.
 
-Alex Hormozi (`orator_alex_hormozi`) follows this same fallback. No modern
-business orator ships a WebP in this tree, Profile renders gold-ringed initials,
-and a generated likeness of a living person is not part of the portrait pipeline.
+Alex Hormozi (`orator_alex_hormozi`), Charlie Munger (`orator_charlie_munger`),
+Warren Buffett (`orator_warren_buffett`), Gary Vaynerchuk
+(`orator_gary_vaynerchuk`), and Ryan Holiday (`orator_ryan_holiday`) follow
+this same fallback. No modern business or Stoic orator ships a WebP in this
+tree. Profile renders gold-ringed initials, and a generated likeness is not
+part of the portrait pipeline.
 
 ## Art direction (if photos are used again)
 
