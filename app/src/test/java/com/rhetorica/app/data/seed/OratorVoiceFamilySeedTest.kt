@@ -48,6 +48,7 @@ class OratorVoiceFamilySeedTest {
                 "Larry Page",
                 "Sergey Brin",
                 "Larry Ellison",
+                "Alex Hormozi",
             ),
             byFamily[OratorVoiceFamily.Technology].orEmpty(),
         )

@@ -1525,5 +1525,32 @@
       "inspirational"
     ],
     "isActive": true
+  },
+  {
+    "id": 55,
+    "name": "Alex Hormozi",
+    "description": "Entrepreneur and author who teaches offers, pricing, and the idea that volume beats luck",
+    "oratorName": "Alex Hormozi",
+    "wordCount": 24,
+    "category": "Modern / Contemporary",
+    "era": "21st Century",
+    "bio": "Alex Hormozi is an entrepreneur, investor, and author. After building and selling gyms, he founded Gym Launch and later Acquisition.com. His books $100M Offers (2021) and $100M Leads (2023), and The Game podcast, argue for offers so strong that refusal feels foolish, premium pricing, and enough repetition that luck stops mattering.",
+    "portraitUrl": "",
+    "primaryStyle": "Plainspoken offer design",
+    "voiceStyle": "Direct, blunt, repetitive for clarity",
+    "colorAccent": 13214247,
+    "sampleSpeech": "Make people an offer so good they would feel stupid saying no.",
+    "tags": [
+      "Entrepreneurship",
+      "Offers",
+      "Pricing",
+      "Volume"
+    ],
+    "themeCategories": [
+      "tech",
+      "leadership",
+      "inspirational"
+    ],
+    "isActive": true
   }
 ]

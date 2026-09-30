@@ -67,6 +67,7 @@ object OratorPortraits {
         52L to "albus_dumbledore",
         53L to "oprah_winfrey",
         54L to "elizabeth_i",
+        55L to "alex_hormozi",
     )
 
     fun slugFor(oratorId: Long?): String? =
