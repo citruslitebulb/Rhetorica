@@ -510,7 +510,7 @@ private fun WidgetPreview(
     colorValue: Int,
     opacityPercent: Int,
 ) {
-    // Mirrors the live widget: gold border over the user's fill color + opacity.
+    // Mirrors the live widget: gold and burgundy frame over the user's fill.
     val borderColor = RhetoricaGold
     val cardBg = WidgetAppearance.composeColor(colorValue, opacityPercent)
 
@@ -518,13 +518,14 @@ private fun WidgetPreview(
         modifier = Modifier
             .fillMaxWidth()
             .clip(RoundedCornerShape(16.dp))
+            .background(borderColor)
+            .padding(2.dp)
+            .clip(RoundedCornerShape(14.dp))
+            .background(Color(WidgetAppearance.WIDGET_BURGUNDY))
+            .padding(2.dp)
+            .clip(RoundedCornerShape(12.dp))
             .background(cardBg)
-            .border(
-                width = 2.dp,
-                color = borderColor,
-                shape = RoundedCornerShape(16.dp),
-            )
-            .padding(14.dp),
+            .padding(12.dp),
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Text(

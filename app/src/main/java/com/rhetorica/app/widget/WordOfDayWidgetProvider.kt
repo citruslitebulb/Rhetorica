@@ -120,10 +120,9 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
             setTextViewText(R.id.widgetWordText, context.getString(R.string.widget_default_word))
             setTextViewText(R.id.widgetDefinitionText, context.getString(R.string.widget_loading_body))
+            setViewVisibility(R.id.widgetBadge, View.GONE)
             setViewVisibility(R.id.widgetDefinitionText, View.VISIBLE)
             setViewVisibility(R.id.widgetPartOfSpeech, View.GONE)
-            setViewVisibility(R.id.widgetGoldDivider, View.GONE)
-            setViewVisibility(R.id.widgetAttributionRow, View.GONE)
             setViewVisibility(R.id.widgetQuoteText, View.GONE)
             setViewVisibility(R.id.widgetQuoteSourceText, View.GONE)
             setViewVisibility(R.id.widgetBottomBar, View.GONE)
@@ -135,10 +134,9 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
             setTextViewText(R.id.widgetWordText, context.getString(R.string.widget_error_title))
             setTextViewText(R.id.widgetDefinitionText, context.getString(R.string.widget_error_body))
+            setViewVisibility(R.id.widgetBadge, View.GONE)
             setViewVisibility(R.id.widgetDefinitionText, View.VISIBLE)
             setViewVisibility(R.id.widgetPartOfSpeech, View.GONE)
-            setViewVisibility(R.id.widgetGoldDivider, View.GONE)
-            setViewVisibility(R.id.widgetAttributionRow, View.GONE)
             setViewVisibility(R.id.widgetQuoteText, View.GONE)
             setViewVisibility(R.id.widgetQuoteSourceText, View.GONE)
             setViewVisibility(R.id.widgetBottomBar, View.GONE)
@@ -155,6 +153,8 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         val density = context.resources.displayMetrics.density
         val widthPx = (layout.widthDp * density).toInt().coerceAtLeast(1)
         val heightPx = (layout.heightDp * density).toInt().coerceAtLeast(1)
+        val goldBorderPx = 1.5f * density
+        val accentBorderPx = 2f * density
 
         val content = loadContent(context)
 
@@ -176,13 +176,15 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             imageKey = content.imageKey,
             galleryUri = content.galleryUri,
             opacityPercent = content.opacityPercent,
+            goldBorderPx = goldBorderPx,
+            accentBorderPx = accentBorderPx,
         )
 
         val rootPendingIntent = if (content.wordId != null) {
             val deepLink = Uri.parse("rhetorica://word/${content.wordId}")
             val intent = Intent(context, MainActivity::class.java).apply {
                 data = deepLink
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                flags = OPEN_APP_FLAGS
             }
             PendingIntent.getActivity(
                 context,
@@ -194,22 +196,30 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             openAppPendingIntent(context, 0)
         }
 
+        val rootPad = (layout.rootPaddingDp * density).toInt()
+        val contentPad = (layout.contentPaddingDp * density).toInt()
+
         return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
             setImageViewBitmap(R.id.widgetBackgroundImage, backgroundBitmap)
             setOnClickPendingIntent(R.id.widgetRoot, rootPendingIntent)
+            setViewPadding(R.id.widgetRoot, rootPad, rootPad, rootPad, rootPad)
+            setViewPadding(R.id.widgetContent, contentPad, contentPad, contentPad, contentPad)
 
-            // Slightly smaller title on compact heights so definition/example fit better.
-            val wordSizeSp = when {
-                layout.heightDp < HEIGHT_COMPACT_DP -> 20f
-                layout.heightDp < HEIGHT_STANDARD_DP -> 22f
-                else -> 26f
-            }
-            setTextViewTextSize(R.id.widgetWordText, TypedValue.COMPLEX_UNIT_SP, wordSizeSp)
+            setViewVisibility(R.id.widgetBadge, if (layout.showBadge) View.VISIBLE else View.GONE)
+            setTextColor(R.id.widgetBadge, WidgetAppearance.WIDGET_GOLD)
+
+            setTextViewTextSize(R.id.widgetWordText, TypedValue.COMPLEX_UNIT_SP, layout.wordTextSp)
+            setInt(R.id.widgetWordText, "setMaxLines", layout.wordMaxLines)
             setTextViewText(R.id.widgetWordText, content.word)
             setTextColor(R.id.widgetWordText, WidgetAppearance.WIDGET_GOLD)
 
-            if (!content.partOfSpeech.isNullOrBlank()) {
-                setTextViewText(R.id.widgetPartOfSpeech, content.partOfSpeech)
+            val meta = WidgetLayoutPolicy.metaLine(
+                partOfSpeech = content.partOfSpeech,
+                oratorName = content.oratorName,
+                showOrator = layout.showOrator,
+            )
+            if (meta != null) {
+                setTextViewText(R.id.widgetPartOfSpeech, meta)
                 setTextColor(R.id.widgetPartOfSpeech, WidgetAppearance.WIDGET_GOLD)
                 setViewVisibility(R.id.widgetPartOfSpeech, View.VISIBLE)
             } else {
@@ -219,26 +229,18 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             if (layout.showDefinition) {
                 setTextViewText(R.id.widgetDefinitionText, content.definition)
                 setTextColor(R.id.widgetDefinitionText, WidgetAppearance.WIDGET_TEXT_PRIMARY)
+                setTextViewTextSize(
+                    R.id.widgetDefinitionText,
+                    TypedValue.COMPLEX_UNIT_SP,
+                    layout.definitionTextSp,
+                )
                 setInt(R.id.widgetDefinitionText, "setMaxLines", layout.definitionMaxLines)
                 setViewVisibility(R.id.widgetDefinitionText, View.VISIBLE)
             } else {
                 setViewVisibility(R.id.widgetDefinitionText, View.GONE)
             }
 
-            if (layout.showAttribution) {
-                setViewVisibility(R.id.widgetGoldDivider, View.VISIBLE)
-                setViewVisibility(R.id.widgetAttributionRow, View.VISIBLE)
-                setTextViewText(
-                    R.id.widgetAttributionText,
-                    content.oratorName ?: context.getString(R.string.app_name),
-                )
-                setTextColor(R.id.widgetAttributionText, WidgetAppearance.WIDGET_TEXT_ATTRIBUTION)
-            } else {
-                setViewVisibility(R.id.widgetGoldDivider, View.GONE)
-                setViewVisibility(R.id.widgetAttributionRow, View.GONE)
-            }
-
-            // Expanded sizes: show usage example (and more lines as height grows).
+            // Taller cells keep the usage example already stored on the word.
             if (layout.showExample && !content.example.isNullOrBlank()) {
                 val exampleText = ellipsizeExample(content.example, layout.exampleMaxChars)
                 setTextViewText(R.id.widgetQuoteText, exampleText)
@@ -275,87 +277,17 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         }
     }
 
-    /**
-     * Map host-reported size to progressive content tiers:
-     * - compact: word (+ short orator)
-     * - standard: + definition
-     * - expanded: + usage example
-     * - tall: longer example + speech CTA
-     */
     private fun resolveLayoutSize(
         appWidgetManager: AppWidgetManager,
         appWidgetId: Int,
     ): WidgetLayoutSize {
         val options = appWidgetManager.getAppWidgetOptions(appWidgetId)
-        // Hosts report current bounds via MIN_*; MAX_* is only a soft upper bound on
-        // some launchers and must not drive content (it can be the theoretical max).
-        val minHeight = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, 0)
-        val maxHeight = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, 0)
-        val minWidth = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, 0)
-        val maxWidth = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH, 0)
-
-        val heightDp = when {
-            minHeight > 0 -> minHeight
-            maxHeight > 0 -> maxHeight
-            else -> 140
-        }
-        val widthDp = when {
-            minWidth > 0 -> minWidth
-            maxWidth > 0 -> maxWidth
-            else -> 200
-        }
-
-        return when {
-            heightDp < HEIGHT_COMPACT_DP -> WidgetLayoutSize(
-                widthDp = widthDp,
-                heightDp = heightDp,
-                showDefinition = false,
-                definitionMaxLines = 0,
-                showAttribution = false,
-                showExample = false,
-                exampleMaxLines = 0,
-                exampleMaxChars = 0,
-                showExampleSource = false,
-                showBottomBar = false,
-            )
-            heightDp < HEIGHT_STANDARD_DP -> WidgetLayoutSize(
-                widthDp = widthDp,
-                heightDp = heightDp,
-                showDefinition = true,
-                definitionMaxLines = 2,
-                // Single orator line (attribution row) — no longer duplicated above definition.
-                showAttribution = true,
-                showExample = false,
-                exampleMaxLines = 0,
-                exampleMaxChars = 0,
-                showExampleSource = false,
-                showBottomBar = false,
-            )
-            heightDp < HEIGHT_EXPANDED_DP -> WidgetLayoutSize(
-                widthDp = widthDp,
-                heightDp = heightDp,
-                showDefinition = true,
-                definitionMaxLines = 3,
-                showAttribution = true,
-                showExample = true,
-                exampleMaxLines = 2,
-                exampleMaxChars = 120,
-                showExampleSource = false,
-                showBottomBar = false,
-            )
-            else -> WidgetLayoutSize(
-                widthDp = widthDp,
-                heightDp = heightDp,
-                showDefinition = true,
-                definitionMaxLines = 3,
-                showAttribution = true,
-                showExample = true,
-                exampleMaxLines = if (heightDp >= HEIGHT_TALL_DP) 4 else 3,
-                exampleMaxChars = if (heightDp >= HEIGHT_TALL_DP) 220 else 160,
-                showExampleSource = true,
-                showBottomBar = true,
-            )
-        }
+        return WidgetLayoutPolicy.fromHostBounds(
+            minWidthDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, 0),
+            minHeightDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, 0),
+            maxWidthDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH, 0),
+            maxHeightDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, 0),
+        )
     }
 
     private fun ellipsizeExample(text: String, maxChars: Int): String {
@@ -450,7 +382,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
 
     private fun openAppPendingIntent(context: Context, requestCode: Int): PendingIntent {
         val intent = Intent(context, MainActivity::class.java).apply {
-            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            flags = OPEN_APP_FLAGS
         }
         return PendingIntent.getActivity(
             context,
@@ -469,7 +401,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
             action = ACTION_OPEN_SPEECH_FROM_WIDGET
             putExtra(EXTRA_ORATOR_ID, oratorId)
             putExtra(EXTRA_SPEECH_TITLE, speechTitle)
-            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+            flags = OPEN_APP_FLAGS
         }
         // Unique request code per orator+speech so UPDATE_CURRENT does not clobber siblings.
         val requestCode = 31 * oratorId.hashCode() + speechTitle.hashCode()
@@ -490,35 +422,15 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
 
         private const val DEFAULT_OPACITY_PERCENT = 80
 
-        /** Below this: word only (compact strip). */
-        private const val HEIGHT_COMPACT_DP = 90
-        /** Below this: word + definition (standard). */
-        private const val HEIGHT_STANDARD_DP = 120
-        /** At/above: word + definition + usage example. */
-        private const val HEIGHT_EXPANDED_DP = 150
-        /** Taller still: longer example + speech CTA. */
-        private const val HEIGHT_TALL_DP = 180
+        private const val OPEN_APP_FLAGS =
+            Intent.FLAG_ACTIVITY_NEW_TASK or
+                Intent.FLAG_ACTIVITY_CLEAR_TOP or
+                Intent.FLAG_ACTIVITY_SINGLE_TOP
 
         private val ioExecutor = Executors.newSingleThreadExecutor()
         private val mainHandler = Handler(Looper.getMainLooper())
     }
 }
-
-/**
- * Progressive layout knobs derived from host-reported widget size.
- */
-private data class WidgetLayoutSize(
-    val widthDp: Int,
-    val heightDp: Int,
-    val showDefinition: Boolean,
-    val definitionMaxLines: Int,
-    val showAttribution: Boolean,
-    val showExample: Boolean,
-    val exampleMaxLines: Int,
-    val exampleMaxChars: Int,
-    val showExampleSource: Boolean,
-    val showBottomBar: Boolean,
-)
 
 private data class WidgetRemoteState(
     val wordId: Long?,

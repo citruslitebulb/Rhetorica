@@ -59,9 +59,10 @@ class RhetoricaApp : Application(), Configuration.Provider {
                 seedDataLoader.loadSeedDataIfNeeded()
                 wordRepository.ensureTodaysWord()
                 WidgetAppearance.refreshAllWidgets(this@RhetoricaApp)
-                WidgetRefreshScheduler.ensureScheduled(this@RhetoricaApp)
             } catch (e: Exception) {
                 AppLog.e("RhetoricaApp", "Failed to load seed data", e)
+            } finally {
+                WidgetRefreshScheduler.ensureScheduled(this@RhetoricaApp)
             }
         }
     }

@@ -25,14 +25,16 @@ data class WidgetColorPreset(
 
 object WidgetAppearance {
     // Elegant dark + gold proposal colors (matching the selected design direction)
-    const val WIDGET_CARD_BG = 0xFF1C2433.toInt()
+    const val WIDGET_CARD_BG = 0xFF1A1A1A.toInt()
     const val WIDGET_GOLD = 0xFFD4AF37.toInt()
+    const val WIDGET_BURGUNDY = 0xFF5C2D2D.toInt()
     const val WIDGET_GOLD_MUTED = 0xFFB8973A.toInt()
     const val WIDGET_TEXT_PRIMARY = 0xFFF5F0E6.toInt()
     const val WIDGET_TEXT_SECONDARY = 0xFFC8BFA8.toInt()
     const val WIDGET_TEXT_ATTRIBUTION = 0xFFE8DFC8.toInt()
 
     val colorPresets = listOf(
+        WidgetColorPreset(colorValue = WIDGET_CARD_BG, labelRes = R.string.widget_color_night),
         WidgetColorPreset(colorValue = 0xFF2C3E50.toInt(), labelRes = R.string.widget_color_midnight),
         WidgetColorPreset(colorValue = 0xFF5C2D2D.toInt(), labelRes = R.string.widget_color_claret),
         WidgetColorPreset(colorValue = 0xFF4A3B18.toInt(), labelRes = R.string.widget_color_bronze),
@@ -61,6 +63,8 @@ object WidgetAppearance {
         fillColorArgb: Int = WIDGET_CARD_BG,
         borderColorArgb: Int = WIDGET_GOLD,
         borderWidthPx: Float = 5f,
+        accentColorArgb: Int = WIDGET_BURGUNDY,
+        accentWidthPx: Float = 4f,
     ): Bitmap {
         val safeWidth = widthPx.coerceAtLeast(1)
         val safeHeight = heightPx.coerceAtLeast(1)
@@ -72,25 +76,18 @@ object WidgetAppearance {
             style = Paint.Style.FILL
         }
 
-        val borderPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            color = borderColorArgb
-            style = Paint.Style.STROKE
-            strokeWidth = borderWidthPx
-        }
-
         val rect = RectF(0f, 0f, safeWidth.toFloat(), safeHeight.toFloat())
         canvas.drawRoundRect(rect, cornerRadiusPx, cornerRadiusPx, fillPaint)
-
-        // Gold border inset so the stroke sits inside the bounds.
-        val inset = borderWidthPx / 2f
-        val borderRect = RectF(
-            inset,
-            inset,
-            safeWidth - inset,
-            safeHeight - inset,
+        drawFrame(
+            canvas = canvas,
+            widthPx = safeWidth,
+            heightPx = safeHeight,
+            cornerRadiusPx = cornerRadiusPx,
+            goldWidthPx = borderWidthPx,
+            accentWidthPx = accentWidthPx,
+            goldColorArgb = borderColorArgb,
+            accentColorArgb = accentColorArgb,
         )
-        val borderRadius = (cornerRadiusPx - inset).coerceAtLeast(0f)
-        canvas.drawRoundRect(borderRect, borderRadius, borderRadius, borderPaint)
 
         return bitmap
     }
@@ -104,26 +101,96 @@ object WidgetAppearance {
         imageKey: String,
         galleryUri: String,
         opacityPercent: Int,
+        goldBorderPx: Float = 5f,
+        accentBorderPx: Float = 4f,
     ): Bitmap {
         val preset = WidgetImagePreset.fromKey(imageKey)
         val base = when {
             preset == WidgetImagePreset.Gallery && galleryUri.isNotBlank() -> {
                 decodeGalleryBitmap(context, galleryUri, widthPx, heightPx, cornerRadiusPx)
-                    ?: createElegantCardBitmap(widthPx, heightPx, cornerRadiusPx, fillColorArgb)
+                    ?: createElegantCardBitmap(
+                        widthPx,
+                        heightPx,
+                        cornerRadiusPx,
+                        fillColorArgb,
+                        borderWidthPx = goldBorderPx,
+                        accentWidthPx = accentBorderPx,
+                    )
             }
             preset != WidgetImagePreset.None && preset != WidgetImagePreset.Gallery -> {
-                createTextureBitmap(widthPx, heightPx, cornerRadiusPx, preset, fillColorArgb)
+                createTextureBitmap(
+                    widthPx,
+                    heightPx,
+                    cornerRadiusPx,
+                    preset,
+                    fillColorArgb,
+                    goldBorderPx,
+                    accentBorderPx,
+                )
             }
-            else -> createElegantCardBitmap(widthPx, heightPx, cornerRadiusPx, fillColorArgb)
+            else -> createElegantCardBitmap(
+                widthPx,
+                heightPx,
+                cornerRadiusPx,
+                fillColorArgb,
+                borderWidthPx = goldBorderPx,
+                accentWidthPx = accentBorderPx,
+            )
         }
         if (preset == WidgetImagePreset.None) return base
-        return applyOpacityAndBorder(base, cornerRadiusPx, opacityPercent)
+        return applyOpacityAndBorder(
+            source = base,
+            cornerRadiusPx = cornerRadiusPx,
+            opacityPercent = opacityPercent,
+            goldWidthPx = goldBorderPx,
+            accentWidthPx = accentBorderPx,
+        )
+    }
+
+    private fun drawFrame(
+        canvas: Canvas,
+        widthPx: Int,
+        heightPx: Int,
+        cornerRadiusPx: Float,
+        goldWidthPx: Float,
+        accentWidthPx: Float,
+        goldColorArgb: Int = WIDGET_GOLD,
+        accentColorArgb: Int = WIDGET_BURGUNDY,
+    ) {
+        val goldInset = goldWidthPx / 2f
+        val goldPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = goldColorArgb
+            style = Paint.Style.STROKE
+            strokeWidth = goldWidthPx
+        }
+        canvas.drawRoundRect(
+            RectF(goldInset, goldInset, widthPx - goldInset, heightPx - goldInset),
+            (cornerRadiusPx - goldInset).coerceAtLeast(0f),
+            (cornerRadiusPx - goldInset).coerceAtLeast(0f),
+            goldPaint,
+        )
+
+        val accentCenter = goldWidthPx + (accentWidthPx / 2f)
+        if (accentCenter * 2f >= widthPx || accentCenter * 2f >= heightPx) return
+        val accentPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
+            color = accentColorArgb
+            style = Paint.Style.STROKE
+            strokeWidth = accentWidthPx
+        }
+        canvas.drawRoundRect(
+            RectF(accentCenter, accentCenter, widthPx - accentCenter, heightPx - accentCenter),
+            (cornerRadiusPx - accentCenter).coerceAtLeast(0f),
+            (cornerRadiusPx - accentCenter).coerceAtLeast(0f),
+            accentPaint,
+        )
     }
 
     private fun applyOpacityAndBorder(
         source: Bitmap,
         cornerRadiusPx: Float,
         opacityPercent: Int,
+        goldWidthPx: Float,
+        accentWidthPx: Float,
     ): Bitmap {
         val bitmap = Bitmap.createBitmap(source.width, source.height, Bitmap.Config.ARGB_8888)
         val canvas = Canvas(bitmap)
@@ -131,17 +198,13 @@ object WidgetAppearance {
             alpha = ((opacityPercent.coerceIn(0, 100) / 100f) * 255).toInt()
         }
         canvas.drawBitmap(source, 0f, 0f, paint)
-        val borderPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
-            color = WIDGET_GOLD
-            style = Paint.Style.STROKE
-            strokeWidth = 5f
-        }
-        val inset = 2.5f
-        canvas.drawRoundRect(
-            RectF(inset, inset, source.width - inset, source.height - inset),
-            (cornerRadiusPx - inset).coerceAtLeast(0f),
-            (cornerRadiusPx - inset).coerceAtLeast(0f),
-            borderPaint,
+        drawFrame(
+            canvas = canvas,
+            widthPx = source.width,
+            heightPx = source.height,
+            cornerRadiusPx = cornerRadiusPx,
+            goldWidthPx = goldWidthPx,
+            accentWidthPx = accentWidthPx,
         )
         return bitmap
     }
@@ -152,6 +215,8 @@ object WidgetAppearance {
         cornerRadiusPx: Float,
         preset: WidgetImagePreset,
         fillColorArgb: Int,
+        goldBorderPx: Float,
+        accentBorderPx: Float,
     ): Bitmap {
         val bitmap = Bitmap.createBitmap(widthPx.coerceAtLeast(1), heightPx.coerceAtLeast(1), Bitmap.Config.ARGB_8888)
         val canvas = Canvas(bitmap)
@@ -190,6 +255,8 @@ object WidgetAppearance {
             heightPx = heightPx,
             cornerRadiusPx = cornerRadiusPx,
             fillColorArgb = fill.color,
+            borderWidthPx = goldBorderPx,
+            accentWidthPx = accentBorderPx,
         ).also { elegant ->
             val overlay = Canvas(elegant)
             overlay.drawBitmap(bitmap, 0f, 0f, Paint().apply { alpha = 180 })

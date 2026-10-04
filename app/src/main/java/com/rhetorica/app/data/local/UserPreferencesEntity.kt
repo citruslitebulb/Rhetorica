@@ -14,7 +14,7 @@ data class UserPreferencesEntity(
     val rotateThroughAll: Boolean = false,
     val selectedOratorId: Long? = null,
     val selectedThemeCategories: List<String> = emptyList(),
-    val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
+    val widgetBackgroundColor: Int = 0xFF1A1A1A.toInt(),
     val widgetBackgroundOpacityPercent: Int = 80,
     val widgetBackgroundImageKey: String = WidgetImagePreset.None.key,
     val widgetGalleryUri: String = "",
