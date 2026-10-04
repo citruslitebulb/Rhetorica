@@ -1,0 +1,302 @@
+[
+  {
+    "id": 62601,
+    "word": "discipline",
+    "definition": "The trained habit of doing the hard thing. He sets it equal to freedom.",
+    "example": "Discipline equals freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Discipline Equals Freedom",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62602,
+    "word": "freedom",
+    "definition": "Room to act. He says discipline is the pathway to it, not the opposite of it.",
+    "example": "But, in fact, discipline is the pathway to freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Discipline Equals Freedom",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62603,
+    "word": "tolerate",
+    "definition": "To allow something to continue. He says a leader's real standard is what they tolerate, not what they preach.",
+    "example": "It's not what you preach, it's what you tolerate.",
+    "partOfSpeech": "verb",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Standards",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62604,
+    "word": "ownership",
+    "definition": "Taking the result as yours. For him it covers the mistakes, the failures, and the plan to win.",
+    "example": "The leader must acknowledge mistakes and admit failures, take ownership of them, and develop a plan to win.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Extreme Ownership",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62605,
+    "word": "acknowledge",
+    "definition": "To admit openly. The first move of ownership is to acknowledge the mistake.",
+    "example": "The leader must acknowledge mistakes and admit failures, take ownership of them, and develop a plan to win.",
+    "partOfSpeech": "verb",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Extreme Ownership",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62606,
+    "word": "responsibility",
+    "definition": "The duty for an outcome. He places both success and failure on the leader.",
+    "example": "On any team, in any organization, all responsibility for success and failure rests with the leader.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Extreme Ownership",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62607,
+    "word": "pathway",
+    "definition": "A route toward something. Discipline, he says, is the pathway to freedom.",
+    "example": "But, in fact, discipline is the pathway to freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Discipline Equals Freedom",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62608,
+    "word": "ego",
+    "definition": "Self-importance that, in his account, clouds planning and blocks good advice.",
+    "example": "Ego clouds and disrupts everything: the planning process, the ability to take good advice, and the ability to accept constructive criticism.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Ego",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62609,
+    "word": "disrupt",
+    "definition": "To throw into disorder. Ego, he says, does this to plans, advice, and criticism.",
+    "example": "Ego clouds and disrupts everything: the planning process, the ability to take good advice, and the ability to accept constructive criticism.",
+    "partOfSpeech": "verb",
+    "oratorId": 62,
+    "complexity": "advanced",
+    "source": "Extreme Ownership",
+    "speech": "Ego",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62610,
+    "word": "criticism",
+    "definition": "Judgment of your work. He says ego blocks the constructive kind.",
+    "example": "Ego clouds and disrupts everything: the planning process, the ability to take good advice, and the ability to accept constructive criticism.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Ego",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62611,
+    "word": "constructive",
+    "definition": "Meant to build or improve. The criticism a leader has to be able to take.",
+    "example": "Ego clouds and disrupts everything: the planning process, the ability to take good advice, and the ability to accept constructive criticism.",
+    "partOfSpeech": "adjective",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Ego",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62612,
+    "word": "substandard",
+    "definition": "Below the level that was set. If it is accepted, he says, it becomes the new standard.",
+    "example": "If substandard performance is accepted and no one is held accountable, that poor performance becomes the new standard.",
+    "partOfSpeech": "adjective",
+    "oratorId": 62,
+    "complexity": "advanced",
+    "source": "Extreme Ownership",
+    "speech": "Standards",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62613,
+    "word": "accountable",
+    "definition": "Required to answer for a result. Without that, he says, a poor performance resets the standard.",
+    "example": "If substandard performance is accepted and no one is held accountable, that poor performance becomes the new standard.",
+    "partOfSpeech": "adjective",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Standards",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62614,
+    "word": "consequence",
+    "definition": "What follows from an action. He says that with none, the poor performance becomes the rule.",
+    "example": "If substandard performance is accepted and no one is held accountable — if there are no consequences — that poor performance becomes the new standard.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Standards",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62615,
+    "word": "standard",
+    "definition": "The level that is actually enforced. Tolerated failure, he says, writes a new one.",
+    "example": "That poor performance becomes the new standard. Therefore, leaders must enforce standards.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "Standards",
+    "categories": [
+      "leadership",
+      "legacy"
+    ]
+  },
+  {
+    "id": 62616,
+    "word": "weakness",
+    "definition": "A failure of resolve. He locates the day's first one in staying in bed after the alarm.",
+    "example": "If you are mentally weak for that moment and you let that weakness keep you in bed, you fail.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Extreme Ownership",
+    "speech": "The First Test",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62617,
+    "word": "maneuver",
+    "definition": "To move with intent. Disciplined procedures, he writes, increased the team's freedom to maneuver.",
+    "example": "Our freedom to operate and maneuver had increased substantially through disciplined procedures.",
+    "partOfSpeech": "verb",
+    "oratorId": 62,
+    "complexity": "advanced",
+    "source": "Extreme Ownership",
+    "speech": "Discipline Equals Freedom",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62618,
+    "word": "substantially",
+    "definition": "By a large amount. His measure of how much disciplined procedure increased freedom to maneuver.",
+    "example": "Our freedom to operate and maneuver had increased substantially through disciplined procedures.",
+    "partOfSpeech": "adverb",
+    "oratorId": 62,
+    "complexity": "advanced",
+    "source": "Extreme Ownership",
+    "speech": "Discipline Equals Freedom",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 62619,
+    "word": "setback",
+    "definition": "A reversal. On the podcast he takes the setback and turns it into something useful.",
+    "example": "Take that issue, take that setback, take that problem, and turn it into something good.",
+    "partOfSpeech": "noun",
+    "oratorId": 62,
+    "complexity": "intermediate",
+    "source": "Jocko Podcast",
+    "speech": "Good",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62620,
+    "word": "recalibrate",
+    "definition": "To set your aim again after a hit. The step in his close, between reloading and re-engaging.",
+    "example": "So get up, dust off, reload, recalibrate, re-engage — and go out on the attack.",
+    "partOfSpeech": "verb",
+    "oratorId": 62,
+    "complexity": "advanced",
+    "source": "Jocko Podcast",
+    "speech": "Good",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  }
+]

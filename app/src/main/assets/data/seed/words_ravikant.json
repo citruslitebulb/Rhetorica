@@ -1,0 +1,302 @@
+[
+  {
+    "id": 62501,
+    "word": "wealth",
+    "definition": "Assets that earn while you sleep. He separates it from money and from status.",
+    "example": "Seek wealth, not money or status. Wealth is having assets that earn while you sleep.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Seek Wealth",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62502,
+    "word": "status",
+    "definition": "Your place in the social hierarchy. He treats the hunt for it as a different game from wealth.",
+    "example": "Status is your place in the social hierarchy.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Seek Wealth",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62503,
+    "word": "hierarchy",
+    "definition": "A ranked order. Status, in his definition, is your rung in the social one.",
+    "example": "Status is your place in the social hierarchy.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Seek Wealth",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62504,
+    "word": "equity",
+    "definition": "A piece of a business. He says financial freedom requires owning it, not renting out your time.",
+    "example": "You must own equity — a piece of a business — to gain your financial freedom.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Own Equity",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62505,
+    "word": "ethical",
+    "definition": "Morally sound. He insists wealth can be created this way, and that secret contempt blocks it.",
+    "example": "Understand that ethical wealth creation is possible. If you secretly despise wealth, it will elude you.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Ethical Wealth",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62506,
+    "word": "unstoppable",
+    "definition": "Impossible to halt. His word for the person who can both sell and build.",
+    "example": "Learn to sell. Learn to build. If you can do both, you will be unstoppable.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Sell and Build",
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62507,
+    "word": "leverage",
+    "definition": "A force that multiplies your judgment. He names capital, people, code, and media.",
+    "example": "Arm yourself with specific knowledge, accountability, and leverage.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Specific Knowledge",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62508,
+    "word": "accountability",
+    "definition": "Taking risks under your own name so society can reward you with responsibility and equity.",
+    "example": "Arm yourself with specific knowledge, accountability, and leverage.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Accountability",
+    "categories": [
+      "leadership",
+      "tech"
+    ]
+  },
+  {
+    "id": 62509,
+    "word": "permissionless",
+    "definition": "Needing no one else's approval. His word for the leverage in code and media.",
+    "example": "Code and media are permissionless leverage. They're the leverage behind the newly rich.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Permissionless Leverage",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62510,
+    "word": "judgment",
+    "definition": "The quality of your decisions. Leverage, he says, only multiplies it.",
+    "example": "Leverage is a force multiplier for your judgment.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Judgment",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62511,
+    "word": "multiplier",
+    "definition": "Something that scales another force. Leverage is this for judgment.",
+    "example": "Leverage is a force multiplier for your judgment.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Judgment",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62512,
+    "word": "integrity",
+    "definition": "Honesty you can rely on. He ranks it above intelligence and energy in a partner.",
+    "example": "Pick business partners with high intelligence, energy, and, above all, integrity.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Long Term Games",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62513,
+    "word": "iterated",
+    "definition": "Played again and again. He says the returns in life come from games of this kind.",
+    "example": "Play iterated games. All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Long Term Games",
+    "categories": [
+      "tech",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62514,
+    "word": "compound",
+    "definition": "Building on what is already there. He locates life's returns in compound interest.",
+    "example": "All the returns in life, whether in wealth, relationships, or knowledge, come from compound interest.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Long Term Games",
+    "categories": [
+      "tech",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62515,
+    "word": "curiosity",
+    "definition": "A genuine pull to know more. He says specific knowledge is found by following it, not the fashion.",
+    "example": "Specific knowledge is found by pursuing your genuine curiosity and passion rather than whatever is hot right now.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Specific Knowledge",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62516,
+    "word": "apprenticeship",
+    "definition": "Training beside a practitioner. He says specific knowledge is taught this way, not in schools.",
+    "example": "When specific knowledge is taught, it's through apprenticeships, not schools.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "advanced",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Specific Knowledge",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62517,
+    "word": "cynic",
+    "definition": "Someone who expects the worst and treats hope as naive. He says their beliefs come true.",
+    "example": "Don't partner with cynics and pessimists. Their beliefs are self-fulfilling.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Long Term Games",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62518,
+    "word": "pessimist",
+    "definition": "A person who expects bad outcomes. He groups them with cynics as partners to refuse.",
+    "example": "Don't partner with cynics and pessimists. Their beliefs are self-fulfilling.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "How to Get Rich (without getting lucky)",
+    "speech": "Long Term Games",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62519,
+    "word": "desire",
+    "definition": "Wanting that, in his line, is a contract to stay unhappy until you get the thing.",
+    "example": "Desire is a contract you make with yourself to be unhappy until you get what you want.",
+    "partOfSpeech": "noun",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "The Tim Ferriss Show",
+    "speech": "A Billboard",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62520,
+    "word": "earned",
+    "definition": "Gained by effort rather than purchase. His word for a fit body, a calm mind, and a house full of love.",
+    "example": "A fit body, a calm mind, a house full of love. These things cannot be bought — they must be earned.",
+    "partOfSpeech": "adjective",
+    "oratorId": 61,
+    "complexity": "intermediate",
+    "source": "Twitter",
+    "speech": "Earned",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  }
+]

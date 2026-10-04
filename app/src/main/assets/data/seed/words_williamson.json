@@ -1,0 +1,302 @@
+[
+  {
+    "id": 62401,
+    "word": "faith",
+    "definition": "Trust in yourself, which he says collapses when you break promises you made to yourself.",
+    "example": "How do you expect to have faith in yourself if you can't even keep your own word?",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Keep Your Word",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62402,
+    "word": "validation",
+    "definition": "Approval from other people, which he says we chase as a substitute for approving of ourselves.",
+    "example": "We sacrifice the thing we want (self worth) for the thing which is supposed to get it (validation).",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Validation",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62403,
+    "word": "self-worth",
+    "definition": "Your own estimate of your value. He warns against parking it in other people's opinions.",
+    "example": "You must not outsource your sense of self-worth or you will live at the mercy of everyone's opinion.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Don't Outsource Self-Worth",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62404,
+    "word": "outsource",
+    "definition": "To hand a task to someone else. He uses it for handing your self-respect to an audience.",
+    "example": "You must not outsource your sense of self-worth or you will live at the mercy of everyone's opinion.",
+    "partOfSpeech": "verb",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Don't Outsource Self-Worth",
+    "categories": [
+      "leadership",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62405,
+    "word": "wretched",
+    "definition": "Miserable and unfit. His word for other people's heads as a home for your self-worth.",
+    "example": "Other people's heads are a wretched place for your self-worth to live.",
+    "partOfSpeech": "adjective",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Don't Outsource Self-Worth",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62406,
+    "word": "insufficiency",
+    "definition": "The fear that you are not enough. He says success can be a flight from that fear rather than a cure.",
+    "example": "If your drive to succeed comes from a fear of insufficiency, and yet the feeling of insufficiency persists, what makes you think that the answer to this problem is more success?",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Insufficiency Adaptation",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62407,
+    "word": "void",
+    "definition": "An empty place inside. External success, he says, will not fill it.",
+    "example": "External success won't fill an internal void.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Insufficiency Adaptation",
+    "categories": [
+      "humanities",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62408,
+    "word": "hyper-aware",
+    "definition": "Sharply conscious of something. He uses it for people who know the edge of what they know.",
+    "example": "The smartest people I know are hyper-aware of the limits of their knowledge.",
+    "partOfSpeech": "adjective",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Say I Don't Know",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62409,
+    "word": "weirdness",
+    "definition": "The traits that make you unlike other people. He treats them as an advantage no rival can copy.",
+    "example": "Your weirdness is your competitive advantage. No one can beat you at being you.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 62410,
+    "word": "competitive",
+    "definition": "Able to win against others. He locates the advantage in being irreducibly yourself.",
+    "example": "Your weirdness is your competitive advantage.",
+    "partOfSpeech": "adjective",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "leadership",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62411,
+    "word": "motivation",
+    "definition": "The feeling of wanting to act. He says the work does not wait for it.",
+    "example": "You don't need motivation to do the thing. You just need to do the thing.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Overthinking",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62412,
+    "word": "perfectionism",
+    "definition": "The demand that conditions be ideal before you move. He calls it delay dressed up as care.",
+    "example": "Perfectionism is procrastination masquerading as quality control.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Overthinking",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 62413,
+    "word": "procrastination",
+    "definition": "Putting off the action. In his line, it hides inside the claim that you are only protecting quality.",
+    "example": "Perfectionism is procrastination masquerading as quality control.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Overthinking",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62414,
+    "word": "masquerading",
+    "definition": "Appearing as something else. His verb for delay that pretends to be standards.",
+    "example": "Perfectionism is procrastination masquerading as quality control.",
+    "partOfSpeech": "verb",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Overthinking",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62415,
+    "word": "stagnation",
+    "definition": "Standing still. He wants anxiety to trigger action instead of this.",
+    "example": "If you feel anxiety creeping in, use it as a trigger to lean into action, not stagnation.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 62416,
+    "word": "antidote",
+    "definition": "A remedy that counters a poison. Action, he says, is the one for anxiety.",
+    "example": "Action is the antidote to anxiety.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62417,
+    "word": "anxiety",
+    "definition": "Uneasy fear about what is coming. He treats it as a signal to move, not to freeze.",
+    "example": "Action is the antidote to anxiety.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 62418,
+    "word": "neuroses",
+    "definition": "Anxious, looping worries. He says they tax the journey more than they change the result.",
+    "example": "Your fears and neuroses about them are doing little other than making your journey toward achieving them more miserable.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Releasing the Tiller",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62419,
+    "word": "virtue",
+    "definition": "Moral soundness. He says lying, by omission or commission, wears it down.",
+    "example": "Whether by omission or commission, lying degrades your virtue.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "intermediate",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 62420,
+    "word": "omission",
+    "definition": "Leaving something out. He counts a lie by omission as a lie.",
+    "example": "Whether by omission or commission, lying degrades your virtue.",
+    "partOfSpeech": "noun",
+    "oratorId": 60,
+    "complexity": "advanced",
+    "source": "3 Minute Monday",
+    "speech": "Realisations",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  }
+]

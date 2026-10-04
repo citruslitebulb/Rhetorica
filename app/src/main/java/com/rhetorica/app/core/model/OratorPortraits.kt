@@ -72,6 +72,9 @@ object OratorPortraits {
         57L to "warren_buffett",
         58L to "gary_vaynerchuk",
         59L to "ryan_holiday",
+        60L to "chris_williamson",
+        61L to "naval_ravikant",
+        62L to "jocko_willink",
     )
 
     fun slugFor(oratorId: Long?): String? =

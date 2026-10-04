@@ -38,6 +38,7 @@ class OratorVoiceFamilySeedTest {
                 "Isocrates",
                 "Marcus Aurelius",
                 "Ryan Holiday",
+                "Chris Williamson",
             ),
             byFamily[OratorVoiceFamily.Classical].orEmpty(),
         )
@@ -59,6 +60,7 @@ class OratorVoiceFamilySeedTest {
                 "Charlie Munger",
                 "Warren Buffett",
                 "Gary Vaynerchuk",
+                "Naval Ravikant",
             ),
             byFamily[OratorVoiceFamily.Technology].orEmpty(),
         )
@@ -112,6 +114,7 @@ class OratorVoiceFamilySeedTest {
                 "Benjamin Franklin",
                 "Chief Joseph",
                 "Oprah Winfrey",
+                "Jocko Willink",
             ),
             byFamily[OratorVoiceFamily.Statesmen].orEmpty(),
         )
@@ -136,6 +139,7 @@ class OratorVoiceFamilySeedTest {
                 "Isocrates",
                 "Marcus Aurelius",
                 "Ryan Holiday",
+                "Chris Williamson",
             ),
             names,
         )
