@@ -1661,5 +1661,89 @@
       "inspirational"
     ],
     "isActive": true
+  },
+  {
+    "id": 60,
+    "name": "Chris Williamson",
+    "description": "Host of Modern Wisdom who argues that decisions, self-worth, and keeping your word shape a life",
+    "oratorName": "Chris Williamson",
+    "wordCount": 20,
+    "category": "Modern / Philosophical",
+    "era": "21st Century",
+    "bio": "Chris Williamson is the host of the Modern Wisdom podcast, which he started in February 2018. The show and his 3 Minute Monday newsletter treat a life as the record of its decisions: self-worth cannot be outsourced to an audience, success will not fill an internal void, and faith in yourself begins by keeping your own word.",
+    "portraitUrl": "",
+    "primaryStyle": "Conversational self-examination",
+    "voiceStyle": "Direct, curious, confessional",
+    "colorAccent": 4082777,
+    "sampleSpeech": "How do you expect to have faith in yourself if you can't even keep your own word?",
+    "tags": [
+      "Podcast",
+      "Self-knowledge",
+      "Decisions",
+      "Honesty"
+    ],
+    "themeCategories": [
+      "humanities",
+      "courage",
+      "leadership",
+      "inspirational"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 61,
+    "name": "Naval Ravikant",
+    "description": "AngelList co-founder whose tweetstorm teaches specific knowledge, accountability, and leverage",
+    "oratorName": "Naval Ravikant",
+    "wordCount": 20,
+    "category": "Modern / Contemporary",
+    "era": "21st Century (born 1974)",
+    "bio": "Naval Ravikant is an entrepreneur and investor, and a co-founder of AngelList. His May 2018 tweetstorm, How to Get Rich (without getting lucky), argues that wealth is assets that earn while you sleep, built from specific knowledge, accountability, and leverage — especially code and media. He separates that game from status, and treats a calm mind as something that must be earned.",
+    "portraitUrl": "",
+    "primaryStyle": "Aphoristic leverage",
+    "voiceStyle": "Compressed, calm, precise",
+    "colorAccent": 2060116,
+    "sampleSpeech": "Seek wealth, not money or status. Wealth is having assets that earn while you sleep.",
+    "tags": [
+      "Wealth",
+      "Leverage",
+      "Judgment",
+      "Startups"
+    ],
+    "themeCategories": [
+      "tech",
+      "leadership",
+      "humanities",
+      "inspirational"
+    ],
+    "isActive": true
+  },
+  {
+    "id": 62,
+    "name": "Jocko Willink",
+    "description": "Retired Navy SEAL who teaches that leaders own the outcome and that discipline is the path to freedom",
+    "oratorName": "Jocko Willink",
+    "wordCount": 20,
+    "category": "Modern / Contemporary",
+    "era": "21st Century (born 1971)",
+    "bio": "Jocko Willink is a retired U.S. Navy SEAL officer. With Leif Babin he wrote Extreme Ownership (2015), drawn from leading Task Unit Bruiser in Ramadi: the leader owns every result, standards are what you tolerate, and discipline is the pathway to freedom. On the Jocko Podcast, a setback gets one word — Good — and then a plan.",
+    "portraitUrl": "",
+    "primaryStyle": "Extreme ownership",
+    "voiceStyle": "Blunt, clipped, insistent",
+    "colorAccent": 7023917,
+    "sampleSpeech": "Discipline equals freedom.",
+    "tags": [
+      "Discipline",
+      "Leadership",
+      "Ownership",
+      "Military"
+    ],
+    "themeCategories": [
+      "leadership",
+      "courage",
+      "inspirational",
+      "legacy"
+    ],
+    "isActive": true
   }
 ]
