@@ -62,3 +62,31 @@ export function IconSaved() {
     </svg>
   );
 }
+
+export function IconSpeeches() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M6 4.5h8l4 4V19.5H6v-15Z" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      <path d="M14 4.5V9h4M8.5 12.5h7M8.5 16h5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function IconQuest() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M9.2 10a2.8 2.8 0 1 1 3.6 2.7c-.7.3-1.1.8-1.1 1.6V15" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+      <circle cx="11.7" cy="17.2" r="0.8" fill="currentColor" />
+    </svg>
+  );
+}
+
+export function IconProfile() {
+  return (
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="9" r="3" fill="none" stroke="currentColor" strokeWidth="1.6" />
+      <path d="M6 19c1.1-2.6 3.2-4 6-4s4.9 1.4 6 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
+    </svg>
+  );
+}

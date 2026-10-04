@@ -20,8 +20,8 @@ export function SpeechPage() {
       <div className="page">
         <h1>Speech not found</h1>
         <p>That speech is not in the library.</p>
-        <Link to="/quotes" className="button">
-          Quotes
+        <Link to="/speeches" className="button">
+          Speeches
         </Link>
       </div>
     );
@@ -33,7 +33,7 @@ export function SpeechPage() {
   return (
     <article className="page">
       <nav className="crumbs" aria-label="Breadcrumb">
-        <Link to="/quotes">Quotes</Link>
+        <Link to="/speeches">Speeches</Link>
         {orator ? (
           <>
             <span aria-hidden="true"> / </span>

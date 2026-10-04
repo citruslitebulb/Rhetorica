@@ -1,8 +1,11 @@
+import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { SaveButton } from '../components/SaveButton';
 import { findSpeech, oratorById, wordById } from '../data/catalog';
 import { formatYear, themeLabel } from '../lib/format';
+import { speakWordAndDefinition } from '../lib/reminder';
 import { useDocumentTitle } from '../lib/useDocumentTitle';
+import { useLibrary } from '../state/LibraryProvider';
 
 function parseId(value: string | undefined): number | null {
   if (!value) return null;
@@ -13,7 +16,12 @@ function parseId(value: string | undefined): number | null {
 export function WordPage() {
   const params = useParams();
   const word = wordById.get(parseId(params.wordId) ?? -1);
+  const { recordWordViewed } = useLibrary();
   useDocumentTitle(word?.word ?? 'Word');
+
+  useEffect(() => {
+    if (word) recordWordViewed(word.id);
+  }, [recordWordViewed, word]);
 
   if (!word) {
     return (
@@ -56,7 +64,12 @@ export function WordPage() {
             </>
           ) : null}
         </p>
-        <SaveButton wordId={word.id} />
+        <div className="action-row">
+          <SaveButton wordId={word.id} />
+          <button type="button" className="button" onClick={() => speakWordAndDefinition(word.word, word.definition)}>
+            Pronounce word
+          </button>
+        </div>
       </header>
       <section>
         <h2>Definition</h2>

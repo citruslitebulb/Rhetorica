@@ -1,8 +1,9 @@
 import { useMemo, useState, type CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
-import { catalogCounts, dictionaries, wordCountFor } from '../data/catalog';
+import { wordCountFor } from '../data/catalog';
 import { accentColor, catalogKind } from '../lib/format';
 import { useDocumentTitle } from '../lib/useDocumentTitle';
+import { useLibrary } from '../state/LibraryProvider';
 import type { CatalogKind } from '../types';
 import { Monogram } from '../components/Monogram';
 
@@ -15,13 +16,18 @@ const KINDS: { id: CatalogKind | 'all'; label: string }[] = [
 
 export function OratorsPage() {
   useDocumentTitle('Orators');
+  const { visibleOrators, preferences } = useLibrary();
   const [query, setQuery] = useState('');
   const [kind, setKind] = useState<CatalogKind | 'all'>('all');
-  const counts = useMemo(() => catalogCounts(), []);
+  const counts = useMemo(() => {
+    const tally = { all: visibleOrators.length, historical: 0, literary: 0, fictional: 0 };
+    for (const orator of visibleOrators) tally[catalogKind(orator.category)] += 1;
+    return tally;
+  }, [visibleOrators]);
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return dictionaries.filter((orator) => {
+    return visibleOrators.filter((orator) => {
       if (kind !== 'all' && catalogKind(orator.category) !== kind) return false;
       if (!needle) return true;
       const haystack = [orator.name, orator.oratorName, orator.era, orator.description, orator.category, ...orator.tags]
@@ -29,7 +35,7 @@ export function OratorsPage() {
         .toLowerCase();
       return haystack.includes(needle);
     });
-  }, [kind, query]);
+  }, [kind, query, visibleOrators]);
 
   const groups = useMemo(() => {
     const grouped = new Map<string, typeof filtered>();
@@ -46,7 +52,16 @@ export function OratorsPage() {
       <header className="page-header">
         <p className="kicker">Dictionaries</p>
         <h1>Orators</h1>
-        <p className="lede">Choose a voice. Their words, lines, and speeches stay on this device.</p>
+        <p className="lede">
+          Choose a voice. Their words, lines, and speeches stay on this device.{' '}
+          {preferences.includeLiterary && preferences.includeFictional ? null : (
+            <>
+              {preferences.includeLiterary ? '' : 'Literary voices are hidden. '}
+              {preferences.includeFictional ? '' : 'Fictional voices are hidden. '}
+              <Link to="/profile">Change this in Profile</Link>.
+            </>
+          )}
+        </p>
       </header>
 
       <div className="toolbar">

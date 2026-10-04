@@ -18,8 +18,9 @@ function groupQuotes(rows: readonly Quote[]): { label: string; quotes: Quote[] }
 }
 
 export function QuotesPage() {
-  const { selectedOratorId, selectOrator } = useLibrary();
+  const { selectedOratorId, selectOrator, visibleOrators } = useLibrary();
   const orator = selectedOratorId == null ? undefined : oratorById.get(selectedOratorId);
+  const selectable = orator && !visibleOrators.some((item) => item.id === orator.id) ? [...visibleOrators, orator] : visibleOrators;
   useDocumentTitle(orator ? `${orator.name} quotes` : 'Quotes');
   const rows = orator ? (quotesByOrator.get(orator.id) ?? []) : [];
   const groups = groupQuotes(rows);
@@ -37,6 +38,7 @@ export function QuotesPage() {
         id="quote-orator"
         label="Orator"
         value={selectedOratorId}
+        orators={selectable}
         onChange={selectOrator}
         emptyLabel="Choose an orator"
       />
