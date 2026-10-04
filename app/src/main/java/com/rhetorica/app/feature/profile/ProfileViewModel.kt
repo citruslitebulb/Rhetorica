@@ -254,7 +254,7 @@ data class ProfileUiState(
     val favoriteOratorIds: Set<Long> = emptySet(),
     val rotateThroughAll: Boolean = false,
     val selectedThemeCategories: List<String> = emptyList(),
-    val widgetBackgroundColor: Int = 0xFF2C3E50.toInt(),
+    val widgetBackgroundColor: Int = 0xFF1A1A1A.toInt(),
     val widgetBackgroundOpacityPercent: Int = 80,
     val widgetImagePreset: WidgetImagePreset = WidgetImagePreset.None,
     val widgetGalleryUri: String = "",
