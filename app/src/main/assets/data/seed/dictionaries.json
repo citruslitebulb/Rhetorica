@@ -1745,5 +1745,33 @@
       "legacy"
     ],
     "isActive": true
+  },
+  {
+    "id": 63,
+    "name": "David Goggins",
+    "description": "Retired Navy SEAL who teaches that denial is a comfort zone and that most people quit near 40 percent",
+    "oratorName": "David Goggins",
+    "wordCount": 20,
+    "category": "Modern / Contemporary",
+    "era": "21st Century (born 1975)",
+    "bio": "David Goggins is a retired U.S. Navy SEAL and ultramarathon runner. Can't Hurt Me (2018) opens as a warning order: a comfortable life can end before you meet your potential, denial is the ultimate comfort zone, and motivation changes nobody. The same book names the 40% Rule — a governor in the mind that stops most people while effort remains — and says the way past it is to callous the mind. In the January/February 2019 Outside profile he says that quitting what matters will haunt you. On Huberman Lab in January 2024 he explains why he says stay hard. Never Finished (2022) is the sequel.",
+    "portraitUrl": "",
+    "primaryStyle": "Calloused mind",
+    "voiceStyle": "Blunt, physical, unspared",
+    "colorAccent": 4073251,
+    "sampleSpeech": "Don't stop when you are tired. Stop when you are done.",
+    "tags": [
+      "Discipline",
+      "Endurance",
+      "Accountability",
+      "Military"
+    ],
+    "themeCategories": [
+      "leadership",
+      "courage",
+      "inspirational",
+      "legacy"
+    ],
+    "isActive": true
   }
 ]

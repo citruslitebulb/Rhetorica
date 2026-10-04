@@ -115,6 +115,7 @@ class OratorVoiceFamilySeedTest {
                 "Chief Joseph",
                 "Oprah Winfrey",
                 "Jocko Willink",
+                "David Goggins",
             ),
             byFamily[OratorVoiceFamily.Statesmen].orEmpty(),
         )

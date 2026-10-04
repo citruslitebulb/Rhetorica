@@ -17,8 +17,8 @@ Alex Hormozi (`orator_alex_hormozi`), Charlie Munger (`orator_charlie_munger`),
 Warren Buffett (`orator_warren_buffett`), Gary Vaynerchuk
 (`orator_gary_vaynerchuk`), Ryan Holiday (`orator_ryan_holiday`), Chris
 Williamson (`orator_chris_williamson`), Naval Ravikant
-(`orator_naval_ravikant`), and Jocko Willink (`orator_jocko_willink`) follow
-this same fallback. No modern business, podcast, or Stoic orator ships a WebP
+(`orator_naval_ravikant`), Jocko Willink (`orator_jocko_willink`), and
+David Goggins (`orator_david_goggins`) follow this same fallback. No modern business, podcast, or Stoic orator ships a WebP
 in this tree. Profile renders gold-ringed initials, and a generated likeness
 is not part of the portrait pipeline.
 
