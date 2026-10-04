@@ -1,0 +1,302 @@
+[
+  {
+    "id": 63601,
+    "word": "potential",
+    "definition": "What you could still become. He says a soft life can end before you ever meet it.",
+    "example": "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Warning Order",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 63602,
+    "word": "realizing",
+    "definition": "Coming to see something clearly. The warning order's loss is dying without ever realizing your potential.",
+    "example": "You are in danger of living a life so comfortable and soft that you will die without ever realizing your true potential.",
+    "partOfSpeech": "verb",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Warning Order",
+    "categories": [
+      "inspirational",
+      "humanities"
+    ]
+  },
+  {
+    "id": 63603,
+    "word": "denial",
+    "definition": "Refusing a hard truth. He calls it the ultimate comfort zone.",
+    "example": "Denial is the ultimate comfort zone.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "courage",
+      "humanities"
+    ]
+  },
+  {
+    "id": 63604,
+    "word": "comfort",
+    "definition": "Ease that keeps you from the truth. Denial, he writes, is the ultimate comfort zone.",
+    "example": "Denial is the ultimate comfort zone.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 63605,
+    "word": "motivation",
+    "definition": "A passing urge to act. He says it changes exactly nobody.",
+    "example": "Motivation changes exactly nobody.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 63606,
+    "word": "habitual",
+    "definition": "Done by habit, without a fresh decision. He says the self-limiting choices are habitual.",
+    "example": "But the truth is we all make habitual, self-limiting choices.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63607,
+    "word": "self-limiting",
+    "definition": "Holding yourself under a ceiling you set. He says those choices are habitual.",
+    "example": "But the truth is we all make habitual, self-limiting choices.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63608,
+    "word": "capability",
+    "definition": "What you are able to do. He says a bold life reaches past what most people consider their capability.",
+    "example": "Only you can master your mind, which is what it takes to live a bold life filled with accomplishments most people consider beyond their capability.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "inspirational",
+      "courage"
+    ]
+  },
+  {
+    "id": 63609,
+    "word": "accomplishment",
+    "definition": "Something achieved by effort. He ties a bold life to accomplishments most people think are beyond them.",
+    "example": "Only you can master your mind, which is what it takes to live a bold life filled with accomplishments most people consider beyond their capability.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "inspirational",
+      "legacy"
+    ]
+  },
+  {
+    "id": 63610,
+    "word": "defy",
+    "definition": "To refuse to accept a limit. He says the 1 percent will put in the work to defy the odds.",
+    "example": "There will always be the 1 percent of us who are willing to put in the work to defy the odds.",
+    "partOfSpeech": "verb",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "Introduction",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63611,
+    "word": "governor",
+    "definition": "A built-in limit. He says the mind's governor is buried in identity and stops you early.",
+    "example": "Our governor is buried deep in our minds, intertwined with our very identity.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "humanities",
+      "courage"
+    ]
+  },
+  {
+    "id": 63612,
+    "word": "intertwined",
+    "definition": "Twisted together so the parts are hard to separate. The governor, he writes, is intertwined with identity.",
+    "example": "Our governor is buried deep in our minds, intertwined with our very identity.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "humanities",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63613,
+    "word": "identity",
+    "definition": "The story of who you are. He says the governor is intertwined with it.",
+    "example": "Our governor is buried deep in our minds, intertwined with our very identity.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "humanities",
+      "legacy"
+    ]
+  },
+  {
+    "id": 63614,
+    "word": "maximum",
+    "definition": "The highest amount available. He says most people quit after about 40 percent of their maximum effort.",
+    "example": "Sadly, most of us give up when we've only given around 40 percent of our maximum effort.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63615,
+    "word": "effort",
+    "definition": "The work you actually put in. His measure is that most people stop near 40 percent of maximum effort.",
+    "example": "Sadly, most of us give up when we've only given around 40 percent of our maximum effort.",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "leadership",
+      "courage"
+    ]
+  },
+  {
+    "id": 63616,
+    "word": "absolute",
+    "definition": "Total, with nothing left beyond it. He says the feeling of an absolute limit is the governor, and 60 percent remains.",
+    "example": "Even when we feel like we've reached our absolute limit, we still have 60 percent more to give!",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "courage",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 63617,
+    "word": "limit",
+    "definition": "The point where you believe you must stop. He says that feeling still leaves 60 percent more to give.",
+    "example": "Even when we feel like we've reached our absolute limit, we still have 60 percent more to give!",
+    "partOfSpeech": "noun",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63618,
+    "word": "callous",
+    "definition": "To harden by repeated strain. The way past 40 percent, he writes, is to callous your mind every day.",
+    "example": "The only way to move beyond your 40 percent is to callous your mind, day after day.",
+    "partOfSpeech": "verb",
+    "oratorId": 63,
+    "complexity": "advanced",
+    "source": "Can't Hurt Me",
+    "speech": "The 40% Rule",
+    "categories": [
+      "courage",
+      "leadership"
+    ]
+  },
+  {
+    "id": 63619,
+    "word": "meaningful",
+    "definition": "Worth caring about. He says quitting something meaningful leaves you haunted by it.",
+    "example": "You can have everything you want in life, but when you quit something that is meaningful to you, you will be haunted by it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Outside",
+    "speech": "The Outsider",
+    "categories": [
+      "legacy",
+      "inspirational"
+    ]
+  },
+  {
+    "id": 63620,
+    "word": "haunted",
+    "definition": "Followed by something you cannot put down. Quitting what matters, he says, leaves you haunted by it.",
+    "example": "You can have everything you want in life, but when you quit something that is meaningful to you, you will be haunted by it.",
+    "partOfSpeech": "adjective",
+    "oratorId": 63,
+    "complexity": "intermediate",
+    "source": "Outside",
+    "speech": "The Outsider",
+    "categories": [
+      "legacy",
+      "courage"
+    ]
+  }
+]
