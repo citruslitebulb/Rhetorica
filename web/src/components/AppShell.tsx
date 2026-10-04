@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
 import { ColumnMark } from './Icons';
 import { InstallControl } from './InstallControl';
+import { SetupFlow } from './SetupFlow';
 import { SiteNav } from './SiteNav';
 
 export function AppShell() {
@@ -29,6 +30,7 @@ export function AppShell() {
         </main>
       </div>
       <SiteNav variant="bottom" />
+      <SetupFlow />
     </div>
   );
 }

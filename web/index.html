@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#14110e" />
+    <script>
+      try {
+        var raw = localStorage.getItem('rhetorica.preferences.v1');
+        var mode = raw ? JSON.parse(raw).themeMode : 'dark';
+        var dark = mode === 'light' ? false : mode === 'system' ? window.matchMedia('(prefers-color-scheme: dark)').matches : true;
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+      } catch (e) {}
+    </script>
     <meta
       name="description"
       content="Rhetorica is an offline vocabulary of words from great orators. Browse dictionaries, read quotes, and save words on your device."

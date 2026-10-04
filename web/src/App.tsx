@@ -2,9 +2,12 @@ import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
 import { OratorPage } from './pages/OratorPage';
 import { OratorsPage } from './pages/OratorsPage';
+import { ProfilePage } from './pages/ProfilePage';
+import { QuizPage } from './pages/QuizPage';
 import { QuotesPage } from './pages/QuotesPage';
 import { SavedPage } from './pages/SavedPage';
 import { SpeechPage } from './pages/SpeechPage';
+import { SpeechesPage } from './pages/SpeechesPage';
 import { WordPage } from './pages/WordPage';
 import { WordsPage } from './pages/WordsPage';
 import { LibraryProvider } from './state/LibraryProvider';
@@ -34,7 +37,10 @@ export function App() {
             <Route path="words/:wordId" element={<WordPage />} />
             <Route path="quotes" element={<QuotesPage />} />
             <Route path="saved" element={<SavedPage />} />
+            <Route path="speeches" element={<SpeechesPage />} />
             <Route path="speeches/:speechId" element={<SpeechPage />} />
+            <Route path="quest" element={<QuizPage />} />
+            <Route path="profile" element={<ProfilePage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

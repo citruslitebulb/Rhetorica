@@ -2,7 +2,6 @@ import { useDeferredValue, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { WordCard } from '../components/WordCard';
 import { oratorById, words } from '../data/catalog';
-import { selectWordOfDay } from '../data/wordOfDay';
 import { themeLabel } from '../lib/format';
 import { useDocumentTitle } from '../lib/useDocumentTitle';
 import { useLibrary } from '../state/LibraryProvider';
@@ -18,7 +17,7 @@ function matchesComplexity(value: string, filter: (typeof COMPLEXITY)[number]): 
 
 export function WordsPage() {
   useDocumentTitle('Words');
-  const { selectedOratorId } = useLibrary();
+  const { selectedOratorId, visibleOratorIds, wordOfDay } = useLibrary();
   const selected = selectedOratorId == null ? undefined : oratorById.get(selectedOratorId);
   const [scope, setScope] = useState<'selected' | 'all'>(selected ? 'selected' : 'all');
   const [complexity, setComplexity] = useState<(typeof COMPLEXITY)[number]>('all');
@@ -26,13 +25,16 @@ export function WordsPage() {
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const deferredQuery = useDeferredValue(query);
   const oratorId = scope === 'selected' && selected ? selected.id : null;
-
-  const wordOfDay = useMemo(() => selectWordOfDay(words, oratorId, new Date()), [oratorId]);
+  const visibleIds = useMemo(() => new Set(visibleOratorIds), [visibleOratorIds]);
 
   const filtered = useMemo(() => {
     const needle = deferredQuery.trim().toLowerCase();
     return words.filter((word) => {
-      if (oratorId != null && word.oratorId !== oratorId) return false;
+      if (oratorId != null) {
+        if (word.oratorId !== oratorId) return false;
+      } else if (!visibleIds.has(word.oratorId)) {
+        return false;
+      }
       if (!matchesComplexity(word.complexity, complexity)) return false;
       if (!needle) return true;
       const oratorName = oratorById.get(word.oratorId)?.oratorName ?? '';
@@ -43,7 +45,7 @@ export function WordsPage() {
         oratorName.toLowerCase().includes(needle)
       );
     });
-  }, [complexity, deferredQuery, oratorId]);
+  }, [complexity, deferredQuery, oratorId, visibleIds]);
 
   const visible = filtered.slice(0, visibleCount);
   const wotdOrator = wordOfDay ? oratorById.get(wordOfDay.oratorId) : undefined;
