@@ -49,4 +49,52 @@ class WordComplexityTest {
         assertFalse(WordComplexity.Advanced.matches("beginner"))
         assertEquals(listOf("advanced"), WordComplexity.sqlValues(WordComplexity.Advanced))
     }
+
+    @Test
+    fun `tiers toggle independently and the last one off is any level`() {
+        val both = WordComplexity.Basic.toggle(WordComplexity.Tier.Intermediate)
+        assertEquals(WordComplexity.of(WordComplexity.Tier.Basic, WordComplexity.Tier.Intermediate), both)
+        assertEquals(
+            WordComplexity.Advanced,
+            WordComplexity.All.toggle(WordComplexity.Tier.Advanced),
+        )
+        assertEquals(WordComplexity.All, WordComplexity.Basic.toggle(WordComplexity.Tier.Basic))
+        assertEquals(
+            WordComplexity.All,
+            both.toggle(WordComplexity.Tier.Basic).toggle(WordComplexity.Tier.Intermediate),
+        )
+    }
+
+    @Test
+    fun `a combination matches the union and keeps beginner with basic`() {
+        val selection = WordComplexity.of(WordComplexity.Tier.Intermediate, WordComplexity.Tier.Advanced)
+        assertEquals("intermediate,advanced", selection.storageValue)
+        assertEquals(selection, WordComplexity.fromStorage("advanced, intermediate"))
+        assertTrue(selection.matches("intermediate"))
+        assertTrue(selection.matches("advanced"))
+        assertFalse(selection.matches("basic"))
+        assertFalse(selection.matches("beginner"))
+        assertFalse(selection.matches("unexpected"))
+        assertEquals(listOf("intermediate", "advanced"), WordComplexity.sqlValues(selection))
+        assertEquals(0, WordComplexity.includeAllFlag(selection))
+
+        val withBasic = selection.toggle(WordComplexity.Tier.Basic)
+        assertEquals("basic,intermediate,advanced", withBasic.storageValue)
+        assertTrue(withBasic.matches("beginner"))
+        assertTrue(withBasic.matches("basic"))
+        assertFalse(withBasic.isAll)
+        assertFalse(withBasic.matches("unexpected"))
+        assertEquals(
+            listOf("basic", "beginner", "intermediate", "advanced"),
+            WordComplexity.sqlValues(withBasic),
+        )
+    }
+
+    @Test
+    fun `any level token or an empty selection stays unrestricted`() {
+        assertEquals(WordComplexity.All, WordComplexity.fromStorage("basic,all"))
+        assertEquals(WordComplexity.All, WordComplexity.fromStorage("all"))
+        assertTrue(WordComplexity.All.matches("unexpected"))
+        assertEquals("all", WordComplexity.All.storageValue)
+    }
 }

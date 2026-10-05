@@ -332,6 +332,6 @@ class WordRepository @Inject constructor(
     }
 
     private fun List<WordEntity>.retainComplexity(complexity: WordComplexity): List<WordEntity> {
-        return if (complexity == WordComplexity.All) this else filter { complexity.matches(it.complexity) }
+        return if (complexity.isAll) this else filter { complexity.matches(it.complexity) }
     }
 }

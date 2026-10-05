@@ -156,7 +156,7 @@
     <string name="profile_notification_time_value">%1$02d:%2$02d</string>
     <string name="profile_notification_system_settings">Open system notification settings</string>
     <string name="profile_complexity_title">Complexity</string>
-    <string name="profile_complexity_hint">Limits the library, Word of the Day, and Quest. Any level keeps every word.</string>
+    <string name="profile_complexity_hint">Turn on any combination. The library, Word of the Day, and Quest use those levels together. Any level, or turning every level off, keeps every word.</string>
     <string name="profile_complexity_all">Any level</string>
     <string name="profile_complexity_basic">Basic</string>
     <string name="profile_complexity_intermediate">Intermediate</string>

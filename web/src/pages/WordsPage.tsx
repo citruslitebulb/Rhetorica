@@ -2,25 +2,19 @@ import { useDeferredValue, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { WordCard } from '../components/WordCard';
 import { oratorById, words } from '../data/catalog';
+import { COMPLEXITY_TIERS, matchesComplexity, toggleComplexityTier, type ComplexityTier } from '../lib/complexity';
 import { themeLabel } from '../lib/format';
 import { useDocumentTitle } from '../lib/useDocumentTitle';
 import { useLibrary } from '../state/LibraryProvider';
 
 const PAGE_SIZE = 36;
-const COMPLEXITY = ['all', 'basic', 'intermediate', 'advanced'] as const;
-
-function matchesComplexity(value: string, filter: (typeof COMPLEXITY)[number]): boolean {
-  if (filter === 'all') return true;
-  if (filter === 'basic') return value === 'basic' || value === 'beginner';
-  return value === filter;
-}
 
 export function WordsPage() {
   useDocumentTitle('Words');
   const { selectedOratorId, visibleOratorIds, wordOfDay } = useLibrary();
   const selected = selectedOratorId == null ? undefined : oratorById.get(selectedOratorId);
   const [scope, setScope] = useState<'selected' | 'all'>(selected ? 'selected' : 'all');
-  const [complexity, setComplexity] = useState<(typeof COMPLEXITY)[number]>('all');
+  const [complexity, setComplexity] = useState<ReadonlySet<ComplexityTier>>(() => new Set());
   const [query, setQuery] = useState('');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const deferredQuery = useDeferredValue(query);
@@ -121,18 +115,29 @@ export function WordsPage() {
       </div>
 
       <div className="chip-row" role="group" aria-label="Complexity">
-        {COMPLEXITY.map((item) => (
+        <button
+          type="button"
+          className={complexity.size === 0 ? 'chip is-on' : 'chip'}
+          aria-pressed={complexity.size === 0}
+          onClick={() => {
+            setComplexity(new Set());
+            setVisibleCount(PAGE_SIZE);
+          }}
+        >
+          Any level
+        </button>
+        {COMPLEXITY_TIERS.map((item) => (
           <button
             key={item}
             type="button"
-            className={complexity === item ? 'chip is-on' : 'chip'}
-            aria-pressed={complexity === item}
+            className={complexity.has(item) ? 'chip is-on' : 'chip'}
+            aria-pressed={complexity.has(item)}
             onClick={() => {
-              setComplexity(item);
+              setComplexity((current) => toggleComplexityTier(current, item));
               setVisibleCount(PAGE_SIZE);
             }}
           >
-            {item === 'all' ? 'Any level' : themeLabel(item)}
+            {themeLabel(item)}
           </button>
         ))}
       </div>

@@ -3,6 +3,7 @@ package com.rhetorica.app.data.repository
 import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.WordEntity
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
@@ -302,6 +303,100 @@ class WordOfDaySelectorTest {
                 wordComplexity = WordComplexity.Advanced,
             ),
         )
+    }
+
+    @Test
+    fun `explicit any level keeps the untouched cycle`() {
+        val mixed = mixedComplexities()
+        val untouched = WordOfDaySelector.selectUnseen(
+            allWords = mixed,
+            oratorId = 10L,
+            shownIds = emptySet(),
+            dayOfYear = 1,
+        )
+        val explicit = WordOfDaySelector.selectUnseen(
+            allWords = mixed,
+            oratorId = 10L,
+            shownIds = emptySet(),
+            dayOfYear = 1,
+            wordComplexity = WordComplexity.All,
+        )
+        assertEquals(untouched.word?.id, explicit.word?.id)
+        assertEquals("perfidy", explicit.word?.word)
+    }
+
+    @Test
+    fun `intermediate and advanced together stay in one union cycle`() {
+        val selection = WordComplexity.of(WordComplexity.Tier.Advanced, WordComplexity.Tier.Intermediate)
+        assertEquals(
+            "all|lit:1|fic:0|cx:intermediate,advanced",
+            WordOfDaySelector.poolKey(
+                oratorId = null,
+                includeLiterary = true,
+                includeFictional = false,
+                wordComplexity = selection,
+            ),
+        )
+        val mixed = mixedComplexities()
+        var shown = emptySet<Long>()
+        val order = mutableListOf<String>()
+        repeat(3) { day ->
+            val pick = WordOfDaySelector.selectUnseen(
+                allWords = mixed,
+                oratorId = 10L,
+                shownIds = shown,
+                dayOfYear = day + 1,
+                wordComplexity = selection,
+            )
+            order += pick.word!!.word
+            assertTrue(pick.word.complexity == "intermediate" || pick.word.complexity == "advanced")
+            shown = pick.shownIds.toSet()
+        }
+        assertEquals(listOf("perfidy", "resolve", "perfidy"), order)
+    }
+
+    @Test
+    fun `clearing every tier matches any level and the historical pool key`() {
+        val cleared = WordComplexity.of(WordComplexity.Tier.Basic, WordComplexity.Tier.Advanced)
+            .toggle(WordComplexity.Tier.Basic)
+            .toggle(WordComplexity.Tier.Advanced)
+        assertEquals(WordComplexity.All, cleared)
+        val mixed = mixedComplexities()
+        assertEquals(
+            WordOfDaySelector.pool(mixed, oratorId = 10L).map { it.id },
+            WordOfDaySelector.pool(mixed, oratorId = 10L, wordComplexity = cleared).map { it.id },
+        )
+        assertEquals(
+            WordOfDaySelector.poolKey(oratorId = null, includeLiterary = true, includeFictional = false),
+            WordOfDaySelector.poolKey(
+                oratorId = null,
+                includeLiterary = true,
+                includeFictional = false,
+                wordComplexity = cleared,
+            ),
+        )
+    }
+
+    @Test
+    fun `basic plus intermediate includes beginner and defers foundational words`() {
+        val selection = WordComplexity.of(WordComplexity.Tier.Basic, WordComplexity.Tier.Intermediate)
+        val mixed = mixedComplexities()
+        var shown = emptySet<Long>()
+        val order = mutableListOf<String>()
+        repeat(3) { day ->
+            val pick = WordOfDaySelector.selectUnseen(
+                allWords = mixed,
+                oratorId = 10L,
+                shownIds = shown,
+                dayOfYear = day + 1,
+                wordComplexity = selection,
+            )
+            order += pick.word!!.word
+            shown = pick.shownIds.toSet()
+        }
+        assertEquals("resolve", order.first())
+        assertEquals(setOf("king", "lamp"), order.drop(1).toSet())
+        assertFalse(order.contains("perfidy"))
     }
 
     private fun mixedComplexities() = listOf(

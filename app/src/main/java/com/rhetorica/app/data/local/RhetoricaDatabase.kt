@@ -7,6 +7,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
+import com.rhetorica.app.core.model.WordComplexity
 
 @Database(
     entities = [
@@ -20,7 +21,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
         OpenedWordEntity::class,
         WordProgressEntity::class,
     ],
-    version = 18,
+    version = 19,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -303,6 +304,31 @@ abstract class RhetoricaDatabase : RoomDatabase() {
         }
 
         /**
+         * Multi-select complexity. The column stays `wordComplexity TEXT`.
+         * Legacy single-select values (`all`, `basic`, `intermediate`, `advanced`)
+         * are already canonical, so those rows are not rewritten.
+         */
+        private val MIGRATION_18_19 = object : Migration(18, 19) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                val rows = mutableListOf<Pair<Int, String?>>()
+                database.query("SELECT id, wordComplexity FROM user_preferences").use { cursor ->
+                    val idIndex = cursor.getColumnIndexOrThrow("id")
+                    val valueIndex = cursor.getColumnIndexOrThrow("wordComplexity")
+                    while (cursor.moveToNext()) {
+                        val raw = if (cursor.isNull(valueIndex)) null else cursor.getString(valueIndex)
+                        rows += cursor.getInt(idIndex) to raw
+                    }
+                }
+                WordComplexity.migrationUpdates(rows).forEach { (id, canonical) ->
+                    database.execSQL(
+                        "UPDATE user_preferences SET wordComplexity = ? WHERE id = ?",
+                        arrayOf<Any>(canonical, id),
+                    )
+                }
+            }
+        }
+
+        /**
          * Vocabulary tier for the library, Word of the Day, and Quest.
          * Default `all` keeps every complexity, matching an install that never sets it.
          */
@@ -373,6 +399,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_15_16,
                         MIGRATION_16_17,
                         MIGRATION_17_18,
+                        MIGRATION_18_19,
                     )
                     // No destructive fallback: a missing migration must fail loudly in
                     // development rather than silently wiping saved words and progress.

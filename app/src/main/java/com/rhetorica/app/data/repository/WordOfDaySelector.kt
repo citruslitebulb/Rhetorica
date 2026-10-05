@@ -13,8 +13,9 @@ import java.time.ZoneId
  *   (optionally limited to favorite orators).
  * - If a specific orator is selected, pick **only** from that orator's words.
  * - Theme filters never change which orator owns the Word of the Day.
- * - [WordComplexity.All] leaves the pool unchanged. Any other tier keeps only that
- *   tier (Basic also includes the seed value beginner).
+ * - [WordComplexity.All] leaves the pool and its historical key unchanged.
+ *   Any selected combination keeps the union of those tiers (Basic also
+ *   includes the seed value beginner).
  * - Within a pool, unseen words are preferred until the pool is exhausted, then the
  *   cycle restarts. The pick for a given calendar day is stable once persisted.
  */
@@ -50,7 +51,7 @@ object WordOfDaySelector {
         }
         val key = "$base|$catalog"
         // Any level keeps the historical key so an untouched setting does not restart the cycle.
-        return if (wordComplexity == WordComplexity.All) key else "$key|cx:${wordComplexity.storageValue}"
+        return if (wordComplexity.isAll) key else "$key|cx:${wordComplexity.storageValue}"
     }
 
     fun dayOffset(
@@ -116,7 +117,7 @@ object WordOfDaySelector {
         } else {
             catalogScoped.filter { it.oratorId == oratorId }
         }
-        return if (wordComplexity == WordComplexity.All) {
+        return if (wordComplexity.isAll) {
             oratorScoped
         } else {
             oratorScoped.filter { wordComplexity.matches(it.complexity) }
