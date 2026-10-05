@@ -72,6 +72,10 @@ interface WordDao {
     @Query("SELECT id FROM words")
     suspend fun getAllWordIds(): List<Long>
 
+    /** Normalized by callers. Used so letter-guess can see bases outside the random sample. */
+    @Query("SELECT word FROM words")
+    suspend fun getAllHeadwords(): List<String>
+
     @Query("DELETE FROM words WHERE id IN (:ids)")
     suspend fun deleteWordsByIds(ids: List<Long>)
 

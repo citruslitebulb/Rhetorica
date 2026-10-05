@@ -1,6 +1,7 @@
 package com.rhetorica.app.data.repository
 
 import com.rhetorica.app.core.model.LearningPool
+import com.rhetorica.app.core.model.LetterGuessLemma
 import com.rhetorica.app.core.model.OratorCatalogKind
 import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.DictionaryDao
@@ -237,7 +238,9 @@ class WordRepository @Inject constructor(
 
     /**
      * Pick a random library word suitable for letter-guessing.
-     * Matches playable letter length (A–Z only) in [minLetters, maxLetters] inclusive.
+     * Matches playable letter length (letters only) in [minLetters, maxLetters] inclusive,
+     * the current complexity multi-select, and citation form ([LetterGuessLemma]).
+     * Multiple choice does not use this path.
      *
      * Prefer candidates that are not in [excludeWordIds] and whose definition is not in
      * [excludeDefinitions] so consecutive rounds never reuse the same prompt/answer pair.
@@ -252,15 +255,23 @@ class WordRepository @Inject constructor(
         savedOnly: Boolean = false,
         visibleOratorIds: Collection<Long>? = null,
     ): WordEntity? {
-        fun letterCountOk(word: WordEntity): Boolean {
-            val letters = word.word.filter { it.isLetter() }
-            return letters.isNotEmpty() && letters.length in minLetters..maxLetters
-        }
-
         val visible = visibleOratorIds ?: resolveVisibleOratorIds()
         val complexity = currentComplexity()
         val includeAll = WordComplexity.includeAllFlag(complexity)
         val complexities = WordComplexity.sqlValues(complexity)
+        val lexicon = wordDao.getAllHeadwords().mapTo(HashSet()) { LetterGuessLemma.normalize(it) }
+
+        fun eligible(word: WordEntity): Boolean {
+            return LetterGuessLemma.isCandidate(
+                word = word.word,
+                partOfSpeech = word.partOfSpeech,
+                complexity = word.complexity,
+                minLetters = minLetters,
+                maxLetters = maxLetters,
+                allowedComplexity = complexity,
+                lexicon = lexicon,
+            )
+        }
 
         suspend fun pool(orator: Long?): List<WordEntity> {
             val raw = when {
@@ -274,7 +285,7 @@ class WordRepository @Inject constructor(
                 )
                 else -> emptyList()
             }
-            return raw.filter { complexity.matches(it.complexity) && letterCountOk(it) }
+            return raw.filter { eligible(it) }
         }
 
         fun pick(candidates: List<WordEntity>): WordEntity? {
@@ -303,7 +314,7 @@ class WordRepository @Inject constructor(
         } else {
             emptyList()
         }
-        return pick(lastResort.filter { complexity.matches(it.complexity) && letterCountOk(it) })
+        return pick(lastResort.filter { eligible(it) })
     }
 
     suspend fun saveWord(wordId: Long) {

@@ -1,4 +1,5 @@
 import type { Word } from '../types';
+import { headwordKey, isLetterGuessBaseForm } from './letterGuessLemma';
 import { normalizeGuess } from './wordGuess';
 
 export type Rng = () => number;
@@ -120,9 +121,15 @@ export function assembleLetterGuess(args: {
   excludeDefinitions: ReadonlySet<string>;
   rng: Rng;
 }): Word | null {
+  const lexicon = new Set(args.words.map((word) => headwordKey(word.word)).filter((key) => key.length > 0));
   const lengthOk = (word: Word) => {
     const count = letterCount(word.word);
-    return count > 0 && count >= args.minLetters && count <= args.maxLetters;
+    return (
+      count > 0 &&
+      count >= args.minLetters &&
+      count <= args.maxLetters &&
+      isLetterGuessBaseForm(word.word, word.partOfSpeech, lexicon)
+    );
   };
   const savedOnly = args.pool === 'saved';
 
