@@ -322,7 +322,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                 WordComplexity.migrationUpdates(rows).forEach { (id, canonical) ->
                     database.execSQL(
                         "UPDATE user_preferences SET wordComplexity = ? WHERE id = ?",
-                        arrayOf(canonical, id),
+                        arrayOf<Any>(canonical, id),
                     )
                 }
             }
