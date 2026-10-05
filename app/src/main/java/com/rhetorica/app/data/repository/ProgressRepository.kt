@@ -146,7 +146,7 @@ class ProgressRepository @Inject constructor(
                 complexities,
             )
         }
-        return if (wordComplexity == WordComplexity.All) due else due.filter { wordComplexity.matches(it.complexity) }
+        return if (wordComplexity.isAll) due else due.filter { wordComplexity.matches(it.complexity) }
     }
 
     suspend fun syncSavedCount() {

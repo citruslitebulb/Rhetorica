@@ -933,10 +933,15 @@ private fun ComplexityCard(
                 horizontalArrangement = Arrangement.spacedBy(8.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                WordComplexity.entries.forEach { tier ->
+                FilterChip(
+                    selected = selected.isAll,
+                    onClick = { onSelect(WordComplexity.All) },
+                    label = { Text(stringResource(R.string.profile_complexity_all)) },
+                )
+                WordComplexity.Tier.entries.forEach { tier ->
                     FilterChip(
-                        selected = selected == tier,
-                        onClick = { onSelect(tier) },
+                        selected = tier in selected.tiers,
+                        onClick = { onSelect(selected.toggle(tier)) },
                         label = { Text(stringResource(tier.labelRes())) },
                     )
                 }
@@ -945,11 +950,10 @@ private fun ComplexityCard(
     }
 }
 
-private fun WordComplexity.labelRes(): Int = when (this) {
-    WordComplexity.All -> R.string.profile_complexity_all
-    WordComplexity.Basic -> R.string.profile_complexity_basic
-    WordComplexity.Intermediate -> R.string.profile_complexity_intermediate
-    WordComplexity.Advanced -> R.string.profile_complexity_advanced
+private fun WordComplexity.Tier.labelRes(): Int = when (this) {
+    WordComplexity.Tier.Basic -> R.string.profile_complexity_basic
+    WordComplexity.Tier.Intermediate -> R.string.profile_complexity_intermediate
+    WordComplexity.Tier.Advanced -> R.string.profile_complexity_advanced
 }
 
 @Composable

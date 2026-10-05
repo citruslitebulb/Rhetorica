@@ -86,7 +86,7 @@ class HomeViewModel @Inject constructor(
                     word.categories.any { cat -> cat in query.activeThemeSet }
                 }
             }
-            if (query.wordComplexity != WordComplexity.All) {
+            if (!query.wordComplexity.isAll) {
                 filteredWords = filteredWords.filter { query.wordComplexity.matches(it.complexity) }
             }
 
@@ -121,7 +121,7 @@ class HomeViewModel @Inject constructor(
                 ),
                 totalWordCount = words.size,
                 browseWordCount = listWords.size,
-                hasActiveFilters = query.hasActiveFilters || query.wordComplexity != WordComplexity.All,
+                hasActiveFilters = query.hasActiveFilters || !query.wordComplexity.isAll,
                 availableCategories = words.flatMap { it.categories }.distinct().sorted(),
                 selectedCategories = query.activeThemeSet,
                 isLoading = false,
