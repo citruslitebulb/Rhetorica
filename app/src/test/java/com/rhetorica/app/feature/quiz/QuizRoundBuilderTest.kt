@@ -64,6 +64,23 @@ class QuizRoundBuilderTest {
     }
 
     @Test
+    fun `multiple choice can still use an inflected headword`() {
+        val correct = word(1, "advertising", pos = "noun")
+        val options = QuizRoundBuilder.buildOptions(
+            correct,
+            listOf(
+                correct,
+                word(2, "zeal"),
+                word(3, "candor"),
+                word(4, "valor"),
+            ),
+            optionCount = 4,
+        )
+        assertEquals(4, options.size)
+        assertTrue(options.any { it.id == correct.id })
+    }
+
+    @Test
     fun `returns empty when the pool cannot fill the round`() {
         val correct = word(1, "exhort")
         val options = QuizRoundBuilder.buildOptions(correct, listOf(correct, word(2, "rally")), optionCount = 4)

@@ -107,4 +107,58 @@ describe('quiz rounds', () => {
     expect(pick && [...pick.word].length).toBeGreaterThanOrEqual(4);
     expect(pick && [...pick.word].length).toBeLessThanOrEqual(5);
   });
+
+  it('letter guess skips inflected headwords and multiple choice does not', () => {
+    const advertising = word({ id: 1, word: 'advertising', partOfSpeech: 'noun' });
+    const advertise = word({ id: 2, word: 'advertise', partOfSpeech: 'verb' });
+    const advertised = word({ id: 3, word: 'advertised', partOfSpeech: 'verb' });
+    const bring = word({ id: 4, word: 'bring', partOfSpeech: 'verb' });
+    const picks = new Set<string>();
+    for (let index = 0; index < 30; index += 1) {
+      const pick = assembleLetterGuess({
+        words: [advertising, advertise, advertised, bring],
+        savedIds: new Set(),
+        pool: 'library',
+        oratorId: 1,
+        libraryOratorIds: new Set([1]),
+        minLetters: 4,
+        maxLetters: 14,
+        excludeWordIds: new Set(),
+        excludeDefinitions: new Set(),
+        rng: Math.random,
+      });
+      if (pick) picks.add(pick.word);
+    }
+    expect(picks.has('advertising')).toBe(false);
+    expect(picks.has('advertised')).toBe(false);
+    expect(picks.has('advertise')).toBe(true);
+    expect(picks.has('bring')).toBe(true);
+    expect(
+      assembleLetterGuess({
+        words: [advertising, advertised],
+        savedIds: new Set(),
+        pool: 'library',
+        oratorId: 1,
+        libraryOratorIds: new Set([1]),
+        minLetters: 4,
+        maxLetters: 14,
+        excludeWordIds: new Set(),
+        excludeDefinitions: new Set(),
+        rng,
+      }),
+    ).toBeNull();
+
+    const distractors = [2, 3, 4, 5].map((id) => word({ id, word: `noun${id}`, partOfSpeech: 'noun' }));
+    const round = assembleMultipleChoice({
+      words: [advertising, ...distractors],
+      savedIds: new Set(),
+      dueWords: [advertising],
+      pool: 'library',
+      oratorId: 1,
+      libraryOratorIds: new Set([1]),
+      previousWordId: null,
+      rng,
+    });
+    expect(round?.correct.word).toBe('advertising');
+  });
 });
