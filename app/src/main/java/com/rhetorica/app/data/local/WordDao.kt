@@ -35,6 +35,7 @@ interface WordDao {
             OR definition LIKE '%' || :query || '%'
             OR example LIKE '%' || :query || '%'
           )
+          AND (:includeAll = 1 OR complexity IN (:complexities))
         ORDER BY word COLLATE NOCASE ASC
         LIMIT :limit
         """,
@@ -42,6 +43,8 @@ interface WordDao {
     suspend fun searchWordsInOrators(
         query: String,
         oratorIds: List<Long>,
+        includeAll: Int,
+        complexities: List<String>,
         limit: Int = 40,
     ): List<WordEntity>
 
@@ -49,11 +52,16 @@ interface WordDao {
         """
         SELECT words.* FROM words
         INNER JOIN saved_words ON words.id = saved_words.wordId
+        WHERE (:includeAll = 1 OR words.complexity IN (:complexities))
         ORDER BY RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getRandomSavedWords(limit: Int): List<WordEntity>
+    suspend fun getRandomSavedWords(
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     @Query("SELECT * FROM words WHERE id = :wordId LIMIT 1")
     suspend fun getWordById(wordId: Long): WordEntity?
@@ -74,40 +82,64 @@ interface WordDao {
         """
         SELECT * FROM words
         WHERE oratorId = :oratorId
+          AND (:includeAll = 1 OR complexity IN (:complexities))
         ORDER BY RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getRandomWordsByOrator(oratorId: Long, limit: Int): List<WordEntity>
+    suspend fun getRandomWordsByOrator(
+        oratorId: Long,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     @Query(
         """
         SELECT * FROM words
         WHERE oratorId IN (:oratorIds)
+          AND (:includeAll = 1 OR complexity IN (:complexities))
         ORDER BY RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getRandomWordsByOratorIds(oratorIds: List<Long>, limit: Int): List<WordEntity>
+    suspend fun getRandomWordsByOratorIds(
+        oratorIds: List<Long>,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     /** Larger pool for letter-guess filtering (length / alphabetic-only). */
     @Query(
         """
         SELECT * FROM words
         WHERE oratorId = :oratorId
+          AND (:includeAll = 1 OR complexity IN (:complexities))
         ORDER BY RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getRandomWordsPoolByOrator(oratorId: Long, limit: Int): List<WordEntity>
+    suspend fun getRandomWordsPoolByOrator(
+        oratorId: Long,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     @Query(
         """
         SELECT * FROM words
         WHERE oratorId IN (:oratorIds)
+          AND (:includeAll = 1 OR complexity IN (:complexities))
         ORDER BY RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getRandomWordsPoolByOratorIds(oratorIds: List<Long>, limit: Int): List<WordEntity>
+    suspend fun getRandomWordsPoolByOratorIds(
+        oratorIds: List<Long>,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 }

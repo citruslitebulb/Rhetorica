@@ -20,7 +20,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
         OpenedWordEntity::class,
         WordProgressEntity::class,
     ],
-    version = 17,
+    version = 18,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -303,6 +303,18 @@ abstract class RhetoricaDatabase : RoomDatabase() {
         }
 
         /**
+         * Vocabulary tier for the library, Word of the Day, and Quest.
+         * Default `all` keeps every complexity, matching an install that never sets it.
+         */
+        private val MIGRATION_17_18 = object : Migration(17, 18) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                database.execSQL(
+                    "ALTER TABLE user_preferences ADD COLUMN wordComplexity TEXT NOT NULL DEFAULT 'all'",
+                )
+            }
+        }
+
+        /**
          * Per-word Leitner state for the quiz plus a consecutive-days activity streak.
          */
         private val MIGRATION_16_17 = object : Migration(16, 17) {
@@ -360,6 +372,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_14_15,
                         MIGRATION_15_16,
                         MIGRATION_16_17,
+                        MIGRATION_17_18,
                     )
                     // No destructive fallback: a missing migration must fail loudly in
                     // development rather than silently wiping saved words and progress.

@@ -2,6 +2,7 @@ package com.rhetorica.app.feature.quiz
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.ProgressRepository
@@ -122,6 +123,7 @@ class QuizViewModel @Inject constructor(
             }
 
             val preferences = userPreferencesDao.getUserPreferences().orDefault()
+            val complexity = WordComplexity.fromStorage(preferences.wordComplexity)
             val visible = wordRepository.resolveVisibleOratorIds(preferences)
             val library = wordRepository.resolveLibraryOratorIds(preferences)
             val oratorId = WordOfDaySelector.resolveOratorId(
@@ -148,6 +150,7 @@ class QuizViewModel @Inject constructor(
                     visibleOratorIds = library,
                 )
             }
+            pool = pool.filter { complexity.matches(it.complexity) }
 
             if (pool.size < MIN_OPTIONS) {
                 _uiState.update {
@@ -159,8 +162,13 @@ class QuizViewModel @Inject constructor(
             // Spaced repetition: words whose review is due take priority over fresh picks.
             val previousCorrectId = _uiState.value.correctWordId
             val due = progressRepository
-                .getDueQuizWords(oratorIds = scopeOratorIds, savedOnly = savedOnly, limit = 8)
-                .filter { it.id != previousCorrectId }
+                .getDueQuizWords(
+                    oratorIds = scopeOratorIds,
+                    savedOnly = savedOnly,
+                    limit = 8,
+                    wordComplexity = complexity,
+                )
+                .filter { it.id != previousCorrectId && complexity.matches(it.complexity) }
             val correct = due.randomOrNull() ?: pool.filter { it.id != previousCorrectId }.ifEmpty { pool }.random()
             val options = QuizRoundBuilder.buildOptions(
                 correct = correct,

@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.core.model.HabitProgress
 import com.rhetorica.app.core.model.LearningPool
 import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.core.util.AppLog
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.WordEntity
@@ -68,6 +69,7 @@ class HomeViewModel @Inject constructor(
             todaysWotdId = prefs.todaysWotdId,
             todaysWotdDate = prefs.todaysWotdDate,
             oratorNameById = visibleOrators.associate { it.id to it.name },
+            wordComplexity = WordComplexity.fromStorage(prefs.wordComplexity),
         )
     }
 
@@ -84,8 +86,11 @@ class HomeViewModel @Inject constructor(
                     word.categories.any { cat -> cat in query.activeThemeSet }
                 }
             }
+            if (query.wordComplexity != WordComplexity.All) {
+                filteredWords = filteredWords.filter { query.wordComplexity.matches(it.complexity) }
+            }
 
-            val wordOfTheDay = todaysWord
+            val wordOfTheDay = todaysWord?.takeIf { query.wordComplexity.matches(it.complexity) }
             val resolvedWotdOratorId = query.wotdOratorId ?: wordOfTheDay?.oratorId
             val wotdOratorName = resolvedWotdOratorId?.let { query.oratorNameById[it] }
             val listWords = if (wordOfTheDay != null) {
@@ -116,7 +121,7 @@ class HomeViewModel @Inject constructor(
                 ),
                 totalWordCount = words.size,
                 browseWordCount = listWords.size,
-                hasActiveFilters = query.hasActiveFilters,
+                hasActiveFilters = query.hasActiveFilters || query.wordComplexity != WordComplexity.All,
                 availableCategories = words.flatMap { it.categories }.distinct().sorted(),
                 selectedCategories = query.activeThemeSet,
                 isLoading = false,
@@ -168,6 +173,7 @@ private data class FeedQuery(
     val todaysWotdId: Long?,
     val todaysWotdDate: String,
     val oratorNameById: Map<Long, String>,
+    val wordComplexity: WordComplexity,
 )
 
 data class HomeUiState(

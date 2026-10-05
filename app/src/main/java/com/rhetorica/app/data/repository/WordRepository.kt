@@ -2,6 +2,7 @@ package com.rhetorica.app.data.repository
 
 import com.rhetorica.app.core.model.LearningPool
 import com.rhetorica.app.core.model.OratorCatalogKind
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.SavedWordDao
 import com.rhetorica.app.data.local.SavedWordEntity
@@ -55,7 +56,13 @@ class WordRepository @Inject constructor(
         if (trimmed.length < 2) return emptyList()
         val visible = resolveLibraryOratorIds()
         if (visible.isEmpty()) return emptyList()
-        return wordDao.searchWordsInOrators(trimmed, visible)
+        val complexity = currentComplexity()
+        return wordDao.searchWordsInOrators(
+            query = trimmed,
+            oratorIds = visible,
+            includeAll = WordComplexity.includeAllFlag(complexity),
+            complexities = WordComplexity.sqlValues(complexity),
+        ).retainComplexity(complexity)
     }
 
     suspend fun searchSpeeches(query: String): List<SpeechEntity> {
@@ -112,11 +119,13 @@ class WordRepository @Inject constructor(
         } else {
             emptyList()
         }
+        val complexity = WordComplexity.fromStorage(preferences.wordComplexity)
         val key = WordOfDaySelector.poolKey(
             oratorId = resolvedOratorId,
             favoriteOratorIds = resolvedFavorites,
             includeLiterary = preferences.includeLiteraryOrators,
             includeFictional = preferences.includeFictionalOrators,
+            wordComplexity = complexity,
         )
 
         if (
@@ -125,7 +134,7 @@ class WordRepository @Inject constructor(
             preferences.shownWotdPoolKey == key
         ) {
             val existing = wordDao.getWordById(preferences.todaysWotdId)
-            if (existing != null) return existing
+            if (existing != null && complexity.matches(existing.complexity)) return existing
         }
 
         val allWords = loadPool(resolvedOratorId, resolvedFavorites, visible)
@@ -140,6 +149,7 @@ class WordRepository @Inject constructor(
             shownIds = shown,
             favoriteOratorIds = resolvedFavorites,
             visibleOratorIds = visible,
+            wordComplexity = complexity,
         )
         val word = pick.word ?: return null
         preferencesRepository.update { current ->
@@ -206,14 +216,24 @@ class WordRepository @Inject constructor(
         visibleOratorIds: Collection<Long>? = null,
     ): List<WordEntity> {
         val visible = visibleOratorIds ?: resolveVisibleOratorIds()
+        val complexity = currentComplexity()
+        val includeAll = WordComplexity.includeAllFlag(complexity)
+        val complexities = WordComplexity.sqlValues(complexity)
         return when {
-            oratorId != null -> wordDao.getRandomWordsByOrator(oratorId, limit)
-            visible.isNotEmpty() -> wordDao.getRandomWordsByOratorIds(visible.toList(), limit)
+            oratorId != null -> wordDao.getRandomWordsByOrator(oratorId, limit, includeAll, complexities)
+            visible.isNotEmpty() -> wordDao.getRandomWordsByOratorIds(visible.toList(), limit, includeAll, complexities)
             else -> emptyList()
-        }
+        }.retainComplexity(complexity)
     }
 
-    suspend fun getRandomSavedWords(limit: Int): List<WordEntity> = wordDao.getRandomSavedWords(limit)
+    suspend fun getRandomSavedWords(limit: Int): List<WordEntity> {
+        val complexity = currentComplexity()
+        return wordDao.getRandomSavedWords(
+            limit = limit,
+            includeAll = WordComplexity.includeAllFlag(complexity),
+            complexities = WordComplexity.sqlValues(complexity),
+        ).retainComplexity(complexity)
+    }
 
     /**
      * Pick a random library word suitable for letter-guessing.
@@ -238,15 +258,23 @@ class WordRepository @Inject constructor(
         }
 
         val visible = visibleOratorIds ?: resolveVisibleOratorIds()
+        val complexity = currentComplexity()
+        val includeAll = WordComplexity.includeAllFlag(complexity)
+        val complexities = WordComplexity.sqlValues(complexity)
 
         suspend fun pool(orator: Long?): List<WordEntity> {
             val raw = when {
-                savedOnly -> wordDao.getRandomSavedWords(poolSize)
-                orator != null -> wordDao.getRandomWordsPoolByOrator(orator, poolSize)
-                visible.isNotEmpty() -> wordDao.getRandomWordsPoolByOratorIds(visible.toList(), poolSize)
+                savedOnly -> wordDao.getRandomSavedWords(poolSize, includeAll, complexities)
+                orator != null -> wordDao.getRandomWordsPoolByOrator(orator, poolSize, includeAll, complexities)
+                visible.isNotEmpty() -> wordDao.getRandomWordsPoolByOratorIds(
+                    visible.toList(),
+                    poolSize,
+                    includeAll,
+                    complexities,
+                )
                 else -> emptyList()
             }
-            return raw.filter(::letterCountOk)
+            return raw.filter { complexity.matches(it.complexity) && letterCountOk(it) }
         }
 
         fun pick(candidates: List<WordEntity>): WordEntity? {
@@ -271,11 +299,11 @@ class WordRepository @Inject constructor(
         if (savedOnly) return null
 
         val lastResort = if (visible.isNotEmpty()) {
-            wordDao.getRandomWordsPoolByOratorIds(visible.toList(), poolSize * 3)
+            wordDao.getRandomWordsPoolByOratorIds(visible.toList(), poolSize * 3, includeAll, complexities)
         } else {
             emptyList()
         }
-        return pick(lastResort.filter(::letterCountOk))
+        return pick(lastResort.filter { complexity.matches(it.complexity) && letterCountOk(it) })
     }
 
     suspend fun saveWord(wordId: Long) {
@@ -299,4 +327,11 @@ class WordRepository @Inject constructor(
         }
     }
 
+    private suspend fun currentComplexity(): WordComplexity {
+        return WordComplexity.fromStorage(userPreferencesDao.getUserPreferences().orDefault().wordComplexity)
+    }
+
+    private fun List<WordEntity>.retainComplexity(complexity: WordComplexity): List<WordEntity> {
+        return if (complexity == WordComplexity.All) this else filter { complexity.matches(it.complexity) }
+    }
 }
