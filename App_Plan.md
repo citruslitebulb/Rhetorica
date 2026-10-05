@@ -150,7 +150,7 @@ Key remaining work for publication includes release signing + minification, prod
 ## 9) Immediate First Deliverable (this sprint)
 1. [Done] Full root build files and convention plugins.
 2. [Done] App theme and reusable word card component.
-3. [Done] Bottom navigation: Quiz, Saved, Home, Profile, Speeches.
+3. [Done] Bottom navigation: Quest, Saved, Home, Profile, Speeches.
 4. [Done] Fake word model + Room entity/DAO.
 5. [Done/Current fallback] Feed screen with swipe interaction.
 6. [Done] Word detail route (sheet or full screen).
