@@ -27,11 +27,18 @@ interface WordProgressDao {
         INNER JOIN word_progress p ON words.id = p.wordId
         WHERE p.nextDueAtEpochMillis <= :now
           AND words.oratorId IN (:oratorIds)
+          AND (:includeAll = 1 OR words.complexity IN (:complexities))
         ORDER BY p.nextDueAtEpochMillis ASC, RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getDueWordsInOrators(now: Long, oratorIds: List<Long>, limit: Int): List<WordEntity>
+    suspend fun getDueWordsInOrators(
+        now: Long,
+        oratorIds: List<Long>,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     /** Due words restricted to the saved list. */
     @Query(
@@ -40,11 +47,17 @@ interface WordProgressDao {
         INNER JOIN word_progress p ON words.id = p.wordId
         INNER JOIN saved_words s ON words.id = s.wordId
         WHERE p.nextDueAtEpochMillis <= :now
+          AND (:includeAll = 1 OR words.complexity IN (:complexities))
         ORDER BY p.nextDueAtEpochMillis ASC, RANDOM()
         LIMIT :limit
         """,
     )
-    suspend fun getDueSavedWords(now: Long, limit: Int): List<WordEntity>
+    suspend fun getDueSavedWords(
+        now: Long,
+        limit: Int,
+        includeAll: Int,
+        complexities: List<String>,
+    ): List<WordEntity>
 
     @Query("DELETE FROM word_progress WHERE wordId NOT IN (SELECT id FROM words)")
     suspend fun deleteOrphaned()

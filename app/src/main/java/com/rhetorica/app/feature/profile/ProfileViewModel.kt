@@ -7,6 +7,7 @@ import com.rhetorica.app.core.model.HabitProgress
 import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
 import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.core.model.ThemeMode
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.DictionaryRepository
 import com.rhetorica.app.data.repository.PreferencesRepository
@@ -71,6 +72,7 @@ class ProfileViewModel @Inject constructor(
                 notificationHour = preferences.notificationHour,
                 notificationMinute = preferences.notificationMinute,
                 themeMode = ThemeMode.fromStorage(preferences.themeMode),
+                wordComplexity = WordComplexity.fromStorage(preferences.wordComplexity),
                 includeFictionalOrators = preferences.includeFictionalOrators,
                 includeLiteraryOrators = preferences.includeLiteraryOrators,
                 openedTodaysWord = HabitProgress.isTodaysWordOpened(
@@ -227,6 +229,14 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
+    fun setWordComplexity(complexity: WordComplexity) {
+        viewModelScope.launch {
+            val current = WordComplexity.fromStorage(preferencesRepository.get().wordComplexity)
+            if (current == complexity) return@launch
+            updatePoolAndRefresh { it.copy(wordComplexity = complexity.storageValue) }
+        }
+    }
+
     fun setIncludeFictionalOrators(include: Boolean) {
         viewModelScope.launch {
             updatePoolAndRefresh { it.copy(includeFictionalOrators = include) }
@@ -262,6 +272,7 @@ data class ProfileUiState(
     val notificationHour: Int = 8,
     val notificationMinute: Int = 0,
     val themeMode: ThemeMode = ThemeMode.Dark,
+    val wordComplexity: WordComplexity = WordComplexity.All,
     val includeFictionalOrators: Boolean = false,
     val includeLiteraryOrators: Boolean = false,
     val openedTodaysWord: Boolean = false,

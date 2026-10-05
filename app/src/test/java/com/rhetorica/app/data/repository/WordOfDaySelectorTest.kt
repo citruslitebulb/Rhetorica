@@ -1,9 +1,11 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.WordEntity
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotEquals
 import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class WordOfDaySelectorTest {
@@ -225,4 +227,87 @@ class WordOfDaySelectorTest {
             WordOfDaySelector.poolKey(oratorId = 10L, includeLiterary = false, includeFictional = true),
         )
     }
+
+    @Test
+    fun `any level leaves the pool key unchanged`() {
+        val untouched = WordOfDaySelector.poolKey(oratorId = null, includeLiterary = true, includeFictional = false)
+        val explicit = WordOfDaySelector.poolKey(
+            oratorId = null,
+            includeLiterary = true,
+            includeFictional = false,
+            wordComplexity = WordComplexity.All,
+        )
+        assertEquals("all|lit:1|fic:0", untouched)
+        assertEquals(untouched, explicit)
+    }
+
+    @Test
+    fun `a chosen tier is part of the pool key`() {
+        assertEquals(
+            "all|lit:1|fic:0|cx:intermediate",
+            WordOfDaySelector.poolKey(
+                oratorId = null,
+                includeLiterary = true,
+                includeFictional = false,
+                wordComplexity = WordComplexity.Intermediate,
+            ),
+        )
+    }
+
+    @Test
+    fun `basic complexity keeps beginner with basic and drops higher tiers`() {
+        val mixed = mixedComplexities()
+        var shown = emptySet<Long>()
+        val order = mutableListOf<String>()
+        repeat(2) { day ->
+            val pick = WordOfDaySelector.selectUnseen(
+                allWords = mixed,
+                oratorId = 10L,
+                shownIds = shown,
+                dayOfYear = day + 1,
+                wordComplexity = WordComplexity.Basic,
+            )
+            order += pick.word!!.word
+            assertTrue(pick.word.complexity == "basic" || pick.word.complexity == "beginner")
+            shown = pick.shownIds.toSet()
+        }
+        assertEquals(listOf("king", "lamp"), order)
+    }
+
+    @Test
+    fun `a tier stays inside its own cycle and does not fall back`() {
+        val mixed = mixedComplexities() + word(5, "valor", oratorId = 10, complexity = "intermediate")
+        var shown = emptySet<Long>()
+        val order = mutableListOf<String>()
+        var reset = false
+        repeat(3) { day ->
+            val pick = WordOfDaySelector.selectUnseen(
+                allWords = mixed,
+                oratorId = 10L,
+                shownIds = shown,
+                dayOfYear = day + 1,
+                wordComplexity = WordComplexity.Intermediate,
+            )
+            order += pick.word!!.word
+            reset = pick.cycleReset
+            shown = pick.shownIds.toSet()
+        }
+        assertEquals(listOf("resolve", "valor", "resolve"), order)
+        assertTrue(reset)
+        assertNull(
+            WordOfDaySelector.select(
+                allWords = library,
+                oratorId = 10L,
+                dayOfYear = 1,
+                wordComplexity = WordComplexity.Advanced,
+            ),
+        )
+    }
+
+    private fun mixedComplexities() = listOf(
+        word(1, "king", oratorId = 10, complexity = "basic"),
+        word(2, "lamp", oratorId = 10, complexity = "beginner"),
+        word(3, "perfidy", oratorId = 10, complexity = "advanced"),
+        word(4, "resolve", oratorId = 10, complexity = "intermediate"),
+    )
 }

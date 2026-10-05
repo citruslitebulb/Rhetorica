@@ -59,6 +59,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.core.model.WordThemes
 import com.rhetorica.app.data.repository.ProgressSnapshot
 import com.rhetorica.app.ui.theme.RhetoricaGold
@@ -85,6 +86,7 @@ fun ProfileRoute(
         onNotificationsEnabled = viewModel::setNotificationsEnabled,
         onNotificationTime = viewModel::setNotificationTime,
         onThemeMode = viewModel::setThemeMode,
+        onWordComplexity = viewModel::setWordComplexity,
         onIncludeFictional = viewModel::setIncludeFictionalOrators,
         onIncludeLiterary = viewModel::setIncludeLiteraryOrators,
     )
@@ -107,6 +109,7 @@ private fun ProfileScreen(
     onNotificationsEnabled: (Boolean) -> Unit,
     onNotificationTime: (Int, Int) -> Unit,
     onThemeMode: (com.rhetorica.app.core.model.ThemeMode) -> Unit,
+    onWordComplexity: (WordComplexity) -> Unit,
     onIncludeFictional: (Boolean) -> Unit,
     onIncludeLiterary: (Boolean) -> Unit,
 ) {
@@ -115,6 +118,7 @@ private fun ProfileScreen(
     var oratorsExpanded by rememberSaveable { mutableStateOf(false) }
     var habitExpanded by rememberSaveable { mutableStateOf(false) }
     var appearanceExpanded by rememberSaveable { mutableStateOf(false) }
+    var complexityExpanded by rememberSaveable { mutableStateOf(true) }
 
     Scaffold(
         topBar = {
@@ -143,6 +147,26 @@ private fun ProfileScreen(
                 progress = state.progress,
                 openedToday = state.openedTodaysWord,
             )
+        }
+
+        item {
+            CollapsibleSectionHeader(
+                title = stringResource(R.string.profile_complexity_title),
+                expanded = complexityExpanded,
+                onToggle = { complexityExpanded = !complexityExpanded },
+            )
+        }
+        item {
+            AnimatedVisibility(
+                visible = complexityExpanded,
+                enter = expandVertically() + fadeIn(),
+                exit = shrinkVertically() + fadeOut(),
+            ) {
+                ComplexityCard(
+                    selected = state.wordComplexity,
+                    onSelect = onWordComplexity,
+                )
+            }
         }
 
         item {
@@ -883,6 +907,49 @@ private fun NotificationsCard(
             },
         )
     }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun ComplexityCard(
+    selected: WordComplexity,
+    onSelect: (WordComplexity) -> Unit,
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text(
+                text = stringResource(R.string.profile_complexity_hint),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            FlowRow(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                WordComplexity.entries.forEach { tier ->
+                    FilterChip(
+                        selected = selected == tier,
+                        onClick = { onSelect(tier) },
+                        label = { Text(stringResource(tier.labelRes())) },
+                    )
+                }
+            }
+        }
+    }
+}
+
+private fun WordComplexity.labelRes(): Int = when (this) {
+    WordComplexity.All -> R.string.profile_complexity_all
+    WordComplexity.Basic -> R.string.profile_complexity_basic
+    WordComplexity.Intermediate -> R.string.profile_complexity_intermediate
+    WordComplexity.Advanced -> R.string.profile_complexity_advanced
 }
 
 @Composable

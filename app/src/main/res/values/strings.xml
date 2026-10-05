@@ -80,7 +80,7 @@
     <string name="home_empty_title">Loading your library</string>
     <string name="home_empty_body">Seed data is still arriving. Open the app again in a moment if this persists.</string>
     <string name="home_filtered_empty_title">No words match your filters</string>
-    <string name="home_filtered_empty_body">Try another orator or clear themes in Profile to see more words.</string>
+    <string name="home_filtered_empty_body">Try another orator, theme, or complexity in Profile to see more words.</string>
 
     <!-- Word detail -->
     <string name="word_speak">Pronounce word</string>
@@ -139,7 +139,7 @@
 
     <string name="home_wotd_opened">Today\'s word · opened</string>
     <string name="home_feed_end_title">You have seen this collection</string>
-    <string name="home_feed_end_body">%1$d words in this filter. Change orator or themes in Settings for a new set.</string>
+    <string name="home_feed_end_body">%1$d words in this filter. Change orator, themes, or complexity in Settings for a new set.</string>
 
     <string name="quiz_pool_library">Library</string>
     <string name="quiz_pool_saved">Saved words</string>
@@ -155,6 +155,12 @@
     <string name="profile_notifications_hint">A Word of the Day reminder at the time you choose.</string>
     <string name="profile_notification_time_value">%1$02d:%2$02d</string>
     <string name="profile_notification_system_settings">Open system notification settings</string>
+    <string name="profile_complexity_title">Complexity</string>
+    <string name="profile_complexity_hint">Limits the library, Word of the Day, and Quest. Any level keeps every word.</string>
+    <string name="profile_complexity_all">Any level</string>
+    <string name="profile_complexity_basic">Basic</string>
+    <string name="profile_complexity_intermediate">Intermediate</string>
+    <string name="profile_complexity_advanced">Advanced</string>
     <string name="profile_appearance_title">Appearance</string>
     <string name="profile_theme_title">Theme</string>
     <string name="profile_theme_system">System</string>

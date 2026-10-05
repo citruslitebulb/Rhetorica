@@ -3,6 +3,7 @@ package com.rhetorica.app.data.local
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.rhetorica.app.core.model.ThemeMode
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.widget.WidgetImagePreset
 import kotlinx.serialization.Serializable
 
@@ -29,6 +30,7 @@ data class UserPreferencesEntity(
     val shownWotdPoolKey: String = "",
     val todaysWotdId: Long? = null,
     val todaysWotdDate: String = "",
+    val wordComplexity: String = WordComplexity.All.storageValue,
 ) {
     companion object {
         fun defaults(): UserPreferencesEntity = UserPreferencesEntity()

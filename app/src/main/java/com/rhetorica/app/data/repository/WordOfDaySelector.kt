@@ -1,5 +1,6 @@
 package com.rhetorica.app.data.repository
 
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.WordEntity
 import java.time.LocalDate
 import java.time.ZoneId
@@ -12,6 +13,8 @@ import java.time.ZoneId
  *   (optionally limited to favorite orators).
  * - If a specific orator is selected, pick **only** from that orator's words.
  * - Theme filters never change which orator owns the Word of the Day.
+ * - [WordComplexity.All] leaves the pool unchanged. Any other tier keeps only that
+ *   tier (Basic also includes the seed value beginner).
  * - Within a pool, unseen words are preferred until the pool is exhausted, then the
  *   cycle restarts. The pick for a given calendar day is stable once persisted.
  */
@@ -37,6 +40,7 @@ object WordOfDaySelector {
         favoriteOratorIds: List<Long> = emptyList(),
         includeLiterary: Boolean = false,
         includeFictional: Boolean = false,
+        wordComplexity: WordComplexity = WordComplexity.All,
     ): String {
         val catalog = "lit:${if (includeLiterary) 1 else 0}|fic:${if (includeFictional) 1 else 0}"
         val base = when {
@@ -44,7 +48,9 @@ object WordOfDaySelector {
             favoriteOratorIds.isNotEmpty() -> "favorites:${favoriteOratorIds.sorted().joinToString(",")}"
             else -> "all"
         }
-        return "$base|$catalog"
+        val key = "$base|$catalog"
+        // Any level keeps the historical key so an untouched setting does not restart the cycle.
+        return if (wordComplexity == WordComplexity.All) key else "$key|cx:${wordComplexity.storageValue}"
     }
 
     fun dayOffset(
@@ -74,6 +80,7 @@ object WordOfDaySelector {
         dayOfYear: Int = LocalDate.now(ZoneId.systemDefault()).dayOfYear,
         favoriteOratorIds: List<Long> = emptyList(),
         visibleOratorIds: Collection<Long>? = null,
+        wordComplexity: WordComplexity = WordComplexity.All,
     ): WordEntity? {
         return selectUnseen(
             allWords = allWords,
@@ -82,6 +89,7 @@ object WordOfDaySelector {
             dayOfYear = dayOfYear,
             favoriteOratorIds = favoriteOratorIds,
             visibleOratorIds = visibleOratorIds,
+            wordComplexity = wordComplexity,
         ).word
     }
 
@@ -90,6 +98,7 @@ object WordOfDaySelector {
         oratorId: Long?,
         favoriteOratorIds: List<Long> = emptyList(),
         visibleOratorIds: Collection<Long>? = null,
+        wordComplexity: WordComplexity = WordComplexity.All,
     ): List<WordEntity> {
         val catalogScoped = if (visibleOratorIds == null) {
             allWords
@@ -97,7 +106,7 @@ object WordOfDaySelector {
             val allowed = visibleOratorIds.toSet()
             allWords.filter { word -> word.oratorId != null && word.oratorId in allowed }
         }
-        return if (oratorId == null) {
+        val oratorScoped = if (oratorId == null) {
             if (favoriteOratorIds.isEmpty()) {
                 catalogScoped
             } else {
@@ -106,6 +115,11 @@ object WordOfDaySelector {
             }
         } else {
             catalogScoped.filter { it.oratorId == oratorId }
+        }
+        return if (wordComplexity == WordComplexity.All) {
+            oratorScoped
+        } else {
+            oratorScoped.filter { wordComplexity.matches(it.complexity) }
         }
     }
 
@@ -131,8 +145,9 @@ object WordOfDaySelector {
         dayOfYear: Int = LocalDate.now(ZoneId.systemDefault()).dayOfYear,
         favoriteOratorIds: List<Long> = emptyList(),
         visibleOratorIds: Collection<Long>? = null,
+        wordComplexity: WordComplexity = WordComplexity.All,
     ): WotdPick {
-        val candidates = pool(allWords, oratorId, favoriteOratorIds, visibleOratorIds)
+        val candidates = pool(allWords, oratorId, favoriteOratorIds, visibleOratorIds, wordComplexity)
         if (candidates.isEmpty()) return WotdPick(word = null, shownIds = emptyList(), cycleReset = false)
 
         val shownHeadwords = candidates

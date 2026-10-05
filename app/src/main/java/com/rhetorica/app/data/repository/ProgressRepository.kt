@@ -3,6 +3,7 @@ package com.rhetorica.app.data.repository
 import androidx.room.withTransaction
 import com.rhetorica.app.core.model.HabitProgress
 import com.rhetorica.app.core.model.LeitnerScheduler
+import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.OpenedWordDao
 import com.rhetorica.app.data.local.OpenedWordEntity
 import com.rhetorica.app.data.local.ProgressDao
@@ -130,12 +131,22 @@ class ProgressRepository @Inject constructor(
         savedOnly: Boolean,
         limit: Int,
         nowMillis: Long = System.currentTimeMillis(),
+        wordComplexity: WordComplexity = WordComplexity.All,
     ): List<WordEntity> {
-        return when {
-            savedOnly -> wordProgressDao.getDueSavedWords(nowMillis, limit)
+        val includeAll = WordComplexity.includeAllFlag(wordComplexity)
+        val complexities = WordComplexity.sqlValues(wordComplexity)
+        val due = when {
+            savedOnly -> wordProgressDao.getDueSavedWords(nowMillis, limit, includeAll, complexities)
             oratorIds.isEmpty() -> emptyList()
-            else -> wordProgressDao.getDueWordsInOrators(nowMillis, oratorIds.toList(), limit)
+            else -> wordProgressDao.getDueWordsInOrators(
+                nowMillis,
+                oratorIds.toList(),
+                limit,
+                includeAll,
+                complexities,
+            )
         }
+        return if (wordComplexity == WordComplexity.All) due else due.filter { wordComplexity.matches(it.complexity) }
     }
 
     suspend fun syncSavedCount() {
