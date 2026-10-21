@@ -87,6 +87,7 @@ fun ProfileRoute(
         onNotificationTime = viewModel::setNotificationTime,
         onThemeMode = viewModel::setThemeMode,
         onWordComplexity = viewModel::setWordComplexity,
+        onShowIdiomOfDay = viewModel::setShowIdiomOfDay,
         onIncludeFictional = viewModel::setIncludeFictionalOrators,
         onIncludeLiterary = viewModel::setIncludeLiteraryOrators,
     )
@@ -110,6 +111,7 @@ private fun ProfileScreen(
     onNotificationTime: (Int, Int) -> Unit,
     onThemeMode: (com.rhetorica.app.core.model.ThemeMode) -> Unit,
     onWordComplexity: (WordComplexity) -> Unit,
+    onShowIdiomOfDay: (Boolean) -> Unit,
     onIncludeFictional: (Boolean) -> Unit,
     onIncludeLiterary: (Boolean) -> Unit,
 ) {
@@ -167,6 +169,13 @@ private fun ProfileScreen(
                     onSelect = onWordComplexity,
                 )
             }
+        }
+
+        item {
+            IdiomOfDayCard(
+                show = state.showIdiomOfDay,
+                onShow = onShowIdiomOfDay,
+            )
         }
 
         item {
@@ -906,6 +915,42 @@ private fun NotificationsCard(
                 androidx.compose.material3.TimePicker(state = pickerState)
             },
         )
+    }
+}
+
+@Composable
+private fun IdiomOfDayCard(
+    show: Boolean,
+    onShow: (Boolean) -> Unit,
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(
+                    text = stringResource(R.string.profile_idiom_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                )
+                Text(
+                    text = stringResource(R.string.profile_idiom_hint),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            Switch(
+                checked = show,
+                onCheckedChange = onShow,
+            )
+        }
     }
 }
 

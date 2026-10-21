@@ -245,8 +245,16 @@ private fun MultipleChoiceContent(
             .verticalScroll(rememberScrollState()),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
+        val subtitle = when (state.promptKind) {
+            QuizPromptKind.Idiom -> R.string.quiz_idiom_subtitle
+            QuizPromptKind.Word -> R.string.quiz_subtitle
+        }
+        val promptLabel = when (state.promptKind) {
+            QuizPromptKind.Idiom -> R.string.quiz_idiom_prompt_label
+            QuizPromptKind.Word -> R.string.quiz_prompt_label
+        }
         Text(
-            text = stringResource(R.string.quiz_subtitle),
+            text = stringResource(subtitle),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
@@ -260,7 +268,10 @@ private fun MultipleChoiceContent(
             )
         }
 
-        DefinitionCard(definition = state.promptDefinition)
+        DefinitionCard(
+            label = stringResource(promptLabel),
+            definition = state.promptDefinition,
+        )
 
         state.options.forEach { option ->
             val isSelected = state.selectedOptionId == option.id
@@ -291,11 +302,13 @@ private fun MultipleChoiceContent(
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.SemiBold,
                         )
-                        Text(
-                            text = option.partOfSpeech,
-                            style = MaterialTheme.typography.labelMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                        )
+                        if (option.partOfSpeech.isNotBlank()) {
+                            Text(
+                                text = option.partOfSpeech,
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
                     }
                     if (state.isAnswered && isCorrect) {
                         Text(
@@ -310,12 +323,20 @@ private fun MultipleChoiceContent(
 
         if (state.isAnswered) {
             val correct = state.selectedOptionId == state.correctWordId
-            Text(
-                text = if (correct) {
-                    stringResource(R.string.quiz_feedback_correct)
+            val feedback = when (state.promptKind) {
+                QuizPromptKind.Idiom -> if (correct) {
+                    R.string.quiz_idiom_feedback_correct
                 } else {
-                    stringResource(R.string.quiz_feedback_incorrect)
-                },
+                    R.string.quiz_idiom_feedback_incorrect
+                }
+                QuizPromptKind.Word -> if (correct) {
+                    R.string.quiz_feedback_correct
+                } else {
+                    R.string.quiz_feedback_incorrect
+                }
+            }
+            Text(
+                text = stringResource(feedback),
                 style = MaterialTheme.typography.bodyLarge,
                 color = if (correct) {
                     MaterialTheme.colorScheme.primary
@@ -390,7 +411,10 @@ private fun WordGuessContent(
                 )
             }
 
-            DefinitionCard(definition = state.promptDefinition)
+            DefinitionCard(
+                label = stringResource(R.string.quiz_prompt_label),
+                definition = state.promptDefinition,
+            )
 
             GuessBoard(state = state)
 
@@ -459,7 +483,7 @@ private fun DifficultyChip(
 }
 
 @Composable
-private fun DefinitionCard(definition: String) {
+private fun DefinitionCard(label: String, definition: String) {
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
@@ -468,7 +492,7 @@ private fun DefinitionCard(definition: String) {
     ) {
         Column(modifier = Modifier.padding(16.dp)) {
             Text(
-                text = stringResource(R.string.quiz_prompt_label),
+                text = label,
                 style = MaterialTheme.typography.labelLarge,
                 color = MaterialTheme.colorScheme.primary,
             )

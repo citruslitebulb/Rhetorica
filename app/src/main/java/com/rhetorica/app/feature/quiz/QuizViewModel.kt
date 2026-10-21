@@ -5,9 +5,11 @@ import androidx.lifecycle.viewModelScope
 import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.orDefault
+import com.rhetorica.app.data.repository.IdiomRepository
 import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.data.repository.WordOfDaySelector
 import com.rhetorica.app.data.repository.WordRepository
+import kotlin.random.Random
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.Job
@@ -21,6 +23,11 @@ import kotlinx.coroutines.launch
 enum class QuizMode {
     MultipleChoice,
     WordGuess,
+}
+
+enum class QuizPromptKind {
+    Word,
+    Idiom,
 }
 
 enum class QuizPool {
@@ -53,6 +60,7 @@ class QuizViewModel @Inject constructor(
     private val wordRepository: WordRepository,
     private val progressRepository: ProgressRepository,
     private val userPreferencesDao: UserPreferencesDao,
+    private val idiomRepository: IdiomRepository,
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow(QuizUiState(isLoading = true))
@@ -104,6 +112,7 @@ class QuizViewModel @Inject constructor(
             _uiState.update {
                 it.copy(
                     mode = QuizMode.MultipleChoice,
+                    promptKind = QuizPromptKind.Word,
                     isLoading = true,
                     isUnavailable = false,
                     isReview = false,
@@ -133,6 +142,39 @@ class QuizViewModel @Inject constructor(
             )
 
             val savedOnly = _uiState.value.pool == QuizPool.Saved
+            val idioms = if (savedOnly) {
+                emptyList()
+            } else {
+                idiomRepository.getAll().filter { complexity.matches(it.complexity) }
+            }
+            if (IdiomQuizBuilder.shouldAsk(!savedOnly, idioms.size, Random.nextDouble())) {
+                val idiom = idioms.random()
+                val idiomOptions = IdiomQuizBuilder.buildOptions(
+                    correct = idiom,
+                    candidates = idioms,
+                    optionCount = MIN_OPTIONS,
+                    random = Random,
+                )
+                if (idiomOptions.size >= MIN_OPTIONS) {
+                    _uiState.update {
+                        it.copy(
+                            isLoading = false,
+                            isUnavailable = false,
+                            isReview = false,
+                            promptKind = QuizPromptKind.Idiom,
+                            promptDefinition = IdiomQuizBuilder.question(idiom.idiom),
+                            correctWordId = idiom.id,
+                            options = idiomOptions.map { choice ->
+                                QuizOption(id = choice.id, word = choice.meaning, partOfSpeech = "")
+                            },
+                            selectedOptionId = null,
+                            isAnswered = false,
+                        )
+                    }
+                    return@launch
+                }
+            }
+
             val scopeOratorIds = if (oratorId != null) listOf(oratorId) else library
             var pool = if (savedOnly) {
                 wordRepository.getRandomSavedWords(limit = POOL_SIZE)
@@ -187,6 +229,7 @@ class QuizViewModel @Inject constructor(
                     isLoading = false,
                     isUnavailable = false,
                     isReview = due.any { w -> w.id == correct.id },
+                    promptKind = QuizPromptKind.Word,
                     promptDefinition = correct.definition,
                     correctWordId = correct.id,
                     options = options.map { w ->
@@ -204,8 +247,10 @@ class QuizViewModel @Inject constructor(
         if (state.mode != QuizMode.MultipleChoice || state.isAnswered || state.isLoading) return
 
         val isCorrect = optionId == state.correctWordId
-        viewModelScope.launch {
-            progressRepository.recordQuizResult(wordId = state.correctWordId, correct = isCorrect)
+        if (state.promptKind == QuizPromptKind.Word) {
+            viewModelScope.launch {
+                progressRepository.recordQuizResult(wordId = state.correctWordId, correct = isCorrect)
+            }
         }
 
         _uiState.update {
@@ -224,7 +269,9 @@ class QuizViewModel @Inject constructor(
 
     // endregion
 
-    // region Word guess (Wordle-like)
+    // region Word guess (Wordle-like). Idioms are not a source for this mode.
+
+    
 
     fun startWordGuess() {
         wordGuessJob?.cancel()
@@ -442,6 +489,7 @@ class QuizViewModel @Inject constructor(
 
 data class QuizUiState(
     val mode: QuizMode = QuizMode.MultipleChoice,
+    val promptKind: QuizPromptKind = QuizPromptKind.Word,
     val pool: QuizPool = QuizPool.Library,
     val difficulty: WordGuessDifficulty = WordGuessDifficulty.Easy,
     val isLoading: Boolean = false,

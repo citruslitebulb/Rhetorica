@@ -1,6 +1,8 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { dictionaries, oratorById, wordById, words } from '../data/catalog';
+import { dictionaries, idioms, oratorById, wordById, words } from '../data/catalog';
+import { visibleIdiomOfDay } from '../data/idiomOfDay';
 import { ensureWordOfDay } from '../data/wordOfDay';
+import { complexityFromStorage, complexityToStorage, toggleComplexityTier, type ComplexityTier } from '../lib/complexity';
 import { dayOfYear } from '../lib/format';
 import { localDateString } from '../lib/dates';
 import { rotationOratorIds, visibleOratorIds } from '../lib/learningPool';
@@ -25,7 +27,7 @@ import {
   type ProgressSnapshot,
   type ProgressState,
 } from '../storage/progress';
-import type { Dictionary, SavedRecord, Word } from '../types';
+import type { Dictionary, Idiom, SavedRecord, Word } from '../types';
 
 type LibraryContextValue = {
   preferences: StudyPreferences;
@@ -39,6 +41,9 @@ type LibraryContextValue = {
   setThemeMode: (mode: ThemeMode) => void;
   previewTheme: (mode: ThemeMode | null) => void;
   setReminder: (enabled: boolean, hour: number, minute: number) => void;
+  setWordComplexity: (tier: ComplexityTier | 'all') => void;
+  setShowIdiomOfDay: (show: boolean) => void;
+  idiomOfDay: Idiom | null;
   visibleOrators: readonly Dictionary[];
   visibleOratorIds: readonly number[];
   libraryOratorIds: readonly number[];
@@ -217,6 +222,16 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
   const wordOfDay = preferences.todaysWotdDate === today && preferences.todaysWotdId != null
     ? wordById.get(preferences.todaysWotdId) ?? null
     : null;
+  const idiomOfDay = useMemo(
+    () =>
+      visibleIdiomOfDay(
+        preferences.showIdiomOfDay,
+        idioms,
+        complexityFromStorage(preferences.wordComplexity),
+        dayOfYear(new Date(clock)),
+      ),
+    [clock, preferences.showIdiomOfDay, preferences.wordComplexity],
+  );
 
   const toggle = useCallback((wordId: number) => {
     setSaved((current) => {
@@ -265,6 +280,13 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
           notificationHour: hour,
           notificationMinute: minute,
         }),
+      setWordComplexity: (tier) => {
+        const next =
+          tier === 'all' ? 'all' : complexityToStorage(toggleComplexityTier(complexityFromStorage(preferences.wordComplexity), tier));
+        commit({ ...preferences, wordComplexity: next });
+      },
+      setShowIdiomOfDay: (show) => commit({ ...preferences, showIdiomOfDay: show }),
+      idiomOfDay,
       visibleOrators,
       visibleOratorIds: visibleIds,
       libraryOratorIds: libraryIds,
@@ -316,6 +338,7 @@ export function LibraryProvider({ children }: { children: ReactNode }) {
       answerQuiz,
       chooseDailyOrator,
       commit,
+      idiomOfDay,
       libraryIds,
       preferences,
       progress,

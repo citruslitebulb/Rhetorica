@@ -11,7 +11,7 @@ const PAGE_SIZE = 36;
 
 export function WordsPage() {
   useDocumentTitle('Words');
-  const { selectedOratorId, visibleOratorIds, wordOfDay } = useLibrary();
+  const { selectedOratorId, visibleOratorIds, wordOfDay, idiomOfDay } = useLibrary();
   const selected = selectedOratorId == null ? undefined : oratorById.get(selectedOratorId);
   const [scope, setScope] = useState<'selected' | 'all'>(selected ? 'selected' : 'all');
   const [complexity, setComplexity] = useState<ReadonlySet<ComplexityTier>>(() => new Set());
@@ -64,6 +64,16 @@ export function WordsPage() {
           </h2>
           <p>{wordOfDay.definition}</p>
           {wotdOrator ? <p className="byline">{wotdOrator.oratorName}</p> : null}
+        </article>
+      ) : null}
+
+      {idiomOfDay ? (
+        <article className="idiom-day">
+          <p className="kicker">Idiom of the Day</p>
+          <h2>
+            <Link to={`/idioms/${idiomOfDay.id}`}>{idiomOfDay.idiom}</Link>
+          </h2>
+          <p>{idiomOfDay.meaning}</p>
         </article>
       ) : null}
 

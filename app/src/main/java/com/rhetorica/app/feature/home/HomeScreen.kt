@@ -37,10 +37,12 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.ui.WordListCard
+import com.rhetorica.app.data.local.IdiomEntity
 
 @Composable
 fun HomeRoute(
     onWordClick: (Long) -> Unit,
+    onIdiomClick: (Long) -> Unit,
     onSearchClick: () -> Unit,
     viewModel: HomeViewModel = hiltViewModel(),
 ) {
@@ -48,6 +50,7 @@ fun HomeRoute(
     HomeScreen(
         state = state,
         onWordClick = onWordClick,
+        onIdiomClick = onIdiomClick,
         onToggleSaved = viewModel::toggleSaved,
         onSearchClick = onSearchClick,
     )
@@ -58,6 +61,7 @@ fun HomeRoute(
 private fun HomeScreen(
     state: HomeUiState,
     onWordClick: (Long) -> Unit,
+    onIdiomClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
     onSearchClick: () -> Unit,
 ) {
@@ -102,7 +106,7 @@ private fun HomeScreen(
                 )
             }
 
-            state.wordOfTheDay == null && state.words.isEmpty() -> {
+            state.wordOfTheDay == null && state.idiomOfTheDay == null && state.words.isEmpty() -> {
                 EmptyState(
                     title = stringResource(R.string.home_filtered_empty_title),
                     body = stringResource(R.string.home_filtered_empty_body),
@@ -114,6 +118,7 @@ private fun HomeScreen(
                 HomeFeed(
                     state = state,
                     onWordClick = onWordClick,
+                    onIdiomClick = onIdiomClick,
                     onToggleSaved = onToggleSaved,
                     modifier = Modifier
                         .fillMaxSize()
@@ -126,13 +131,14 @@ private fun HomeScreen(
 }
 
 /**
- * Word of the Day sits at the top; browse vocabulary follows on the same
- * screen so the feed matches the gold-card home mockup.
+ * Word of the Day sits at the top, with Idiom of the Day under it when the
+ * profile leaves that card on. Browse vocabulary follows.
  */
 @Composable
 private fun HomeFeed(
     state: HomeUiState,
     onWordClick: (Long) -> Unit,
+    onIdiomClick: (Long) -> Unit,
     onToggleSaved: (Long) -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -151,6 +157,15 @@ private fun HomeFeed(
                     openedToday = state.openedTodaysWord,
                     onClick = { onWordClick(wotd.word.id) },
                     onToggleSaved = { onToggleSaved(wotd.word.id) },
+                )
+            }
+        }
+
+        state.idiomOfTheDay?.let { idiom ->
+            item(key = "idiom_of_the_day") {
+                IdiomOfTheDayCard(
+                    idiom = idiom,
+                    onClick = { onIdiomClick(idiom.id) },
                 )
             }
         }
@@ -209,6 +224,44 @@ private fun HomeFeed(
                     }
                 }
             }
+        }
+    }
+}
+
+@Composable
+private fun IdiomOfTheDayCard(
+    idiom: IdiomEntity,
+    onClick: () -> Unit,
+) {
+    Card(
+        onClick = onClick,
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+        ),
+        shape = RoundedCornerShape(20.dp),
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Text(
+                text = stringResource(R.string.home_idiom_badge),
+                style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.primary,
+                fontWeight = FontWeight.SemiBold,
+            )
+            Text(
+                text = idiom.idiom,
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold,
+            )
+            Text(
+                text = idiom.meaning,
+                style = MaterialTheme.typography.bodyLarge,
+                maxLines = 3,
+                overflow = TextOverflow.Ellipsis,
+            )
         }
     }
 }

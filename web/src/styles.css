@@ -330,6 +330,21 @@ input, select {
   background: var(--gold);
 }
 
+.idiom-day {
+  background: var(--bg-card);
+  color: inherit;
+  border: 1px solid var(--line-soft);
+  border-left: 3px solid var(--gold);
+  border-radius: 1.1rem;
+  padding: 1.1rem 1.2rem 1.15rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.idiom-day h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); }
+.idiom-day h2 a { color: inherit; text-decoration: none; }
+.idiom-day .kicker { color: var(--gold); }
+
 .orator-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(16.5rem, 1fr));

@@ -20,8 +20,9 @@ import com.rhetorica.app.core.model.WordComplexity
         SpeechEntity::class,
         OpenedWordEntity::class,
         WordProgressEntity::class,
+        IdiomEntity::class,
     ],
-    version = 19,
+    version = RHETORICA_SCHEMA_VERSION,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -35,6 +36,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
     abstract fun speechDao(): SpeechDao
     abstract fun openedWordDao(): OpenedWordDao
     abstract fun wordProgressDao(): WordProgressDao
+    abstract fun idiomDao(): IdiomDao
 
     companion object {
         @Volatile
@@ -308,6 +310,16 @@ abstract class RhetoricaDatabase : RoomDatabase() {
          * Legacy single-select values (`all`, `basic`, `intermediate`, `advanced`)
          * are already canonical, so those rows are not rewritten.
          */
+        /**
+         * Idiom of the Day. The idioms table is seeded from assets after migration.
+         * `showIdiomOfDay` defaults on so existing installs keep the new card visible.
+         */
+        private val MIGRATION_19_20 = object : Migration(19, 20) {
+            override fun migrate(database: SupportSQLiteDatabase) {
+                IdiomSchema.migrate(database)
+            }
+        }
+
         private val MIGRATION_18_19 = object : Migration(18, 19) {
             override fun migrate(database: SupportSQLiteDatabase) {
                 val rows = mutableListOf<Pair<Int, String?>>()
@@ -400,6 +412,7 @@ abstract class RhetoricaDatabase : RoomDatabase() {
                         MIGRATION_16_17,
                         MIGRATION_17_18,
                         MIGRATION_18_19,
+                        MIGRATION_19_20,
                     )
                     // No destructive fallback: a missing migration must fail loudly in
                     // development rather than silently wiping saved words and progress.

@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.withTransaction
 import com.rhetorica.app.data.local.DictionaryDao
 import com.rhetorica.app.data.local.DictionaryEntity
+import com.rhetorica.app.data.local.IdiomDao
+import com.rhetorica.app.data.local.IdiomEntity
 import com.rhetorica.app.data.local.QuoteDao
 import com.rhetorica.app.data.local.QuoteEntity
 import com.rhetorica.app.data.local.RhetoricaDatabase
@@ -30,6 +32,7 @@ class SeedDataLoader @Inject constructor(
     private val speechDao: SpeechDao,
     private val savedWordDao: SavedWordDao,
     private val wordProgressDao: WordProgressDao,
+    private val idiomDao: IdiomDao,
     private val database: RhetoricaDatabase,
     private val json: Json,
 ) {
@@ -72,6 +75,7 @@ class SeedDataLoader @Inject constructor(
 
                 val quotesResult = loadQuotes(validOratorIds)
                 val speechesResult = loadSpeeches(validOratorIds)
+                val idioms = loadIdioms(validOratorIds, quotesResult.items)
 
                 // Prune only after a complete, successful asset read for that table.
                 pruneByIds(
@@ -102,13 +106,18 @@ class SeedDataLoader @Inject constructor(
                 } else {
                     AppLog.w(TAG, "Skipping speech prune after speech load failure")
                 }
+                pruneByIds(
+                    existingIds = idiomDao.getAllIds(),
+                    keepIds = idioms.map { it.id }.toSet(),
+                    deleteChunk = idiomDao::deleteByIds,
+                )
                 savedWordDao.deleteOrphanedSavedWords()
                 wordProgressDao.deleteOrphaned()
             }
             prefs.edit().putInt(KEY_SEED_VERSION, SEED_VERSION).apply()
             AppLog.i(
                 TAG,
-                "Seed data load complete (v$SEED_VERSION, words=${wordDao.wordCount()})",
+                "Seed data load complete (v$SEED_VERSION, words=${wordDao.wordCount()}, idioms=${idiomDao.idiomCount()})",
             )
         } catch (e: Exception) {
             AppLog.e(TAG, "Seed data load failed; leaving seed_version=$appliedVersion", e)
@@ -117,10 +126,12 @@ class SeedDataLoader @Inject constructor(
 
     companion object {
         /** Increment when bundled seed assets change. */
-        const val SEED_VERSION = 24
+        const val SEED_VERSION = 25
         private const val PREFS_NAME = "rhetorica_seed"
         private const val KEY_SEED_VERSION = "seed_version"
         private const val MIN_EXPECTED_WORDS = 50
+        private const val MIN_EXPECTED_IDIOMS = 100
+        private val IDIOM_COMPLEXITIES = setOf("beginner", "basic", "intermediate", "advanced")
         /** Stay under typical SQLite max variable count (~999). */
         private const val DELETE_CHUNK_SIZE = 400
     }
@@ -260,6 +271,53 @@ class SeedDataLoader @Inject constructor(
             AppLog.i(TAG, "Loaded ${validSpeeches.size} speeches from speeches.json")
         }
         return AssetLoadResult(items = validSpeeches, loadedCleanly = true)
+    }
+
+    /**
+     * Idioms are one asset. A parse failure, a thin file, or a quote link that does not
+     * match a loaded quote aborts the seed load so the version is not bumped.
+     */
+    private suspend fun loadIdioms(
+        validOratorIds: Set<Long>,
+        quotes: List<QuoteEntity>,
+    ): List<IdiomEntity> {
+        val idioms = try {
+            context.assets.open("data/seed/idioms.json").bufferedReader().use { reader ->
+                json.decodeFromString<List<IdiomEntity>>(reader.readText())
+            }
+        } catch (e: Exception) {
+            AppLog.e(TAG, "Failed to load idioms", e)
+            throw SeedLoadException("Failed to load idioms.json", e)
+        }
+        if (idioms.size < MIN_EXPECTED_IDIOMS) {
+            throw SeedLoadException("Idiom load produced only ${idioms.size} rows (min $MIN_EXPECTED_IDIOMS)")
+        }
+        val duplicateIds = idioms.groupingBy { it.id }.eachCount().filterValues { it > 1 }.keys
+        if (duplicateIds.isNotEmpty()) {
+            throw SeedLoadException("Duplicate idiom ids: $duplicateIds")
+        }
+        val quotesById = quotes.associateBy { it.id }
+        val invalid = idioms.filter { idiom ->
+            idiom.idiom.isBlank() ||
+                idiom.meaning.isBlank() ||
+                idiom.example.isBlank() ||
+                idiom.complexity !in IDIOM_COMPLEXITIES ||
+                (idiom.oratorId != null && idiom.oratorId !in validOratorIds) ||
+                (idiom.quoteId != null && !quoteLinkIsValid(idiom, quotesById))
+        }
+        if (invalid.isNotEmpty()) {
+            val sample = invalid.take(3).joinToString { idiom -> idiom.idiom }
+            throw SeedLoadException("idioms.json has ${invalid.size} invalid row(s) (e.g. $sample)")
+        }
+        idiomDao.upsertIdioms(idioms)
+        AppLog.i(TAG, "Loaded ${idioms.size} idioms")
+        return idioms
+    }
+
+    private fun quoteLinkIsValid(idiom: IdiomEntity, quotesById: Map<Long, QuoteEntity>): Boolean {
+        val oratorId = idiom.oratorId ?: return false
+        val quote = idiom.quoteId?.let { quotesById[it] } ?: return false
+        return quote.oratorId == oratorId
     }
 
     private suspend fun pruneByIds(

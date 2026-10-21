@@ -6,4 +6,5 @@ declare module 'virtual:rhetorica-seed' {
   export const words: unknown;
   export const quotes: unknown;
   export const speeches: unknown;
+  export const idioms: unknown;
 }

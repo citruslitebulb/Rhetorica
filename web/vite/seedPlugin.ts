@@ -47,17 +47,21 @@ export function rhetoricaSeedPlugin(seedDir: string): Plugin {
         }
       }
 
+      const idiomsPath = path.join(seedDir, 'idioms.json');
+      this.addWatchFile(idiomsPath);
       const payload = {
         dictionaries: readJson(dictionariesPath),
         words,
         quotes,
         speeches: readJson(speechesPath),
+        idioms: readJson(idiomsPath),
       };
 
       return `export const dictionaries = ${JSON.stringify(payload.dictionaries)};
 export const words = ${JSON.stringify(payload.words)};
 export const quotes = ${JSON.stringify(payload.quotes)};
 export const speeches = ${JSON.stringify(payload.speeches)};
+export const idioms = ${JSON.stringify(payload.idioms)};
 `;
     },
   };
