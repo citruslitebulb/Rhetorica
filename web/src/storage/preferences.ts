@@ -1,3 +1,5 @@
+import { complexityFromStorage, complexityToStorage } from '../lib/complexity';
+
 export const SELECTED_ORATOR_KEY = 'rhetorica.selected-orator.v1';
 export const PREFERENCES_KEY = 'rhetorica.preferences.v1';
 
@@ -20,6 +22,9 @@ export type StudyPreferences = {
   todaysWotdId: number | null;
   todaysWotdDate: string;
   lastNotifiedDate: string;
+  /** `all`, or a comma-separated subset of basic, intermediate, advanced. */
+  wordComplexity: string;
+  showIdiomOfDay: boolean;
 };
 
 export function defaultPreferences(): StudyPreferences {
@@ -39,6 +44,8 @@ export function defaultPreferences(): StudyPreferences {
     todaysWotdId: null,
     todaysWotdDate: '',
     lastNotifiedDate: '',
+    wordComplexity: 'all',
+    showIdiomOfDay: true,
   };
 }
 
@@ -109,6 +116,10 @@ export function parsePreferences(raw: string | null, legacyOratorId: number | nu
       todaysWotdId: optionalId(parsed.todaysWotdId),
       todaysWotdDate: typeof parsed.todaysWotdDate === 'string' ? parsed.todaysWotdDate : '',
       lastNotifiedDate: typeof parsed.lastNotifiedDate === 'string' ? parsed.lastNotifiedDate : '',
+      wordComplexity: complexityToStorage(
+        complexityFromStorage(typeof parsed.wordComplexity === 'string' ? parsed.wordComplexity : 'all'),
+      ),
+      showIdiomOfDay: parsed.showIdiomOfDay !== false,
     };
   } catch {
     return { ...base, selectedOratorId: legacyOratorId };

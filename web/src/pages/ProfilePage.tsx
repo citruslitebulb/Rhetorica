@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { oratorById } from '../data/catalog';
+import { COMPLEXITY_TIERS, complexityFromStorage } from '../lib/complexity';
+import { themeLabel } from '../lib/format';
 import { requestNotificationPermission } from '../lib/reminder';
 import { useDocumentTitle } from '../lib/useDocumentTitle';
 import { useLibrary } from '../state/LibraryProvider';
@@ -122,6 +124,53 @@ export function ProfilePage() {
             </button>
           ))}
         </div>
+      </section>
+
+      <section className="panel">
+        <h2>Complexity</h2>
+        <p className="meta">
+          Turn on any combination. Idiom of the Day and idiom questions in Quest use those levels together. Any level
+          keeps every idiom.
+        </p>
+        <div className="chip-row" role="group" aria-label="Complexity">
+          <button
+            type="button"
+            className={complexityFromStorage(preferences.wordComplexity).size === 0 ? 'chip is-on' : 'chip'}
+            aria-pressed={complexityFromStorage(preferences.wordComplexity).size === 0}
+            onClick={() => library.setWordComplexity('all')}
+          >
+            Any level
+          </button>
+          {COMPLEXITY_TIERS.map((tier) => {
+            const selected = complexityFromStorage(preferences.wordComplexity).has(tier);
+            return (
+              <button
+                key={tier}
+                type="button"
+                className={selected ? 'chip is-on' : 'chip'}
+                aria-pressed={selected}
+                onClick={() => library.setWordComplexity(tier)}
+              >
+                {themeLabel(tier)}
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="panel">
+        <h2>Idiom of the Day</h2>
+        <SwitchRow
+          label="Show on Home"
+          hint="A daily idiom on the Words page, using the complexity levels above."
+          checked={preferences.showIdiomOfDay}
+          onChange={library.setShowIdiomOfDay}
+        />
+        {library.idiomOfDay ? (
+          <p className="meta">
+            Today: <Link to={`/idioms/${library.idiomOfDay.id}`}>{library.idiomOfDay.idiom}</Link>
+          </p>
+        ) : null}
       </section>
 
       <section className="panel">

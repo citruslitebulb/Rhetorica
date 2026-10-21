@@ -7,10 +7,13 @@ import com.rhetorica.app.core.model.LearningPool
 import com.rhetorica.app.core.model.OratorCatalogKind.Companion.filterByCatalog
 import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.core.util.AppLog
+import com.rhetorica.app.data.local.IdiomEntity
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.WordEntity
 import com.rhetorica.app.data.local.orDefault
 import com.rhetorica.app.data.repository.DictionaryRepository
+import com.rhetorica.app.data.repository.IdiomOfDaySelector
+import com.rhetorica.app.data.repository.IdiomRepository
 import com.rhetorica.app.data.repository.ProgressRepository
 import com.rhetorica.app.data.repository.WordOfDaySelector
 import com.rhetorica.app.data.repository.WordRepository
@@ -33,6 +36,7 @@ class HomeViewModel @Inject constructor(
     private val userPreferencesDao: UserPreferencesDao,
     private val dictionaryRepository: DictionaryRepository,
     private val progressRepository: ProgressRepository,
+    private val idiomRepository: IdiomRepository,
 ) : ViewModel() {
     private val feedQuery = combine(
         userPreferencesDao.observeUserPreferences(),
@@ -70,6 +74,7 @@ class HomeViewModel @Inject constructor(
             todaysWotdDate = prefs.todaysWotdDate,
             oratorNameById = visibleOrators.associate { it.id to it.name },
             wordComplexity = WordComplexity.fromStorage(prefs.wordComplexity),
+            showIdiomOfDay = prefs.showIdiomOfDay,
         )
     }
 
@@ -79,7 +84,8 @@ class HomeViewModel @Inject constructor(
             repository.observeSavedWordIds(),
             progressRepository.observeIsWordOpened(query.todaysWotdId ?: -1L),
             repository.observeWordById(query.todaysWotdId ?: -1L),
-        ) { words, savedWordIds, openedTodaysWord, todaysWord ->
+            idiomRepository.observeIdioms(),
+        ) { words, savedWordIds, openedTodaysWord, todaysWord, idioms ->
             var filteredWords = words
             if (query.activeThemeSet.isNotEmpty()) {
                 filteredWords = filteredWords.filter { word ->
@@ -91,6 +97,12 @@ class HomeViewModel @Inject constructor(
             }
 
             val wordOfTheDay = todaysWord?.takeIf { query.wordComplexity.matches(it.complexity) }
+            val idiomOfTheDay = IdiomOfDaySelector.visible(
+                show = query.showIdiomOfDay,
+                idioms = idioms,
+                complexity = query.wordComplexity,
+                dayOfYear = LocalDate.now(ZoneId.systemDefault()).dayOfYear,
+            )
             val resolvedWotdOratorId = query.wotdOratorId ?: wordOfTheDay?.oratorId
             val wotdOratorName = resolvedWotdOratorId?.let { query.oratorNameById[it] }
             val listWords = if (wordOfTheDay != null) {
@@ -114,6 +126,7 @@ class HomeViewModel @Inject constructor(
                 },
                 wordOfTheDayOratorId = resolvedWotdOratorId,
                 wordOfTheDayOratorName = wotdOratorName,
+                idiomOfTheDay = idiomOfTheDay,
                 openedTodaysWord = HabitProgress.isTodaysWordOpened(
                     todaysWotdId = query.todaysWotdId,
                     todaysWotdDate = query.todaysWotdDate,
@@ -174,6 +187,7 @@ private data class FeedQuery(
     val todaysWotdDate: String,
     val oratorNameById: Map<Long, String>,
     val wordComplexity: WordComplexity,
+    val showIdiomOfDay: Boolean,
 )
 
 data class HomeUiState(
@@ -181,6 +195,7 @@ data class HomeUiState(
     val wordOfTheDay: HomeWordCardState? = null,
     val wordOfTheDayOratorId: Long? = null,
     val wordOfTheDayOratorName: String? = null,
+    val idiomOfTheDay: IdiomEntity? = null,
     val openedTodaysWord: Boolean = false,
     val totalWordCount: Int = 0,
     val browseWordCount: Int = 0,

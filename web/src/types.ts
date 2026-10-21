@@ -31,6 +31,17 @@ export type Word = {
   pronunciation: string | null;
 };
 
+export type Idiom = {
+  id: number;
+  idiom: string;
+  meaning: string;
+  example: string;
+  complexity: string;
+  origin: string | null;
+  oratorId: number | null;
+  quoteId: number | null;
+};
+
 export type Quote = {
   id: number;
   oratorId: number;

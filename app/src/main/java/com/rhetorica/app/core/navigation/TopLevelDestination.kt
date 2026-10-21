@@ -34,4 +34,6 @@ object AppRoutes {
     const val PRIVACY = "privacy"
     const val WORD_DETAIL = "word/{wordId}"
     fun wordDetail(wordId: Long) = "word/$wordId"
+    const val IDIOM_DETAIL = "idiom/{idiomId}"
+    fun idiomDetail(idiomId: Long) = "idiom/$idiomId"
 }

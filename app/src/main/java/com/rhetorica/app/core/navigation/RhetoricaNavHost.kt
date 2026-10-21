@@ -6,6 +6,8 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.rhetorica.app.feature.home.HomeRoute
+import com.rhetorica.app.feature.idiom.idiomDetailScreen
+import com.rhetorica.app.feature.idiom.navigateToIdiomDetail
 import com.rhetorica.app.feature.onboarding.OnboardingRoute
 import com.rhetorica.app.feature.profile.PrivacyPolicyRoute
 import com.rhetorica.app.feature.profile.ProfileRoute
@@ -41,6 +43,7 @@ fun RhetoricaNavHost(
         composable(TopLevelDestination.Home.route) {
             HomeRoute(
                 onWordClick = { wordId -> navController.navigateToWordDetail(wordId) },
+                onIdiomClick = { idiomId -> navController.navigateToIdiomDetail(idiomId) },
                 onSearchClick = {
                     navController.navigate(AppRoutes.SEARCH) {
                         launchSingleTop = true
@@ -74,6 +77,7 @@ fun RhetoricaNavHost(
         composable(AppRoutes.PRIVACY) {
             PrivacyPolicyRoute(onBack = { navController.popBackStack() })
         }
+        idiomDetailScreen(onBack = { navController.popBackStack() })
         wordDetailScreen(
             onBack = { navController.popBackStack() },
             onReadFullSpeech = { oratorId, title -> navController.navigateToFullSpeech(oratorId, title) },

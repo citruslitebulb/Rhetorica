@@ -1,5 +1,6 @@
 import { BrowserRouter, Link, Navigate, Route, Routes } from 'react-router-dom';
 import { AppShell } from './components/AppShell';
+import { IdiomPage } from './pages/IdiomPage';
 import { OratorPage } from './pages/OratorPage';
 import { OratorsPage } from './pages/OratorsPage';
 import { ProfilePage } from './pages/ProfilePage';
@@ -35,6 +36,7 @@ export function App() {
             <Route path="orators/:oratorId" element={<OratorPage />} />
             <Route path="words" element={<WordsPage />} />
             <Route path="words/:wordId" element={<WordPage />} />
+            <Route path="idioms/:idiomId" element={<IdiomPage />} />
             <Route path="quotes" element={<QuotesPage />} />
             <Route path="saved" element={<SavedPage />} />
             <Route path="speeches" element={<SpeechesPage />} />

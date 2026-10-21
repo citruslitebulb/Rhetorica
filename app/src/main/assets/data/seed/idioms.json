@@ -1,0 +1,1160 @@
+[
+  {
+    "id": 90001,
+    "idiom": "break the ice",
+    "meaning": "To do or say something that eases a stiff start and lets people talk.",
+    "example": "She opened with a short story from the train ride, just enough to break the ice before the hard question.",
+    "complexity": "beginner",
+    "origin": "By the 1590s it already meant making a start. Shakespeare uses it that way in The Taming of the Shrew."
+  },
+  {
+    "id": 90002,
+    "idiom": "a piece of cake",
+    "meaning": "Something easy to do.",
+    "example": "After three rehearsals, the opening minute was a piece of cake. The close was not.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90003,
+    "idiom": "better late than never",
+    "meaning": "Arriving or acting late is still better than not doing it at all.",
+    "example": "The apology came after the vote, and still it mattered: better late than never.",
+    "complexity": "beginner",
+    "origin": "A proverb in English since the Middle Ages."
+  },
+  {
+    "id": 90004,
+    "idiom": "call it a day",
+    "meaning": "To stop working on something for now.",
+    "example": "We had the outline and the examples. He called it a day rather than sanding the same sentence again.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90005,
+    "idiom": "on the same page",
+    "meaning": "Sharing the same understanding of a plan or a fact.",
+    "example": "Before we argue the motion, I want us on the same page about what the budget actually says.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90006,
+    "idiom": "get to the point",
+    "meaning": "To say the important part without a long windup.",
+    "example": "The chair tapped the table and asked her to get to the point before the room drifted.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90007,
+    "idiom": "time will tell",
+    "meaning": "Only later events will show whether this was right.",
+    "example": "We can guess at the treaty's cost tonight. Time will tell whether the towns can live with it.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90008,
+    "idiom": "make up your mind",
+    "meaning": "To decide, and stop hovering between choices.",
+    "example": "The district is watching. Make up your mind before the other side writes the choice for you.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90009,
+    "idiom": "all ears",
+    "meaning": "Listening closely and ready to hear more.",
+    "example": "Tell us what you saw in the ward. We are all ears.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90010,
+    "idiom": "keep an eye on",
+    "meaning": "To watch something carefully so it does not go wrong.",
+    "example": "Keep an eye on the amendment. A quiet clause can undo the whole bill.",
+    "complexity": "beginner"
+  },
+  {
+    "id": 90011,
+    "idiom": "hit the nail on the head",
+    "meaning": "To describe a problem or a truth with exact accuracy.",
+    "example": "When she said the town was not short of plans but of follow-through, she hit the nail on the head.",
+    "complexity": "basic",
+    "origin": "An old carpentry image for a blow that lands exactly where it should."
+  },
+  {
+    "id": 90012,
+    "idiom": "the ball is in your court",
+    "meaning": "It is your turn to act or to answer.",
+    "example": "We sent the revised offer this morning. The ball is in your court.",
+    "complexity": "basic",
+    "origin": "From tennis: the ball is on the other player's side, so the next shot is theirs."
+  },
+  {
+    "id": 90013,
+    "idiom": "get the ball rolling",
+    "meaning": "To start an activity so that others can join and keep it going.",
+    "example": "A single signed letter will get the ball rolling. The rest of the block can add their names tonight.",
+    "complexity": "basic",
+    "origin": "It comes from games in which players keep a ball moving, and later from campaigns that opened a drive the same way."
+  },
+  {
+    "id": 90014,
+    "idiom": "in a nutshell",
+    "meaning": "In a few words; the short version of something larger.",
+    "example": "In a nutshell, the levy fixes the bridge and nothing else.",
+    "complexity": "basic",
+    "origin": "Pliny describes a copy of the Iliad small enough to fit inside a nutshell. The phrase came to mean 'in brief.'"
+  },
+  {
+    "id": 90015,
+    "idiom": "under the weather",
+    "meaning": "Feeling ill, or not at full strength.",
+    "example": "He looked under the weather and still took the evening meeting, which did the argument no favors.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90016,
+    "idiom": "once in a blue moon",
+    "meaning": "Very rarely.",
+    "example": "This council admits a mistake once in a blue moon. Tonight should be that night.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90017,
+    "idiom": "the last straw",
+    "meaning": "The latest small trouble that makes a stacked burden too much to bear.",
+    "example": "The delayed bus was only the last straw. The route had been failing for a year.",
+    "complexity": "basic",
+    "origin": "From the proverb about the last straw that breaks the camel's back."
+  },
+  {
+    "id": 90018,
+    "idiom": "when pigs fly",
+    "meaning": "Never; used to say a promise is not believable.",
+    "example": "They will publish the full costs when pigs fly, unless we ask for them in public.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90019,
+    "idiom": "actions speak louder than words",
+    "meaning": "What people do is better evidence than what they say.",
+    "example": "Actions speak louder than words. The vacant inspector post tells us more than the press release.",
+    "complexity": "basic",
+    "origin": "An old proverb: what a person does outweighs what they claim."
+  },
+  {
+    "id": 90020,
+    "idiom": "better safe than sorry",
+    "meaning": "A little extra caution now is wiser than regret later.",
+    "example": "Bring the paper copy. Better safe than sorry if the hall's network drops.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90021,
+    "idiom": "cut to the chase",
+    "meaning": "To skip the buildup and go straight to what matters.",
+    "example": "I will cut to the chase: we cannot staff the clinic on last year's number.",
+    "complexity": "basic",
+    "origin": "From early film editing, when a story skipped the dialogue and cut to the chase scene."
+  },
+  {
+    "id": 90022,
+    "idiom": "learn the ropes",
+    "meaning": "To learn how a job or a place actually works.",
+    "example": "Give her a month to learn the ropes before you judge the brief.",
+    "complexity": "basic",
+    "origin": "On a sailing ship, a new sailor had to learn which rope did what."
+  },
+  {
+    "id": 90023,
+    "idiom": "miss the boat",
+    "meaning": "To be too late for an opportunity.",
+    "example": "If we wait for a perfect draft, we will miss the boat on this session.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90024,
+    "idiom": "on thin ice",
+    "meaning": "In a risky position where one more mistake could bring failure.",
+    "example": "The department is on thin ice with the families it already failed once.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90025,
+    "idiom": "sit on the fence",
+    "meaning": "To refuse to take a side.",
+    "example": "You can sit on the fence through the hearing. You cannot sit there through the vote.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90026,
+    "idiom": "the big picture",
+    "meaning": "The whole situation, not only one detail.",
+    "example": "A cheaper bulb is not the big picture. The big picture is a street people will walk after dark.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90027,
+    "idiom": "up in the air",
+    "meaning": "Not yet decided.",
+    "example": "The site is still up in the air, so do not promise a groundbreaking date.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90028,
+    "idiom": "add fuel to the fire",
+    "meaning": "To make a conflict or a problem worse.",
+    "example": "A sarcastic reply will only add fuel to the fire. Answer the charge.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90029,
+    "idiom": "at the end of the day",
+    "meaning": "When everything else is considered; the point that remains.",
+    "example": "We can trade adjectives all night. At the end of the day, the shelter has twelve beds and forty names.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90030,
+    "idiom": "beat around the bush",
+    "meaning": "To avoid saying something directly.",
+    "example": "Do not beat around the bush about the shortfall. Name the number.",
+    "complexity": "basic",
+    "origin": "Hunters beat the bushes to drive birds into the open instead of going straight at them."
+  },
+  {
+    "id": 90031,
+    "idiom": "bite off more than you can chew",
+    "meaning": "To take on more work or responsibility than you can finish.",
+    "example": "Three new programs in one quarter is biting off more than this office can chew.",
+    "complexity": "basic",
+    "origin": "American English, from taking a larger plug of chewing tobacco than your mouth can manage."
+  },
+  {
+    "id": 90032,
+    "idiom": "get out of hand",
+    "meaning": "To become uncontrolled.",
+    "example": "Stop the rumor before it gets out of hand. A correction tomorrow is already late.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90033,
+    "idiom": "give it a shot",
+    "meaning": "To try something, without a guarantee of success.",
+    "example": "The old route failed. Give the evening bus a shot for one semester and then count the riders.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90034,
+    "idiom": "in hot water",
+    "meaning": "In trouble for something you did.",
+    "example": "He knew the missing disclosure would land the firm in hot water, and he said so before the letter arrived.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90035,
+    "idiom": "it's not rocket science",
+    "meaning": "It is not as complicated as people are making it.",
+    "example": "Label the allergen on the menu. It's not rocket science, and it keeps a child out of the emergency room.",
+    "complexity": "basic",
+    "origin": "Late twentieth-century American English, treating rocket science as the model of difficult technical work."
+  },
+  {
+    "id": 90036,
+    "idiom": "let someone off the hook",
+    "meaning": "To free someone from blame or from a duty they still owe.",
+    "example": "A vague apology lets the agency off the hook. Ask who signed the order.",
+    "complexity": "basic",
+    "origin": "From fishing: a fish that slips free of the hook."
+  },
+  {
+    "id": 90037,
+    "idiom": "no pain, no gain",
+    "meaning": "Progress costs real effort or discomfort.",
+    "example": "No pain, no gain is a poor slogan for a budget cut. Some pain is only waste.",
+    "complexity": "basic",
+    "origin": "The older English proverb is 'no pains, no gains.'"
+  },
+  {
+    "id": 90038,
+    "idiom": "by the book",
+    "meaning": "Strictly according to the rules.",
+    "example": "File it by the book. A shortcut here becomes the other side's exhibit.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90039,
+    "idiom": "word for word",
+    "meaning": "Using exactly the same words, with nothing changed.",
+    "example": "Read the warning word for word. A paraphrase will soften the part people need to hear.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90040,
+    "idiom": "pull yourself together",
+    "meaning": "To recover your composure and act with control.",
+    "example": "Pull yourself together before you take the microphone. The room needs a steady voice, not a shaken one.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90041,
+    "idiom": "back to square one",
+    "meaning": "Back to the start, with the progress lost.",
+    "example": "If the grant falls through, the clinic is back to square one on the roof.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90042,
+    "idiom": "cost an arm and a leg",
+    "meaning": "To cost far too much.",
+    "example": "The marble lobby would cost an arm and a leg and would not treat a single patient.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90043,
+    "idiom": "easy come, easy go",
+    "meaning": "Something gained quickly or casually is easily lost the same way.",
+    "example": "Easy come, easy go is how the surplus vanished: a windfall in, a dozen pet projects out.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90044,
+    "idiom": "practice makes perfect",
+    "meaning": "Repeating a skill is how you get good at it.",
+    "example": "Practice makes perfect, which is why the opening should be said aloud and not only admired on the page.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90045,
+    "idiom": "keep your chin up",
+    "meaning": "Stay hopeful and don't let a setback crush you.",
+    "example": "Keep your chin up. One lost vote is not the end of the ordinance.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90046,
+    "idiom": "hit the books",
+    "meaning": "To study seriously.",
+    "example": "The interns can hit the books this weekend. Monday's hearing will not wait for a summary.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90047,
+    "idiom": "break a leg",
+    "meaning": "A way to wish someone well before a performance.",
+    "example": "You know the closing story. Break a leg, and leave the extra joke out.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90048,
+    "idiom": "come rain or shine",
+    "meaning": "No matter what happens, or what the weather is.",
+    "example": "The canvass goes ahead come rain or shine. People still eat on a wet Tuesday.",
+    "complexity": "basic"
+  },
+  {
+    "id": 90049,
+    "idiom": "see eye to eye",
+    "meaning": "To agree.",
+    "example": "We do not have to see eye to eye on the slogan to see eye to eye on the staffing number.",
+    "complexity": "basic",
+    "origin": "The phrase is biblical, from Isaiah 52:8. In English it came to mean agreeing with someone."
+  },
+  {
+    "id": 90050,
+    "idiom": "burn the midnight oil",
+    "meaning": "To work late into the night.",
+    "example": "The committee burned the midnight oil, and the dawn draft was still cleaner than the one they started with.",
+    "complexity": "intermediate",
+    "origin": "From the oil lamps people worked by before electric light."
+  },
+  {
+    "id": 90051,
+    "idiom": "caught red-handed",
+    "meaning": "Caught in the act, with the evidence plain.",
+    "example": "The inspector was caught red-handed altering the log. The denial did not survive the timestamp.",
+    "complexity": "intermediate",
+    "origin": "From older Scottish law, where a person taken with blood still on the hand was caught in the act."
+  },
+  {
+    "id": 90052,
+    "idiom": "burn your bridges",
+    "meaning": "To destroy a way back so you cannot return to a former position or ally.",
+    "example": "Resign in anger and you burn your bridges with the only office that can still fund the program.",
+    "complexity": "intermediate",
+    "origin": "From armies that destroyed a bridge behind them, leaving no retreat."
+  },
+  {
+    "id": 90053,
+    "idiom": "the lion's share",
+    "meaning": "The largest part of something, sometimes nearly all of it.",
+    "example": "One contractor took the lion's share of the repairs and left the side streets waiting.",
+    "complexity": "intermediate",
+    "origin": "In Aesop's fable the lion does not take the biggest piece. He takes every share."
+  },
+  {
+    "id": 90054,
+    "idiom": "sour grapes",
+    "meaning": "Pretending you never wanted something after you fail to get it.",
+    "example": "Calling the award meaningless is sour grapes. Last month he wanted it on the letterhead.",
+    "complexity": "intermediate",
+    "origin": "From Aesop's fox, who calls the grapes sour when he cannot reach them."
+  },
+  {
+    "id": 90055,
+    "idiom": "cry wolf",
+    "meaning": "To raise a false alarm so often that people stop believing a real one.",
+    "example": "Do not cry wolf about every delay. Save the alarm for a deadline we will actually miss.",
+    "complexity": "intermediate",
+    "origin": "From Aesop's shepherd, who shouts that a wolf is attacking until the village ignores the real wolf."
+  },
+  {
+    "id": 90056,
+    "idiom": "a drop in the bucket",
+    "meaning": "A very small amount compared with what is needed.",
+    "example": "A single tutor is a drop in the bucket when the whole grade is behind in reading.",
+    "complexity": "intermediate",
+    "origin": "From Isaiah 40:15, where the nations are called a drop in a bucket."
+  },
+  {
+    "id": 90057,
+    "idiom": "by the skin of your teeth",
+    "meaning": "By the narrowest possible margin.",
+    "example": "The appeal was filed by the skin of our teeth, with minutes left on the clock.",
+    "complexity": "intermediate",
+    "origin": "The English phrase comes from the Book of Job: 'I am escaped with the skin of my teeth.'"
+  },
+  {
+    "id": 90058,
+    "idiom": "throw down the gauntlet",
+    "meaning": "To issue a direct challenge.",
+    "example": "She threw down the gauntlet: debate the clause in public, or withdraw it.",
+    "complexity": "intermediate",
+    "origin": "A medieval knight threw down his glove, the gauntlet, to challenge someone to fight."
+  },
+  {
+    "id": 90059,
+    "idiom": "read the riot act",
+    "meaning": "To give someone a severe warning to stop misbehaving.",
+    "example": "The principal read the riot act, and then she did the harder thing: she changed the dismissal plan.",
+    "complexity": "intermediate",
+    "origin": "Britain's Riot Act of 1714 had to be read aloud to an unruly crowd before force could be used."
+  },
+  {
+    "id": 90060,
+    "idiom": "steal someone's thunder",
+    "meaning": "To take attention or credit that belonged to someone else.",
+    "example": "Do not steal her thunder. She did the fieldwork; let her deliver the finding.",
+    "complexity": "intermediate",
+    "origin": "In the early 1700s the playwright John Dennis heard a theater reuse his thunder effect and accused them of stealing his thunder."
+  },
+  {
+    "id": 90061,
+    "idiom": "the proof is in the pudding",
+    "meaning": "You judge a thing by trying it, not by how it is advertised.",
+    "example": "The proof is in the pudding. If ridership does not rise, the new schedule was a slogan.",
+    "complexity": "intermediate",
+    "origin": "Shortened from the older proverb 'the proof of the pudding is in the eating,' recorded by the seventeenth century."
+  },
+  {
+    "id": 90062,
+    "idiom": "a loose cannon",
+    "meaning": "An unpredictable person whose actions can damage their own side.",
+    "example": "A loose cannon on the podium can sink a careful case in a single ad-lib.",
+    "complexity": "intermediate",
+    "origin": "A cannon that broke loose on a ship's deck could crush the crew as it rolled."
+  },
+  {
+    "id": 90063,
+    "idiom": "batten down the hatches",
+    "meaning": "To prepare for trouble and secure what you can.",
+    "example": "Batten down the hatches before the audit. Lock the files and write down who approved each change.",
+    "complexity": "intermediate",
+    "origin": "Sailors battened down hatches, fastening the covers, before a storm."
+  },
+  {
+    "id": 90064,
+    "idiom": "all hands on deck",
+    "meaning": "Everyone available is needed to help.",
+    "example": "The snow day is not a pause. It is all hands on deck to reach the families without heat.",
+    "complexity": "intermediate",
+    "origin": "A ship's call for the whole crew to come up on deck."
+  },
+  {
+    "id": 90065,
+    "idiom": "taken aback",
+    "meaning": "Surprised and briefly thrown off balance.",
+    "example": "The committee was taken aback by the vacancy rate, which no one had put in the briefing.",
+    "complexity": "intermediate",
+    "origin": "A ship is taken aback when the wind suddenly hits the front of the sails and checks its way."
+  },
+  {
+    "id": 90066,
+    "idiom": "a red herring",
+    "meaning": "A clue or a topic that distracts from the real issue.",
+    "example": "The typeface of the flyer is a red herring. The question is whether the claim in it is true.",
+    "complexity": "intermediate",
+    "origin": "A cured herring has a strong smell that can draw hounds off a trail. The phrase came to mean a false lead."
+  },
+  {
+    "id": 90067,
+    "idiom": "pass the buck",
+    "meaning": "To shift responsibility to someone else.",
+    "example": "Do not pass the buck to a subcommittee that will not meet until after the deadline.",
+    "complexity": "intermediate",
+    "origin": "In nineteenth-century American poker, a marker called a buck showed whose turn it was to deal, and a player could pass it on."
+  },
+  {
+    "id": 90068,
+    "idiom": "the buck stops here",
+    "meaning": "This is where responsibility is accepted, not handed onward.",
+    "example": "The buck stops here. I approved the timeline, and I will explain the miss.",
+    "complexity": "intermediate",
+    "origin": "Harry Truman kept this sentence on a desk sign so responsibility would not be passed along. It plays on the older poker phrase 'pass the buck.'"
+  },
+  {
+    "id": 90069,
+    "idiom": "throw in the towel",
+    "meaning": "To quit because you cannot win or cannot continue.",
+    "example": "Do not throw in the towel after one hostile headline. The votes are not cast.",
+    "complexity": "intermediate",
+    "origin": "In boxing, a cornerman throws a towel into the ring to stop the fight."
+  },
+  {
+    "id": 90070,
+    "idiom": "hit below the belt",
+    "meaning": "To fight unfairly, often by attacking something personal.",
+    "example": "Question the record. Hitting below the belt about his family will cost you the room.",
+    "complexity": "intermediate",
+    "origin": "The Queensberry rules of boxing forbid a punch below the belt."
+  },
+  {
+    "id": 90071,
+    "idiom": "throw your hat in the ring",
+    "meaning": "To announce that you are entering a contest.",
+    "example": "She threw her hat in the ring only after the filing fee and the signatures were both real.",
+    "complexity": "intermediate",
+    "origin": "A boxer threw a hat into the ring to accept a challenge. The image later moved into politics."
+  },
+  {
+    "id": 90072,
+    "idiom": "on the ropes",
+    "meaning": "Close to defeat and struggling to recover.",
+    "example": "The proposal is on the ropes. A clear amendment might save it; another speech will not.",
+    "complexity": "intermediate",
+    "origin": "A boxer on the ropes is pinned at the edge of the ring and taking punches."
+  },
+  {
+    "id": 90073,
+    "idiom": "roll with the punches",
+    "meaning": "To adapt so that a setback does less damage.",
+    "example": "Roll with the punches if the witness goes off script, and bring the panel back to the date on the invoice.",
+    "complexity": "intermediate",
+    "origin": "A boxer rolls with a punch, moving with the blow so it lands with less force."
+  },
+  {
+    "id": 90074,
+    "idiom": "cover all the bases",
+    "meaning": "To prepare for every likely problem or duty.",
+    "example": "Cover all the bases: the cost, the staffing, and what happens if the grant is late.",
+    "complexity": "intermediate",
+    "origin": "From baseball, where fielders have to account for every base."
+  },
+  {
+    "id": 90075,
+    "idiom": "step up to the plate",
+    "meaning": "To take your turn and accept a hard responsibility.",
+    "example": "Someone from this dais has to step up to the plate and move the funding, not just praise it.",
+    "complexity": "intermediate",
+    "origin": "From baseball: the batter steps up to the plate when it is their turn to hit."
+  },
+  {
+    "id": 90076,
+    "idiom": "a ballpark figure",
+    "meaning": "A rough estimate, good enough to plan with and not exact.",
+    "example": "Give us a ballpark figure for the roof before we pretend the reserve can cover it.",
+    "complexity": "intermediate",
+    "origin": "American English, from the kind of rough estimate a person might make while watching a baseball game."
+  },
+  {
+    "id": 90077,
+    "idiom": "bite the bullet",
+    "meaning": "To face something painful or difficult and get on with it.",
+    "example": "We should bite the bullet and close the unsafe wing instead of painting over the cracks.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90078,
+    "idiom": "bark up the wrong tree",
+    "meaning": "To pursue the wrong person or the wrong explanation.",
+    "example": "If you blame the night clerk, you are barking up the wrong tree. The waiver was signed upstairs.",
+    "complexity": "intermediate",
+    "origin": "From raccoon hunting, when a dog barks at a tree the animal has already left."
+  },
+  {
+    "id": 90079,
+    "idiom": "a blessing in disguise",
+    "meaning": "Something that looks unfortunate and later turns out to help.",
+    "example": "Losing the rushed contract was a blessing in disguise. The second bid protected the town.",
+    "complexity": "intermediate",
+    "origin": "The earliest known printed use is James Hervey's 1746 phrase 'blessings in disguise.'"
+  },
+  {
+    "id": 90080,
+    "idiom": "devil's advocate",
+    "meaning": "A person who argues the opposing side so a case is tested, not because they hold that side.",
+    "example": "Play devil's advocate for ten minutes. If the plan survives that, it is ready for the public.",
+    "complexity": "intermediate",
+    "origin": "From the Catholic office, created in 1587, whose task was to argue against a candidate for sainthood."
+  },
+  {
+    "id": 90081,
+    "idiom": "a double-edged sword",
+    "meaning": "Something that can help and harm at the same time.",
+    "example": "A viral clip is a double-edged sword. It can carry the fact, and it can bury the fact under the joke.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90082,
+    "idiom": "the elephant in the room",
+    "meaning": "An obvious problem that people are avoiding.",
+    "example": "The elephant in the room is the unpaid overtime, not the color of the new badges.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90083,
+    "idiom": "give someone the benefit of the doubt",
+    "meaning": "To treat a person as honest or correct when you are not yet sure.",
+    "example": "Give the new clerk the benefit of the doubt once. Do not give it to a missing public record.",
+    "complexity": "intermediate",
+    "origin": "From law: when the proof is uncertain, the decision goes to the accused."
+  },
+  {
+    "id": 90084,
+    "idiom": "back to the drawing board",
+    "meaning": "Back to planning, because the attempt failed.",
+    "example": "The pilot missed every target we set. It is back to the drawing board, not back to the press tour.",
+    "complexity": "intermediate",
+    "origin": "Popularized by a 1941 New Yorker cartoon of a designer walking away from a crashed machine."
+  },
+  {
+    "id": 90085,
+    "idiom": "in the same boat",
+    "meaning": "Sharing the same difficulty.",
+    "example": "Renters and the small shops are in the same boat if the street stays closed through December.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90086,
+    "idiom": "jump on the bandwagon",
+    "meaning": "To join a cause or a fashion because it is already popular.",
+    "example": "Jump on the bandwagon after you have read the text, not because the hashtag is loud.",
+    "complexity": "intermediate",
+    "origin": "From nineteenth-century American parades, when a band rode a wagon and supporters climbed aboard."
+  },
+  {
+    "id": 90087,
+    "idiom": "let sleeping dogs lie",
+    "meaning": "To leave a quiet trouble alone rather than stir it up.",
+    "example": "Let sleeping dogs lie on the old boundary dispute, and spend the hour on the flood map.",
+    "complexity": "intermediate",
+    "origin": "A medieval warning. Chaucer already says it is unwise to wake a sleeping hound."
+  },
+  {
+    "id": 90088,
+    "idiom": "not out of the woods",
+    "meaning": "Past the first danger, but not safe yet.",
+    "example": "The injunction helps. We are not out of the woods until the full hearing.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90089,
+    "idiom": "on the back burner",
+    "meaning": "Set aside for later while something more urgent is handled.",
+    "example": "Put the logo on the back burner. The evacuation route is the work of this week.",
+    "complexity": "intermediate",
+    "origin": "From cooking: a pot moved to a rear burner simmers while you tend what is in front."
+  },
+  {
+    "id": 90090,
+    "idiom": "the tip of the iceberg",
+    "meaning": "The small visible part of a much larger problem.",
+    "example": "These three complaints are the tip of the iceberg. The hotline log is the rest.",
+    "complexity": "intermediate",
+    "origin": "Most of an iceberg sits underwater, so the part you see is the smaller danger."
+  },
+  {
+    "id": 90091,
+    "idiom": "turn over a new leaf",
+    "meaning": "To start behaving in a better way.",
+    "example": "The agency can turn over a new leaf by publishing the queue, not by changing the slogan.",
+    "complexity": "intermediate",
+    "origin": "A leaf is a page of a book. Turning over a new leaf meant starting on a fresh page."
+  },
+  {
+    "id": 90092,
+    "idiom": "two sides of the same coin",
+    "meaning": "Two things that look different and are really parts of one fact.",
+    "example": "Turnover and burnout are two sides of the same coin in this ward.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90093,
+    "idiom": "weather the storm",
+    "meaning": "To survive a difficult period.",
+    "example": "If we tell the truth early, the office can weather the storm. A late leak will be worse.",
+    "complexity": "intermediate",
+    "origin": "From a ship that comes through a storm still afloat."
+  },
+  {
+    "id": 90094,
+    "idiom": "you can't have your cake and eat it too",
+    "meaning": "You cannot keep something and also use it up.",
+    "example": "You can't have your cake and eat it too: a tax cut and the same library hours will not both survive the year.",
+    "complexity": "intermediate",
+    "origin": "An old proverb. The earlier wording, 'eat your cake and have it,' makes the contradiction plain."
+  },
+  {
+    "id": 90095,
+    "idiom": "between a rock and a hard place",
+    "meaning": "Facing two bad choices, with no comfortable third.",
+    "example": "Raise the fare and riders leave; freeze it and the route is cut. We are between a rock and a hard place.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90096,
+    "idiom": "break new ground",
+    "meaning": "To do something that has not been done before.",
+    "example": "The evening clinic would break new ground in this county. Say that plainly, and say what it costs.",
+    "complexity": "intermediate",
+    "origin": "From plowing land that has not been farmed before."
+  },
+  {
+    "id": 90097,
+    "idiom": "cut corners",
+    "meaning": "To save time or money by skipping a necessary step.",
+    "example": "Cut corners on the paint, not on the fire doors.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90098,
+    "idiom": "down to the wire",
+    "meaning": "Until the last possible moment.",
+    "example": "The count went down to the wire, and the margin was forty-one votes.",
+    "complexity": "intermediate",
+    "origin": "From horse racing, where a wire marked the finish line."
+  },
+  {
+    "id": 90099,
+    "idiom": "go the extra mile",
+    "meaning": "To do more than what is required.",
+    "example": "Go the extra mile for the translation. Half the block will not hear the plan in English alone.",
+    "complexity": "intermediate",
+    "origin": "From the Sermon on the Mount: if someone compels you to go one mile, go a second."
+  },
+  {
+    "id": 90100,
+    "idiom": "jump the gun",
+    "meaning": "To start too soon.",
+    "example": "Do not jump the gun with a victory speech. The absentee ballots are still sealed.",
+    "complexity": "intermediate",
+    "origin": "From track racing, where a runner who starts before the gun has jumped it."
+  },
+  {
+    "id": 90101,
+    "idiom": "lay your cards on the table",
+    "meaning": "To say openly what you want and what you know.",
+    "example": "Lay your cards on the table about the conflict of interest before someone else does it for you.",
+    "complexity": "intermediate",
+    "origin": "From card games, where showing your cards ends the hiding."
+  },
+  {
+    "id": 90102,
+    "idiom": "meet someone halfway",
+    "meaning": "To compromise, with each side giving up part of what it wanted.",
+    "example": "We can meet them halfway on the timeline. We should not meet them halfway on the safety test.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90103,
+    "idiom": "play it by ear",
+    "meaning": "To decide as the situation develops, without a fixed plan.",
+    "example": "Play the opening by the script and play the questions by ear.",
+    "complexity": "intermediate",
+    "origin": "From playing music without written notes, adjusting as you hear it."
+  },
+  {
+    "id": 90104,
+    "idiom": "put the cart before the horse",
+    "meaning": "To do a step before the one it depends on.",
+    "example": "Naming the building before you fund the staff puts the cart before the horse.",
+    "complexity": "intermediate",
+    "origin": "An old proverb, in English since the 1500s, for reversing the order of two steps."
+  },
+  {
+    "id": 90105,
+    "idiom": "rock the boat",
+    "meaning": "To disturb a situation that others want left alone.",
+    "example": "Someone has to rock the boat. A quiet room is how the overcharge lasted six years.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90106,
+    "idiom": "stand your ground",
+    "meaning": "To refuse to retreat from a position you believe is right.",
+    "example": "Stand your ground on the public record. Courtesy does not require you to hide the number.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90107,
+    "idiom": "the best of both worlds",
+    "meaning": "The advantages of two different choices at once.",
+    "example": "Remote testimony gives us the best of both worlds only if the witness can still be cross-examined.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90108,
+    "idiom": "water under the bridge",
+    "meaning": "A past conflict that is no longer worth fighting.",
+    "example": "The 2019 slogan is water under the bridge. The unpaid invoices are not.",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 90109,
+    "idiom": "with flying colors",
+    "meaning": "With obvious, complete success.",
+    "example": "The clinic passed the inspection with flying colors, and the report should be posted today.",
+    "complexity": "intermediate",
+    "origin": "A ship that came through a fight with its flags still flying had won. The phrase now means succeeding openly."
+  },
+  {
+    "id": 90110,
+    "idiom": "zero in on",
+    "meaning": "To focus tightly on a target or a cause.",
+    "example": "Zero in on the discharge date. The rest of the chart is background.",
+    "complexity": "intermediate",
+    "origin": "From gunnery: to zero a weapon is to set its sights on the target."
+  },
+  {
+    "id": 90111,
+    "idiom": "speak softly and carry a big stick",
+    "meaning": "Negotiate calmly, and keep real power in reserve so the calm is credible.",
+    "example": "Speak softly and carry a big stick: offer the extension, and be ready to enforce the fine if it is refused.",
+    "complexity": "intermediate",
+    "origin": "Theodore Roosevelt's maxim for quiet dealing backed by the power to act.",
+    "oratorId": 39,
+    "quoteId": 39003
+  },
+  {
+    "id": 90112,
+    "idiom": "cross the Rubicon",
+    "meaning": "To take an irreversible step.",
+    "example": "Filing the complaint crosses the Rubicon. After that, there is no quiet retreat.",
+    "complexity": "advanced",
+    "origin": "In 49 BC Julius Caesar led his army across the Rubicon into Italy. After that crossing he could not turn back."
+  },
+  {
+    "id": 90113,
+    "idiom": "Achilles' heel",
+    "meaning": "The one weakness in something otherwise strong.",
+    "example": "The report's Achilles' heel is the sample size. Everything else in it holds.",
+    "complexity": "advanced",
+    "origin": "From the later Greek myth that Achilles could be wounded only on the heel."
+  },
+  {
+    "id": 90114,
+    "idiom": "open Pandora's box",
+    "meaning": "To start a process that releases many troubles you cannot put back.",
+    "example": "A blanket subpoena will open Pandora's box of private records the hearing does not need.",
+    "complexity": "advanced",
+    "origin": "In Greek myth Pandora opened a jar, later called a box, and released troubles into the world."
+  },
+  {
+    "id": 90115,
+    "idiom": "a leopard cannot change its spots",
+    "meaning": "A person's settled character does not flip because of a speech.",
+    "example": "A leopard cannot change its spots, but a board can change its chair. Judge the record, then judge the vote.",
+    "complexity": "advanced",
+    "origin": "From the Book of Jeremiah, which asks whether a leopard can change its spots."
+  },
+  {
+    "id": 90116,
+    "idiom": "the writing on the wall",
+    "meaning": "A clear sign that failure or the end is coming.",
+    "example": "The writing on the wall was the third empty shift. The closure announcement only confirmed it.",
+    "complexity": "advanced",
+    "origin": "From Daniel 5, where a hand writes a warning on the wall of Belshazzar's feast."
+  },
+  {
+    "id": 90117,
+    "idiom": "feet of clay",
+    "meaning": "A hidden weakness under a grand reputation.",
+    "example": "The hero of the industry had feet of clay: the safety log had been rewritten for years.",
+    "complexity": "advanced",
+    "origin": "From Daniel 2, the great statue whose feet are partly clay and cannot hold it up."
+  },
+  {
+    "id": 90118,
+    "idiom": "the apple of your eye",
+    "meaning": "A person or thing you cherish above others.",
+    "example": "The reading hour is the apple of her eye, which is why cutting it will not pass quietly.",
+    "complexity": "advanced",
+    "origin": "A biblical image for someone cherished. The apple is the pupil of the eye."
+  },
+  {
+    "id": 90119,
+    "idiom": "a wolf in sheep's clothing",
+    "meaning": "A dangerous person or plan disguised as something harmless.",
+    "example": "A fee called a convenience charge can be a wolf in sheep's clothing.",
+    "complexity": "advanced",
+    "origin": "From the Sermon on the Mount, which warns of false prophets who come in sheep's clothing but are wolves."
+  },
+  {
+    "id": 90120,
+    "idiom": "bite the dust",
+    "meaning": "To fail completely, or to be defeated.",
+    "example": "Three of the amendments will bite the dust. Spend your speech on the one that can pass.",
+    "complexity": "advanced",
+    "origin": "An old image, familiar from translations of Homer, of a fallen fighter face down in the dust."
+  },
+  {
+    "id": 90121,
+    "idiom": "three sheets to the wind",
+    "meaning": "Very drunk.",
+    "example": "He arrived three sheets to the wind, and the committee wisely did not let him speak.",
+    "complexity": "advanced",
+    "origin": "On a ship, a sheet is a rope that controls a sail. Loose sheets leave the boat unsteady, like a drunk person."
+  },
+  {
+    "id": 90122,
+    "idiom": "a chip on your shoulder",
+    "meaning": "A carried grudge that makes you quick to take offense.",
+    "example": "A chip on your shoulder will turn a fair question into a fight. Answer it.",
+    "complexity": "advanced",
+    "origin": "In nineteenth-century America, a boy would set a wood chip on his shoulder and dare someone to knock it off."
+  },
+  {
+    "id": 90123,
+    "idiom": "saved by the bell",
+    "meaning": "Rescued from failure by a timely interruption.",
+    "example": "The motion was saved by the bell when the session adjourned before the bad amendment came up.",
+    "complexity": "advanced",
+    "origin": "From boxing: a fighter on the canvas is spared a loss when the round's bell rings."
+  },
+  {
+    "id": 90124,
+    "idiom": "grasp the nettle",
+    "meaning": "To tackle a painful problem directly.",
+    "example": "Grasp the nettle. Name the contaminated well before the company names a scapegoat.",
+    "complexity": "advanced",
+    "origin": "A nettle stings less when you take hold of it firmly, so the proverb means meeting a difficulty head-on."
+  },
+  {
+    "id": 90125,
+    "idiom": "leave no stone unturned",
+    "meaning": "To search or try every possibility.",
+    "example": "Leave no stone unturned on the chain of custody. One unsigned bag can lose the case.",
+    "complexity": "advanced",
+    "origin": "An ancient Greek saying for a search that misses nothing."
+  },
+  {
+    "id": 90126,
+    "idiom": "separate the wheat from the chaff",
+    "meaning": "To tell what is valuable from what is worthless.",
+    "example": "Separate the wheat from the chaff in that inbox. Two letters are evidence. The rest are noise.",
+    "complexity": "advanced",
+    "origin": "From the old image of winnowing grain, used in the Bible, where wind carries off the chaff and the wheat remains."
+  },
+  {
+    "id": 90127,
+    "idiom": "take it with a grain of salt",
+    "meaning": "To treat a claim with caution rather than full belief.",
+    "example": "Take the anonymous poll with a grain of salt, and ask who paid for it.",
+    "complexity": "advanced",
+    "origin": "Pliny the Elder describes a poison antidote to be taken with a grain of salt. The phrase came to mean hearing a claim skeptically."
+  },
+  {
+    "id": 90128,
+    "idiom": "when the chips are down",
+    "meaning": "When a situation is serious and the decision finally counts.",
+    "example": "When the chips are down, a prepared witness is worth more than a clever slogan.",
+    "complexity": "advanced",
+    "origin": "From poker: the chips are the stakes, and when they are down the hand is being played for real."
+  },
+  {
+    "id": 90129,
+    "idiom": "add insult to injury",
+    "meaning": "To make a bad situation worse by adding an offense on top of the harm.",
+    "example": "The fine was the injury. Publishing the worker's home address added insult to injury.",
+    "complexity": "advanced",
+    "origin": "The idea is in a fable by Phaedrus: a man hurts himself trying to swat a fly, and the fly treats that as a further slight."
+  },
+  {
+    "id": 90130,
+    "idiom": "at sixes and sevens",
+    "meaning": "In a state of confusion or disorder.",
+    "example": "The office was at sixes and sevens on the morning of the vote, which is how the wrong draft went out.",
+    "complexity": "advanced"
+  },
+  {
+    "id": 90131,
+    "idiom": "by and large",
+    "meaning": "On the whole; generally, allowing for exceptions.",
+    "example": "By and large the pilots worked. The two that failed need a public explanation, not a shrug.",
+    "complexity": "advanced",
+    "origin": "Sailors said 'by' for sailing into the wind and 'large' for sailing with it. By and large meant in all conditions, and then 'generally.'"
+  },
+  {
+    "id": 90132,
+    "idiom": "burn the candle at both ends",
+    "meaning": "To exhaust yourself by working or living too hard, especially by losing sleep.",
+    "example": "She is burning the candle at both ends. A tired advocate drops the citation the case depends on.",
+    "complexity": "advanced",
+    "origin": "An old proverb for using up a candle, and your strength, from both ends at once."
+  },
+  {
+    "id": 90133,
+    "idiom": "off the cuff",
+    "meaning": "Spoken without preparation.",
+    "example": "An off-the-cuff number will be quoted as policy. If you do not know it, say so.",
+    "complexity": "advanced",
+    "origin": "From speakers who jotted quick notes on a shirt cuff and then talked from them."
+  },
+  {
+    "id": 90134,
+    "idiom": "pull out all the stops",
+    "meaning": "To use every resource you have.",
+    "example": "Pull out all the stops for the evacuation drill, including the radio station and the church vans.",
+    "complexity": "advanced",
+    "origin": "On a pipe organ, pulling out the stops lets more pipes sound, up to the full instrument."
+  },
+  {
+    "id": 90135,
+    "idiom": "read between the lines",
+    "meaning": "To find a meaning that is implied and not stated.",
+    "example": "Read between the lines of the resignation. 'More time with family' arrived the week the audit opened.",
+    "complexity": "advanced"
+  },
+  {
+    "id": 90136,
+    "idiom": "take the bull by the horns",
+    "meaning": "To confront a difficulty directly and with courage.",
+    "example": "Take the bull by the horns and open with the deficit. The room already knows it is there.",
+    "complexity": "advanced",
+    "origin": "A proverb for meeting a danger the way a handler controls a bull, by the horns."
+  },
+  {
+    "id": 90137,
+    "idiom": "through thick and thin",
+    "meaning": "Through good times and bad; with loyalty that does not quit.",
+    "example": "She stayed with the clinic through thick and thin, including the year the grant was frozen.",
+    "complexity": "advanced",
+    "origin": "The older English picture is travel through thicket and thin wood, the hard ground and the easier."
+  },
+  {
+    "id": 90138,
+    "idiom": "turn the tables",
+    "meaning": "To reverse a situation so the other side is now at a disadvantage.",
+    "example": "The new receipt turned the tables. The accuser had to explain his own signature.",
+    "complexity": "advanced",
+    "origin": "From games such as backgammon, once called tables, when the board turned and the positions reversed."
+  },
+  {
+    "id": 90139,
+    "idiom": "up to scratch",
+    "meaning": "Good enough to meet the required standard.",
+    "example": "The first draft is not up to scratch. The dates disagree with the exhibits.",
+    "complexity": "advanced",
+    "origin": "In early prizefighting, a fighter had to come up to a line scratched on the ground in order to continue."
+  },
+  {
+    "id": 90140,
+    "idiom": "win hands down",
+    "meaning": "To win easily.",
+    "example": "On the safety vote she will win hands down. The budget vote is the fight.",
+    "complexity": "advanced",
+    "origin": "In horse racing, a jockey who is winning easily can drop the hands and loosen the reins."
+  },
+  {
+    "id": 90141,
+    "idiom": "hold your horses",
+    "meaning": "Wait. Do not rush ahead.",
+    "example": "Hold your horses on the press release until counsel has read the second paragraph.",
+    "complexity": "advanced",
+    "origin": "A literal warning to a driver, which became a call for patience."
+  },
+  {
+    "id": 90142,
+    "idiom": "make hay while the sun shines",
+    "meaning": "To act while conditions are favorable.",
+    "example": "The chair is sympathetic this month. Make hay while the sun shines and file the bill.",
+    "complexity": "advanced",
+    "origin": "A farming proverb: cut and dry the hay while the weather allows."
+  },
+  {
+    "id": 90143,
+    "idiom": "throw caution to the wind",
+    "meaning": "To stop being careful and take a risk.",
+    "example": "Do not throw caution to the wind with an unnamed source. One document is a better gamble.",
+    "complexity": "advanced"
+  },
+  {
+    "id": 90144,
+    "idiom": "keep your cards close to the vest",
+    "meaning": "To keep your plans or information secret.",
+    "example": "Keep your cards close to the vest until the witness is sworn. A preview only helps the other table.",
+    "complexity": "advanced",
+    "origin": "From poker and other card games, where you hold the cards against your vest so no one can see them."
+  },
+  {
+    "id": 90145,
+    "idiom": "pull the wool over someone's eyes",
+    "meaning": "To deceive someone.",
+    "example": "A glossy chart can pull the wool over a tired committee's eyes. Ask for the raw count.",
+    "complexity": "advanced"
+  },
+  {
+    "id": 90146,
+    "idiom": "speak of the devil",
+    "meaning": "Said when someone you have just been talking about appears.",
+    "example": "Speak of the devil. We were just asking who approved the overtime, and here is the signature.",
+    "complexity": "advanced",
+    "origin": "From the old warning that speaking of the devil might make him appear. It is now said when a person you just mentioned walks in."
+  },
+  {
+    "id": 90147,
+    "idiom": "an iron curtain",
+    "meaning": "A hard barrier that cuts one people or region off from another.",
+    "example": "Secrecy dropped an iron curtain between the agency and the families it serves.",
+    "complexity": "advanced",
+    "origin": "Churchill's 1946 speech at Fulton, Missouri, made this the name for Europe's Cold War divide. The image was already in circulation; that speech fixed it.",
+    "oratorId": 8,
+    "quoteId": 30808
+  },
+  {
+    "id": 90148,
+    "idiom": "a house divided against itself cannot stand",
+    "meaning": "A group split by a fundamental conflict cannot last.",
+    "example": "A house divided against itself cannot stand. A board that will not share one set of numbers cannot run one hospital.",
+    "complexity": "advanced",
+    "origin": "The sentence is from the Gospels. Abraham Lincoln used it in 1858 to say the United States could not remain half slave and half free.",
+    "oratorId": 5,
+    "quoteId": 30503
+  },
+  {
+    "id": 90149,
+    "idiom": "the ballot or the bullet",
+    "meaning": "A sharp choice between political participation and violence.",
+    "example": "He framed the registration drive as the ballot or the bullet, and then he spent the hour on how to register.",
+    "complexity": "advanced",
+    "origin": "Malcolm X's 1964 speech of this name set the vote against violence as the choice in front of Black Americans.",
+    "oratorId": 48,
+    "quoteId": 48002
+  },
+  {
+    "id": 90150,
+    "idiom": "a bully pulpit",
+    "meaning": "A powerful public office used to persuade people, not only to govern them.",
+    "example": "The mayor still has a bully pulpit. Use it on the bus cuts before the hearing, not after the route is gone.",
+    "complexity": "advanced",
+    "origin": "Theodore Roosevelt's name for the presidency as a superb platform for argument. In his mouth, bully meant excellent."
+  }
+]

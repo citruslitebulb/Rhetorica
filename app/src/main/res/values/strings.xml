@@ -76,6 +76,7 @@
 
     <!-- Home -->
     <string name="home_wotd_badge">Word of the Day</string>
+    <string name="home_idiom_badge">Idiom of the Day</string>
     <string name="home_browse_title">Browse vocabulary</string>
     <string name="home_empty_title">Loading your library</string>
     <string name="home_empty_body">Seed data is still arriving. Open the app again in a moment if this persists.</string>
@@ -89,6 +90,10 @@
     <!-- Quest (quiz) -->
     <string name="quiz_title">Quest</string>
     <string name="quiz_subtitle">Match the definition to the correct word.</string>
+    <string name="quiz_idiom_subtitle">Choose the meaning of the idiom.</string>
+    <string name="quiz_idiom_prompt_label">Idiom</string>
+    <string name="quiz_idiom_feedback_correct">That is the meaning.</string>
+    <string name="quiz_idiom_feedback_incorrect">Not quite. The correct meaning is highlighted.</string>
     <string name="quiz_review_badge">Review · you have seen this word before</string>
     <string name="quiz_prompt_label">Definition</string>
     <string name="quiz_score">Session score: %1$d / %2$d</string>
@@ -156,7 +161,15 @@
     <string name="profile_notification_time_value">%1$02d:%2$02d</string>
     <string name="profile_notification_system_settings">Open system notification settings</string>
     <string name="profile_complexity_title">Complexity</string>
-    <string name="profile_complexity_hint">Turn on any combination. The library, Word of the Day, and Quest use those levels together. Any level, or turning every level off, keeps every word.</string>
+    <string name="profile_complexity_hint">Turn on any combination. The library, Word of the Day, Quest, and Idiom of the Day use those levels together. Any level, or turning every level off, keeps every word and idiom.</string>
+    <string name="profile_idiom_title">Idiom of the Day</string>
+    <string name="profile_idiom_hint">Show a daily idiom on Home. It follows the complexity levels above.</string>
+    <string name="idiom_detail_meaning">Meaning</string>
+    <string name="idiom_detail_origin">Origin</string>
+    <string name="idiom_detail_example">Example</string>
+    <string name="idiom_detail_quote">In their words</string>
+    <string name="idiom_missing_title">Idiom not found</string>
+    <string name="idiom_missing_body">That idiom is not in the library on this device.</string>
     <string name="profile_complexity_all">Any level</string>
     <string name="profile_complexity_basic">Basic</string>
     <string name="profile_complexity_intermediate">Intermediate</string>

@@ -73,6 +73,7 @@ class ProfileViewModel @Inject constructor(
                 notificationMinute = preferences.notificationMinute,
                 themeMode = ThemeMode.fromStorage(preferences.themeMode),
                 wordComplexity = WordComplexity.fromStorage(preferences.wordComplexity),
+                showIdiomOfDay = preferences.showIdiomOfDay,
                 includeFictionalOrators = preferences.includeFictionalOrators,
                 includeLiteraryOrators = preferences.includeLiteraryOrators,
                 openedTodaysWord = HabitProgress.isTodaysWordOpened(
@@ -229,6 +230,12 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
+    fun setShowIdiomOfDay(show: Boolean) {
+        viewModelScope.launch {
+            preferencesRepository.update { it.copy(showIdiomOfDay = show) }
+        }
+    }
+
     fun setWordComplexity(complexity: WordComplexity) {
         viewModelScope.launch {
             val current = WordComplexity.fromStorage(preferencesRepository.get().wordComplexity)
@@ -273,6 +280,7 @@ data class ProfileUiState(
     val notificationMinute: Int = 0,
     val themeMode: ThemeMode = ThemeMode.Dark,
     val wordComplexity: WordComplexity = WordComplexity.All,
+    val showIdiomOfDay: Boolean = true,
     val includeFictionalOrators: Boolean = false,
     val includeLiteraryOrators: Boolean = false,
     val openedTodaysWord: Boolean = false,

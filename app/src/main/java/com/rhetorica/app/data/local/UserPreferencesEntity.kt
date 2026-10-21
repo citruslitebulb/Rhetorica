@@ -31,6 +31,7 @@ data class UserPreferencesEntity(
     val todaysWotdId: Long? = null,
     val todaysWotdDate: String = "",
     val wordComplexity: String = WordComplexity.All.storageValue,
+    val showIdiomOfDay: Boolean = true,
 ) {
     companion object {
         fun defaults(): UserPreferencesEntity = UserPreferencesEntity()

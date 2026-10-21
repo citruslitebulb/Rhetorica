@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { words } from '../data/catalog';
+import { idioms, words } from '../data/catalog';
 import { resolveOratorId } from '../data/wordOfDay';
+import { assembleIdiomChoice, shouldAskIdiom } from '../lib/idiomQuiz';
+import { complexityFromStorage, matchesComplexity } from '../lib/complexity';
 import {
   assembleLetterGuess,
   assembleMultipleChoice,
@@ -23,6 +25,8 @@ import { useLibrary } from '../state/LibraryProvider';
 import type { Word } from '../types';
 
 type QuizMode = 'choice' | 'guess';
+type ChoiceKind = 'word' | 'idiom';
+type ChoiceOption = { id: number; label: string; detail: string | null };
 type QuizPool = 'library' | 'saved';
 type GuessStatus = 'playing' | 'won' | 'lost';
 
@@ -37,8 +41,13 @@ type QuizState = {
   sessionCorrect: number;
   sessionTotal: number;
   prompt: string;
+  promptTitle: string;
+  choiceKind: ChoiceKind;
   correct: Word | null;
-  options: Word[];
+  correctId: number | null;
+  correctHref: string | null;
+  correctLabel: string | null;
+  options: ChoiceOption[];
   selectedId: number | null;
   answered: boolean;
   target: string;
@@ -64,7 +73,12 @@ function initialState(): QuizState {
     sessionCorrect: 0,
     sessionTotal: 0,
     prompt: '',
+    promptTitle: 'Definition',
+    choiceKind: 'word',
     correct: null,
+    correctId: null,
+    correctHref: null,
+    correctLabel: null,
     options: [],
     selectedId: null,
     answered: false,
@@ -102,26 +116,42 @@ export function QuizPage() {
       const band = WORD_GUESS_DIFFICULTIES[difficulty];
 
       if (mode === 'choice') {
-        const round = assembleMultipleChoice({
-          words,
-          savedIds,
-          dueWords: library.dueWords(scope, pool === 'saved'),
-          pool,
-          oratorId,
-          libraryOratorIds: libraryIds,
-          previousWordId: previousId.current,
-          rng: Math.random,
-        });
+        const tiers = complexityFromStorage(library.preferences.wordComplexity);
+        const idiomPool = idioms.filter((idiom) => matchesComplexity(idiom.complexity, tiers));
+        const idiomRound =
+          shouldAskIdiom(pool === 'library', idiomPool.length, Math.random())
+            ? assembleIdiomChoice(idiomPool, 4, Math.random)
+            : null;
+        const round = idiomRound
+          ? null
+          : assembleMultipleChoice({
+              words,
+              savedIds,
+              dueWords: library.dueWords(scope, pool === 'saved'),
+              pool,
+              oratorId,
+              libraryOratorIds: libraryIds,
+              previousWordId: previousId.current,
+              rng: Math.random,
+            });
+        const word = round?.correct ?? null;
         setState((current) => ({
           ...current,
           mode,
           pool,
           difficulty,
-          unavailable: round == null,
+          unavailable: idiomRound == null && round == null,
           review: round?.review ?? false,
-          prompt: round?.correct.definition ?? '',
-          correct: round?.correct ?? null,
-          options: round?.options ?? [],
+          promptTitle: idiomRound ? 'Idiom' : 'Definition',
+          prompt: idiomRound?.prompt ?? word?.definition ?? '',
+          choiceKind: idiomRound ? 'idiom' : 'word',
+          correct: word,
+          correctId: idiomRound?.correct.id ?? word?.id ?? null,
+          correctHref: idiomRound ? `/idioms/${idiomRound.correct.id}` : word ? `/words/${word.id}` : null,
+          correctLabel: idiomRound?.correct.idiom ?? word?.word ?? null,
+          options: idiomRound
+            ? idiomRound.options.map((option) => ({ id: option.id, label: option.meaning, detail: null }))
+            : (round?.options ?? []).map((option) => ({ id: option.id, label: option.word, detail: option.partOfSpeech })),
           selectedId: null,
           answered: false,
           message: null,
@@ -130,9 +160,9 @@ export function QuizPage() {
           rows: [],
           keyboard: new Map(),
         }));
-        if (round) {
-          previousId.current = round.correct.id;
-          previousDefinition.current = round.correct.definition.trim().toLowerCase();
+        if (word) {
+          previousId.current = word.id;
+          previousDefinition.current = word.definition.trim().toLowerCase();
         }
         return;
       }
@@ -158,7 +188,12 @@ export function QuizPage() {
         unavailable: word == null || target.length === 0,
         review: false,
         prompt: word?.definition ?? '',
+        promptTitle: 'Definition',
+        choiceKind: 'word',
         correct: word,
+        correctId: word?.id ?? null,
+        correctHref: word ? `/words/${word.id}` : null,
+        correctLabel: word?.word ?? null,
         options: [],
         selectedId: null,
         answered: false,
@@ -186,9 +221,9 @@ export function QuizPage() {
 
   function selectOption(optionId: number) {
     const current = stateRef.current;
-    if (current.mode !== 'choice' || current.answered || current.correct == null) return;
-    const correct = optionId === current.correct.id;
-    library.recordQuizAnswer(current.correct.id, correct);
+    if (current.mode !== 'choice' || current.answered || current.correctId == null) return;
+    const correct = optionId === current.correctId;
+    if (current.choiceKind === 'word' && current.correct) library.recordQuizAnswer(current.correct.id, correct);
     setState((snapshot) => ({
       ...snapshot,
       selectedId: optionId,
@@ -348,21 +383,23 @@ function ChoiceRound({
 }) {
   return (
     <section className="quest-round">
-      <p className="meta">Match the definition to the correct word.</p>
+      <p className="meta">
+        {state.choiceKind === 'idiom' ? 'Choose the meaning of the idiom.' : 'Match the definition to the correct word.'}
+      </p>
       {state.review ? <p className="review-badge">Review · you have seen this word before</p> : null}
-      <h2>Definition</h2>
+      <h2>{state.promptTitle}</h2>
       <p className="prose">{state.prompt}</p>
       <ul className="option-list">
         {state.options.map((option) => {
           const chosen = state.selectedId === option.id;
-          const correct = state.answered && state.correct?.id === option.id;
+          const correct = state.answered && state.correctId === option.id;
           const wrong = state.answered && chosen && !correct;
           const className = ['option', correct ? 'is-correct' : '', wrong ? 'is-wrong' : ''].filter(Boolean).join(' ');
           return (
             <li key={option.id}>
               <button type="button" className={className} disabled={state.answered} onClick={() => onSelect(option.id)}>
-                <span>{option.word}</span>
-                <span className="meta">{option.partOfSpeech}</span>
+                <span>{option.label}</span>
+                {option.detail ? <span className="meta">{option.detail}</span> : null}
               </button>
             </li>
           );
@@ -370,10 +407,18 @@ function ChoiceRound({
       </ul>
       {state.answered ? (
         <div className="quest-feedback">
-          <p>{state.selectedId === state.correct?.id ? 'Well chosen — that matches the definition.' : 'Not quite. The correct word is highlighted.'}</p>
-          {state.correct ? (
-            <Link className="text-link" to={`/words/${state.correct.id}`}>
-              Open {state.correct.word}
+          <p>
+            {state.selectedId === state.correctId
+              ? state.choiceKind === 'idiom'
+                ? 'That is the meaning.'
+                : 'Well chosen — that matches the definition.'
+              : state.choiceKind === 'idiom'
+                ? 'Not quite. The correct meaning is highlighted.'
+                : 'Not quite. The correct word is highlighted.'}
+          </p>
+          {state.correctHref && state.correctLabel ? (
+            <Link className="text-link" to={state.correctHref}>
+              Open {state.correctLabel}
             </Link>
           ) : null}
           <button type="button" className="button primary" onClick={onNext}>

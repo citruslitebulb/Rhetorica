@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest';
-import { matchesComplexity, toggleComplexityTier, type ComplexityTier } from './complexity';
+import {
+  complexityFromStorage,
+  complexityToStorage,
+  matchesComplexity,
+  toggleComplexityTier,
+  type ComplexityTier,
+} from './complexity';
 
 describe('complexity chips', () => {
   it('treats an empty selection as every word', () => {
@@ -21,5 +27,18 @@ describe('complexity chips', () => {
     expect(matchesComplexity('beginner', withBasic)).toBe(true);
     expect(matchesComplexity('unexpected', withBasic)).toBe(false);
     expect(toggleComplexityTier(toggleComplexityTier(toggleComplexityTier(withBasic, 'basic'), 'intermediate'), 'advanced').size).toBe(0);
+  });
+
+  it('stores all or a comma-separated set in chip order', () => {
+    expect(complexityToStorage(new Set())).toBe('all');
+    expect(complexityFromStorage('all').size).toBe(0);
+    expect(complexityFromStorage(null).size).toBe(0);
+    const stored = complexityToStorage(new Set<ComplexityTier>(['advanced', 'basic']));
+    expect(stored).toBe('basic,advanced');
+    const restored = complexityFromStorage('advanced, basic');
+    expect(matchesComplexity('beginner', restored)).toBe(true);
+    expect(matchesComplexity('intermediate', restored)).toBe(false);
+    expect(matchesComplexity('advanced', restored)).toBe(true);
+    expect(complexityFromStorage('nope').size).toBe(0);
   });
 });

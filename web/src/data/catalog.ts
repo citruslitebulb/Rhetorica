@@ -1,6 +1,6 @@
-import { dictionaries as rawDictionaries, quotes as rawQuotes, speeches as rawSpeeches, words as rawWords } from 'virtual:rhetorica-seed';
+import { dictionaries as rawDictionaries, idioms as rawIdioms, quotes as rawQuotes, speeches as rawSpeeches, words as rawWords } from 'virtual:rhetorica-seed';
 import { catalogKind, normalizeTitle } from '../lib/format';
-import type { CatalogKind, Dictionary, Quote, Speech, Word } from '../types';
+import type { CatalogKind, Dictionary, Idiom, Quote, Speech, Word } from '../types';
 
 const CATEGORY_ORDER = [
   'Ancient Classics',
@@ -96,6 +96,25 @@ function parseQuote(value: unknown): Quote | null {
   };
 }
 
+function parseIdiom(value: unknown): Idiom | null {
+  if (!isRecord(value)) return null;
+  if (typeof value.id !== 'number' || typeof value.idiom !== 'string' || value.idiom.length === 0) return null;
+  if (typeof value.meaning !== 'string' || value.meaning.length === 0) return null;
+  if (typeof value.example !== 'string' || value.example.length === 0) return null;
+  const complexity = asString(value.complexity);
+  if (complexity.length === 0) return null;
+  return {
+    id: value.id,
+    idiom: value.idiom,
+    meaning: value.meaning,
+    example: value.example,
+    complexity,
+    origin: asNullableString(value.origin),
+    oratorId: typeof value.oratorId === 'number' ? value.oratorId : null,
+    quoteId: typeof value.quoteId === 'number' ? value.quoteId : null,
+  };
+}
+
 function parseSpeech(value: unknown): Speech | null {
   if (!isRecord(value)) return null;
   if (typeof value.id !== 'number' || typeof value.oratorId !== 'number' || typeof value.title !== 'string') {
@@ -142,7 +161,13 @@ export const speeches: readonly Speech[] = (Array.isArray(rawSpeeches) ? rawSpee
   .map(parseSpeech)
   .filter((row): row is Speech => row !== null && dictionaryIds.has(row.oratorId));
 
+export const idioms: readonly Idiom[] = (Array.isArray(rawIdioms) ? rawIdioms : [])
+  .map(parseIdiom)
+  .filter((row): row is Idiom => row !== null);
+
 export const oratorById = new Map(dictionaries.map((orator) => [orator.id, orator]));
+export const idiomById = new Map(idioms.map((idiom) => [idiom.id, idiom]));
+export const quoteById = new Map(quotes.map((quote) => [quote.id, quote]));
 export const wordById = new Map(words.map((word) => [word.id, word]));
 export const speechById = new Map(speeches.map((speech) => [speech.id, speech]));
 

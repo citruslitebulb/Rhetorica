@@ -3,6 +3,7 @@ agp = "9.4.0"
 kotlin = "2.2.10"
 coreKtx = "1.15.0"
 junit = "4.13.2"
+sqliteJdbc = "3.45.3.0"
 junitExt = "1.2.1"
 espresso = "3.6.1"
 lifecycle = "2.8.7"
@@ -51,6 +52,7 @@ androidx-work-hilt = { group = "androidx.hilt", name = "hilt-work", version.ref 
 androidx-hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "androidxHilt" }
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+sqlite-jdbc = { group = "org.xerial", name = "sqlite-jdbc", version.ref = "sqliteJdbc" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitExt" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
 
