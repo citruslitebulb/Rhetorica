@@ -36,12 +36,19 @@
             android:label="@string/widget_name">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.rhetorica.app.widget.SHOW_NEXT" />
+                <action android:name="com.rhetorica.app.widget.SHOW_PREVIOUS" />
             </intent-filter>
 
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/word_of_day_widget_info" />
         </receiver>
+
+        <service
+            android:name=".widget.WordOfDayWidgetService"
+            android:exported="false"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
 
         <receiver
             android:name=".notification.WordNotificationReceiver"

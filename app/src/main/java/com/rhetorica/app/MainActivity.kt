@@ -29,6 +29,7 @@ import com.rhetorica.app.core.navigation.OnboardingGate
 import com.rhetorica.app.data.local.UserPreferencesDao
 import com.rhetorica.app.data.local.UserPreferencesEntity
 import com.rhetorica.app.data.repository.PreferencesRepository
+import com.rhetorica.app.feature.idiom.navigateToIdiomDetail
 import com.rhetorica.app.feature.onboarding.OnboardingRoute
 import com.rhetorica.app.feature.speech.navigateToFullSpeech
 import com.rhetorica.app.feature.word.navigateToWordDetail
@@ -177,6 +178,13 @@ class MainActivity : ComponentActivity() {
             if (uri.scheme == "rhetorica" && uri.host == "word") {
                 uri.lastPathSegment?.toLongOrNull()?.let { wordId ->
                     navController.navigateToWordDetail(wordId)
+                    intent.data = null
+                    return
+                }
+            }
+            if (uri.scheme == "rhetorica" && uri.host == "idiom") {
+                uri.lastPathSegment?.toLongOrNull()?.let { idiomId ->
+                    navController.navigateToIdiomDetail(idiomId)
                     intent.data = null
                     return
                 }

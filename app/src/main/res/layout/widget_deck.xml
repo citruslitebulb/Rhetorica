@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Host for the word / idiom stack. Cards come from WordOfDayWidgetService.
+    Arrows sit outside the stack so a tap still flips when a launcher eats the swipe.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetDeckRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <StackView
+        android:id="@+id/widgetStack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:loopViews="true" />
+
+    <LinearLayout
+        android:id="@+id/widgetFlipBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/widgetPrev"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/widget_flip_button_bg"
+            android:contentDescription="@string/widget_prev_cd"
+            android:padding="4dp"
+            android:src="@drawable/ic_widget_chevron_left" />
+
+        <ImageView
+            android:id="@+id/widgetNext"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/widget_flip_button_bg"
+            android:contentDescription="@string/widget_next_cd"
+            android:padding="4dp"
+            android:src="@drawable/ic_widget_chevron_right" />
+    </LinearLayout>
+</FrameLayout>

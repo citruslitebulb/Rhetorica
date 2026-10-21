@@ -7,7 +7,7 @@
     android:minResizeWidth="110dp"
     android:minResizeHeight="40dp"
     android:targetCellWidth="4"
-    android:targetCellHeight="2"
+    android:targetCellHeight="3"
     android:previewImage="@drawable/widget_preview"
     android:previewLayout="@layout/widget_word_of_day_preview"
     android:resizeMode="horizontal|vertical"

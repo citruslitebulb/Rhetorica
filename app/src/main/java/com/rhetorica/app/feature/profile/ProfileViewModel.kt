@@ -233,6 +233,7 @@ class ProfileViewModel @Inject constructor(
     fun setShowIdiomOfDay(show: Boolean) {
         viewModelScope.launch {
             preferencesRepository.update { it.copy(showIdiomOfDay = show) }
+            WidgetAppearance.refreshAllWidgets(context)
         }
     }
 
