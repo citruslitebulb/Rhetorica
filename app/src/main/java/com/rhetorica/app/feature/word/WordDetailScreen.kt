@@ -39,6 +39,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.rhetorica.app.R
+import com.rhetorica.app.feature.home.FeedbackAction
 import com.rhetorica.app.core.model.PronunciationCatalog
 import com.rhetorica.app.core.ui.ThemeChipRow
 
@@ -126,6 +127,7 @@ private fun WordDetailScreen(
                             )
                         }
                     }
+                    FeedbackAction()
                 },
             )
         },

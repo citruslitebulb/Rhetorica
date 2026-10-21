@@ -27,6 +27,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.OratorProfile
 import com.rhetorica.app.data.local.SpeechEntity
+import com.rhetorica.app.feature.home.FeedbackAction
+import com.rhetorica.app.feature.home.FeedbackEndRow
 
 @Composable
 fun SpeechesRoute(
@@ -46,31 +48,41 @@ private fun SpeechesScreen(
     onSpeechClick: (Long, String) -> Unit,
 ) {
     if (state.isLoading) {
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-        ) {
-            CircularProgressIndicator()
+        Column(modifier = Modifier.fillMaxSize()) {
+            FeedbackEndRow(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
+            ) {
+                CircularProgressIndicator()
+            }
         }
         return
     }
 
     if (state.speeches.isEmpty()) {
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-        ) {
-            Text(
-                text = stringResource(R.string.speeches_empty_title),
-                style = MaterialTheme.typography.titleMedium,
-            )
-            Text(
-                text = stringResource(R.string.speeches_empty_body),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
+        Column(modifier = Modifier.fillMaxSize()) {
+            FeedbackEndRow(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
+            ) {
+                Text(
+                    text = stringResource(R.string.speeches_empty_title),
+                    style = MaterialTheme.typography.titleMedium,
+                )
+                Text(
+                    text = stringResource(R.string.speeches_empty_body),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
         return
     }
@@ -83,11 +95,19 @@ private fun SpeechesScreen(
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         item {
-            Text(
-                text = stringResource(R.string.nav_speeches),
-                style = MaterialTheme.typography.headlineMedium,
-                modifier = Modifier.padding(bottom = 8.dp),
-            )
+            Row(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Text(
+                    text = stringResource(R.string.nav_speeches),
+                    style = MaterialTheme.typography.headlineMedium,
+                    modifier = Modifier.weight(1f),
+                )
+                FeedbackAction()
+            }
         }
 
         items(state.speeches, key = { it.id }) { speech ->

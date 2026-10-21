@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.rhetorica.app.R
+import com.rhetorica.app.feature.home.FeedbackAction
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -35,6 +36,7 @@ fun PrivacyPolicyRoute(onBack: () -> Unit) {
                         )
                     }
                 },
+                actions = { FeedbackAction() },
             )
         },
     ) { innerPadding ->

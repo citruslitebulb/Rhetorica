@@ -81,6 +81,7 @@ private fun HomeScreen(
                             contentDescription = stringResource(R.string.search_title),
                         )
                     }
+                    FeedbackAction()
                 },
             )
         },
@@ -146,7 +147,7 @@ private fun HomeFeed(
 
     LazyColumn(
         modifier = modifier,
-        contentPadding = PaddingValues(start = 16.dp, top = 12.dp, end = 16.dp, bottom = 68.dp),
+        contentPadding = PaddingValues(start = 16.dp, top = 12.dp, end = 16.dp, bottom = 16.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
     ) {
         state.wordOfTheDay?.let { wotd ->
