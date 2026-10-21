@@ -26,7 +26,7 @@ export function IdiomPage() {
 
   return (
     <div className="page">
-      <p className="kicker">Idiom of the Day</p>
+      <p className="kicker">Today&apos;s idiom</p>
       <h1>{idiom.idiom}</h1>
       <section className="panel">
         <h2>Meaning</h2>

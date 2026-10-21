@@ -129,7 +129,7 @@ export function ProfilePage() {
       <section className="panel">
         <h2>Complexity</h2>
         <p className="meta">
-          Turn on any combination. Idiom of the Day and idiom questions in Quest use those levels together. Any level
+          Turn on any combination. Today&apos;s idiom and idiom questions in Quest use those levels together. Any level
           keeps every idiom.
         </p>
         <div className="chip-row" role="group" aria-label="Complexity">
@@ -159,7 +159,7 @@ export function ProfilePage() {
       </section>
 
       <section className="panel">
-        <h2>Idiom of the Day</h2>
+        <h2>Today&apos;s idiom</h2>
         <SwitchRow
           label="Show on Home"
           hint="A daily idiom on the Words page, using the complexity levels above."

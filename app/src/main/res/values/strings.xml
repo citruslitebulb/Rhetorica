@@ -76,7 +76,7 @@
 
     <!-- Home -->
     <string name="home_wotd_badge">Word of the Day</string>
-    <string name="home_idiom_badge">Idiom of the Day</string>
+    <string name="home_idiom_badge">Today\'s idiom</string>
     <string name="home_browse_title">Browse vocabulary</string>
     <string name="home_empty_title">Loading your library</string>
     <string name="home_empty_body">Seed data is still arriving. Open the app again in a moment if this persists.</string>
@@ -161,8 +161,8 @@
     <string name="profile_notification_time_value">%1$02d:%2$02d</string>
     <string name="profile_notification_system_settings">Open system notification settings</string>
     <string name="profile_complexity_title">Complexity</string>
-    <string name="profile_complexity_hint">Turn on any combination. The library, Word of the Day, Quest, and Idiom of the Day use those levels together. Any level, or turning every level off, keeps every word and idiom.</string>
-    <string name="profile_idiom_title">Idiom of the Day</string>
+    <string name="profile_complexity_hint">Turn on any combination. The library, Word of the Day, Quest, and Today\'s idiom use those levels together. Any level, or turning every level off, keeps every word and idiom.</string>
+    <string name="profile_idiom_title">Today\'s idiom</string>
     <string name="profile_idiom_hint">Show a daily idiom on Home. It follows the complexity levels above.</string>
     <string name="idiom_detail_meaning">Meaning</string>
     <string name="idiom_detail_origin">Origin</string>
