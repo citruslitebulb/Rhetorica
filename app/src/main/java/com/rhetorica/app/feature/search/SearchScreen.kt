@@ -28,6 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
+import com.rhetorica.app.feature.home.FeedbackAction
 
 @Composable
 fun SearchRoute(
@@ -67,6 +68,7 @@ private fun SearchScreen(
                         )
                     }
                 },
+                actions = { FeedbackAction() },
             )
         },
     ) { innerPadding ->

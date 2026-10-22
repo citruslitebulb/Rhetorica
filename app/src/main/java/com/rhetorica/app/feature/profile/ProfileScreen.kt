@@ -62,6 +62,7 @@ import com.rhetorica.app.R
 import com.rhetorica.app.core.model.WordComplexity
 import com.rhetorica.app.core.model.WordThemes
 import com.rhetorica.app.data.repository.ProgressSnapshot
+import com.rhetorica.app.feature.home.FeedbackAction
 import com.rhetorica.app.ui.theme.RhetoricaGold
 import com.rhetorica.app.widget.WidgetAppearance
 
@@ -126,6 +127,7 @@ private fun ProfileScreen(
         topBar = {
             CenterAlignedTopAppBar(
                 title = { Text(text = stringResource(R.string.nav_profile)) },
+                actions = { FeedbackAction() },
             )
         },
     ) { innerPadding ->

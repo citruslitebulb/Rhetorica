@@ -2,16 +2,16 @@ package com.rhetorica.app.feature.home
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Feedback
-import androidx.compose.material3.AssistChip
-import androidx.compose.material3.AssistChipDefaults
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedTextField
@@ -21,6 +21,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
@@ -31,12 +32,15 @@ import androidx.compose.ui.unit.dp
 import com.rhetorica.app.R
 
 /**
- * App-wide feedback chip and compose sheet. Submit hands off to the user's
- * mail app; Rhetorica does not collect the message.
+ * Feedback icon and compose sheet. Place it in the slot [FeedbackPlacement]
+ * names for the current screen — top bar actions, or the end of a title row —
+ * so it stays in layout flow and cannot cover bottom controls.
+ *
+ * Submit hands off to the user's mail app; Rhetorica does not collect the message.
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun FeedbackOverlay(
+fun FeedbackAction(
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
@@ -47,29 +51,19 @@ fun FeedbackOverlay(
     val subject = stringResource(R.string.feedback_subject)
     val sendFeedbackCd = stringResource(R.string.feedback_cd)
 
-    AssistChip(
+    IconButton(
         onClick = {
             sheetOpen = true
             mailError = false
         },
         modifier = modifier.semantics { contentDescription = sendFeedbackCd },
-        colors = AssistChipDefaults.assistChipColors(
-            containerColor = MaterialTheme.colorScheme.surfaceVariant,
-            labelColor = MaterialTheme.colorScheme.onSurface,
-            leadingIconContentColor = MaterialTheme.colorScheme.primary,
-        ),
-        border = AssistChipDefaults.assistChipBorder(
-            enabled = true,
-            borderColor = MaterialTheme.colorScheme.outline,
-        ),
-        label = { Text(text = stringResource(R.string.feedback_chip)) },
-        leadingIcon = {
-            Icon(
-                imageVector = Icons.Outlined.Feedback,
-                contentDescription = null,
-            )
-        },
-    )
+    ) {
+        Icon(
+            imageVector = Icons.Outlined.Feedback,
+            contentDescription = null,
+            tint = MaterialTheme.colorScheme.primary,
+        )
+    }
 
     if (sheetOpen) {
         ModalBottomSheet(
@@ -133,5 +127,17 @@ fun FeedbackOverlay(
                 }
             }
         }
+    }
+}
+
+/** Top-end feedback control for screens whose body has no title row yet. */
+@Composable
+fun FeedbackEndRow(modifier: Modifier = Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.End,
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        FeedbackAction()
     }
 }

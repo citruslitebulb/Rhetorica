@@ -13,6 +13,8 @@
 -keep class * extends androidx.work.CoroutineWorker
 -keep class * extends android.content.BroadcastReceiver
 -keep class * extends android.appwidget.AppWidgetProvider
+-keep class * extends android.widget.RemoteViewsService
+-keep class * implements android.widget.RemoteViewsService$RemoteViewsFactory
 
 -keepattributes *Annotation*, InnerClasses, EnclosingMethod, Signature
 -keepclassmembers class ** {

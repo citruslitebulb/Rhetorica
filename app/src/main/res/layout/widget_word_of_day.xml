@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="1"
-            android:text="@string/home_wotd_badge"
+            android:text="@string/widget_card_word_title"
             android:textColor="@color/widget_gold"
             android:textSize="11sp"
             android:textStyle="bold"

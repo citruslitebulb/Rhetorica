@@ -69,7 +69,7 @@ export function WordsPage() {
 
       {idiomOfDay ? (
         <article className="idiom-day">
-          <p className="kicker">Idiom of the Day</p>
+          <p className="kicker">Today&apos;s idiom</p>
           <h2>
             <Link to={`/idioms/${idiomOfDay.id}`}>{idiomOfDay.idiom}</Link>
           </h2>

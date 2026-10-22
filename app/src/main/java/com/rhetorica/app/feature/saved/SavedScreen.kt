@@ -3,6 +3,7 @@ package com.rhetorica.app.feature.saved
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -25,6 +26,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.rhetorica.app.R
 import com.rhetorica.app.core.model.WordThemes
 import com.rhetorica.app.core.ui.WordListCard
+import com.rhetorica.app.feature.home.FeedbackAction
+import com.rhetorica.app.feature.home.FeedbackEndRow
 
 @Composable
 fun SavedRoute(
@@ -57,36 +60,45 @@ private fun SavedScreen(
     val isFilteredEmpty = state.words.isEmpty() && !isTrulyEmpty
 
     if (state.isLoading) {
-        Column(
-            modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-        ) {
-            CircularProgressIndicator()
+        Column(modifier = Modifier.fillMaxSize()) {
+            FeedbackEndRow(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
+            ) {
+                CircularProgressIndicator()
+            }
         }
         return
     }
 
     if (isTrulyEmpty) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(horizontal = 32.dp),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center,
-        ) {
-            Text(
-                text = stringResource(R.string.saved_empty_title),
-                style = MaterialTheme.typography.titleMedium,
-                textAlign = TextAlign.Center,
-            )
-            Text(
-                text = stringResource(R.string.saved_empty_body),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.padding(top = 4.dp),
-            )
+        Column(modifier = Modifier.fillMaxSize()) {
+            FeedbackEndRow(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp))
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxWidth()
+                    .padding(horizontal = 32.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.Center,
+            ) {
+                Text(
+                    text = stringResource(R.string.saved_empty_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    textAlign = TextAlign.Center,
+                )
+                Text(
+                    text = stringResource(R.string.saved_empty_body),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(top = 4.dp),
+                )
+            }
         }
         return
     }
@@ -103,10 +115,17 @@ private fun SavedScreen(
                     .background(MaterialTheme.colorScheme.background)
                     .padding(bottom = 4.dp),
             ) {
-                Text(
-                    text = stringResource(R.string.saved_title),
-                    style = MaterialTheme.typography.headlineMedium,
-                )
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Text(
+                        text = stringResource(R.string.saved_title),
+                        style = MaterialTheme.typography.headlineMedium,
+                        modifier = Modifier.weight(1f),
+                    )
+                    FeedbackAction()
+                }
                 Text(
                     text = stringResource(R.string.saved_subtitle),
                     style = MaterialTheme.typography.bodyMedium,

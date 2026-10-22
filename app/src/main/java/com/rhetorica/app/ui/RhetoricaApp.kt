@@ -3,7 +3,6 @@ package com.rhetorica.app.ui
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -25,7 +24,6 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
 import com.rhetorica.app.core.navigation.RhetoricaNavHost
 import com.rhetorica.app.core.navigation.TopLevelDestination
-import com.rhetorica.app.feature.home.FeedbackOverlay
 
 @Composable
 fun RhetoricaApp(
@@ -76,25 +74,11 @@ fun RhetoricaApp(
             }
         },
     ) { innerPadding ->
-        Box(modifier = Modifier.fillMaxSize()) {
-            RhetoricaNavHost(
-                navController = navController,
-                modifier = Modifier.padding(innerPadding),
-            )
-            // Letter-guess uses a pinned keyboard along the bottom; keep the chip
-            // off those keys by parking it next to the Quest title instead.
-            val onQuiz = currentRoute == TopLevelDestination.Quiz.route
-            FeedbackOverlay(
-                modifier = Modifier
-                    .align(if (onQuiz) Alignment.TopEnd else Alignment.BottomEnd)
-                    .padding(innerPadding)
-                    .padding(
-                        end = 16.dp,
-                        top = if (onQuiz) 16.dp else 0.dp,
-                        bottom = if (onQuiz) 0.dp else 16.dp,
-                    ),
-            )
-        }
+        // Feedback is hosted by each screen's top bar or title row, not overlaid.
+        RhetoricaNavHost(
+            navController = navController,
+            modifier = Modifier.padding(innerPadding),
+        )
     }
 }
 
