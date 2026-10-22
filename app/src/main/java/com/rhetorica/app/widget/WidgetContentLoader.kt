@@ -29,8 +29,8 @@ data class WidgetSnapshot(
 }
 
 /**
- * Loads the word and idiom the widget paints. The provider uses the card count
- * to show or hide the arrow row, and the factory binds one RemoteViews per card.
+ * Loads the word and idiom the widget paints. The provider shows arrow buttons
+ * when more than one card is available and binds the card at the stored index.
  */
 @Singleton
 class WidgetContentLoader @Inject constructor(

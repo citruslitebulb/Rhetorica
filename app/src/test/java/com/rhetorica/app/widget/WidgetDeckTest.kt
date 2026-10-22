@@ -93,19 +93,37 @@ class WidgetDeckTest {
     }
 
     @Test
+    fun `the stored index picks one card and a hidden idiom leaves the word`() {
+        val cards = deck()
+        val idiomIndex = WidgetDeckIndex.advance(0, cards.size, next = true)
+        assertEquals(WidgetCardKind.Idiom, WidgetDeck.visibleCard(cards, idiomIndex)?.kind)
+        assertEquals(idiomIndex, WidgetDeckIndex.clamp(idiomIndex, cards.size))
+        val wordOnly = deck(showIdiom = false)
+        assertEquals(WidgetCardKind.Word, WidgetDeck.visibleCard(wordOnly, idiomIndex)?.kind)
+        assertFalse(WidgetDeck.showsFlipControls(wordOnly))
+    }
+
+    @Test
     fun `widget titles match the in-app labels and the receiver name stays`() {
         val strings = File("src/main/res/values/strings.xml").readText()
         assertTrue(strings.contains("<string name=\"widget_card_word_title\">Today\\'s word</string>"))
         assertTrue(strings.contains("<string name=\"widget_card_idiom_title\">Today\\'s idiom</string>"))
+        assertTrue(strings.contains("Arrows switch between them."))
+        assertFalse(strings.contains("Swipe between"))
         val manifest = File("src/main/AndroidManifest.xml").readText()
         assertTrue(manifest.contains("android:name=\".widget.WordOfDayWidgetProvider\""))
-        assertTrue(manifest.contains("android:name=\".widget.WordOfDayWidgetService\""))
-        assertTrue(manifest.contains("android.permission.BIND_REMOTEVIEWS"))
-        val deck = File("src/main/res/layout/widget_deck.xml").readText()
-        assertTrue(deck.contains("<StackView"))
-        assertTrue(deck.contains("android:loopViews=\"true\""))
-        assertTrue(deck.contains("@+id/widgetPrev"))
-        assertTrue(deck.contains("@+id/widgetNext"))
+        assertTrue(manifest.contains("com.rhetorica.app.widget.SHOW_NEXT"))
+        assertTrue(manifest.contains("com.rhetorica.app.widget.SHOW_PREVIOUS"))
+        assertFalse(manifest.contains("WordOfDayWidgetService"))
+        assertFalse(manifest.contains("BIND_REMOTEVIEWS"))
+        val layout = File("src/main/res/layout/widget_word_of_day.xml").readText()
+        assertFalse(layout.contains("StackView"))
+        assertFalse(layout.contains("ViewFlipper"))
+        assertFalse(layout.contains("AdapterViewFlipper"))
+        assertTrue(layout.contains("@+id/widgetPrev"))
+        assertTrue(layout.contains("@+id/widgetNext"))
+        assertTrue(layout.contains("@+id/widgetBackgroundImage"))
+        assertFalse(File("src/main/res/layout/widget_deck.xml").exists())
     }
 
     private fun deck(

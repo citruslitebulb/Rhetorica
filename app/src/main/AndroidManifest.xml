@@ -45,11 +45,6 @@
                 android:resource="@xml/word_of_day_widget_info" />
         </receiver>
 
-        <service
-            android:name=".widget.WordOfDayWidgetService"
-            android:exported="false"
-            android:permission="android.permission.BIND_REMOTEVIEWS" />
-
         <receiver
             android:name=".notification.WordNotificationReceiver"
             android:exported="false">
