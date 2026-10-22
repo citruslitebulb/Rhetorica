@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    RemoteViews-safe Word of the Day card.
+    RemoteViews-safe Word of the Day card. One card is inflated at a time.
     Plain android.view.View is not allowed below API 31 (minSdk 27).
-    The provider shows or hides definition, orator, and example from the cell size.
+    The provider shows or hides definition, orator, example, and the arrows
+    from the cell size and from how many cards are available.
 -->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/widgetRoot"
@@ -121,5 +122,38 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/widgetFlipBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="6dp"
+        android:paddingBottom="6dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/widgetPrev"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="@drawable/widget_flip_button_bg"
+            android:clickable="true"
+            android:contentDescription="@string/widget_prev_cd"
+            android:padding="4dp"
+            android:src="@drawable/ic_widget_chevron_left" />
+
+        <ImageView
+            android:id="@+id/widgetNext"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/widget_flip_button_bg"
+            android:clickable="true"
+            android:contentDescription="@string/widget_next_cd"
+            android:padding="4dp"
+            android:src="@drawable/ic_widget_chevron_right" />
     </LinearLayout>
 </FrameLayout>

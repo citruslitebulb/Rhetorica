@@ -94,6 +94,12 @@ object WidgetDeck {
 
     fun showsFlipControls(cards: List<WidgetDeckCard>): Boolean = cards.size > 1
 
+    /** The card a placed widget should paint for its stored index. */
+    fun visibleCard(cards: List<WidgetDeckCard>, storedIndex: Int): WidgetDeckCard? {
+        if (cards.isEmpty()) return null
+        return cards[WidgetDeckIndex.clamp(storedIndex, cards.size)]
+    }
+
     /** Whole-card tap. Null opens the app without a detail destination. */
     fun cardTapUri(card: WidgetDeckCard): String? {
         val id = card.targetId ?: return null

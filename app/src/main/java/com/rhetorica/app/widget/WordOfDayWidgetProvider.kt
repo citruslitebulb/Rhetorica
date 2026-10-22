@@ -1,17 +1,15 @@
 package com.rhetorica.app.widget
 
-import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
+import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.View
 import android.widget.RemoteViews
-import com.rhetorica.app.MainActivity
 import com.rhetorica.app.R
 import com.rhetorica.app.core.util.AppLog
 import dagger.hilt.android.AndroidEntryPoint
@@ -20,15 +18,16 @@ import javax.inject.Inject
 import kotlinx.coroutines.runBlocking
 
 /**
- * Home-screen widget. A stack flips between today's word and today's idiom.
- * Arrow buttons advance that stack for launchers where the swipe is awkward.
+ * Home-screen widget. One card is laid out at a time: today's word, or today's
+ * idiom when that card is still enabled. Arrow buttons change a stored index
+ * and the widget is drawn again, wrapping from the last card back to the first.
+ *
+ * The other card is not in the view tree. A stack would keep it underneath, so
+ * a translucent or fully transparent fill showed both texts at once. Swipe went
+ * with the stack. These arrows are the way to change cards.
  *
  * The receiver class name is part of the placed-widget identity. Do not rename it.
- *
- * The collection methods used here are the RemoteViewsService entry points.
- * Their API 31 replacements build the items inline and drop the service.
  */
-@Suppress("DEPRECATION")
 @AndroidEntryPoint
 class WordOfDayWidgetProvider : AppWidgetProvider() {
 
@@ -38,8 +37,8 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
         when (intent.action) {
-            ACTION_SHOW_NEXT -> flip(context, intent, next = true)
-            ACTION_SHOW_PREVIOUS -> flip(context, intent, next = false)
+            ACTION_SHOW_NEXT -> flip(context, intent, next = true, pendingResult = goAsync())
+            ACTION_SHOW_PREVIOUS -> flip(context, intent, next = false, pendingResult = goAsync())
         }
     }
 
@@ -48,7 +47,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray,
     ) {
-        updateWidgets(context, appWidgetManager, appWidgetIds, showLoadingFirst = true)
+        updateWidgets(context, appWidgetManager, appWidgetIds)
     }
 
     override fun onEnabled(context: Context) {
@@ -59,11 +58,18 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
     override fun onDisabled(context: Context) {
         super.onDisabled(context)
         WidgetRefreshScheduler.cancel(context)
+        WidgetDeckIndexStore(context).clearAll()
+    }
+
+    override fun onDeleted(context: Context, appWidgetIds: IntArray) {
+        super.onDeleted(context, appWidgetIds)
+        val store = WidgetDeckIndexStore(context)
+        appWidgetIds.forEach(store::clear)
     }
 
     /**
-     * Fired when the user resizes the widget. Reload the cards in place so the
-     * visible card stays put and both cards pick up the new cell size.
+     * Fired when the user resizes the widget. The stored card stays put and
+     * the text is laid out again for the new cell size.
      */
     override fun onAppWidgetOptionsChanged(
         context: Context,
@@ -72,127 +78,133 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         newOptions: Bundle?,
     ) {
         super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
-        appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.widgetStack)
+        updateWidgets(context, appWidgetManager, intArrayOf(appWidgetId))
     }
 
     private fun updateWidgets(
         context: Context,
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray,
-        showLoadingFirst: Boolean,
     ) {
-        if (showLoadingFirst) {
-            appWidgetIds.forEach { appWidgetId ->
-                try {
-                    appWidgetManager.updateAppWidget(appWidgetId, WidgetCardRenderer.loading(context))
-                } catch (e: Exception) {
-                    AppLog.e(TAG, "Failed to push loading layout for $appWidgetId", e)
-                }
-            }
-        }
-
         val appContext = context.applicationContext
+        val store = WidgetDeckIndexStore(appContext)
         ioExecutor.execute {
             appWidgetIds.forEach { appWidgetId ->
                 try {
-                    val remoteViews = createRemoteViews(appContext, appWidgetId)
-                    mainHandler.post {
-                        try {
-                            appWidgetManager.updateAppWidget(appWidgetId, remoteViews)
-                            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetId, R.id.widgetStack)
-                        } catch (e: Exception) {
-                            AppLog.e(TAG, "Failed to apply widget update $appWidgetId", e)
-                        }
-                    }
+                    val snapshot = loadSnapshot(appContext)
+                    val index = storedIndex(store, appWidgetId, snapshot.cards.size)
+                    val remoteViews = render(appContext, appWidgetId, snapshot, index)
+                    mainHandler.post { applyUpdate(appWidgetManager, appWidgetId, remoteViews) }
                 } catch (e: Exception) {
                     AppLog.e(TAG, "Failed to build widget $appWidgetId", e)
                     mainHandler.post {
-                        try {
-                            appWidgetManager.updateAppWidget(appWidgetId, WidgetCardRenderer.error(appContext))
-                        } catch (inner: Exception) {
-                            AppLog.e(TAG, "Failed to apply error layout $appWidgetId", inner)
-                        }
+                        applyUpdate(appWidgetManager, appWidgetId, WidgetCardRenderer.error(appContext))
                     }
                 }
             }
         }
     }
 
-    private fun createRemoteViews(context: Context, appWidgetId: Int): RemoteViews {
-        val showsFlipControls = loadShowsFlipControls(context)
-        return RemoteViews(context.packageName, R.layout.widget_deck).apply {
-            setRemoteAdapter(R.id.widgetStack, adapterIntent(context, appWidgetId))
-            setPendingIntentTemplate(R.id.widgetStack, templatePendingIntent(context, appWidgetId))
+    private fun flip(
+        context: Context,
+        intent: Intent,
+        next: Boolean,
+        pendingResult: BroadcastReceiver.PendingResult,
+    ) {
+        val appWidgetId = intent.getIntExtra(
+            AppWidgetManager.EXTRA_APPWIDGET_ID,
+            AppWidgetManager.INVALID_APPWIDGET_ID,
+        )
+        if (appWidgetId == AppWidgetManager.INVALID_APPWIDGET_ID) {
+            pendingResult.finish()
+            return
+        }
+        val appContext = context.applicationContext
+        val appWidgetManager = AppWidgetManager.getInstance(appContext)
+        val store = WidgetDeckIndexStore(appContext)
+        ioExecutor.execute {
+            try {
+                val snapshot = loadSnapshot(appContext)
+                val index = WidgetDeckIndex.advance(store.get(appWidgetId), snapshot.cards.size, next)
+                store.set(appWidgetId, index)
+                val remoteViews = render(appContext, appWidgetId, snapshot, index)
+                mainHandler.post {
+                    applyUpdate(appWidgetManager, appWidgetId, remoteViews)
+                    pendingResult.finish()
+                }
+            } catch (e: Exception) {
+                AppLog.e(TAG, "Failed to flip widget $appWidgetId", e)
+                mainHandler.post {
+                    applyUpdate(appWidgetManager, appWidgetId, WidgetCardRenderer.error(appContext))
+                    pendingResult.finish()
+                }
+            }
+        }
+    }
+
+    private fun render(
+        context: Context,
+        appWidgetId: Int,
+        snapshot: WidgetSnapshot,
+        index: Int,
+    ): RemoteViews {
+        val card = WidgetDeck.visibleCard(snapshot.cards, index)
+            ?: return WidgetCardRenderer.error(context)
+        val showsFlipControls = snapshot.showsFlipControls
+        val layout = layoutFor(context, appWidgetId)
+        val background = WidgetCardRenderer.backgroundBitmap(context, layout, snapshot.chrome)
+        return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
+            WidgetCardRenderer.bind(
+                views = this,
+                context = context,
+                appWidgetId = appWidgetId,
+                card = card,
+                layout = layout,
+                background = background,
+                showsFlipControls = showsFlipControls,
+            )
             if (showsFlipControls) {
                 setViewVisibility(R.id.widgetFlipBar, View.VISIBLE)
-                setOnClickPendingIntent(
-                    R.id.widgetPrev,
-                    flipPendingIntent(context, appWidgetId, ACTION_SHOW_PREVIOUS),
-                )
-                setOnClickPendingIntent(
-                    R.id.widgetNext,
-                    flipPendingIntent(context, appWidgetId, ACTION_SHOW_NEXT),
-                )
+                setOnClickPendingIntent(R.id.widgetPrev, WidgetClicks.flip(context, appWidgetId, next = false))
+                setOnClickPendingIntent(R.id.widgetNext, WidgetClicks.flip(context, appWidgetId, next = true))
             } else {
                 setViewVisibility(R.id.widgetFlipBar, View.GONE)
             }
         }
     }
 
-    private fun loadShowsFlipControls(context: Context): Boolean {
-        if (!::contentLoader.isInitialized) return false
-        val snapshot = runBlocking { contentLoader.load(context) }
-        return snapshot.showsFlipControls
+    private fun storedIndex(store: WidgetDeckIndexStore, appWidgetId: Int, count: Int): Int {
+        val stored = store.get(appWidgetId)
+        val clamped = WidgetDeckIndex.clamp(stored, count)
+        if (clamped != stored) store.set(appWidgetId, clamped)
+        return clamped
     }
 
-    private fun flip(context: Context, intent: Intent, next: Boolean) {
-        val appWidgetId = intent.getIntExtra(
-            AppWidgetManager.EXTRA_APPWIDGET_ID,
-            AppWidgetManager.INVALID_APPWIDGET_ID,
+    private fun loadSnapshot(context: Context): WidgetSnapshot {
+        if (!::contentLoader.isInitialized) return WidgetContentLoader.unavailable(context)
+        return runBlocking { contentLoader.load(context) }
+    }
+
+    private fun layoutFor(context: Context, appWidgetId: Int): WidgetLayoutSize {
+        val options = AppWidgetManager.getInstance(context).getAppWidgetOptions(appWidgetId)
+        return WidgetLayoutPolicy.fromHostBounds(
+            minWidthDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_WIDTH, 0),
+            minHeightDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MIN_HEIGHT, 0),
+            maxWidthDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_WIDTH, 0),
+            maxHeightDp = options.getInt(AppWidgetManager.OPTION_APPWIDGET_MAX_HEIGHT, 0),
         )
-        if (appWidgetId == AppWidgetManager.INVALID_APPWIDGET_ID) return
-        val views = RemoteViews(context.packageName, R.layout.widget_deck).apply {
-            if (next) showNext(R.id.widgetStack) else showPrevious(R.id.widgetStack)
-        }
+    }
+
+    private fun applyUpdate(
+        appWidgetManager: AppWidgetManager,
+        appWidgetId: Int,
+        views: RemoteViews,
+    ) {
         try {
-            AppWidgetManager.getInstance(context).partiallyUpdateAppWidget(appWidgetId, views)
+            appWidgetManager.updateAppWidget(appWidgetId, views)
         } catch (e: Exception) {
-            AppLog.e(TAG, "Failed to flip widget $appWidgetId", e)
+            AppLog.e(TAG, "Failed to apply widget update $appWidgetId", e)
         }
-    }
-
-    private fun adapterIntent(context: Context, appWidgetId: Int): Intent {
-        return Intent(context, WordOfDayWidgetService::class.java).apply {
-            putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
-            data = Uri.parse("rhetorica://widget/deck/$appWidgetId")
-        }
-    }
-
-    private fun templatePendingIntent(context: Context, appWidgetId: Int): PendingIntent {
-        val intent = Intent(context, MainActivity::class.java).apply {
-            flags = OPEN_APP_FLAGS
-        }
-        return PendingIntent.getActivity(
-            context,
-            TEMPLATE_REQUEST_BASE + appWidgetId,
-            intent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_MUTABLE,
-        )
-    }
-
-    private fun flipPendingIntent(context: Context, appWidgetId: Int, action: String): PendingIntent {
-        val intent = Intent(context, WordOfDayWidgetProvider::class.java).apply {
-            this.action = action
-            putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
-            data = Uri.parse("rhetorica://widget/$appWidgetId/$action")
-        }
-        val requestCode = appWidgetId * 2 + if (action == ACTION_SHOW_NEXT) 1 else 0
-        return PendingIntent.getBroadcast(
-            context,
-            requestCode,
-            intent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
-        )
     }
 
     companion object {
@@ -203,13 +215,6 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         const val EXTRA_SPEECH_TITLE = "speechTitle"
         const val ACTION_SHOW_NEXT = "com.rhetorica.app.widget.SHOW_NEXT"
         const val ACTION_SHOW_PREVIOUS = "com.rhetorica.app.widget.SHOW_PREVIOUS"
-
-        private const val TEMPLATE_REQUEST_BASE = 50_000
-
-        private const val OPEN_APP_FLAGS =
-            Intent.FLAG_ACTIVITY_NEW_TASK or
-                Intent.FLAG_ACTIVITY_CLEAR_TOP or
-                Intent.FLAG_ACTIVITY_SINGLE_TOP
 
         private val ioExecutor = Executors.newSingleThreadExecutor()
         private val mainHandler = Handler(Looper.getMainLooper())

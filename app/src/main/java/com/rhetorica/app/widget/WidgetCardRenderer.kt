@@ -1,40 +1,45 @@
 package com.rhetorica.app.widget
 
-import android.app.PendingIntent
 import android.content.Context
-import android.content.Intent
 import android.graphics.Bitmap
-import android.net.Uri
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
-import com.rhetorica.app.MainActivity
 import com.rhetorica.app.R
+import com.rhetorica.app.core.util.AppLog
 
 /**
- * Binds one deck card into the item layout. Collection items take fill-in
- * intents so the host template can open the matching detail screen.
+ * Binds the one visible deck card into the widget layout. The background is
+ * drawn once, on this card. The other card is not in the hierarchy.
  */
 object WidgetCardRenderer {
     fun bind(
+        views: RemoteViews,
         context: Context,
+        appWidgetId: Int,
         card: WidgetDeckCard,
         layout: WidgetLayoutSize,
         background: Bitmap?,
         showsFlipControls: Boolean,
-        packageName: String = context.packageName,
-    ): RemoteViews {
+    ) {
         val density = context.resources.displayMetrics.density
         val rootPad = (layout.rootPaddingDp * density).toInt()
         val contentPad = (layout.contentPaddingDp * density).toInt()
         val flipReserve = if (showsFlipControls) (FLIP_RESERVE_DP * density).toInt() else 0
         val showTitle = card.targetId != null && (layout.showBadge || showsFlipControls)
 
-        return RemoteViews(packageName, R.layout.widget_word_of_day).apply {
+        views.apply {
             if (background != null) {
                 setImageViewBitmap(R.id.widgetBackgroundImage, background)
             }
-            setOnClickFillInIntent(R.id.widgetRoot, fillIn(WidgetDeck.cardTapUri(card)))
+            setOnClickPendingIntent(
+                R.id.widgetContent,
+                WidgetClicks.open(
+                    context = context,
+                    requestCode = WidgetPendingIntentIds.card(appWidgetId),
+                    uri = WidgetDeck.cardTapUri(card),
+                ),
+            )
             setViewPadding(R.id.widgetRoot, rootPad, rootPad, rootPad, rootPad)
             setViewPadding(
                 R.id.widgetContent,
@@ -111,24 +116,17 @@ object WidgetCardRenderer {
             if (card.kind == WidgetCardKind.Word && layout.showBottomBar && speechUri != null) {
                 setViewVisibility(R.id.widgetBottomBar, View.VISIBLE)
                 setViewVisibility(R.id.widgetSpeechCta, View.VISIBLE)
-                setOnClickFillInIntent(R.id.widgetSpeechCta, fillIn(speechUri))
+                setOnClickPendingIntent(
+                    R.id.widgetSpeechCta,
+                    WidgetClicks.open(
+                        context = context,
+                        requestCode = WidgetPendingIntentIds.speech(appWidgetId),
+                        uri = speechUri,
+                    ),
+                )
             } else {
                 setViewVisibility(R.id.widgetBottomBar, View.GONE)
             }
-        }
-    }
-
-    fun loading(context: Context): RemoteViews {
-        return RemoteViews(context.packageName, R.layout.widget_word_of_day).apply {
-            setTextViewText(R.id.widgetWordText, context.getString(R.string.widget_default_word))
-            setTextViewText(R.id.widgetDefinitionText, context.getString(R.string.widget_loading_body))
-            setViewVisibility(R.id.widgetBadge, View.GONE)
-            setViewVisibility(R.id.widgetDefinitionText, View.VISIBLE)
-            setViewVisibility(R.id.widgetPartOfSpeech, View.GONE)
-            setViewVisibility(R.id.widgetQuoteText, View.GONE)
-            setViewVisibility(R.id.widgetQuoteSourceText, View.GONE)
-            setViewVisibility(R.id.widgetBottomBar, View.GONE)
-            setOnClickPendingIntent(R.id.widgetRoot, openApp(context))
         }
     }
 
@@ -142,28 +140,47 @@ object WidgetCardRenderer {
             setViewVisibility(R.id.widgetQuoteText, View.GONE)
             setViewVisibility(R.id.widgetQuoteSourceText, View.GONE)
             setViewVisibility(R.id.widgetBottomBar, View.GONE)
-            setOnClickPendingIntent(R.id.widgetRoot, openApp(context))
+            setViewVisibility(R.id.widgetFlipBar, View.GONE)
+            setOnClickPendingIntent(
+                R.id.widgetRoot,
+                WidgetClicks.open(context = context, requestCode = OPEN_APP_REQUEST, uri = null),
+            )
         }
     }
 
-    private fun fillIn(uri: String?): Intent {
-        return Intent().apply {
-            if (uri != null) data = Uri.parse(uri)
+    fun backgroundBitmap(
+        context: Context,
+        layout: WidgetLayoutSize,
+        chrome: WidgetChrome,
+    ): Bitmap? {
+        return try {
+            val density = context.resources.displayMetrics.density
+            val widthPx = (layout.widthDp * density).toInt().coerceAtLeast(1)
+            val heightPx = (layout.heightDp * density).toInt().coerceAtLeast(1)
+            val cornerRadiusPx = TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                CARD_CORNER_RADIUS_DP,
+                context.resources.displayMetrics,
+            )
+            WidgetAppearance.createCardBitmap(
+                context = context,
+                widthPx = widthPx,
+                heightPx = heightPx,
+                cornerRadiusPx = cornerRadiusPx,
+                fillColorArgb = WidgetAppearance.argbColorInt(
+                    colorValue = chrome.backgroundColor,
+                    opacityPercent = chrome.opacityPercent,
+                ),
+                imageKey = chrome.imageKey,
+                galleryUri = chrome.galleryUri,
+                opacityPercent = chrome.opacityPercent,
+                goldBorderPx = 1.5f * density,
+                accentBorderPx = 2f * density,
+            )
+        } catch (e: Exception) {
+            AppLog.e(TAG, "Failed to draw widget background", e)
+            null
         }
-    }
-
-    private fun openApp(context: Context): PendingIntent {
-        val intent = Intent(context, MainActivity::class.java).apply {
-            flags = Intent.FLAG_ACTIVITY_NEW_TASK or
-                Intent.FLAG_ACTIVITY_CLEAR_TOP or
-                Intent.FLAG_ACTIVITY_SINGLE_TOP
-        }
-        return PendingIntent.getActivity(
-            context,
-            0,
-            intent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE,
-        )
     }
 
     private fun ellipsizeExample(text: String, maxChars: Int): String {
@@ -173,4 +190,7 @@ object WidgetCardRenderer {
     }
 
     private const val FLIP_RESERVE_DP = 36
+    private const val CARD_CORNER_RADIUS_DP = 18f
+    private const val OPEN_APP_REQUEST = 1
+    private const val TAG = "WidgetCardRenderer"
 }
