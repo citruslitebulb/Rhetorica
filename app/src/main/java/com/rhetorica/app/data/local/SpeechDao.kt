@@ -1,9 +1,8 @@
 package com.rhetorica.app.data.local
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -23,7 +22,7 @@ interface SpeechDao {
     @Query("SELECT COUNT(*) FROM speeches WHERE oratorId = :oratorId")
     suspend fun speechCountByOrator(oratorId: Long): Int
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Upsert
     suspend fun upsertSpeeches(speeches: List<SpeechEntity>)
 
     @Query("SELECT id FROM speeches")

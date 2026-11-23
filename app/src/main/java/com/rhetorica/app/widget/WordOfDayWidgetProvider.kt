@@ -47,7 +47,7 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray,
     ) {
-        updateWidgets(context, appWidgetManager, appWidgetIds)
+        updateWidgets(context, appWidgetManager, appWidgetIds, pendingResult = goAsync())
     }
 
     override fun onEnabled(context: Context) {
@@ -78,29 +78,44 @@ class WordOfDayWidgetProvider : AppWidgetProvider() {
         newOptions: Bundle?,
     ) {
         super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
-        updateWidgets(context, appWidgetManager, intArrayOf(appWidgetId))
+        updateWidgets(
+            context,
+            appWidgetManager,
+            intArrayOf(appWidgetId),
+            pendingResult = goAsync(),
+        )
     }
 
+    /**
+     * Draws each widget off the main thread. [pendingResult] is [goAsync] from
+     * the broadcast still inside [onReceive]. Finish it after the views are
+     * posted so the broadcast stays alive until the draw is queued.
+     */
     private fun updateWidgets(
         context: Context,
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray,
+        pendingResult: BroadcastReceiver.PendingResult,
     ) {
         val appContext = context.applicationContext
         val store = WidgetDeckIndexStore(appContext)
         ioExecutor.execute {
-            appWidgetIds.forEach { appWidgetId ->
-                try {
-                    val snapshot = loadSnapshot(appContext)
-                    val index = storedIndex(store, appWidgetId, snapshot.cards.size)
-                    val remoteViews = render(appContext, appWidgetId, snapshot, index)
-                    mainHandler.post { applyUpdate(appWidgetManager, appWidgetId, remoteViews) }
-                } catch (e: Exception) {
-                    AppLog.e(TAG, "Failed to build widget $appWidgetId", e)
-                    mainHandler.post {
-                        applyUpdate(appWidgetManager, appWidgetId, WidgetCardRenderer.error(appContext))
+            try {
+                appWidgetIds.forEach { appWidgetId ->
+                    try {
+                        val snapshot = loadSnapshot(appContext)
+                        val index = storedIndex(store, appWidgetId, snapshot.cards.size)
+                        val remoteViews = render(appContext, appWidgetId, snapshot, index)
+                        mainHandler.post { applyUpdate(appWidgetManager, appWidgetId, remoteViews) }
+                    } catch (e: Exception) {
+                        AppLog.e(TAG, "Failed to build widget $appWidgetId", e)
+                        mainHandler.post {
+                            applyUpdate(appWidgetManager, appWidgetId, WidgetCardRenderer.error(appContext))
+                        }
                     }
                 }
+            } finally {
+                mainHandler.post { pendingResult.finish() }
             }
         }
     }

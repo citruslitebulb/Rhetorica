@@ -80,9 +80,10 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            val prefsLoad by userPreferencesDao.observeUserPreferences()
-                .map { PrefsLoad(ready = true, preferences = it) }
-                .collectAsStateWithLifecycle(initialValue = PrefsLoad(ready = false, preferences = null))
+            val prefsLoad by remember {
+                userPreferencesDao.observeUserPreferences()
+                    .map { PrefsLoad(ready = true, preferences = it) }
+            }.collectAsStateWithLifecycle(initialValue = PrefsLoad(ready = false, preferences = null))
             val themeMode = if (prefsLoad.ready) {
                 ThemeMode.fromStorage(prefsLoad.preferences?.themeMode)
             } else {

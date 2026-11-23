@@ -1,9 +1,8 @@
 package com.rhetorica.app.data.local
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -66,7 +65,7 @@ interface WordDao {
     @Query("SELECT * FROM words WHERE id = :wordId LIMIT 1")
     suspend fun getWordById(wordId: Long): WordEntity?
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Upsert
     suspend fun upsertWords(words: List<WordEntity>)
 
     @Query("SELECT id FROM words")

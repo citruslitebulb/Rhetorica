@@ -49,6 +49,18 @@ class FeedbackMailTest {
         assertTrue(uri.contains("%3F") || uri.contains("%3f"))
     }
 
+    @Test
+    fun `non-ascii feedback is utf-8 percent encoded`() {
+        val subject = "Réponse"
+        val body = "The café card shows naïve — 日本語"
+        val uri = FeedbackMail.mailtoUri("a@b.com", subject, body)
+        assertEquals(subject, queryValue(uri, "subject"))
+        assertEquals(body, queryValue(uri, "body"))
+        assertTrue(uri.contains("%C3%A9") || uri.contains("%c3%a9"))
+        assertFalse(uri.contains("%E9") || uri.contains("%e9"))
+        assertFalse(uri.contains("+"))
+    }
+
     private fun queryValue(uri: String, key: String): String {
         val query = uri.substringAfter('?', "")
         val pair = query.split('&').first { it.startsWith("$key=") }

@@ -1,9 +1,8 @@
 package com.rhetorica.app.data.local
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -17,7 +16,7 @@ interface DictionaryDao {
     @Query("SELECT * FROM dictionaries WHERE id = :dictionaryId LIMIT 1")
     suspend fun getDictionaryById(dictionaryId: Long): DictionaryEntity?
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Upsert
     suspend fun upsertDictionaries(dictionaries: List<DictionaryEntity>)
 
     @Query("SELECT id FROM dictionaries")

@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import java.net.URLEncoder
-import java.nio.charset.StandardCharsets
 
 /**
  * Builds a mailto handoff. Rhetorica does not send or store the message.
@@ -34,6 +33,8 @@ object FeedbackMail {
     }
 
     private fun encodeQuery(value: String): String {
-        return URLEncoder.encode(value, StandardCharsets.UTF_8).replace("+", "%20")
+        // String charset name, not Charset. The Charset overload is API 33 and
+        // mis-encodes on older Android runtimes. mailto query values are UTF-8.
+        return URLEncoder.encode(value, Charsets.UTF_8.name()).replace("+", "%20")
     }
 }

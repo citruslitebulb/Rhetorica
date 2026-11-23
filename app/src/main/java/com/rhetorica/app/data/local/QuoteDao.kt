@@ -1,9 +1,8 @@
 package com.rhetorica.app.data.local
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -26,7 +25,7 @@ interface QuoteDao {
     @Query("SELECT COUNT(*) FROM quotes")
     suspend fun quoteCount(): Int
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Upsert
     suspend fun upsertQuotes(quotes: List<QuoteEntity>)
 
     @Query("SELECT id FROM quotes")

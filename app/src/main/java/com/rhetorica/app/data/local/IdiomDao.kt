@@ -1,9 +1,8 @@
 package com.rhetorica.app.data.local
 
 import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
 import androidx.room.Query
+import androidx.room.Upsert
 import kotlinx.coroutines.flow.Flow
 
 @Dao
@@ -20,7 +19,7 @@ interface IdiomDao {
     @Query("SELECT COUNT(*) FROM idioms")
     suspend fun idiomCount(): Int
 
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    @Upsert
     suspend fun upsertIdioms(idioms: List<IdiomEntity>)
 
     @Query("SELECT id FROM idioms")
